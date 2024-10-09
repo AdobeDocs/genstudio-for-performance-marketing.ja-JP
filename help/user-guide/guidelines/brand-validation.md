@@ -3,9 +3,9 @@ title: パフォーマンスマーケティングにAdobe GenStudioしたブラ�
 description: GenStudio for Performance Marketing におけるビルトインのブランド検証システムの仕組みについて説明します。
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: f9bfd6d7429f1f24947c398ec73b4b350a7e828f
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -65,19 +65,22 @@ _ブランド検証_ パネルでは、表示するガイドラインをフィ�
 
 **生成されたコンテンツバリアントのブランドの整合性を向上させるには**:
 
-1. 個々のバリアントの **[!UICONTROL [!DNL Brand]guidelines チェック]** アイコンをクリックします。
+1. 個々のバリアントの **[!UICONTROL [!DNL Brand]guidelines チェック]** アイコンをクリックします。 [!DNL Brand] のガイドラインチェックでは、バリアントのブランドの整合性のパーセンテージが表示されます。
 
    ブランドの検証を満たした、または注意を引く必要があるブランドガイドラインの数の概要を確認します。
 
 1. 改善が必要なセクションとガイドラインの詳細を取得するには、**[!UICONTROL 確認]**_をクリックするか_ 上部のメニューバーにある _ブランドの検証_ アイコンをクリックして _ブランドの検証_ パネルを開きます。
 
-   注意が必要なすべてのセクションとブランドガイドラインを参照してください。<!-- The section highlighted in the panel corresponds to the section highlighted in the generated variant in the Canvas. -->
+   注意が必要なすべてのセクションとブランドガイドラインを参照してください。
 
    >[!NOTE]
    >
    > _ブランドの検証パネル_ に記載されている _ブランドの声_ のガイドラインは、個々のセクションではなく、バリアント全体に適用されます。 改善案として、コンテンツバリアント全体がハイライト表示されています。
 
-1. バリアントのセクションを手動で改訂し、ブランドに最も適合させます。
+1. 注意が必要な各ガイドラインを、「次へ **[!UICONTROL および**[!UICONTROL  前へ ]**ボタンを使用してクリッ]** します。
+
+1. 各ガイドラインに記載されている推論を使用して、バリアントのセクションに修正を通知し、ブランドに最も適合するようにします。
+
 
 1. 必要な修正を加えた後、**[!UICONTROL もう一度確認]** をクリックして変更内容を再度確認および検証し、ブランド ID と密接に連携していることを確認します。
 
