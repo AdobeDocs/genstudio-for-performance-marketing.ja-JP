@@ -3,7 +3,7 @@ title: アセットとエクスペリエンスの管理
 description: デジタルマーケティングジャーニーでの使用と再利用のために、ブランド承認済みアセットの管理を簡素化および強化します。
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 0%
@@ -28,9 +28,11 @@ Adobe GenStudio for Performance Marketing [!DNL Content] は、デジタルマ�
 
 右側のギャラリーの上にある **[!UICONTROL 場所]** リストを使用すると、接続されたAdobe Experience Manager（AEM）の [!DNL Assets Content Hub] リポジトリから選択できます。 AEM リポジトリを選択すると、そのリポジトリのアセットのインベントリがギャラリーに表示され、承認されたアセットをコンテンツ作成用の入力として活用できます。 フィルターオプションは、[!DNL AEM Assets Content Hub] で設定されたカテゴリを反映して変更されます。
 
+[AEM リポジトリをGenStudio for Performance Marketingに追加する方法については、[!DNL AEM Assets Content Hub] リポジトリの接続 ](connect-aem-repo.md) を参照してください。
+
 AEM リポジトリーは読み取り専用です。つまり、ドラフト、新しいアセットまたはメタデータをAEM リポジトリーに保存することはできません。 アセット、エクスペリエンスおよびテンプレートのすべてのドラフトと最終更新は、新しい [ システムメタデータ ](asset-details.md#system-metadata) とともに `GenStudio assets` リポジトリに保存されます。
 
-[AEM リポジトリをGenStudio for Performance Marketingに追加する方法については、[!DNL AEM Assets Content Hub] リポジトリの接続 ](connect-aem-repo.md) を参照してください。
+{{note-aem-assets}}
 
 ## Assets管理
 
