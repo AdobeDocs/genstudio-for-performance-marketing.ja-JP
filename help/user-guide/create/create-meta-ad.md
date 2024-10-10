@@ -4,12 +4,11 @@ description: Performance Marketing のAdobe GenStudioを使用して、Facebook�
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
-type: Tutorial
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 30cd73ba1beb582ea4ac73eca7e17715f9aafc66
+source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -43,13 +42,12 @@ ht-degree: 0%
 
    これらのメニューに表示されるブランド、ペルソナまたは商品がない場合は、[ パフォーマンスマーケティングのGenStudioにガイドラインを追加してください ](/help/user-guide/guidelines/add-guidelines.md)。
 
-1. 「**[!UICONTROL コンテンツを選択]**」をクリックして、エクスペリエンスで使用するコンテンツを追加 *および* をクリックすると、コンテンツの生成に影響が及びます。
-   * [!DNL Content] に公開済みのアセット（画像）を選択するには、**[!UICONTROL コンテンツから選択]** をクリックし、目的の画像をクリックして選択します。 フィルターを使用して、検索結果をさらに絞り込みます。
+1. コンテンツの生成に影響を与えるために、エクスペリエンス *および* で使用するコンテンツを追加します。
+   * **[!UICONTROL コンテンツから選択]** をクリックして、[!DNL Content] リポジトリからアセット（画像）を選択し、1 つ以上の画像をフィルタリングして選択します。
 
-     接続されたAEM Content Hub リポジトリに既に存在するアセットを使用する場合は、_場所_ ドロップダウンメニューから該当する場所を選択し、クリックして目的の画像を選択します。
+     接続された [!DNL AEM Assets Content Hub] リポジトリのアセットを使用するには、_場所_ ドロップダウンメニューからリポジトリを選択します。 1 つ以上の画像のフィルタリングと選択
 
-   * **[!UICONTROL アップロード]** をクリックしてファイルを参照し、使用するアセットを選択します。 デバイスの参照に加えて、Microsoft OneDrive またはDropboxから読み込むこともできます。 目的の画像をクリックして選択します。
-   * アセットを「_コンテンツ_ セクションにドラッグ&amp;ドロップします。
+   * または、アセットを「**[!UICONTROL コンテンツから選択]** セクションにドラッグ&amp;ドロップして、1 つ以上の新しいアセットをアップロードします。
 1. **[!UICONTROL 使用]** をクリックします。
 
 パラメーターの追加が完了したら、「_パラメーター_」アイコンを再度クリックすると、プロンプト領域を折りたたむことができます。
@@ -88,7 +86,7 @@ ht-degree: 0%
 * **コールトゥアクションを変更または選択するには**、コールトゥアクションボタンをクリックし、使用可能なボタンテキストオプションから選択します。 _[!UICONTROL リンク]_ に、コールトゥアクションテキストの URL を入力します。
 * **広告のサイズと縦横比を [ 変更](/help/user-guide/create/manage-variants.md#change-aspect-ratio)** するには、_[!UICONTROL サイズ変更]_ ボタン（キャンバスの左側にボタンアイコンが表示されたボックス）をクリックし、すべてのバリアントに適用する新しいサイズと縦横比を選択します。 バリアントが複製され、サイズが変更されます。
 <!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
-* **画像を [ 切り抜きまたは再配置](/help/user-guide/create/manage-variants.md#crop-assets)** するには、画像の上にマウスポインターを置き、表示される切り抜きアイコンをクリックし、画像のサイズと配置を調整します。
+* **画像を [ 切り抜きまたは再配置](/help/user-guide/create/manage-variants.md#crop-assets)** するには、画像の上にマウスポインターを置き、表示される切り抜きアイコンをクリックし、画像のサイズと配置を調整します。 「**[!UICONTROL 適用]**」をクリックします。
 * **メタ広告を [ 削除](/help/user-guide/create/manage-variants.md#delete-variant)** するには、広告タイトル（「Meta 4」など）をクリックし、**[!UICONTROL バリアントを削除]** をクリックします。
 
 ## 生成フィードバックを送信
@@ -126,7 +124,7 @@ ht-degree: 0%
 
 生成したメタ広告を現在および将来の使用で使用できるようにするには、[!UICONTROL  コンテンツ ] に公開し、マーケティングキャンペーンで使用するためにエクスポートします。
 
-1. **新しいメタ広告エクスペリエンスを公開するには**、上部のツールバーの **[!UICONTROL Publish]** をクリックします。
+1. **新しいメタ広告エクスペリエンスを公開するには**、上部のツールバーまたは承認フロー内の ]**2}Publish」をクリックします。**[!UICONTROL 
 1. **新しいメタ広告エクスペリエンスを書き出すには** 上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。
    1. CSV 形式と画像またはHTML形式のみを選択し、「**[!UICONTROL 書き出し]**」をクリックします。
 

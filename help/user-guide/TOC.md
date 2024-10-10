@@ -4,9 +4,9 @@ breadcrumb-title: ユーザーガイド
 user-guide-description: Adobe GenStudio for Performance Marketingの機能を探索します。 オンブランドのアセットをすばやく作成し、バリエーションを生成し、エクスペリエンスを最適化する方法について説明します。
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: 0e4026ae6f40a0a84d3d638cd4157f63976dc13b
+source-git-commit: 5cf78a1c00abf384d7424eb3d6b52b21d4160cd8
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '159'
 ht-degree: 8%
 
 ---
@@ -24,7 +24,6 @@ ht-degree: 8%
 + ガイドライン {#guidelines}
    + [ ガイドラインの概要 ](guidelines/overview.md)
    + [ブランド](guidelines/brands.md)
-
    + [ ペルソナ ](guidelines/personas.md)
    + [ 製品 ](guidelines/products.md)
    + [ ガイドラインの追加 ](guidelines/add-guidelines.md)
@@ -33,9 +32,11 @@ ht-degree: 8%
    + [[!DNL Create] の概要](create/overview.md)
    + [ メールエクスペリエンス ](create/email-experiences.md)
    + [ メタエクスペリエンス ](create/meta-experiences.md)
+   + [ 広告エクスペリエンスの表示 ](create/display-ad-experiences.md)
    + [ バリアントの管理 ](create/manage-variants.md)
    + [ メールエクスペリエンスの作成 ](create/create-email-experience.md)
    + [ メタ広告エクスペリエンスの作成 ](create/create-meta-ad.md)
+   + [ ディスプレイ広告エクスペリエンスの作成 ](create/create-display-ad.md)
 + のレビューと承認 {#approve}
    + [ レビューと承認の概要 ](approvals/overview.md)
    + [ コンテンツのレビューと承認のリクエスト ](approvals/request-review.md)

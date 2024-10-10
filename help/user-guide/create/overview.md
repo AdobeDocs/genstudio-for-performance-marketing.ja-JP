@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing の概要  [!DNL Create]
 description: Performance Marketing [!DNL Create] のAdobe GenStudioで、ジェネレーティブ AI を使用して、高パフォーマンスのオンブランドコンテンツを迅速に生成します。
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: 7c1ea8d2738da39521f3ec26d69982ef64b2576e
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '559'
 ht-degree: 1%
 
 ---
@@ -18,46 +18,78 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 
 * [メール](email-experiences.md)
 * [ メタ広告 ](meta-experiences.md)
-<!-- * Social media images and ads
-* Display ads -->
+* [ 広告を表示 ](display-ad-experiences.md)
 
 [ ガイドライン ](/help/user-guide/guidelines/overview.md) （[!DNL Brands]、[!DNL Products]、[!DNL Personas]） [ コンテンツ ](/help/user-guide/content/overview.md)、[ レビューと承認 ](/help/user-guide/approvals/overview.md)、[ インサイト ](/help/user-guide/insights/overview.md) の機能に加えて、効果的なブランドに合致したマーケティングコンテンツの作成 [!DNL Create] 容易になります。
 
 ## [!DNL Create] のユースケース
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="コンテンツを新規作成" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong> メールエクスペリエンスの作成 </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <!-- <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/content/overview.md">
+
       <img alt="Re-use existing content" src="../../assets/icons/icon-addContent.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/content/overview.md">
+
          <strong>Re-use existing content</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../create/generate-variants.md">
+
       <img alt="Generate variants of approved content" src="../../assets/icons/icon-template.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="../create/generate-variants.md">
+
          <strong>Generate variants of approved content</strong>
+
          </a>
+
       </div>
+
    </td> -->
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing を使用すると、マーケターは **新しいマーケティングコンテンツを作成** できます。 このユースケースでは、定義済みの [ ガイドライン ](/help/user-guide/guidelines/overview.md) とインスピレーション画像を使用して、ブランドに合わせたコンテンツの作成を通知します。

@@ -4,12 +4,11 @@ description: パフォーマンスマーケティング用にAdobe GenStudioで�
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
-type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 30cd73ba1beb582ea4ac73eca7e17715f9aafc66
+source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -43,13 +42,12 @@ ht-degree: 0%
 
    これらのメニューに表示されるブランド、ペルソナまたは商品がない場合は、[ パフォーマンスマーケティングのGenStudioにガイドラインを追加してください ](/help/user-guide/guidelines/add-guidelines.md)。
 
-1. 「**[!UICONTROL コンテンツを選択]**」をクリックして、エクスペリエンスで使用するコンテンツを追加 *および* をクリックすると、コンテンツの生成に影響が及びます。
-   * [!DNL Content] リポジトリからアセット（画像）を選択するには、「**[!UICONTROL コンテンツから選択]**」をクリックします。 1 つ以上の画像のフィルタリングと選択
+1. コンテンツの生成に影響を与えるために、エクスペリエンス *および* で使用するコンテンツを追加します。
+   * **[!UICONTROL コンテンツから選択]** をクリックして、[!DNL Content] リポジトリからアセット（画像）を選択し、1 つ以上の画像をフィルタリングして選択します。
 
      接続された [!DNL AEM Assets Content Hub] リポジトリのアセットを使用するには、_場所_ ドロップダウンメニューからリポジトリを選択します。 1 つ以上の画像のフィルタリングと選択
 
-   * 1 つ以上の新しいアセットをアップロードするには、「**[!UICONTROL アップロード]**」をクリックし、ファイルを参照して、使用するアセットを選択します。 デバイスの参照に加えて、Microsoft OneDrive またはDropboxから読み込むこともできます。 目的の画像をクリックして選択します。
-   * アセットを「_コンテンツ_ セクションにドラッグ&amp;ドロップします。
+   * または、アセットを「**[!UICONTROL コンテンツから選択]** セクションにドラッグ&amp;ドロップして、1 つ以上の新しいアセットをアップロードします。
 1. **[!UICONTROL 使用]** をクリックします。
 
 >[!NOTE]
@@ -124,7 +122,7 @@ ht-degree: 0%
 
 生成されたメールを現在および将来の使用で使用できるようにするには、メールを [!UICONTROL  コンテンツ ] に公開し、マーケティングキャンペーンで使用するために書き出します。
 
-1. **新しいメールエクスペリエンスを公開するには**、上部のツールバーの **[!UICONTROL Publish]** をクリックします。
+1. **新しいメールエクスペリエンスを公開するには** 上部のツールバーまたは承認フロー内の **[!UICONTROL Publish]** をクリックします。
 1. **新しいメールエクスペリエンスを書き出すには**、上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。
    1. CSV 形式と画像またはHTML形式のみを選択し、「**[!UICONTROL 書き出し]**」をクリックします。
 
