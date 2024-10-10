@@ -3,9 +3,9 @@ title: アクセシブルなテンプレートの作成
 description: Adobe GenStudio for Performance Marketingでテンプレートを作成して、より多くのオーディエンスにリーチし、最適なエクスペリエンスを提供できるようにします。
 feature: Templates, Content
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: fee67ba0d9781cf16ac909eddf385bd3d60ac97b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,11 @@ GenStudio for Performance Marketingでは、様々なエクスペリエンスの
 
 ![ アイデア、本、巨大な鉛筆を持つ男、コンピュータのコラージュ ](../../assets/card-create-assets.png){width="400"}
 
-## コントラスト比
+## フォント
 
-テキストと背景の間に適切なコントラストを指定します。 次の最小コントラスト比を使用します。
+読みやすいフォントを使用します。 例えば、サンセリフフォントはクリーンなブロック状の外観をしており、読みやすさが向上します。
+
+テキストと背景の間に適切なコントラストを指定します。 暗い背景に暗いテキスト、明るい背景に明るいテキストを生成するフォントカラーを使用しないでください。 最適な比率を得るには、コントラストのガイドラインを考慮してください。
 
 - テキストおよびテキストの画像：4.5:1 以上のコントラスト比
 - 大きなテキストと大きなテキストの画像：3:1 以上のコントラスト比
