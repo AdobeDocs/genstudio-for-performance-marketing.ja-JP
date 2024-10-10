@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
+source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 * **メールドラフト名を [ 編集](/help/user-guide/create/manage-variants.md#change-draft-name)** するには、キャンバスの上部にある _名称未設定のドラフト_ タイトルをクリックし、新しいタイトルを入力します。
 * **メールを [ 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、編集可能なテキストフィールド（件名行、ヘッダー、本文コピーなど）をダブルクリックし、必要に応じて編集します
-<!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
+* **バリアントのセクションを [ 再生成](/help/user-guide/create/manage-variants.md#re-generate-sections)** するには、編集可能なテキストフィールドをクリックして _[!UICONTROL 編集候補]_ オプションを使用するか、新しいプロンプトを入力して **[!UICONTROL 生成]** をクリックします。
 * **バリアント内の画像を追加 [ 入れ替え](/help/user-guide/create/manage-variants.md#swap-image)** するには、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックし、**[!UICONTROL コンテンツから選択/入れ替え]** または **[!UICONTROL 新しい画像をアップロード]** をクリックして、個々のバリアント内の画像を追加または入れ替えます。
 * **メールを [ 削除](/help/user-guide/create/manage-variants.md#delete-variant)** するには、をクリックしてメールのタイトル（「メール 1/4」など）を選択し、「**[!UICONTROL バリアントを削除]**」をクリックします。
 

@@ -3,7 +3,7 @@ title: GenStudio for Performance Marketing の概要  [!DNL Create]
 description: Performance Marketing [!DNL Create] のAdobe GenStudioで、ジェネレーティブ AI を使用して、高パフォーマンスのオンブランドコンテンツを迅速に生成します。
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 7c1ea8d2738da39521f3ec26d69982ef64b2576e
+source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 1%
@@ -141,7 +141,3 @@ GenStudio for Performance Marketing では、（[guidelines](/help/user-guide/gu
 GenStudio for Performance Marketing を使用すると [ 個々のバリアントのセクションを包括的に制御 ](/help/user-guide/create/manage-variants.md) できます。
 
 単一のバリアントのセクションを改訂し、個々のセクションのコンテンツを再生成し、提案された編集内容を使用して、メッセージ、サイズ、アセットなどをキャンバス内ですべて改善できます。
-
-<!-- ### Anatomy of an email experience
-
-## Prerequisites for using Create -->

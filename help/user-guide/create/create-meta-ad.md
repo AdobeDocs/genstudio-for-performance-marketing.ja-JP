@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
+source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1016'
 ht-degree: 0%
 
 ---
@@ -82,11 +82,11 @@ ht-degree: 0%
 **生成されたバリアントを修正するには**:
 
 * **メタ広告のドラフト名を [ 編集](/help/user-guide/create/manage-variants.md#change-draft-name)** するには、キャンバスの上部にある _名称未設定のドラフト_ タイトルをクリックし、新しいタイトルを入力します。
-* **メタ広告を [ 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、任意の広告セクション（件名行、ヘッダー、本文コピーなど）をダブルクリックし、必要に応じて編集します。
+* **メタ広告を [ 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、任意の広告セクション（件名など）をダブルクリックします。
+ヘッダー（本文コピー）を使用し、必要に応じて編集します。
 * **コールトゥアクションを変更または選択するには**、コールトゥアクションボタンをクリックし、使用可能なボタンテキストオプションから選択します。 _[!UICONTROL リンク]_ に、コールトゥアクションテキストの URL を入力します。
-* **広告のサイズと縦横比を [ 変更](/help/user-guide/create/manage-variants.md#change-aspect-ratio)** するには、_[!UICONTROL サイズ変更]_ ボタン（キャンバスの左側にボタンアイコンが表示されたボックス）をクリックし、すべてのバリアントに適用する新しいサイズと縦横比を選択します。 バリアントが複製され、サイズが変更されます。
-<!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
-* **画像を [ 切り抜きまたは再配置](/help/user-guide/create/manage-variants.md#crop-assets)** するには、画像の上にマウスポインターを置き、表示される切り抜きアイコンをクリックし、画像のサイズと配置を調整します。 「**[!UICONTROL 適用]**」をクリックします。
+* **バリアントのセクションを [ 再生成](/help/user-guide/create/manage-variants.md#re-generate-sections)** するには、編集可能なテキストフィールドをクリックして _[!UICONTROL 編集候補]_ オプションを使用するか、新しいプロンプトを入力して **[!UICONTROL 生成]** をクリックします。
+* **画像を [ 切り抜きまたは再配置](/help/user-guide/create/manage-variants.md#crop-assets)** するには、画像の上にマウスポインターを置き、表示される切り抜きアイコンをクリックし、画像のサイズと配置を調整します。
 * **メタ広告を [ 削除](/help/user-guide/create/manage-variants.md#delete-variant)** するには、広告タイトル（「Meta 4」など）をクリックし、**[!UICONTROL バリアントを削除]** をクリックします。
 
 ## 生成フィードバックを送信

@@ -2,9 +2,9 @@
 title: バリアントの管理
 description: 生成されるバリアントとアセットをカスタマイズし、デジタルマーケティングのニーズに合わせて強化します。
 feature: Content, Assets, Experiences
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: 9aca8368c2ea39a4059fc8d83fe69234619b1e3d
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -38,22 +38,22 @@ Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生
 1. 新しいテキストを入力します。
 1. テキストフィールドの外側をクリックして保存します。
 
-<!-- ## Re-generate sections
+## セクションを再生成
 
-GenStudio for Performance Marketing has the built-in functionality to regenerate single sections of generated variants using _[!UICONTROL Suggested edits]_ and fresh prompts.
+GenStudio for Performance Marketingには、_[!UICONTROL 編集候補]_ や新しいプロンプトを使用して、生成されたバリアントの 1 つのセクションを再生成する機能が組み込まれています。
 
-For example, you can re-generate the headline section of one Meta ad variant to see how it looks with a specific background asset using the _[!UICONTROL Suggested edits]_ options—_[!UICONTROL Rephrase]_, _[!UICONTROL Shorten]_, or _[!UICONTROL Lengthen]_—and entering a new prompt.
+例えば、あるメタ広告バリアントのヘッドラインセクションを再生成して、特定の背景アセットでの外観を確認することができます。例えば、_[!UICONTROL 修正候補]_ オプション（_[!UICONTROL 再フレーズ]_、_[!UICONTROL 短縮]_、_[!UICONTROL 長さ]_）を使用して、新しいプロンプトを入力します。
 
-**To re-generate individual variant sections**:
+**個々のバリアントセクションを再生成するには**:
 
-1. After generating a set of variants, single-click editable text in a variant.
-1. (_Optional_) Enter a new prompt to change the focus of the regenerated content.
-1. Select a _[!UICONTROL Suggested edits]_ option—_[!UICONTROL Rephrase]_, _[!UICONTROL Shorten]_, or _[!UICONTROL Lengthen]_.
-1. Click **[!UICONTROL Generate]**.
-1. If you want to regenerate results, click the regenerate icon adjacent to _Results_.
-1. From the _Results_ that appear, select the desired option and click **[!UICONTROL Replace]**.
+1. バリアントのセットを生成した後、バリアント内の編集可能なテキストをシングルクリックします。
+1. （_オプション_）新しいプロンプトを入力して、再生成されたコンテンツのフォーカスを変更します。
+1. 「_[!UICONTROL 編集候補]_」オプション（「_[!UICONTROL 再フレーズ]_」、「_[!UICONTROL 短縮]_」または「_[!UICONTROL 延長]_」を選択します。
+1. 「**[!UICONTROL 生成]**」をクリックします。
+1. 結果を再生成する場合は、「結果 _の横にある再生成アイコンをクリックし_ す。
+1. 表示された _結果_ から目的のオプションを選択し、「**[!UICONTROL 置換]**」をクリックします。
 
-   The variant is updated with the revised text. -->
+   バリアントが、改訂されたテキストで更新されます。
 
 ## アセットの切り抜き
 
