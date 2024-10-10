@@ -26,71 +26,38 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 ## [!DNL Create] のユースケース
 
 <table style="table-layout:fixed">
-
 <tr style="border: 0;">
-
    <td align="center" valign="top" width="100">
-
       <a href="/help/user-guide/create/create-email-experience.md">
-
       <img alt="コンテンツを新規作成" src="../../assets/icons/icon-create.svg" width="35">
-
       </a>
-
       <div>
-
          <a href="/help/user-guide/create/create-email-experience.md">
-
          <strong> メールエクスペリエンスの作成 </strong>
-
          </a>
-
       </div>
-
    </td>
-
    <!-- <td align="center" valign="top" width="100">
-
       <a href="/help/user-guide/content/overview.md">
-
       <img alt="Re-use existing content" src="../../assets/icons/icon-addContent.svg" width="35">
-
       </a>
-
       <div>
-
          <a href="/help/user-guide/content/overview.md">
-
          <strong>Re-use existing content</strong>
-
          </a>
-
       </div>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="../create/generate-variants.md">
-
       <img alt="Generate variants of approved content" src="../../assets/icons/icon-template.svg" width="35">
-
       </a>
-
       <div>
-
          <a href="../create/generate-variants.md">
-
          <strong>Generate variants of approved content</strong>
-
          </a>
-
       </div>
-
    </td> -->
-
 </tr>
-
 </table>
 
 GenStudio for Performance Marketing を使用すると、マーケターは **新しいマーケティングコンテンツを作成** できます。 このユースケースでは、定義済みの [ ガイドライン ](/help/user-guide/guidelines/overview.md) とインスピレーション画像を使用して、ブランドに合わせたコンテンツの作成を通知します。
