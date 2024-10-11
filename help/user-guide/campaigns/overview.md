@@ -3,7 +3,7 @@ title: Adobe GenStudio for Performance Marketing キャンペーン
 description: 一元化されたキャンペーン計画とキャンペーン概要の作成について説明します。
 feature: Campaigns, Campaign Brief, Content
 exl-id: bbf66552-5a42-48d4-9bcd-944cf643e513
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%

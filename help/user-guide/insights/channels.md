@@ -3,7 +3,7 @@ title: チャネルの概要
 description: Adobe GenStudio for Performance Marketingのマーケティングキャンペーンに関する顧客エンゲージメント、パフォーマンス、予算、支出の概要を参照します。
 feature: Insights, Channels
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%

@@ -1,11 +1,11 @@
 ---
 title: ディスプレイとエクスペリエンスの作成
-description: パフォーマンスマーケター向けに、Adobeでディスプレイ広告エクスペリ  [!DNL GenStudio]  ンスを作成する方法を説明します。
+description: パフォーマンスマーケティング用にAdobeでディスプレイ広告エクスペリエンス  [!DNL GenStudio]  作成する方法を説明します。
 feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
+source-git-commit: 9fc0ad86b99ca61a73b46fd8febfcf66b2975d75
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -33,14 +33,14 @@ ht-degree: 0%
 
 ## パラメーターを追加
 
-[ ガイドライン ](/help/user-guide/guidelines/overview.md) とアセットを _パラメーター_ のプロンプトエリアに追加すると、コンテンツ生成プロセスがスーパーチャージされ、ディスプレイ広告エクスペリエンスを生成するための不可欠な準備手順となります。
+プロンプトドロワーの _パラメーター_ に [ ガイドライン ](/help/user-guide/guidelines/overview.md) とアセットを追加することは、コンテンツ生成プロセスをスーパーチャージし、ディスプレイ広告エクスペリエンスを生成するための不可欠な準備手順です。
 
 **パラメーターとアセットを追加するには**:
 
-1. _パラメーター_ アイコンをクリックして、プロンプト領域を展開します。
+1. _パラメーター_ アイコンをクリックして、プロンプトドロワーを展開します。
 1. 「_パラメーター_」セクションで、ガイドライン（[!DNL Brands]、[!DNL Personas]、[!DNL Products]）を選択して、コンテンツの作成を通知します。
 
-   これらのメニューに表示されるブランド、ペルソナまたは製品がない場合は、[ パフォーマンスマーケター向けGenStudioにガイドラインを追加 ](/help/user-guide/guidelines/add-guidelines.md) してください。
+   これらのメニューに表示されるブランド、ペルソナまたは商品がない場合は、[ パフォーマンスマーケティングのGenStudioにガイドラインを追加してください ](/help/user-guide/guidelines/add-guidelines.md)。
 
 1. エクスペリエンス *および* で使用するコンテンツを追加して、コンテンツの生成に影響を与えるには、次のようにします。
    * **[!UICONTROL コンテンツから選択]** をクリックして、[!DNL Content] リポジトリからアセット（画像）を選択し、1 つ以上の画像をフィルタリングして選択します。
@@ -50,7 +50,7 @@ ht-degree: 0%
    * または、アセットを「**[!UICONTROL コンテンツから選択]** セクションにドラッグ&amp;ドロップして、1 つ以上の新しいアセットをアップロードします。
 1. **[!UICONTROL 使用]** をクリックします。
 
-パラメーターの追加が完了したら、「_パラメーター_ アイコンをもう一度クリックして、プロンプト領域を折りたたみます。
+パラメーターの追加が完了したら、「_パラメーター_ アイコンをもう一度クリックして、プロンプトドロワーを折りたたみます。
 
 ## プロンプトを入力
 
