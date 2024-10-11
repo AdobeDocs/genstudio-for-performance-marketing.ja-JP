@@ -4,9 +4,9 @@ description: Adobe GenStudioアカデミーでコンテンツサプライチェ�
 recommendations: disable, exclude
 index: false
 hidefromtoc: true
-source-git-commit: 91ad365ba7096a770d57f2de5d5c65e24ec32e4e
+source-git-commit: ef6bf8c691748844a25957de284c4f8e7dbc5e25
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -70,69 +70,61 @@ ht-degree: 0%
 
 <table>
 
- <tr style= "border: 0;colspan: 3;">
+    <tr style="border: 0;">
 
-  <td colspan="3"> <strong style= "font-size: 2em;"> 準備中 </strong></td>
+        <td colspan="3">
 
- </tr> 
+            <strong style="font-size: 2em;"> 準備中 </strong>
 
- <tr style= "border: 0;colspan: 3;"> 
+        </td>
 
-   <td align="Center">
+    </tr>
 
-      <img src="../assets/tips-and-tricks.png">
+    <tr style="border: 0;">
 
-      <div>
+        <td align="center">
 
-      <strong> ヒントとテクニック </strong>
+            <img src="../assets/tips-and-tricks.png" alt="ヒントとテクニック">
 
-      </div>
+            <div>
 
-      <p>
+                <strong> ヒントとテクニック </strong>
 
-      GenStudio for Performance Marketingを最も効率的に使用するためのヒントとテクニックです。
+            </div>
 
-      </p>
+            <p>GenStudio for Performance Marketingを最も効率的に使用するためのヒントとテクニックです。</p>
 
-   </td>
+        </td>
 
-   <td align="Center">
+        <td align="center">
 
-      <img src="../assets/social-learning.png">
+            <img src="../assets/social-learning.png" alt="ソーシャル学習">
 
-      <div>
+            <div>
 
-      <strong> ソーシャル学習 </strong>
+                <strong> ソーシャル学習 </strong>
 
-      </div>
+            </div>
 
-      <p>
+            <p>同僚から学んだり、組織全体で知識を簡単に共有したりできます。</p>
 
-      同僚から学んだり、組織全体で知識を簡単に共有したりできます。
+        </td>
 
-      </p>
+        <td align="center">
 
-   </td>
+            <img src="../assets/expert-courses.png" alt="エキスパートコース">
 
-   <td align="Center">
+            <div>
 
-      <img src="../assets/expert-courses.png">
+                <strong> エキスパートコース </strong>
 
-      <div>
+            </div>
 
-      <strong> エキスパートコース </strong>
+            <p>マーケティングでエキスパートレベルの AI スキルを活用するための高度なコース。</p>
 
-      </div>
+        </td>
 
-      <p>
-
-      マーケティングでエキスパートレベルの AI スキルを活用するための高度なコース。
-
-      </p>
-
-   </td>
-
- </tr>
+    </tr>
 
 </table>
 
@@ -142,13 +134,33 @@ ht-degree: 0%
 
     <tr></tr>
 
- <tr style= "border: 0;">
+    <tr style="border: 0;">
 
- <td><img src="../assets/put-your-learnings-into-practice.png"></td>
+        <td>
 
-  <td> <strong style= "font-size: 2em"> 学んだことを実践に移す。</strong><p>GenStudio for Performance Marketingを探索するマーケティングチームが独自の広告やメールを作成し、効果的でパーソナライズされたマーケティングキャンペーンを推進できる、ジェネレーティブ AI ファーストのアプリケーションです。<p><a href="https://business.adobe.com/products/genstudio-for-performance-marketing.html" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM"><span class="spectrum-Button-label has-no-wrap">移動する</span></a></td>
+            <img src="../assets/put-your-learnings-into-practice.png" alt="学んだことを実践に移す">
 
- </tr>
+        </td>
+
+        <td>
+
+            <strong style="font-size: 3em"> 学んだことを実践に移す。</strong>
+
+            <p>GenStudio for Performance Marketingを探索します。これは、マーケティングチームが独自の広告やメールを作成し、効果的なパーソナライズされたマーケティングキャンペーンを推進できるジェネレーティブ AI ファーストのアプリケーションです。</p>
+
+            <p>
+
+                <a href="https://business.adobe.com/products/genstudio-for-performance-marketing.html" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM">
+
+                    <span class="spectrum-Button-label has-no-wrap"> 連れて行って </span>
+
+                </a>
+
+            </p>
+
+        </td>
+
+    </tr>
 
     <tr></tr>
 
