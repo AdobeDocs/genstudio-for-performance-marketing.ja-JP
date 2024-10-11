@@ -3,7 +3,7 @@ title: Adobe GenStudio for Performance Marketing概念
 description: Adobe GenStudio for Performance Marketingの概念と用語について説明します。
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 4d2a7b72132e7bdba314c9f7c83eed327c579c46
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -34,44 +34,85 @@ GenStudio for Performance Marketingは、生成 AI の力を活用して、コ�
 複数のチャネルで、より速いペースで質の高いエクスペリエンスが求められています。 GenStudio for Performance Marketingを使用すると、コンテンツサプライチェーンを簡略化して、マーケター向けのわかりやすいワークフローを構築できます。 GenStudio for Performance Marketingでは、ライフサイクルの各段階でAdobeテクノロジを活用します。
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-       <img alt="カレンダー" src="../assets/csc-workflow-planning.png" width="100">
-    </td>
+
     <td>
+
+       <p><strong>ワークフローと計画</strong></p>
+
+    </td>
+
+    <td>
+
         <p>アイデアのブレインストーミング、ガイドラインの定義、コンテンツに関する戦略の構築を行い、オーディエンスを引き付けます。</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="ブラシとキャンバス" src="../assets/csc-creation-production.png" width="100">
-    </td>
+
     <td>
+
+        <p><strong>作成と実稼動</strong></p>
+
+    </td>
+
+    <td>
+
         <p>計画に基づいてコンテンツを生成します。 リアルタイムでの共同作業、フィードバックの受信、編集、コンテンツの承認を行います。</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="画像など" src="../assets/csc-content-mgmt.png" width="100">
-    </td>
+
     <td>
+
+        <p><strong>コンテンツ管理</strong></p>
+
+    </td>
+
+    <td>
+
         <p>クリエイティブアセットの保存、共有、検索を、一元化されたリポジトリで行います。 パフォーマンスに基づいたコンテンツの再利用と再活性化。</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="紙飛行機" src="../assets/csc-delivery-activation.png" width="100">
-    </td>
+
     <td>
+
+        <p><strong>配信とアクティブ化</strong></p>
+
+    </td>
+
+    <td>
+
         <p>複数のマーケティングチャネルにわたってコンテンツと公開をアクティブ化します。</P>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="chart" src="../assets/csc-reporting-insights.png" width="100">
-    </td>
+
     <td>
-        <p>アセットパフォーマンスの最適化のために、データを収集しインサイトを導き出します。</p>
+
+        <p><strong>レポートとインサイト</strong></p>
+
     </td>
+
+    <td>
+
+        <p>アセットパフォーマンスの最適化のために、データを収集しインサイトを導き出します。</p>
+
+    </td>
+
 </tr>
+
 </table>
