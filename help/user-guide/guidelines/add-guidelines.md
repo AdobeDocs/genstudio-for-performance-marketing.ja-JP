@@ -5,7 +5,7 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 9ff0e14af49d8759c8384c67e61832d205fa6e90
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 1%
@@ -163,8 +163,7 @@ _[!DNL Products]_ホームでは、**作成済みの[!DNL Product]**を開いて
 
 * [!DNL Products] のアクションメニューから **[!UICONTROL 開く]** を選択して、既存の製品を改訂およびレビューします。
 * [!DNL Products] のアクションメニューから「**[!UICONTROL 削除]**」を選択して、製品を **削除** します。
-* 
-   * [!DNL Products] のアクションメニューから製品の **[!UICONTROL 名前を変更]** を選択します **名前を変更**。
+* [!DNL Products] のアクションメニューから製品の **[!UICONTROL 名前を変更]** を選択します **名前を変更**。
 
 ## Add [!DNL Personas]
 
