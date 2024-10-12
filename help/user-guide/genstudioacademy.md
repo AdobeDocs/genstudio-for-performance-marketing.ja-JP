@@ -4,63 +4,22 @@ description: Adobe GenStudioアカデミーでコンテンツサプライチェ�
 recommendations: disable, exclude
 index: false
 hidefromtoc: true
-source-git-commit: ff49e6f886dd334a70366ced1662a84c2a4d0cf6
+source-git-commit: e95086a213a24dc75ff74cf404454155903de8a2
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '17'
 ht-degree: 0%
 
 ---
 
 # GenStudio学院
 
-<table>
-
- <tr style="border: 0;">
-
-   <td><img src="../assets/elevate-your-generative-ai.png"></td>
-
-   <td rowspan="2"><img src="../assets/elevate-your-generative-ai-knowledge.png"></td>
-
- </tr>
-
- <tr>
-
-   <td>[!BADGE Register]{type=Informative url="https://learningmanager.adobe.com/accountiplogin?ipId=16970&amp;accesskey=c4988oojirhb5" tooltip="GenStudio Academy アカウントの作成"}       [!BADGE Log in]{type=Informative url="https://genstudioacademy.adobelearningmanager.com/" tooltip="GenStudio Academy にログイン"}</td>
-
- </tr>
-
-</table>
-
+<a href="https://learningmanager.adobe.com/accountiplogin?ipId=16970&amp;accesskey=c4988oojirhb5"><img src="../assets/elevate-your-generative-ai.png">
 
 <img src="../assets/learn-generative-ai-with-genstudio.png">
 
 >[!BEGINSHADEBOX]
 
-<table>
-
- <tr style="border: 0;">
-
-  <td><img src="../assets/generative-ai-for-marketing-simplified.png"></td>
-
-  <td><img src="../assets/simplified.png"></td>
-
- </tr>
-
- <tr>
-
-   <td>
-
-   </td>
-
-   <td>
-
-   [!BADGE Explore now]{type=Informative url="https://learningmanager.adobe.com/accountiplogin?ipId=16970&amp;accesskey=c4988oojirhb5" tooltip="GenStudio Academy にログインします"}
-
-   </td>
-
- </tr>
-
-</table>
+<a href="https://genstudioacademy.adobelearningmanager.com/"><img src="../assets/generative-ai-for-marketing-simplified.png"></a>
 
 >[!ENDSHADEBOX]
 
@@ -71,31 +30,6 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-
-<table>
-
- <tr style="border: 0;">
-
-  <td><img src="../assets/put-your-learnings-into-practice.png"></td>
-
-  <td><img src="../assets/put-your-learnings-into-practice-text.png"></td>
-
- </tr>
-
- <tr>
-
-   <td>
-
-   </td>
-
-   <td>
-
-   [!BADGE Take me there]{type=Informative url="https://business.adobe.com/products/genstudio-for-performance-marketing.html" tooltip="learn more at business.adobe.com"}
-
-   </td>
-
- </tr>
-
-</table>
+<a href="https://business.adobe.com/products/genstudio-for-performance-marketing.html"><img src="../assets/put-your-learnings-into-practice.png"></a>
 
 >[!ENDSHADEBOX]
