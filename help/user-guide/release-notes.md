@@ -2,10 +2,10 @@
 title: Adobe GenStudio for Performance Marketing リリースノート
 description: Adobe GenStudio for Performance Marketingの最新機能と機能強化について説明します。
 recommendations: noDisplay
-source-git-commit: 9b5e8b37ba988c3dd4a1e5a828487997375474ac
+source-git-commit: 94a3b4c764e29b84fc07620994913c528ffe0cdd
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 6%
+source-wordcount: '40'
+ht-degree: 0%
 
 ---
 
@@ -13,6 +13,7 @@ ht-degree: 6%
 
 このリリース情報では、GenStudio for Performance Marketing アプリケーションの最新のアップデートについて詳しく説明します。
 
-## 15年10月 {#latest}
+<!--
+## October 15 {#latest}
 
-未定
+TBD -->
