@@ -1,106 +1,64 @@
 ---
 title: Adobe GenStudio for Performance Marketingの概要
-description: GenStudio for Performance Marketingを設定して、ブランドに合わせた新しいマーケティングコンテンツを生成する方法を説明します。
+description: GenStudio for Performance Marketingの使用を開始して、ブランドに合わせた新しいマーケティングコンテンツを生成する方法を説明します。
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
+source-git-commit: 6454090c9fffb4b288b615680597b80e5b71a89c
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 8%
+source-wordcount: '641'
+ht-degree: 0%
 
 ---
 
 # Adobe GenStudio for Performance Marketingの概要
 
-Adobe GenStudio for Performance Marketingは、ブランドアイデンティティを反映し遵守するマーケティングエクスペリエンスを作成、評価および管理するための包括的なプラットフォームです。
+Adobe GenStudio for Performance Marketingは、コンテンツの作成、管理、分析を合理化するように設計された包括的なツールスイートを提供します。 マーケティングコンテンツの作成、確認、共有、分析の方法を変換する生成 AI 機能をコンテンツ作成ライフサイクルに組み込みます。
 
-関係者のその多くの機能へのアクセスは、割り当てられた _ユーザーの役割_ によって制御されます。 割り当てられたユーザーの役割によって、GenStudio for Performance Marketing内で実行できるタスクが決まります。 Adobeシステム管理者は、Adobe Admin ConsoleのGenStudio for Performance Marketing製品プロファイルで権限を割り当てます。 お知らせメールは、割り当てられた役割を識別します。
+## コンテンツの作成、共有、レビューを開始
 
-ジェネレーティブ AI ベースのツールを初めて使用する場合、またはGenStudio for Performance Marketingの基本原則に興味がある場合は、[ 概念 ](concepts.md) および [ 効果的なプロンプトの記述 ](effective-prompts.md) を参照してください。
+ジェネレーティブ AI ベースのツールを初めて使用する場合、またはGenStudio for Performance Marketingの基本原則に興味がある場合は、[ 概念 ](concepts.md) および [ 効果的なプロンプトの記述 ](effective-prompts.md) を参照してください。 クリエイティブなプロセスでジェネレーティブ AI テクノロジを活用する方法について、Adobeのオンライン ラーニング プラットフォームである ](https://learningmanager.adobe.com/genstudioacademy)0}Adobe GenStudioアカデミー } をご覧ください。[
 
-## ユーザーの役割
+## GenStudio for Performance Marketingのトレーニング
 
-最新のマーケティングキャンペーンを作成してデプロイするには、様々な責任やスキルセットを持つ利害関係者間の共同作業が必要です。
+GenStudio for Performance Marketingは、ブランドと市場に関する情報を使用して、ブランドに準拠したコンテンツ作成を強化します。 トレーニング資料には、例、顧客 [ ペルソナ ](/help/user-guide/guidelines/personas.md) および [ 製品 ](/help/user-guide/guidelines/products.md) の説明、および [ ブランドガイドライン ](/help/user-guide/guidelines/overview.md) が含まれます。
 
-このような様々な組織的な役割をサポートするのは、GenStudio for Performance Marketingの 3 種類のユーザーの役割です。 権限は、これらの各ユーザータイプに合わせて調整され、マーケティング組織での各ユーザーの責任をサポートします。
+システム管理者は、組織固有の情報を入力またはアップロードすることでAdobe GenStudio for Performance Marketingを設定します。 この準備により、コンテンツ編集者と共同作業者が生成 AI 機能を効果的に使用して、キャンペーンアセットを作成およびレビューできるようになります。 Adobeシステム管理者が組織の製品インスタンスをプロビジョニングし、GenStudio システムマネージャーの権限を割り当てると、GenStudio システムマネージャーはガイドラインを使用して製品の基盤となる生成 AI フレームワークを準備できます。
 
-**次の 3 つのユーザーロールタイプがあります**。
+### 手順 1：ガイドラインの追加
 
-* **エディター** GenStudio for Performance Marketingの生成 AI 機能を使用して、マーケティングキャンペーンアセットを作成し、コンテンツのレビューと承認をリクエストし、このコンテンツの承認済みドラフトを公開します。 作成者がアセットをコンテンツに保存すると、すべてのGenStudio for Performance Marketing ユーザーがアセットにアクセスして使用できます。
+組織のブランド ID の主要な構成要素を設定することは、コンテンツ編集者や共同作業者の作業にとって不可欠な前提条件です。 [ ガイドライン ](./guidelines/overview.md) ロゴ、声のトーン、カラーパレットなど、ブランドの特徴を取り込みます。 [[!DNL Brands]  ガイドライン ](./guidelines/brands.md) ドキュメントをアップロードするか、ブランド情報を手動で入力できます。 [[!DNL Personas]  ガイドライン ](./guidelines/personas.md) と [[!DNL Products]  ガイドライン ](./guidelines/products.md) も重要です。 GenStudio for Performance Marketingの基盤となるジェネレーティブ AI 機能では、これらのガイドラインを使用して、コンテンツの生成をガイドするガードレールを確立します。
 
-* **共同作業者** は、GenStudio for Performance Marketingのユーザーの中で最も幅広い範囲です。 共同作業者は、コンテンツを表示および承認できます。共同作業者は、生成するコンテンツが組織のニーズと標準に一致することを確認するワークフローの重要な役割を果たします。
+#### ガイドライン文書の準備
 
-* **システムマネージャー** は、GenStudio for Performance Marketing内で最も広範な権限を持っています。 システムマネージャーは、キャンペーンアセットの作成とデプロイメントのための基本的なガードレールの確立という、基本的なオンボーディングタスクを実行します。 システムマネージャーは、ブランドや組織固有の情報（[ ブランドガイドライン ](/help/user-guide/guidelines/overview.md) などをアップロードして、これらのガードレールを実装します。 GenStudio for Performance Marketing システムマネージャーは、ブランドを作成して公開する権限を持っていますが、ユーザー管理者権限はありません。
+包括的で焦点を当てた [[!DNL Brands]](./guidelines/brands.md)、[[!DNL Products]](./guidelines/products.md)、[[!DNL Personas]](./guidelines/personas.md) のガイドラインにより、組織のマーケティングキャンペーンの中心的側面が定義されます。 GenStudio for Performance Marketingでは、ブランドの構築を開始するために、これらのガイドラインから情報を抽出します。
 
->[!NOTE]
->これらのロールにユーザーをプロビジョニングする前に、Adobe Admin ConsoleでAdobeシステム管理者を指定して、1 回限りの設定タスクを実行する必要があります。 このAdobe管理者ロールは、Adobe Admin Consoleのコンテキストでのみ機能します。 GenStudio for Performance Marketingのプラットフォームインターフェイスでは機能しません。
+ガイドラインを準備する際は、次のベストプラクティスに従います。
 
-### GenStudio for Performance Marketing エディター
+* 特定の言語を使用します。
 
-**エディター** は、GenStudio for Performance Marketing [!DNL Brands]、[!DNL Campaigns] および [!DNL Content] アセットを作成するために必要なコア権限を持っています。 また、作成したアセットを編集および削除することもできます。 GenStudio for Performance Marketingでは、数百ものコンテンツをすばやく作成することができます。 これらのユーザーは、特定のマーケティングキャンペーンのニーズを満たすために、承認済みのコンテンツの個別の部分を調整するコンテンツセクションまたはエクスペリエンス全体を生成できます。
+* キャンペーンアセットで具現化するスタイルとトーンの最適な例を含めます。
 
-編集者は、_プロンプト_ を通じてGenStudio for Performance Marketingの生成 AI テクノロジーとやり取りします。 キャンバスのプロンプトドロワーには、特定のキャンペーンのガイドラインのコンテキストでプロンプトを配置するツールが用意されています。 その結果、生成されるコンテンツの品質と成功は、組織がアップロードしたブランドガイドラインの品質と、プロンプトの特異性に部分的に依存します。
+* 冗長性を避けます。 ディレクティブを複数回繰り返したくなるかもしれませんが、ガイドラインの冗長性は、基になる LLM がブランドガイドラインを取り込んで実装するのに役立つわけではありません。
 
-[ 有効なプロンプトの記述 ](effective-prompts.md) を参照してください。
+* コンテンツ生成時に LLM で除外する要素を識別します（テキスト内の感嘆符など）
 
-エディターのデフォルトの権限を次の表に示します。
+ガイドラインのドキュメントをアップロードすることも、GenStudio for Performance Marketingに手動で情報を入力する際に参照することもできます。 この情報をアップロードまたは入力する方法については、[ ガイドラインの追加 ](./guidelines/overview.md) を参照してください。
 
-| 機能 | 作成 | アップデート | 削除 | 表示 |
-|-----------|----------------|----------------|----------------|----------------|
-| [!DNL Brands] | いいえ | いいえ | いいえ | はい |
-| [!DNL Campaigns] | はい | はい | はい | はい |
-| [!DNL Content] | はい | はい | はい | はい |
-| [!DNL Insights] | ad コネクタのみを設定できます |    |     | はい |
-| [!DNL Personas] | はい | はい | はい | はい |
-| [!DNL Products] | はい | はい | はい | はい |
-| [!DNL Reviews and approvals] | はい | はい | はい | はい |
+#### ガイドラインの改訂
 
-### GenStudio for Performance Marketing共同作業者
+GenStudio システムマネージャーは、組織固有のブランド要件を手動で入力またはアップロードすることで、製品の基盤となるジェネレーティブ AI フレームワークを準備できます。 組織のブランドガイドラインの設定は 1 回限りのアクションですが、組織のボラティリティ、成長および市場状況の変化に基づいて、これらのガイドラインを改訂および強化することができます。
 
-**共同作業者** は、GenStudio for Performance Marketingでアセットを表示できますが、作成、編集、削除はできません。 共同作業者には、コンテンツのレビューと承認のプロセスを成功させるために不可欠な関係者で、コンテンツを作成する必要がない人や、直接編集する必要がない人が含まれます。 法律専門家やクリエイターのマネージャーは、潜在的な共同作業者の例です。 GenStudio for Performance Marketingの共同作業者には、他のCreative Cloud製品のアセットを作成および表示する権限がある場合があります。
+### 手順 2：テンプレートのアップロード
 
-次の表に、デフォルトのコラボレータ権限を示します。
+テンプレートを使用すると、コンテンツを迅速に作成できます。 テンプレートには、ヘッダーやフッターなど、承認済みの機能が含まれており、特定のチャネル用に最適化されています。 通常、システムマネージャーは組織のテンプレートをアップロードおよび管理します。 コンテンツエディターは、テンプレートを使用して、組織ブランドの確立された境界内でコンテンツ作成プロセスを迅速に開始します。
 
-| 機能 | 作成 | アップデート | 削除 | 表示 |
-|-----------|----------------|----------------|----------------|----------------|
-| [!DNL Brands] | いいえ | いいえ | いいえ | はい |
-| [!DNL Campaigns] | いいえ | いいえ | いいえ | はい |
-| [!DNL Content] | いいえ | いいえ | いいえ | はい |
-| [!DNL Insights] | いいえ | いいえ | いいえ | はい |
-| [!DNL Personas] | いいえ | いいえ | いいえ | はい |
-| [!DNL Products] | いいえ | いいえ | いいえ | はい |
-| [!DNL Reviews and approvals] | いいえ | いいえ | いいえ | はい |
+テンプレートのカスタマイズとアップロードについては、[ テンプレートの操作 ](./content/use-templates.md) を参照してください。
 
-### GenStudio for Performance Marketing システムマネージャー
+### 手順 3：承認されたアセットのアップロード
 
-**GenStudio システムマネージャー** GenStudio for Performance Marketingをデプロイするための初期作業を行います。
+[!DNL Content] の承認済みアセットは、すべてのGenStudio for Performance Marketing エディターが使用できます。 コンテンツエディターが新しいエクスペリ [!DNL Content] ンスやアセットの作成に使用するアセットを、アセットに入力することができます。 アセットのアップロードと管理については、[ 承認済みアセットのアップロード ](./content/manage-assets.md) を参照してください。
 
-次の表に、GenStudio for Performance Marketing system manager のデフォルトの権限を示します。
+### 手順 4:Meta （Facebook）アカウントへの接続
 
-| 機能 | 作成 | アップデート | 削除 | 表示 |
-|-----------|----------------|----------------|----------------|----------------|
-| [!DNL Brands] | はい | はい | はい | はい |
-| [!DNL Campaigns] | はい | はい | はい | はい |
-| [!DNL Content] | はい | はい | はい | はい |
-| [!DNL Insights] | はい | はい | はい | はい |
-| [!DNL Personas] | はい | はい | はい | はい |
-| [!DNL Products] | はい | はい | はい | はい |
-| [!DNL Reviews and approvals] | はい | はい | はい | はい |
-
-
-## コンテンツを生成するためのGenStudio for Performance Marketingの準備
-
-GenStudio for Performance Marketing システムマネージャーは、編集者と共同作業者がキャンペーンアセットを作成できるように、組織のGenStudio for Performance Marketing環境を準備します。 これらの準備的なセットアップ作業には、次のものが含まれます。
-
-1. [!DNL Brands]、[!DNL Products] および [!DNL Personas] に関する [ ガイドラインを追加 ](./guidelines/overview.md) します。 組織のブランドアイデンティティの主要な構成要素を設定することは、クリエイターや共同作業者の作業に不可欠な前提条件です。 ブランドガイドラインドキュメントをアップロードするか、ブランド情報を手動で入力できます。
-   * **ガイドラインのドキュメントを準備します**。 ブランドガイドラインが説明的で包括的であればあるほど、出力は良くなります。 ブランドに不可欠と考えられる機能の簡単な例を含め、コンテンツの作成から除外する行動の説明を追加します。 GenStudio for Performance Marketingは、アップロードされたこれらのドキュメントから情報を抽出し、ブランドの構築を開始します。 GenStudio for Performance Marketingがアップロードされたドキュメントから各ガイドラインを組み立てると、ブランドボイス、チャネル、画像ガイドラインなどの情報が入力されます。
-   * **必要に応じて、ブランドガイドラインフィールドを編集または入力** します。 包括的なブランドガイドラインは、組織のブランドをGenStudio for Performance Marketingで理解するための基礎となります。 GenStudio for Performance Marketingがブランドガイドラインドキュメントから必要な情報を抽出したら、抽出した情報のフィールドを手動で編集または入力するよう求められます。 コンテン [!DNL Product] を追加して、コンテンツ作成の個々の製品フォーカス領域を指定します。 [!DNL Personas] のガイドラインは、定義された顧客セグメント向けにコンテンツを作成する際の調整に役立ちます。
-
-   組織のブランドガイドラインの設定は 1 回限りのアクションですが、組織のボラティリティ、成長および市場状況の変化に基づいて、これらのガイドラインを改訂および強化する必要が生じる場合があります。
-
-1. **[テンプレートのアップロード](./content/use-templates.md)**. テンプレートにはショートカットが用意されており、コンテンツを短時間で作成できます。 テンプレートには、ヘッダーやフッターなどの承認済み機能が含まれており、コンテンツを作成するためのガードレールを設定します。 通常、システムマネージャーは組織のテンプレートをアップロードおよび管理します。 作成者は、テンプレートを使用して、組織ブランドの確立された境界内でコンテンツ作成プロセスを素早く開始します。
-
-1. **[承認済みアセットのアップロード](./content/manage-assets.md)**. [!DNL Content] の承認済みアセットは、すべてのGenStudio for Performance Marketing作成者が使用できます。 作成者が新しいエクスペリエンスやアセットの作成に使用できるアセットで [!DNL Content] ーザーをシードすることができます。
-
-1. **[Meta （Facebook）アカウントへの接続](./insights/connect-channel.md)**。 GenStudio for Performance Marketingと組織のソーシャルアカウントの間の接続を設定して、アクティブなマーケティングキャンペーン、アセットおよびエクスペリエンスからデータを受け取ります。 [[!DNL Insights]](./insights/overview.md) は、チャネルから派生したデータを分析するツールを提供します。
+GenStudio for Performance Marketingと組織のソーシャルアカウントの間の接続を設定して、アクティブなマーケティングキャンペーン、アセットおよびエクスペリエンスからデータを受け取ります。 [[!DNL Insights]](./insights/overview.md) は、チャネルから派生したデータを分析するツールを提供します。 [Meta （Facebook）アカウントへの接続 ](./insights/connect-channel.md#meta-ads-connect) を参照してください。
