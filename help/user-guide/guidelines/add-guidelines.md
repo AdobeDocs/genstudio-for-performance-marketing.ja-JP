@@ -5,7 +5,7 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 9ff0e14af49d8759c8384c67e61832d205fa6e90
+source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Performance Marketing のGenStudioにガイドラインを追加することは、作成プロセスの重要な手順です。 ガイドラインは、ユーザー定義のプロンプトやAdobe生成 AI テクノロジーと共に、コンテンツ作成プロセスに情報を提供し、効果的なアセットを作成します。
 
-## Add [!DNL Brands]
+## [!DNL Brands] の追加
 
 ブランドを追加するには、[ ブランドガイドをアップロード ](#upload-a-brand) するか、[ 手動でブランドを作成 ](#manually-add-brand) ガイドラインを選択してブランドの詳細を入力します。 [Publish a brand](#publish-brand) を [!DNL Content] して、今後のコンテンツ生成で使用できるようにします。
 
@@ -95,7 +95,7 @@ _[!DNL Brands]_ホームでは、[!DNL Brands] のアクションメニューの
 * 既存のペルソナの名前を変更するには、[!DNL Brands] のアクションメニューから「**[!UICONTROL 名前を変更]**」を選択します。
 * ブランドを削除するには、[!DNL Brands] のアクションメニューから **[!UICONTROL 削除]** を選択します。
 
-## Add [!DNL Products]
+## [!DNL Products] の追加
 
 製品を追加するには、[ 製品ガイドをアップロード ](#upload-a-product) するか、[ 製品を手動で作成 ](#manually-add-product) ガイドラインを選択して製品の詳細を入力します。
 
@@ -165,7 +165,7 @@ _[!DNL Products]_ホームでは、**作成済みの[!DNL Product]**を開いて
 * [!DNL Products] のアクションメニューから「**[!UICONTROL 削除]**」を選択して、製品を **削除** します。
 * [!DNL Products] のアクションメニューから製品の **[!UICONTROL 名前を変更]** を選択します **名前を変更**。
 
-## Add [!DNL Personas]
+## [!DNL Personas] の追加
 
 ペルソナを追加するには、[ ペルソナガイドをアップロード ](#upload-a-persona) するか、ガイドラインを選択してペルソナの詳細を入力して [ 手動でペルソナを作成 ](#manually-add-persona) します。
 
@@ -185,7 +185,7 @@ _[!DNL Products]_ホームでは、**作成済みの[!DNL Product]**を開いて
 
 1. 「**[!UICONTROL ペルソナを追加]**」ボタンを選択し、「**PDFをアップロード**」を選択します。
 1. 「**[!UICONTROL 続行]**」をクリックします。
-1. ペルソナを追加ポップアップで、ペルソナドキュメントを添付またはドラッグします。
+1. _ペルソナを追加_ ポップアップで、ペルソナドキュメントを添付またはドラッグします。
 
    最大 500 MG の組み合わせで最大 5 つのPDFファイルを添付できます。
 
