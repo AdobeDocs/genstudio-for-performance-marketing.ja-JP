@@ -4,9 +4,9 @@ description: Adobe GenStudio for Performance Marketing用テンプレートを�
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 94a3b4c764e29b84fc07620994913c528ffe0cdd
+source-git-commit: 61a939ae81eb5ff61d741bb1092e9e4c82119f7e
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -47,10 +47,7 @@ GenStudio for Performance Marketingでは、特定のフィールドに次のテ
 
 - **メールテンプレート** で `subject` フィールドを識別する必要はありません
 - **メタ広告テンプレート** では、「`headline`」、「`body`」、「`CTA`」フィールドを識別する必要はありません
-
-<!--
-- **Display Ads template** does not require you to identify the `CTA` field
--->
+- **広告テンプレートを表示** の場合は、「`CTA`」フィールドを識別する必要はありません
 
 >[!WARNING]
 >
