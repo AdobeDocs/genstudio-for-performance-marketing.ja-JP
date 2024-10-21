@@ -4,9 +4,9 @@ description: チャネルアカウントを連携して、Adobe GenStudio for Pe
 level: Intermediate
 feature: Insights, Channels
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 7b3ecc1964df3d5a3fdc5c32b1e5c80f29133560
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 **データの取り込みと保持のポリシー**
 
-GenStudio for Performance Marketingは、チャネルデータを 13 か月間保持します。 これには 6 か月の初期ルックバック期間が含まれ、包括的な履歴データの分析とレポートが確実に行われます。
+GenStudio for Performance Marketingはチャネルデータを 13 か月間保持します。 この保持ポリシーには、最初の接続中に取り込まれた 6 か月のデータが含まれており、包括的な履歴データの分析とレポートを確実に行います。
 
 >[!ENDSHADEBOX]
 
@@ -33,6 +33,7 @@ GenStudio for Performance Marketingは、チャネルデータを 13 か月間�
 
 - Facebook/メタ広告アカウント
 - レポートへのアクセスと広告の表示 `View performance` 行う権限レベルを持つメタ広告アカウントへのアクセス
+- ブラウザーでポップアップブロッカーを削除します
 
 >[!ENDSHADEBOX]
 
@@ -40,21 +41,16 @@ GenStudio for Performance Marketingは、チャネルデータを 13 か月間�
 
 1. _[!DNL Insights]_で、「**[!UICONTROL チャネルアカウントを接続]**」をクリックします。
 
-   >[!INFO]
-   >
-   >facebookにログインするように指示される場合があります。 現時点で利用できるオプションはFacebookのみです。
+   facebookにログインするように指示される場合があります。 現時点で利用できるオプションはFacebookのみです。
 
 1. facebook アカウントにログインします。
+
+   ポップアップ ブロックを削除してから、[**[!UICONTROL 更新]**] を使用して再試行してください。
 
 1. _[!UICONTROL 再接続]_ ポップアップ（Meta からAdobeへのシンボル）で、アカウント情報を確認して **[!UICONTROL 再接続]** をクリックします。
 
    再接続すると、GenStudio for Performance Marketingが表示されます。
 
 1. _[!UICONTROL メタ広告アカウントを接続]_ ビューで、1 つ以上の広告アカウントを選択し、**[!UICONTROL アカウントを接続]** をクリックします。
-<!--
->[!INFO]
->
->You may receive an error if you previously enrolled the channel account with GenStudio for Performance Marketing.
 
-The new user experience shows a banner to connect an account. There is not option to connect yet after you have one connection.
--->
+   [!DNL Insights] ページの下部に `Account successfully connected` バナーが表示されます。 データが使用可能になるまで数分かかる場合があります。
