@@ -1,12 +1,12 @@
 ---
 title: 有効なプロンプトの記述
-description: Adobe GenStudio for Performance Marketingの効果的なプロンプトを記述する方法を説明します。
+description: パフォーマンスマーケティング用の Adobe GenStudio の効果的なプロンプトを記述する方法について説明します。
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
 source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
