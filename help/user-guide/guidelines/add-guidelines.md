@@ -5,9 +5,9 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
+source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1543'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,10 @@ GenStudio for Performance Marketing では、Adobeのジェネレーティブ AI
    様々なオプションのガイドラインや画像を入力して、ブランドを構築できます。
 
 1. ブランドに関する情報を「説明 _セクションに追加_ ます。
-1. [_ブランドの音声ガイドライン_](brands.md#brand-voice-guidelines) を入力します。
+1. 音声ガイドライン [_[!DNL Brand] 入力してください _](brands.md#brand-voice-guidelines)。
+
+   ![ 音声ガイドライン [!DNL Brand] 追加 ](/help/assets/brand-voice-add.png){width="650" zoomable="yes"}
+
 1. 該当する各チャネルに [_チャネルガイドライン_](brands.md#channel-guidelines) を入力します。
 1. [_画像ガイドライン_](brands.md#image-guidelines) を入力します。 「画像ガイドライン」セクションの各カテゴリを展開すると、すべてのガイドラインが表示されます。
 
@@ -101,7 +104,9 @@ _[!DNL Brands]_ホームでは、[!DNL Brands] のアクションメニューの
 
 左側のナビゲーション領域で、「**[!DNL Products]**」をクリックします。 _[!DNL Products]_パネルで、「**製品を追加**」を選択します。
 
-パフォーマンスマーケティングのGenStudioに [!DNL Products] を追加して、コンテンツの作成時に製品の重点領域を個別に指定できます。<!-- Add Rename, display, reposition functionality -->
+![[!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"} を追加
+
+パフォーマンスマーケティングのGenStudioに [!DNL Products] を追加して、コンテンツの作成時に製品の重点領域を個別に指定できます。
 
 詳しくは、[[!DNL Products]](products.md) を参照してください。
 
@@ -212,7 +217,10 @@ _[!DNL Products]_ホームでは、**作成済みの[!DNL Product]**を開いて
 
    様々なオプションのガイドラインや画像を入力して、ペルソナを構築できます。
 
-1. ブランドに関する情報を「_説明_」セクションに追加します。
+1. [!DNL Persona] に関する情報を _説明_ セクションに追加します。
+
+   ![[!DNL Persona]](/help/assets/personas-add.png){width="650" zoomable="yes"} を追加
+
 1. **[!UICONTROL 新しいペルソナ名]** をクリックし、[!DNL Persona] の名前を入力します。
 1. _説明_ をクリックして、この [!DNL Persona] の説明を入力します。
 1. _メッセージング環境設定_ をクリックし、[!DNL Persona] ーザーのメッセージングの詳細を入力します。

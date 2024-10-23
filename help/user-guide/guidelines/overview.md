@@ -3,7 +3,7 @@ title: ' [!DNL Brands]、 [!DNL Products] および  [!DNL Personas] の概要'
 description: GenStudio for Performance Marketing [!DNL Brands], [!DNL Products], and [!DNL Personas]  追加して、ブランドの表示域のあらゆる側面を含む包括的なブランドプロファイルを作成します。
 feature: Guidelines, Brands Service, Personas Service, Products Service
 exl-id: 577c627b-0895-4958-a883-3133b4a3efde
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%

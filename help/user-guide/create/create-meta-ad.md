@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
+source-git-commit: bd24c4e25df1210dd6ff2b7f17f999963133294a
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,14 @@ ht-degree: 0%
 1. _パラメーター_ アイコンをクリックして、プロンプトドロワーを展開します。
 1. 「_パラメーター_」セクションで、ガイドライン（[!DNL Brands]、[!DNL Personas]、[!DNL Products]）を選択して、コンテンツの作成を通知します。
 
+   ![ ペルソナを選択 ](/help/assets/persona-select.png){width="600" zoomable="yes"}
+
    これらのメニューに表示されるブランド、ペルソナまたは商品がない場合は、[ パフォーマンスマーケティングのGenStudioにガイドラインを追加してください ](/help/user-guide/guidelines/add-guidelines.md)。
 
 1. コンテンツの生成に影響を与えるために、エクスペリエンス *および* で使用するコンテンツを追加します。
    * **[!UICONTROL コンテンツから選択]** をクリックして、[!DNL Content] リポジトリからアセット（画像）を選択し、1 つ以上の画像をフィルタリングして選択します。
+
+     ![ ビジュアルコンテンツを選択 ](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
 
      接続された [!DNL AEM Assets Content Hub] リポジトリのアセットを使用するには、_場所_ ドロップダウンメニューからリポジトリを選択します。 1 つ以上の画像のフィルタリングと選択
 
@@ -102,6 +106,8 @@ ht-degree: 0%
 1. バリアントの [**[!UICONTROL [!DNL Brand] guidelines check]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) アイコンをクリックすると、ブランドに対してチェックされたときのそのバリアントのパフォーマンスの概要が表示されます。
 1. 改善が必要なセクションとガイドラインの詳細を取得するには、**[!UICONTROL 確認]**_をクリックするか_ 上部のメニューバーにあるブランド検証アイコンをクリックして [_ブランド検証パネル_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel) を開きます。
 
+   ![ ブランド検証パネル ](/help/assets/brand-validation-panel-meta.png){width="600" zoomable="yes"}
+
 1. 各広告を切り替えて、生成されたコンテンツを改善してブランドに合わせる方法を確認します。
 1. [ 手動で広告を改訂 ](#revise-generated-meta-ads) して、広告がブランドと密接に連携していることを確認します。
 
@@ -114,6 +120,9 @@ ht-degree: 0%
 **レビューと承認を取得するには**:
 
 1. [ ドラフトのメタ広告エクスペリエンスの承認 ](/help/user-guide/approvals/request-review.md) を依頼する [ 承認リクエストの開始 ](/help/user-guide/approvals/approve-content.md)。
+
+   ![ レビューおよび承認用のドラフトの送信 ](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
+
 1. レビュープロセス中に [ レビュー担当者を削除または追加 ](/help/user-guide/approvals/review-and-edit.md#manage-approvals) できます。
 1. [ レビュー用にコンテンツにアクセス ](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) し、修正要求を表示します。
 1. レビューのコメントごとにドラフトを編集し [ メタ広告エクスペリエンスを公開 ](#publish-and-export-experience) します。

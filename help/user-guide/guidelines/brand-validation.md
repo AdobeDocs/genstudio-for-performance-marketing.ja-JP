@@ -3,9 +3,9 @@ title: パフォーマンスマーケティングにAdobe GenStudioしたブラ�
 description: GenStudio for Performance Marketing におけるビルトインのブランド検証システムの仕組みについて説明します。
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,13 @@ GenStudio for Performance Marketing では、次のような様々な側面か�
 * 様々なチャネルプラットフォーム向けのコピーガイドライン
 * AI が生成するコンテンツにおける性別、民族、人種、障害の地位、年齢に関する倫理的考慮事項
 
-## ブランドガイドラインの確認
+## [!DNL Brand] guidelines check
 
-生成されたコンテンツバリアントごとのブランド検証情報の概要には、キャンバスの各バリアントの横にある _ブランドガイドラインチェック_ アイコンからアクセスできます。
+生成された各コンテンツバリアントのブランド検証情報の概要には、キャンバスの各バリアントの横にある _[!DNL Brand]ガイドラインのチェック_ アイコンからアクセスできます。
 
-_ブランドガイドラインチェック_ には、「ブランド [ への準拠の割合が表示され ](brands.md) す。 割合は、検証に合格した [ ガイドライン ](overview.md) とテストしたガイドラインの数の比率として計算されます。
+_[!DNL Brand]のガイドラインのチェック_ は、[brand](brands.md) への準拠の割合が表示されます。 割合は、検証に合格した [ ガイドライン ](overview.md) とテストしたガイドラインの数の比率として計算されます。
+
+![[!DNL Brand] guidelines check](/help/assets/brand-guidelines-check.png){width="450" zoomable="yes"}
 
 アイコンをクリックして、ブランドに準拠しているガイドラインの数と、確認が必要なガイドラインの数を確認します。
 
@@ -33,6 +35,8 @@ _ブランドガイドラインチェック_ には、「ブランド [ への�
 ## ブランド検証パネル
 
 バリアントの上部のメニューバーで _または_ 「_ブランドガイドラインのチェック_」アイコンから _クリックすると、キャンバスの右側にブランド検証_ パネルが開きます。 このパネルは、詳細なブランド検証情報を提供し、各バリアントセクションの改善の機会を明らかにします。
+
+検証パ ![[!DNL Brand] ル ](/help/assets/brand-validation-panel.png){width="650" zoomable="yes"}
 
 _ブランド検証_ パネルには、次の情報が表示されます。
 

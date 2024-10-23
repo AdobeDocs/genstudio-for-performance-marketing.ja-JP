@@ -3,9 +3,9 @@ title: パフォーマンスマーケティング  [!DNL Products]GenStudio
 description: GenStudio for Performance マーケティング  [!DNL Products]  は、画像、説明、価値提案など、製品のあらゆる側面を取り込むことで、製品の長所を強調し、一貫したメッセージを提供できる、関連性の高いコンテンツを作成します。
 feature: Products Service, Guidelines
 exl-id: a9aee814-cca6-4973-a6db-842de7622a8a
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 GenStudio for Performance Marketing で [!DNL Products]、製品仕様、利点および差別化要因の深い理解を活用して、効果的なコンテンツを生成します。
 
 画像、説明、価値提案など、特定の製品のすべての要素を包含する [!DNL Products] とで、統一されたブランド表現を作成します。 Adobeの高度な AI テクノロジーを活用し、GenStudio for Performance Marketing Guidelines （[[!DNL Brands]、 [!DNL Products]、および  [!DNL Personas]](/help/user-guide/guidelines/overview.md)）が連携して、製品の長所を示し、すべてのメッセージング間で一貫性を確保する、説得力のあるコンテンツを生成します。
-
-GenStudio for Performance Marketing の ![[!DNL Products] ガイドライン ](/help/assets/products-guidelines.png){width="650" zoomable="yes"}
 
 **製品を表示または変更するには**:
 
@@ -29,6 +27,8 @@ GenStudio for Performance Marketing で商品を追加または変更する方�
 ## [!DNL Products] ガイドライン
 
 個々の商品ガイドラインは、GenStudio for Performance Marketingに商品の明確な全体像を提供します。
+
+![ 製品ガイドライン ](/help/assets/products.png){width="600" zoomable="yes"}
 
 このガイドラインでは、各ガイドラインのカテゴリと関連例について詳しく説明します。 例としては、生成されたコンテンツの出力を形成するサンプル入力があります。 これらを使用して、[!DNL Products] のガイドラインに通知します。
 

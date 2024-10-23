@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
+source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,14 @@ ht-degree: 0%
 1. _パラメーター_ アイコンをクリックして、プロンプトドロワーを展開します。
 1. 「_パラメーター_」セクションで、ガイドライン（[!DNL Brands]、[!DNL Personas]、[!DNL Products]）を選択して、コンテンツの作成を通知します。
 
+   ![ ペルソナを選択 ](/help/assets/persona-select.png){width="600" zoomable="yes"}
+
    これらのメニューに表示されるブランド、ペルソナまたは商品がない場合は、[ パフォーマンスマーケティングのGenStudioにガイドラインを追加してください ](/help/user-guide/guidelines/add-guidelines.md)。
 
 1. コンテンツの生成に影響を与えるために、エクスペリエンス *および* で使用するコンテンツを追加します。
    * **[!UICONTROL コンテンツから選択]** をクリックして、[!DNL Content] リポジトリからアセット（画像）を選択し、1 つ以上の画像をフィルタリングして選択します。
+
+     ![ ビジュアルコンテンツを選択 ](/help/assets/content-select-email.png){width="500" zoomable="yes"}
 
      接続された [!DNL AEM Assets Content Hub] リポジトリのアセットを使用するには、_場所_ ドロップダウンメニューからリポジトリを選択します。 1 つ以上の画像のフィルタリングと選択
 
@@ -51,8 +55,8 @@ ht-degree: 0%
 1. **[!UICONTROL 使用]** をクリックします。
 
 >[!NOTE]
->
 >メールテンプレートに複数のセクションがある場合、_複数セクションのメール_ の各メールセクションに [!DNL Products] とコンテンツ（ビジュアルアセット）を選択します。 複数セクションのメールで、セクションごとに 1 つのビジュアルアセットを使用できます。 [!DNL Content] から複数セクションのメールにビジュアルアセットのみを追加できます。ローカルソースからアセットをドラッグ&amp;ドロップまたはアップロードすることはできません。
+>![各メールセクションにコンテンツとパラメーターを追加し ](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"} す。
 
 パラメーターの追加が完了したら、「_パラメーター_」アイコンをもう一度クリックすると、プロンプトドロワーを折りたたむことができます。
 
@@ -98,9 +102,15 @@ ht-degree: 0%
 **ブランドの整合性を検証するには**:
 
 1. バリアントの [**[!UICONTROL [!DNL Brand] guidelines check]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) アイコンをクリックすると、ブランドに対してチェックされたときのそのバリアントのパフォーマンスの概要が表示されます。
+
+   ![ ブランドガイドラインの確認 ](/help/assets/brand-guidelines-check.png){width="350" zoomable="yes"}
+
 1. 改善が必要なセクションとガイドラインの詳細を取得するには、**[!UICONTROL 確認]**_をクリックするか_ 上部のメニューバーにあるブランド検証アイコンをクリックして [_ブランド検証パネル_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel) を開きます。
 
 1. 各メールを切り替えて、生成されたコンテンツを改善してブランドに合わせるようにする方法を確認します。
+
+   ![ ブランド検証パネル ](/help/assets/brand-validation-panel.png){width="600" zoomable="yes"}
+
 1. [ メールを手動で修正 ](#revise-generated-emails) し、メールがブランドと密接に連携するようにします。
 
 [ ブランド検証 ](/help/user-guide/guidelines/brand-validation.md) を参照してください。

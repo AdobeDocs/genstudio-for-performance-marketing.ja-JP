@@ -5,9 +5,9 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 94a3b4c764e29b84fc07620994913c528ffe0cdd
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ ht-degree: 0%
 ## プロンプトを入力
 
 ガイドラインを選択したら、自然言語を使用してプロンプトを作成し、新しいディスプレイとエクスペリエンスのコンテンツの生成を開始します。 生成されるディスプレイとエクスペリエンスの品質を高めるには、詳細で説明的なプロンプトを作成することが重要です。
+
+![ プロンプトを入力 ](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
 プロンプトの書き込みについて詳しくは、[ 効果的なプロンプトの書き込み ](/help/user-guide/effective-prompts.md) を参照してください。
 
@@ -115,6 +117,11 @@ When revising and preparing email experiences, you can toggle between previews f
 生成したディスプレイ広告を現在および将来の使用で使用できるようにするには、[!UICONTROL  コンテンツ ] に公開し、マーケティングキャンペーンで使用するために書き出します。
 
 1. **新しいディスプレイ広告エクスペリエンスを公開するには** 上部のツールバーまたは承認フロー内の **[!UICONTROL Publish]** をクリックします。
+   1. 「_[!UICONTROL [!DNL Campaigns]]_」を選択し、必要に応じて_[!UICONTROL  詳細 ]_を追加します。
+   1. 「**[!UICONTROL 公開する]**」をクリックします。
+
+      ![ ディスプレイ広告をPublish](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
+
 1. **新しいディスプレイ広告エクスペリエンスを書き出すには**、上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。
    1. フォーマット「JPGのみ」を選択し、「**[!UICONTROL エクスポート]**」をクリックします。
 

@@ -3,9 +3,9 @@ title: パフォーマンスマーケティング  [!DNL Personas]GenStudio
 description: GenStudio for Performance Marketing は  [!DNL Personas]  顧客セグメントを真に表現し、顧客の興味、問題点、好み、行動特性を取り込みます。
 feature: Personas Service, Guidelines
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 顧客の情報、関心、問題点、好み、行動特性など、顧客セグメントを真正に描写で [!DNL Personas] ます。
 
 GenStudio for Performance Marketing では、ガイドライン（[[!DNL Brands]、 [!DNL Products]、および  [!DNL Personas]](overview.md)）とAdobeのジェネレーティブ AI テクノロジーの機能を活用して、パーソナライズされたマーケティングコンテンツをターゲット顧客にキュレーション&#x200B;ます。
-
-GenStudio for Performance Marketing の ![[!DNL Personas] ガイドライン ](/help/assets/personas-guidelines.png){width="650" zoomable="yes"}
 
 **ペルソナの表示または変更**:
 
@@ -29,6 +27,8 @@ GenStudio for Performance Marketing でペルソナを追加または変更す�
 ## [!DNL Personas] ガイドライン
 
 個々のペルソナのガイドラインは、GenStudio for Performance Marketing が [!DNL Personas] ーザーの状況を明確に把握できるようにします。
+
+![ ペルソナのガイドライン ](/help/assets/personas.png){width="600" zoomable="yes"}
 
 このガイドラインでは、各ガイドラインのカテゴリと関連例について詳しく説明します。 例としては、生成されたコンテンツの出力を形成するサンプル入力があります。 これらを使用して、独自の [!DNL Personas] ガイドラインを伝えます。
 

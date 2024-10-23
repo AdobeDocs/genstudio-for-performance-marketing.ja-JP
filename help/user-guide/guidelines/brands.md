@@ -3,9 +3,9 @@ title: パフォーマンスマーケティング  [!DNL Brands]GenStudio
 description: GenStudio for Performance マーケティング  [!DNL Brands] 、マーケティングコピー、画像、エクスペリエンスなどのブランドアセットを包括的に集めたもので、ブランドに合わせたコンテンツの作成を通知します。
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '802'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ Brand Guideline ドキュメント（最大 3 つのPDFまたは DOC ファイ�
 ## [!DNL Brands] ガイドライン
 
 GenStudio for Performance Marketing のガイドラインでは、ブランド固有のアプローチ、トーン、視覚的感覚などを明確に把握できます。
+
+![ ブランドガイドライン ](/help/assets/brands.png){width="600" zoomable="yes"}
 
 次のガイドラインの節では、各ガイドラインのカテゴリ、例となるガイドライン、考えられる結果について詳しく説明します。 ガイドラインの例は、結果の出力を形作るサンプル入力です（以下の結果例）。それらを使用して、独自のブランドガイドラインを示します。
 
