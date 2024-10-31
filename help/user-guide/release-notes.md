@@ -2,9 +2,9 @@
 title: Adobe GenStudio for Performance Marketing リリースノート
 description: パフォーマンスマーケティング用の Adobe GenStudio の最新機能と機能強化について説明します。
 recommendations: noDisplay
-source-git-commit: c3e6e5f4213074b4093591ac06e8341c9d46c212
+source-git-commit: ea897aaf6069aa70ef73baf961f56e485eeb383e
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '369'
 ht-degree: 5%
 
 ---
@@ -13,7 +13,25 @@ ht-degree: 5%
 
 このリリース情報では、GenStudio for Performance Marketing アプリケーションの最新のアップデートについて詳しく説明します。
 
-## 2024.10.14 一般提供リリース {#latest}
+## 2024.10.31  {#latest}
+
+### 新機能
+
+* **[!DNL Content]** 検索フィルターで、カラータグによる検索がサポートされるようになりました。 <!-- GS-5501 -->
+
+* **[!DNL Create]** キャンバスにメールフラグメントの文字数が表示されるようになりました。<!-- GS-5819 -->
+
+### 修正
+
+* 不明なスクリーンリーダーラベルがモバイルおよびデスクトップの `view` 要素に追加されました。<!-- GS-5624 4729 -->
+
+* **[!DNL Create]** Canvas のメールの件名行とプリヘッダーのテキスト領域の高さが動的になりました。<!-- GS-6258 -->
+
+* E メール境界のレイアウトの問題が解決されました。<!-- GS-6631 -->
+
+* キーボードフォーカスが「**[!DNL Content]** 削除 **[!UICONTROL ボタンで期待どおりに機能するよう]** なりました。 以前は、このボタンに到達したり、キーボードで操作したりできませんでした。  <!-- GS-4065 -->
+
+## 2024.10.14 一般提供リリース
 
 このリリースでは、マーケティングキャンペーンの計画、開発、分析を加速させるジェネレーティブ AI ベースのアプリケーションであるAdobe GenStudio for Performance Marketingが導入されました。 GenStudio for Performance Marketingを使用すると、マーケティングチームは広告、メールおよびキャンペーン用にオンブランドのマルチチャネルコンテンツを作成でき、リアルタイムのインサイトを提供してコンテンツのパフォーマンスを最適化できます。
 
