@@ -4,9 +4,9 @@ description: Adobe GenStudio for Performance Marketingでのメールエクス�
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: cb700de090d6a2f6a6c75afcf8a4ba118ded9527
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -53,3 +53,9 @@ Content creators and marketers can produce brand-consistent email experiences in
 1. 見出し、メール本文（単一セクションのメールの場合）、コールトゥアクション
 1. 後続セクションのメール本文（複数セクションのメールの場合）
 1. ブランドの検証プロセスが発生し、各バリアントに [_ブランドガイドラインチェック_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) が入力されます。
+
+## 文字数
+
+E メールバリアントのセットを生成したら、各 E メールセクションに表示される文字数を確認できます。 件名行や本文など、生成されたセクションにポインタを合わせるかクリックすると、そのセクションのセクション名と文字数が表示されます。
+
+![ 文字数 ](/help/assets/character-count.png){width="500" zoomable="yes"}
