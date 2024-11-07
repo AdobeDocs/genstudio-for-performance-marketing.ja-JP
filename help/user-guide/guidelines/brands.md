@@ -1,32 +1,36 @@
 ---
-title: パフォーマンスマーケティング  [!DNL Brands]GenStudio
-description: GenStudio for Performance マーケティング  [!DNL Brands] 、マーケティングコピー、画像、エクスペリエンスなどのブランドアセットを包括的に集めたもので、ブランドに合わせたコンテンツの作成を通知します。
+title: GenStudio for Performance Marketing [!DNL Brands]
+description: GenStudio for Performance Marketing [!DNL Brands] 、マーケティングコピー、画像、エクスペリエンスなどのブランドアセットを包括的に集めたもので、ブランドに合わせたコンテンツの作成を通知します。
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
+source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 1%
 
 ---
 
-# Performance Marketing [!DNL Brands] 向けGenStudio
+# GenStudio for Performance Marketing [!DNL Brands]
 
 ブランドは、組織、製品、サービスまたは概念を他のブランドと区別します。 ブランドの側面には、ロゴのような客観的なものと、声のトーンのような主観的なものがあります。
 
-GenStudio for Performance Marketing は、自社ブランドの豊富なブランドインフォメーションを活用し、[!DNL Product] や [!DNL Persona] の情報と提携し、包括的なブランドアイデンティティを構築します。 このブランドアイデンティティは、Adobeの生成 AI テクノロジーを使用してオンブランドコンテンツの作成を通知するために使用されます。
+GenStudio for Performance Marketingは、ブランドから得た豊富なブランド情報を活用し、[!DNL Product] や [!DNL Persona] の情報と提携して、包括的なブランドアイデンティティを構築します。 このブランドアイデンティティは、Adobeの生成 AI テクノロジーを使用してオンブランドコンテンツの作成を通知するために使用されます。
 
-**ブランドを表示または変更するには**:
+## [!DNL Brands] の管理
 
-1. 左側のナビゲーション領域で、「**[!UICONTROL [!DNL Brands]]**」をクリックします。
-1. ブランドの概要情報を確認するには、定義済みのブランドをクリックして開きます。
-1. 個々の詳細を表示したり、ブランドを変更したりするには、上部の [**[!UICONTROL  ブランドの音声ガイドライン ]**](#brand-voice-guidelines)、[**[!UICONTROL  チャネルガイドライン ]**](#channel-guidelines)、**[!UICONTROL 画像ガイドライン]**、または **[!UICONTROL ロゴ]** をクリックします。
+ブランドガイドラインをGenStudio for Performance Marketingに追加した後、ガイドラインを [ 管理 ](/help/user-guide/guidelines/add-guidelines.md#manage-brands) および [ 公開 ](/help/user-guide/guidelines/add-guidelines.md#publish-brand) できます。 公開すると、チームがアセットの生成に使用できるようになります。
 
-Brand Guideline ドキュメント（最大 3 つのPDFまたは DOC ファイル）をGenStudio for Performance Marketing にアップロードして、ブランドを自動的に作成できます。 Performance Marketing 用にGenStudioにブランドを追加する方法、ブランドを変更する方法、ブランドを公開する方法については、[ ガイドラインの追加 ](add-guidelines.md) を参照してください。
+状態 [!DNL Brands]_ドラフト_ または _公開済み_ のいずれかです。 新規 [!DNL brands] は _ドラフト_ として開始します。
+
+チームがアセットを生成できるように、[!DNL brand] を公開する必要があります。
+
+公開済みの [!DNL brands] は編集でき、変更はすぐに使用可能になります。 コンテンツの作成と検証に使用できるのは、公開済みの [!DNL brands] のみです。
+
+削除された [!DNL brands] は 30 日間アーカイブされ、その期間内に復元できます。
 
 ## [!DNL Brands] ガイドライン
 
-GenStudio for Performance Marketing のガイドラインでは、ブランド固有のアプローチ、トーン、視覚的感覚などを明確に把握できます。
+ガイドラインは、ブランド固有のアプローチ、トーン、視覚的感覚などをGenStudio for Performance Marketingに明確に示します。
 
 ![ ブランドガイドライン ](/help/assets/brands.png){width="600" zoomable="yes"}
 
@@ -84,6 +88,6 @@ Add logos to your brand in the **[!UICONTROL Logos]** tab.
 
 ## ブランドの検証
 
-GenStudio for Performance Marketing では、ブランドの検証は、[!DNL Brands]、[!DNL Products]、[!DNL Personas] の生成 AI 機能と組み合わせて重要な役割を果たします。 これにより、すべてのコンテンツとブランドアイデンティティの一貫性を維持できます。
+GenStudio for Performance Marketingでは、ブランドの検証は、[!DNL Brands]、[!DNL Products]、[!DNL Personas] の生成 AI 機能と組み合わせて重要な役割を果たします。 これにより、すべてのコンテンツとブランドアイデンティティの一貫性を維持できます。
 
 [ ブランド検証 ](/help/user-guide/guidelines/brand-validation.md) を参照してください。

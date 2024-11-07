@@ -1,24 +1,24 @@
 ---
-title: Performance Marketing のAdobe GenStudioへのガイドラインの追加
-description: Performance Marketing にAdobe GenStudioしてガイドライン（[!DNL Brands]、 [!DNL Products]、 [!DNL Personas]）を追加する方法を説明します。
+title: Adobe GenStudio for Performance Marketingへのガイドラインの追加
+description: Adobe GenStudio for Performance Marketingでガイドライン（[!DNL Brands]、 [!DNL Products]、 [!DNL Personas]）を追加する方法を説明します。
 feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
+source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1651'
 ht-degree: 1%
 
 ---
 
 # ガイドラインの追加
 
-[[!DNL Brands]](/help/user-guide/guidelines/brands.md)、[[!DNL Products]](/help/user-guide/guidelines/products.md) および [[!DNL Personas]](/help/user-guide/guidelines/personas.md) は、GenStudio for Performance Marketing のユーザー定義のガイドラインで、AI で生成されたコンテンツをブランドアイデンティティに合わせてカスタマイズすることにより、コンテンツを効果的にパーソナライゼーションできるようにします。
+[[!DNL Brands]](/help/user-guide/guidelines/brands.md)、[[!DNL Products]](/help/user-guide/guidelines/products.md)、[[!DNL Personas]](/help/user-guide/guidelines/personas.md) は、GenStudio for Performance Marketingでユーザー定義のガイドラインであり、AI で生成されたすべてのコンテンツをブランドアイデンティティに合わせてカスタマイズすることにより、コンテンツを効果的にパーソナライゼーションできるようにします。
 
 [ ガイドラインの概要 ](/help/user-guide/guidelines/overview.md) を参照してください。
 
-Performance Marketing のGenStudioにガイドラインを追加することは、作成プロセスの重要な手順です。 ガイドラインは、ユーザー定義のプロンプトやAdobe生成 AI テクノロジーと共に、コンテンツ作成プロセスに情報を提供し、効果的なアセットを作成します。
+GenStudio for Performance Marketingへのガイドラインの追加は、作成プロセスの重要な手順です。 ガイドラインは、ユーザー定義のプロンプトやAdobe生成 AI テクノロジーと共に、コンテンツ作成プロセスに情報を提供し、効果的なアセットを作成します。
 
 ## [!DNL Brands] の追加
 
@@ -44,7 +44,7 @@ Performance Marketing のGenStudioにガイドラインを追加することは�
 
 1. **[!UICONTROL ブランドを追加]** を選択します。
 
-GenStudio for Performance Marketing では、Adobeのジェネレーティブ AI テクノロジーを使用して、アップロードされたドキュメントから情報を抽出し、ブランドの構築を開始します。 ブランドドキュメントの各ガイドラインが組み立てられると、ブランドの声、チャネル、画像のガイドラインなどのブランド情報が表示されます。
+GenStudio for Performance Marketingは、Adobeのジェネレーティブ AI テクノロジーを使用して、アップロードされたドキュメントから情報を抽出し、ブランドの構築を開始します。 ブランドドキュメントの各ガイドラインが組み立てられると、ブランドの声、チャネル、画像のガイドラインなどのブランド情報が表示されます。
 
 [ ブランドを公開 ](#publish-brand) する前に、抽出したコンテンツを確認するように促すポップアップが表示されます。
 
@@ -72,31 +72,46 @@ GenStudio for Performance Marketing では、Adobeのジェネレーティブ AI
 
 作成した [!DNL Brands] を表示するには、「_ブランド_ パネルの上部付近にある背面矢印をクリックして、_[!DNL Brands]_ホームに戻ります。
 
-情報にアクセスできるようブランドを [ 公開 ](#publish-brand) する必要はありません。 手動で追加した情報は、追加後直ちに使用できます。 組織内の他のユーザーがGenStudioの Performance Marketing 用のブランド情報を使用するには、その情報を公開する必要があります。
+情報にアクセスできるようブランドを [ 公開 ](#publish-brand) する必要はありません。 手動で追加した情報は、追加後直ちに使用できます。 組織内の他のユーザーがGenStudio for Performance Marketingのブランド情報を使用するには、その情報を公開する必要があります。
 
 ### Publishブランド
 
 ブランドを公開する前に、_ブランドの音声ガイドライン_、_チャネルガイドライン_、_画像ガイドライン_、_ロゴ_ の各セクションをクリックして、入力されたすべての情報を確認します。 必要に応じて、ブランドガイドラインを変更します。
 
-**ブランドを公開するには**:
+**ブランドガイドラインのドラフトを公開するには**:
 
+1. 左側のナビゲーション領域で、「**[!UICONTROL [!DNL Brands]]**」をクリックします。
+
+   現在公開されているすべてのブランドに _公開済み_ バッジが表示されます。
+
+1. クリックすると、非公開のブランドが開きます。 ブランドが公開されていない場合は、「**[!UICONTROL Publish]**」ボタンが表示されます。
+1. _Publish ブランド_ のポップアップで、公開されたブランドを表示および使用するアクセス権を持つユーザーを確認します。
 1. 「**[!UICONTROL 公開]**」を選択します。
+1. 表示される _Publish ブランド_ ポップアップで、「**[!UICONTROL Publish]**」を選択します。
 
-   _Publish ブランド_ のポップアップで、公開されたブランドへのアクセス権（表示および使用）を持つユーザーを確認します。
+   ポップアップで、ブランドが公開されたことが確認されます（「新しいブランドの準備が整いました」）。
 
-1. 「**[!UICONTROL 公開する]**」をクリックします。
+1. 「**[!UICONTROL 完了]**」をクリックしてポップアップを終了します。
 
-ブランドが公開されると、ブランドが使用できる状態であることを確認するバナーが表示されます。*ブランドが公開され、使用可能*」。
+ブランドに緑の点と「公開済み」が表示され、「**[!UICONTROL Publish]**」ボタンが表示されます。
+
+**公開済みのブランドを非公開にするには**、クリックして開き、**[!UICONTROL Publish]** をクリックします。
 
 公開されたブランドを _[!DNL Create]_または_[!DNL Content]_ で使用できるようになりました。
 
 ### [!DNL Brands] の管理
 
-_[!DNL Brands]_ホームでは、[!DNL Brands] のアクションメニューのリストで&#x200B;**作成済みのブランドを開く**をクリックして、編集またはレビューするか、**ブランドの名前を変更**または&#x200B;**ブランドを削除**をクリックできます。
+_[!DNL Brands]_ホームで、クリックして、既に作成されているブランドを開き、管理または公開できます。
 
-* ブランドタイルをクリックしてブランドを開きます。
-* 既存のペルソナの名前を変更するには、[!DNL Brands] のアクションメニューから「**[!UICONTROL 名前を変更]**」を選択します。
-* ブランドを削除するには、[!DNL Brands] のアクションメニューから **[!UICONTROL 削除]** を選択します。
+**ブランドを表示または変更するには**:
+
+1. 左側のナビゲーション領域で、「**[!UICONTROL [!DNL Brands]]**」をクリックします。
+1. ブランドの概要情報を確認するには、定義済みのブランドをクリックして開きます。
+1. 個々の詳細を表示したり、ブランドガイドラインを変更したりするには、上部にある [**[!UICONTROL  ブランドの音声ガイドライン ]**](#brand-voice-guidelines)、[**[!UICONTROL  チャネルガイドライン ]**](#channel-guidelines)、**[!UICONTROL 画像ガイドライン]**、**[!UICONTROL ロゴ]** をクリックします。
+1. 既存のブランドの名前を変更するには、[!DNL Brands] のアクションメニューから **[!UICONTROL 名前を変更]** を選択します。
+1. ブランドを削除するには、[!DNL Brands] のアクションメニューから **[!UICONTROL 削除]** を選択します。
+
+ブランドガイドラインドキュメント（最大 3 つのPDFまたは DOC ファイル）をGenStudio for Performance Marketingにアップロードして、ブランドを自動的に作成できます。
 
 ## [!DNL Products] の追加
 
@@ -106,7 +121,7 @@ _[!DNL Brands]_ホームでは、[!DNL Brands] のアクションメニューの
 
 ![[!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"} を追加
 
-パフォーマンスマーケティングのGenStudioに [!DNL Products] を追加して、コンテンツの作成時に製品の重点領域を個別に指定できます。
+GenStudio for Performance Marketingで [!DNL Products] を追加して、コンテンツの作成時に製品の重点領域を個別に指定できます。
 
 詳しくは、[[!DNL Products]](products.md) を参照してください。
 
@@ -176,7 +191,7 @@ _[!DNL Products]_ホームでは、**作成済みの[!DNL Product]**を開いて
 
 左側のナビゲーション領域で、「**[!DNL Personas]**」をクリックします。 _[!DNL Personas]_パネルで、「**ペルソナを追加**」を選択します。
 
-作成するコンテンツを理想的なオーディエンスにターゲット設定するのに役立つ [!DNL Persona] ールをGenStudioのパフォーマンスマーケティング用に追加できます。
+GenStudio for Performance Marketingで [!DNL Persona] を追加すると、作成するコンテンツを理想的なオーディエンスにターゲット設定するのに役立ちます。
 
 詳しくは、[[!DNL Personas]](personas.md) を参照してください。
 
