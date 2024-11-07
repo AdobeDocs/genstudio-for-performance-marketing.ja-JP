@@ -5,7 +5,7 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
+source-git-commit: 5cd6abba1f56c9a2875c7e7dc5b94a353fc5e78e
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 1. _パラメーター_ アイコンをクリックして、プロンプトドロワーを展開します。
 1. 「_パラメーター_」セクションで、ガイドライン（[!DNL Brands]、[!DNL Personas]、[!DNL Products]）を選択して、コンテンツの作成を通知します。
 
-   これらのメニューに表示されるブランド、ペルソナまたは商品がない場合は、[ パフォーマンスマーケティングのGenStudioにガイドラインを追加してください ](/help/user-guide/guidelines/add-guidelines.md)。
+   これらのメニューから利用できるブランド、ペルソナ、製品がない場合は、[GenStudio for Performance Marketingにガイドラインを追加 ](/help/user-guide/guidelines/add-guidelines.md) します。
 
 1. エクスペリエンス *および* で使用するコンテンツを追加して、コンテンツの生成に影響を与えるには、次のようにします。
    * **[!UICONTROL コンテンツから選択]** をクリックして、[!DNL Content] リポジトリからアセット（画像）を選択し、1 つ以上の画像をフィルタリングして選択します。
@@ -65,7 +65,7 @@ ht-degree: 0%
 1. _生成するエクスペリエンスを記述」_ プロンプトボックスにプロンプトを入力します。
 1. 「**[!UICONTROL 生成]**」をクリックします。
 
-デフォルトでは、追加したプロンプト、ガイドラインおよびコンテンツに基づいて 1 つのバリエーションが生成され、キャンバスに表示されます。
+デフォルトでは、4 つのバリエーション（追加したプロンプト、ガイドラインおよびコンテンツに基づく）が生成され、キャンバスに表示されます。
 
 ## 生成されたディスプレイ広告を変更
 

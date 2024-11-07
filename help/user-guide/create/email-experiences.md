@@ -4,9 +4,9 @@ description: Adobe GenStudio for Performance Marketingでのメールエクス�
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: cb700de090d6a2f6a6c75afcf8a4ba118ded9527
+source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 Adobe GenStudio for Performance Marketingでは、ジェネレーティブ AI を使用して [ 効果的なメールエクスペリエンスの作成 ](/help/user-guide/create/create-email-experience.md) を合理化できます。
 
 [!DNL Create] を使用すると、最新のマーケターは [ ガイドライン ](/help/user-guide/guidelines/overview.md)、画像アセット、および [ 適切に作成されたプロンプト ](/help/user-guide/effective-prompts.md) を使用して、ブランドに合ったメールエクスペリエンスをすばやく [ 作成 ](/help/user-guide/create/create-email-experience.md) できます。
+
+メタエクスペリエンスを生成する際には、4 つのバリエーションが作成され、キャンバスに表示されます。
 
 メールエクスペリエンスの編集可能なセクションには、次のものが含まれます。
 
