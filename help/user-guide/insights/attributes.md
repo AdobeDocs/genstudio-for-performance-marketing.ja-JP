@@ -1,10 +1,11 @@
 ---
 title: 属性の概要
 description: Adobe GenStudio for Performance Marketingで特定の属性のパフォーマンスを評価する方法について説明します。
-feature: Insights, Assets
-source-git-commit: 87a8833549569aaeaa60f5760b4e9a8b710a6033
+feature: Insights, Attributes
+exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
+source-git-commit: d6ea1a34a8679ae958fb184e40ad0673abbab0a4
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -31,82 +32,15 @@ GenStudio for Performance Marketingは、特定の機能を検出し、適切な
 
 ## カテゴリ
 
-GenStudio for Performance Marketingでは、画像、ビデオおよびテキストの特定の機能を認識し、機能タグをアセットに適用します。 _カテゴリ_ は、特定の特性を共有する一連の機能です。 _image orientation_ の値の例は `landscape` です。
+GenStudio for Performance Marketingでは、画像、ビデオおよびテキストの特定の機能を認識し、機能タグをアセットに適用します。 _カテゴリ_ は、特定の特性を共有する一連の機能です。 例えば、_画像の向き_ カテゴリには、`landscape`、`portrait` または `square` の値があります。
 
-検出され、自動的に適用された属性は編集できません。
+検出され、自動的に適用されたタグは編集できません。
 
-<!--
-Select any of the following to open a detailed list of feature categories:
+画像、ビデオおよびテキスト機能の詳細なリストについては、[ 属性カテゴリ ](/help/user-guide/insights/attribute-category.md) を参照してください。
 
-+++**Image features**
-
-| Category               | Values                              |
-| ---------------------- | ----------------------------------- |
-| Background Colors      | 14 colors |
-| Camera Position        | - `low angle`, `high angle`, `dutch angle`<br>- `overhead view`, `eye level`,`bird's eye view` |
-| Camera Proximity       | `close up`, `mid shot`, `long shot` |
-| Camera Setting         | - `fast shutter speed`, `long exposure`, `double exposure`<br>- `normal mode`, `flash`, `macro`, `wide-angle`<br>- `black and white`, `surreal`<br>- `bokeh blur`, `motion blur`, `tilt-shift blur` |
-| Foreground Colors      | 14 colors |
-| Image Type             | `photograph`, `sketch`, `painting`, `digital cartoon`, `infographics`, `graphic design`, `collage`, `screenshot` |
-| Lighting Condition     | golden hour, blue hour, midday, overcast, night, high-key, low-key, daylight, incandescent, fluorescent, colorful, studio |
-| Objects                | The items, entities, and elements that are visible, such as `lighthouse`, `orchid`, or `tunnel`. |
-| Orientation            | Examples: `landscape`, `portrait`, `square` |
-| Overall Tone           | `warm`, `cool`, `neutral` |
-| People Categories      | Examples: `person`, `social group`, `people`, `kid` |
-| Photography Styles     | `aerial photography`, `aerial photography`, `architectural photography`, `astrophotography`, `black and white photography`, `business photography`, `cityscape photography`, `commercial photography`, `composite photography`, `creative photography`, `editorial photography`, `event photography`, `family photography`, `fashion photography`, `fine art photography`, `food photography`, `holiday photography`, `indoor photography`, `landscape photography`, `lifestyle photography`, `macro photography`, `minimalist photography`, `night photography`, `outdoor photography`, `pet photography`, `portrait photography`, `product photography`, `real estate photography`, `seascape photography`, `sports photography`, `still-life photography`, `street photography`, `travel photography`, `underwater photography`, `wildlife photography` |
-| Scenes                 | Examples: `city`, `island`, `living room` |
-| Tags                   | Examples: `gaming`, `law`, `yoga` |
-| Visual Attention Spread| The level of viewer attention spread across an image: `high`, `low` |
-| Visual Content Density | The amount of information or detail in an image: `high`, `low` |
-
-+++
-
-+++**Video features**
-
-| Category               | Values                              |
-| ---------------------- | ----------------------------------- |
-| Audio Genre  | |
-| Audio Genre Category  | |
-| Audio Mood  | |
-| Audio Types| |
-| Objects  | |
-| Orientation  | |
-| People Categories  | |
-| Scenes  | |
-| Styles  | |
-| Tags   | |
-| Video Category  | |
-| Video Type  | |
-
-+++
-
-+++**Text features**
-
-| Category               | Values                              |
-| ---------------------- | ----------------------------------- |
-| Emojis Count  | |
-| HashTags Count  | |
-| Keywords  | |
-| Marketing Emotions  | |
-| Narratives  |  |
-| Persuasion Strategies  |  |
-| Readability  | |
-| Sentences Count  | |
-| Stop Words Ratio  | |
-| Text Quotes Count  | |
-| Tones  | |
-| Words Count  | |
-| Words Count Per Sentence  | |
-
-+++
-
--->
-
-## 属性指標
+## 属性のパフォーマンス
 
 インサイト指標は、どの属性がより顧客エンゲージメントを高めるかを評価するのに役立ちます。
-
-### 指標の詳細
 
 次の表に、[!UICONTROL  属性 ] テーブルビューでの主要なデジタルマーケティング指標の定義とインサイトを示します。 各指標には、アセットに関連する簡単な定義、指標の計算方法、広告キャンペーンに対する重要性と影響を理解するのに役立つ 1 つ以上のインサイトが含まれます。
 
@@ -119,7 +53,7 @@ Select any of the following to open a detailed list of feature categories:
 | **[!UICONTROL インプレッション]** | この属性を持つ画像またはビデオが、インタラクションや表示に関係なく、チャネルに読み込まれるたびに発生する回数。 | インプレッション数が多い場合は、幅広い可視性を示すことがありますが、真のパフォーマンスインサイトを得るには、他のエンゲージメント指標の使用を検討してください。 |
 | **[!UICONTROL クリック数]** | ユーザーがこの属性を使用して画像またはビデオを操作した回数。 | クリック数が多い場合は、コンテンツに対する強い関心とエンゲージメントを示し、効果的で適切なオーディエンスに届く可能性があります。 |
 | **[!UICONTROL CTR ]**<br>_クリックスルー率_ | この属性を持つ画像またはビデオのクリックにつながるインプレッション数の割合（%）。<br>**計算**:`clicks` を `impressions` で割ったもの | クリックスルー率が高い場合は、コンテンツの関連性が高く、メッセージの発信とデザインにオーディエンスに対する動機となり、オーディエンスの関心を効果的にターゲティングしていることを示します。 |
-| **[!UICONTROL CPM ]**<br>_1 千あたりのコスト_ | この属性を持つ画像またはビデオの 1000 件ごとの広告インプレッションのコスト（$）。<br>**計算**：合計金額 `spent` リーチで割り、さらに 1,000 を掛けます | 特に、クリックスルー率が高い場合は、値を小さくすると、コスト効率の高い表示を示す可能性があります。 |
-| **[!UICONTROL アクションあたり ]**<br>_CPA コスト_ | 購入や購読など、特定の顧客アクションの達成に費やした平均コスト（$）。<br>**計算**：合計金額 `spent` 顧客処理の完了数で割った値 | 顧客の貴重なアクションにつながる属性を特定するのに役立ちます。 |
-| **[!UICONTROL CPC ]**<br>_クリックあたりのコスト_ | この属性を持つ画像またはビデオの各クリックに関連する平均コスト （$）。<br>**計算**：合計金額 `spent` を `clicks` で割った値 | 平均コストが低いと、特にコンバージョンの増加と比較した場合、コスト効率の高い広告費用が発生する可能性があります。 |
-| **[!UICONTROL 費用]** | 一定期間の属性に関連する予算からの支出額（$）。 | 短期間に支出額が多いと、急激な使用が示唆され、リソースの早期枯渇につながる可能性があります。 主要なパフォーマンス指標に対する支出額を追跡し、全体的な ROI を監視するのに役立ちます。 |
+| **[!UICONTROL CPM ]**<br>_1 千あたりのコスト_ | この属性を持つ画像またはビデオの 1000 件の広告インプレッションごとに発生するコスト。<br>**計算**：合計金額 `spent` リーチで割り、さらに 1,000 を掛けます | 特に、クリックスルー率が高い場合は、値を小さくすると、コスト効率の高い表示を示す可能性があります。 |
+| **[!UICONTROL アクションあたり ]**<br>_CPA コスト_ | 購入や購読など、特定の顧客アクションを達成するために費やした平均コスト。<br>**計算**：合計金額 `spent` 顧客処理の完了数で割った値 | 顧客の貴重なアクションにつながる属性を特定するのに役立ちます。 |
+| **[!UICONTROL CPC ]**<br>_クリックあたりのコスト_ | この属性を持つ画像またはビデオの各クリックに関連する平均コスト。<br>**計算**：合計金額 `spent` を `clicks` で割った値 | 平均コストが低いと、特にコンバージョンの増加と比較した場合、コスト効率の高い広告費用が発生する可能性があります。 |
+| **[!UICONTROL 費用]** | 指定された期間の属性に関連する予算からの支出金額。 | 短期間に支出額が多いと、急激な使用が示唆され、リソースの早期枯渇につながる可能性があります。 主要なパフォーマンス指標に対する支出額を追跡し、全体的な ROI を監視するのに役立ちます。 |
