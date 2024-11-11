@@ -3,16 +3,17 @@ title: Adobe GenStudio for Performance Marketingのプロビジョニング
 description: GenStudio for Performance Marketing製品のプロビジョニングについて説明します。
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
-source-git-commit: 3e9a2a4f42ba79389691705c571bf6bbd0b990c5
+exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
+source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
 
 # Adobe GenStudio for Performance Marketingのプロビジョニング
 
-製品プロビジョニングは、組織のGenStudio for Performance Marketing インスタンスの 1 回限りの設定です。 Adobeシステム管理者は、[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) でこれらの初期プロビジョニングタスクを実行します。 Admin Consoleから、Adobeシステム管理者はGenStudio製品プロファイルにアクセスし、使用可能な製品ライセンスをユーザーに割り当てることができます。
+Adobeシステム管理者は、[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) で初期プロビジョニングタスクを実行します。 Admin Consoleから、Adobeシステム管理者はGenStudio製品プロファイルにアクセスし、使用可能な製品ライセンスをユーザーに割り当てることができます。
 
 >[!NOTE]
 >

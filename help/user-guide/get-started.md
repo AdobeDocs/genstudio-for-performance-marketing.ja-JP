@@ -4,9 +4,9 @@ description: GenStudio for Performance Marketingの使用を開始して、ブ�
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 6454090c9fffb4b288b615680597b80e5b71a89c
+source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ GenStudio for Performance Marketingは、ブランドと市場に関する情報
 
 * 冗長性を避けます。 ディレクティブを複数回繰り返したくなるかもしれませんが、ガイドラインの冗長性は、基になる LLM がブランドガイドラインを取り込んで実装するのに役立つわけではありません。
 
-* コンテンツ生成時に LLM で除外する要素を識別します（テキスト内の感嘆符など）
+* コンテンツ生成時に LLM で除外する要素を識別します（テキスト内の感嘆符など）。
 
 ガイドラインのドキュメントをアップロードすることも、GenStudio for Performance Marketingに手動で情報を入力する際に参照することもできます。 この情報をアップロードまたは入力する方法については、[ ガイドラインの追加 ](./guidelines/overview.md) を参照してください。
 
@@ -49,16 +49,28 @@ GenStudio for Performance Marketingは、ブランドと市場に関する情報
 
 GenStudio システムマネージャーは、組織固有のブランド要件を手動で入力またはアップロードすることで、製品の基盤となるジェネレーティブ AI フレームワークを準備できます。 組織のブランドガイドラインの設定は 1 回限りのアクションですが、組織のボラティリティ、成長および市場状況の変化に基づいて、これらのガイドラインを改訂および強化することができます。
 
-### 手順 2：テンプレートのアップロード
+## 手順 2:GenStudio [!DNL Brands] 用のAdobe Admin Console プロジェクトの設定
+
+システム管理者は、共同作業者が [!DNL Brands] を編集または作成する前に、追加のセットアップ タスクを完了する必要があります。 Adobeシステム管理者は、Adobe Admin Consoleで次のタスクを実行します。
+
+* 権限の編集と作成を必要とするすべてのユーザーを含む新しいユーザーグループ [!DNL Brands] 作成します。
+
+* Adobe Admin Consoleで新規プロジェクトを作成します。
+
+[ ブランド権限の割り当て ](configure-brand-permissions.md) を参照してください。
+
+### 手順 3：テンプレートのアップロード
 
 テンプレートを使用すると、コンテンツを迅速に作成できます。 テンプレートには、ヘッダーやフッターなど、承認済みの機能が含まれており、特定のチャネル用に最適化されています。 通常、システムマネージャーは組織のテンプレートをアップロードおよび管理します。 コンテンツエディターは、テンプレートを使用して、組織ブランドの確立された境界内でコンテンツ作成プロセスを迅速に開始します。
 
-テンプレートのカスタマイズとアップロードについては、[ テンプレートの操作 ](./content/use-templates.md) を参照してください。
+[ テンプレートの操作 ](./content/use-templates.md) を参照してください。
 
-### 手順 3：承認されたアセットのアップロード
+### 手順 4：承認されたアセットのアップロード
 
-[!DNL Content] の承認済みアセットは、すべてのGenStudio for Performance Marketing エディターが使用できます。 コンテンツエディターが新しいエクスペリ [!DNL Content] ンスやアセットの作成に使用するアセットを、アセットに入力することができます。 アセットのアップロードと管理については、[ 承認済みアセットのアップロード ](./content/manage-assets.md) を参照してください。
+[!DNL Content] の承認済みアセットは、すべてのGenStudio for Performance Marketing エディターが使用できます。 コンテンツエディターが新しいエクスペリ [!DNL Content] ンスやアセットの作成に使用するアセットを、アセットに入力することができます。
 
-### 手順 4:Meta （Facebook）アカウントへの接続
+[ 承認済みアセットのアップロード ](./content/manage-assets.md) を参照してください。
+
+### 手順 5:Meta （Facebook）アカウントへの接続
 
 GenStudio for Performance Marketingと組織のソーシャルアカウントの間の接続を設定して、アクティブなマーケティングキャンペーン、アセットおよびエクスペリエンスからデータを受け取ります。 [[!DNL Insights]](./insights/overview.md) は、チャネルから派生したデータを分析するツールを提供します。 [Meta （Facebook）アカウントへの接続 ](./insights/connect-channel.md#meta-ads-connect) を参照してください。
