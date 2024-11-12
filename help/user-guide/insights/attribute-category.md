@@ -3,9 +3,11 @@ title: 属性カテゴリ
 description: GenStudio for Performance Marketingで使用される属性カテゴリについて説明します。
 feature: Insights, Attributes, Generative AI
 recommendations: noDisplay
-source-git-commit: 3b5fc55595f766db0327b6aefb0e29c3896e00c0
+last-substanial-update: 2024-11-11T00:00:00Z
+exl-id: c3b51ef2-56ac-4dd8-98b7-79185b5998d0
+source-git-commit: 13b5e63afffc5a88d6d8c98fddac6d2d85f6e862
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '607'
 ht-degree: 2%
 
 ---
@@ -14,7 +16,7 @@ ht-degree: 2%
 
 属性カテゴリは、共通の特性を共有する関連属性を整理する分類グループです。 これらのカテゴリは、より詳細なコンテキストを提供し、それらのアプリケーションと使用を容易にすることで、特定の属性の検出、識別、理解を合理化するのに役立ちます。
 
-GenStudio for Performance Marketingは、Adobeの AI および機械学習機能を使用して、画像、ビデオおよびテキストを調査し、信頼性のレベルに基づいて [!UICONTROL  アセット属性 ] を適用します。 _信頼性_ とは、AI が予測または分類に割り当てる確率を指します。 機械学習のコンテキストでは、分類が正しいという AI の「自信」を測定する一種のスコアリングです。 信頼性スコアリングが高いほど、確実性が高くなります。 例えば、画像を分析する際に、AI は複数の機能を識別し、それぞれにスコアを割り当てて、その機能が正しいことの信頼性を示す場合があります。 アセットの属性リストは完全なものではありません。 豊富な機能セットを含むAssetsは、特定された 3 つの最も支配的な機能など、信頼性のしきい値に制限される場合があります。
+GenStudio for Performance Marketingは、Adobeの AI および機械学習機能を使用して、画像、ビデオおよびテキストを調査し、正確性の可能性に基づいて [!UICONTROL  アセット属性 ] を適用します。 アセットの属性リストは完全なものではありません。 豊富な機能セットを含むAssetsは、AI によって特定された 3 つの最も支配的な機能に制限される場合があります。
 
 ## 画像機能
 
