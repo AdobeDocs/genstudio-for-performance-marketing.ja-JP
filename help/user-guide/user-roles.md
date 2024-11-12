@@ -4,9 +4,9 @@ description: GenStudio for Performance Marketingのユーザーの役割と権�
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
+source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1115'
 ht-degree: 10%
 
 ---
@@ -32,6 +32,10 @@ ht-degree: 10%
 ## 使用権限
 
 _使用権限_ 特定のタスクを実行する権限と保護されたリソースにアクセスする権限を付与します。 エンタイトルメント（権限）は、製品プロファイル内のユーザーの役割で定義され、ユーザーはその役割に割り当てられると、これらのエンタイトルメントを受け取ります。
+
+>[!IMPORTANT]
+>
+>既存の製品プロファイルを新規作成したり、編集または削除したりしないでください。 デフォルトの製品プロファイルを変更すると、GenStudio for Performance Marketingのデプロイメントが大幅に中断する可能性があります。
 
 ## ユーザーの役割
 
