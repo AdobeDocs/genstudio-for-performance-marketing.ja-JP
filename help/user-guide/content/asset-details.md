@@ -3,9 +3,9 @@ title: アセットの詳細
 description: Adobe GenStudio for Performance Marketingでは、検索性とパフォーマンストラッキングのために、リッチなメタデータを使用して承認済みコンテンツを格納します。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: edd27a6151cb81213ee27813beb4ecee835a1229
+source-git-commit: a2c2a39a8ed69a36c7126312ac42f6e02dd0598e
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '735'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,19 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 ## Express で編集
 
 Adobe Expressを使用して、GenStudio for Performance Marketing内で画像アセット（JPGまたは PNG）を直接編集できます。 _[!UICONTROL Adobe Expressを利用]_ キャンバスには、GenStudio アプリケーションを離れることなく画像を強化できる便利な機能が用意されています。 背景の削除、ジェネレーティブフィルの適用、エフェクトの調整、画像の切り抜きを簡単に行うことができます。
+
+>[!BEGINSHADEBOX]
+
+[!DNL Edit in Adobe Express] の機能を使用して画像を強化するための条件：
+
+- サポートされる MIME タイプには `image/png` と `image/jpeg` があります
+- 画像の最小寸法は 50 x 50 ピクセルです
+- 画像の最大サイズは 8000 x 8000 ピクセルです
+- 最大サイズは 40 MB （40,000,000 バイト）です
+
+>[!ENDSHADEBOX]
+
+**Express でアセットを編集するには**:
 
 1. _[!DNL Content]_で、画像アセットを選択します。 アセットをクリックすると、そのアセットのフォーカスされたビューが開きます。
 
@@ -91,7 +104,7 @@ Adobe Expressを使用して、GenStudio for Performance Marketing内で画像�
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) がGenStudio for Performance Marketingに追加されて使用されるようになりました |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) がGenStudio for Performance Marketingに追加されて使用されるようになりました |
 | チャネル | メールやメタ広告など、アセットが使用されるGenStudio for Performance Marketingのコンテンツタイプ |
-| 期間 | 四半期、シーズン、年など、使用したアセットの期間。 例：`Winter 2023` |
+| 期間 | 四半期、シーズン、年など、アセットを使用する期間。 例：`Winter 2023` |
 | 地域  | アセットが使用される地域。 例：`North America`, `APAC`, `Italy` |
 | 言語 | アセットを使用する言語。 例：`Spanish` |
 | キーワード | 資産の特性や目的の絞り込みに活用するキーワード |
