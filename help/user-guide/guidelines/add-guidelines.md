@@ -5,7 +5,7 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
+source-git-commit: b644a69fd63c8b1deaf42736659dfe9b3b6bd8ab
 workflow-type: tm+mt
 source-wordcount: '1651'
 ht-degree: 1%
@@ -20,6 +20,8 @@ ht-degree: 1%
 
 GenStudio for Performance Marketingへのガイドラインの追加は、作成プロセスの重要な手順です。 ガイドラインは、ユーザー定義のプロンプトやAdobe生成 AI テクノロジーと共に、コンテンツ作成プロセスに情報を提供し、効果的なアセットを作成します。
 
+{{in-academy}}
+
 ## [!DNL Brands] の追加
 
 ブランドを追加するには、[ ブランドガイドをアップロード ](#upload-a-brand) するか、[ 手動でブランドを作成 ](#manually-add-brand) ガイドラインを選択してブランドの詳細を入力します。 [Publish a brand](#publish-brand) を [!DNL Content] して、今後のコンテンツ生成で使用できるようにします。
@@ -27,6 +29,7 @@ GenStudio for Performance Marketingへのガイドラインの追加は、作成
 左側のナビゲーション領域で、「**[!DNL Brands]**」をクリックします。 _[!DNL Brands]_パネルで、「**ブランドを追加**」を選択します。
 
 >[!TIP]
+>
 >各ブランドは、階層関係なしで独立して動作します。 親ブランドの下にサブブランドを作成するには、作成プロセス中に親ブランドの情報を含めます。
 
 ### ブランドのアップロード
