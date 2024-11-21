@@ -1,13 +1,13 @@
 ---
 title: Adobe GenStudio for Performance Marketingの概要
-description: GenStudio for Performance Marketingの使用を開始して、ブランドに合わせた新しいマーケティングコンテンツを生成する方法を説明します。
+description: パフォーマンスマーケティング用の GenStudio の使用を開始して、ブランドに合わせた新しいマーケティングコンテンツを生成する方法について説明します。
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
 source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
