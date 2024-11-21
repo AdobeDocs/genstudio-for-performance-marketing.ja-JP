@@ -2,10 +2,11 @@
 title: Adobe GenStudio for Performance Marketing リリースノート
 description: パフォーマンスマーケティング用の Adobe GenStudio の最新機能と機能強化について説明します。
 recommendations: noDisplay
+last-substanial-update: 2024-11-14T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 958ad60d1d9a88e0dd4cba0decf8da8bc398d542
+source-git-commit: 720b23061d7e56a9b1e712d7787158c6a1bb771c
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '791'
 ht-degree: 2%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 2%
 
 * 特定の言語で、[!DNL Content]_エクスペリエンス_**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
 
-* 50 x 50 のサイズのテンプレートで作成されたディスプレイ広告が、想定された画像サイズで書き出されるようになりました。 以前は、書き出された PNG ファイルは、想定される寸法の 2 倍のサイズで書き出されていました。<!-- GS-7192 -->
+* 50 x 50 のサイズのテンプレートで作成されたディスプレイ広告が、想定された画像サイズで書き出されるようになりました。 以前は、PNG ファイルは、期待される寸法の 2 倍で書き出されていました。<!-- GS-7192 -->
 
 * ディスプレイ広告のサイズ変更時に発生したテンプレートエラーが解決されました。<!-- GS-7322 -->
 
@@ -36,11 +37,13 @@ ht-degree: 2%
 
 このリリースには、UI 全体を通したローカライゼーションの改善が含まれています。例を以下に示します。
 
-* [!DNL Content] アセットをアップロード _ポップアップのすべての文字列が正しくローカライズされ_ ようになりました。<!-- GS-6872 6770 -->
+* [!DNL Content] アセットをアップロード _ポップアップ内のすべての文字列が正しくローカライズされ_ ようになりました。<!-- GS-6872 6770 -->
 * _Assets_ ビュー **[!UICONTROL 検索]** フィールド [!DNL Content] すべてのツールチップがローカライズされます。<!-- GS-6879 -->
 * [!DNL Create] キャンバス上のメールバリアントで既存の画像を置き換える際に、_コンテンツから選択_ ビューがローカライズされるようになりました。<!-- GS-6906 -->
 
-## 2024.11.07
+## 以前のリリースノート
+
++++備考：2024.11.07 より
 
 ### 修正および機能強化
 
@@ -84,7 +87,9 @@ ht-degree: 2%
 
 * メタ広告画像をサイズ変更後に再生成しても、エラーが発生しなくなりました。 以前は、再生前に画像のサイズを変更すると、チャネルメタデータが `meta` から `facebook` に変更されていました。<!-- GS-7042 -->
 
-## 2024.10.31
++++
+
++++備考：2024.10.31 より
 
 ### 新機能
 
@@ -122,10 +127,4 @@ ht-degree: 2%
 
 GenStudio for Performance Marketingは、Adobe ExpressおよびAdobeのAdobe Experience Cloudなど、他のAEM Assets製品と統合されています。
 
-### 追加情報
-
-次の役立つリソースを参照してください。
-
-* [Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/en/docs/genstudio/user-guide/home)
-
-* [Adobe GenStudioアカデミー ](https://learningmanager.adobe.com/genstudioacademy)：クリエイティブのプロセスでジェネレーティブ AI テクノロジーを活用するための、Adobeのオンライン ラーニング プラットフォームです。
++++
