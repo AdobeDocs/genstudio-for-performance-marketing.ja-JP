@@ -3,9 +3,10 @@ title: 割り当て  [!DNL Brand]  権限
 description: GenStudio for Performance Marketingの作成者と編集者に権限を割り当てる方法  [!DNL Brand]  ついて説明します。
 level: Intermediate
 feature: Brands Service, Generative AI
-source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
+exl-id: fc33ecd3-4403-4045-87af-012a0377226c
+source-git-commit: baa225419ba5e851f28d41f829971027655e103e
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -54,7 +55,25 @@ ht-degree: 1%
 
 [ エンタープライズおよびチーム管理ガイド ](https://helpx.adobe.com/jp/enterprise/using/user-groups.html) の _ユーザーグループへの製品プロファイルの割り当て_ を参照してください。
 
-## 手順 3:[!DNL Brands] プロジェクトの作成
+## 手順 3：ユーザーグループへのユーザーの追加
+
+ユーザーにア [!DNL Brands] ットの作成、編集、公開の権限を割り当てるには、新しく作成したユーザーグループにユーザーを追加します。
+
+>[!NOTE]
+>
+>グループをプロジェクトに追加する前に、少なくとも 1 人のユーザーをこのユーザーグループに追加する必要があります。
+
+**ユーザーグループにユーザーを追加するには**:
+
+1. _Admin Console_ から、**[!UICONTROL ユーザー]**/**[!UICONTROL ユーザーグループ]** に移動します。
+
+1. 前に作成したユーザーグループの名前を選択します。 _このユーザーグループにユーザーを追加_ ポップアップが開きます。
+
+1. ユーザー名またはメールアドレスで、新規または既存のユーザーを追加します。 既存のユーザーの名前またはメールアドレスを入力すると、この IMS 組織に属する既知のユーザーと一致する名前がこのフィールドに自動的に入力されます。 ユーザーグループの管理については、[ エンタープライズおよびチーム管理ガイド ](https://helpx.adobe.com/jp/enterprise/using/user-groups.html) の _ユーザーグループの管理_ を参照してください。
+
+ユーザーは、グループに追加されると、Adobe GenStudioシステム管理者の [!DNL Brand] の作成、編集、公開権限を付与されます。 また、Adobe GenStudio for Performance Marketing [!DNL Brands] プロジェクトを編集するための招待メールも自動送信されます。
+
+## 手順 4:[!DNL Brands] プロジェクトの作成
 
 _プロジェクト_ は、選択したユーザーがアセット（この場合はアセット）を保存できるストレージの場所 [!DNL Brands] 提供します。
 
@@ -72,7 +91,7 @@ _プロジェクト_ は、選択したユーザーがアセット（この場�
 
 [ エンタープライズおよびチーム管理ガイド ](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html) の _プロジェクトの管理_ を参照してください。
 
-## 手順 4：ユーザーグループをプロジェクトに招待
+## 手順 5：ユーザーグループをプロジェクトに招待
 
 これで、作成したユーザーグループを `Adobe GenStudio [!DNL Brands]` プロジェクトに追加する準備が整いました。
 
@@ -83,17 +102,3 @@ _プロジェクト_ は、選択したユーザーがアセット（この場�
 1. 「**編集可能** 権限オプションを選択します。
 
 1. **[!UICONTROL 招待]** をクリックします。
-
-## 手順 5：ユーザーグループへのユーザーの追加
-
-ユーザーにア [!DNL Brands] ットの作成、編集、公開の権限を割り当てるには、新しく作成したユーザーグループにユーザーを追加します。
-
-**ユーザーグループにユーザーを追加するには**:
-
-1. _Admin Console_ から、**[!UICONTROL ユーザー]**/**[!UICONTROL ユーザーグループ]** に移動します。
-
-1. 前に作成したユーザーグループの名前を選択します。 _このユーザーグループにユーザーを追加_ ポップアップが開きます。
-
-1. ユーザー名またはメールアドレスで、新規または既存のユーザーを追加します。 ユーザーグループの管理については、[ エンタープライズおよびチーム管理ガイド ](https://helpx.adobe.com/jp/enterprise/using/user-groups.html) の _ユーザーグループの管理_ を参照してください。
-
-ユーザーは、グループに追加されると、Adobe GenStudioシステム管理者の [!DNL Brand] の作成、編集、公開権限を付与されます。 また、Adobe GenStudio for Performance Marketing [!DNL Brands] プロジェクトを編集するための招待メールも自動送信されます。
