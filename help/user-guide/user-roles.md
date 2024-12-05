@@ -4,7 +4,7 @@ description: GenStudio for Performance Marketingのユーザーの役割と権�
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 10%
@@ -25,7 +25,7 @@ ht-degree: 10%
 
 **Adobeシステム管理者** Adobe Admin Consoleのパワーユーザー権限を持ち、ユーザーの追加や削除などのすべてのユーザー管理タスクを実行します。 このシステム管理者の役割は、GenStudio for Performance Marketing アプリケーションの権限を提供しません。このため、Adobeシステム管理者はGenStudioのライセンスを必要としません。 Adobeシステム管理者は通常、このAdmin Consoleを使用して、GenStudio デプロイメントのユーザーアカウントを追加および削除し、個々のユーザーまたはユーザーグループの資格または権限を割り当てまたは削除します。
 
-**GenStudio システムマネージャー** は、GenStudio for Performance Marketing内のパワーユーザーですが、Adobe Admin Consoleでタスクを実行する権限はありません。 この System Manager の役割には Genstudio 製品ライセンスが必要で、[Adobe GenStudio for Performance Marketing Product description](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) のパワーユーザーに対応しています。 GenStudio システムマネージャーは、[!DNL Brands] 成、[!DNL Persona] 除、[!DNL Product] ージの作成、削除、更新、公開など、GenStudio for Performance Marketingの機能を完全に利用できます。 [Adobe GenStudio for Performance Marketing製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) では、GenStudioのユーザーロールと製品ライセンスとの関係を説明します。
+**GenStudio システムマネージャー** は、GenStudio for Performance Marketing内のパワーユーザーですが、Adobe Admin Consoleでタスクを実行する権限はありません。 この System Manager の役割にはGenStudio製品ライセンスが必要で、[Adobe GenStudio for Performance Marketing製品の説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) のパワーユーザーに対応しています。 GenStudio システムマネージャーは、[!DNL Brands] 成、[!DNL Persona] 除、[!DNL Product] ージの作成、削除、更新、公開など、GenStudio for Performance Marketingの機能を完全に利用できます。 [Adobe GenStudio for Performance Marketing製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) では、GenStudioのユーザーロールと製品ライセンスとの関係を説明します。
 
 [ エンタープライズおよびチーム管理ガイド ](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) の _管理者の役割_ を参照してください。
 

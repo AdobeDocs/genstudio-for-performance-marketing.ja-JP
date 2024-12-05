@@ -3,7 +3,7 @@ title: Adobe GenStudio for Performance Marketingの概要  [!DNL Content]
 description: ブランドで承認されたアセットを 1 つの直感的なポータルで検索、編集、再利用、共有する方法について説明します。
 feature: Attributes, Content, Templates
 exl-id: e44e9c2d-33ee-4621-93a2-27f49478a8c9
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -17,63 +17,116 @@ GenStudio for Performance Marketing [!DNL Content] は、ブランドが承認�
 ## [!DNL Content] のユースケース
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md#search">
+
          <img alt="拡大鏡" src="../../assets/icons/icon-search.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md#search">
+
          <strong> コンテンツを検索 </strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md">
+
          <img alt="プラス記号（+）付きの画像" src="../../assets/icons/icon-addContent.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md">
+
          <strong> アセットの追加 </strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/customize-template.md">
+
          <img alt="アセットの稲妻" src="../../assets/icons/icon-template.png">
+
       </a>
+
       <p>
+
          <a href="../content/customize-template.md">
+
          <strong> テンプレートのカスタマイズ </strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/use-templates.md">
+
          <img alt="プラス記号を使用したアセット上のボルトの軽量化" src="../../assets/icons/icon-addTemplate.png">
+
       </a>
+
       <p>
+
          <a href="../content/use-templates.md#upload-a-template">
+
          <strong> テンプレートをアップロード </strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/asset-details.md#edit-in-express">
+
          <img alt="Adobe Expressで編集" src="../../assets/icons/icon-editExpress.png">
+
       </a>
+
       <p>
+
          <a href="../content/asset-details.md#edit-in-express">
+
          <strong>Adobe Expressでのアセットの編集 </strong>
+
          </a>
+
       </p>
+
    </td>
+
 </tr>
+
 </table>
 
 ## [!DNL Content] 機能
 
-GenStudio for Performance Marketing [!DNL Content] を使用すると、承認済みアセットを簡単に管理し、コンテンツのライフサイクルを迅速化できます。 ま **[!UICONTROL [!DNL Content]]**、パフォーマンスの高いコンテンツを検索、検索および再利用したり、アセットやエクスペリエンスを選択してエバーグリーンキャンペーンの新しいバリアントの作成を開始したりできます。
+GenStudio for Performance Marketing [!DNL Content] を使用すると、承認済みアセットを簡単に管理し、コンテンツのライフサイクルを迅速化できます。 **[!UICONTROL [!DNL Content]]** では、パフォーマンスの高いコンテンツを検索、検索および再利用したり、アセットやエクスペリエンスを選択してエバーグリーンキャンペーン用の新しいバリアントの作成を開始したりできます。
 
 ### アセットのアップロード
 

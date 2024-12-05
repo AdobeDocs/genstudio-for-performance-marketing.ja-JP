@@ -4,7 +4,7 @@ description: パフォーマンスマーケティング用の GenStudio の使�
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 2%
@@ -61,7 +61,7 @@ GenStudio システムマネージャーは、組織固有のブランド要件�
 
 ### 手順 3：テンプレートのアップロード
 
-テンプレートを使用すると、コンテンツを迅速に作成できます。 テンプレートには、ヘッダーやフッターなど、承認済みの機能が含まれており、特定のチャネル用に最適化されています。 通常、システムマネージャーは組織のテンプレートをアップロードおよび管理します。 コンテンツエディターは、テンプレートを使用して、組織ブランドの確立された境界内でコンテンツ作成プロセスを迅速に開始します。
+テンプレートを使用すると、コンテンツを迅速に作成できます。 テンプレートには、ヘッダーやフッターなど、承認済みの機能が含まれており、特定のチャネル用に最適化されています。 通常、システムマネージャーは組織のテンプレートをアップロードおよび管理します。 コンテンツエディターは、テンプレートを使用して、組織ブランドの確立された境界内でコンテンツ作成プロセスを開始します。
 
 [ テンプレートの操作 ](./content/use-templates.md) を参照してください。
 

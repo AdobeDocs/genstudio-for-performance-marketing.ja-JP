@@ -1,8 +1,8 @@
 ---
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 39%
+source-wordcount: '311'
+ht-degree: 38%
 
 ---
 # GenStudio for Performance Marketing ドキュメント
@@ -38,7 +38,7 @@ Adobeプロダクトチームのテクニカルライター、プログラムマ
 このリポジトリ内の記事はすべて、GitHub 固有の Markdown を使用しています。 Markdown に詳しくない方は、以下を参照してください。
 
 - [Markdown の基本](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Markdown の早見表（印刷用）](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
+- [ 印刷用 Markdown チートシート ](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
 
 ## ラベル
 
