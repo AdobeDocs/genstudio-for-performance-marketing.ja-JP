@@ -4,18 +4,25 @@ description: Adobe GenStudio for Performance Marketing用テンプレートを�
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: f95848546abc2decbb5ac52491307977820ce503
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # テンプレートのカスタマイズ
 
-_Handlebars_ テンプレート言語を使用して、Adobe GenStudio for Performance Marketing用のHTMLテンプレートを調整します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 テンプレートの準備方法については、_Handlebars 言語ガイド_ の [`What is [!DNL Handlebars]?`](https://handlebarsjs.com/guide/#what-is-handlebars) を参照してください。
+生成 AI がコンテンツの挿入に使用するコンテンツプレースホルダー（フィールド）を挿入することで、GenStudio for Performance Marketingで使用するテンプレートをカスタマイズできます。
 
-次のいくつかの節では、コンテンツプレースホルダーを追加する方法、不要な要素をプレビューから非表示にする方法、静的コンテンツへのリンクを管理する方法について説明します。 テンプレートの準備が整ったら、[GenStudio for Performance Marketingにアップロード ](use-templates.md#upload-a-template)、カスタムテンプレートに基づいてパーソナライズされたメールの生成を開始できます。
+次のいくつかの節では、_Handlebars_ テンプレート言語を使用してGenStudio for Performance Marketing用にHTMLテンプレートを適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 [ とは  [!DNL Handlebars] を参照してください。テンプレートの準備方法については、_Handlebars 言語ガイド_ を ](https://handlebarsjs.com/guide/#what-is-handlebars) 照してください。
+
+
+テンプレートの準備が整ったら、[GenStudio for Performance Marketingにアップロード ](use-templates.md#upload-a-template)、カスタムテンプレートに基づいてパーソナライズされたメールの生成を開始できます。
+
+>[!TIP]
+>
+>[ アクセシビリティガイドライン ](accessibility-for-templates.md) および [ ベストプラクティス ](/help/user-guide/content/best-practices-for-templates.md) に従って、より多くのオーディエンスにリーチし、最適なエクスペリエンスを提供できるようにします。
 
 ## コンテンツプレースホルダー
 
@@ -34,14 +41,14 @@ GenStudio for Performance Marketingは、テンプレート内の特定の [ 要
 次の表に、テンプレートへの母集団に対してGenStudio for Performance Marketingで認識されるフィールド名を示します。 GenStudio for Performance Marketingでコンテンツを生成する必要があるテンプレートに、[!DNL Handlebars] 構文を使用してこれらのフィールド名を追加します。
 
 | フィールド | 役割 | チャネルテンプレート |
-| -------------- | ---------------------- | ------------------------------ |
-| `pre_header` | プリヘッダー | メール |
-| `headline` | 見出し | メール <br> メタ広告 |
-| `body` | 本文コピー | メール <br> メタ広告 |
-| `cta` | コールトゥアクション | メール <br> メタ広告 |
-| `on_image_text` | 画像テキスト上 | メタ広告 |
-| `image` | 画像 | メール <br> メタ広告 |
-| `brand_logo` | 選択したブランドのロゴ <br> 推奨使用については、[ ブランドロゴフィールド名 ](#brand-logo-field-name) を参照してください。 | メールメ <br> タ広告 |
+| ------------------ | ---------------------- | -------------------------------- |
+| `{{pre_header}}` | プリヘッダー | メール |
+| `{{headline}}` | 見出し | メール <br> メタ広告 <br> 広告の表示 |
+| `{{body}}` | 本文コピー | メール <br> メタ広告 <br> 広告の表示 |
+| `{{cta}}` | コールトゥアクション | メール <br> メタ広告 <br> 広告の表示 |
+| `{{on_image_text}}` | 画像テキスト上 | メタ広告 |
+| `{{image}}` | 画像 – コンテンツから選択 | メール <br> メタ広告 <br> 広告の表示 |
+| `{{brand_logo}}` | 選択したブランドのロゴ <br> 推奨使用については、[ ブランドロゴフィールド名 ](#brand-logo-field-name) を参照してください。 | メールメ <br> タ広告 |
 
 GenStudio for Performance Marketingでは、特定のフィールドに次のテンプレートで自動的に入力されます。
 
@@ -93,23 +100,27 @@ GenStudio for Performance Marketingでは、特定のフィールドに次のテ
 
 _セクション_ このセクションのフィールドには高い一貫性が必要であることをGenStudio for Performance Marketingに伝えます。 この関係を確立すると、AI がセクションのクリエイティブ要素に一致するコンテンツを生成するのに役立ちます。
 
-フィールド名に任意の接頭辞を使用して、フィールドがセクションまたはグループの一部であることを示します。 例えば、ハイライトされた領域に表示されるコンテンツにスポットライトを当てることができます。
+フィールド名に任意の接頭辞を使用して、フィールドがセクションまたはグループの一部であることを示します。 アンダースコア（`_`）の後にフィールド名（`headline`、`body`、`image`、`cta`）を使用します。 例えば、次のヘッドラインと本文は、`pod1` セクションに属しています。
 
 - `pod1_headline`
 - `pod1_body`
 
-各セクションは、各フィールドタイプの 1 つのみを使用できます。 上記の例では、`pod1` セクションは 1 つの `pod1_headline` フィールドのみを使用できます。
+各セクションは、各フィールドタイプの 1 つのみを使用できます。 上記の例では、`pod1` セクションは 1 つの `pod1_headline` フィールドのみを使用できます。 このルールのため、セクションをネストすることはできません。
 
-テンプレートには、最大で次の 3 つのセクションを含めることができます。
+メールテンプレートには、最大で 3 つのセクションを含めることができます。 例えば、次のリストには 3 つのヘッドラインと本文セクションがあります。
 
-- `headline`
-- `body`
+- `pre-header`
 - `pod1_headline`
 - `pod1_body`
 - `pod2_headline`
 - `pod2_body`
+- `pod3_headline`
+- `pod3_body`
+- `cta`
 
 GenStudio for Performance Marketingは `pod1_headline` が `pod2_body` よりも `pod1_body` と密接に関係していることを理解しています。
+
+メールの各セクションに対して様々なコンテンツを生成するプロンプトを作成する方法については、[ 構造化プロンプト ](/help/user-guide/effective-prompts.md#structured-prompts) を参照してください。
 
 ## テンプレートのプレビュー
 
@@ -117,7 +128,7 @@ GenStudio for Performance Marketingは `pod1_headline` が `pod2_body` よりも
 
 メールテンプレートのプレビューの例：
 
-![ プレビューフィールドが検出されました ](../../assets/template-detected-fields.png){width="650"}
+![ プレビューフィールドが検出されました ](/help/assets/template-detected-fields.png){width="650"}
 
 ### プレビューを制御
 

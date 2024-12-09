@@ -3,10 +3,10 @@ title: テンプレートの操作
 description: テンプレートを効果的に使用して、Adobe GenStudio for Performance Marketingのクリエイティブプロセスを効率化する方法を説明します。
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 61a939ae81eb5ff61d741bb1092e9e4c82119f7e
+source-git-commit: bfe1ae2c734b19e474ab1614fa72afea7d35a73e
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ GenStudio for Performance Marketingを使用すると、コンテンツ作成者
 
 ## テンプレート要素
 
-テンプレートは、HTMLとインライン CSS で定義された一連の命令であり、メールまたはメタ広告エクスペリエンスの生成に使用できます。
+テンプレートは、HTMLおよびインライン CSS で定義された命令のセットで、メール、ソーシャル広告またはディスプレイ広告エクスペリエンスの生成に使用できます。 テンプレート要素は、コンテンツ作成の構造を提供します。
 
 以下は、テンプレートで使用される要素のリストと、その特性に関する詳細です。
 
@@ -73,19 +73,13 @@ GenStudio for Performance Marketingを使用すると、コンテンツ作成者
 >
 >各チャネルタイプのテンプレートに対してGenStudio for Performance Marketingがサポートする [ 認識されたフィールド名 ](customize-template.md#recognized-field-names) を参照してください。
 
-## チャネルガイドラインの設定
-
-GenStudio for Performance Marketingでテンプレートを使用する前に、ブランドごとに [ チャネルガイドライン ](../guidelines/brands.md#channel-guidelines) を設定することをお勧めします。 チャネルガイドラインは、テンプレートの使用時に生成されるコンテンツのタイプに直接影響します。 例えば、メールの本文に文字制限を設定できます。
-
-![ ボディ仕様 ](/help/assets/channel-email-body.png)
-
 ## テンプレートをカスタマイズ
 
 GenStudio for Performance Marketingで使用できるように [ テンプレートをカスタマイズ ](customize-template.md) するには、生成 AI がコンテンツの挿入に使用するコンテンツプレースホルダー（フィールド）を挿入します。 GenStudio for Performance Marketingは、「`body`」フィールドなどの特定のフィールドを認識し、選択したブランド用に設定されたチャネルガイドラインに従います。
 
 >[!TIP]
 >
->より多くのオーディエンスにリーチして最適なエクスペリエンスを提供できるように、[ テンプレートを作成するためのアクセシビリティガイドライン ](accessibility-for-templates.md) に従います。
+>[ アクセシビリティガイドライン ](accessibility-for-templates.md) および [ ベストプラクティス ](/help/user-guide/content/best-practices-for-templates.md) に従って、より多くのオーディエンスにリーチし、最適なエクスペリエンスを提供できるようにします。
 
 ## テンプレートのアップロード
 
@@ -103,7 +97,7 @@ GenStudio for Performance Marketing用のテンプレートを準備する際の
 
    メールテンプレートのプレビューの例：
 
-   ![ プレビューフィールドが検出されました ](../../assets/template-detected-fields.png){width="650"}
+   ![ プレビューフィールドが検出されました ](/help/assets/template-detected-fields.png){width="650"}
 
    >[!TIP]
    >
@@ -128,7 +122,7 @@ GenStudio for Performance Marketingで既存のテンプレートを検索およ
 
 1. _[!DNL Content]_で、「**[!UICONTROL テンプレート]**」セクションを選択します。
 
-   ![ コンテンツテンプレートリスト ](../../assets/content-templates.png){width="650" zoomable="yes"}
+   ![ コンテンツテンプレートリスト ](/help/assets/content-templates.png){width="650" zoomable="yes"}
 
 1. 全体表示および詳細リストのテンプレートを選択します。
 

@@ -3,10 +3,10 @@ title: 有効なプロンプトの記述
 description: パフォーマンスマーケティング用の Adobe GenStudio の効果的なプロンプトを記述する方法について説明します。
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
+source-git-commit: 79430c3279529c4871141489e409240852e1f4fc
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -57,9 +57,9 @@ GenStudio for Performance Marketingのガイドラインは、生成 AI がア�
 
 ### 構造化されたプロンプト
 
-複数セクションのメールの場合、[ メール ](/help/user-guide/create/email-experiences.md) 内のセクションごとに異なるコンテンツを生成するためのセクション固有の手順を提供するように促す構造を作成できます。 構造化プロンプトは、生成されたコンテンツを対応するコンテンツプレースホルダーに挿入できるように ](/help/user-guide/content/email-template.md#multi-section-emails) メールテンプレート内のセクション名 [ を直接参照する必要があります。
+複数セクションのメールの場合、メール内のセクションごとに様々なコンテンツを生成するための、セクション固有の手順を提供するように促す構造を作成できます。 構造化プロンプトは、生成されたコンテンツを対応するコンテンツプレースホルダーに挿入できるように ](/help/user-guide/content/customize-template.md#sections-or-groups) メールテンプレート内のセクション名 [ を直接参照する必要があります。
 
-例えば、メールの 1 番目のセクションで新製品を宣伝するコンテンツを作成し、2 番目のセクションで製品のコスト削減メリットの詳細を説明するコンテンツを作成するようにGenStudio for Performance Marketingに指示できます。
+例えば、最初のセクションでは新製品のプロモーションをおこない、2 番目のセクションではコスト削減のメリットを詳しく説明するメールのコンテンツを生成するよう、GenStudio for Performance Marketingに指示できます。
 
 構造化されたプロンプトでは、次の操作を行う必要があります。
 
@@ -72,7 +72,7 @@ GenStudio for Performance Marketingのガイドラインは、生成 AI がア�
   例えば、テンプレートでセクション名として `moduleA` または `Group-3` を使用している場合、プロンプトでこれらのセクション名を参照できます。
 
 - 推奨されるルール/構造に従います。 プロンプト構造が指定された形式に準拠していない場合、プロンプトは *すべて* のメールセクションに適用され、引き続きコンテンツの生成を容易にします。
-- [ メールテンプレートで定義した ](/help/user-guide/content/email-template.md#code-an-email-template) セクション名を使用します。 プロンプト参照は、メールテンプレートにコーディングされたセクション名と一致する必要があります。
+- メールテンプレートで定義したセクション名を使用します。 プロンプト参照は、メールテンプレートにコーディングされたセクション名と一致する必要があります。
 - 大文字と小文字を区別しない。 例えば、メールテンプレートと構造化プロンプトで `Pod` または `pod` を使用できます。
 - 最初に汎用のユーザープロンプトを参照し、次にセクション固有のディレクティブを参照します。
 - セクション名の参照とディレクティブの間の区切りとして、コロン、ハイフン、コンマ、その他の区切り文字（`,:;#$!~|@=-%&*^_`）を使用します。 例えば、次をセクション固有のプロンプトディレクティブとして使用できます。`Pod1; Describe how to easily edit text and swap images.`
@@ -91,7 +91,7 @@ Pod2: Focus on Adobe Illustrator and its new generative AI tools, such as Genera
 Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they can edit images and text inside a PDF.
 ```
 
-[ メールテンプレートの準備 ](/help/user-guide/content/email-template.md#code-an-email-template) を参照してください。
+[ テンプレート使用のベストプラクティス ](/help/user-guide/content/best-practices-for-templates.md) を参照してください。
 
 ## 再試行
 

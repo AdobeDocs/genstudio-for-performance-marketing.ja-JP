@@ -4,13 +4,13 @@ description: Adobe GenStudio for Performance Marketingでのメールエクス�
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
+exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
+source-git-commit: 333d40a733f5417ea182d7708bef38907dfd5722
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # メールエクスペリエンス
 
@@ -39,7 +39,7 @@ Content creators and marketers can produce brand-consistent email experiences in
 
 メールエクスペリエンスには複数のセクションを含めることができるので、ブランドや目標に合わせて完全にカスタマイズできます。 [ [!DNL Products]  各セクションのアセットを選択して視覚的に表示し ](/help/user-guide/create/create-email-experience.md#add-parameters)[ 構造化プロンプト ](/help/user-guide/effective-prompts.md#structured-prompts) を使用して一意のコンテンツを作成します。 各セクションは、1 つのビジュアルアセットをサポートします。
 
-複数セクションテンプレートの作成方法については、[ メールテンプレートの準備 ](/help/user-guide/content/email-template.md) を参照してください。
+複数セクションのテンプレートを作成する方法については、[ セクションを使用したテンプレートのカスタマイズ ](/help/user-guide/content/customize-template.md#sections-or-groups) を参照してください。
 
 ## プログレッシブロード
 

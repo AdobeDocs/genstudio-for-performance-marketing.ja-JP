@@ -3,10 +3,10 @@ title: アセットの詳細
 description: Adobe GenStudio for Performance Marketingでは、検索性とパフォーマンストラッキングのために、リッチなメタデータを使用して承認済みコンテンツを格納します。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,7 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 
 1. アセット表示で、右側の _[!UICONTROL 詳細]_ セクションを確認します。
 
-   >[!TIP]
-   >
-   >「_[!UICONTROL 詳細]_」セクションが表示されない場合は、「**[!UICONTROL 情報]** （i）」アイコンをクリックします。
+1. 「_[!UICONTROL 詳細]_」セクションが表示されない場合は、「**[!UICONTROL 情報]** （i）」アイコンをクリックします。
 
 アセットの詳細には、作成またはアップロード処理中に適用されたメタデータが含まれます。 アセットメタデータタイプには、[ システムメタデータ ](#system-metadata) および [ ユーザー定義メタデータ ](#user-defined-metadata) が含まれます。
 
@@ -38,9 +36,7 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 
 ## システムメタデータ
 
-アセットのアップロード時に、一部のアセットメタデータが自動的に収集されます。 デフォルトのシステムメタデータは編集できません。
-
-アセットに対して保存および取得されるデフォルトのメタデータには、ファイルの名前、寸法、ソースなどがあります。
+ファイルタイプ、サイズ、サイズ、サイズ、ソースなど、アセットがアップロードされると、一部のアセットメタデータが自動的に収集されます。 ファイル名以外は、デフォルトのシステムメタデータを編集できません。
 
 ### 生成されたタグ
 

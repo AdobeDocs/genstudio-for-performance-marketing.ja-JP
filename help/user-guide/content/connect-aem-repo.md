@@ -1,11 +1,12 @@
 ---
-title: "リポジトリへ  [!DNL AEM Assets Content Hub]  接続"
+title: リポジトリへ  [!DNL AEM Assets Content Hub]  接続
 description: Adobe GenStudio for Performance MarketingをAdobe Experience Manager（AEM）  [!DNL Content Hub]  リポジトリに接続し、既存の承認済みコンテンツを活用する方法について説明します。
 level: Experienced
 feature: Assets, Content
-source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
+exl-id: abb587fd-593c-4b9f-baad-993d92400d9b
+source-git-commit: abe1de42b81bff63d473a67632d27f96db7c1c7d
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ Adobe Experience Manager（AEM）にアセットがある場合は、次の手�
 
 ## 手順 1:[!DNL AEM Assets Content Hub] を有効にする
 
-**Content Hubのデプロイ** セルフサービスプロセスに従って、Cloud Managerの既存のAEM Assetsに対して [!DNL Content Hub] を有効にします。 [3}AEM as a Cloud Service [!DNL Content Hub]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub) ドキュメントの {Deploy _を参照してください。_
+**Content Hubのデプロイ** セルフサービスプロセスに従って、Cloud Managerの既存のAEM Assetsに対して [!DNL Content Hub] を有効にします。 [3}AEM as a Cloud Service [!DNL Content Hub]](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub) ドキュメントの {Deploy _を参照してください。_
 
 [!DNL AEM Assets Content Hub] を有効にすると、Admin Console時に [!DNL AEM Assets as a Cloud Service] 内に `contenthub` サフィックスの付いた新しいインスタンスが作成されます。
 
@@ -54,3 +55,5 @@ Adobe Experience Manager（AEM）にアセットがある場合は、次の手�
 ## 手順 5：接続の確認
 
 GenStudio for Performance Marketing コンテンツでは、右側のギャラリーの上にある _[!UICONTROL 場所]_ リストを使用できます。 アクセス権がない場合や、組織が [!DNL AEM Assets Content Hub] リポジトリをデプロイおよび接続していない場合、リストは使用できません。
+
+場所のリストとリポジトリの変更について詳しくは、[Assetsの場所 ](manage-assets.md#assets-location) を参照してください。
