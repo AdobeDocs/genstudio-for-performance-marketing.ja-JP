@@ -4,7 +4,7 @@ description: パフォーマンスマーケティング用の GenStudio の使�
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: fd49abb491477b0a8ed5b1f646219458efc49365
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 2%
@@ -49,7 +49,7 @@ GenStudio for Performance Marketingは、ブランドと市場に関する情報
 
 GenStudio システムマネージャーは、組織固有のブランド要件を手動で入力またはアップロードすることで、製品の基盤となるジェネレーティブ AI フレームワークを準備できます。 組織のブランドガイドラインの設定は 1 回限りのアクションですが、組織のボラティリティ、成長および市場状況の変化に基づいて、これらのガイドラインを改訂および強化することができます。
 
-## 手順 2:GenStudio [!DNL Brands] 用のAdobe Admin Console プロジェクトの設定
+### 手順 2:GenStudio [!DNL Brands] 用のAdobe Admin Console プロジェクトの設定
 
 システム管理者は、共同作業者が [!DNL Brands] を編集または作成する前に、追加のセットアップ タスクを完了する必要があります。 Adobeシステム管理者は、Adobe Admin Consoleで次のタスクを実行します。
 
