@@ -17,111 +17,58 @@ GenStudio for Performance Marketing [!DNL Content] は、ブランドが承認�
 ## [!DNL Content] のユースケース
 
 <table style="table-layout:fixed">
-
 <tr style="border: 0;">
-
    <td align="center" valign="top" width="100">
-
       <a href="../content/manage-assets.md#search">
-
          <img alt="拡大鏡" src="../../assets/icons/icon-search.png">
-
       </a>
-
       <p>
-
          <a href="../content/manage-assets.md#search">
-
          <strong> コンテンツを検索 </strong>
-
          </a>
-
       </p>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="../content/manage-assets.md">
-
          <img alt="プラス記号（+）付きの画像" src="../../assets/icons/icon-addContent.png">
-
       </a>
-
       <p>
-
          <a href="../content/manage-assets.md">
-
          <strong> アセットの追加 </strong>
-
          </a>
-
       </p>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="../content/asset-details.md#edit-in-express">
-
          <img alt="Adobe Expressで編集" src="../../assets/icons/icon-editExpress.png">
-
       </a>
-
       <p>
-
          <a href="../content/asset-details.md#edit-in-express">
-
          <strong>Adobe Expressでのアセットの編集 </strong>
-
          </a>
-
       </p>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="../content/customize-template.md">
-
          <img alt="アセットの稲妻" src="../../assets/icons/icon-template.png">
-
       </a>
-
       <p>
-
          <a href="../content/customize-template.md">
-
          <strong> テンプレートのカスタマイズ </strong>
-
          </a>
-
       </p>
-
    </td>
-
    <td align="center" valign="top" width="100">
-
       <a href="../content/use-templates.md">
-
          <img alt="プラス記号を使用したアセット上のボルトの軽量化" src="../../assets/icons/icon-addTemplate.png">
-
       </a>
-
       <p>
-
          <a href="../content/use-templates.md#upload-a-template">
-
          <strong> テンプレートをアップロード </strong>
-
          </a>
-
       </p>
-
    </td>
-
 </tr>
-
 </table>
 
 ## [!DNL Content] 機能
