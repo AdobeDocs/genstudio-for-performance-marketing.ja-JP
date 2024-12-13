@@ -5,9 +5,9 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: b644a69fd63c8b1deaf42736659dfe9b3b6bd8ab
+source-git-commit: a308972afc9fa6aeced0168b14d3c5f864d678f8
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1725'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ GenStudio for Performance Marketingへのガイドラインの追加は、作成
 
 ### ブランドのアップロード
 
-独自のブランドドキュメントをアップロードして、新しいブランドを作成できます。
+独自のブランドガイドラインドキュメント（最大 3 つのPDFまたは DOC ファイル）をGenStudio for Performance Marketingにアップロードして、ブランドを自動的に作成できます。
 
 詳しくは、[[!DNL Brands]](/help/user-guide/guidelines/brands.md) を参照してください。
 
@@ -85,7 +85,7 @@ GenStudio for Performance Marketingは、Adobeのジェネレーティブ AI テ
 
 1. 左側のナビゲーション領域で、「**[!UICONTROL [!DNL Brands]]**」をクリックします。
 
-   現在公開されているすべてのブランドに _公開済み_ バッジが表示されます。
+   _公開済み_ バッジおよびブランドが最後に公開された日付は、現在公開されているすべてのブランドで表示されます。
 
 1. クリックすると、非公開のブランドが開きます。 ブランドが公開されていない場合は、「**[!UICONTROL Publish]**」ボタンが表示されます。
 1. _Publish ブランド_ のポップアップで、公開されたブランドを表示および使用するアクセス権を持つユーザーを確認します。
@@ -98,23 +98,30 @@ GenStudio for Performance Marketingは、Adobeのジェネレーティブ AI テ
 
 ブランドに緑の点と「公開済み」が表示され、「**[!UICONTROL Publish]**」ボタンが表示されます。
 
-**公開済みのブランドを非公開にするには**、クリックして開き、**[!UICONTROL Publish]** をクリックします。
+**公開済みのブランドを非公開にするには**、をクリックして開き、「**[!UICONTROL 非公開]**」をクリックします。
 
-公開されたブランドを _[!DNL Create]_または_[!DNL Content]_ で使用できるようになりました。
+公開されたブランドを [_[!DNL Create]_](/help/user-guide/create/overview.md) または [_[!DNL Content]_](/help/user-guide/content/overview.md) で使用できるようになりました。
 
 ### [!DNL Brands] の管理
 
 _[!DNL Brands]_ホームで、クリックして、既に作成されているブランドを開き、管理または公開できます。
 
-**ブランドを表示または変更するには**:
+**ブランド情報を表示** するには、左側のナビゲーション領域で「**[!UICONTROL [!DNL Brands]]**」をクリックし、既存のブランドをクリックして開きます。
 
-1. 左側のナビゲーション領域で、「**[!UICONTROL [!DNL Brands]]**」をクリックします。
-1. ブランドの概要情報を確認するには、定義済みのブランドをクリックして開きます。
+[!DNL Brands] 表示で **ブランドを変更するには** 次の手順に従います。
+
+1. **[!DNL Brands]** で、定義済みのブランドをクリックして開きます。
 1. 個々の詳細を表示したり、ブランドガイドラインを変更したりするには、上部にある [**[!UICONTROL  ブランドの音声ガイドライン ]**](#brand-voice-guidelines)、[**[!UICONTROL  チャネルガイドライン ]**](#channel-guidelines)、**[!UICONTROL 画像ガイドライン]**、**[!UICONTROL ロゴ]** をクリックします。
-1. 既存のブランドの名前を変更するには、[!DNL Brands] のアクションメニューから **[!UICONTROL 名前を変更]** を選択します。
+1. 既存のブランドの名前を変更するには、_[!DNL Brands]_のアクションメニューから&#x200B;**[!UICONTROL 名前を変更]**を選択します。
+1. 既存のブランドを複製するには、_[!DNL Brands]_のアクションメニューから&#x200B;**[!UICONTROL 複製]**を選択します。
+   1. _ブランドを複製_ ポップアップにブランド名を入力し、「**[!UICONTROL ブランドを複製]**」をクリックします。
+
+      ポップアップは、ブランドが複製されていることを確認します（「新しいブランドが作成されました」）。 複製されたブランドは、最初は _非公開_ モードになっています。
+
+   1. 複製したブランドをカスタマイズし、[ 公開 ](#publish-brand) して使用できるようにします。
 1. ブランドを削除するには、[!DNL Brands] のアクションメニューから **[!UICONTROL 削除]** を選択します。
 
-ブランドガイドラインドキュメント（最大 3 つのPDFまたは DOC ファイル）をGenStudio for Performance Marketingにアップロードして、ブランドを自動的に作成できます。
+また、_[!DNL Brands]_のアクションメニュー（3 つのドット）から [!DNL Brands] ビューでブランドを管理することもできます。
 
 ## [!DNL Products] の追加
 

@@ -3,10 +3,10 @@ title: アセットの詳細
 description: Adobe GenStudio for Performance Marketingでは、検索性とパフォーマンストラッキングのために、リッチなメタデータを使用して承認済みコンテンツを格納します。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
+source-git-commit: cd3cfface9121788c1dd0808f7f7db36c36766df
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '706'
+ht-degree: 2%
 
 ---
 
@@ -54,25 +54,53 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 
 [ アセットをアップロード ](/help/user-guide/content/manage-assets.md#add-assets) する際に、GenStudio for Performance Marketingにメタデータとして存在する一連のオプションのアセット詳細を定義できます。 さらに詳細を含めると、検索とフィルタリングでのアセットの識別が向上します。
 
+**ユーザー定義のメタデータを編集するには**:
+
+1. _[!DNL Content]_で、アセット、エクスペリエンスまたはテンプレートを選択します。
+
+1. アセット表示で、右側の _[!UICONTROL 詳細]_ セクションを確認します。
+
+1. **[!UICONTROL 詳細を編集]** （鉛筆）をクリックして、アセットのメタデータを編集します。
+
+   提供する情報が多いほど、GenStudio for Performance Marketingの堅牢な機能を体験できます。 リストから 1 つ以上の詳細を選択するか、必要に応じて新しい詳細（キーワードを使用するなど）を入力します。 追加した各詳細は、リストの下に表示されます。 詳細を削除するには、「**`x`**」をクリックします。
+
 ### メタデータの詳細
 
-次の表に、アセットの作成時に定義できるメタデータ（アセットの詳細）を示します。
+次の表に、アセット作成時に定義できるメタデータ（アセットの詳細）を示します。
 
 | フィールド | 説明 |
-| ------------- | ----------- |
-| キャンペーン（プロジェクト名） | アセットと共にキャプチャおよび保存されるデフォルトのメタデータ |
+| -------------- | ----------- |
+| タイトル | アセットの名前。デフォルトのタイトルは元のファイル名にすることができます |
+| [!DNL Campaigns] | ビジネス目標を達成 [[!DNL Campaigns]](/help/user-guide/campaigns/overview.md) るために、一貫したメッセージを含んだプロモーションコンテンツを含めます <br> キャンペーンリンクをクリックすると、キャンペーンの概要ページに移動します |
 | [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) がGenStudio for Performance Marketingに追加され、使用するために公開されました |
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) がGenStudio for Performance Marketingに追加されて使用されるようになりました |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) がGenStudio for Performance Marketingに追加されて使用されるようになりました |
-| チャネル | メールやメタ広告など、アセットが使用されるGenStudio for Performance Marketingのコンテンツタイプ |
+| チャネル | 電子メールやディスプレイ広告など、特定のコンテンツタイプを配信するためのプラットフォーム |
 | [!UICONTROL  期間 ] | 四半期、シーズン、年など、アセットを使用する時間枠。 例：`Winter 2023` |
 | 地域  | アセットが使用される地域。 例：`North America`, `APAC`, `Italy` |
 | 言語 | アセットを使用する言語。 例：`Spanish` |
-| キーワード | アセットの特徴や目的をさらに特定するために使用されるユーザー定義のキーワード |
+| キーワード | ユーザー定義のキーワードは、アセットの特徴や目的をさらに特定するために使用されます |
 
-<!-- ## History
+>[!TIP]
+>
+>**[!UICONTROL 詳細を編集]** （鉛筆）をクリックして、アセットのメタデータを編集します。 例えば、アセット名を変更したり、キーワードを追加または削除したりできます。
 
-Expand the _[!UICONTROL History]_ section to view a timeline of approvals and activity.
+## 生成コンテキスト
 
-list other activity, show screenshot?
--->
+[!UICONTROL  生成コンテキスト ] セクションには、エクスペリエンスプロセス中に使用された `Prompt` など、エクスペリエンスの生成に使用された情報が表示 [!DNL Create] れます。 このインサイトは、より成功したバリアントを構築するのに役立つ可能性があります。
+
+情報には次が含まれる場合があります。
+
+- `Brand`、`Product`、`Persona` のパラメーター
+- メールエクスペリエンスの `Subject line` と `Pre Header`
+- メタ広告の `Headline` と `Body`
+
+## 履歴
+
+エクスペリエンスの _[!UICONTROL 履歴]_ セクションを展開すると、承認とアクティビティのタイムラインが表示されます。 例えば、承認されたエクスペリエンスには、承認日、時刻、承認者が表示されます。
+
+```
+Approved
+
+December 10, 2024 at 6:00 PM by Username
+```

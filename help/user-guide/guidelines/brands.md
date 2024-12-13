@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] 、マーケティングコピー、画像、エクスペリエンスなどのブランドアセットを包括的に集めたもので、ブランドに合わせたコンテンツの作成を通知します。
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
+source-git-commit: 435c792d1991c2e34c500d072f23f1ed1ccdbcc9
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,11 @@ GenStudio for Performance Marketingは、ブランドから得た豊富なブラ
 
 ブランドガイドラインをGenStudio for Performance Marketingに追加した後、ガイドラインを [ 管理 ](/help/user-guide/guidelines/add-guidelines.md#manage-brands) および [ 公開 ](/help/user-guide/guidelines/add-guidelines.md#publish-brand) できます。 公開すると、チームがアセットの生成に使用できるようになります。
 
-状態 [!DNL Brands]_ドラフト_ または _公開済み_ のいずれかです。 新規 [!DNL brands] は _ドラフト_ として開始します。
+状態 [!DNL Brands]_非公開_ または _公開済み_ のいずれかです。 新しい [!DNL brands] は _非公開_ として開始されます。
 
-チームがアセットを生成できるように、[!DNL brand] を公開する必要があります。
+チームがアセットを生成できるように、ブランドを [ 公開 ](/help/user-guide/guidelines/add-guidelines.md#publish-brand) する必要があります。
 
-公開済みの [!DNL brands] は編集でき、変更はすぐに使用可能になります。 コンテンツの作成と検証に使用できるのは、公開済みの [!DNL brands] のみです。
+公開されたブランドは、編集（変更はすぐに使用可能）、複製、非公開のいずれかを行うことができます。 コンテンツの作成と検証に使用できるのは、公開済みの [!DNL brands] のみです。 [ ブランドの管理 ](/help/user-guide/guidelines/add-guidelines.md#manage-brands) を参照してください。
 
 削除された [!DNL brands] は 30 日間アーカイブされ、その期間内に復元できます。
 

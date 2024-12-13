@@ -4,13 +4,13 @@ description: Adobe GenStudio for Performance Marketingのメタエクスペリ�
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
+exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # メタエクスペリエンス
 
@@ -54,3 +54,9 @@ Content creators and marketers can produce brand-consistent Meta ad experiences 
 1. 見出し
 1. 画像上のテキスト
 1. ブランドの検証プロセスが実行され、各バリアントに [_ブランドガイドラインチェック_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) が入力されます。
+
+## 文字数
+
+一連の Meta バリアントを生成すると、各セクションの文字数が表示されます。 件名行や本文など、生成されたセクションにポインタを合わせるかクリックすると、そのセクションのセクション名と文字数が表示されます。
+
+![ 文字数 ](/help/assets/character-count.png){width="500" zoomable="yes"}

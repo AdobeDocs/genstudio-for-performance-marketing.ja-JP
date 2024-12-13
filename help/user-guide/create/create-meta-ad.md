@@ -1,14 +1,14 @@
 ---
 title: メタ広告エクスペリエンスの作成
-description: Performance Marketing のAdobe GenStudioを使用して、FacebookまたはInstagram向けのオンブランドのメタ広告エクスペリエンスを作成する方法を説明します。
+description: Adobe GenStudio for Performance Marketingを使用して（FacebookまたはInstagram用の）オンブランドの Meta 広告エクスペリエンスを作成する方法を説明します。
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: bd24c4e25df1210dd6ff2b7f17f999963133294a
+source-git-commit: 5f5ab9647aab3c928d04c464f47bb3924b0bb73a
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン ](/help/user-guide/create/meta-experiences.md) を使用して、ブランド化された [ メタ広告エクスペリエンス）を生成する方法を説明します。
 
-メタ広告エクスペリエンスの生成を開始する前に、GenStudio for Performance Marketing で [ ガイドラインを組み込む ](/help/user-guide/guidelines/add-guidelines.md) ことが重要です。また、[ プロンプトの作成 ](/help/user-guide/effective-prompts.md) の基本を理解しておく必要があります。
+Meta 広告エクスペリエンスの作成を開始する前に、GenStudio for Performance Marketingで [ ガイドラインを組み込む ](/help/user-guide/guidelines/add-guidelines.md) ことが重要です。また、[ プロンプトの作成 ](/help/user-guide/effective-prompts.md) の基本を理解しておく必要があります。
 
 ## テンプレートを選択
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    ![ ペルソナを選択 ](/help/assets/persona-select.png){width="600" zoomable="yes"}
 
-   これらのメニューに表示されるブランド、ペルソナまたは商品がない場合は、[ パフォーマンスマーケティングのGenStudioにガイドラインを追加してください ](/help/user-guide/guidelines/add-guidelines.md)。
+   これらのメニューから利用できるブランド、ペルソナ、製品がない場合は、[GenStudio for Performance Marketingにガイドラインを追加 ](/help/user-guide/guidelines/add-guidelines.md) します。
 
 1. コンテンツの生成に影響を与えるために、エクスペリエンス *および* で使用するコンテンツを追加します。
    * **[!UICONTROL コンテンツから選択]** をクリックして、[!DNL Content] リポジトリからアセット（画像）を選択し、1 つ以上の画像をフィルタリングして選択します。
@@ -86,9 +86,9 @@ ht-degree: 0%
 **生成されたバリアントを修正するには**:
 
 * **メタ広告のドラフト名を [ 編集](/help/user-guide/create/manage-variants.md#change-draft-name)** するには、キャンバスの上部にある _名称未設定のドラフト_ タイトルをクリックし、新しいタイトルを入力します。
-* **メタ広告を [ 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、任意の広告セクション（件名など）をダブルクリックします。
+* **メタ広告を [ 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、広告セクションのいずれか（件名行など）をクリックします
 ヘッダー（本文コピー）を使用し、必要に応じて編集します。
-* **コールトゥアクションを変更または選択するには**、コールトゥアクションボタンをクリックし、使用可能なボタンテキストオプションから選択します。 _[!UICONTROL リンク]_ に、コールトゥアクションテキストの URL を入力します。
+* **コールトゥアクションを変更または選択するには**、コールトゥアクションを表示するボタンをクリックし、使用可能なボタンテキストオプションから選択します。<!-- In _[!UICONTROL Link]_, enter a new URL or revise an existing URL. -->
 * **バリアントのセクションを [ 再生成](/help/user-guide/create/manage-variants.md#re-generate-sections)** するには、編集可能なテキストフィールドをクリックして _[!UICONTROL 編集候補]_ オプションを使用するか、新しいプロンプトを入力して **[!UICONTROL 生成]** をクリックします。
 * **画像を [ 切り抜きまたは再配置](/help/user-guide/create/manage-variants.md#crop-assets)** するには、画像の上にマウスポインターを置き、表示される切り抜きアイコンをクリックし、画像のサイズと配置を調整します。
 * **メタ広告を [ 削除](/help/user-guide/create/manage-variants.md#delete-variant)** するには、広告タイトル（「Meta 4」など）をクリックし、**[!UICONTROL バリアントを削除]** をクリックします。
@@ -135,12 +135,12 @@ ht-degree: 0%
 
 1. **新しいメタ広告エクスペリエンスを公開するには**、上部のツールバーまたは承認フロー内の ]**2}Publish」をクリックします。**[!UICONTROL 
 1. **新しいメタ広告エクスペリエンスを書き出すには** 上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。
-   1. CSV 形式と画像またはHTML形式のみを選択し、「**[!UICONTROL 書き出し]**」をクリックします。
+   1. フォーマット（HTMLとイメージまたは CSV とイメージ（JPGまたは PNG））を選択し、「**[!UICONTROL エクスポート]**」をクリックします。
 
 詳細は、[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) を参照してください。
 
 ## メタを接続
 
-GenStudio for Performance Marketing を Meta に接続して、コンテンツのパフォーマンスに関する高度な分析と [ インサイト ](/help/user-guide/insights/overview.md) を受け取ることができます。
+GenStudio for Performance Marketingを Meta に接続して、コンテンツのパフォーマンスに関する高度な分析と [ インサイト ](/help/user-guide/insights/overview.md) を受け取ることができます。
 
 詳しくは、[ チャネルアカウントの接続 ](/help/user-guide/insights/connect-channel.md) を参照してください。
