@@ -1,11 +1,11 @@
 ---
 title: コンテンツのレビューと編集
-description: コンテンツを反復的にレビューおよび編集する方法を説明します。
+description: Adobe GenStudio for Performance Marketingを使用してコンテンツを反復的にレビューおよび編集する方法について説明します。
 feature: Approval
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Adobe GenStudio for Performance Marketingのジェネレーティブ AI 機能�
 
 ## リクエストの変更
 
-コンテンツ _承認_ パネルから、変更候補をリスト表示したり、ドラフトについて質問したりできます。 **作業が必要** ドラフトステータスは、変更がリクエストされたことをコンテンツ作成者に通知します。
+[!DNL Content] の _承認_ パネルで、変更候補のリストを表示したり、ドラフトについて質問したりできます。 **作業が必要** ドラフトステータスは、変更がリクエストされたことをコンテンツ作成者に通知します。
 
 コンテンツ作成者に対してレビュー、編集の提案、コンテンツの修正を行い、オプションでコメントを使用して追加の入力をリクエストする `@mention` いうプロセスは、非常に反復的です。 GenStudio for Performance Marketingの時間節約の機能が見られるのは、サイクルのこのパートです。
 
