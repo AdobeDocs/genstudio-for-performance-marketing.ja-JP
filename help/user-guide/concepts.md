@@ -3,9 +3,9 @@ title: Adobe GenStudio for Performance Marketing概念
 description: Adobe GenStudio for Performance Marketingの概念と用語について説明します。
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: e8a210a22856683f7d61c5309c451689e445c8fe
+source-git-commit: bfe961a06f62e55f3207088f6f390204b12e7142
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,48 @@ GenStudio for Performance Marketingは、生成 AI の力を活用して、コ�
 GenStudio for Performance Marketingでは、Adobeのジェネレーティブ AI プラットフォームを活用して、基盤となる AI および機械学習（ML）サービスを提供しています。 このプラットフォームは、大規模言語モデル（LLM）の使用を簡素化し、Adobeの GenAI 機能が魅力的なエクスペリエンスを作成できるようにします。
 
 GenStudio for Performance Marketingでは、Azure OpenAI.<!-- Claude, and Gemini models. --> を通じて GPT シリーズのサードパーティ LLM を使用します。
+
+## [!DNL Generative Actions]
+
+_[!DNL Generative Actions]_は、[Adobe GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) で定義されているように、GenStudio for Performance Marketing内での生成 AI 機能の使用を定量化するユニットです。
+
+<!-- Add example about usage mode?
+Where users check how many generative actions they have left
+How they re-up their genactions
+If genactions roll over month to month or not -->
+
+### 料率
+
+[GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) に記載されている通り、[!DNL Generative Actions] のデフォルトの割り当てが受け取ります。
+
+>[!NOTE]
+>
+>使用率は場合によって異なります。 計画は変更される場合があります。 更新後の評価について詳しくは、[Adobe GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) を参照してください。
+
+次の関数は、指定された割合で [!DNL Generative Actions] を使用します。
+
+| 関数 | 生成アクション率 |
+| -----------------------  | ------------------ |
+| メールを作成 | 世代ごとに 5 個 |
+| 有料メディア広告の作成 | 世代ごとに 5 個 |
+| ディスプレイ広告の作成 | 世代ごとに 5 個 |
+| セクションを再生成 | 世代ごとに 1 つ |
+
+<!-- | Generate on-brand images | 1 per prompt  |
+| Translation              | 1 per prompt  |
+| Video: ADLS              | 1 per prompt  |
+| Video: TTS + Avatar      | 1 per prompt  | -->
+
+次の場合に [!DNL Generative Actions] _は使用されません_。
+
+* バリアント生成時の [ ブランド検証 ](/help/user-guide/guidelines/brand-validation.md) の使用
+* [ アップロードされたガイドライン ](/help/user-guide/guidelines/add-guidelines.md) からの情報の抽出
+* 手動 [ バリアントの再チェック ](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment)
+* デジタルアセットには、属性（[[!DNL Insights]](/help/user-guide/insights/overview.md)）が自動的にタグ付けされます
+
+>[!TIP]
+>
+>[!DNL Generative Actions] の使用権限を超える場合は、アカウント担当者からさらに直接購入できます。
 
 ## データガバナンス
 
