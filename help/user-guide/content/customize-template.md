@@ -4,9 +4,9 @@ description: Adobe GenStudio for Performance Marketing用テンプレートを�
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: f95848546abc2decbb5ac52491307977820ce503
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,10 @@ GenStudio for Performance Marketingは `pod1_headline` が `pod2_body` よりも
 1. **CORS ヘッダーを使用**：ホストサーバーは、実稼動環境の値に設定された `Access-Control-Allow-Origin` ヘッダーで応答 `https://experience.adobe.com` 送信する必要があります。 これにより、GenStudio for Performance Marketingはリソースにアクセスして含めることができます。
 
 1. **データ URL を使用**：データ URL を使用して、外部リソースをテンプレートに直接埋め込みます。 この方法では、CORS の制限をバイパスし、サムネールの生成中にリソースを利用できるようにします。
+
+>[!TIP]
+>
+>[ 更新 ](/help/user-guide/content/use-templates.md#refresh-template) を使用して、テンプレートのプレビューを最新の静的コンテンツで更新します。
 
 ## テンプレートの例
 

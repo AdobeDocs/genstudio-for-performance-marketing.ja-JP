@@ -3,9 +3,9 @@ title: アセットの詳細
 description: Adobe GenStudio for Performance Marketingでは、検索性とパフォーマンストラッキングのために、リッチなメタデータを使用して承認済みコンテンツを格納します。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: cd3cfface9121788c1dd0808f7f7db36c36766df
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '724'
 ht-degree: 2%
 
 ---
@@ -56,11 +56,11 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 
 **ユーザー定義のメタデータを編集するには**:
 
-1. _[!DNL Content]_で、アセット、エクスペリエンスまたはテンプレートを選択します。
+1. _[!DNL Content]_で、アセット、エクスペリエンスまたはテンプレートを選択します。 アセットをクリックすると、そのアセットのフォーカスされたビューが開きます。
 
 1. アセット表示で、右側の _[!UICONTROL 詳細]_ セクションを確認します。
 
-1. **[!UICONTROL 詳細を編集]** （鉛筆）をクリックして、アセットのメタデータを編集します。
+1. **[!UICONTROL 詳細を編集]** （鉛筆）をクリックして、アセット、エクスペリエンスまたはテンプレートのメタデータを編集します。
 
    提供する情報が多いほど、GenStudio for Performance Marketingの堅牢な機能を体験できます。 リストから 1 つ以上の詳細を選択するか、必要に応じて新しい詳細（キーワードを使用するなど）を入力します。 追加した各詳細は、リストの下に表示されます。 詳細を削除するには、「**`x`**」をクリックします。
 
@@ -91,8 +91,8 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 
 情報には次が含まれる場合があります。
 
-- `Brand`、`Product`、`Persona` のパラメーター
-- メールエクスペリエンスの `Subject line` と `Pre Header`
+- [!DNL Create] のプロセス中に選択された `Brand`、`Product`、および `Persona` のパラメーター
+- メールエクスペリエンスの `Subject line` と `Preheader`
 - メタ広告の `Headline` と `Body`
 
 ## 履歴

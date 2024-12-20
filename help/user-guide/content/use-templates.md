@@ -3,16 +3,26 @@ title: テンプレートの操作
 description: テンプレートを効果的に使用して、Adobe GenStudio for Performance Marketingのクリエイティブプロセスを効率化する方法を説明します。
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: bfe1ae2c734b19e474ab1614fa72afea7d35a73e
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '929'
+ht-degree: 1%
 
 ---
 
 # テンプレートの操作
 
 GenStudio for Performance Marketingを使用すると、コンテンツ作成者は _テンプレート_ を使用して、一貫性のあるオンブランドマーケティングコンテンツを迅速に作成できます。 テンプレートは、事前設定済みのレイアウトとデザイン要素を含む出発点を提供することで、新しいコンテンツの生成に必要な時間と労力を大幅に削減します。
+
+GenStudio for Performance Marketingではアプリケーション内でテンプレートを直接作成することはできませんが、Adobe InDesign、Illustrator、Express などの一般的なデザインツールを使用して、テンプレートを簡単にデザインおよび準備できます。 デザインが完成したら、GenStudio for Performance Marketingで使用できるように調整できます。 次の手順に従って、テンプレートの使用を開始します。
+
+1. **テンプレートのデザイン**：好みのデザインツールを使用して、プリヘッダー、ヘッドライン、本文、CTA、画像、フッターなどの要素を含む [ テンプレートの視覚的なレイアウトを作成し ](#template-elements) す。
+
+2. **テンプレートのコーディング**：デザインをHTMLとインライン CSS に変換して、様々なデバイスにわたってクリーンでレスポンシブであることを確認します。 対象オーディエンスの最大数に到達するには、[ アクセシビリティガイドライン ](accessibility-for-templates.md) を検討します。
+
+3. **GenStudio for Performance Marketingの準備**:Handlebars テンプレート言語を使用して、HTMLテンプレートを調整します。 GenStudio for Performance Marketingがコンテンツを動的に生成する場所を示すプレースホルダーを挿入します。 GenStudio for Performance Marketingの [ テンプレートをカスタマイズする ](customize-template.md) 方法を参照してください。
+
+これらの手順に従うと、GenStudio for Performance Marketingで使用できるプロフェッショナルで効果的なテンプレートを作成でき、オンブランドコンテンツを迅速かつ効率的に作成できます。
 
 ## テンプレート要素
 
@@ -81,9 +91,15 @@ GenStudio for Performance Marketingで使用できるように [ テンプレー
 >
 >[ アクセシビリティガイドライン ](accessibility-for-templates.md) および [ ベストプラクティス ](/help/user-guide/content/best-practices-for-templates.md) に従って、より多くのオーディエンスにリーチし、最適なエクスペリエンスを提供できるようにします。
 
-## テンプレートのアップロード
+## テンプレートの管理
 
-GenStudio for Performance Marketing用のテンプレートを準備する際のガイドとして、[ テンプレートのカスタマイズ ](customize-template.md) を使用します。 すべてのオーディエンスによりよいエクスペリエンスを提供する方法については、[ テンプレートのアクセシビリティガイドライン ](accessibility-for-templates.md) を参照してください。
+[!DNL Templates] ギャラリーには、GenStudio for Performance Marketingでエクスペリエンスを生成するためにカスタマイズされたテンプレートのインベントリが表示されます。 テンプレートは、チャネルタイプ（メール、ディスプレイ広告、メタ広告など）でフィルタリングできます。
+
+![ コンテンツテンプレートリスト ](/help/assets/content-templates.png){width="650" zoomable="yes"}
+
+### テンプレートを追加
+
+テンプレートをアップロードする前に、[ テンプレートをカスタマイズ ](customize-template.md) ガイダンスに従ってテンプレートの準備が完了し、GenStudio for Performance Marketingで使用できる状態になっていることを確認します。
 
 **テンプレートを追加するには**:
 
@@ -114,7 +130,19 @@ GenStudio for Performance Marketing用のテンプレートを準備する際の
 
 1. 「**[!UICONTROL 完了]**」をクリックします。
 
-## テンプレートを使用して作成
+### テンプレートを更新
+
+テンプレートには、アイコンやロゴなどの静的ファイルを含めることができます。 「更新」を使用すると、テンプレートのプレビューをこれらのアセットの最新バージョンで更新できます。
+
+**テンプレートを更新するには**:
+
+1. _[!DNL Content]_で、「**[!UICONTROL テンプレート]**」セクションを選択します。
+
+1. テンプレートをクリックすると、全画面表示と詳細リストが表示されます。
+
+1. 右上隅の **[!UICONTROL 更新]** （丸の矢印）をクリックして、テンプレートで使用されているすべてのアセットを更新します。
+
+### テンプレートを使用したエクスペリエンスの作成
 
 GenStudio for Performance Marketingで既存のテンプレートを検索および使用して、より多くのエクスペリエンスを作成できます。
 
@@ -122,9 +150,7 @@ GenStudio for Performance Marketingで既存のテンプレートを検索およ
 
 1. _[!DNL Content]_で、「**[!UICONTROL テンプレート]**」セクションを選択します。
 
-   ![ コンテンツテンプレートリスト ](/help/assets/content-templates.png){width="650" zoomable="yes"}
-
-1. 全体表示および詳細リストのテンプレートを選択します。
+1. テンプレートをクリックすると、全画面表示と詳細リストが表示されます。
 
 1. 右上隅にある **[!UICONTROL エクスペリエンスを作成]** （絵筆）をクリックして、テンプレートを使用します。
 
