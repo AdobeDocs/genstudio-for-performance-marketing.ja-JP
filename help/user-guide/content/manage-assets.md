@@ -3,10 +3,10 @@ title: アセットとエクスペリエンスの管理
 description: デジタルマーケティングジャーニーでの使用と再利用のために、ブランド承認済みアセットの管理を簡素化および強化します。
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: d5efabbaf3dd0817bd3158acb59d997a727e5f62
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -66,6 +66,8 @@ AEM リポジトリを選択すると、そのリポジトリのアセットの�
 AEM リポジトリーは読み取り専用です。つまり、コンテンツにアクセスできますが、ドラフト、新しいアセットまたはメタデータをAEM リポジトリーに保存することはできません。 アセット、エクスペリエンスおよびテンプレートのすべてのドラフトと最終更新は、新しい [ システムメタデータ ](asset-details.md#system-metadata) とともに `GenStudio assets` リポジトリに保存されます。
 
 {{note-aem-assets}}
+
+AEM リポジトリには、アセットの有効期限など、特定のライセンス要件が適用される場合があります。 これらのアセットは、[!DNL Create] のワークフローでは使用できない場合があります。 プロジェクトの継続性を維持するには、期限切れのアセットを更新または置き換える必要がある場合があります。 これらのアセットについてサポートが必要な場合は、[!DNL AEM Assets Content Hub] 管理者に問い合わせてください。
 
 ## Assets管理
 
