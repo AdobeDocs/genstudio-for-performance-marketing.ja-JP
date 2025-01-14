@@ -4,9 +4,9 @@ description: Adobe GenStudio for Performance Marketing用テンプレートを�
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: 8930d3284f9dd1223067239c0077e481ea98335a
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,9 @@ _セクション_ このセクションのフィールドには高い一貫性�
 
 各セクションは、各フィールドタイプの 1 つのみを使用できます。 上記の例では、`pod1` セクションは 1 つの `pod1_headline` フィールドのみを使用できます。 このルールのため、セクションをネストすることはできません。
 
-メールテンプレートには、最大で 3 つのセクションを含めることができます。 例えば、次のリストには 3 つのヘッドラインと本文セクションがあります。
+メールやメタ広告などの各テンプレートタイプには、セクションの使用に関するチャネル固有の制約があります。 [ テンプレート使用のベストプラクティス ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) トピックの _チャネル固有のガイドライン_ を参照してください。
+
+例えば、1 つのメールテンプレートに最大 3 つのセクションを含めることができます。したがって、次の 3 つのヘッドラインと本文セクションを含めることができます。
 
 - `pre-header`
 - `pod1_headline`
