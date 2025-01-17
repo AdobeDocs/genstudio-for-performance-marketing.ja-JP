@@ -3,7 +3,8 @@ title: Markdown のテストページ
 description: この記事は、様々なマークダウン変換のテストでは非表示になっています。
 hide: true
 hidefromtoc: true
-source-git-commit: 3b186165022be9ac98c7698cf1511e36332962d8
+recommendations: noDisplay, noCatalog
+source-git-commit: cac3ee686121c3b5eca6f91ab6cfe2c0e97def4a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -33,4 +34,4 @@ ht-degree: 0%
 
 バリアントを管理する際に、新しいコールトゥアクション（CTA）フレーズを生成できるようになりました。 新しい _フレーズ変更_ オプションと _リンク追加_ オプションを使用して、新しいフレーズを生成し、CTAリンクを編集します。 これらの新しいCTA関数が機能するには、テンプレートを適切に設定する必要があります。 _テンプレートのカスタマイズ_:[ コールトゥアクション ](/help/user-guide/content/customize-template.md#calls-to-action) のガイドラインに従います。 バリアントでの CTA の管理に関するガイドラインについては、[ コールトゥアクションの改訂 ](/help/user-guide/create/manage-variants.md#revise-call-to-action) を参照してください。<!-- GS-6676 -->
 
-![ 実際のCTAのフレーズ変更 ](/help/assets/animation/rephrase-cta.gif "CTAのフレーズ変更 "){width="250" align="center"}
+![ 実際のCTAのフレーズ変更 ](/help/assets/animation/rephrase-cta.gif "CTAのフレーズ変更 "){width="250" align="center" zoomable="yes"}
