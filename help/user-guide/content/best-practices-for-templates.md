@@ -4,9 +4,9 @@ description: Adobe GenStudio for Performance Marketingでテンプレートを�
 feature: Templates, Content
 last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: df613ffa66b76e0810500f22d2a7b1c7cf7860af
+source-git-commit: 9cc284cdb00a204baf6b0a2d9d7f67cf9bc9c81f
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,7 @@ GenStudio for Performance Marketingと連携するようにメタ広告テンプ
 - 正方形 1:1 （1080 x 1080 ピクセル）
 - 縦 4:5 （1080 x 1350 ピクセル）
 - ストーリー 9:16 （1080 x 1920 ピクセル）
+- カスタム画像サイズ：（最小画像幅 50 x 50 ピクセル）
 
 **認識されたフィールド名**:
 
@@ -121,6 +122,8 @@ GenStudio for Performance Marketingと連携するようにメタ広告テンプ
 テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー ](customize-template.md#content-placeholders) を参照してください。
 
 >[!TAB  広告を表示 ]
+
+[!BADGE Beta]{type=Informative tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"}
 
 GenStudio for Performance Marketingと連携するようにディスプレイ広告テンプレートをカスタマイズする場合は、次のデザインのベストプラクティスに従ってください。
 

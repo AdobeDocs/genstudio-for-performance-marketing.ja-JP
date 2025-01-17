@@ -2,11 +2,11 @@
 title: Adobe GenStudio for Performance Marketing リリースノート
 description: パフォーマンスマーケティング用の Adobe GenStudio の最新機能と機能強化について説明します。
 recommendations: noDisplay
-last-substantial-update: 2024-12-13T00:00:00Z
+last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 00359960b6cf314203382d74faa23bae3e753875
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1644'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,49 @@ ht-degree: 1%
 
 このリリース情報では、GenStudio for Performance Marketing アプリケーションの最新のアップデートについて詳しく説明します。
 
-## 2024.12.12 {#latest}
+## 2025.1.16 {#latest}
+
+### Adobe Workfront Proof との統合
+
+[!BADGE Beta]{type=Informative tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"}
+
+GenStudio for Performance MarketingとAdobe Workfront Proof の統合Beta プログラムが今月開始されます。 Workfront Proofでは、承認テンプレート、マルチステージワークフロー、注釈を使用して、コンテンツの作成とアクティベーションのライフサイクルを強化します。 Workfront Proofの使用権限を持つGenStudio for Performance Marketing ユーザーは、GenStudio for Performance Marketing内で Proof の高度な機能を使用して、GenStudioで生成されたコンテンツに対してレビューやコメントを行うことができます。
+
+Beta プログラムは、製品開発を形成し、一般提供への準備状況を判断するのに役立つ手段を提供します。 GenStudio for Performance MarketingとWorkfront Proofの統合Beta プログラムについて詳しくは、Etienne Bosch （etienneb@adobe.com）にお問い合わせください。
+
+### 新しいコールトゥアクションの生成
+
+バリアントを管理する際に、新しいコールトゥアクション（CTA）フレーズを生成できるようになりました。 新しい _フレーズ変更_ オプションと _リンク追加_ オプションを使用して、新しいフレーズを生成し、CTAリンクを編集します。 これらの新しいCTA関数が機能するには、テンプレートを適切に設定する必要があります。 _テンプレートのカスタマイズ_:[ コールトゥアクション ](/help/user-guide/content/customize-template.md#calls-to-action) のガイドラインに従います。 バリアントでの CTA の管理に関するガイドラインについては、[ コールトゥアクションの改訂 ](/help/user-guide/create/manage-variants.md#revise-call-to-action) を参照してください。<!-- GS-6676 -->
+
+### 修正および機能強化
+
+* ディスプレイ広告の生成されたすべてのフィールドと手動フィールドに、文字数が表示されるようになりました。 _メタエクスペリエンス_ の [ 文字カウント ](/help/user-guide/create/meta-experiences.md#character-counts) を参照してください。<!-- GS-7732 -->
+
+* _共同作業者_ は、アセットを表示できますが、これらのアセットの作成、編集、削除はできません。 以前は、[!DNL Create] で共同作業者の使用権限が期待どおりに適用されていませんでした。<!-- GS-7614 -->
+
+* コンテンツエディターでアセット、エクスペリエンスおよびテンプレートのメタデータを編集できるようになりました。<!-- GS-4905 -->
+
+* メタ広告テンプレート内のカスタム画像サイズがサポートされるようになりました。<!-- GS-7512 -->
+
+* ペルソナ、ブランドおよび製品の選択項目が、テンプレートの生成中にプリロードされるようになりました。<!-- GS-8069 -->
+
+* メールコールトゥアクションリンクが必須フィールドではなくなりました。<!-- GS-8103 -->
+
+* [!DNL Brand] セレクターのドロップダウンメニューが、テンプレートで期待どおりに動作するようになりました。 以前は、一部のテンプレートでセレクターが正常に読み込まれませんでした。<!-- GS-8908 -->
+
+* 編集者は、単一ポッドのメールとメタ広告用に最大 4 つの画像を選択できるようになりました。<!-- GS-2631 -->
+
+* 承認されたエクスペリエンスのメタデー `Created by` フィールドの年の値が、エクスペリエンスのメタデータが編集された後も期待どおりに一貫するようになりました。<!-- GS-8344 -->
+
+* コンテンツエディターが [!DNL Create] からテンプレートを正常に選択できるようになりました。 以前は、エディターがテンプレートを選択すると、アプリケーションがコンソールエラーをスローしていました。 <!-- GS-8798 -->
+
+* メタ広告のサイズ変更操作と再生成操作に関する問題が解決されました。<!-- GS-8900 -->
+
+* 「**[!UICONTROL 戻る]** ボタンをクリックすると、前のページまたは [!DNL Create] のランディングページに期待どおりにユーザーが戻るようになりました。<!-- GS-8622 -->
+
+## 以前のリリースノート
+
++++ご注意（2024.12.12 以降）
 
 ### 新機能
 
@@ -89,7 +131,7 @@ ht-degree: 1%
 
 * 「[!DNL Create] 戻る **[!UICONTROL ボタンのパフォーマンスを向上]** ました。<!-- GS-6767 -->
 
-## 以前のリリースノート
++++
 
 +++ご注意（2024.11.14 より）
 

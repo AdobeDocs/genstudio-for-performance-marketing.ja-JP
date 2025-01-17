@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 763c907598d92779483938295a99d640ee3f4d20
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## プロンプトを入力
 
-ガイドラインを選択したら、自然言語を使用してプロンプトを作成し、新しいメールエクスペリエンスのコンテンツの生成を開始します。 詳細なプロンプトは、曖昧なプロンプトや説明のつかないプロンプトよりも高品質の出力を生成します。
+ガイドラインを選択したら、自然言語を使用してプロンプトを作成し、新しいメールエクスペリエンスのコンテンツの生成を開始します。 詳細なプロンプトは、あいまいなプロンプトやあいまいなプロンプトよりも高品質の出力を生成します。
 
 プロンプトの書き込みについて詳しくは、[ 効果的なプロンプトの書き込み ](/help/user-guide/effective-prompts.md) を参照してください。
 
@@ -83,6 +83,7 @@ ht-degree: 0%
 
 * **メールドラフト名を [ 編集](/help/user-guide/create/manage-variants.md#change-draft-name)** するには、キャンバスの上部にある _名称未設定のドラフト_ タイトルをクリックし、新しいタイトルを入力します。
 * **メールを [ 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、編集可能なテキストフィールド（件名行、ヘッダー、本文コピーなど）のいずれかをクリックし、必要に応じて編集します
+* **コールトゥアクションを [ 変更または選択](/help/user-guide/create/manage-variants.md#revise-call-to-action)** するには、「コールトゥアクション」ボタンをクリックし、「_[!UICONTROL フレーズ変更]_」または _[!UICONTROL リンクを追加]_ を選択します。
 * **バリアントのセクションを [ 再生成](/help/user-guide/create/manage-variants.md#re-generate-sections)** するには、編集可能なテキストフィールドをクリックして _[!UICONTROL 編集候補]_ オプションを使用するか、新しいプロンプトを入力して **[!UICONTROL 生成]** をクリックします。
 * **バリアント内の画像を追加 [ 入れ替え](/help/user-guide/create/manage-variants.md#swap-image)** するには、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックし、**[!UICONTROL コンテンツから選択/入れ替え]** または **[!UICONTROL 新しい画像をアップロード]** をクリックして、個々のバリアント内の画像を追加または入れ替えます。
 * **メールを [ 削除](/help/user-guide/create/manage-variants.md#delete-variant)** するには、をクリックしてメールのタイトル（「メール 1/4」など）を選択し、「**[!UICONTROL バリアントを削除]**」をクリックします。

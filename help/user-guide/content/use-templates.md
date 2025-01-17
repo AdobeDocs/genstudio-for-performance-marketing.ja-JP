@@ -3,9 +3,9 @@ title: テンプレートの操作
 description: テンプレートを効果的に使用して、Adobe GenStudio for Performance Marketingのクリエイティブプロセスを効率化する方法を説明します。
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
@@ -55,8 +55,9 @@ GenStudio for Performance Marketingではアプリケーション内でテンプ
    - テキスト、画像、その他のメディアを含めることができます
    - メールおよびメタ広告テンプレートで使用
 
-- **CTA（コールトゥアクション）**
+- **CTA**
 
+   - コールトゥアクションボタンは、フレーズとリンクを使用します
    - リンクのクリックや購入など、特定のアクションを実行するよう受信者に促します
    - メールおよびメタ広告テンプレートで使用
 

@@ -4,9 +4,9 @@ description: Adobe GenStudio for Performance Marketing用テンプレートを�
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 8930d3284f9dd1223067239c0077e481ea98335a
+source-git-commit: 229d16019d71b8228acf16e651885ce8c6d325e5
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 生成 AI がコンテンツの挿入に使用するコンテンツプレースホルダー（フィールド）を挿入することで、GenStudio for Performance Marketingで使用するテンプレートをカスタマイズできます。
 
-次のいくつかの節では、_Handlebars_ テンプレート言語を使用してGenStudio for Performance Marketing用にHTMLテンプレートを適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 [ とは  [!DNL Handlebars] を参照してください。テンプレートの準備方法については、_Handlebars 言語ガイド_ を ](https://handlebarsjs.com/guide/#what-is-handlebars) 照してください。
+以降の節では、_[!DNL Handlebars]_テンプレート言語を使用してGenStudio for Performance Marketing用にHTMLテンプレートを適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 テンプレートの準備方法については、_ Handlebars 言語ガイド _の [ 概要  [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) を参照してください。
 
 
 テンプレートの準備が整ったら、[GenStudio for Performance Marketingにアップロード ](use-templates.md#upload-a-template)、カスタムテンプレートに基づいてパーソナライズされたメールの生成を開始できます。
@@ -123,6 +123,32 @@ _セクション_ このセクションのフィールドには高い一貫性�
 GenStudio for Performance Marketingは `pod1_headline` が `pod2_body` よりも `pod1_body` と密接に関係していることを理解しています。
 
 メールの各セクションに対して様々なコンテンツを生成するプロンプトを作成する方法については、[ 構造化プロンプト ](/help/user-guide/effective-prompts.md#structured-prompts) を参照してください。
+
+### コールトゥアクション
+
+コールトゥアクション（CTA）には、フレーズとリンクが含まれます。 バリアントの生成プロセスでCTA _[!UICONTROL フレーズの変更]_ および _[!UICONTROL リンクの追加]_ 機能が正しく機能するには、テンプレートにリンクとフレーズのプレースホルダーを含める必要があります。
+
+次のガイダンスを使用して、CTAのプレースホルダーを設定します。
+
+- CTAのフレーズ変更が可能で、リンクを編集できます
+
+  ```html
+  <a class="button" href="{{pod1_link}}" >{{cta}}</a>
+  ```
+
+- CTAのフレーズを変更できますが、実際のリンクはテンプレートで提供されるので、リンクは編集 **できません**
+
+  ```html
+  <a align="center" href="https://link">{{cta}}</a>
+  ```
+
+- CTA リンクは編集できますが、フレーズはテンプレートで提供されているので、再フレーズは使用 **できません**
+
+  ```html
+  <a class="button" href="{{pod1_link}}" >Register now</a>
+  ```
+
+GenStudio for Performance Marketingでは、様々なコールトゥアクションフレーズを提供することもできます。 [ コールトゥアクションの修正 ](/help/user-guide/create/manage-variants.md#revise-call-to-action) を参照してください。
 
 ## テンプレートのプレビュー
 

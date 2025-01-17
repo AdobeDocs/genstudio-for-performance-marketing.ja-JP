@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 5f5ab9647aab3c928d04c464f47bb3924b0bb73a
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 
 ## テンプレートを選択
 
-新しいメタ広告エクスペリエンスの生成を開始するには、使用可能なテンプレートを使用して、コンテンツのフレームワークを提供します。
+新しいメタ広告エクスペリエンスの生成を開始するには、使用可能なテンプレートを使用して、コンテンツのフレームワークを提供します。 サポートされるメタ広告の縦横比について詳しくは、[ テンプレートのベストプラクティス ](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) を参照してください。
 
 **メタ広告テンプレートを選択するには**:
 
@@ -58,7 +58,7 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 
 ## プロンプトを入力
 
-ガイドラインを選択したら、自然言語を使用してプロンプトを作成し、新しいメタ広告エクスペリエンスのコンテンツの生成を開始します。 詳細なプロンプトは、曖昧なプロンプトや説明のつかないプロンプトよりも高品質の出力を生成します。
+ガイドラインを選択したら、自然言語を使用してプロンプトを作成し、新しいメタ広告エクスペリエンスのコンテンツの生成を開始します。 詳細なプロンプトは、あいまいなプロンプトやあいまいなプロンプトよりも高品質の出力を生成します。
 
 プロンプトの書き込みについて詳しくは、[ 効果的なプロンプトの書き込み ](/help/user-guide/effective-prompts.md) を参照してください。
 
@@ -88,7 +88,8 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 * **メタ広告のドラフト名を [ 編集](/help/user-guide/create/manage-variants.md#change-draft-name)** するには、キャンバスの上部にある _名称未設定のドラフト_ タイトルをクリックし、新しいタイトルを入力します。
 * **メタ広告を [ 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、広告セクションのいずれか（件名行など）をクリックします
 ヘッダー（本文コピー）を使用し、必要に応じて編集します。
-* **コールトゥアクションを変更または選択するには**、コールトゥアクションを表示するボタンをクリックし、使用可能なボタンテキストオプションから選択します。<!-- In _[!UICONTROL Link]_, enter a new URL or revise an existing URL. -->
+* **コールトゥアクションを変更または選択するには**、コールトゥアクションボタンをクリックし、使用可能なボタンテキストオプションから選択します。 _リンク_ に、コールトゥアクションテキストの URL を入力します。
+<!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **バリアントのセクションを [ 再生成](/help/user-guide/create/manage-variants.md#re-generate-sections)** するには、編集可能なテキストフィールドをクリックして _[!UICONTROL 編集候補]_ オプションを使用するか、新しいプロンプトを入力して **[!UICONTROL 生成]** をクリックします。
 * **画像を [ 切り抜きまたは再配置](/help/user-guide/create/manage-variants.md#crop-assets)** するには、画像の上にマウスポインターを置き、表示される切り抜きアイコンをクリックし、画像のサイズと配置を調整します。
 * **メタ広告を [ 削除](/help/user-guide/create/manage-variants.md#delete-variant)** するには、広告タイトル（「Meta 4」など）をクリックし、**[!UICONTROL バリアントを削除]** をクリックします。
