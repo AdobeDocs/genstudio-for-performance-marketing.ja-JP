@@ -4,9 +4,9 @@ description: Adobe GenStudio for Performance Marketing用テンプレートを�
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 229d16019d71b8228acf16e651885ce8c6d325e5
+source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
@@ -181,17 +181,13 @@ GenStudio for Performance Marketingでは、様々なコールトゥアクショ
 
 ## 静的コンテンツ
 
-多くの場合、メールおよびメタテンプレートは、GenStudio for Performance Marketingの外部でホストされる画像や CSS ファイルにリンクされています。 GenStudio for Performance Marketingがこれらのテンプレートまたはそれらから派生したエクスペリエンスのサムネールを生成する際、正しいクロスオリジンリソース共有（CORS）ヘッダーがない場合、これらの外部リソースが無視される場合があります。
+多くの場合、メールおよびメタテンプレートは、他のドメインでホストされている画像や CSS ファイルにリンクしています。 GenStudio for Performance Marketingは、テンプレートプレビューまたはそれらから派生したエクスペリエンスのサムネールを生成する際に、コンテンツソースを検証し、プレビュー目的でコピーを埋め込みます。
 
-サムネール生成プロセスの実行中にこれらのリソースを使用できるようにするには、次の 2 つのオプションを検討します。
+外部ファイルは、テンプレートプレビューを作成する目的でのみ一時的に埋め込まれます。これにより、プレビューで作成時に表示されるコンテンツが正確に反映されます。 これらの外部ファイルは、GenStudio for Performance Marketingに永続的に保存 **されません**。 テンプレートのプレビューが作成された後、GenStudio for Performance Marketingは引き続き、テンプレートで提供された元のソースリンクを参照します。
 
-1. **CORS ヘッダーを使用**：ホストサーバーは、実稼動環境の値に設定された `Access-Control-Allow-Origin` ヘッダーで応答 `https://experience.adobe.com` 送信する必要があります。 これにより、GenStudio for Performance Marketingはリソースにアクセスして含めることができます。
+### コンテンツを更新
 
-1. **データ URL を使用**：データ URL を使用して、外部リソースをテンプレートに直接埋め込みます。 この方法では、CORS の制限をバイパスし、サムネールの生成中にリソースを利用できるようにします。
-
->[!TIP]
->
->[ 更新 ](/help/user-guide/content/use-templates.md#refresh-template) を使用して、テンプレートのプレビューを最新の静的コンテンツで更新します。
+最初のプレビューの作成後にソースが変更された場合は、[refresh](/help/user-guide/content/use-templates.md#refresh-template) 関数を使用して、外部ソースからのコンテンツの最新バージョンでテンプレートプレビューを更新できます。
 
 ## テンプレートの例
 

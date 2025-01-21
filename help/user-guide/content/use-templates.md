@@ -3,9 +3,9 @@ title: テンプレートの操作
 description: テンプレートを効果的に使用して、Adobe GenStudio for Performance Marketingのクリエイティブプロセスを効率化する方法を説明します。
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '960'
 ht-degree: 1%
 
 ---
@@ -133,7 +133,7 @@ GenStudio for Performance Marketingで使用できるように [ テンプレー
 
 ### テンプレートを更新
 
-テンプレートには、アイコンやロゴなどの静的ファイルを含めることができます。 「更新」を使用すると、テンプレートのプレビューをこれらのアセットの最新バージョンで更新できます。
+テンプレートには、アイコンやロゴなどの静的ファイルを含めることができます。 [ 静的コンテンツ ](/help/user-guide/content/customize-template.md#static-content) は、テンプレートプレビューの作成後は保存されません。 GenStudio for Performance Marketingは、テンプレートで提供されたソースリンクを引き続き参照します。 「更新」を使用すると、テンプレートのプレビューをこれらのアセットの最新バージョンで更新できます。
 
 **テンプレートを更新するには**:
 
@@ -155,4 +155,4 @@ GenStudio for Performance Marketingで既存のテンプレートを検索およ
 
 1. 右上隅にある **[!UICONTROL エクスペリエンスを作成]** （絵筆）をクリックして、テンプレートを使用します。
 
-1. エクスペリエンスの [ 作成 ](/help/user-guide/create/overview.md) を続行します。
+1. エクスペリエンスの [ 作成 ](/help/user-guide/create/overview.md#create-use-cases) を続行します。
