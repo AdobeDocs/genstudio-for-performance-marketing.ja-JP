@@ -4,9 +4,9 @@ description: パフォーマンスマーケティング用の Adobe GenStudio �
 recommendations: noDisplay
 last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 9bddfe4118715b13f893fc9b8fbc24eda6c8cf66
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1664'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,10 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 ### 新しいコールトゥアクションの生成
 
 バリアントを管理する際に、新しいコールトゥアクション（CTA）フレーズを生成できるようになりました。 新しい _フレーズ変更_ オプションと _リンク追加_ オプションを使用して、新しいフレーズを生成し、CTAリンクを編集します。 これらの新しいCTA関数が機能するには、テンプレートを適切に設定する必要があります。 _テンプレートのカスタマイズ_:[ コールトゥアクション ](/help/user-guide/content/customize-template.md#calls-to-action) のガイドラインに従います。 バリアントでの CTA の管理に関するガイドラインについては、[ コールトゥアクションの改訂 ](/help/user-guide/create/manage-variants.md#revise-call-to-action) を参照してください。<!-- GS-6676 -->
+
+次のプレビューに、CTAの文字数、新しいオプション、再語句と置換の例を示します。
+
+![ 実際のCTAのフレーズ変更 ](/help/assets/animation/rephrase-cta.gif "CTAのフレーズ変更 "){width="250" zoomable="yes"}
 
 ### 修正および機能強化
 
