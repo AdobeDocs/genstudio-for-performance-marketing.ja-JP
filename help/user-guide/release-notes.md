@@ -4,9 +4,9 @@ description: パフォーマンスマーケティング用の Adobe GenStudio �
 recommendations: noDisplay
 last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 9bddfe4118715b13f893fc9b8fbc24eda6c8cf66
+source-git-commit: a14da101907c3e7dd990082723f7c59f7f5ff3fd
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1676'
 ht-degree: 1%
 
 ---
@@ -141,7 +141,7 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 ### 新機能
 
-リッチメディアテンプレートのサポートが追加され、顧客が独自の管理コンテンツチャネルを通じて公開済みのアセットを再利用できるようになりました。<!-- GS-6107 -->
+外部ドメインでホストされている静的コンテンツの表示がサポートされるようになりました。 GenStudio for Performance Marketingは、テンプレートで定義されているコンテンツソースを検証し、コピーを埋め込んでテンプレートプレビューを生成します。 [ 静的コンテンツ ](/help/user-guide/content/customize-template.md#static-content) を参照してください。<!-- GS-6107 -->
 
 ### 修正および機能強化
 
