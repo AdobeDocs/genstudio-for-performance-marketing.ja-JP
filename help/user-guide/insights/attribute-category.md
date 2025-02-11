@@ -5,9 +5,9 @@ feature: Insights, Attributes, Generative AI
 recommendations: noDisplay
 last-substantial-update: 2024-11-11T00:00:00Z
 exl-id: c3b51ef2-56ac-4dd8-98b7-79185b5998d0
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 976358742e598b55b1f0c4ca4664d2bcd8f1e9b9
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '609'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 属性カテゴリは、共通の特性を共有する関連属性を整理する分類グループです。 これらのカテゴリは、より詳細なコンテキストを提供し、それらのアプリケーションと使用を容易にすることで、特定の属性の検出、識別、理解を合理化するのに役立ちます。
 
-GenStudio for Performance Marketingは、Adobeの AI および機械学習機能を使用して、画像、ビデオおよびテキストを調査し、正確性の可能性に基づいて [!UICONTROL  アセット属性 ] を適用します。 アセットの属性リストは完全なものではありません。 豊富な機能セットを含むAssetsは、AI によって特定された 3 つの最も支配的な機能に制限される場合があります。
+GenStudio for Performance Marketingは、Adobeの AI と機械学習機能を使用して、画像、ビデオおよびテキストを調査し、正確性の可能性に基づいて [!UICONTROL  アセット属性 ] を適用します。 アセットの属性リストは完全なものではありません。 豊富な機能セットを含むAssetsは、AI によって特定された 3 つの最も支配的な機能に制限される場合があります。
 
 ## 画像機能
 
@@ -29,7 +29,8 @@ GenStudio for Performance Marketingは、Adobeの AI および機械学習機能
 | カメラアングル | 被写体に対するカメラの位置と角度。 |                                                                                                                                                                                |
 | 被写体距離 | カメラと画像の被写体との間の距離。 | `close up`、`mid shot`、`long shot` |
 | カメラ設定 | 画像を生成するためのカメラのコントロールの設定。 |                                                                                                                                                                                |
-| カラーとトーン | 画像要素で使用されるカラーを評価します。 次の画像レイヤーにある 40 色のセットから 1～3 色を識別します。<br>**[!UICONTROL  前景色 ]**– 画像の前面レイヤーの要素 <br>**[!UICONTROL  背景色]** – 画像の背面レイヤーの要素<p>**[!UICONTROL 色温度]** は、画像内の色の一般的な暖かさや涼しさを表します。<br> トーンまたは温度の値：`warm`、`cool`、`neutral` | ![ 色調と涼しげな色調 ](../../assets/category/image-color-temp.png){width="200" zoomable="yes"} |
+| カラーとトーン | 画像要素で使用されるカラーを評価します。 次の画像レイヤーにある 40 色のセットから 1～3 色を識別します。<br>**[!UICONTROL  前景色 ]**– 画像の前面レイヤーの要素 <br>**[!UICONTROL  背景色]** – 画像の背面レイヤーの要素 | カラー値：`Red`、`Dark_Red`、`Green`、`Bright_Green`、`Dark_Green`、`Light_Green`、`Mud_Green`、`Blue`、`Dark_Blue`、`Light_Blue`、`Royal_Blue`、`Black`、`White`、`Off_White`、`Gray`、`Yellow`、`Dark_Gray`、`Silver`、`Cream`、`Magenta`、`Cyan`、`Mustard`、`Khaki` `Brown` `Dark_Brown` `Violet` `Pink` `Dark_Pink` `Maroon` `Tan` `Purple` `Lavender` `Turquoise` `Plum` `Gold` `Emerald` `Orange` `Beige` `Lilac` `Olive` |
+| 色温度 | 画像内の色の一般的な暖かさや涼しさを表します。 | トーンまたは温度の値：`warm`、`cool`、`neutral`<br>![ カラーおよびクールトーン ](../../assets/category/image-color-temp.png){width="200" zoomable="yes"} |
 | 画像スタイル | 画像の視覚的処理。 |                                                                                                                                                                                |
 | 照明条件 | イメージ内のライトのタイプ。 |                                                                                                                                                                                |
 | オブジェクト | 画像を構成する 1 つ以上の項目、エンティティ、要素を識別します。 | ![ ひまわり、平面、フラワーオブジェクト ](../../assets/category/image-objects.png){width="200" zoomable="yes"} |
