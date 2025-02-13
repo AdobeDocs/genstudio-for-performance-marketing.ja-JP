@@ -3,7 +3,7 @@ title: エクスペリエンスの概要
 description: Adobe GenStudio for Performance Marketingでのエクスペリエンスと広告プレースメントのパフォーマンスについては、顧客エンゲージメント、予算、支出の概要を参照してください。
 feature: Insights, Experiences, Attributes
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: c027d5fa15b05feb95c976805d06d8fe3204c5d1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -12,11 +12,15 @@ ht-degree: 0%
 
 # エクスペリエンスの概要
 
-[!DNL Insights]_[!UICONTROL エクスペリエンス]_ ビューには、接続されたチャネル広告アカウントのエクスペリエンスのリストが表示されます。 facebookの場合、エクスペリエンスはメタ広告名です。
+[!DNL Insights]_[!UICONTROL エクスペリエンス]_ ビューには、接続されたチャネル広告アカウントのエクスペリエンスのリストが表示されます。 Facebook の場合、エクスペリエンスはメタ広告名です。
+
+{{connect-insights}}
 
 _[!UICONTROL エクスペリエンス]_ テーブルは、[!UICONTROL  広告名 ] を使用して整理されます。 テーブルの右側の上にある設定（歯車）アイコンをクリックして、表示可能列を切り替えます。 テーブルの左側の上にあるフィルター（ファネル）アイコンをクリックすると、**[!UICONTROL フィルター]** メニューが開き、[!UICONTROL  アカウント ] リストと [!UICONTROL  キャンペーン ] リストから選択して、テーブルの広告名をフィルタリングできます。
 
 ![ エクスペリエンスのフィルターとテーブル ](/help/assets/insights-experiences-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
 
 ## エクスペリエンスの詳細
 
@@ -40,7 +44,7 @@ GenStudio for Performance Marketingは、アセットフィード、リンク広
 
 | Instagram | Facebook/Meta | Messenger | オーディエンスネットワーク |
 | ------------ | ---------------- | ------------ | ---------------- |
-| 検索 <br> ホーム <br> 検索グリッドの検索 Home<br>Feed<br>Reels<br>Profile feed<br>Search<br>Shop<br>Stories | Business Explore<br>Feed<br>In-stream video<br>Marketplace<br>Reels<br>Reels overlay<br>Right column<br>Search results<br>Stories<br> ビデオフィード <br>Facebookリールの広告 | Inbox<br>Stories | ネイティブ、バナー、インタースティシャル <br> リワードのビデオ |
+| 検索 <br> ホーム <br> 検索グリッドの検索 Home<br>Feed<br>Reels<br>Profile feed<br>Search<br>Shop<br>Stories | Business Explore<br>Feed<br>In-stream video<br>Marketplace<br>Reels<br>Reels overlay<br>Right column<br> 検索結果 <br> ストーリー <br> ビデオフィード <br>Facebook リールの広告 | Inbox<br>Stories | ネイティブ、バナー、インタースティシャル <br> リワードのビデオ |
 
 #### サポートされていないプレースメント
 

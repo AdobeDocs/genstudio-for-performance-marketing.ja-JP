@@ -2,11 +2,11 @@
 title: Adobe GenStudio for Performance Marketing リリースノート
 description: パフォーマンスマーケティング用の Adobe GenStudio の最新機能と機能強化について説明します。
 recommendations: noDisplay
-last-substantial-update: 2025-01-16T00:00:00Z
+last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a14da101907c3e7dd990082723f7c59f7f5ff3fd
+source-git-commit: a48ffd2147f79109803c49cc1a696c083c44e879
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1746'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,19 @@ ht-degree: 1%
 
 このリリース情報では、GenStudio for Performance Marketing アプリケーションの最新のアップデートについて詳しく説明します。
 
-## 2025.1.16 {#latest}
+## 2025.2.13 {#latest}
+
+### [!DNL Create] のランディングページの改善
+
+GenStudio for Performance Marketingの [!DNL Create] ランディングページには、ユーザーエクスペリエンスを向上させる UI の機能強化が含まれています。 _最近の作業_ セクションが調整され、デフォルトのビューとしてリスト表示が設定されました。 パディングやその他の視覚的な改善により、[!DNL Create] キャンバスのルックアンドフィールが合理化されます。
+
+### CSV へのインサイトのエクスポート
+
+表示可能なテーブルを任意の [!DNL Insights] ビューから CSV ファイルにダウンロードできるようになりました。 この機能を使用すると、様々な [!DNL Insights] ビューからデータを簡単に書き出して分析でき、データ分析とレポートオプションが容易になります。
+
+## 以前のリリースノート
+
++++2025.1.16 からの注釈
 
 ### Adobe Workfront Proof との統合
 
@@ -28,10 +40,6 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 ### 新しいコールトゥアクションの生成
 
 バリアントを管理する際に、新しいコールトゥアクション（CTA）フレーズを生成できるようになりました。 新しい _フレーズ変更_ オプションと _リンク追加_ オプションを使用して、新しいフレーズを生成し、CTAリンクを編集します。 これらの新しいCTA関数が機能するには、テンプレートを適切に設定する必要があります。 _テンプレートのカスタマイズ_:[ コールトゥアクション ](/help/user-guide/content/customize-template.md#calls-to-action) のガイドラインに従います。 バリアントでの CTA の管理に関するガイドラインについては、[ コールトゥアクションの改訂 ](/help/user-guide/create/manage-variants.md#revise-call-to-action) を参照してください。<!-- GS-6676 -->
-
-次のプレビューに、CTAの文字数、新しいオプション、再語句と置換の例を示します。
-
-![ 実際のCTAのフレーズ変更 ](/help/assets/animation/rephrase-cta.gif "CTAのフレーズ変更 "){width="250" zoomable="yes"}
 
 ### 修正および機能強化
 
@@ -59,7 +67,7 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 * 「**[!UICONTROL 戻る]** ボタンをクリックすると、前のページまたは [!DNL Create] のランディングページに期待どおりにユーザーが戻るようになりました。<!-- GS-8622 -->
 
-## 以前のリリースノート
++++
 
 +++ご注意（2024.12.12 以降）
 
@@ -75,13 +83,13 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 * ディスプレイおよびテンプレートの web バナーの幅と高さ。 これらの値は、テンプレートメタデータとして保存されるようになりました。<!-- GS-6735 -->
 
-* 画像のアップロード中のディスプレイ広告エクスペリエンスの画像のDimension<!-- GS-7166 -->
+* 画像のアップロード中のディスプレイ広告エクスペリエンスの画像に対するディメンション。<!-- GS-7166 -->
 
 * [ テンプレートのベストプラクティス ](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) のチャネル固有のガイドラインを参照してください。
 
 書き出しオプションに次が含まれるようになりました。
 
-* ディスプレイ広告とメタ広告をHTML、JPEGまたは PNG としてエクスポートします。 [ ディスプレイ広告エクスペリエンスの作成 ](/help/user-guide/create/create-display-ad.md) および [ メタ広告エクスペリエンスの作成 ](/help/user-guide/create/create-meta-ad.md) を参照してください。<!-- GS-7093 6655 5152-->
+* ディスプレイ広告とメタ広告をHTML、JPEGまたは PNG として書き出す。 [ ディスプレイ広告エクスペリエンスの作成 ](/help/user-guide/create/create-display-ad.md) および [ メタ広告エクスペリエンスの作成 ](/help/user-guide/create/create-meta-ad.md) を参照してください。<!-- GS-7093 6655 5152-->
 
 その他の新機能により、エディターは次のことができます。
 
@@ -147,7 +155,7 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 * 初期コンテンツの生成に使用したブラウザー以外のブラウザーでサイズを変更すると、ドラフトが期待どおりに読み込まれるようになりました。<!-- GS-7204 -->
 
-* すべての文字が、書き出されたHTMLで正しく表示されるようになりました。<!-- GS-7246 -->
+* 書き出されたHTMLで、すべての文字が正しく表示されるようになりました。<!-- GS-7246 -->
 
 * 特定の言語で、[!DNL Content]_エクスペリエンス_**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
 
@@ -193,13 +201,13 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 * ブランドスコアが更新され、再生成されたエクスペリエンスの期待通りに保持されるようになりました。<!-- GS-6535 -->
 
-* メタ広告およびディスプレイ広告のHTMLエクスポートに、ラッパー `div` および `chrome` 要素が含まれなくなりました。<!-- GS-7116 -->
+* メタ広告およびディスプレイ広告のHTML エクスポートに、ラッパー `div` および `chrome` 要素が含まれなくなりました。<!-- GS-7116 -->
 
 * 公開中のメールのドラフトレンダリングの問題が解決されました。<!-- GS-6394 -->
 
 * ブランドスコアが生成されない場合、キャンバスの **[!UICONTROL ブランド]** ボタンが無効になりました。<!-- GS-6429 -->
 
-* キャンバスアクションバーのFacebook/Instagramの切り替えスイッチで、「`ReadOnly` Canvas」設定が有効な場合に、エクスペリエンスのレンダリングが期待どおりに更新されるようになりました。<!-- GS-7039 -->
+* キャンバスアクションバーの Facebook/Instagram の切り替えスイッチで、「`ReadOnly` Canvas」設定が有効な場合に、エクスペリエンスのレンダリングが期待どおりに更新されるようになりました。<!-- GS-7039 -->
 
 #### 画像再生
 
@@ -249,6 +257,6 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 **[!DNL Insights]** は、コンテンツのパフォーマンスのリアルタイム評価を提供し、マーケターが戦略を最適化し、データに基づいた意思決定を行うのを支援します。
 
-GenStudio for Performance Marketingは、Adobe ExpressおよびAdobeのAdobe Experience Cloudなど、他のAEM Assets製品と統合されています。
+GenStudio for Performance Marketingは、Adobe ExpressやAdobe AEM Assetsなど、他のAdobe Experience Cloud製品と統合されています。
 
 +++

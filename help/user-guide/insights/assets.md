@@ -3,9 +3,9 @@ title: Assetsの概要
 description: Adobe GenStudio for Performance Marketingでアセットのパフォーマンスを評価する方法を説明します。
 feature: Insights, Assets
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -14,18 +14,20 @@ ht-degree: 0%
 
 [!DNL Insights] _[!UICONTROL Assets]_ ビューには、選択したチャネルアカウントのエクスペリエンスおよび広告キャンペーンで使用されたアセットのリストが表示されます。
 
-_[!UICONTROL Assets]_ ギャラリーは、アセットプレビューと指標（クリックスルー率など）のコラージュを表示するデフォルトのビューです。 ギャラリーの右側の上にある設定（歯車）アイコンをクリックして、3 つの表示可能な指標のいずれかを切り替えます。
+{{connect-insights}}
+
+_[!UICONTROL Assets]_ テーブルは、[!UICONTROL Asset ID] を使用して整理されます。 表示リスト （テーブル） アイコンとギャラリー表示（グリッド） アイコンを使用して、ビューを切り替えることができます。 テーブルの右側の上にある設定（歯車）アイコンをクリックして、表示可能列を切り替えます。 テーブルの左側の上にフィルター（ファネル）アイコンをクリックすると、**[!UICONTROL フィルター]** メニューが開き、複数のリストから選択できます。
+
+![Assetsのフィルターとテーブル ](/help/assets/insights-assets-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
+
+_[!UICONTROL Assets]_ ギャラリー表示には、アセットプレビューと指標（クリックスルー率など）のコラージュが表示されます。 ギャラリーの右側の上にある設定（歯車）アイコンをクリックして **[!UICONTROL カード設定]** を開き、3 つの表示可能な指標のいずれかを切り替えます。
 
 - CPA （アクションあたりのコスト）
 - CTR （クリックスルー率）
 - CPC （クリックあたりのコスト）
 - 費用
-
-_[!UICONTROL Assets]_ テーブルは、[!UICONTROL Asset ID] を使用して整理されます。 テーブルの左側の上にフィルター（ファネル）アイコンをクリックすると、**[!UICONTROL フィルター]** メニューが開き、複数のリストから選択できます。
-
-![Assetsのフィルターとテーブル ](/help/assets/insights-assets-filter.png){zoomable="yes"}
-
-表示リスト （テーブル） アイコンとギャラリー表示（グリッド） アイコンを使用して、ビューを切り替えることができます。
 
 ## アセットの詳細
 

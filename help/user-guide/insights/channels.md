@@ -3,9 +3,9 @@ title: チャネルの概要
 description: Adobe GenStudio for Performance Marketingのマーケティングキャンペーンに関する顧客エンゲージメント、パフォーマンス、予算、支出の概要を参照します。
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 [!DNL Insights]_[!UICONTROL チャネル]_ ビューには、接続されたチャネル広告アカウントのキャンペーンのリストが表示されます。
 
->[!TIP]
->
->GenStudio for Performance Marketingでデータを受信するには、チャネルアカウントに接続する必要があります。 [ チャネルアカウントの接続 ](connect-channel.md) を参照してください。
+{{connect-insights}}
 
 _[!UICONTROL チャネル]_ テーブルは、チャネルベースの広告キャンペーンを使用して整理されます。 テーブルの右側の上にある設定（歯車）アイコンをクリックして、表示可能列を切り替えます。 テーブルの左側の上にフィルター（ファネル）アイコンをクリックすると、**[!UICONTROL フィルター]** メニューが開き、[!UICONTROL  アカウント ]、[!UICONTROL  ステータス ]、[!UICONTROL  目的 ] リストから選択して、テーブル内のキャンペーンをフィルタリングできます。
 
 ![ チャネルフィルターとテーブル ](/help/assets/insights-channels-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
 
 キャンペーンを選択すると、「[[!UICONTROL  エクスペリエンス ]」タブが開き ](experiences.md) そのキャンペーンに関連付けられた広告名のリストが表示されます。ここから、成功に貢献したエクスペリエンスを特定できます。
 
