@@ -4,9 +4,9 @@ description: パフォーマンスマーケティング用の Adobe GenStudio �
 recommendations: noDisplay
 last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a48ffd2147f79109803c49cc1a696c083c44e879
+source-git-commit: 0d55b89d550a8e44e7dd354d809f00699fccf468
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1729'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ GenStudio for Performance Marketingの [!DNL Create] ランディングページ
 
 GenStudio for Performance MarketingとAdobe Workfront Proof の統合Beta プログラムが今月開始されます。 Workfront Proofでは、承認テンプレート、マルチステージワークフロー、注釈を使用して、コンテンツの作成とアクティベーションのライフサイクルを強化します。 Workfront Proofの使用権限を持つGenStudio for Performance Marketing ユーザーは、GenStudio for Performance Marketing内で Proof の高度な機能を使用して、GenStudioで生成されたコンテンツに対してレビューやコメントを行うことができます。
 
-Beta プログラムは、製品開発を形成し、一般提供への準備状況を判断するのに役立つ手段を提供します。 GenStudio for Performance MarketingとWorkfront Proofの統合Beta プログラムについて詳しくは、Etienne Bosch （etienneb@adobe.com）にお問い合わせください。
+Beta プログラムは、製品開発を形成し、一般提供への準備状況を判断するのに役立つ手段を提供します。
 
 ### 新しいコールトゥアクションの生成
 
