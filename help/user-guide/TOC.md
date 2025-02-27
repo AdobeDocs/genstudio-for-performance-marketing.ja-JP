@@ -4,10 +4,10 @@ breadcrumb-title: ユーザーガイド
 user-guide-description: パフォーマンスマーケティング用の Adobe GenStudio の機能を探索します。オンブランドのアセットをすばやく作成、バリエーションを生成、エクスペリエンスを最適化する方法について説明します。
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: c76e0584c049b77e5e5742f4b52e959503422016
+source-git-commit: 3309dfa13e476d6acce60bfdcd4e5e9801b74149
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 27%
+source-wordcount: '171'
+ht-degree: 26%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 27%
    + [ コンテンツのレビューと承認のリクエスト ](approvals/request-review.md)
    + [ コンテンツのレビューと編集 ](approvals/review-and-edit.md)
    + [ コンテンツを承認 ](approvals/approve-content.md)
-   + [Publish承認済みコンテンツ ](approvals/publish-content.md)
+   + [ 承認済みコンテンツの公開 ](approvals/publish-content.md)
 + Content {#content}
    + [ コンテンツの概要 ](content/overview.md)
    + [ アセットとエクスペリエンスの管理 ](content/manage-assets.md)
@@ -66,7 +66,10 @@ ht-degree: 27%
    + [エクスペリエンス](insights/experiences.md)
    + [Assets](insights/assets.md)
    + [属性](insights/attributes.md)
-   + [ 属性カテゴリ ](insights/attribute-category.md)
+   + 属性カテゴリ {#categories}
+      + [ 画像機能 ](insights/image-features.md)
+      + [ ビデオ機能 ](insights/video-features.md)
+      + [ テキスト機能 – 非表示 ](insights/text-features.md)
    + [ データ管理 ](insights/data-management.md)
-+ [GenStudioアカデミー – 非表示 ](genstudioacademy.md)
++ [GenStudio Academy – 非表示 ](genstudioacademy.md)
 + [ テストマークダウン – 非表示 ](test-markdown.md)

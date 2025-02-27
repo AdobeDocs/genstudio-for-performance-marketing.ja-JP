@@ -3,9 +3,9 @@ title: チャネルの概要
 description: Adobe GenStudio for Performance Marketingのマーケティングキャンペーンに関する顧客エンゲージメント、パフォーマンス、予算、支出の概要を参照します。
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
+source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ _[!UICONTROL チャネル]_ テーブルは、チャネルベースの広告キ�
 
 ## チャネルパフォーマンス
 
-パフォーマンス目標に応じて、インサイト指標は、目標を達成しているかどうかを評価するのに役立ちます。
+パフォーマンス目標に応じて、指標 [!DNL Insights]、目標を達成しているかどうかを評価するのに役立ちます。
 
 例えば、認識が目標である場合、認識 `impressions` の上昇は、リーチを拡大していることを示す可能性があります。 それが目的を達成しているかどうかを理解するには、`clicks` や `video plays` など、コンテンツのエンゲージメントを示す指標を調べます。 オーディエンスはコンテンツとどのように効果的にやり取りしているか。
 
