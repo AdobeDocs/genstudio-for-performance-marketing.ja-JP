@@ -4,26 +4,26 @@ description: GenStudio for Performance Marketingのユーザーの役割と権�
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: de1c54ceb4402d98fd3ae9bd129b26d6b4919681
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1133'
 ht-degree: 10%
 
 ---
 
 # ユーザーの役割と権限
 
-最新のマーケティングキャンペーンを作成してデプロイするには、様々な責任やスキルセットを持つ利害関係者間の共同作業が必要です。 _ユーザーの役割_ は、GenStudio for Performance Marketingの多くの機能への関係者のアクセスを制御します。 割り当てられたユーザーの役割によって、このプラットフォームを使用して実行できるタスクが決まります。 Adobeシステム管理者によって、Adobe Admin ConsoleのGenStudio製品プロファイルの役割が割り当てられます。 お知らせメールは、割り当てられた役割を識別します。
+最新のマーケティングキャンペーンを作成してデプロイするには、様々な責任やスキルセットを持つ利害関係者間の共同作業が必要です。 _ユーザーの役割_ は、GenStudio for Performance Marketingの多くの機能への関係者のアクセスを制御します。 割り当てられたユーザーの役割によって、このプラットフォームを使用して実行できるタスクが決まります。 Adobe システム管理者によって、Adobe Admin ConsoleのGenStudio製品プロファイルの役割に割り当てられます。 お知らせメールは、割り当てられた役割を識別します。
 
 >[!NOTE]
 >
->これらのロールにユーザーをプロビジョニングする前に、Adobe Admin ConsoleでAdobeシステム管理者を指定して、1 回限りの設定タスクを実行する必要があります。 このAdobe管理者ロールは、Adobe Admin Consoleのコンテキストでのみ機能します。 GenStudio for Performance Marketingのプラットフォームインターフェイスでは機能しません。 Adobe管理者の権限が必要なシステムシステム管理者は、Adobe Admin ConsoleでGenStudio システムマネージャーとして自分自身をプロビジョニングする必要があります。 [GenStudio for Performance Marketingのプロビジョニング ](product-provisioning.md) を参照してください。
+>これらのロールにユーザーをプロビジョニングする前に、1 回限りの設定タスクを実行できるように、Adobe Admin ConsoleでAdobe システム管理者を指定する必要があります。 このAdobe管理者ロールは、Adobe Admin Consoleのコンテキストでのみ機能します。 GenStudio for Performance Marketingのプラットフォームインターフェイスでは機能しません。 システムマネージャーの権限が必要なAdobe システム管理者は、Adobe Admin ConsoleでGenStudio システムマネージャーとして自分自身をプロビジョニングする必要があります。 [GenStudio for Performance Marketingのプロビジョニング ](product-provisioning.md) を参照してください。
 
-## Adobeシステム管理者とGenStudio system manager の比較
+## Adobe system administrator とGenStudio system manager の比較
 
 これらのユーザーの役割のタイトルは似ているように見えるかもしれませんが、異なる環境で使用権限を付与する一意の役割を識別します。
 
-**Adobeシステム管理者** Adobe Admin Consoleのパワーユーザー権限を持ち、ユーザーの追加や削除などのすべてのユーザー管理タスクを実行します。 このシステム管理者の役割は、GenStudio for Performance Marketing アプリケーションの権限を提供しません。このため、Adobeシステム管理者はGenStudioのライセンスを必要としません。 Adobeシステム管理者は通常、このAdmin Consoleを使用して、GenStudio デプロイメントのユーザーアカウントを追加および削除し、個々のユーザーまたはユーザーグループの資格または権限を割り当てまたは削除します。
+**Adobe システム管理者** Adobe Admin Consoleのパワーユーザー権限を持ち、ユーザーの追加や削除などのすべてのユーザー管理タスクを実行します。 このシステム管理者の役割は、GenStudio for Performance Marketing アプリケーションに権限を提供しません。このため、Adobe システム管理者はGenStudioのライセンスを必要としません。 Adobe システム管理者は、通常、Admin Consoleを使用して、GenStudio デプロイメントのユーザーアカウントを追加および削除し、個々のユーザーまたはユーザーグループに対する使用権限や権限を割り当てまたは削除します。
 
 **GenStudio システムマネージャー** は、GenStudio for Performance Marketing内のパワーユーザーですが、Adobe Admin Consoleでタスクを実行する権限はありません。 この System Manager の役割にはGenStudio製品ライセンスが必要で、[Adobe GenStudio for Performance Marketing製品の説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) のパワーユーザーに対応しています。 GenStudio システムマネージャーは、[!DNL Brands] 成、[!DNL Persona] 除、[!DNL Product] ージの作成、削除、更新、公開など、GenStudio for Performance Marketingの機能を完全に利用できます。 [Adobe GenStudio for Performance Marketing製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) では、GenStudioのユーザーロールと製品ライセンスとの関係を説明します。
 
@@ -73,7 +73,9 @@ GenStudioのシステムマネージャーは、エディターに [!DNL Brand] 
 
 ### GenStudio共同作業者
 
-_共同作業者_ は、GenStudio for Performance Marketingでアセットを表示できますが、作成、編集、削除はできません。 共同作業者には、コンテンツのレビューと承認のプロセスを成功させるために不可欠な関係者で、コンテンツを作成する必要がない人や、直接編集する必要がない人が含まれます。 クリエイティブの法務エキスパートやマネージャーは、潜在的な共同作業者の例です。 GenStudio for Performance Marketingの共同作業者には、他のCreative Cloud製品のアセットを作成および表示する権限が付与されている場合があります。
+_共同作業者_ は、GenStudio for Performance Marketingでアセットを表示できますが、作成、編集、削除はできません。 例えば、共同作業者がコンテンツにアクセスしようとすると、「*このコンテンツへのアクセス権がありません*」というメッセージが表示さ [[!DNL Create]](/help/user-guide/create/overview.md) ます。
+
+共同作業者には、コンテンツのレビューと承認のプロセスを成功させるために不可欠な関係者で、コンテンツを作成する必要がない人や、直接編集する必要がない人が含まれます。 クリエイティブの法務エキスパートやマネージャーは、潜在的な共同作業者の例です。 GenStudio for Performance Marketingの共同作業者には、他のCreative Cloud製品のアセットを作成および表示する権限が付与されている場合があります。
 
 次の表に、デフォルトのコラボレータ権限を示します。
 
