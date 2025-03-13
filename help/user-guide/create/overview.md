@@ -112,3 +112,4 @@ GenStudio for Performance Marketingは、（[ ガイドライン ](/help/user-gu
 GenStudio for Performance Marketingでは [ 個々のバリアントのセクションを包括的に制御 ](/help/user-guide/create/manage-variants.md) できます。
 
 単一のバリアントのセクションを改訂し、個々のセクションのコンテンツを再生成し、提案された編集内容を使用して、メッセージ、サイズ、アセットなどをキャンバス内ですべて改善できます。
+
