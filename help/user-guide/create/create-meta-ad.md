@@ -1,14 +1,14 @@
 ---
 title: メタ広告エクスペリエンスの作成
-description: Adobe GenStudio for Performance Marketingを使用して（FacebookまたはInstagram用の）オンブランドの Meta 広告エクスペリエンスを作成する方法を説明します。
+description: Adobe GenStudio for Performance Marketingを使用して（Facebook や Instagram 用の）オンブランドのメタ広告エクスペリエンスを作成する方法を説明します。
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 ## パラメーターを追加
 
 プロンプトドロワーの _パラメーター_ に [ ガイドライン ](/help/user-guide/guidelines/overview.md) とアセットを追加すると、コンテンツ生成プロセスが強化されます。これは、メタ広告を生成するための準備における重要な手順です。
+
+事前定義済みのガイドライン（[!DNL Brands]、[!DNL Personas]、[!DNL Products]）を含むテンプレートを使用する場合、これらのガイドラインはバリアントに適用されます。 必要に応じて変更できます。
 
 **パラメーターとアセットを追加するには**:
 
@@ -73,13 +75,13 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 
 ## メタ広告チャネルを選択
 
-メタ広告を生成する際は、Facebook広告またはInstagram広告を選択できます。
+メタ広告を生成する際は、Facebook 広告または Instagram 広告から選択できます。
 
-右側のメニューバー（FacebookとInstagramのアイコン **で「** Facebook」と「**Instagram**」の間のメタ広告チャネルオプションを切り替えて、各チャネルのバリアントを表示および管理します。
+右側のメニューバー（Facebook および Instagram アイコン **で「メタ広告」チャネルオプションを** Facebook **」と「Instagram**」の間で切り替えて、各チャネルのバリアントを表示および管理します。
 
-[ メタ広告の変更 ](#revise-generated-meta-ads) を行う場合、Facebook広告とInstagram広告の縦横比を変更できます。
+[ メタ広告の改訂 ](#revise-generated-variants) 時に、Facebook 広告と Instagram 広告のアスペクト比を変更できます。
 
-## 生成されたメタ広告を変更
+## 生成されたバリアントを修正
 
 承認または公開用に送信する内容を選択する前に [!DNL Content] メタ広告を編集したり、生成された広告のセットからバリアントを削除したりできます。
 
@@ -90,33 +92,33 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 ヘッダー（本文コピー）を使用し、必要に応じて編集します。
 * **コールトゥアクションを変更または選択するには**、コールトゥアクションボタンをクリックし、使用可能なボタンテキストオプションから選択します。 _リンク_ に、コールトゥアクションテキストの URL を入力します。
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
+* **バリアント内の画像へのリンクを追加 [ するには](/help/user-guide/create/manage-variants.md#add-image-link)**、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックし、リンクアイコンをクリックします。
 * **バリアントのセクションを [ 再生成](/help/user-guide/create/manage-variants.md#re-generate-sections)** するには、編集可能なテキストフィールドをクリックして _[!UICONTROL 編集候補]_ オプションを使用するか、新しいプロンプトを入力して **[!UICONTROL 生成]** をクリックします。
+* **バリアント内の画像を追加 [ 入れ替え](/help/user-guide/create/manage-variants.md#swap-image)** するには、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックし、**[!UICONTROL コンテンツから入れ替え]** アイコンをクリックします。
 * **画像を [ 切り抜きまたは再配置](/help/user-guide/create/manage-variants.md#crop-assets)** するには、画像の上にマウスポインターを置き、表示される切り抜きアイコンをクリックし、画像のサイズと配置を調整します。
-* **メタ広告を [ 削除](/help/user-guide/create/manage-variants.md#delete-variant)** するには、広告タイトル（「Meta 4」など）をクリックし、**[!UICONTROL バリアントを削除]** をクリックします。
+* **メタ広告を [ 削除](/help/user-guide/create/manage-variants.md#delete-variant)** するには、バリアントのオプションメニューをクリックし、**[!UICONTROL バリアントを削除]** をクリックします。
 
 ## 生成フィードバックを送信
 
 生成出力の品質に関する [ フィードバックを送信 ](/help/user-guide/create/manage-variants.md#generation-feedback) するには、オプションアイコン（3 つのドット）をクリックし、**[!UICONTROL 良好な出力]** または **[!UICONTROL 不良な出力]** を選択します。
 
-## ブランドの整合性の確認
+## コンテンツチェックの整合性の確認
 
-生成される広告を最適化し、ブランドアイデンティティに厳密に準拠するには、[_ブランドガイドラインチェック_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) の機能を活用して、バリアントのブランド調整の概要を提供します。また、[_ブランド検証_ パネル ](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel) を使用して、包括的なブランド検証の詳細を表示し、改善点を明確にします。
+生成されたバリアントを最適化し、ブランド ID、プラットフォームガイドラインおよびアクセシビリティ標準に厳密に準拠するには、[_コンテンツチェック_ パネル ](/help/user-guide/guidelines/brand-validation.md#content-check-panel) の機能を活用します。 このパネルには、包括的なコンテンツチェックの詳細が表示され、改善点が明らかになります。
 
-**ブランドの整合性を検証するには**:
+**バリアントに対してコンテンツチェックを実行するには**:
 
-1. バリアントの [**[!UICONTROL [!DNL Brand] guidelines check]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) アイコンをクリックすると、ブランドに対してチェックされたときのそのバリアントのパフォーマンスの概要が表示されます。
-1. 改善が必要なセクションとガイドラインの詳細を取得するには、**[!UICONTROL 確認]**_をクリックするか_ 上部のメニューバーにあるブランド検証アイコンをクリックして [_ブランド検証パネル_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel) を開きます。
+1. 右側のアクションバーにある _コンテンツチェック_ パネルアイコンをクリックして、[_コンテンツチェック_ パネル ](/help/user-guide/guidelines/brand-validation.md#content-check-panel) を開きます。 *レビューが必要* チェックと *合格* チェックの概要を表示し、改善が必要なセクションとガイドラインを確認します。
 
-   ![ ブランド検証パネル ](/help/assets/brand-validation-panel-meta.png){width="600" zoomable="yes"}
+   ![_コンテンツチェック_ パネル ](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
-1. 各広告を切り替えて、生成されたコンテンツを改善してブランドに合わせる方法を確認します。
-1. [ 手動で広告を改訂 ](#revise-generated-meta-ads) して、広告がブランドと密接に連携していることを確認します。
+1. [ バリアントを手動で改訂 ](#revise-generated-variants) し、バリアントが実行されたコンテンツチェックと密接に連携していることを確認します。
 
 [ ブランド検証 ](/help/user-guide/guidelines/brand-validation.md) を参照してください。
 
 ## レビューと承認の取得
 
-キャンバスの上部のメニューバーからアクセスできる承認パネルを使用して、レビューを取得、レビューコメントを追跡、関係者からの承認を取得します。
+承認パネルは、キャンバスの右側のアクションバーにあるアイコンとしてアクセスでき、レビューを取得したり、レビューのコメントを追跡したり、関係者から承認を得たりできます。
 
 **レビューと承認を取得するには**:
 
@@ -130,13 +132,13 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 
 詳しくは、[ レビューと承認 ](/help/user-guide/approvals/overview.md) を参照してください。
 
-## Publishと書き出しの経験
+## エクスペリエンスの公開と書き出し
 
 生成したメタ広告を現在および将来の使用で使用できるようにするには、[!UICONTROL  コンテンツ ] に公開し、マーケティングキャンペーンで使用するためにエクスポートします。
 
-1. **新しいメタ広告エクスペリエンスを公開するには**、上部のツールバーまたは承認フロー内の ]**2}Publish」をクリックします。**[!UICONTROL 
+1. **新しいメタ広告エクスペリエンスを公開するには** 上部のツールバーまたは承認フロー内の **[!UICONTROL 公開]** をクリックします。
 1. **新しいメタ広告エクスペリエンスを書き出すには** 上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。
-   1. フォーマット（HTMLとイメージまたは CSV とイメージ（JPGまたは PNG））を選択し、「**[!UICONTROL エクスポート]**」をクリックします。
+   1. 「HTMLと画像」または「CSV と画像（JPGまたは PNG）」のフォーマットを選択し、「**[!UICONTROL 書き出し]**」をクリックします。
 
 詳細は、[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) を参照してください。
 

@@ -4,10 +4,10 @@ breadcrumb-title: ユーザーガイド
 user-guide-description: パフォーマンスマーケティング用の Adobe GenStudio の機能を探索します。オンブランドのアセットをすばやく作成、バリエーションを生成、エクスペリエンスを最適化する方法について説明します。
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: 3309dfa13e476d6acce60bfdcd4e5e9801b74149
+source-git-commit: 86eeac0231ffc465365709eb42250383868a4462
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 26%
+source-wordcount: '189'
+ht-degree: 22%
 
 ---
 
@@ -34,11 +34,15 @@ ht-degree: 26%
    + [[!DNL Create] の概要](create/overview.md)
    + [ メールエクスペリエンス ](create/email-experiences.md)
    + [ メタエクスペリエンス ](create/meta-experiences.md)
+   + [LinkedIn エクスペリエンス ](create/linkedin-experiences.md)
    + [ 広告エクスペリエンスの表示 ](create/display-ad-experiences.md)
+   + [ バナーエクスペリエンス ](create/banner-experiences.md)
    + [ バリアントの管理 ](create/manage-variants.md)
    + [ メールエクスペリエンスの作成 ](create/create-email-experience.md)
    + [ メタ広告エクスペリエンスの作成 ](create/create-meta-ad.md)
+   + [LinkedIn エクスペリエンスの作成 ](create/create-linkedin.md)
    + [ ディスプレイ広告エクスペリエンスの作成 ](create/create-display-ad.md)
+   + [ バナーエクスペリエンスの作成 ](create/create-banner-experience.md)
 + のレビューと承認 {#approve}
    + [ レビューと承認の概要 ](approvals/overview.md)
    + [ コンテンツのレビューと承認のリクエスト ](approvals/request-review.md)
@@ -53,6 +57,7 @@ ht-degree: 26%
    + テンプレート {#templates}
       + [ テンプレートの操作 ](content/use-templates.md)
       + [ テンプレートのカスタマイズ ](content/customize-template.md)
+      + [ テンプレートコードエディター ](content/code-editor.md)
       + [ アクセシブルなテンプレートの作成 ](content/accessibility-for-templates.md)
       + [ テンプレートのベストプラクティス ](content/best-practices-for-templates.md)
 + Campaigns {#campaigns}
@@ -63,8 +68,8 @@ ht-degree: 26%
    + [インサイトの概要](insights/overview.md)
    + [ チャネルアカウントの接続 ](insights/connect-channel.md)
    + [チャネル](insights/channels.md)
-   + [エクスペリエンス](insights/experiences.md)
-   + [Assets](insights/assets.md)
+   + [ 広告と広告プレースメント ](insights/ads.md)
+   + [ メディア ](insights/media.md)
    + [属性](insights/attributes.md)
    + 属性カテゴリ {#categories}
       + [ 画像機能 ](insights/image-features.md)

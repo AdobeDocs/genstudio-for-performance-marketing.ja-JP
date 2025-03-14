@@ -1,12 +1,12 @@
 ---
 title: チャネルアカウントを接続
-description: チャネルアカウントを連携して、Adobe GenStudio for Performance Marketing マーケティングキャンペーンとアセットのパフォーマンスをモニタリングします。
+description: チャネルアカウントを接続して、Adobe GenStudio for Performance Marketing キャンペーンとメディアのパフォーマンスを監視します。
 level: Intermediate
 feature: Insights, Channels
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 310a6ea3b64e223222e0664750547be1812b8ef6
+source-git-commit: 2ba00288ca55fdb1686f051fc28c8e816a645f2d
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL Insights] を初めて開くと、Adobe GenStudio for Performance Marketingとチャネルアカウントを連携させるためのガイドのバナーが表示される場合があります。
 
-これにより、GenStudio for Performance Marketingは、アクティブなマーケティングキャンペーン、アセットおよびエクスペリエンスから統計データを受け取ることができます。 GenStudio for Performance Marketingは最初、過去 6 か月のデータを取り込むので、ユーザーは最新のデータを分析してアクションを実行できます。
+これにより、GenStudio for Performance Marketingは、アクティブなマーケティングキャンペーン、メディアおよび広告から統計データを受け取ることができます。 GenStudio for Performance Marketingは最初、過去 6 か月のデータを取り込むので、ユーザーは最新のデータを分析してアクションを実行できます。
 
 >[!BEGINSHADEBOX]
 
@@ -41,9 +41,9 @@ GenStudio for Performance Marketingはチャネルデータを 13 か月間保�
 
 1. _[!DNL Insights]_で、バナーの&#x200B;**[!UICONTROL チャネルアカウントを接続]**をクリックするか、右上隅にある&#x200B;**[!UICONTROL アカウントを追加]**ボタン（プラス記号の付いた人物図形）をクリックします。
 
-   facebookにログインするように指示される場合があります。 現時点で利用できるオプションはFacebookのみです。
+   Facebook にログインするように指示される場合があります。 Facebook は現時点で唯一の利用可能なオプションです。
 
-1. facebook アカウントにログインします。
+1. Facebook アカウントにログインします。
 
    ポップアップ ブロックを削除してから、[**[!UICONTROL 更新]**] を使用して再試行してください。
 

@@ -3,9 +3,9 @@ title: アセットの詳細
 description: Adobe GenStudio for Performance Marketingでは、検索性とパフォーマンストラッキングのために、リッチなメタデータを使用して承認済みコンテンツを格納します。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+source-git-commit: f401f93e7dd08db4837b8709e28acec5571052f7
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '726'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 | [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) がGenStudio for Performance Marketingに追加され、使用するために公開されました |
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) がGenStudio for Performance Marketingに追加されて使用されるようになりました |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) がGenStudio for Performance Marketingに追加されて使用されるようになりました |
-| チャネル | 電子メールやディスプレイ広告など、特定のコンテンツタイプを配信するためのプラットフォーム |
+| チャネル | メール、バナー、ディスプレイ広告など、特定のコンテンツタイプを配信するプラットフォーム |
 | [!UICONTROL  期間 ] | 四半期、シーズン、年など、アセットを使用する時間枠。 例：`Winter 2023` |
 | 地域  | アセットが使用される地域。 例：`North America`, `APAC`, `Italy` |
 | 言語 | アセットを使用する言語。 例：`Spanish` |

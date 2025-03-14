@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 0%
 
 プロンプトドロワーの _パラメーター_ に [ ガイドライン ](/help/user-guide/guidelines/overview.md) とアセットを追加すると、コンテンツ生成プロセスが過大評価され、メールエクスペリエンスを生成するための不可欠な準備手順となります。
 
+事前定義済みのガイドライン（[!DNL Brands]、[!DNL Personas]、[!DNL Products]）を含むテンプレートを使用する場合、これらのガイドラインはバリアントに適用されます。 必要に応じて変更できます。
+
 **パラメーターとアセットを追加するには**:
 
 1. _パラメーター_ アイコンをクリックして、プロンプトドロワーを展開します。
@@ -54,9 +56,9 @@ ht-degree: 0%
    * または、アセットを「**[!UICONTROL コンテンツから選択]** セクションにドラッグ&amp;ドロップして、1 つ以上の新しいアセットをアップロードします。
 1. **[!UICONTROL 使用]** をクリックします。
 
->[!NOTE]
->メールテンプレートに複数のセクションがある場合、_複数セクションのメール_ の各メールセクションに [!DNL Products] とコンテンツ（ビジュアルアセット）を選択します。 複数セクションのメールで、セクションごとに 1 つのビジュアルアセットを使用できます。 [!DNL Content] から複数セクションのメールにビジュアルアセットのみを追加できます。ローカルソースからアセットをドラッグ&amp;ドロップまたはアップロードすることはできません。
->![各メールセクションにコンテンツとパラメーターを追加し ](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"} す。
+   >[!NOTE]
+   >メールテンプレートに複数のセクションがある場合、_複数セクションのメール_ の各メールセクションに [!DNL Products] とコンテンツ（ビジュアルアセット）を選択します。 複数セクションのメールで、セクションごとに 1 つのビジュアルアセットを使用できます。 [!DNL Content] から複数セクションのメールにビジュアルアセットのみを追加できます。ローカルソースからアセットをドラッグ&amp;ドロップまたはアップロードすることはできません。
+   >![ 各メールセクションのコンテンツとパラメーターの追加 ](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}
 
 パラメーターの追加が完了したら、「_パラメーター_」アイコンをもう一度クリックすると、プロンプトドロワーを折りたたむことができます。
 
@@ -75,7 +77,7 @@ ht-degree: 0%
 
 生成されたコンテンツは徐々に読み込まれます。メールエクスペリエンスの各セクションが生成されると、キャンバスに表示されます。 これらの変更がキャンバスにどのように読み込まれるかを学ぶには、[ メールエクスペリエンス ](/help/user-guide/create/meta-experiences.md#progressive-loading) を参照してください。
 
-## 生成されたメールを修正
+## 生成されたバリアントを修正
 
 承認または公開用に送信する内容を選択する前に [!DNL Content] メールセクションを編集したり、生成された一連のメールからバリアントを削除したりできます。
 
@@ -85,7 +87,8 @@ ht-degree: 0%
 * **メールを [ 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、編集可能なテキストフィールド（件名行、ヘッダー、本文コピーなど）のいずれかをクリックし、必要に応じて編集します
 * **コールトゥアクションを [ 変更または選択](/help/user-guide/create/manage-variants.md#revise-call-to-action)** するには、「コールトゥアクション」ボタンをクリックし、「_[!UICONTROL フレーズ変更]_」または _[!UICONTROL リンクを追加]_ を選択します。
 * **バリアントのセクションを [ 再生成](/help/user-guide/create/manage-variants.md#re-generate-sections)** するには、編集可能なテキストフィールドをクリックして _[!UICONTROL 編集候補]_ オプションを使用するか、新しいプロンプトを入力して **[!UICONTROL 生成]** をクリックします。
-* **バリアント内の画像を追加 [ 入れ替え](/help/user-guide/create/manage-variants.md#swap-image)** するには、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックし、**[!UICONTROL コンテンツから選択/入れ替え]** または **[!UICONTROL 新しい画像をアップロード]** をクリックして、個々のバリアント内の画像を追加または入れ替えます。
+* **バリアント内の画像を追加 [ 入れ替え](/help/user-guide/create/manage-variants.md#swap-image)** するには、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックし、**[!UICONTROL コンテンツから入れ替え]** アイコンをクリックします。
+* **バリアント内の画像へのリンクを追加 [ するには](/help/user-guide/create/manage-variants.md#add-image-link)**、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックし、リンクアイコンをクリックします。
 * **メールを [ 削除](/help/user-guide/create/manage-variants.md#delete-variant)** するには、をクリックしてメールのタイトル（「メール 1/4」など）を選択し、「**[!UICONTROL バリアントを削除]**」をクリックします。
 
 ## 生成フィードバックを送信
@@ -96,29 +99,23 @@ ht-degree: 0%
 
 メールエクスペリエンスを修正および準備する際に、ドラフトバリアントの一貫性と視覚的魅力を確保するために、[ デスクトップビューとモバイルビューのプレビューを切り替える ](/help/user-guide/create/manage-variants.md#preview-for-device) ことができます。
 
-## ブランドの整合性の確認
+## コンテンツチェックの整合性の確認
 
-生成されるメールを最適化し、ブランドアイデンティティに確実に準拠するには、[_ブランドガイドラインチェック_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) の機能を活用して、バリアントのブランド調整の概要を提供します。また、[_ブランド検証_ パネル ](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel) を使用して、包括的なブランド検証の詳細を表示し、改善点を明らかにします。
+生成されたバリアントを最適化し、ブランド ID、プラットフォームガイドラインおよびアクセシビリティ標準に厳密に準拠するには、[_コンテンツチェック_ パネル ](/help/user-guide/guidelines/brand-validation.md#content-check-panel) の機能を活用します。 このパネルには、包括的なコンテンツチェックの詳細が表示され、改善点が明らかになります。
 
-**ブランドの整合性を検証するには**:
+**バリアントに対してコンテンツチェックを実行するには**:
 
-1. バリアントの [**[!UICONTROL [!DNL Brand] guidelines check]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) アイコンをクリックすると、ブランドに対してチェックされたときのそのバリアントのパフォーマンスの概要が表示されます。
+1. 右側のアクションバーにある _コンテンツチェック_ パネルアイコンをクリックして、[_コンテンツチェック_ パネル ](/help/user-guide/guidelines/brand-validation.md#content-check-panel) を開きます。 *レビューが必要* チェックと *合格* チェックの概要を表示し、改善が必要なセクションとガイドラインを確認します。
 
-   ![ ブランドガイドラインの確認 ](/help/assets/brand-guidelines-check.png){width="350" zoomable="yes"}
+   ![_コンテンツチェック_ パネル ](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
-1. 改善が必要なセクションとガイドラインの詳細を取得するには、**[!UICONTROL 確認]**_をクリックするか_ 上部のメニューバーにあるブランド検証アイコンをクリックして [_ブランド検証パネル_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel) を開きます。
-
-1. 各メールを切り替えて、生成されたコンテンツを改善してブランドに合わせるようにする方法を確認します。
-
-   ![ ブランド検証パネル ](/help/assets/brand-validation-panel.png){width="600" zoomable="yes"}
-
-1. [ メールを手動で修正 ](#revise-generated-emails) し、メールがブランドと密接に連携するようにします。
+1. [ バリアントを手動で改訂 ](#revise-generated-variants) し、バリアントが実行されたコンテンツチェックと密接に連携していることを確認します。
 
 [ ブランド検証 ](/help/user-guide/guidelines/brand-validation.md) を参照してください。
 
 ## レビューと承認の取得
 
-キャンバスの上部のメニューバーからアクセスできる承認パネルを使用して、レビューを取得、レビューコメントを追跡、関係者からの承認を取得します。
+承認パネルは、キャンバスの右側のアクションバーにあるアイコンとしてアクセスでき、レビューを取得したり、レビューのコメントを追跡したり、関係者から承認を得たりできます。
 
 **レビューと承認を取得するには**:
 
@@ -129,12 +126,12 @@ ht-degree: 0%
 
 詳しくは、[ レビューと承認 ](/help/user-guide/approvals/overview.md) を参照してください。
 
-## Publishと書き出しの経験
+## エクスペリエンスの公開と書き出し
 
 生成されたメールを現在および将来の使用で使用できるようにするには、メールを [!UICONTROL  コンテンツ ] に公開し、マーケティングキャンペーンで使用するために書き出します。
 
-1. **新しいメールエクスペリエンスを公開するには** 上部のツールバーまたは承認フロー内の **[!UICONTROL Publish]** をクリックします。
+1. **新しいメールエクスペリエンスを公開するには** 上部のツールバーまたは承認フロー内の **[!UICONTROL 公開]** をクリックします。
 1. **新しいメールエクスペリエンスを書き出すには**、上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。
-   1. CSV 形式と画像またはHTML形式のみを選択し、「**[!UICONTROL 書き出し]**」をクリックします。
+   1. 形式（CSV と画像またはHTMLのみ）を選択し、「**[!UICONTROL 書き出し]**」をクリックします。
 
 詳細は、[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) を参照してください。

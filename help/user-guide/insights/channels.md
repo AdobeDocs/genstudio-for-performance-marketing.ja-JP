@@ -3,9 +3,9 @@ title: チャネルの概要
 description: Adobe GenStudio for Performance Marketingのマーケティングキャンペーンに関する顧客エンゲージメント、パフォーマンス、予算、支出の概要を参照します。
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
+source-git-commit: e4507e53896348bca2ebec4ae299be50a0d277a7
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 {{connect-insights}}
 
-_[!UICONTROL チャネル]_ テーブルは、チャネルベースの広告キャンペーンを使用して整理されます。 テーブルの右側の上にある設定（歯車）アイコンをクリックして、表示可能列を切り替えます。 テーブルの左側の上にフィルター（ファネル）アイコンをクリックすると、**[!UICONTROL フィルター]** メニューが開き、[!UICONTROL  アカウント ]、[!UICONTROL  ステータス ]、[!UICONTROL  目的 ] リストから選択して、テーブル内のキャンペーンをフィルタリングできます。
+_[!UICONTROL チャネル]_ テーブルは、チャネルベースの広告キャンペーンを使用して整理されます。 テーブルの右側の上にある設定（歯車）アイコンをクリックして、表示可能列を切り替えます。 テーブルの左側の上にフィルター（ファネル）アイコンをクリックすると、**[!UICONTROL フィルター]** メニューが開き、複数のリストから選択できます。 すべてのフィルターを削除するには、テーブルの上にある「**[!UICONTROL すべてクリア]**」を選択します。
 
 ![ チャネルフィルターとテーブル ](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
 {{$include /help/_includes/download-insights.md}}
 
-キャンペーンを選択すると、「[[!UICONTROL  エクスペリエンス ]」タブが開き ](experiences.md) そのキャンペーンに関連付けられた広告名のリストが表示されます。ここから、成功に貢献したエクスペリエンスを特定できます。
+キャンペーンを選択すると、「[[!UICONTROL  広告 ]」タブが開き ](ads.md) そのキャンペーンに関連付けられた広告名のリストが表示されます。このリストを使用して、全体的な成功に貢献した広告を特定できます。
 
 ## 目的
 

@@ -1,9 +1,10 @@
 ---
 title: GenStudio for Performance Marketingを拡張するApp Builder プロジェクトの作成
 description: アプリまたはアドオン用のApp Builder プロジェクトを作成します。
-source-git-commit: 62d29311d02616939634ce09c0ae97f382787c8d
+exl-id: 502b6dd5-68ac-4392-bba3-3ab8cd9eefc2
+source-git-commit: 7cc91ff9260370a164331095101f04ee0ffc1119
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 1%
 
 ---
@@ -14,7 +15,8 @@ Adobe GenStudio for Performance Marketingのネイティブ機能を拡張する
 
 >[!BEGINSHADEBOX]
 
-アプリ用のプロジェクトを作成するには、App Builderおよび ](https://developer.adobe.com/developer-console/)0}Adobe Developer Console} へのアクセス権が必要です。 [[Developer Consoleでのプロジェクトの作成 ](https://developer.adobe.com/app-builder/docs/getting_started/first_app#2-create-a-new-project-on-developer-console) を参照してください。
+**前提条件**
+アプリのプロジェクトを作成するには、App Builderおよび ](https://developer.adobe.com/developer-console/)2}Adobe Developer Console} へのアクセス権が必要です。 [[Developer Consoleでのプロジェクトの作成 ](https://developer.adobe.com/app-builder/docs/getting_started/first_app#2-create-a-new-project-on-developer-console) を参照してください。
 
 >[!ENDSHADEBOX]
 

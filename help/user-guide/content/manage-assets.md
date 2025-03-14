@@ -3,9 +3,9 @@ title: アセットとエクスペリエンスの管理
 description: デジタルマーケティングジャーニーでの使用と再利用のために、ブランド承認済みアセットの管理を簡素化および強化します。
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+source-git-commit: 624629700d8bf7d9e4c0e6d8b4373f40b14d4e05
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1361'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ Adobe GenStudio for Performance Marketing [!DNL Content] は、デジタルマ�
 
 ギャラリーには、選択した表示に応じて、承認されたアセット、エクスペリエンスまたはテンプレートのインベントリが表示されます。 テーブルの左側の上にあるフィルター（ファネル）アイコンをクリックすると、**[!UICONTROL フィルター]** メニューが開き、多数のカテゴリから選択して、ギャラリーに表示されるコンテンツをフィルタリングできます。 _[!UICONTROL Assets]_ ビューで、検索（虫眼鏡）アイコンをクリックし、キーワードを使用してアセットを検索します。
 
-以下は、[!UICONTROL Assets] ギャラリーの用語 `dog` に対する検索を示しています。
+以下は、[!UICONTROL Assets] ギャラリーの用語 `space` に対する検索を示しています。
 
-![ 犬で検索したAssets ビュー ](/help/assets/content-assets.png)
+![ スペースで検索するAssets ビュー ](/help/assets/content-assets-filter.png " スペース属性を持つアセットの検索 ")
 
 ### コンテンツを検索
 
@@ -57,7 +57,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content] は、デジタルマ�
 
 右側の _[!UICONTROL Assets]_ ギャラリーの上にある **[!UICONTROL 場所]** リストでは、接続されたAdobe Experience Manager（AEM） [!DNL Assets Content Hub] リポジトリーから選択できます。
 
-![ リポジトリの場所のリスト ](../../assets/content-location-selection.png){width="350"}
+![ リポジトリの場所のリスト ](/help/assets/content-location-selection.png " コンテンツリポジトリを選択します "){width="350"}
 
 AEM リポジトリを選択すると、そのリポジトリのアセットのインベントリが表示され、承認されたアセットをコンテンツ作成用の入力として利用できます。 フィルターオプションは、[!DNL AEM Assets Content Hub] で設定されたカテゴリを反映して変更されます。
 
@@ -89,7 +89,7 @@ AEM リポジトリには、アセットの有効期限など、特定のライ�
 
 アセットを [!DNL Content] に追加すると、デフォルトでは、`GenStudio assets` リポジトリに保存されます。 「_[!UICONTROL アセットを追加]_」ボタンは、「_[!UICONTROL 場所]_ が `GenStudio assets` リポジトリの場合にのみ使用できます。
 
-![Location フィールド ](../../assets/content-location.png){width="350"}
+![ 場所フィールド ](/help/assets/content-location.png " 場所フィールド "){width="350"}
 
 **1 つ以上のアセットを追加するには**:
 
@@ -146,7 +146,7 @@ AEM リポジトリには、アセットの有効期限など、特定のライ�
 1. _アクティベーション用にエクスポート_ ポップアップで、使用可能な形式の 1 つを選択します。
 
    - 電子メール：`HTML`、`CSV`
-   - メタ広告とディスプレイ広告：`HTML`、`JPEG`、`PNG`
+   - Meta、Banner、およびディスプレイ広告：`HTML`、`JPEG`、`PNG`
 
 [ アクティベーション ](/help/user-guide/activation/overview.md) を参照してください。
 

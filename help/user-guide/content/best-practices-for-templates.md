@@ -4,9 +4,9 @@ description: Adobe GenStudio for Performance Marketingでテンプレートを�
 feature: Templates, Content
 last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 9cc284cdb00a204baf6b0a2d9d7f67cf9bc9c81f
+source-git-commit: cdba0ef2cc359a6ed0fd25ce946bcf89f9b712f9
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ GenStudio for Performance Marketingでテンプレートを使用する前に、
 
 GenStudio for Performance Marketingと連携するようにメールテンプレートをカスタマイズする場合は、次のデザインのベストプラクティスに従います。
 
-- AdobeフォントまたはGoogle フォントの使用
-- クリーンなレスポンシブHTMLとインライン CSS の使用
+- AdobeまたはGoogle フォントの使用
+- クリーンでレスポンシブなHTMLとインライン CSS の使用
 - JavaScript **使用しない**
 - 本文 **コンテナ** は固定幅を使用しないでください
 - 画像には base64 エンコーディングを使用しないでください **使用すると** テンプレートサイズが大幅に増加する可能性があります
@@ -62,7 +62,7 @@ GenStudio for Performance Marketingと連携するようにメールテンプレ
    - 基本テンプレート（1 つのセクションのみ）は、単一のテンプレート要素のセットを生成できます。
    - 複雑なテンプレート（複数のセクション）では、最大 3 つのテンプレート要素セットを生成できます。
 - テンプレートで許可される最大フィールド数は 20 です
-- 最大HTMLファイルサイズは 102 KB です
+- HTMLの最大ファイルサイズは 102 KB です
 
 **認識されたフィールド名**:
 
@@ -72,7 +72,7 @@ GenStudio for Performance Marketingと連携するようにメールテンプレ
 - `headline`
 - `body`
 - `cta`
-- `image` （コンテンツから選択）
+- `image` （Content JPEG、PNG、GIFから選択）
 - `brand_logo`
 
 テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー ](customize-template.md#content-placeholders) を参照してください。
@@ -115,19 +115,17 @@ GenStudio for Performance Marketingと連携するようにメタ広告テンプ
 
 メタ広告の場合、「`headline`」、「`body`」および「`CTA`」フィールドが自動的に生成されます。 次のフィールドには、コンテンツプレースホルダーを使用します。
 
-- `image` （コンテンツから選択）
-- `on-image-text`
+- `image` （Content JPEG、PNG、GIFから選択）
+- `on_image_text`
 - `brand_logo`
 
 テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー ](customize-template.md#content-placeholders) を参照してください。
 
->[!TAB  広告を表示 ]
+>[!TAB  バナーとディスプレイ広告 ]
 
-[!BADGE Beta]{type=Informative tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"}
+GenStudio for Performance Marketingと連携するようにバナーとディスプレイ広告のテンプレートをカスタマイズする場合は、次のデザインのベストプラクティスに従ってください。
 
-GenStudio for Performance Marketingと連携するようにディスプレイ広告テンプレートをカスタマイズする場合は、次のデザインのベストプラクティスに従ってください。
-
-- AdobeフォントまたはGoogle フォントの使用
+- AdobeまたはGoogle フォントの使用
 - スリムなサイズで適切に表示されるアセットの準備
 - 埋め込み画像またはエンコードされた背景画像は使用し **い**
 - GenStudio for Performance Marketing コンテンツリポジトリにアップロードされた背景画像（`image` フィールド）を使用
@@ -159,7 +157,55 @@ GenStudio for Performance Marketingと連携するようにディスプレイ広
 - `headline`
 - `body`
 - `cta`
-- `image` （コンテンツから選択）
+- `image` （Content JPEG、PNG、GIFから選択）
+
+テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー ](customize-template.md#content-placeholders) を参照してください。
+
+>[!TAB LinkedIn 広告 ]
+
+[!BADGE Beta]{type=Informative tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"}
+
+LinkedIn 広告テンプレートをカスタマイズしてGenStudio for Performance Marketingと連携させる場合は、次のデザインのベストプラクティスに従います。
+
+**制約**:
+
+- [ セクション ](customize-template.md#sections-or-groups) の使用：
+   - 使用できるセクションは 1 つだけで、単一のテンプレート要素セットが生成されます。
+- 最大画像サイズは 5 MB
+- 最大見出し 70 文字
+- 150 文字以内の紹介文
+
+**サポートされる縦横比**:
+
+- 正方形 1:1
+   - デスクトップまたはモバイル
+   - 最小：360 x 360 ピクセル
+   - 最大：4320 x 4320 ピクセル
+- 水平 1.91:1
+   - デスクトップ
+   - 最小：640 x 360 ピクセル
+   - 最大：7680 x 4320 ピクセル
+- 縦 1:1.91
+   - mobile
+   - 最小：360 x 640 ピクセル
+   - 最大：2430 x 4320 ピクセル
+- バーティクル 2.3
+   - mobile
+   - 最小：360 x 640 ピクセル
+   - 最大：2430 x 4320 ピクセル
+- Verticle 4.5 （推奨）
+   - mobile
+   - 最小：360 x 640 ピクセル
+   - 最大：2430 x 4320 ピクセル
+
+**認識されたフィールド名**:
+
+LinkedIn 広告の場合、「`headline`」フィールドと「`CTA`」フィールドは自動的に生成されます。 次のフィールドには、コンテンツプレースホルダーを使用します。
+
+- `image` （Content JPEG、PNG、GIFから選択）
+- `introductory_text`
+- `on_image_text`
+- `brand_logo`
 
 テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー ](customize-template.md#content-placeholders) を参照してください。
 

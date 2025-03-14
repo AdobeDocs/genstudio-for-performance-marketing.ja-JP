@@ -3,9 +3,9 @@ title: バリアントの管理
 description: 生成されるバリアントとアセットをカスタマイズし、デジタルマーケティングのニーズに合わせて強化します。
 feature: Content, Assets, Experiences
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 504f556825c5645172c2315877cb6c06f015cf0e
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -139,18 +139,31 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
 **バリアント内の画像を追加または入れ替えるには**
 
+1. バリアントのセットを生成したら、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックします。
+1. **[!UICONTROL コンテンツから入れ替え]** アイコンをクリックします。
+1. GenStudio Assets [!DNL Content] ビューのフィルターと検索機能を使用して、検索結果をさらに絞り込みます。
+
+   また、（場所 ]**メニューから選択すると、Connected Adobe Experience Manager（AEM）Assets Content Hub リポジトリで使用可能な画像を使用す [**[!UICONTROL  こともでき ](/help/user-guide/content/manage-assets.md#location) す。
+
+1. 画像をクリックして選択し、「**[!UICONTROL 使用]**」をクリックします。
+
+   画像が追加されるか、該当するバリアントに入れ替えられます。
+
+## 画像リンクを追加
+
+生成されたバリアントでの画像の追加や入れ替えと同様に、画像へのリンクを追加できます。 この機能を有効にするには、バリアントの生成に使用するテンプレート _必須_ に、リンクの [ コンテンツプレースホルダー ](/help/user-guide/content/customize-template.md#content-placeholders) を含める必要があります）。
+
+**バリアントに画像リンクを追加するには**:
+
 1. バリアントのセットを生成したら、画像アセットをクリックします。
 
    バリアントに現在配置された画像アセットがない場合は、画像アセット領域をクリックします。
 
-1. [!DNL Content] に公開済みの画像アセットを選択するには：
-   1. **[!UICONTROL コンテンツから選択]** をクリックします。 フィルターを使用して、検索結果をさらに絞り込みます。
-   1. **[!UICONTROL 使用]** をクリックします。
-1. 画像アセットをアップロードするには：
-   1. **[!UICONTROL 新しい画像をアップロード]** をクリックして、ファイルを参照し、使用するアセットを選択します。 デバイスの参照に加えて、Microsoft OneDrive またはDropboxから読み込むこともできます。
-   1. **[!UICONTROL Assetsを追加]** をクリックします。
+1. リンクアイコンをクリックします。
+1. 既存のデフォルトリンクを削除するには、「**[!UICONTROL リンクを削除]**」をクリックします。
+1. テキストフィールドにリンクを追加し、「**[!UICONTROL 適用]**」をクリックします。
 
-   画像が追加されるか、該当するバリアントに入れ替えられます。
+   定義したリンクは、バリアントセット内のすべての画像に適用されます。
 
 ## デバイスのプレビュー
 
@@ -176,9 +189,9 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
 ## バリアントごとのブランド検証
 
-_[!UICONTROL ブランドガイドラインのチェック]_ および _[!UICONTROL ブランド検証パネル]_ を使用して、一貫性のあるブランドアイデンティティとバリアントの整合性を維持します。
+_コンテンツチェック_ パネルを使用して、一貫性のあるブランドアイデンティティ、[ADA アクセシビリティ標準、プラットフォームガイドライン ](/help/user-guide/guidelines/overview.md#content-checks)、バリアントの配置を維持します。
 
-[ ブランド検証 ](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment) を参照してください。
+[ ブランド検証 ](/help/user-guide/guidelines/brand-validation.md) を参照してください。
 
 ## 生成のフィードバック
 

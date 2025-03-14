@@ -4,9 +4,9 @@ description: Adobe GenStudio for Performance Marketing用テンプレートを�
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
+source-git-commit: eb7f19ebc0854db3a33599b56c857875ee67982b
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1442'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,7 @@ ht-degree: 0%
 
 生成 AI がコンテンツの挿入に使用するコンテンツプレースホルダー（フィールド）を挿入することで、GenStudio for Performance Marketingで使用するテンプレートをカスタマイズできます。
 
-以降の節では、_[!DNL Handlebars]_テンプレート言語を使用してGenStudio for Performance Marketing用にHTMLテンプレートを適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 テンプレートの準備方法については、_ Handlebars 言語ガイド _の [ 概要  [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) を参照してください。
-
+以降の節では、_[!DNL Handlebars]_テンプレート言語を使用してHTML テンプレートをGenStudio for Performance Marketingに適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 テンプレートの準備方法については、_ Handlebars 言語ガイド _の [ 概要  [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) を参照してください。
 
 テンプレートの準備が整ったら、[GenStudio for Performance Marketingにアップロード ](use-templates.md#upload-a-template)、カスタムテンプレートに基づいてパーソナライズされたメールの生成を開始できます。
 
@@ -26,103 +25,48 @@ ht-degree: 0%
 
 ## コンテンツプレースホルダー
 
-GenStudio for Performance Marketingは、テンプレート内の特定の [ 要素 ](use-templates.md#template-elements) を認識しますが、それは認識されたフィールド名で識別した場合のみです。
+GenStudio for Performance Marketingはテンプレート内の特定の [ 要素 ](use-templates.md#template-elements) を認識しますが、それは [ 認識されたフィールド名 ](#recognized-field-names) で識別した場合に限られます。
 
-テンプレートの head または body 内では、GenStudio for Performance Marketingに実際のコンテンツをテンプレートに入力させる必要がある場合、[!DNL Handlebars] 構文をコンテンツプレースホルダーとして使用できます。 GenStudio for Performance Marketingは、[ 認識された _field_ name](#recognized-field-names) に基づいてコンテンツプレースホルダーを認識および解釈します。
+HTML テンプレートの先頭または本文内では、[!DNL Handlebars] の構文を使用して、GenStudio for Performance Marketingに実際のコンテンツをテンプレートに入力させる必要があるコンテンツプレースホルダーを挿入できます。 GenStudio for Performance Marketingは、[ 認識された _field_ name](#recognized-field-names) に基づいてコンテンツプレースホルダーを認識および解釈します。
 
-例えば、[!DNL Handlebars] の構文で `{{ headline }}` を使用して、メールのヘッドラインを配置する場所を示すことができます。
+例えば、[!DNL Handlebars] 構文で `{{ headline }}` を使用して、メールのヘッドラインを配置する場所を示すことができます。 GenStudioはこのフィールドを認識し、ガイドラインとプロンプトの条件に基づいて関連するヘッドラインを生成して、この場所にヘッドラインを挿入します。
 
 ```handlebars
-<div>{{headline}}</div>
+<div>{{ headline }}</div>
 ```
 
 ### 認識されたフィールド名
 
-次の表に、テンプレートへの母集団に対してGenStudio for Performance Marketingで認識されるフィールド名を示します。 GenStudio for Performance Marketingでコンテンツを生成する必要があるテンプレートに、[!DNL Handlebars] 構文を使用してこれらのフィールド名を追加します。
+次の表に、テンプレートにプレースホルダーを追加するためにGenStudio for Performance Marketingで認識されるフィールド名を示します。 GenStudio for Performance Marketingで特定のタイプのコンテンツを生成する必要があるテンプレートに、[!DNL Handlebars] 構文を使用してこれらのフィールド名を追加します。
 
 | フィールド | 役割 | チャネルテンプレート |
-| ------------------ | ---------------------- | -------------------------------- |
+| ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | プリヘッダー | メール |
-| `{{headline}}` | 見出し | メール <br> メタ広告 <br> 広告の表示 |
-| `{{body}}` | 本文コピー | メール <br> メタ広告 <br> 広告の表示 |
-| `{{cta}}` | コールトゥアクション | メール <br> メタ広告 <br> 広告の表示 |
-| `{{on_image_text}}` | 画像テキスト上 | メタ広告 |
-| `{{image}}` | 画像 – コンテンツから選択 | メール <br> メタ広告 <br> 広告の表示 |
-| `{{brand_logo}}` | 選択したブランドのロゴ <br> 推奨使用については、[ ブランドロゴフィールド名 ](#brand-logo-field-name) を参照してください。 | メールメ <br> タ広告 |
+| `{{headline}}` | 見出し | メール <br> メタ広告 <br> バナーとディスプレイ広告 <br>LinkedIn 広告 |
+| `{{introductory_text}}` | 紹介テキスト | LinkedIn 広告 |
+| `{{body}}` | 本文コピー | メール <br> メタ広告 <br> バナーとディスプレイ広告 |
+| `{{cta}}` | コールトゥアクション | メール <br> メタ広告 <br> バナーとディスプレイ広告 <br>LinkedIn 広告 |
+| `{{image}}` | 画像 – [!DNL Content] から選択 | メール <br> メタ広告 <br> バナーとディスプレイ広告 <br>LinkedIn 広告 |
+| `{{on_image_text}}` | 画像テキスト上 | メタ広告 <br>LinkedIn 広告 |
+| `{{link}}` | 画像上のコールトゥアクション <br> 画像の [ リンク ](#link-on-image) を参照してください。 | メール |
+| `{{brand_logo}}` | 選択したブランドのロゴ <br>[ ブランドロゴフィールド名 ](#brand-logo-field-name) を参照してください。 | email<br>Meta ad <br>LinkedIn ad |
 
 GenStudio for Performance Marketingでは、特定のフィールドに次のテンプレートで自動的に入力されます。
 
 - **メールテンプレート** で `subject` フィールドを識別する必要はありません
 - **メタ広告テンプレート** では、「`headline`」、「`body`」、「`CTA`」フィールドを識別する必要はありません
-- **広告テンプレートを表示** では、`CTA` フィールドを識別する必要はありません
+- **バナーとディスプレイ広告テンプレート** で、`CTA` フィールドを識別する必要はありません
+- **LinkedIn 広告テンプレート** では、`headline`、`introductory_text` および `CTA` フィールドを識別する必要はありません
 
 >[!WARNING]
 >
->instagram広告の場合、生成されたヘッドラインは最終的なエクスペリエンスには表示されません。
+>Instagram 広告の場合、生成されたヘッドラインは最終的なエクスペリエンスには表示されません。
 
 テンプレートをGenStudio for Performance Marketingにアップロードできるフィールドは 20 個までです。 メールでは `subject` フィールドが自動的に生成されるので、1 つのフィールドとしてカウントされます。 つまり、メールテンプレートでは 19 個のフィールドを使用できます。
 
 >[!TIP]
 >
 >GenStudio for Performance Marketingの [ テンプレートプレビュー ](#template-preview) を使用して、テンプレートを検証できます。
-
-#### ブランドロゴフィールド名
-
-現時点では、テンプレートのアップロードに使用するブランドロゴを選択することはできません。 次の例は、ブランドロゴを条件に応じてレンダリングする 2 つの方法を示しています。 各方法では、ソースを検証し、ブランドロゴが使用できない場合に備えてデフォルトまたは代替の画像を提供し、スタイルを適用します。
-
-**例 1**：組み込みヘルパー条件 [!DNL Handlebars]HTML `img src` 属性に直接使用する
-
-```html
-<img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;">
-```
-
-**例 2**：組み込み条件ステートメント [!DNL Handlebars] 使用してHTMLをタグ `img` 囲む：
-
-```handlebars
-{{#if brand_logo}}
-    <img src="{{brand_logo}}" alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
-    {{else}}
-    <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
-{{/if}}
-```
-
-#### 手動フィールド名
-
-その他のすべてのフィールド名は、手動で入力されたフィールドとして扱われます。
-
-編集可能なセクションを作成するには、セクション名の周りに二重括弧を追加します。
-
-```handlebars
-{{customVariable}}
-```
-
-### セクションまたはグループ
-
-_セクション_ このセクションのフィールドには高い一貫性が必要であることをGenStudio for Performance Marketingに伝えます。 この関係を確立すると、AI がセクションのクリエイティブ要素に一致するコンテンツを生成するのに役立ちます。
-
-フィールド名に任意の接頭辞を使用して、フィールドがセクションまたはグループの一部であることを示します。 アンダースコア（`_`）の後にフィールド名（`headline`、`body`、`image`、`cta`）を使用します。 例えば、次のヘッドラインと本文は、`pod1` セクションに属しています。
-
-- `pod1_headline`
-- `pod1_body`
-
-各セクションは、各フィールドタイプの 1 つのみを使用できます。 上記の例では、`pod1` セクションは 1 つの `pod1_headline` フィールドのみを使用できます。 このルールのため、セクションをネストすることはできません。
-
-メールやメタ広告などの各テンプレートタイプには、セクションの使用に関するチャネル固有の制約があります。 [ テンプレート使用のベストプラクティス ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) トピックの _チャネル固有のガイドライン_ を参照してください。
-
-例えば、1 つのメールテンプレートに最大 3 つのセクションを含めることができます。したがって、次の 3 つのヘッドラインと本文セクションを含めることができます。
-
-- `pre-header`
-- `pod1_headline`
-- `pod1_body`
-- `pod2_headline`
-- `pod2_body`
-- `pod3_headline`
-- `pod3_body`
-- `cta`
-
-GenStudio for Performance Marketingは `pod1_headline` が `pod2_body` よりも `pod1_body` と密接に関係していることを理解しています。
-
-メールの各セクションに対して様々なコンテンツを生成するプロンプトを作成する方法については、[ 構造化プロンプト ](/help/user-guide/effective-prompts.md#structured-prompts) を参照してください。
 
 ### コールトゥアクション
 
@@ -150,13 +94,94 @@ GenStudio for Performance Marketingは `pod1_headline` が `pod2_body` よりも
 
 GenStudio for Performance Marketingでは、様々なコールトゥアクションフレーズを提供することもできます。 [ コールトゥアクションの修正 ](/help/user-guide/create/manage-variants.md#revise-call-to-action) を参照してください。
 
+### 画像上のリンク
+
+メールテンプレートをカスタマイズして、クリエイティブが画像にリンクを追加できるようにすることができます。 CTA リンクと同様に、次のガイダンスを使用して画像タグに `link` プレースホルダーを適用します。
+
+```html
+<a href="{{link}}"><img src="image-source.jpg" alt="description"></a>
+```
+
+この例では、次のようになります。
+
+- `{{link}}` は、実際の URL のプレースホルダーです。
+- `src="image-source.jpg"` は、実際の画像ソース URL に置き換える必要があります。
+- `alt="description"` は、画像の代替テキストを提供します。これは、アクセシビリティや SEO に役立ちます。
+
+### ブランドロゴフィールド名
+
+現時点では、テンプレートのアップロードに使用するブランドロゴを選択することはできません。 次の例は、ブランドロゴを条件に応じてレンダリングする 2 つの方法を示しています。 各方法では、ソースを検証し、ブランドロゴが使用できない場合に備えてデフォルトまたは代替の画像を提供し、スタイルを適用します。
+
+**例 1**：組み込みヘルパー条件 [!DNL Handlebars]HTML `img src` 属性に直接使用する
+
+```html
+<img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;">
+```
+
+**例 2**：組み込み条件ステートメント [!DNL Handlebars] 使用してHTML `img` タグをラッピングする：
+
+```html
+{{#if brand_logo}}
+    <img src="{{brand_logo}}" alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+    {{else}}
+    <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+{{/if}}
+```
+
+### 手動フィールド名
+
+その他のすべてのフィールド名は、手動で入力されたフィールドとして扱われます。 例えば、フッターコンテンツ用のセクションを予約することができます。
+
+編集可能なセクションを作成するには、セクション名の周りに二重括弧を追加します。
+
+```html
+<tbody>
+    <tr>
+        <td>
+            <p><span class="s1">{{ footerLegal }}</span></p>
+        </td>
+    </tr>
+</tbody>
+```
+
+## セクションまたはグループ
+
+_セクション_ このセクションのフィールドには高い一貫性が必要であることをGenStudio for Performance Marketingに伝えます。 この関係を確立すると、AI がセクションのクリエイティブ要素に一致するコンテンツを生成するのに役立ちます。
+
+フィールド名に任意の接頭辞を使用して、フィールドがセクションまたはグループの一部であることを示します。 アンダースコア（`_`）の後にフィールド名（`headline`、`body`、`image`、`cta`）を使用します。 例えば、次のヘッドラインと本文は、`pod1` セクションに属しています。
+
+- `pod1_headline`
+- `pod1_body`
+
+各セクションは、各フィールドタイプの 1 つのみを使用できます。 上記の例では、`pod1` セクションは 1 つの `pod1_headline` フィールドのみを使用できます。 このルールのため、セクションをネストすることはできません。
+
+メールやメタ広告などの各テンプレートタイプには、セクションの使用に関するチャネル固有の制約があります。 [ テンプレート使用のベストプラクティス ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) トピックの _チャネル固有のガイドライン_ を参照してください。
+
+例えば、1 つのメールテンプレートに最大 3 つのセクションを含めることができます。したがって、次の 3 つのヘッドラインと本文セクションを含めることができます。
+
+- `pre_header`
+- `pod1_headline`
+- `pod1_body`
+- `pod2_headline`
+- `pod2_body`
+- `pod3_headline`
+- `pod3_body`
+- `cta`
+
+GenStudio for Performance Marketingは `pod1_headline` が `pod2_body` よりも `pod1_body` と密接に関係していることを理解しています。
+
+複数セクションのメールの各セクションに対して様々なコンテンツを生成するプロンプトを作成する方法については、[ 構造化プロンプト ](/help/user-guide/effective-prompts.md#structured-prompts) を参照してください。
+
+
 ## テンプレートのプレビュー
 
-[ テンプレートをアップロード ](use-templates.md#upload-a-template) すると、GenStudio for Performance MarketingはHTMLファイルをスキャンして、認識されたフィールドを探します。 プレビューを使用して [ テンプレート要素 ](use-templates.md#template-elements) を確認し、それらが [ 認識されたフィールド名 ](#recognized-field-names) で正しく識別されたことを確認します。
+[ テンプレートをアップロード ](use-templates.md#upload-a-template) すると、GenStudio for Performance MarketingはHTML ファイルをスキャンして、認識されたフィールドを探します。 プレビューを使用して [ テンプレート要素 ](use-templates.md#template-elements) を確認し、それらが [ 認識されたフィールド名 ](#recognized-field-names) で正しく識別されたことを確認します。
 
 メールテンプレートのプレビューの例：
 
-![ プレビューフィールドが検出されました ](/help/assets/template-detected-fields.png){width="650"}
+![ 検出されたプレビューフィールド ](/help/assets/template-detected-fields.png " 検出されたフィールドを確認 "){zoomable="yes"}
+
+[ テンプレートコードエディター ](/help/user-guide/content/code-editor.md) を参照してください。
 
 ### プレビューを制御
 
@@ -172,7 +197,7 @@ GenStudio for Performance Marketingでは、様々なコールトゥアクショ
 
 もう 1 つの例として、GenStudio for Performance Marketingでテンプレートをプレビューする際に、トラッキングコードを使用しないようにすることがあります。 次の例では、プレビューリンクをクリーンな状態に保ちながら、書き出されたテンプレート内のリンクにトラッキングパラメーターを追加する方法を示します。
 
-```handlebars
+```html
 <a class="button" {{#if _genStudio.browser }}
    href="{{ link }}"{{/if}}{{#if _genStudio.export }}
    href="{{ link }}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
@@ -193,9 +218,9 @@ GenStudio for Performance Marketingでは、様々なコールトゥアクショ
 
 +++例：1 つのセクションを持つメールテンプレート
 
-次に、1 つのセクションを含むメールのHTMLテンプレートの基本的な例を示します。 ヘッドには、スタイル設定用のシンプルなインライン CSS が含まれています。 本文には、`pre-header`、`headline`、`image` [ プレースホルダー ](#content-placeholders) が含まれており、メール生成プロセス中にGenStudio for Performance Marketingでコンテンツを挿入するために使用されます。
+以下は、1 つのセクションを含むメールのHTML テンプレートの基本的な例です。 ヘッドには、スタイル設定用のシンプルなインライン CSS が含まれています。 本文には、`pre_header`、`headline`、`image` [ プレースホルダー ](#content-placeholders) が含まれており、メール生成プロセス中にGenStudio for Performance Marketingでコンテンツを挿入するために使用されます。
 
-```handlebars {line-numbers="true" highlight="13"}
+```html {line-numbers="true" highlight="13"}
 <!DOCTYPE html>
 <html>
 <head>
@@ -211,10 +236,11 @@ GenStudio for Performance Marketingでは、様々なコールトゥアクショ
 <body>{{ pre_header }}
     <div class="container">
         <h1>{{ headline }}</h1>
-        <p><img alt="{{ headline }}"
+        <p><a href="{{ link }}">
+           <img alt="{{ headline }}"
                 src="{{ image }}"
                 width="600" height="600"
-                border="0"/></p>
+                border="0"/></a></p>
         <p>{{ body }}</p>
     </div>
 </body>
@@ -225,9 +251,9 @@ GenStudio for Performance Marketingでは、様々なコールトゥアクショ
 
 +++例：複数のセクションを持つメールテンプレート
 
-以下は、上記の例と同じHTMLテンプレートですが、さらに 2 つのセクションがあります。 ヘッドには、グループのスタイル設定に使用するインライン CSS が含まれています。 本文では、プレフィックスを使用して、[ コンテンツプレースホルダー ](#content-placeholders) を含む 2 つのグループを使用します。
+以下は、上記の例と同じHTML テンプレートですが、さらに 2 つのセクションがあります。 ヘッドには、グループのスタイル設定に使用するインライン CSS が含まれています。 本文では、プレフィックスを使用して、[ コンテンツプレースホルダー ](#content-placeholders) を含む 2 つのグループを使用します。
 
-```handlebars {line-numbers="true" highlight="33"}
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -255,20 +281,18 @@ GenStudio for Performance Marketingでは、様々なコールトゥアクショ
 <body>{{ pre_header }}
     <div class="container">
         <h1>{{ headline }}</h1>
-        <p><img alt="{{ headline }}"
-                src="{{ image }}"
-                width="600" height="600"
-                border="0"/></p>
         <p>{{ body }}</p>
-    <!-- Pod1 -->
+        <!-- Pod1 -->
         <div class="pod">
-            <h2>{{ pod1_header }}</h2>
+            <h2>{{ pod1_headline }}</h2>
+            <p><img alt="{{ headline }}" src="{{ pod1_image }}" width="200" height="200" border="0"></p>
             <p>{{ pod1_body }}</p>
         </div>
         <!-- End of Pod1 -->
-    <!-- Pod2 -->
+        <!-- Pod2 -->
         <div class="pod">
-            <h2>{{ pod2_header }}</h2>
+            <h2>{{ pod2_headline }}</h2>
+            <p><img alt="{{ headline }}" src="{{ pod2_image }}" width="200" height="200" border="0"></p>
             <p>{{ pod2_body }}</p>
         </div>
         <!-- End of Pod2 -->
@@ -283,7 +307,7 @@ GenStudio for Performance Marketingでは、様々なコールトゥアクショ
 
 次に、メタ広告テンプレートの基本的な例を示します。 ヘッドには、スタイル設定用のインライン CSS が含まれています。 本文では、プレフィックスを使用して [ コンテンツプレースホルダー ](#content-placeholders) を使用します。
 
-```handlebars {line-numbers="true" highlight="33"}
+```html {line-numbers="true" highlight="33"}
 <!DOCTYPE html>
 <html>
 <head>
@@ -324,9 +348,9 @@ GenStudio for Performance Marketingでは、様々なコールトゥアクショ
 <body>
 <div class="ad-container">
     <img src="{{ image }}" alt="Ad Image" class="ad-image">
-    <div class="ad-headline">"{{ headline }}"</div>
-    <div class="ad-body">"{{ body }}"</div>
-    <a href="(https://example.com)" class="ad-cta">"{{ CTA }}"</a>
+    <div class="ad-headline">{{ headline }}</div>
+    <div class="ad-body">{{ body }}</div>
+    <a href="{{ link }}" class="ad-cta">{{ CTA }}</a>
 </div>
 </body>
 </html>

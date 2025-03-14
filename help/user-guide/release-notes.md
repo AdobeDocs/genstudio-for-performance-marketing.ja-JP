@@ -2,11 +2,10 @@
 title: Adobe GenStudio for Performance Marketing リリースノート
 description: パフォーマンスマーケティング用の Adobe GenStudio の最新機能と機能強化について説明します。
 recommendations: noDisplay
-last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 0d55b89d550a8e44e7dd354d809f00699fccf468
+source-git-commit: 41fb13b1067851194871a1101f2630de7ca1c008
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2067'
 ht-degree: 1%
 
 ---
@@ -15,7 +14,50 @@ ht-degree: 1%
 
 このリリース情報では、GenStudio for Performance Marketing アプリケーションの最新のアップデートについて詳しく説明します。
 
-## 2025.2.13 {#latest}
+## 2025.03.13 {#latest}
+
+### LinkedIn エクスペリエンスの作成
+
+[!BADGE Beta]{type=Informative tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"}
+
+[LinkedIn エクスペリエンスの作成 ](/help/user-guide/create/create-linkedin.md) のサポートを追加しました。 チャネル固有のガイドラインについては、「[LinkedIn 広告 ](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)」タブを参照してください。
+
+### バナーエクスペリエンスの作成
+
+[!BADGE Beta]{type=Informative tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"}
+
+[ バナーエクスペリエンスの作成 ](/help/user-guide/create/create-banner-experience.md) のサポートを追加しました。 チャネル固有のガイドラインについては、「[ バナー ](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)」タブを参照してください。
+
+### コンプライアンス
+
+ブランド検証プロセスの一環として、[ コンテンツチェック ](/help/user-guide/guidelines/overview.md) に [ コンプライアンス標準 ](/help/user-guide/guidelines/brand-validation.md) が導入されました。 これらのチェックでは、エクスペリエンスの各バリアントを、[!DNL Brand]、[!DNL Product]、[!DNL Persona] のガイドライン、プラットフォームガイドライン（Meta など）、倫理的考慮事項、ADA 標準に照らして確認します。 このプロセスでは、コンプライアンスを向上させるために改訂が必要なガイドラインと標準の包括的な概要を提供します。
+
+### 拡張機能
+
+新しいGenStudio for Performance Marketing[ 拡張フレームワーク ](/help/extensibility/overview.md) は、独自のクレーム・コンプライアンス・プロトコルをアドオンまたは拡張可能なアプリケーションを使用したコンテンツ作成ワークフローおよび検証に組み込むためのツールを提供します。
+
+### テンプレート
+
+* **テンプレートコードエディター** – 新しい [ テンプレートコードエディター ](/help/user-guide/content/code-editor.md) は、GenStudio for Performance Marketingで新しいエクスペリエンスを生成する際に最適に使用できるように、テンプレートを検証および調整するのに役立ちます。
+
+  ![ コードエディタービュー ](/help/assets/template-detected-fields.png " 検出されたフィールドの確認 "){width="500" zoomable="yes"}
+
+* **画像上のリンク** – 画像リンクを有効にしてメールテンプレートをカスタマイズします。 [ テンプレートのカスタマイズ：画像上のリンク ](/help/user-guide/content/customize-template.md#link-on-image) を参照してください。
+* **AJOとMarketoのテンプレート** - Adobe Journey Optimizer（AJO）またはMarketoで作成したテンプレートをアップロードします。 [AJOとMarketoのテンプレートの操作 ](/help/user-guide/content/use-templates.md#templates-from-ajo-and-marketo) を参照してください。
+
+### 修正および機能強化
+
+* [[!DNL Brands]](/help/user-guide/guidelines/brands.md) の [ デフォルトチャネル ](/help/user-guide/guidelines/brands.md#channel-guidelines)、[ 画像 ](/help/user-guide/guidelines/brands.md#image-guidelines)、[ ロゴ ](/help/user-guide/guidelines/brands.md#logos) および [ カラー ](/help/user-guide/guidelines/brands.md#colors) ガイドラインの機能を有効にしました。
+* バリアント内で [ 画像へのリンクを追加 ](/help/user-guide/create/manage-variants.md#add-image-link) する機能を追加しました。
+* [ コンテンツチェック ](/help/user-guide/guidelines/brand-validation.md) およびレビューと承認の機能を新しい右側のアクションバーに移動して、キャンバスのスペースを最大化し、ユーザーエクスペリエンスを向上させました。
+* [ ブランドをアップロードまたは手動で追加 ](/help/user-guide/guidelines/add-guidelines.md#add-brands) するためのフローを簡略化しました。
+* キャンバスで [ バリアント内の画像アセットを追加または入れ替える ](/help/user-guide/create/manage-variants.md#swap-image) 機能が導入されました。
+* 所有メディア、有料メディア、コンテンツの各セクションに分けることで、チャネルカテゴリ ](/help/user-guide/create/overview.md) 作成ホーム上 [ のユーザーエクスペリエンスと可視性が向上しました。
+* テーブル表示とギャラリー表示 [!DNL Insights] フィルタリングを改善しました。
+
+## 以前のリリースノート
+
++++ご注意（2025.02.13 より）
 
 ### [!DNL Create] のランディングページの改善
 
@@ -23,11 +65,11 @@ GenStudio for Performance Marketingの [!DNL Create] ランディングページ
 
 ### CSV へのインサイトのエクスポート
 
-表示可能なテーブルを任意の [!DNL Insights] ビューから CSV ファイルにダウンロードできるようになりました。 この機能を使用すると、様々な [!DNL Insights] ビューからデータを簡単に書き出して分析でき、データ分析とレポートオプションが容易になります。
+表示可能なテーブルを任意の [!DNL Insights] ビューから CSV ファイルにダウンロードできるようになりました。 この機能を使用すると、様々な [!DNL Insights] ビューからデータを書き出して分析でき、データ分析とレポートオプションが容易になります。
 
-## 以前のリリースノート
++++
 
-+++2025.1.16 からの注釈
++++備考：2025.01.16
 
 ### Adobe Workfront Proof との統合
 
@@ -45,7 +87,7 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 * ディスプレイ広告の生成されたすべてのフィールドと手動フィールドに、文字数が表示されるようになりました。 _メタエクスペリエンス_ の [ 文字カウント ](/help/user-guide/create/meta-experiences.md#character-counts) を参照してください。<!-- GS-7732 -->
 
-* _共同作業者_ は、アセットを表示できますが、これらのアセットの作成、編集、削除はできません。 以前は、[!DNL Create] で共同作業者の使用権限が期待どおりに適用されていませんでした。<!-- GS-7614 -->
+* _共同作業者_ は、アセットを表示できますが、これらのアセットの作成、編集、削除はできません。 以前は、共同作業者の使用権限が [!DNL Create] で期待どおりに適用されていませんでした。<!-- GS-7614 -->
 
 * コンテンツエディターでアセット、エクスペリエンスおよびテンプレートのメタデータを編集できるようになりました。<!-- GS-4905 -->
 

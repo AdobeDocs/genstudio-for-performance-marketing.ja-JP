@@ -2,7 +2,8 @@
 title: 画像機能
 description: GenStudio for Performance Marketingで使用される属性カテゴリの画像機能について説明します。
 feature: Insights, Attributes, Generative AI
-source-git-commit: c15140ed3fe3d07e9112e9ad4781cb8fcf65045d
+exl-id: b7e3d202-4085-48a4-a6ba-c950dfd52233
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -37,7 +38,7 @@ _画像スタイル_ を決定することは、他の画像特性を識別す�
 
 1. _属性の詳細_ ページには、この属性を持つすべての画像が一覧表示されます。
 
-次の表に、GenStudio for Performance Marketing AI で認識される画像の機能カテゴリを示します。 アセットに対して検出された属性リストは完全なものではありません。 豊富な機能セットを含むAssetsは、AI によって特定された 3 つの最も支配的な機能に制限される場合があります。
+次の表に、GenStudio for Performance Marketing AI で認識される画像の機能カテゴリを示します。 メディアコンテンツについて検出された属性リストは、すべてを網羅しているわけではありません。 豊富な機能セットを含むメディアは、AI によって特定された 3 つの最も支配的な機能に制限される場合があります。
 
 <!-- For the writer: turn off word wrap to work with these tables. Option + Z -->
 

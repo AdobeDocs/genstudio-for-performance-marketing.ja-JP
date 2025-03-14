@@ -2,9 +2,10 @@
 title: ビデオ機能
 description: GenStudio for Performance Marketingで使用される属性カテゴリのビデオ機能について説明します。
 feature: Insights, Attributes, Generative AI
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '570'
 ht-degree: 1%
 
 ---
@@ -35,7 +36,7 @@ GenStudio for Performance Marketingのオーディオ検出では、ビデオの
 
 1. （ビデオプレビューの左下隅にある） **ミュート解除** ボタンを切り替えて、ビデオプレビューのオーディオを聴きます。
 
-次の表に、GenStudio for Performance Marketing AI で認識されるビデオ機能カテゴリを示します。 アセットに対して検出された属性リストは完全なものではありません。 豊富な機能セットを含むAssetsは、AI によって特定された 3 つの最も支配的な機能に制限される場合があります。
+次の表に、GenStudio for Performance Marketing AI で認識されるビデオ機能カテゴリを示します。 メディアコンテンツについて検出された属性リストは、すべてを網羅しているわけではありません。 豊富な機能セットを含むメディアは、AI によって特定された 3 つの最も支配的な機能に制限される場合があります。
 
 <!-- For the writer: turn off word wrap to work with these tables. Option + Z -->
 

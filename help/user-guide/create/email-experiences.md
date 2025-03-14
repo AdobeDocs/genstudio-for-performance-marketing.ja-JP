@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,9 @@ Content creators and marketers can produce brand-consistent email experiences in
 1. プリヘッダー
 1. 見出し、メール本文（単一セクションのメールの場合）、コールトゥアクション
 1. 後続セクションのメール本文（複数セクションのメールの場合）
-1. ブランドの検証プロセスが発生し、各バリアントに [_ブランドガイドラインチェック_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) が入力されます。
+1. ブランドの検証
+
+   ブランドの検証とコンテンツチェックプロセスが行われ、各バリアントに [_コンテンツチェック_ 概要 ](/help/user-guide/guidelines/brand-validation.md#content-check-summary) が入力されます。
 
 ## 文字数
 

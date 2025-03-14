@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Content creators and marketers can produce brand-consistent Meta ad experiences 
 
 ## メタ広告チャネル
 
-メタ広告エクスペリエンスを作成する場合は、FacebookとInstagramの両方のチャネルのバリアントを生成できます。 facebook広告とInstagram広告を切り替えて、各チャネルのバリアントをプレビューします。
+メタ広告エクスペリエンスを作成する場合は、Facebook と Instagram の両方のチャネルのバリアントを生成できます。 Facebook 広告と Instagram 広告を切り替えて、各チャネルのバリアントをプレビューします。
 
 [ メタ広告チャネルの選択 ](/help/user-guide/create/create-meta-ad.md#choose-meta-ads-channel) を参照してください。
 
@@ -55,7 +55,9 @@ Content creators and marketers can produce brand-consistent Meta ad experiences 
 1. コールトゥアクションと関連する URL
 1. 見出し
 1. 画像上のテキスト
-1. ブランドの検証プロセスが実行され、各バリアントに [_ブランドガイドラインチェック_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) が入力されます。
+1. ブランドの検証
+
+   ブランドの検証とコンテンツチェックプロセスが行われ、各バリアントに [_コンテンツチェック_ 概要 ](/help/user-guide/guidelines/brand-validation.md#content-check-summary) が入力されます。
 
 ## 文字数
 
