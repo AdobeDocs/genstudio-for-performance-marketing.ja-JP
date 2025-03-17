@@ -3,9 +3,9 @@ title: Adobe GenStudio for Performance Marketing リリースノート
 description: パフォーマンスマーケティング用の Adobe GenStudio の最新機能と機能強化について説明します。
 recommendations: noDisplay
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 86974fec02bd50fa36ef16bd4d1881794972fc79
+source-git-commit: 8a8815d49ce4a950fcfc2f425ca58ae7fbd42c73
 workflow-type: tm+mt
-source-wordcount: '2112'
+source-wordcount: '2109'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ### コンプライアンス
 
-ブランド検証プロセスの一環として、[ コンテンツチェック ](/help/user-guide/guidelines/overview.md) に [ コンプライアンス標準 ](/help/user-guide/guidelines/brand-validation.md) が導入されました。 これらのチェックでは、エクスペリエンスの各バリアントを、[!DNL Brand]、[!DNL Product]、[!DNL Persona] のガイドライン、プラットフォームガイドライン（Meta など）、倫理的考慮事項、ADA 標準に照らして確認します。 このプロセスでは、コンプライアンスを向上させるために改訂が必要なガイドラインと標準の包括的な概要を提供します。
+ブランド検証プロセスの一環として、[ コンテンツチェック ](/help/user-guide/guidelines/overview.md) に [ コンプライアンス標準 ](/help/user-guide/guidelines/brand-validation.md) が導入されました。 これらのチェックでは、エクスペリエンスの各バリアント [!DNL Brand]、ガイドライン、プラットフォームガイドライン（Meta など）、ADA 標準に照らして確認します。 このプロセスでは、コンプライアンスを向上させるために改訂が必要なガイドラインと標準の包括的な概要を提供します。
 
 ### 拡張機能
 

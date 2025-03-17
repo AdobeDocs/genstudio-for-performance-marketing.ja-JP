@@ -3,9 +3,9 @@ title: Adobe GenStudio for Performance Marketingでのブランド検証
 description: GenStudio for Performance Marketingでのビルトインのブランド検証システムの仕組みを説明します。
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
+source-git-commit: 8a8815d49ce4a950fcfc2f425ca58ae7fbd42c73
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ GenStudio for Performance Marketingでは、ブランド認証は、生成 AI �
 
 GenStudio for Performance Marketingは、次のような様々な側面からブランド検証やその他のコンテンツチェックを実施します。
 
-* 定義済みまたはデフォルトの [!DNL Brand]、[!DNL Persona] および [!DNL Product] ガイドライン
+* 定義済みまたはデフォルトの [!DNL Brand] ガイドライン
 * Platform のガイドライン
-* AI が生成するコンテンツにおける性別、民族、人種、障害の地位、年齢に関する倫理的考慮事項
+<!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 * 米国障害者法（ADA）基準
 
 ## コンテンツチェックの概要
