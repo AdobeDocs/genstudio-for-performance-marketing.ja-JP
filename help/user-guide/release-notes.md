@@ -3,9 +3,9 @@ title: Adobe GenStudio for Performance Marketing リリースノート
 description: パフォーマンスマーケティング用の Adobe GenStudio の最新機能と機能強化について説明します。
 recommendations: noDisplay
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 41fb13b1067851194871a1101f2630de7ca1c008
+source-git-commit: 86974fec02bd50fa36ef16bd4d1881794972fc79
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2112'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 1%
 このリリース情報では、GenStudio for Performance Marketing アプリケーションの最新のアップデートについて詳しく説明します。
 
 ## 2025.03.13 {#latest}
+
+### メタ広告の有効化
+
+マーケターは、GenStudio for Performance Marketingから Meta Ads Manager に [ 広告エクスペリエンスを公開 ](/help/user-guide/activation/overview.md) できるようになりました。 [!DNL Activate] では、デプロイメント前の詳細なメタ広告プレビューをサポートしています。 [!DNL Activate] を通じて公開されたメタ広告は、ライブになると自動的に [!DNL Insights] に取り込まれるので、ユーザーは広告のパフォーマンスを追跡してレポートできます。
 
 ### LinkedIn エクスペリエンスの作成
 
