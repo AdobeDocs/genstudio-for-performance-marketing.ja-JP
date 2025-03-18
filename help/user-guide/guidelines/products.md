@@ -1,20 +1,20 @@
 ---
-title: パフォーマンスマーケティング  [!DNL Products]GenStudio
-description: GenStudio for Performance マーケティング  [!DNL Products]  は、画像、説明、価値提案など、製品のあらゆる側面を取り込むことで、製品の長所を強調し、一貫したメッセージを提供できる、関連性の高いコンテンツを作成します。
-feature: Products Service, Guidelines
+title: GenStudio for Performance Marketing [!DNL Products]
+description: GenStudio for Performance Marketing [!DNL Products] 、画像、説明、価値提案など、製品のあらゆる側面を取り込むことで、製品の長所に焦点を当て、一貫性を保ったメッセージを提供する適切なコンテンツを作成します。
+feature: Product Personalization, Variant Generation, Generative AI
 exl-id: a9aee814-cca6-4973-a6db-842de7622a8a
-source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
+source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
 
 ---
 
-# Performance Marketing [!DNL Products] 向けGenStudio
+# GenStudio for Performance Marketing [!DNL Products]
 
-GenStudio for Performance Marketing で [!DNL Products]、製品仕様、利点および差別化要因の深い理解を活用して、効果的なコンテンツを生成します。
+GenStudio for Performance Marketingの [!DNL Products] は、製品の仕様、メリットおよび差別化要因に関する深い理解を活用して、効果的なコンテンツを生成します。
 
-画像、説明、価値提案など、特定の製品のすべての要素を包含する [!DNL Products] とで、統一されたブランド表現を作成します。 Adobeの高度な AI テクノロジーを活用し、GenStudio for Performance Marketing Guidelines （[[!DNL Brands]、 [!DNL Products]、および  [!DNL Personas]](/help/user-guide/guidelines/overview.md)）が連携して、製品の長所を示し、すべてのメッセージング間で一貫性を確保する、説得力のあるコンテンツを生成します。
+画像、説明、価値提案など、特定の製品のすべての要素を包含する [!DNL Products] とで、統一されたブランド表現を作成します。 Adobeの高度な AI テクノロジーを活用して、GenStudio for Performance Marketingのガイドライン（[[!DNL Brands]、 [!DNL Products]、 [!DNL Personas]](/help/user-guide/guidelines/overview.md)）を連携させて、製品の強みを示し、すべてのメッセージング間で一貫性を確保する、説得力のあるコンテンツを生成します。
 
 **製品を表示または変更するには**:
 
@@ -22,7 +22,7 @@ GenStudio for Performance Marketing で [!DNL Products]、製品仕様、利点�
 1. [ 個々の詳細の表示または製品の変更 ](add-guidelines.md#manage-products) を行うには、_[!DNL Products]_のアクションメニューをクリックし、「**[!UICONTROL 開く]**」を選択します。
 1. 「ガイドライン」カテゴリテキストフィールドをクリックして、製品ガイドラインを修正します。
 
-GenStudio for Performance Marketing で商品を追加または変更する方法については、[ ガイドラインの追加 ](add-guidelines.md) を参照してください。
+GenStudio for Performance Marketingで商品を追加または変更する方法については、[ ガイドラインの追加 ](add-guidelines.md) を参照してください。
 
 ## [!DNL Products] ガイドライン
 

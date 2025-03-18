@@ -1,20 +1,20 @@
 ---
-title: パフォーマンスマーケティング  [!DNL Personas]GenStudio
-description: GenStudio for Performance Marketing は  [!DNL Personas]  顧客セグメントを真に表現し、顧客の興味、問題点、好み、行動特性を取り込みます。
-feature: Personas Service, Guidelines
+title: GenStudio for Performance Marketing [!DNL Personas]
+description: GenStudio for Performance Marketing [!DNL Personas] 、お客様の関心、問題点、好み、行動特性を取り込み、お客様のセグメントを真に表したものです。
+feature: Persona Personalization, Variant Generation, Generative AI
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
+source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# Performance Marketing [!DNL Personas] 向けGenStudio
+# GenStudio for Performance Marketing [!DNL Personas]
 
 顧客の情報、関心、問題点、好み、行動特性など、顧客セグメントを真正に描写で [!DNL Personas] ます。
 
-GenStudio for Performance Marketing では、ガイドライン（[[!DNL Brands]、 [!DNL Products]、および  [!DNL Personas]](overview.md)）とAdobeのジェネレーティブ AI テクノロジーの機能を活用して、パーソナライズされたマーケティングコンテンツをターゲット顧客にキュレーション&#x200B;ます。
+GenStudio for Performance Marketingでは、ガイドライン（[[!DNL Brands]、 [!DNL Products]、および  [!DNL Personas]](overview.md)）とAdobeのジェネレーティブ AI テクノロジーの力を活用して、ターゲット顧客に向けてパーソナライズされたマーケティングコンテンツをキュレーション&#x200B;ます。
 
 **ペルソナの表示または変更**:
 
@@ -22,11 +22,11 @@ GenStudio for Performance Marketing では、ガイドライン（[[!DNL Brands]
 1. [ 個々の詳細の表示またはペルソナの変更 ](add-guidelines.md#manage-personas) を行うには、_[!DNL Personas]_のアクションメニューをクリックして&#x200B;**開く**を選択します。
 1. ガイドラインカテゴリのテキストフィールドをクリックして、ペルソナのガイドラインを修正します。
 
-GenStudio for Performance Marketing でペルソナを追加または変更する方法については、[ ガイドラインの追加 ](add-guidelines.md) を参照してください。
+GenStudio for Performance Marketingでペルソナを追加または変更する方法については、[ ガイドラインの追加 ](add-guidelines.md) を参照してください。
 
 ## [!DNL Personas] ガイドライン
 
-個々のペルソナのガイドラインは、GenStudio for Performance Marketing が [!DNL Personas] ーザーの状況を明確に把握できるようにします。
+個々のペルソナのガイドラインは、GenStudio for Performance Marketingに対して、[!DNL Personas] ーザーの明確な全体像を提供します。
 
 ![ ペルソナのガイドライン ](/help/assets/personas.png){width="600" zoomable="yes"}
 
