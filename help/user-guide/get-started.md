@@ -4,9 +4,9 @@ description: パフォーマンスマーケティング用の GenStudio の使�
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: fd49abb491477b0a8ed5b1f646219458efc49365
+source-git-commit: 462834fb622dae4680a64e3de5c370b9268ee4cb
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '616'
 ht-degree: 2%
 
 ---
@@ -17,13 +17,13 @@ Adobe GenStudio for Performance Marketingは、コンテンツの作成、管理
 
 ## コンテンツの作成、共有、レビューを開始
 
-ジェネレーティブ AI ベースのツールを初めて使用する場合、またはGenStudio for Performance Marketingの基本原則に興味がある場合は、[ 概念 ](concepts.md) および [ 効果的なプロンプトの記述 ](effective-prompts.md) を参照してください。 クリエイティブなプロセスでジェネレーティブ AI テクノロジを活用する方法について、Adobeのオンライン ラーニング プラットフォームである ](https://learningmanager.adobe.com/genstudioacademy)0}Adobe GenStudioアカデミー } をご覧ください。[
+ジェネレーティブ AI ベースのツールを初めて使用する場合、またはGenStudio for Performance Marketingの基本原則に興味がある場合は、[ 概念 ](concepts.md) および [ 効果的なプロンプトの記述 ](effective-prompts.md) を参照してください。 クリエイティブなプロセスでジェネレーティブ AI テクノロジーを活用する方法については、Adobeのオンライン ラーニング プラットフォームである ](https://learningmanager.adobe.com/genstudioacademy)0}Adobe GenStudio Academy} をご覧ください。[
 
 ## GenStudio for Performance Marketingのトレーニング
 
 GenStudio for Performance Marketingは、ブランドと市場に関する情報を使用して、ブランドに準拠したコンテンツ作成を強化します。 トレーニング資料には、例、顧客 [ ペルソナ ](/help/user-guide/guidelines/personas.md) および [ 製品 ](/help/user-guide/guidelines/products.md) の説明、および [ ブランドガイドライン ](/help/user-guide/guidelines/overview.md) が含まれます。
 
-システム管理者は、組織固有の情報を入力またはアップロードすることでAdobe GenStudio for Performance Marketingを設定します。 この準備により、コンテンツ編集者と共同作業者が生成 AI 機能を効果的に使用して、キャンペーンアセットを作成およびレビューできるようになります。 Adobeシステム管理者が組織の製品インスタンスをプロビジョニングし、GenStudio システムマネージャーの権限を割り当てると、GenStudio システムマネージャーはガイドラインを使用して製品の基盤となる生成 AI フレームワークを準備できます。
+システム管理者は、組織固有の情報を入力またはアップロードすることでAdobe GenStudio for Performance Marketingを設定します。 この準備により、コンテンツ編集者と共同作業者が生成 AI 機能を効果的に使用して、キャンペーンアセットを作成およびレビューできるようになります。 Adobe システム管理者が組織の製品インスタンスをプロビジョニングし、GenStudio システムマネージャーの権限を割り当てると、GenStudio システムマネージャーはガイドラインを使用して製品の基盤となる生成 AI フレームワークを準備できます。
 
 ### 手順 1：ガイドラインの追加
 
@@ -31,19 +31,7 @@ GenStudio for Performance Marketingは、ブランドと市場に関する情報
 
 #### ガイドライン文書の準備
 
-包括的で焦点を当てた [[!DNL Brands]](./guidelines/brands.md)、[[!DNL Products]](./guidelines/products.md)、[[!DNL Personas]](./guidelines/personas.md) のガイドラインにより、組織のマーケティングキャンペーンの中心的側面が定義されます。 GenStudio for Performance Marketingでは、ブランドの構築を開始するために、これらのガイドラインから情報を抽出します。
-
-ガイドラインを準備する際は、次のベストプラクティスに従います。
-
-* 特定の言語を使用します。
-
-* キャンペーンアセットで具現化するスタイルとトーンの最適な例を含めます。
-
-* 冗長性を避けます。 ディレクティブを複数回繰り返したくなるかもしれませんが、ガイドラインの冗長性は、基になる LLM がブランドガイドラインを取り込んで実装するのに役立つわけではありません。
-
-* コンテンツ生成時に LLM で除外する要素を識別します（テキスト内の感嘆符など）。
-
-ガイドラインのドキュメントをアップロードすることも、GenStudio for Performance Marketingに手動で情報を入力する際に参照することもできます。 この情報をアップロードまたは入力する方法については、[ ガイドラインの追加 ](./guidelines/overview.md) を参照してください。
+包括的で焦点を当てた [[!DNL Brands]](./guidelines/brands.md)、[[!DNL Products]](./guidelines/products.md)、[[!DNL Personas]](./guidelines/personas.md) のガイドラインにより、組織のマーケティングキャンペーンの中心的側面が定義されます。 GenStudio for Performance Marketingでは、ブランドの構築を開始するために、これらのガイドラインから情報を抽出します。 ガイドラインのドキュメントをアップロードすることも、GenStudio for Performance Marketingに手動で情報を入力する際に参照することもできます。 この情報をアップロードまたは入力する方法については、[ ガイドラインの追加 ](./guidelines/overview.md) を参照してください。
 
 #### ガイドラインの改訂
 
@@ -51,9 +39,9 @@ GenStudio システムマネージャーは、組織固有のブランド要件�
 
 ### 手順 2:GenStudio [!DNL Brands] 用のAdobe Admin Console プロジェクトの設定
 
-システム管理者は、共同作業者が [!DNL Brands] を編集または作成する前に、追加のセットアップ タスクを完了する必要があります。 Adobeシステム管理者は、Adobe Admin Consoleで次のタスクを実行します。
+システム管理者は、共同作業者が [!DNL Brands] を編集または作成する前に、追加のセットアップ タスクを完了する必要があります。 Adobe システム管理者は、Adobe Admin Consoleで次のタスクを実行します。
 
-* 権限の編集と作成を必要とするすべてのユーザーを含む新しいユーザーグループ [!DNL Brands] 作成します。
+* 資格を編集および作成する必要があるすべてのユーザーを含んだ新しいユーザーグループ [!DNL Brands] 作成します。
 
 * Adobe Admin Consoleで新規プロジェクトを作成します。
 
