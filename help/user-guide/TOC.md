@@ -4,10 +4,10 @@ breadcrumb-title: ユーザーガイド
 user-guide-description: パフォーマンスマーケティング用の Adobe GenStudio の機能を探索します。オンブランドのアセットをすばやく作成、バリエーションを生成、エクスペリエンスを最適化する方法について説明します。
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: 86eeac0231ffc465365709eb42250383868a4462
+source-git-commit: c8a100b55af1a7f31663f977e3d85fcdf6f47075
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 22%
+source-wordcount: '199'
+ht-degree: 21%
 
 ---
 
@@ -64,6 +64,10 @@ ht-degree: 22%
    + [ キャンペーンの概要 ](campaigns/overview.md)
 + Activation {#activation}
    + [ アクティベーションの概要 ](activation/overview.md)
+   + [ アクティベーションワークフロー ](activation/create-activation.md)
+   + [ メタ広告のアクティブ化 ](activation/activate-meta-ad.md)
+   + [ アクティベーションの管理 ](activation/manage-activations.md)
+   + [ アクティベーションの最適化 ](activation/troubleshooting.md)
 + Insights {#insights}
    + [インサイトの概要](insights/overview.md)
    + [ チャネルアカウントの接続 ](insights/connect-channel.md)
