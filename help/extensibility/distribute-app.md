@@ -1,16 +1,21 @@
 ---
 title: アプリの配布
 description: GenStudio for Performance Marketing用のアプリまたはアドオンを配布します。
-source-git-commit: 6830e345577ca44ef8dee8de6195314a899f4e57
+exl-id: 4935356b-08df-402c-b1a2-b89627afc188
+source-git-commit: 8884f3438a0010119f578ca9a3b7158e2e01cfa3
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 # アプリの配布
 
-アプリを配布すると、組織内のメンバーがアプリを使用できるようになります。
+アドオンを配布すると、組織やその他の組織で使用できるようになります。
+
+プライベート配布では、アドオンのデプロイメントを、アドオンを開発した IMS 組織で識別される組織に制限します。 公開配布を行うと、アドオンはAdobe Exchange上でアプリとして使用できるようになります。 配布ワークフローは、使用するアドオンがパブリックとプライベートのどちらの配布を対象としているかによって異なります。
+
+このトピックでは、プライベート配布について説明します。 [2}App Builder](https://developer.adobe.com/app-builder/docs/guides/distribution/public/) 開発者向けドキュメントの { 公開配布 _では、任意のAdobe組織でアプリを使用できるようにする方法が説明されています。_
 
 >[!BEGINSHADEBOX]
 
@@ -26,7 +31,9 @@ App Builder アプリは、App Builder プロジェクトにデプロイする�
 
 >[!ENDSHADEBOX]
 
-**アプリを配布するには**:
+**アプリを非公開で配布するには**:
+
+プライベート配布では、組織のメンバーのみがアプリを使用できます。
 
 1. [Adobe Developer Console](https://developer.adobe.com/console/) から、アプリがデプロイされている組織、プロジェクト、ワークスペースを選択します。
 
