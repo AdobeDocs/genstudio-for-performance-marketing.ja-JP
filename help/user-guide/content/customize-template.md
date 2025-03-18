@@ -2,9 +2,9 @@
 title: テンプレートのカスタマイズ
 description: Adobe GenStudio for Performance Marketing用テンプレートをパーソナライズおよび最適化する方法について説明します。
 level: Intermediate
-feature: Templates, Content
+feature: Media Templates, Content Generation
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: eb7f19ebc0854db3a33599b56c857875ee67982b
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
 source-wordcount: '1442'
 ht-degree: 0%

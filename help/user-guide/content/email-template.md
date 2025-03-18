@@ -2,12 +2,13 @@
 title: Adobe GenStudio for Performance Marketing用のメールテンプレートの準備
 description: Adobe GenStudio for Performance Marketingのカスタムメールテンプレートを作成する方法について説明します。
 level: Intermediate
+feature: Media Templates
 hidefromtoc: true
-feature: Templates, Content
+recommendations: noCatalog
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: cf6e0679999614a4d14d224c9a8dce0b66f50262
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ GenStudio for Performance Marketingのコンテンツを動的に入力するメ
 生成されたコンテンツ領域を定義するには：
 
 * GenStudio for Performance Marketingで自動生成するテンプレート内のテキスト要素（ヘッドラインやCTAなど）を指定します。
-* Handlebars 構文を使用してプレースホルダーを挿入し、HTMLテンプレートを調整します。
+* ハンドルバー構文を使用してプレースホルダーを挿入し、HTML テンプレートを調整します。
 
 [ コンテンツのプレースホルダー ](/help/user-guide/content/customize-template.md#content-placeholders) を参照してください。
 

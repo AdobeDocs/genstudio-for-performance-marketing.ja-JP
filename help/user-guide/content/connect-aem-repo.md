@@ -2,11 +2,11 @@
 title: リポジトリへ  [!DNL AEM Assets Content Hub]  接続
 description: Adobe GenStudio for Performance MarketingをAdobe Experience Manager（AEM）  [!DNL Content Hub]  リポジトリに接続し、既存の承認済みコンテンツを活用する方法について説明します。
 level: Experienced
-feature: Assets, Content
+feature: Content Management
 exl-id: abb587fd-593c-4b9f-baad-993d92400d9b
-source-git-commit: abe1de42b81bff63d473a67632d27f96db7c1c7d
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Adobe Experience Manager（AEM）にアセットがある場合は、次の手�
 
 **前提条件**:
 
-次の手順では、Admin ConsoleとAEM Assetsのas a Cloud Serviceへの管理者アクセス権が必要です。
+次の手順では、Admin ConsoleとAEM Assets as a Cloud Serviceへの管理者アクセス権が必要です。
 
 >[!ENDSHADEBOX]
 
@@ -27,7 +27,7 @@ Adobe Experience Manager（AEM）にアセットがある場合は、次の手�
 
 **Content Hubのデプロイ** セルフサービスプロセスに従って、Cloud Managerの既存のAEM Assetsに対して [!DNL Content Hub] を有効にします。 [3}AEM as a Cloud Service [!DNL Content Hub]](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub) ドキュメントの {Deploy _を参照してください。_
 
-[!DNL AEM Assets Content Hub] を有効にすると、Admin Console時に [!DNL AEM Assets as a Cloud Service] 内に `contenthub` サフィックスの付いた新しいインスタンスが作成されます。
+[!DNL AEM Assets Content Hub] を有効にすると、Admin Consoleの [!DNL AEM Assets as a Cloud Service] 内に `contenthub` サフィックスの付いた新しいインスタンスが作成されます。
 
 >[!IMPORTANT]
 >
@@ -44,7 +44,7 @@ Adobe Experience Manager（AEM）にアセットがある場合は、次の手�
 
 [!DNL AEM Assets Content Hub] で使用するアセットを承認して、GenStudio for Performance Marketingで使用できるようにします。
 
-[2}AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) ドキュメントの {Experience Managerでのアセットの承認 _を参照してください。_
+[2}AEM as a Cloud Service} ドキュメントの ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)Experience Managerでのアセットの承認 _を参照してください。_
 
 ## 手順 4：アセットの表示の設定
 

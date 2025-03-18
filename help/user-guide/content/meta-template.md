@@ -2,12 +2,13 @@
 title: Adobe GenStudio for Performance Marketing用のメタ広告テンプレートの準備
 description: Adobe GenStudio for Performance Marketingのカスタムメタ広告テンプレートを作成する方法について説明します。
 level: Intermediate
+feature: Media Templates
 hidefromtoc: true
-feature: Templates, Content
+recommendations: noCatalog
 exl-id: e69039b0-272d-4f39-b0e4-916be710fd5f
-source-git-commit: cf6e0679999614a4d14d224c9a8dce0b66f50262
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ GenStudio for Performance Marketingでは、メタ広告に対して次の縦横
 
 ## メタ広告テンプレートのテスト
 
-Meta の Creative Hub を使用してテンプレートをテストし、フィードやストーリーなどの様々なプレースメントで広告がどのように表示されるかを確認します。
+Meta のCreative Hub を使用してテンプレートをテストし、フィードやストーリーなどの様々なプレースメントで広告がどのように表示されるかを確認します。
 
 メール配信またはプルーフプラットフォームを使用して、メールをテストし、様々なメールクライアントやデバイスで正しくレンダリングされていることを確認します。
 
@@ -53,7 +54,7 @@ GenStudio for Performance Marketingのコンテンツを動的に入力するメ
 生成されたコンテンツ領域を定義するには：
 
 * GenStudio for Performance Marketingで自動生成するテンプレート内のテキスト要素（ヘッドラインやCTAなど）を指定します。
-* Handlebars 構文を使用してプレースホルダーを挿入し、HTMLテンプレートを調整します。
+* ハンドルバー構文を使用してプレースホルダーを挿入し、HTML テンプレートを調整します。
 
 [ コンテンツのプレースホルダー ](/help/user-guide/content/customize-template.md#content-placeholders) を参照してください。
 
