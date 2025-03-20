@@ -2,9 +2,9 @@
 title: Adobe GenStudio for Performance Marketingのプロビジョニング
 description: GenStudio for Performance Marketing製品のプロビジョニングについて説明します。
 level: Beginner
-feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
+feature: Generative AI
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Adobe GenStudio for Performance Marketingのプロビジョニング
 
-Adobeシステム管理者は、[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) で初期プロビジョニングタスクを実行します。 Admin Consoleから、Adobeシステム管理者はGenStudio製品プロファイルにアクセスし、使用可能な製品ライセンスをユーザーに割り当てることができます。
+Adobe システム管理者は、[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) で初期プロビジョニングタスクを実行します。 Admin Consoleから、Adobe システム管理者がGenStudio製品プロファイルにアクセスして、使用可能な製品ライセンスをユーザーに割り当てることができます。
 
 >[!NOTE]
 >
->Adobe Admin Console アクセスを必要とするイネーブルメントタスクを実装できるのは、Adobeシステム管理者のみです。
+>Adobe Admin Console アクセスを必要とするイネーブルメントタスクを実装できるのは、Adobe システム管理者のみです。
 
 >[!IMPORTANT]
 >
@@ -43,7 +43,7 @@ Admin Console内で、製品プロファイルは、GenStudio for Performance Ma
 
 ## 手順 2：ユーザーをプロビジョニングする
 
-Admin Consoleでのユーザーのプロビジョニングは、ユーザーに製品ライセンスを割り当てるプロセスです。 これらのユーザーは、製品プロファイルで指定されている IMS 組織に属している必要があります。 ユーザーを他のAdobe製品にプロビジョニングするのと同じ方法で、GenStudio for Performance Marketing組織にユーザーをプロビジョニングできます。 ユーザーを手動で追加することも、ユーザーを一括で読み込むこともできます。
+Admin Consoleでのユーザーのプロビジョニングは、製品ライセンスをユーザーに割り当てるプロセスです。 これらのユーザーは、製品プロファイルで指定されている IMS 組織に属している必要があります。 ユーザーを他のGenStudio for Performance Marketing製品にプロビジョニングするのと同じ方法で、Adobe組織にユーザーをプロビジョニングできます。 ユーザーを手動で追加することも、ユーザーを一括で読み込むこともできます。
 
 >[!TIP]
 >

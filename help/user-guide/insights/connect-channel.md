@@ -2,11 +2,11 @@
 title: チャネルアカウントを接続
 description: チャネルアカウントを接続して、Adobe GenStudio for Performance Marketing キャンペーンとメディアのパフォーマンスを監視します。
 level: Intermediate
-feature: Insights, Channels
+feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 2ba00288ca55fdb1686f051fc28c8e816a645f2d
+source-git-commit: 91b684d27f3205806e5e92ea14db45cee84b806b
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,13 @@ GenStudio for Performance Marketingはチャネルデータを 13 か月間保�
 
 >[!ENDSHADEBOX]
 
-**GenStudio for Performance Marketingで Meta Ads アカウントを連携するには**:
+**Meta 広告アカウントを接続するには**:
 
-1. _[!DNL Insights]_で、バナーの&#x200B;**[!UICONTROL チャネルアカウントを接続]**をクリックするか、右上隅にある&#x200B;**[!UICONTROL アカウントを追加]**ボタン（プラス記号の付いた人物図形）をクリックします。
+1. _[!DNL Insights] で、アカウントを初めて接続する場合は、バナーの **[!UICONTROL チャネルアカウントを接続]** をクリックします。
 
-   Facebook にログインするように指示される場合があります。 Facebook は現時点で唯一の利用可能なオプションです。
+   または、左下の省略記号（...）を選択し、「**[!UICONTROL 設定]**」をクリックします。
+
+1. 「_Data Connectors_」セクションで、**[!UICONTROL メタ広告]** カードの _接続_ をクリックします。
 
 1. Facebook アカウントにログインします。
 
