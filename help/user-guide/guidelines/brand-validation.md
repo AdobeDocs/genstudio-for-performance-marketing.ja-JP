@@ -3,7 +3,7 @@ title: Adobe GenStudio for Performance Marketingでのブランド検証
 description: GenStudio for Performance Marketingでのビルトインのブランド検証システムの仕組みを説明します。
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 29685c96353703705f3f742e88f3934644bc4282
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -41,7 +41,7 @@ _コンテンツチェック_ 概要には、次の項目が表示されます�
 
 バリアントの右側のアクションバー _または_ コンテンツチェック [_概要アイコン_ からクリックすると _コンテンツチェック_ パネルがキャンバスの右側に開き ](#content-check-summary) す。 このパネルには、ブランド検証の詳細が表示されます。 platform のガイドライン、アクセシビリティ標準の情報を示し、各バリアントセクションの改善の機会を明らかにします。
 
-![ コンテンツチェックパネル ](/help/assets/content-check-panel.png){height="250" zoomable="yes"}
+![ コンテンツチェックパネル ](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
 _コンテンツチェック_ パネルには、バリアントの各セクションの検証と [ コンプライアンス情報 ](/help/user-guide/guidelines/overview.md#compliance) が表示されます。
 
