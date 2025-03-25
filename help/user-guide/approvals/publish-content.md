@@ -1,16 +1,16 @@
 ---
-title: Publish承認済みコンテンツ
+title: 承認済みコンテンツの公開
 description: Adobe GenStudio for Performance Marketingで承認済みコンテンツを公開する方法を説明します。
-feature: Approval, Content
+feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
+source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-# Publish承認済みコンテンツ
+# 承認済みコンテンツの公開
 
 ブランドに合わせて承認済みコンテンツを作成する最終段階では、適切なメタデータを使用してコンテンツを [!DNL Content] に保存します。 ユーザー（コンテンツエディターまたは作成者）は、アセットを [!DNL Content] に公開または保存することで、承認済みアセットを最終処理できます。
 
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 **承認されたコンテンツを公開するには**:
 
-1. 承認済みのドラフトに直接アクセスするか、_公開準備が整った承認済みのバリアント_ ポップアップからアクセスします。 このポップアップには、承認されたアセットの公開を延期する **[!UICONTROL 閉じる]** ボタンと、公開プロセスを開始する **[!UICONTROL Publish]** ボタンが含まれています。
+1. 承認済みのドラフトに直接アクセスするか、_公開準備が整った承認済みのバリアント_ ポップアップからアクセスします。 このポップアップには、承認されたアセットの公開を延期する **[!UICONTROL 閉じる]** ボタンと、公開処理を開始する **[!UICONTROL 公開]** ボタンが含まれています。
 
-1. ]**0}Publish} をクリックして、アセットまたはエクスペリエンスを [!DNL Content] に保存します。**[!UICONTROL  GenStudio for Performance Marketingに _承認されたコンテンツの詳細を確認_ ウィンドウが表示され、承認されたアセットのサムネールが表示されます。
+1. **[!UICONTROL 公開]** をクリックして、アセットまたはエクスペリエンスを [!DNL Content] に保存します。 GenStudio for Performance Marketingに _承認されたコンテンツの詳細を確認_ ウィンドウが表示され、承認されたアセットのサムネールが表示されます。
 
 1. GenStudio for Performance Marketingの指示に従って、コンテンツに関する情報を追加します。 この情報は、メタデータとして保存され、フィルターおよび検索操作 [!DNL Content] 値を追加します。 公開プロセスのこの時点で、アセットをGenStudio for Performance Marketing キャンペーンに追加できます。
 

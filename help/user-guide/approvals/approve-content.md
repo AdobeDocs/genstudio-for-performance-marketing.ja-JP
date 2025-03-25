@@ -1,9 +1,9 @@
 ---
 title: コンテンツを承認
 description: 生成されたコンテンツをAdobe GenStudio for Performance Marketingで承認する方法を説明します。
-feature: Approval
+feature: Content Review, Content Management
 exl-id: f6458d8f-dff3-448e-9f08-6d192f8a91d9
-source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
+source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -24,4 +24,4 @@ ht-degree: 0%
 
 1. **[!UICONTROL 承認済み]** を選択します。
 
-あなたの承認者としての作業は完了しました。 Adobe GenStudio for Performance Marketingは、承認のドラフト作成者にアラートを送信します。 [!DNL Content] への保存または ](./publish-content.md) 公開 _のプロセスの概要については、[Publish コンテンツ_ を参照してください。
+あなたの承認者としての作業は完了しました。 Adobe GenStudio for Performance Marketingは、承認のドラフト作成者にアラートを送信します。 [!DNL Content] に保存するプロセスまたは ](./publish-content.md) 公開 _の概要については、[ コンテンツの公開_ を参照してください。
