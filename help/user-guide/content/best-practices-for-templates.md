@@ -1,11 +1,13 @@
 ---
 title: テンプレートのベストプラクティス
 description: Adobe GenStudio for Performance Marketingでテンプレートを使用する際は、ベストプラクティスに従ってください。
+level: Intermediate
+role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: daada794dd39c9bd2aea7815d887821454d162fc
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -41,7 +43,13 @@ GenStudio for Performance Marketingでテンプレートを使用する前に、
 
 ## チャネル固有のテンプレートガイドラインに従う
 
-各チャネルのレイアウトと視覚要件に対応するテンプレートを作成します。 最適なパフォーマンスと互換性を確保するために、各テンプレートタイプを使用する際には次のヒントと制約を考慮してください。
+テンプレートを作成する場合は、目的のチャネルの特定の要件を満たしていることを確認します。 各チャネルのレイアウトと視覚要件に対応するテンプレートを作成します。 すべてのテンプレートに適用される一般的なガイドラインを以下に示します。
+
+- クリーンでレスポンシブなHTMLとインライン CSS の使用
+- AdobeまたはGoogle フォントの使用
+- JavaScript **使用しない**
+
+最適なパフォーマンスと互換性を確保するために、各テンプレートタイプを使用する際には次のヒントと制約を考慮してください。
 
 >[!BEGINTABS]
 
@@ -86,17 +94,8 @@ GenStudio for Performance Marketingと連携するようにメタ広告テンプ
 - ビューポートを定義し **い** でください
 - JavaScript **使用しない**
 - CSS **HTML要素を上書きし** い
-- 背景画像には次の設定を使用します。
-
-  CSS クラス `object-fit: cover` 値 `background-image` 追加します。
-
-  ```css
-  .background-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  ```
+- `background-image` の代わりに `<img>` タグを使用します
+- マスクを使用して、背景画像のテキスト読みやすさを向上させます
 
 **制約**:
 
@@ -151,11 +150,10 @@ GenStudio for Performance Marketingと連携するようにバナーとディス
 
 **認識されたフィールド名**:
 
-次のフィールドには、コンテンツプレースホルダーを使用します。
+バナー広告とディスプレイ広告の場合は、「`CTA`」フィールドが自動的に生成されます。 次のフィールドには、コンテンツプレースホルダーを使用します。
 
 - `headline`
 - `body`
-- `cta`
 - `image` （Content JPEG、PNG、GIFから選択）
 
 テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー ](customize-template.md#content-placeholders) を参照してください。
@@ -188,21 +186,20 @@ LinkedIn 広告テンプレートをカスタマイズしてGenStudio for Perfor
    - mobile
    - 最小：360 x 640 ピクセル
    - 最大：2430 x 4320 ピクセル
-- バーティクル 2.3
+- 垂直 2.3
    - mobile
    - 最小：360 x 640 ピクセル
    - 最大：2430 x 4320 ピクセル
-- Verticle 4.5 （推奨）
+- 縦 4.5 （推奨）
    - mobile
    - 最小：360 x 640 ピクセル
    - 最大：2430 x 4320 ピクセル
 
 **認識されたフィールド名**:
 
-LinkedIn 広告の場合、「`headline`」フィールドと「`CTA`」フィールドは自動的に生成されます。 次のフィールドには、コンテンツプレースホルダーを使用します。
+LinkedIn 広告の場合、「`headline`」、「`introductory_text`」および「`CTA`」フィールドが自動的に生成されます。 次のフィールドには、コンテンツプレースホルダーを使用します。
 
 - `image` （Content JPEG、PNG、GIFから選択）
-- `introductory_text`
 - `on_image_text`
 - `brand_logo`
 
