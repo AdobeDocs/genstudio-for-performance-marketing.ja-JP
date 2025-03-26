@@ -3,10 +3,10 @@ title: データ管理
 description: GenStudio for Performance Marketingでのデータの取得と保存  [!DNL Insights]  ついて説明します。
 feature: Reporting and Insights
 level: Experienced
-role: Admin
+role: Admin, Data Architect
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%

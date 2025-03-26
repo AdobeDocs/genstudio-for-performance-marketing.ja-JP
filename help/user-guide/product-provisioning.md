@@ -3,8 +3,9 @@ title: Adobe GenStudio for Performance Marketingのプロビジョニング
 description: GenStudio for Performance Marketing製品のプロビジョニングについて説明します。
 level: Beginner
 feature: Generative AI
+role: Admin
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%

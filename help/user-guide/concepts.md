@@ -2,8 +2,9 @@
 title: Adobe GenStudio for Performance Marketing概念
 description: Adobe GenStudio for Performance Marketingの概念と用語について説明します。
 feature: Workflow, Generative AI
+role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: bfe961a06f62e55f3207088f6f390204b12e7142
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # 概念
 
-GenStudio for Performance Marketingは、Adobeのコンテンツサプライチェーンを具体化してマーケティングキャンペーンを合理化するスタンドアロンのエンタープライズ製品です。 パーソナライズされ、ブランドで承認されたコンテンツを大規模に構築し、有効性を監視し、常に変化する市場に迅速に適応することは困難です。 GenStudio for Performance Marketingでは、ジェネレーティブ AI をエンタープライズマーケティングチームのパフォーマンスの乗数として活用する 1 つのアプリケーションで、Creative CloudとExperience Cloudを統合します。
+GenStudio for Performance Marketingは、Adobeのコンテンツサプライチェーンを具体化してマーケティングキャンペーンを合理化するスタンドアロンのエンタープライズ製品です。 パーソナライズされ、ブランドで承認されたコンテンツを大規模に構築し、有効性を監視し、常に変化する市場に迅速に適応することは困難です。 GenStudio for Performance Marketingでは、ジェネレーティブ AI をエンタープライズマーケティングチームのパフォーマンスの乗数として活用する、1 つのアプリケーションでCreative CloudとExperience Cloudを統合します。
 
 GenStudio for Performance Marketingを使用すると、次のことができます。
 
@@ -32,7 +33,7 @@ GenStudio for Performance Marketingは、生成 AI の力を活用して、コ�
 
 ## 大規模な言語モデル
 
-GenStudio for Performance Marketingでは、Adobeのジェネレーティブ AI プラットフォームを活用して、基盤となる AI および機械学習（ML）サービスを提供しています。 このプラットフォームは、大規模言語モデル（LLM）の使用を簡素化し、Adobeの GenAI 機能が魅力的なエクスペリエンスを作成できるようにします。
+GenStudio for Performance Marketingは、Adobeのジェネレーティブ AI プラットフォームを活用しています。このプラットフォームは、基盤となる AI および機械学習（ML）サービスを提供します。 このプラットフォームは、大規模な言語モデル（LLM）の使用を簡素化し、Adobeの GenAI 機能が魅力的なエクスペリエンスを作成できるようにします。
 
 GenStudio for Performance Marketingでは、Azure OpenAI.<!-- Claude, and Gemini models. --> を通じて GPT シリーズのサードパーティ LLM を使用します。
 
@@ -80,17 +81,17 @@ If genactions roll over month to month or not -->
 
 ## データガバナンス
 
-AI を使用してコンテンツを生成する場合、出力が安全で、すべてのユーザーにとって包括的であることを確認することが不可欠です。 これには、有害な偏見、ヘイトスピーチ、攻撃的な内容、不敬の可能性があるコンテンツの評価が必要です。 Adobeでは、コンテンツの創出技術を多角的に検証し、倫理の総合的な見直しを行い、有害コンテンツの発生防止に向けた効果的な緩和策を実施しています。
+AI を使用してコンテンツを生成する場合、出力が安全で、すべてのユーザーにとって包括的であることを確認することが不可欠です。 これには、有害な偏見、ヘイトスピーチ、攻撃的な内容、不敬の可能性があるコンテンツの評価が必要です。 Adobeでは、コンテンツの創出技術を多角的に検証し、倫理の総合的な見直しを行い、有害コンテンツの発生抑制に向けた効果的な緩和策を実施しています。
 
 このアプローチは、社会的責任を強化し、評判リスクを最小限に抑え、[Adobeの信頼と安全および倫理ポリシー ](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf) を確実に遵守します。
 
-GenStudio for Performance Marketingには、特定された有害または偏ったコンテンツがAdobeのデータガバナンスの標準とポリシーに従って使用されるのを防ぐための緩和計画が組み込まれています。 このようなコンテンツが検出されると、「生成できません」というメッセージが表示されてアセットの生成がブロックされることに注意する必要があります。
+GenStudio for Performance Marketingには、Adobeのデータガバナンスの標準とポリシーに従って、有害または偏って特定されたコンテンツが使用されるのを防ぐための緩和計画が組み込まれています。 このようなコンテンツが検出されると、「生成できません」というメッセージが表示されてアセットの生成がブロックされることに注意する必要があります。
 
 このメッセージが表示されたら、プロンプトを編集して再試行します _または_ プロンプトの内容にGenStudio for Performance Marketingによるレビューのフラグを立てます。 レビュー用にフラグが設定されたコンテンツのプロンプトデータは、内部レビュー目的で収集されます。
 
 ## コンテンツのライフサイクル
 
-複数のチャネルで、より速いペースで質の高いエクスペリエンスが求められています。 GenStudio for Performance Marketingを使用すると、コンテンツサプライチェーンを簡略化して、マーケター向けのわかりやすいワークフローを構築できます。 GenStudio for Performance Marketingでは、ライフサイクルの各段階でAdobeテクノロジを活用します。
+複数のチャネルで、より速いペースで質の高いエクスペリエンスが求められています。 GenStudio for Performance Marketingを使用すると、コンテンツサプライチェーンを簡略化して、マーケター向けのわかりやすいワークフローを構築できます。 GenStudio for Performance Marketingでは、ライフサイクルの各段階でAdobe テクノロジーを活用します。
 
 <table style="table-layout:auto">
 

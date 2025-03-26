@@ -2,9 +2,10 @@
 title: チャネルアカウントを接続
 description: チャネルアカウントを接続して、Adobe GenStudio for Performance Marketing キャンペーンとメディアのパフォーマンスを監視します。
 level: Intermediate
+role: Admin, Data Engineer
 feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 91b684d27f3205806e5e92ea14db45cee84b806b
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
