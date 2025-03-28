@@ -4,7 +4,7 @@ description: Adobe GenStudio for Performance Marketingで特定の属性のパ�
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 4afdde6fd08a9f33ff599f5f85b9c1b9d79870ec
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -39,7 +39,7 @@ GenStudio for Performance Marketingは、特定の機能を検出し、メディ
 
 属性 _カテゴリ_ は、共通の特性を共有する関連属性を整理する分類グループです。 これらのカテゴリは、より詳細なコンテキストを提供し、それらのアプリケーションと使用を容易にすることで、特定の属性の検出、識別、理解を合理化するのに役立ちます。
 
-GenStudio for Performance Marketingは、Adobeの AI と機械学習機能を使用して、[ 画像 ](image-features.md)、[ ビデオ ](video-features.md) およびテキストを調べ、正確である可能性に基づいて [!UICONTROL  メディア属性 ] を適用します。
+GenStudio for Performance Marketingは、Adobeの AI と機械学習機能を使用して、[ 画像 ](image-features.md)、[ ビデオ ](video-features.md) および [ テキスト ](text-features.md) を調べ、正確性の可能性に基づいて [!UICONTROL  メディア属性 ] を適用します。
 
 メディアコンテンツについて検出された属性リストは、すべてを網羅しているわけではありません。 豊富な機能セットを含むメディアは、AI によって特定された 3 つの最も支配的な機能に制限される場合があります。 例えば、次の図には、検出された複数の画像属性（複数のオブジェクト、前景色、背景色など）が含まれています。
 

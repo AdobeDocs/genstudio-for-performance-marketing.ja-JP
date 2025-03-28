@@ -1,13 +1,13 @@
 ---
 title: テンプレートのカスタマイズ
-description: Adobe GenStudio for Performance Marketing用テンプレートをパーソナライズおよび最適化する方法について説明します。
+description: Adobe GenStudio for Performance Marketing生成 AI で認識されるコンテンツプレースホルダーを使用して、HTML テンプレートをカスタマイズする方法について説明します。
 level: Intermediate
 role: Developer
-feature: Media Templates, Content Generation
+feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 0a1f13db9a976bac026f49e908b6b8c124bc5df7
+source-git-commit: 81133e4360a9ba7d7fb29f33e418fde8582b0f23
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1391'
 ht-degree: 0%
 
 ---
@@ -46,18 +46,19 @@ HTML テンプレートの先頭または本文内では、[!DNL Handlebars] の
 | `{{headline}}` | 見出し | メール <br> メタ広告 <br> バナーとディスプレイ広告 <br>LinkedIn 広告 |
 | `{{introductory_text}}` | 紹介テキスト | LinkedIn 広告 |
 | `{{body}}` | 本文コピー | メール <br> メタ広告 <br> バナーとディスプレイ広告 |
-| `{{cta}}` | コールトゥアクション | メール <br> メタ広告 <br> バナーとディスプレイ広告 <br>LinkedIn 広告 |
+| `{{cta}}` | コールトゥアクション <br> 関連項目 [ コールトゥアクション ](#calls-to-action) | メール <br> メタ広告 <br> バナーとディスプレイ広告 <br>LinkedIn 広告 |
 | `{{image}}` | 画像 – [!DNL Content] から選択 | メール <br> メタ広告 <br> バナーとディスプレイ広告 <br>LinkedIn 広告 |
-| `{{on_image_text}}` | 画像テキスト上 | メタ広告 <br>LinkedIn 広告 |
+| `{{on_image_text}}` | 画像テキスト上 <br>[ 画像テキスト上 ](#on-image-text) を参照してください。 | メタ広告 <br>LinkedIn 広告 |
 | `{{link}}` | 画像上のコールトゥアクション <br> 画像の [ リンク ](#link-on-image) を参照してください。 | メール |
-| `{{brand_logo}}` | 選択したブランドのロゴ <br>[ ブランドロゴフィールド名 ](#brand-logo-field-name) を参照してください。 | email<br>Meta ad <br>LinkedIn ad |
 
-GenStudio for Performance Marketingでは、特定のフィールドに次のテンプレートで自動的に入力されます。
+<!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
+
+GenStudio for Performance Marketingでは、特定のフィールドが次のテンプレートで自動的に生成されます。
 
 - **メールテンプレート** で `subject` フィールドを識別する必要はありません
 - **メタ広告テンプレート** では、「`headline`」、「`body`」、「`CTA`」フィールドを識別する必要はありません
 - **バナーとディスプレイ広告テンプレート** で、`CTA` フィールドを識別する必要はありません
-- **LinkedIn 広告テンプレート** では、`headline`、`introductory_text` および `CTA` フィールドを識別する必要はありません
+- **LinkedIn 広告テンプレート** では、「`headline`」、「`introductory_text`」、「`CTA`」フィールドを識別する必要はありません
 
 >[!WARNING]
 >
@@ -109,17 +110,19 @@ GenStudio for Performance Marketingでは、様々なコールトゥアクショ
 - `src="image-source.jpg"` は、実際の画像ソース URL に置き換える必要があります。
 - `alt="description"` は、画像の代替テキストを提供します。これは、アクセシビリティや SEO に役立ちます。
 
-### ブランドロゴフィールド名
+<!-- this field does not work in Create canvas 2025/03
 
-現時点では、テンプレートのアップロードに使用するブランドロゴを選択することはできません。 次の例は、ブランドロゴを条件に応じてレンダリングする 2 つの方法を示しています。 各方法では、ソースを検証し、ブランドロゴが使用できない場合に備えてデフォルトまたは代替の画像を提供し、スタイルを適用します。
+### Brand logo field name
 
-**例 1**：組み込みヘルパー条件 [!DNL Handlebars]HTML `img src` 属性に直接使用する
+At this time, you cannot select the brand logo for the template upload. The following examples demonstrate two methods that conditionally render the brand logo. Each method verifies the source, provides a default or alternative image in case the brand logo is not available, and applies a style:
+
+**Example 1**: Using [!DNL Handlebars] Built-in Helpers condition directly in the HTML `img src` attribute:
 
 ```html
 <img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;">
 ```
 
-**例 2**：組み込み条件ステートメント [!DNL Handlebars] 使用してHTML `img` タグをラッピングする：
+**Example 2**: Using [!DNL Handlebars] Built-in condition statement to wrap the HTML `img` tag:
 
 ```html
 {{#if brand_logo}}
@@ -128,6 +131,8 @@ GenStudio for Performance Marketingでは、様々なコールトゥアクショ
     <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
 {{/if}}
 ```
+
+-->
 
 ### 手動フィールド名
 
@@ -139,10 +144,18 @@ GenStudio for Performance Marketingでは、様々なコールトゥアクショ
 <tbody>
     <tr>
         <td>
-            <p><span class="s1">{{ footerLegal }}</span></p>
+            <p><span class="footer-text">{{ footerLegal }}</span></p>
         </td>
     </tr>
 </tbody>
+```
+
+## 画像テキスト上
+
+`{{ on_image_text }}` プレースホルダーは、エクスペリエンスの画像に直接配置された、短い影響を受けるメッセージのテキストオーバーレイを指定するために使用されます。
+
+```html
+<div class="image-text">{{ on_image_text }}</div>
 ```
 
 ## セクションまたはグループ
@@ -179,7 +192,6 @@ _セクション_ このセクションのフィールドには高い一貫性�
 GenStudio for Performance Marketingは `pod1_headline` が `pod2_body` よりも `pod1_body` と密接に関係していることを理解しています。
 
 複数セクションのメールの各セクションに対して様々なコンテンツを生成するプロンプトを作成する方法については、[ 構造化プロンプト ](/help/user-guide/effective-prompts.md#structured-prompts) を参照してください。
-
 
 ## テンプレートのプレビュー
 

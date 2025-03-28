@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: daada794dd39c9bd2aea7815d887821454d162fc
+source-git-commit: 059c7271bcbe558d41f3df128c6a0681accec826
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -80,7 +80,6 @@ GenStudio for Performance Marketingと連携するようにメールテンプレ
 - `body`
 - `cta`
 - `image` （Content JPEG、PNG、GIFから選択）
-- `brand_logo`
 
 テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー ](customize-template.md#content-placeholders) を参照してください。
 
@@ -115,7 +114,6 @@ GenStudio for Performance Marketingと連携するようにメタ広告テンプ
 
 - `image` （Content JPEG、PNG、GIFから選択）
 - `on_image_text`
-- `brand_logo`
 
 テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー ](customize-template.md#content-placeholders) を参照してください。
 
@@ -201,7 +199,6 @@ LinkedIn 広告の場合、「`headline`」、「`introductory_text`」および
 
 - `image` （Content JPEG、PNG、GIFから選択）
 - `on_image_text`
-- `brand_logo`
 
 テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー ](customize-template.md#content-placeholders) を参照してください。
 
