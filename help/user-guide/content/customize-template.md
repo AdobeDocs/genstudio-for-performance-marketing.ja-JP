@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 81133e4360a9ba7d7fb29f33e418fde8582b0f23
+source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ HTML テンプレートの先頭または本文内では、[!DNL Handlebars] の
 | ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | プリヘッダー | メール |
 | `{{headline}}` | 見出し | メール <br> メタ広告 <br> バナーとディスプレイ広告 <br>LinkedIn 広告 |
+| `{{sub_headline}}` | サブ見出し | メールバナ <br> とディスプレイ広告 |
 | `{{introductory_text}}` | 紹介テキスト | LinkedIn 広告 |
 | `{{body}}` | 本文コピー | メール <br> メタ広告 <br> バナーとディスプレイ広告 |
 | `{{cta}}` | コールトゥアクション <br> 関連項目 [ コールトゥアクション ](#calls-to-action) | メール <br> メタ広告 <br> バナーとディスプレイ広告 <br>LinkedIn 広告 |
@@ -101,14 +102,14 @@ GenStudio for Performance Marketingでは、様々なコールトゥアクショ
 メールテンプレートをカスタマイズして、クリエイティブが画像にリンクを追加できるようにすることができます。 CTA リンクと同様に、次のガイダンスを使用して画像タグに `link` プレースホルダーを適用します。
 
 ```html
-<a href="{{link}}"><img src="image-source.jpg" alt="description"></a>
+<a href="{{link}}"><img src="image-source.jpg" alt="{{imageDescription}}"></a>
 ```
 
 この例では、次のようになります。
 
 - `{{link}}` は、実際の URL のプレースホルダーです。
 - `src="image-source.jpg"` は、実際の画像ソース URL に置き換える必要があります。
-- `alt="description"` は、画像の代替テキストを提供します。これは、アクセシビリティや SEO に役立ちます。
+- `{{imageDescription}}` は、ユーザー定義のフィールド名で、画像の代替テキストのプレースホルダーを提供します。これは、アクセシビリティや SEO に役立ちます。
 
 <!-- this field does not work in Create canvas 2025/03
 
@@ -136,7 +137,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 ### 手動フィールド名
 
-その他のすべてのフィールド名は、手動で入力されたフィールドとして扱われます。 例えば、フッターコンテンツ用のセクションを予約することができます。
+その他のフィールド名はすべてユーザー定義であり、手動で入力されたフィールドとして扱われます。 例えば、フッターコンテンツ用のセクションを予約することができます。
 
 編集可能なセクションを作成するには、セクション名の周りに二重括弧を追加します。
 

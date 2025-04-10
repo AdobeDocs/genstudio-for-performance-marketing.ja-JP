@@ -3,9 +3,9 @@ title: バリアントの管理
 description: 生成されるバリアントとアセットをカスタマイズし、デジタルマーケティングのニーズに合わせて強化します。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 8d4442a3eb9aaf500b3a0a249031214337caf0ff
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,18 @@ Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生
 1. 新しいテキストを入力します。
 1. テキストフィールドの外側をクリックして保存します。
 
+## レイヤーを表示
+
+バリアントの個々のレイヤーをすばやく選択し、セクションの再生成や画像の切り抜きなどの変更を行うことができます。 個々のレイヤーを選択すると、レイヤー内の編集可能なフィールドや画像がハイライト表示されます。
+
+**バリアントのレイヤーを表示するには**:
+
+1. バリアントのセットを生成したら、バリアント内の編集可能なフィールドまたは画像をクリックします。
+1. _[!UICONTROL ビューレイヤ]_] をクリックします。
+1. をクリックして、リストから画層を選択します。 バリアントで選択したレイヤーがハイライト表示されます。
+
+   選択したレイヤーに必要な編集を加えます。
+
 ## セクションを再生成
 
 GenStudio for Performance Marketingには、生成されたバリアントのセクションを再生成する機能が組み込まれています。 テキストのフレーズを変更、短縮、長くしたり、新しいプロンプトを追加して新しいコンテンツを生成したりできます。
@@ -59,7 +71,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
 ## コールトゥアクションの修正
 
-バリアントのセットを生成した後、コールトゥアクション（CTA）のテキストとリンクを変更できます。
+バリアントのセットを生成したら、call-to-action（CTA）のテキストとリンクを変更できます。
 
 >[!NOTE]
 >

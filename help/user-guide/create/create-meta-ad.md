@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 **メタ広告テンプレートを選択するには**:
 
 1. _[!DNL Create]_**[!UICONTROL で、「今日は何を作成しますか？」の_ メタ広告]** をクリックします。_セクション。
-1. _フィルター_ の横にある検索オプションを使用して、特定のメタ広告テンプレートを見つけます。
+1. [ 検索」オプションと _フィルター_ オプション ](/help/user-guide/content/use-templates.md#search-templates) を使用して、特定のテンプレートを検索します。
 1. テンプレートをクリックして選択し、「**[!UICONTROL 使用]**」をクリックします。
 
    これにより、コンテンツ作成の中心となるキャンバスが開きます。
@@ -85,12 +85,14 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 
 承認または公開用に送信する内容を選択する前に [!DNL Content] メタ広告を編集したり、生成された広告のセットからバリアントを削除したりできます。
 
+変更する個々のレイヤーをハイライト表示するには、編集可能なフィールドまたは画像をクリックし、「_[!UICONTROL レイヤーを表示]_」をクリックします。
+
 **生成されたバリアントを修正するには**:
 
 * **メタ広告のドラフト名を [ 編集](/help/user-guide/create/manage-variants.md#change-draft-name)** するには、キャンバスの上部にある _名称未設定のドラフト_ タイトルをクリックし、新しいタイトルを入力します。
 * **メタ広告を [ 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、広告セクションのいずれか（件名行など）をクリックします
 ヘッダー（本文コピー）を使用し、必要に応じて編集します。
-* **コールトゥアクションを変更または選択するには**、コールトゥアクションボタンをクリックし、使用可能なボタンテキストオプションから選択します。 _リンク_ に、コールトゥアクションテキストの URL を入力します。
+* **コールトゥアクションを変更または選択するには**、「call-to-action」ボタンをクリックし、使用可能なボタンテキストオプションから選択します。 _リンク_ に、call-to-actionテキストの URL を入力します。
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **バリアント内の画像へのリンクを追加 [ するには](/help/user-guide/create/manage-variants.md#add-image-link)**、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックし、リンクアイコンをクリックします。
 * **バリアントのセクションを [ 再生成](/help/user-guide/create/manage-variants.md#re-generate-sections)** するには、編集可能なテキストフィールドをクリックして _[!UICONTROL 編集候補]_ オプションを使用するか、新しいプロンプトを入力して **[!UICONTROL 生成]** をクリックします。
@@ -144,6 +146,6 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 
 ## メタを接続
 
-GenStudio for Performance Marketingを Meta に接続して、コンテンツのパフォーマンスに関する高度な分析と [ インサイト ](/help/user-guide/insights/overview.md) を受け取ることができます。
+GenStudio for Performance Marketingを Meta に接続して、コンテンツのパフォーマンスに関する高度な分析とインサイトを受け取ることができます。
 
-詳しくは、[ チャネルアカウントの接続 ](/help/user-guide/insights/connect-channel.md) を参照してください。
+[ メタ広告の連携 ](/help/user-guide/connectors/connect-channel.md#meta-ads-connect) を参照してください。

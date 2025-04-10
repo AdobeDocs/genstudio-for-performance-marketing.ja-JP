@@ -6,9 +6,9 @@ badgeBeta: label="Beta" tooltip="この機能は現在Betaにあるので、一�
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: 7784f8a722d808159df9522ff7fce5fbddcc34ce
+source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '114'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,7 @@ Adobe GenStudio for Performance Marketingでは、生成 AI を活用して [ �
 ディスプレイとエクスペリエンスの編集可能なセクションには、次のものが含まれます。
 
 * 見出し
+* サブ見出し
 * 本文
 * コールトゥアクション（CTA）
 * 画像
