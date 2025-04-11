@@ -3,9 +3,9 @@ title: メタ広告の有効化
 description: メタ広告エクスペリエンスをアクティブ化する方法を説明します。
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1372'
 ht-degree: 2%
 
 ---
@@ -33,13 +33,7 @@ Meta Ads Manager にコンテンツを投稿する権限が必要です。
 
 組織がエクスペリエンスをアクティブ化する前に、GenStudio System Manager はメタアカウントをGenStudio for Performance Marketingに接続する必要があります。 この連携により、GenStudioと Meta などの外部マーケティングツールとの間でデータを受け渡し、アクティベーションプロセスを可能にします。
 
-**GenStudio for Performance Marketingを Meta アカウントに接続するには**:
-
-1. _設定_ から、メタ広告タイルの **[!UICONTROL 接続]** をクリックします。 _メタ広告アカウント_ ビューが開きます。
-
-1. プロンプトが表示されたら、ブラウザーから **[!UICONTROL ポップアップを許可]** を選択します。
-
-1. 接続する広告アカウントを 1 つ以上選択し、「**[!UICONTROL 選択]**」をクリックします。
+[Meta （Facebook）アカウントへの接続 ](/help/user-guide/connectors/connect-channel.md#meta-ads-connect) を参照してください。
 
 同期が完了したら、追加されたアカウントを表示できます。 大量のデータの同期には時間がかかります。
 
@@ -152,7 +146,7 @@ _プライマリテキスト_ と _ヘッドライン_ は、GenStudio for Perfo
 
 ## 手順 5：広告のプレビューとアクティブ化
 
-_レビュー_ ページには、_Creativeの設定で組み合わせた広告エクスペリエンスが表示され_ 最終的にエクスペリエンスを表示および編集する機会が提供されます。 **[!UICONTROL 2}Creative設定]** ラベルの横にある「{ 編集セクション _をクリックして、変更を加えます。_&#x200B;また、右上の **[!UICONTROL 戻る]** をクリックして、_Creative設定_ ページに戻ることもできます。
+_Review_ ページには、_Creative 設定で組み立てられた広告エクスペリエンスが表示され_&#x200B;エクスペリエンス表示および編集の最終機会が提供されます。[_編集セットアップ&#x200B;]**_] ラベルの横にある [**[!UICONTROL  Creative] セクションをクリックして、変更を行います。右上の「 **[!UICONTROL 戻る]** をクリックして、 _Creativeセットアップ_ ページに戻ることもできます。
 
 ### 広告エクスペリエンスのアクティベーションを完了
 

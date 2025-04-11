@@ -6,7 +6,7 @@ level: Experienced
 role: Admin, Data Architect
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -47,4 +47,4 @@ AEPでデータコンポーネントを削除する前に、_Customer Journey An
 
 GenStudio for Performance Marketingはチャネルデータを 13 か月間保持します。 この保持ポリシーには、最初の接続中に取り込まれた 6 か月のデータが含まれており、包括的な履歴データの分析とレポートを確実に行います。
 
-[ チャネル広告アカウントの接続 ](/help/user-guide/insights/connect-channel.md) を参照してください。
+[ チャネル広告アカウントの接続 ](/help/user-guide/connectors/connect-channel.md) を参照してください。

@@ -4,9 +4,9 @@ description: リアルタイムコンテンツのパフォーマンス指標に�
 level: Intermediate
 feature: Reporting and Insights
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: c1c595f3be42b86d0e0aebd42c9c50c9d9aa4cdc
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,12 @@ Adobe GenStudio for Performance Marketing [!DNL Insights] は、データに基�
 - **最も効果的なコンテンツを特定**：様々なオーディエンスに対して最適なパフォーマンスを発揮するコンテンツを特定し、トレンド環境設定に合わせて将来のコンテンツやキャンペーンをカスタマイズします。
 - **パフォーマンスの低いコンテンツの最適化**：パフォーマンスの低いコンテンツを見つけ出し、統合された生成 AI を使用してバリエーションを直ちに作成することで、ゼロから始めなくても有効性を向上できる可能性があります。
 - **パフォーマンスの高いコンテンツを再活性化**：成功するコンテンツを取得して微調整し、オーディエンスの広告を更新したり、新しいキャンペーンで使用するヒーローコンテンツを調整して、ライフサイクルとパフォーマンスを延長する可能性があります。
+
+## Data connectors
+
+[!DNL Insights] を初めて開くと、Adobe GenStudio for Performance Marketingとチャネルアカウントを連携させるためのガイドのバナーが表示される場合があります。
+
+これにより、GenStudio for Performance Marketingは、アクティブなマーケティングキャンペーン、メディアおよび広告から統計データを受け取ることができます。 GenStudio for Performance Marketingは最初、過去 6 か月のデータを取り込むので、ユーザーは最新のデータを分析してアクションを実行できます。
 
 {{connect-insights}}
 
@@ -35,7 +41,7 @@ Adobe GenStudio for Performance Marketing [!DNL Insights] は、データに基�
 
 ### チャネル
 
-[[!DNL Insights] _[!UICONTROL  チャネル ]_ビュー ](channels.md) はデフォルトのビューで、目標、予算、ローンチ日、アクティビティなどの、アクティブなキャンペーンの詳細のリストが表示されます。 GenStudio for Performance Marketingが統計データの受信を開始できるように、[ チャネルアカウントを接続 ](connect-channel.md) してください。
+[[!DNL Insights] _[!UICONTROL  チャネル ]_ビュー ](channels.md) はデフォルトのビューで、目標、予算、ローンチ日、アクティビティなどの、アクティブなキャンペーンの詳細のリストが表示されます。 GenStudio for Performance Marketingが統計データの受信を開始できるように、[ チャネルアカウントを接続 ](/help/user-guide/connectors/connect-channel.md) してください。
 
 ### 広告
 

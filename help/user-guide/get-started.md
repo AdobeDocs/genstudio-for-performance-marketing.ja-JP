@@ -5,7 +5,7 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: ac166245f5358c3bd050227b3ba9c53caa0e3622
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 2%
@@ -62,4 +62,4 @@ GenStudio システムマネージャーは、組織固有のブランド要件�
 
 ### 手順 5:Meta （Facebook）アカウントへの接続
 
-GenStudio for Performance Marketingと組織のソーシャルアカウントの間の接続を設定して、アクティブなマーケティングキャンペーン、アセットおよびエクスペリエンスからデータを受け取ります。 [[!DNL Insights]](./insights/overview.md) は、チャネルから派生したデータを分析するツールを提供します。 [Meta （Facebook）アカウントへの接続 ](./insights/connect-channel.md#meta-ads-connect) を参照してください。
+GenStudio for Performance Marketingと組織のソーシャルアカウントの間の接続を設定して、アクティブなマーケティングキャンペーン、アセットおよびエクスペリエンスからデータを受け取ります。 [!DNL Insights] は、チャネルから派生したデータを分析するツールを提供します。 [Meta （Facebook）アカウントへの接続 ](/help/user-guide/connectors/connect-channel.md#meta-ads-connect) を参照してください。
