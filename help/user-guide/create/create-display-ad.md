@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
+source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ ht-degree: 0%
 
 **ディスプレイ広告テンプレートを選択するには**:
 
-1. _[!DNL Create]_**[!UICONTROL で、「今日は何を作成しますか？」の_ 広告を表示]** をクリックします。_セクション。
-1. [ 検索」オプションと _フィルター_ オプション ](/help/user-guide/content/use-templates.md#search-templates) を使用して、特定のテンプレートを検索します。
+1. _[!DNL Create]_で、**[!UICONTROL 広告を表示]**をクリックします。
+1. _フィルター_ の横にある検索オプションを使用して、特定のディスプレイ広告テンプレートを見つけます。
 1. _テンプレートを選択_ ビューで、ディスプレイ広告テンプレートをクリックします。
 1. **[!UICONTROL 使用]** をクリックします。
 

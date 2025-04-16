@@ -4,9 +4,9 @@ description: Adobe GenStudio for Performance Marketing [!DNL Create] のジェ�
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 4eb45ec7e845847ebac86986924bbc39aaed42c0
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,7 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 * [LinkedIn 広告 ](linkedin-experiences.md)
 * [ 広告を表示 ](display-ad-experiences.md)
 * [ バナー ](banner-experiences.md)
+* [画像](generate-assets.md)
 
 [ ガイドライン ](/help/user-guide/guidelines/overview.md) （[!DNL Brands]、[!DNL Products]、[!DNL Personas]） [ コンテンツ ](/help/user-guide/content/overview.md)、[ キャンペーン ](/help/user-guide/campaigns/overview.md)、[ レビューと承認 ](/help/user-guide/approvals/overview.md)、[ アクティベーション ](/help/user-guide/activation/overview.md)、[ インサイト ](/help/user-guide/insights/overview.md) の機能に加えて、効果的なブランドに合わせ [!DNL Create] マーケティングコンテンツの作成を容易にします。
 
@@ -34,58 +35,131 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 ## [!DNL Create] のユースケース
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="コンテンツを新規作成" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong> メールエクスペリエンスの作成 </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
-      <img alt="メタ広告エクスペリエンスの作成" src="../../assets/icons/icon-asset.svg" width="35">
+
+      <img alt="メタ広告エクスペリエンスの作成" src="../../assets/icons/icon-addContent.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong> メタ広告エクスペリエンスの作成 </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-linkedin.md">
+
       <img alt="LinkedIn 広告エクスペリエンスの作成" src="../../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-linkedin.md">
+
          <strong>LinkedIn 広告エクスペリエンスの作成 </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="ディスプレイとエクスペリエンスの作成" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong> ディスプレイ広告エクスペリエンスの作成 </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-banner-experience.md">
+
       <img alt="バナーエクスペリエンスの作成" src="../../assets/icons/icon-search.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-banner-experience.md">
+
          <strong> バナーエクスペリエンスの作成 </strong>
+
          </a>
+
       </div>
+
    </td>
+
+   <td align="center" valign="top" width="100">
+
+      <a href="/help/user-guide/create/generate-assets.md">
+
+      <img alt="画像の作成" src="../../assets/icons/icon-asset.svg" width="35">
+
+      </a>
+
+      <div>
+
+         <a href="/help/user-guide/create/generate-assets.md">
+
+         <strong> 画像の生成 </strong>
+
+         </a>
+
+      </div>
+
+   </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketingを使用すると、マーケターは **新しいマーケティングコンテンツを作成** できます。 このユースケースでは、定義済みの [ ガイドライン ](/help/user-guide/guidelines/overview.md) とインスピレーション画像を使用して、ブランドに合わせたコンテンツの作成を通知します。

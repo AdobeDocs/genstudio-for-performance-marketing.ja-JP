@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
+source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ LinkedIn 広告の作成を開始する前に、GenStudio for Performance Market
 
 **LinkedIn テンプレートを選択するには**:
 
-1. _[!DNL Create]_**[!UICONTROL で、「今日は何を作成しますか？」の_LinkedIn]** をクリックします。_セクション。
-1. [ 検索」オプションと _フィルター_ オプション ](/help/user-guide/content/use-templates.md#search-templates) を使用して、特定のテンプレートを検索します。
+1. _[!DNL Create]_で&#x200B;**[!UICONTROL LinkedIn]**をクリックします。
+1. _フィルター_ の横にある検索オプションを使用して、特定のテンプレートを検索します。
 1. クリックしてテンプレートを選択し、**[!UICONTROL 使用]** をクリックします。
 
    これにより、コンテンツ作成の中心となるキャンバスが開きます。

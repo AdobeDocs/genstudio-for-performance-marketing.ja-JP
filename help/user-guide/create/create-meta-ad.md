@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
+source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 
 **メタ広告テンプレートを選択するには**:
 
-1. _[!DNL Create]_**[!UICONTROL で、「今日は何を作成しますか？」の_ メタ広告]** をクリックします。_セクション。
-1. [ 検索」オプションと _フィルター_ オプション ](/help/user-guide/content/use-templates.md#search-templates) を使用して、特定のテンプレートを検索します。
+1. In _[!DNL Create]_, click **[!UICONTROL Meta ads]**.
+1. _フィルター_ の横にある検索オプションを使用して、特定のメタ広告テンプレートを見つけます。
 1. テンプレートをクリックして選択し、「**[!UICONTROL 使用]**」をクリックします。
 
    これにより、コンテンツ作成の中心となるキャンバスが開きます。

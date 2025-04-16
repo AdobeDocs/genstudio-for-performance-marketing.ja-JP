@@ -7,9 +7,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
+source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ ht-degree: 0%
 
 **バナーテンプレートを選択するには**:
 
-1. _[!DNL Create]_**[!UICONTROL で、「今日は何を作成しますか？」の_ バナー]** をクリックします。_セクション。
-1. [ 検索」オプションと _フィルター_ オプション ](/help/user-guide/content/use-templates.md#search-templates) を使用して、特定のテンプレートを検索します。
+1. _[!DNL Create]_で、「バナー&#x200B;**[!UICONTROL をクリック]**ます。
+1. _フィルター_ の横にある検索オプションを使用して、特定のバナーテンプレートを見つけます。
 1. _テンプレートを選択_ ビューで、バナーテンプレートをクリックします。
 1. **[!UICONTROL 使用]** をクリックします。
 
