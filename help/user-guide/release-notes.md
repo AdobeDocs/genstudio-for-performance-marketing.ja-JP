@@ -4,9 +4,9 @@ description: パフォーマンスマーケティング用の Adobe GenStudio �
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 2f5c79c8a339b10305a8c06f7036dd7182937cc5
+source-git-commit: c51afb3decac43f3a71d5859ba4296a8c09730d7
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2252'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 1%
 * テンプレートの新しいフィルターオプション [!DNL Create] と _[!UICONTROL コンテンツ]_/_[!UICONTROL テンプレート]_ で、_[!UICONTROL テンプレートを選択]_ リストを絞り込めるようになりました。 [ テンプレートを検索 ](/help/user-guide/content/use-templates.md#search-templates) を参照してください。 これらのフィルターを通じてテンプレートを検出可能にするために、テンプレートにメタデータが適切にタグ付けされていることを確認します。
 * エクスペリエンスの [ 個々のレイヤーの表示と選択 ](/help/user-guide/create/manage-variants.md#view-layers) 編集可能なテキストフィールドまたは編集可能な画像）の機能を有効にして、コンテンツの再生成や画像の切り抜きなどの修正に合わせてハイライト表示できるようになりました。
 * オーディエンスの注意を引き、マーケティングメッセージをハイライト表示するために、エクスペリエンスにテキストを追加するために [ 新しいテンプレートフィールド ](/help/user-guide/content/use-templates.md#template-elements)、`sub-headline` を追加しました。
+* GenStudio for Performance MarketingからGoogle Campaign Manager 360 への [ 広告エクスペリエンスの公開 ](/help/user-guide/activation/overview.md) サポートを追加しました。 アクティブ化は、Google Manager 360 広告主に公開する前の詳細な Campaign Manager 360 広告プレビューをサポートします。 アクティブ化を通じて公開された広告は、ライブになると自動的にインサイトに取り込まれ、ユーザーは広告のパフォーマンスを追跡およびレポートできるようになります。
 
 ## 以前のリリースノート
 
