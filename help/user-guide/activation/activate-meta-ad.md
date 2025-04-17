@@ -3,9 +3,9 @@ title: メタ広告の有効化
 description: メタ広告エクスペリエンスをアクティブ化する方法を説明します。
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
+source-git-commit: 19f36badd66a5dc90585b4399b87230847474a81
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1356'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ Adobe GenStudio for Performance Marketingでは、Instagram や Facebook に対�
 
 GenStudio for Performance Marketingで [ メタエクスペリエンスを作成 ](/help/user-guide/create/create-meta-ad.md) し、アクティベーション用に選択するか、[!DNL Activate] で承認済みアセットから新しいエクスペリエンスを構築できます。
 
-メタ広告のアクティブ化は、他の有料チャネルへのアクティブ化に必要な [ 同じ一般的な手順 ](create-activation.md) に従います。 アクティベーションプロセスは、Meta の特定の要件に合わせた広告エクスペリエンスの準備をサポートします。 GenStudio for Performance Marketingでメタエクスペリエンスまたはクリエイティブをアクティブ化した後、最終的に公開する前に、[Meta Ads Manager](https://adsmanager.facebook.com/) を使用して特定のメタ広告プレースメントのエクスペリエンスを微調整します。
+メタ広告のアクティブ化は、他の有料チャネルへのアクティブ化に必要な [ 同じ一般的な手順 ](create-activation.md) に従います。 アクティベーションプロセスは、Meta の特定の要件に合わせて広告エクスペリエンスからクリエイティブを準備することをサポートします。 GenStudio for Performance Marketingでメタエクスペリエンスまたはクリエイティブをアクティブ化した後、最終的に公開する前に、[Meta Ads Manager](https://adsmanager.facebook.com/) を使用して特定のメタ広告プレースメントのエクスペリエンスを微調整します。
 
 ## 手順 1：メタアカウントの設定
 
@@ -107,7 +107,7 @@ _メタ広告のアクティベート_ ページの「_テキスト_」セクシ
 | Web サイトの URL | はい | 1000 |
 | 画像 | 1 つ以上の必須 |                                 |
 
-_プライマリテキスト_ と _ヘッドライン_ は、GenStudio for Performance Marketingでのみ必要であり、Meta では必要ありません。
+GenStudio for Performance Marketingには、Meta ではなく、_プライマリテキスト_ と _ヘッドライン_ が必要です。
 
 ### メタデータの割り当て
 
@@ -146,12 +146,12 @@ _プライマリテキスト_ と _ヘッドライン_ は、GenStudio for Perfo
 
 ## 手順 5：広告のプレビューとアクティブ化
 
-_Review_ ページには、_Creative 設定で組み立てられた広告エクスペリエンスが表示され_&#x200B;エクスペリエンス表示および編集の最終機会が提供されます。[_編集セットアップ&#x200B;]**_] ラベルの横にある [**[!UICONTROL  Creative] セクションをクリックして、変更を行います。右上の「 **[!UICONTROL 戻る]** をクリックして、 _Creativeセットアップ_ ページに戻ることもできます。
+_レビュー_ ページには、_Creativeの設定で組み合わせた広告エクスペリエンスが表示され_ 最終的にエクスペリエンスを表示および編集する機会が提供されます。 **[!UICONTROL 2}Creative設定]** ラベルの横にある「{ 編集セクション _をクリックして、変更を加えます。_&#x200B;また、右上の **[!UICONTROL 戻る]** をクリックして、_Creative設定_ ページに戻ることもできます。
 
-### 広告エクスペリエンスのアクティベーションを完了
+### 手順 6：広告エクスペリエンスのアクティベーションを完了する
 
-「**[!UICONTROL 公開する]**」をクリックします。メタ広告の完全なエクスペリエンスとそれに関連するメタデータが、選択したメタ広告マネージャー広告セットに直接プッシュされます。 エクスペリエンスがメタ広告マネージャーに配信されます非アクティブ。 Meta Ads Manager から、広告エクスペリエンスと Meta キャンペーンをデプロイする最後の手順を管理できます。
+1. 「**[!UICONTROL 公開する]**」をクリックします。
 
-### Meta Ads Manager にログインして、アクティベーションを完了します
+   メタ広告の完全なエクスペリエンスとそれに関連するメタデータが、選択したメタ広告マネージャー広告セットに直接プッシュされます。 エクスペリエンスは、非アクティブな状態でメタ広告マネージャーに配信されます。 Meta Ads Manager から、広告エクスペリエンスと Meta キャンペーンをデプロイする最後の手順を管理できます。
 
-アクティベーションが完了したら、Meta Ads Manager にログインする必要があります。 [ メタ広告マネージャー ](https://adsmanager.facebook.com/) から、広告エクスペリエンスを確認し、特定のメタチャネルへの公開を最終決定できます。
+1. [ メタ広告マネージャーにログイン ](https://adsmanager.facebook.com/) して、広告エクスペリエンスを確認し、特定のメタチャネルへの公開を最終決定します。
