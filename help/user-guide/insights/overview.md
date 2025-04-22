@@ -1,17 +1,17 @@
 ---
-title: 概要  [!DNL Insights]
+title: インサイトの概要
 description: リアルタイムコンテンツのパフォーマンス指標に基づいて広告を最適化する方法を説明します。
 level: Intermediate
 feature: Reporting and Insights
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: c1c595f3be42b86d0e0aebd42c9c50c9d9aa4cdc
+source-git-commit: 42a211956854126798024a97fc0befc3626160b7
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
 
-# Adobe GenStudio for Performance Marketing [!DNL Insights]
+# Adobe GenStudio for Performance Marketing インサイト
 
 Adobe GenStudio for Performance Marketing [!DNL Insights] は、データに基づいた意思決定を支援する、コンテンツのパフォーマンスに関する高度な分析とインサイトを提供します。
 

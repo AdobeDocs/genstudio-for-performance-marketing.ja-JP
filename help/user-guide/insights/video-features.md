@@ -4,7 +4,7 @@ description: GenStudio for Performance Marketingで使用される属性カテ�
 level: Intermediate
 feature: Reporting and Insights, Video Attributes, Generative AI
 exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: c742fb33a04b36da35036a4554a475141fce8b01
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -44,9 +44,9 @@ GenStudio for Performance Marketingのオーディオ検出では、ビデオの
 | カテゴリ | 説明 | 例 |
 | ------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
 | オーディオムード | `calm`、`upbeat`、`tense` など、オーディオトラックの全体的な感情的なトーンまたは雰囲気を決定します。 | `Energetic`、`Happy`、`Emotional Ambient/atmospheric`、`Relaxing`、`Dramatic`、`Expressive/characterful`、`Intense`、`Slow`、`Neutral` |
-| 音声タイプ | 1 つ以上のタイプのオーディオ（`music` や `speech` など）が存在するビデオをタグ付けします。 | `Music`、`Speech`、`Silence`、`Special effects`、`Ambience` |
+| 音声タイプ | 1 つ以上のオーディオコンテンツタイプ（`music` や `speech` など）が存在するビデオをタグ付けします。 | `Music`、`Speech`、`Silence`、`Special effects`、`Ambience` |
 | カテゴリ | ビデオを 1 つ以上の広範なコンテンツカテゴリに分類します。 | `Entertainment`, `Sports`, `Music`, `Gaming`, `Howto tutorials`, `Fashion and style`, `Film and animation`, `Science and technology`, `Autos and vehicles`, `Pets and animals`, `People and blogs`, `News and politics`, `Social causes and activism`, `Travel and events`, `Education`, `Sales and offers` |
-| 音楽カテゴリ | 音楽がビデオに含まれる場合の、音楽のジャンルの大分類。 これは、音楽の一般的なタイプ（`contemporary` や `traditional` スタイルなど）を識別するのに役立ちます。 | `Contemporary/pop music`, `Traditional/folk-based music`, `Instrumental/orchestral music`, `Rock music`, `Acoustic/unplugged music`, `Specialised/occasional music`, `Experimental/unique music` |
+| 音楽カテゴリ | 音楽がビデオに含まれる場合の、音楽のジャンルの大分類。 ジャンルは、音楽の一般的なタイプ、例えば `contemporary` や `traditional` のスタイルを識別するのに役立ちます。 | `Contemporary/pop music`、`Traditional/folk-based music`、`Instrumental/orchestral music`、`Rock music`、`Acoustic/unplugged music`、`Specialised/occasional music`、`Experimental/unique music` |
 | 音楽ジャンル | ビデオ内に音楽が存在する場合の音楽スタイルの特定の分類。これにより、`electronic` や `jazz` など、音楽のより詳細な識別が可能になります。 | `electronic`, `hip-hop`, `dance`, `novelty`, `rock`, `world`, `reggae`, `pop`, `film`, `jazz`, `background`, `latin` |
 | オブジェクト | ビデオに表示される 1 つ以上の項目、エンティティ、要素を識別します。 | 値が多すぎますが、例えば、`backpack`、`book`、`hawk`、`glasses`、`fish`、`pencil`、`mountain bike`、`soap` などがあります |
 | オリエンテーション | 幅と高さに対するビデオの配置。 高さより幅が広い（横）、高さより高い（縦）、幅と高さが等しい（正方形）のいずれかを検出します。 | `landscape`、`portrait`、`square` |
