@@ -4,7 +4,7 @@ description: Adobe GenStudio for Performance Marketingでメディアパフォ�
 level: Intermediate
 feature: Reporting and Insights, Media Performance, Content Attributes
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 0%
@@ -20,6 +20,8 @@ ht-degree: 0%
 _[!UICONTROL Media]_ テーブルは、**[!UICONTROL Media ID]** を使用して整理されます。 表示リスト （テーブル） アイコンとギャラリー表示（グリッド） アイコンを使用して、ビューを切り替えることができます。 テーブルの右側の上にある設定（歯車）アイコンをクリックして、表示可能列を切り替えます。 テーブルの左側の上にフィルター（ファネル）アイコンをクリックすると、**[!UICONTROL フィルター]** メニューが開き、複数のリストから選択できます。 すべてのフィルターを削除するには、テーブルの上にある「**[!UICONTROL すべてクリア]**」を選択します。
 
 ![ メディアフィルターとテーブル ](/help/assets/insights-media-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 

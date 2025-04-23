@@ -4,7 +4,7 @@ description: Adobe GenStudio for Performance Marketingの広告および広告�
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: b4e0892af62be754f7b596537125458fc28930f3
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 0%
@@ -20,6 +20,8 @@ ht-degree: 0%
 _[!UICONTROL 広告]_ テーブルは、[!UICONTROL  広告名 ] を使用して整理されます。 テーブルの右側の上にある設定（歯車）アイコンをクリックして、表示可能列を切り替えます。 テーブルの左側の上にフィルター（ファネル）アイコンをクリックすると、**[!UICONTROL フィルター]** メニューが開き、複数のリストから選択できます。 すべてのフィルターを削除するには、テーブルの上にある「**[!UICONTROL すべてクリア]**」を選択します。
 
 ![ 広告フィルターとテーブル ](/help/assets/insights-ads-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 

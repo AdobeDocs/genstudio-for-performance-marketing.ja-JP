@@ -4,7 +4,7 @@ description: Adobe GenStudio for Performance Marketingで特定の属性のパ�
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 0%
@@ -22,6 +22,8 @@ _[!UICONTROL Attributes]_ テーブルは、[!UICONTROL Attribute] という名�
 テーブルの左側の上にフィルター（ファネル）アイコンをクリックすると、**[!UICONTROL フィルター]** メニューが開き、複数のリストから選択できます。 すべてのフィルターを削除するには、テーブルの上にある「**[!UICONTROL すべてクリア]**」を選択します。
 
 ![ 属性フィルターとテーブル ](/help/assets/insights-attributes-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 

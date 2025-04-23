@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
+source-git-commit: 9362ed03a54d5cbd661a2f278096b3a1fd692e36
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -24,3 +24,9 @@ ht-degree: 0%
 >[!TIP]
 >
 >[Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy) で、このトピックに関するスキルを強化しましょう。
+
+## 空のテーブルに関するヒント {#empty-table}
+
+>[!TIP]
+>
+>`No results found` しいメッセージが表示された場合 選択を変更したり、すべてのフィルターをクリアしたり、日付範囲を広げたりして、フィルターを調整します。
