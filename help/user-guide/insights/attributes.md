@@ -4,9 +4,9 @@ description: Adobe GenStudio for Performance Marketingで特定の属性のパ�
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
+source-git-commit: c619f092d0f64ca6d847f058e343578d0b22a3d6
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,20 @@ ht-degree: 0%
 
 _[!UICONTROL Attributes]_ テーブルは、[!UICONTROL Attribute] という名前を使用して整理されます。 「**[!UICONTROL 画像]**」ボタンと「**[!UICONTROL ビデオ]**」ボタンを使用して、リストタイプを切り替えることができます。 テーブルの右側の上にある設定（歯車）アイコンをクリックして、表示可能列を切り替えます。
 
-テーブルの左側の上にフィルター（ファネル）アイコンをクリックすると、**[!UICONTROL フィルター]** メニューが開き、複数のリストから選択できます。 すべてのフィルターを削除するには、テーブルの上にある「**[!UICONTROL すべてクリア]**」を選択します。
-
 ![ 属性フィルターとテーブル ](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
 {{empty-table}}
+
+## フィルター属性
+
+テーブルの左側の上にフィルター（ファネル）アイコンをクリックすると、**[!UICONTROL フィルター]** メニューが開き、複数のリストから選択できます。 キャンペーンおよび広告のキーワードフィルターについて詳しくは、[ メディアのフィルタリング ](/help/user-guide/insights/media.md#filter-media) を参照してください。
+
+
+>[!NOTE]
+>
+>適用されたフィルターは、[!DNL Insights] のすべてのビューで保持されます。 広告テーブルまたはギャラリーの上にある「**[!UICONTROL すべてクリア]**」を選択すると、選択したすべてのフィルターが削除されます。
+
+### テーブル結果のダウンロード
 
 {{$include /help/_includes/download-insights.md}}
 
