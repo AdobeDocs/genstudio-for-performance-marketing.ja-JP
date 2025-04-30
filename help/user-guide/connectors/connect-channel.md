@@ -5,9 +5,9 @@ level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: af354448ef609db3c51026ee0e9991ac5cedeba5
+source-git-commit: cf4be61925761c9630cb8ea5c995d017b3938a31
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -59,12 +59,32 @@ _[!UICONTROL Google Campaign Manager 360 アカウント]_ ビューには、`Ac
 
 ### メタ広告接続
 
+_メタビジネス_ プロファイルをGenStudio for Performance Marketingに接続すると、ビジネスページ、メタ広告アカウント、その他のメタアセットの広告データにシームレスにアクセスできます。
+
 >[!BEGINSHADEBOX]
 
 **前提条件**:
 
-- Facebook/メタ広告アカウント
-- レポートへのアクセスと広告の表示 `View performance` 行う権限レベルを持つメタ広告アカウントへのアクセス
+- メタ広告アカウントや Facebook ビジネスプロファイルなどのすべてのメタサービスにアクセスできる Facebook/メタログイン
+- レポートへのアクセスと広告の表示 `View performance` 行う、次のような権限レベルを持つメタ広告アカウントにアクセスします
+   - [!DNL Insights] で使用するために必要な権限：
+
+      - `pages_show_list`
+      - `ads_read`
+      - `ads_management`
+      - `pages_read_engagement`
+
+   - [!DNL Activate] で使用するために必要な権限：
+
+      - `ads_management`
+      - `ads_read`
+      - `business_management`
+      - `instagram_basic`
+      - `instagram_content_publish`
+      - `pages_manage_ads`
+      - `pages_manage_posts`
+      - `pages_show_list`
+
 - ブラウザーでポップアップブロッカーを削除します
 
 >[!ENDSHADEBOX]
@@ -77,19 +97,26 @@ _[!UICONTROL Google Campaign Manager 360 アカウント]_ ビューには、`Ac
 
    ポップアップ ブロックを削除してから、[**[!UICONTROL 更新]**] を使用して再試行してください。
 
-1. Facebook 認証の手順に従います。
+1. Facebook 認証の手順に従い、アカウント情報を確認して、「**[!UICONTROL 次のユーザーとして続行]**」をクリックします。
 
-1. _[!UICONTROL Facebook Login for Business]_ ポップアップ（Meta to Adobe シンボル）で、以下の選択項目を順に実行します。
+1. _[!UICONTROL ビジネス向けの Facebook ログイン]_ （Meta からAdobeへのシンボル）で、次の選択を順を追ってGenStudio for Performance Marketing アクセスを付与します。
 
-   - アカウント情報を確認し、「**[!UICONTROL 次の形式で続行]**」をクリックします
-   - 選択したページへのアクセス権を付与し、「**[!UICONTROL 続行]**」をクリックします
-   - 一部のビジネスへのアクセス権を付与し、「**[!UICONTROL 続行]**」をクリックします
-   - 1 つ以上の Instagram アカウントをオプトインし、**[!UICONTROL 続行]** をクリックします
+   - 1 つ以上のメタビジネスプロファイルを選択し、「**[!UICONTROL 続行]**」をクリックします
+   - 1 つ以上のメタページを選択し、「**[!UICONTROL 続行]**」をクリックします。
+   - 1 つ以上の Instagram アカウントを選択し、**[!UICONTROL 続行]** をクリックします
    - 選択内容を確認し、「**[!UICONTROL 保存]**」をクリックします
 
-1. _[!UICONTROL メタ広告]_ 表示で、1 つ以上のアカウントを選択し、**[!UICONTROL 選択]** をクリックします。
+1. アカウントが接続されていることを確認したら、**[!UICONTROL 取得]** をクリックします。
 
-_[!UICONTROL メタ広告アカウント]_ ビューには、`Account name`、`Added by`、`Date added` および `Status` が一覧表示されます。 リストにさらにアカウントを追加するには、「**[!UICONTROL アカウントを追加]**」を使用します。
+   この手順により、最適なパフォーマンスを得るために、GenStudio for Performance Marketingがすべての広告、メタデータおよび指標にアクセスできるようにします。
+
+1. _[!UICONTROL メタ広告]_ で、[!DNL Insights] に含める 1 つ以上のアカウントを選択し、**[!UICONTROL 選択]** をクリックします。
+
+1. _Platform に接続_ 確認が表示されたら、「**[!UICONTROL アカウントを表示]**」をクリックします。
+
+   _[!UICONTROL メタ広告アカウント]_ ビューには、`Account name`、`Added by`、`Date added` および `Status` が一覧表示されます。
+
+リストにさらにアカウントを追加するには、「**[!UICONTROL アカウントを追加]**」を使用します。 同じメタビジネスプロファイルにリンクされたアカウントを追加する場合、承認フローが若干異なる場合があります。 接続プロセスでは、新しい Meta Ads アカウントのみを選択します。
 
 ## データ取り込み
 
