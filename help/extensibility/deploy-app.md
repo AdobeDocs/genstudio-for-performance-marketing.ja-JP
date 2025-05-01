@@ -3,7 +3,7 @@ title: App Builder アプリケーションのデプロイ
 description: GenStudio for Performance Marketing用のApp Builder アプリまたはアドオンをデプロイします。
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
-source-git-commit: 52e8e078bc013fe686b5cc2105089f7098cce575
+source-git-commit: 6fef5933421a56cf9f77c19bc198f017ee6c117e
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -13,7 +13,6 @@ ht-degree: 0%
 # アプリのデプロイ
 
 アプリを実行すると、デプロイ前にアドオンの動作の予備スナップショットが得られます。 この情報はデバッグを容易にします。 アプリケーションを承認用に再送信しなくても、デプロイ済みのアプリケーションのビルドとデプロイメントを強制できます。
-
 
 **アプリを実行するには**:
 
