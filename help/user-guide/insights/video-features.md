@@ -23,7 +23,7 @@ GenStudio for Performance Marketingのオーディオ検出では、ビデオの
 
 **ビデオをプレビューしてオーディオのサンプルを再生するには**:
 
-1. _[!DNL Insights]_で、**[!UICONTROL 属性]**ビューを選択します。
+1. _[!DNL Insights]_&#x200B;で、**[!UICONTROL 属性]**&#x200B;ビューを選択します。
 
 1. **[!UICONTROL ビデオ]** を選択して、テーブルの表示を変更します。
 

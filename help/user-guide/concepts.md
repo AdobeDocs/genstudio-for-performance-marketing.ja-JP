@@ -39,7 +39,7 @@ GenStudio for Performance Marketingでは、Azure OpenAI.<!-- Claude, and Gemini
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_は、[Adobe GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) で定義されているように、GenStudio for Performance Marketing内での生成 AI 機能の使用を定量化するユニットです。
+_[!DNL Generative Actions]_&#x200B;は、[Adobe GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) で定義されているように、GenStudio for Performance Marketing内での生成 AI 機能の使用を定量化するユニットです。
 
 <!-- Add example about usage mode?
 Where users check how many generative actions they have left

@@ -124,4 +124,4 @@ App Builder アプリケーションの主要なコンポーネントには、�
   rm -rf node_modules package-lock.json && npm i
   ```
 
-* GenStudio UIX SDKをアップグレードします。 最新バージョンの [GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk) を使用していることを確認してください。 最新のGenStudioの変更内容の使用方法については ](https://github.com/adobe/genstudio-uix-examples)[SDK UIX のサンプルリポジトリを参照してください。
+* GenStudio UIX SDKをアップグレードします。 最新バージョンの [GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk) を使用していることを確認してください。 最新のGenStudioの変更内容の使用方法については [&#128279;](https://github.com/adobe/genstudio-uix-examples)SDK UIX のサンプルリポジトリを参照してください。

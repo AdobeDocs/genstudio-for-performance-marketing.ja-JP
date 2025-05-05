@@ -16,7 +16,7 @@ ht-degree: 57%
 # パフォーマンスマーケティング用の Adobe GenStudio 拡張機能ガイド {#ext-guide}
 
 + [拡張機能ガイド](home.md)
-+ {#get-started} の基本を学ぶ
++ の基本を学ぶ{#get-started}
    + [概要](overview.md)
 + アプリ開発 {#apps}
    + [App Builder プロジェクトの作成](create-project.md)

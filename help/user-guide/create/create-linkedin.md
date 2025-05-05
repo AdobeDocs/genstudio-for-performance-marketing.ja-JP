@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # LinkedIn エクスペリエンスの作成
 
-このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン ](/help/user-guide/create/meta-experiences.md) を使用して、ブランドガイドラインに準拠した [LinkedIn エクスペリエンス）を生成する方法を説明します。
+このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン [&#128279;](/help/user-guide/create/meta-experiences.md) を使用して、ブランドガイドラインに準拠した LinkedIn エクスペリエンス）を生成する方法を説明します。
 
 LinkedIn 広告の作成を開始する前に、GenStudio for Performance Marketingで [ ガイドラインの追加 ](/help/user-guide/guidelines/add-guidelines.md) を行い、[ プロンプトの作成 ](/help/user-guide/effective-prompts.md) の基本を学習することが重要です。
 
@@ -26,7 +26,7 @@ LinkedIn 広告の作成を開始する前に、GenStudio for Performance Market
 
 **LinkedIn テンプレートを選択するには**:
 
-1. _[!DNL Create]_で&#x200B;**[!UICONTROL LinkedIn]**をクリックします。
+1. _[!DNL Create]_&#x200B;で&#x200B;**[!UICONTROL LinkedIn]**&#x200B;をクリックします。
 1. _フィルター_ の横にある検索オプションを使用して、特定のテンプレートを検索します。
 1. クリックしてテンプレートを選択し、**[!UICONTROL 使用]** をクリックします。
 
@@ -81,7 +81,7 @@ LinkedIn 広告の作成を開始する前に、GenStudio for Performance Market
 * **LinkedIn とドラフトの名前を [ 編集](/help/user-guide/create/manage-variants.md#change-draft-name)** するには、キャンバスの上部にある _名称未設定のドラフト_ タイトルをクリックして、新しいタイトルを入力します。
 * **LinkedIn 広告を [ 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、任意の広告セクション（件名行、ヘッダー、本文コピーなど）をクリックし、必要に応じて編集します。
 * **コールトゥアクションを変更または選択するには**、「call-to-action」ボタンをクリックし、使用可能なボタンテキストオプションから選択します。 _リンク_ に、call-to-actionテキストの URL を入力します。
-* **バリアントのセクションを [ 再生成](/help/user-guide/create/manage-variants.md#re-generate-sections)** するには、編集可能なテキストフィールドをクリックして _[!UICONTROL 編集候補]_ オプションを使用するか、_[!UICONTROL Generate new text_ セクションに新しいプロンプトを入力して ]**[!UICONTROL Generate]** をクリックします。
+* **バリアントのセクションを [ 再生成](/help/user-guide/create/manage-variants.md#re-generate-sections)** するには、編集可能なテキストフィールドをクリックして _[!UICONTROL 編集候補]_ オプションを使用するか、_[!UICONTROL Generate new text_ セクションに新しいプロンプトを入力して &#x200B;]&#x200B;**[!UICONTROL Generate]** をクリックします。
 * **画像を [ 切り抜きまたは再配置](/help/user-guide/create/manage-variants.md#crop-assets)** するには、画像の上にマウスポインターを置き、表示される切り抜きアイコンをクリックし、画像のサイズと配置を調整します。
 * **LinkedIn 広告を [ 削除](/help/user-guide/create/manage-variants.md#delete-variant)** するには、バリアントのオプションメニューをクリックし、**[!UICONTROL バリアントを削除]** をクリックします。
 
@@ -121,7 +121,7 @@ LinkedIn 広告の作成を開始する前に、GenStudio for Performance Market
 
 ## エクスペリエンスの公開と書き出し
 
-生成した LinkedIn 広告を現在および将来の使用で利用できるようにするには、広告を [!UICONTROL  コンテンツ ] に公開し、マーケティングキャンペーンで使用するために書き出します。
+生成した LinkedIn 広告を現在および将来の使用で利用できるようにするには、広告を [!UICONTROL &#x200B; コンテンツ &#x200B;] に公開し、マーケティングキャンペーンで使用するために書き出します。
 
 1. **新しいエクスペリエンスを公開するには** 上部のツールバーまたは承認フロー内の **[!UICONTROL 公開]** をクリックします。
 1. **新しいエクスペリエンスを書き出すには**、上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。

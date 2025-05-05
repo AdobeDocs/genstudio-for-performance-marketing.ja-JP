@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 有料メディアアカウントの接続
 
-GenStudio for Performance Marketing _[!DNL Data connectors]_有料メディアネットワークアカウントとのシームレスな統合を有効にします。 サードパーティのチャネルアカウントに接続することで、[[!DNL Insights]](/help/user-guide/insights/overview.md) でのキャンペーンのパフォーマンス指標などの重要なデータを交換し、[[!DNL Activate]](/help/user-guide/activation/overview.md) で新しい広告プレースメントを配信できます。 この統合により、GenStudio for Performance Marketingでは、アクティブなキャンペーンからインプレッション数、クリック数、コンバージョン数などの貴重なインサイトを受け取りながら、メディアおよび広告を管理できます。
+GenStudio for Performance Marketing _[!DNL Data connectors]_&#x200B;有料メディアネットワークアカウントとのシームレスな統合を有効にします。 サードパーティのチャネルアカウントに接続することで、[[!DNL Insights]](/help/user-guide/insights/overview.md) でのキャンペーンのパフォーマンス指標などの重要なデータを交換し、[[!DNL Activate]](/help/user-guide/activation/overview.md) で新しい広告プレースメントを配信できます。 この統合により、GenStudio for Performance Marketingでは、アクティブなキャンペーンからインプレッション数、クリック数、コンバージョン数などの貴重なインサイトを受け取りながら、メディアおよび広告を管理できます。
 
 **有料メディアアカウントに接続するには**:
 

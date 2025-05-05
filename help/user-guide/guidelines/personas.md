@@ -19,7 +19,7 @@ GenStudio for Performance Marketingでは、ガイドライン（[[!DNL Brands]�
 **ペルソナの表示または変更**:
 
 1. 左側のナビゲーション領域で、「**[!UICONTROL ペルソナ]**」をクリックします。
-1. [ 個々の詳細の表示またはペルソナの変更 ](add-guidelines.md#manage-personas) を行うには、_[!DNL Personas]_のアクションメニューをクリックして&#x200B;**開く**を選択します。
+1. [ 個々の詳細の表示またはペルソナの変更 ](add-guidelines.md#manage-personas) を行うには、_[!DNL Personas]_&#x200B;のアクションメニューをクリックして&#x200B;**開く**&#x200B;を選択します。
 1. ガイドラインカテゴリのテキストフィールドをクリックして、ペルソナのガイドラインを修正します。
 
 GenStudio for Performance Marketingでペルソナを追加または変更する方法については、[ ガイドラインの追加 ](add-guidelines.md) を参照してください。

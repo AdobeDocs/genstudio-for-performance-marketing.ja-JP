@@ -18,7 +18,7 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 
 **アセットの詳細を表示するには**:
 
-1. _[!DNL Content]_で、アセット、エクスペリエンスまたはテンプレートを選択します。 アセットをクリックすると、そのアセットのフォーカスされたビューが開きます。
+1. _[!DNL Content]_&#x200B;で、アセット、エクスペリエンスまたはテンプレートを選択します。 アセットをクリックすると、そのアセットのフォーカスされたビューが開きます。
 
 1. アセット表示で、右側の _[!UICONTROL 詳細]_ セクションを確認します。
 
@@ -42,7 +42,7 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 
 承認済みのアセットを [!DNL Content] に保存すると、GenStudio for Performance MarketingはAdobeの AI と機械学習機能を使用してアセットを調査し、アセットの機能に基づいてタグを適用します。 例えば、猫の画像では、`pet photography` や `cat` などの属性タグや、画像内で支配的な色を識別するカラータグが生成される場合があります。 検出され、自動的に適用されたタグは編集できません。
 
-画像、ビデオおよびテキスト機能の詳細なリストについては、[!DNL Insights] 属性カテゴリ ](/help/user-guide/insights/attributes.md#categories) を参照してください [ 属性カテゴリ）。
+画像、ビデオおよびテキスト機能の詳細なリストについては、[!DNL Insights] 属性カテゴリ [&#128279;](/help/user-guide/insights/attributes.md#categories) を参照してください  属性カテゴリ）。
 
 ### 生成されたコンテンツメタデータ
 
@@ -56,7 +56,7 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 
 **ユーザー定義のメタデータを編集するには**:
 
-1. _[!DNL Content]_で、アセット、エクスペリエンスまたはテンプレートを選択します。 アセットをクリックすると、そのアセットのフォーカスされたビューが開きます。
+1. _[!DNL Content]_&#x200B;で、アセット、エクスペリエンスまたはテンプレートを選択します。 アセットをクリックすると、そのアセットのフォーカスされたビューが開きます。
 
 1. アセット表示で、右側の _[!UICONTROL 詳細]_ セクションを確認します。
 
@@ -76,7 +76,7 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) がGenStudio for Performance Marketingに追加されて使用されるようになりました |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) がGenStudio for Performance Marketingに追加されて使用されるようになりました |
 | チャネル | メール、バナー、ディスプレイ広告など、特定のコンテンツタイプを配信するプラットフォーム |
-| [!UICONTROL  期間 ] | 四半期、シーズン、年など、アセットを使用する時間枠。 例：`Winter 2023` |
+| [!UICONTROL &#x200B; 期間 &#x200B;] | 四半期、シーズン、年など、アセットを使用する時間枠。 例：`Winter 2023` |
 | 地域  | アセットが使用される地域。 例：`North America`, `APAC`, `Italy` |
 | 言語 | アセットを使用する言語。 例：`Spanish` |
 | キーワード | ユーザー定義のキーワードは、アセットの特徴や目的をさらに特定するために使用されます |
@@ -87,7 +87,7 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 
 ## 生成コンテキスト
 
-[!UICONTROL  生成コンテキスト ] セクションには、エクスペリエンスプロセス中に使用された `Prompt` など、エクスペリエンスの生成に使用された情報が表示 [!DNL Create] れます。 このインサイトは、より成功したバリアントを構築するのに役立つ可能性があります。
+[!UICONTROL &#x200B; 生成コンテキスト &#x200B;] セクションには、エクスペリエンスプロセス中に使用された `Prompt` など、エクスペリエンスの生成に使用された情報が表示 [!DNL Create] れます。 このインサイトは、より成功したバリアントを構築するのに役立つ可能性があります。
 
 情報には次が含まれる場合があります。
 

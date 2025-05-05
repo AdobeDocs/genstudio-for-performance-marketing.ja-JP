@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Adobe GenStudio for Performance Marketingでは、生成 AI を活用して [ 成功するバナーエクスペリエンスの作成 ](/help/user-guide/create/create-banner-experience.md) を強化できます。
 
-[!DNL Create] を使用すると、現代のマーケターは [ ガイドライン [、画像アセット、および ](/help/user-guide/create/create-banner-experience.md) 適切に作成されたプロンプト ](/help/user-guide/guidelines/overview.md) を利用して、[ 包括的なバナーエクスペリエンスを作成 ](/help/user-guide/effective-prompts.md) できます。
+[!DNL Create] を使用すると、現代のマーケターは [&#128279;](/help/user-guide/guidelines/overview.md) ガイドライン [、画像アセット、および ](/help/user-guide/create/create-banner-experience.md) 適切に作成されたプロンプト  を利用して、[ 包括的なバナーエクスペリエンスを作成 ](/help/user-guide/effective-prompts.md) できます。
 
 バナーエクスペリエンスを生成すると、4 つのバリエーションが作成され、キャンバスに表示されます。
 

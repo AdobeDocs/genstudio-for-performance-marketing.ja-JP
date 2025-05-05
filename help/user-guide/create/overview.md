@@ -127,7 +127,7 @@ AI で生成されたコンテンツを作成するには、生成するコン�
 
 ### コンテンツチェック
 
-GenStudio for Performance Marketingは、各バリアントに対して [ ブランドガイドライン [ ](/help/user-guide/guidelines/brands.md)、platform ガイドラインおよび [ アクセシビリティ標準 ](/help/user-guide/guidelines/overview.md#compliance) に照らしたコンテンツチェック ](/help/user-guide/guidelines/brand-validation.md#content-check-panel) を実行し、[!DNL Brand]、platform およびアクセシビリティの各標準を最大限に満たすようにします。 [ コンテンツチェック ](/help/user-guide/guidelines/brand-validation.md#content-check-summary) 生成された任意のコンテンツに関する情報を利用でき、包括的なコンテンツチェックおよびテキストと画像の一貫性に対する準拠を示します。 この情報を使用して、生成されたエクスペリエンスを改訂または改善し、ブランドとさらに良く一致させることができます。
+GenStudio for Performance Marketingは、各バリアントに対して [&#128279;](/help/user-guide/guidelines/brand-validation.md#content-check-panel) ブランドガイドライン [&#128279;](/help/user-guide/guidelines/brands.md)、platform ガイドラインおよび [ アクセシビリティ標準 ](/help/user-guide/guidelines/overview.md#compliance) に照らしたコンテンツチェック  を実行し、[!DNL Brand]、platform およびアクセシビリティの各標準を最大限に満たすようにします。 [ コンテンツチェック ](/help/user-guide/guidelines/brand-validation.md#content-check-summary) 生成された任意のコンテンツに関する情報を利用でき、包括的なコンテンツチェックおよびテキストと画像の一貫性に対する準拠を示します。 この情報を使用して、生成されたエクスペリエンスを改訂または改善し、ブランドとさらに良く一致させることができます。
 
 ### レビューと承認
 
