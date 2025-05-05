@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # コンテンツを承認
 
-承認者は、レビューと承認が必要な際に、製品内通知、メールおよび有効になっている場合はSlack通知を受け取ります。 通知には、レビュー中のコンテンツを表示するキャンバスへのリンクが表示されます。 通知の管理について詳しくは、[ アカウント環境設定と通知 ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences) を参照してください。
+承認者は、レビューと承認が必要な際に、製品内通知、メールおよび有効になっている場合はSlack通知を受け取ります。 通知には、レビュー中のコンテンツを表示するキャンバスへのリンクが表示されます。 通知の管理について詳しくは、[ アカウント環境設定と通知 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences) を参照してください。
 
 コンテンツドラフトが組織の標準と期待を満たしている場合は、ドラフトを承認する準備が整います。
 

@@ -39,7 +39,7 @@ GenStudio for Performance Marketingを確実に動作させるために必要な
 - AEP接続：`GS Insights` プレフィックスが付いたデータフロー
 - AEP Connections:GS Insights アカウント
 
-AEPでデータコンポーネントを削除する前に、_Customer Journey Analytics_ ガイドの [ 影響の削除 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) を参照してください。
+AEPでデータコンポーネントを削除する前に、_Customer Journey Analytics_ ガイドの [ 影響の削除 ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/deletion) を参照してください。
 
 >[!ENDSHADEBOX]
 

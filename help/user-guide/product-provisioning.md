@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Adobe GenStudio for Performance Marketingのプロビジョニング
 
-Adobe システム管理者は、[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) で初期プロビジョニングタスクを実行します。 Admin Consoleから、Adobe システム管理者がGenStudio製品プロファイルにアクセスして、使用可能な製品ライセンスをユーザーに割り当てることができます。
+Adobe システム管理者は、[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html#Overview) で初期プロビジョニングタスクを実行します。 Admin Consoleから、Adobe システム管理者がGenStudio製品プロファイルにアクセスして、使用可能な製品ライセンスをユーザーに割り当てることができます。
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Admin Console内で、製品プロファイルは、GenStudio for Performance Ma
 
 **GenStudio製品プロファイルにアクセスするには**
 
-1. お知らせメールの **使用を開始** リンクをクリックして、[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) に移動します。
+1. お知らせメールの **使用を開始** リンクをクリックして、[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html#Overview) に移動します。
 
 1. Adobe IDを使用してAdmin Consoleにログインします。
 
@@ -62,7 +62,7 @@ GenStudio for Performance Marketing ユーザーの役割を割り当てる方�
 
 ユーザーを個別に追加することも、複数のユーザーのアカウント情報を読み込むこともできます。
 
-* [ ユーザーを個別に管理 ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users)
+* [ ユーザーを個別に管理 ](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html#add-users)
 
 * [ 複数のユーザーの管理/CSV の一括アップロード ](https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html)
 
