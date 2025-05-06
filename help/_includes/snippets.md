@@ -1,7 +1,7 @@
 ---
-source-git-commit: 9362ed03a54d5cbd661a2f278096b3a1fd692e36
+source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ ht-degree: 0%
 >
 >[Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy) で、このトピックに関するスキルを強化しましょう。
 
-## 空のテーブルに関するヒント {#empty-table}
+## テーブルのフィルタリングに関するヒント {#filter-table}
 
 >[!TIP]
 >
->`No results found` しいメッセージが表示された場合 選択を変更したり、すべてのフィルターをクリアしたり、日付範囲を広げたりして、フィルターを調整します。
+>結果が多すぎるか、`No results found` しいメッセージが表示される 選択内容を変更したり、すべてのフィルターをクリアしたり、日付範囲を調整したりして、フィルターを調整します。 動的で多用途のフィルター機能について詳しくは、[ インサイトビューのフィルター ](/help/user-guide/insights/filter-views.md) を参照してください。
