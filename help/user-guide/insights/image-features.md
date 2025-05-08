@@ -27,7 +27,7 @@ _画像スタイル_ を決定することは、他の画像特性を識別す�
 
 **特定の属性カテゴリの画像を表示するには**:
 
-1. _[!DNL Insights]_で、**[!UICONTROL 属性]**ビューを選択します。
+1. _[!DNL Insights]_&#x200B;で、**[!UICONTROL 属性]**&#x200B;ビューを選択します。
 
 1. 「**[!UICONTROL イメージ]**」を選択して、テーブル表示を変更します。
 
@@ -48,7 +48,7 @@ _画像スタイル_ を決定することは、他の画像特性を識別す�
 | 注意分布 | ビューアの注意のレベルは、画像に広がり、画像の様々な領域がどのくらいフォーカスを受け取るかを示します。 高い値に設定すると、焦点を合わせる領域が 1 つもなくなり、低い値に設定すると、1 つまたは 2 つの焦点位置に視聴者の注意が引かれます。 | `high`、`medium`、`low`<p>左側に `low` 分布の例、右側に `high` 分布の例：<p>![ 低分布および高分布のボールプレイ ](/help/assets/category/image-attn-lowhigh.png " 低分布および高分布の違い "){width="200" zoomable="yes"} |
 | カメラアングル | カメラが被写体を捉える遠近感は、見る人のイメージやイメージの見方を左右します。 画像スタイルが `photograph` の場合、この特性が識別されます。 | `Low angle`、`High angle`、`Eye level`、`Neutral angle`、`Overhead view`、`Bird's eye view`<p>`Overhead view` の例：<p>![ オーバーヘッドビュー ](/help/assets/category/image-camera-angle.png " オーバーヘッドからのショートパンツのペア "){width="200" zoomable="yes"} |
 | カメラ設定 | 最終的なイメージの外観と画質に影響する、カメラのコントロールの特定の調整と設定。 画像スタイルが `photograph` の場合、この特性が識別されます。 | `Fast shutter speed`、`Long exposure`、`Bokeh blur`、`Motion blur`、`Tilt-shift blur`、`Flash`、`Wide-angle`、`Black and white`、`Double-exposure`、`Macro`、`Normal mode`<p>`Fast shutter speed` 設定の例：<p>![ 高速シャッタースピード ](/help/assets/category/image-camera-setting.png " 波に乗るサーフィン "){width="200" zoomable="yes"} |
-| カラーとトーン | 画像内のカラーと色調の品質。 異なる画像レイヤーの 40 色の事前定義済みセットから最大 3 色を識別します。<p>**[!UICONTROL 前景色]** – 画像の前面レイヤーの色 <br>**[!UICONTROL  背景色 ]**– 画像の背面レイヤーの色 | カラー値：`Red`、`Dark Red`、`Green`、`Bright Green`、`Dark Green`、`Light Green`、`Mud Green`、`Blue`、`Dark Blue`、`Light Blue`、`Royal Blue`、`Black`、`White`、`Off White`、`Gray`、`Yellow`、`Dark Gray`、`Silver`、`Cream`、`Magenta`、`Cyan`、`Mustard`、`Khaki` `Brown` `Dark Brown` `Violet` `Pink` `Dark Pink` `Maroon` `Tan` `Purple` `Lavender` `Turquoise` `Plum` `Gold` `Emerald` `Orange` `Beige` `Lilac` `Olive` |
+| カラーとトーン | 画像内のカラーと色調の品質。 異なる画像レイヤーの 40 色の事前定義済みセットから最大 3 色を識別します。<p>**[!UICONTROL 前景色]** – 画像の前面レイヤーの色 <br>**[!UICONTROL &#x200B; 背景色 &#x200B;]**– 画像の背面レイヤーの色 | カラー値：`Red`、`Dark Red`、`Green`、`Bright Green`、`Dark Green`、`Light Green`、`Mud Green`、`Blue`、`Dark Blue`、`Light Blue`、`Royal Blue`、`Black`、`White`、`Off White`、`Gray`、`Yellow`、`Dark Gray`、`Silver`、`Cream`、`Magenta`、`Cyan`、`Mustard`、`Khaki` `Brown` `Dark Brown` `Violet` `Pink` `Dark Pink` `Maroon` `Tan` `Purple` `Lavender` `Turquoise` `Plum` `Gold` `Emerald` `Orange` `Beige` `Lilac` `Olive` |
 | 色温度 | 画像内の色の一般的な暖かさや涼しさを表します。 | トーンまたは温度の値：`warm`、`cool`、`neutral`<br>![ カラーおよびクールなトーン ](/help/assets/category/image-color-temp.png " クールな背景と複数のカラーオブジェクトを備えたカラー温度 "){width="200" zoomable="yes"} |
 | コンテンツ密度 | 画像内の視覚要素と詳細の集中。視覚空間にどれだけの情報が詰められているかを示します。<p>画像の様々な領域に視聴者の焦点がどのように広がっているかを測定する注意分布とは異なり、コンテンツ密度は、存在する視覚情報の量に焦点を当てます。 コンテンツ密度が高いほど、存在する要素が多くなります。 | `high`、`medium`、`low`<p>左側の `low` 密度と右側の `high` 密度の例：<p>![ 低密度および高密度のボールプレイ ](/help/assets/category/image-attn-lowhigh.png " 低密度および高密度の違い "){width="200" zoomable="yes"} |
 | 画像スタイル | 写真やスケッチなどの画像の視覚的処理。 AI が画像スタイルを判断すると、他の特性が識別される場合があります。 例えば、画像が写真の場合、カメラ設定、カメラの近接性、照明条件が適用される場合があります。 | `Photograph`、`Photograph with text overlay`、`Sketch`、`Painting`、`Digital cartoon`、`Infographics`、`Graphic design`、`Collage`、`Software screenshot`<p>`digital cartoon` 画スタイルの例 ![ 漫画イメージスタイル ](/help/assets/category/image-style.png " 猫のイメージスタイル漫画 "){width="200" zoomable="yes"} |
