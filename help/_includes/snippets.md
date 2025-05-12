@@ -1,7 +1,7 @@
 ---
-source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
+source-git-commit: e46f074381e76c48827bcf12b46ed8f063a3cd52
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->GenStudio for Performance Marketingでデータを受信するには、チャネルアカウントに接続する必要があります。 [ チャネルアカウントの接続 ](/help/user-guide/connectors/connect-channel.md) を参照してください。
+>GenStudio for Performance Marketingでデータを受信するには、チャネルアカウントに接続する必要があります。 [ 有料メディアアカウントの接続 ](/help/user-guide/connectors/connect-channel.md) を参照してください。
 
 ## メモ AEM Assets {#note-aem-assets}
 

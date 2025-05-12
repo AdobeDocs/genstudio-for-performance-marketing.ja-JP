@@ -6,7 +6,7 @@ level: Experienced
 role: Admin, Data Architect
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
+source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -39,7 +39,7 @@ GenStudio for Performance Marketingを確実に動作させるために必要な
 - AEP接続：`GS Insights` プレフィックスが付いたデータフロー
 - AEP Connections:GS Insights アカウント
 
-AEPでデータコンポーネントを削除する前に、_Customer Journey Analytics_ ガイドの [ 影響の削除 ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/deletion) を参照してください。
+AEPでデータコンポーネントを削除する前に、_Customer Journey Analytics_ ガイドの [ 影響の削除 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -47,4 +47,4 @@ AEPでデータコンポーネントを削除する前に、_Customer Journey An
 
 GenStudio for Performance Marketingはチャネルデータを 13 か月間保持します。 この保持ポリシーには、最初の接続中に取り込まれた 6 か月のデータが含まれており、包括的な履歴データの分析とレポートを確実に行います。
 
-[ チャネル広告アカウントの接続 ](/help/user-guide/connectors/connect-channel.md) を参照してください。
+[ 有料メディアアカウントの接続 ](/help/user-guide/connectors/connect-channel.md) を参照してください。
