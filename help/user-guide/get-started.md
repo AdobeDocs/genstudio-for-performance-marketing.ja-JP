@@ -18,7 +18,7 @@ Adobe GenStudio for Performance Marketingは、コンテンツの作成、管理
 
 ## コンテンツの作成、共有、レビューを開始
 
-ジェネレーティブ AI ベースのツールを初めて使用する場合、またはGenStudio for Performance Marketingの基本原則に興味がある場合は、[ 概念 ](concepts.md) および [ 効果的なプロンプトの記述 ](effective-prompts.md) を参照してください。 クリエイティブなプロセスでジェネレーティブ AI テクノロジーを活用する方法については、Adobeのオンライン ラーニング プラットフォームである ](https://learningmanager.adobe.com/genstudioacademy)0}Adobe GenStudio Academy} をご覧ください。[
+ジェネレーティブ AI ベースのツールを初めて使用する場合、またはGenStudio for Performance Marketingの基本原則に興味がある場合は、[ 概念 ](concepts.md) および [ 効果的なプロンプトの記述 ](effective-prompts.md) を参照してください。 クリエイティブなプロセスでジェネレーティブ AI テクノロジーを活用する方法については、Adobeのオンライン ラーニング プラットフォームである [&#128279;](https://learningmanager.adobe.com/genstudioacademy)0&rbrace;Adobe GenStudio Academy&rbrace; をご覧ください。
 
 ## GenStudio for Performance Marketingのトレーニング
 
