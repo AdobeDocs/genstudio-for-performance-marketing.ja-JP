@@ -1,7 +1,7 @@
 ---
-source-git-commit: e46f074381e76c48827bcf12b46ed8f063a3cd52
+source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,12 @@ ht-degree: 0%
 >[!TIP]
 >
 >GenStudio for Performance Marketingでデータを受信するには、チャネルアカウントに接続する必要があります。 [ 有料メディアアカウントの接続 ](/help/user-guide/connectors/connect-channel.md) を参照してください。
+
+## CSS 効果に関する注意事項 {#note-css-effects}
+
+>[!NOTE]
+>
+>GenStudio for Performance Marketingは、`backdrop-filter` フィルター効果（ぼかし、明るさ、コントラスト）など、特定の CSS グラフィック効果をサポートしていません。 テンプレートでこれらのプロパティを使用している場合、書き出されたコンテンツで期待どおりに表示されないことがあります。
 
 ## メモ AEM Assets {#note-aem-assets}
 

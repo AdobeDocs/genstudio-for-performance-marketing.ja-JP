@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
+source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -48,6 +48,8 @@ GenStudio for Performance Marketingでテンプレートを使用する前に、
 - クリーンでレスポンシブなHTMLとインライン CSS の使用
 - AdobeまたはGoogle フォントの使用
 - JavaScript **使用しない**
+
+{{note-css-effects}}
 
 最適なパフォーマンスと互換性を確保するために、各テンプレートタイプを使用する際には次のヒントと制約を考慮してください。
 
