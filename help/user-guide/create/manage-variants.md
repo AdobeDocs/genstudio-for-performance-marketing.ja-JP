@@ -3,9 +3,9 @@ title: バリアントの管理
 description: 生成されるバリアントとアセットをカスタマイズし、デジタルマーケティングのニーズに合わせて強化します。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 8d4442a3eb9aaf500b3a0a249031214337caf0ff
+source-git-commit: 09a8af603945686ad58e3edc6a5c77d79fdf2956
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生
 **バリアントのレイヤーを表示するには**:
 
 1. バリアントのセットを生成したら、バリアント内の編集可能なフィールドまたは画像をクリックします。
-1. _[!UICONTROL ビューレイヤ]_&rbrack; をクリックします。
+1. _[!UICONTROL ビューレイヤ]_] をクリックします。
 1. をクリックして、リストから画層を選択します。 バリアントで選択したレイヤーがハイライト表示されます。
 
    選択したレイヤーに必要な編集を加えます。
@@ -69,7 +69,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
    バリアントが、改訂されたテキストで更新されます。
 
-## コールトゥアクションの修正
+## call to actionの改訂
 
 バリアントのセットを生成したら、call-to-action（CTA）のテキストとリンクを変更できます。
 
@@ -155,7 +155,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 1. **[!UICONTROL コンテンツから入れ替え]** アイコンをクリックします。
 1. GenStudio Assets [!DNL Content] ビューのフィルターと検索機能を使用して、検索結果をさらに絞り込みます。
 
-   また、（場所 &rbrack;**メニューから選択すると、Connected Adobe Experience Manager（AEM）Assets Content Hub リポジトリで使用可能な画像を使用す &lbrack;**&#x200B;[[!UICONTROL &#x200B; こともでき &#x200B;]](/help/user-guide/content/manage-assets.md#location) す。
+   また、（場所 ]**メニューから選択すると、Connected Adobe Experience Manager（AEM）Assets Content Hub リポジトリで使用可能な画像を使用す [**[!UICONTROL  こともでき ](/help/user-guide/content/manage-assets.md#location) す。
 
 1. 画像をクリックして選択し、「**[!UICONTROL 使用]**」をクリックします。
 
@@ -176,6 +176,25 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 1. テキストフィールドにリンクを追加し、「**[!UICONTROL 適用]**」をクリックします。
 
    定義したリンクは、バリアントセット内のすべての画像に適用されます。
+
+## 画像の代替テキストの追加
+
+作成プロセス中にコンテンツ（画像）を追加する場合、含まれるすべての画像に対して代替テキストを定義できます。 画像に代替テキストを追加すると、アクセシビリティ、検索エンジンの最適化、ユーザーエクスペリエンスが向上します。
+
+代替テキスト機能を有効にするには、テンプレートに [ コンテンツプレースホルダーを追加 ](/help/user-guide/content/customize-template.md#alternative-text) します。
+
+**生成されたバリアントの画像に代替テキストを追加するには**:
+
+1. バリアントのセットを生成したら、個々のバリアント内の画像をクリックします。
+1. 「**[!UICONTROL 代替テキスト]**」ボタン（画像と紙のアイコン）をクリックします。
+1. 代替テキストを手動で追加するには：
+   1. テキストボックスをクリックして、代替テキストを追加します。
+   1. 「**[!UICONTROL 適用]**」をクリックします。
+1. 画像の代替テキストを生成するには：
+   1. テキストフィールドを空のままにして、「**[!UICONTROL 生成]**」をクリックします。
+   1. 最初の結果に満足できない場合は、もう一度 **[!UICONTROL 生成]** をクリックします。
+   1. 「**[!UICONTROL 適用]**」をクリックします。
+1. バリアントのセットに含まれる各画像に対して繰り返します。
 
 ## デバイスのプレビュー
 

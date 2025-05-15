@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
+source-git-commit: f7913f4df1ae0f8d86bdaca778d102d21b0b6c3f
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,7 @@ GenStudio for Performance Marketingと連携するようにメタ広告テンプ
 - 正方形 1:1 （1080 x 1080 ピクセル）
 - 縦 4:5 （1080 x 1350 ピクセル）
 - ストーリー 9:16 （1080 x 1920 ピクセル）
+- 横：1.91:1 （1080 ピクセル幅）
 - カスタム画像サイズ：（最小画像幅 50 x 50 ピクセル）
 
 **認識されたフィールド名**:
@@ -137,17 +138,17 @@ GenStudio for Performance Marketingと連携するようにバナーとディス
 
 **サポートされるディメンション**:
 
-- 垂直方向：（ピクセル）
+- 幅 x 高さ（ピクセル）
+- 縦：
    - 300 x 600
    - 160 x 600&#x200B;
-- 水平方向：（ピクセル）
+- 水平方向：
    - 300 x 250
    - 728 x 90
    - 336 x 280
    - 320 x 50
    - 970 x 250&#x200B;
-- カスタム：（ピクセル）
-   - 50 x 50 ～ 2000 x 2000
+- カスタム：50 x 50 ～ 2000 x 2000
 
 **認識されたフィールド名**:
 

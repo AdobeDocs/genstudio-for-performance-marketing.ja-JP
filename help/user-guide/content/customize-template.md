@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
+source-git-commit: d0fd0bd2ac98149ec4d6449a7490d55cc48d9ae2
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1480'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 生成 AI がコンテンツの挿入に使用するコンテンツプレースホルダー（フィールド）を挿入することで、GenStudio for Performance Marketingで使用するテンプレートをカスタマイズできます。
 
-以降の節では、_[!DNL Handlebars]_&#x200B;テンプレート言語を使用してHTML テンプレートをGenStudio for Performance Marketingに適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 テンプレートの準備方法については、_ Handlebars 言語ガイド _の [ 概要  [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) を参照してください。
+以降の節では、_[!DNL Handlebars]_テンプレート言語を使用してHTML テンプレートをGenStudio for Performance Marketingに適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 テンプレートの準備方法については、_ Handlebars 言語ガイド _の [ 概要  [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) を参照してください。
 
 テンプレートの準備が整ったら、[GenStudio for Performance Marketingにアップロード ](use-templates.md#upload-a-template)、カスタムテンプレートに基づいてパーソナライズされたメールの生成を開始できます。
 
@@ -47,7 +47,7 @@ HTML テンプレートの先頭または本文内では、[!DNL Handlebars] の
 | `{{sub_headline}}` | サブ見出し | メールバナ <br> とディスプレイ広告 |
 | `{{introductory_text}}` | 紹介テキスト | LinkedIn 広告 |
 | `{{body}}` | 本文コピー | メール <br> メタ広告 <br> バナーとディスプレイ広告 |
-| `{{cta}}` | コールトゥアクション <br> 関連項目 [ コールトゥアクション ](#calls-to-action) | メール <br> メタ広告 <br> バナーとディスプレイ広告 <br>LinkedIn 広告 |
+| `{{cta}}` | Call to action<br>[ コールトゥアクション ](#calls-to-action) を参照 | メール <br> メタ広告 <br> バナーとディスプレイ広告 <br>LinkedIn 広告 |
 | `{{image}}` | 画像 – [!DNL Content] から選択 | メール <br> メタ広告 <br> バナーとディスプレイ広告 <br>LinkedIn 広告 |
 | `{{on_image_text}}` | 画像テキスト上 <br>[ 画像テキスト上 ](#on-image-text) を参照してください。 | メタ広告 <br>LinkedIn 広告 |
 | `{{link}}` | 画像上のコールトゥアクション <br> 画像の [ リンク ](#link-on-image) を参照してください。 | メール |
@@ -95,7 +95,7 @@ GenStudio for Performance Marketingでは、特定のフィールドが次のテ
   <a class="button" href="{{pod1_link}}" >Register now</a>
   ```
 
-GenStudio for Performance Marketingでは、様々なコールトゥアクションフレーズを提供することもできます。 [ コールトゥアクションの修正 ](/help/user-guide/create/manage-variants.md#revise-call-to-action) を参照してください。
+GenStudio for Performance Marketingでは、様々なコールトゥアクションフレーズを提供することもできます。 [Call to actionの改訂 ](/help/user-guide/create/manage-variants.md#revise-call-to-action) を参照してください。
 
 ### 画像上のリンク
 
@@ -110,6 +110,27 @@ GenStudio for Performance Marketingでは、様々なコールトゥアクショ
 - `{{link}}` は、実際の URL のプレースホルダーです。
 - `src="image-source.jpg"` は、実際の画像ソース URL に置き換える必要があります。
 - `{{imageDescription}}` は、ユーザー定義のフィールド名で、画像の代替テキストのプレースホルダーを提供します。これは、アクセシビリティや SEO に役立ちます。
+
+### 代替テキスト
+
+ユーザー定義のフィールド名をプレースホルダーとして使用して、画像の代替テキスト（HTML `alt="text"` 属性）説明を生成します。 次の `{{imageDescription}}` プレースホルダーは、同じ `<img>` タグ内の `{{image}}` フィールドで使用され、画像とその説明の間の関係が保持されます。
+
+```html
+<img src="{{image}}" alt="{{imageDescription}}">
+```
+
+この例では、次のようになります。
+
+- `{{image}}` は、画像のソース URL のプレースホルダーです。
+- `{{imageDescription}}` は代替テキストのプレースホルダーで、アクセシビリティおよび SEO のために画像の説明が提供されます。
+
+### 画像テキスト上
+
+`{{ on_image_text }}` プレースホルダーは、エクスペリエンスの画像に直接配置された、短い影響を受けるメッセージのテキストオーバーレイを指定するために使用されます。
+
+```html
+<div class="image-text">{{ on_image_text }}</div>
+```
 
 <!-- this field does not work in Create canvas 2025/03
 
@@ -151,22 +172,14 @@ At this time, you cannot select the brand logo for the template upload. The foll
 </tbody>
 ```
 
-## 画像テキスト上
-
-`{{ on_image_text }}` プレースホルダーは、エクスペリエンスの画像に直接配置された、短い影響を受けるメッセージのテキストオーバーレイを指定するために使用されます。
-
-```html
-<div class="image-text">{{ on_image_text }}</div>
-```
-
 ## セクションまたはグループ
 
 _セクション_ このセクションのフィールドには高い一貫性が必要であることをGenStudio for Performance Marketingに伝えます。 この関係を確立すると、AI がセクションのクリエイティブ要素に一致するコンテンツを生成するのに役立ちます。
 
-フィールド名に任意の接頭辞を使用して、フィールドがセクションまたはグループの一部であることを示します。 アンダースコア（`_`）の後にフィールド名（`headline`、`body`、`image`、`cta`）を使用します。
+フィールド名に任意の接頭辞を使用して、フィールドがセクションまたはグループの一部であることを示します。 アンダースコア（`_`）の後にフィールド名（`headline`、`body`、`image`、`cta` など）を使用します。
 
-- _正解_ （??）:`pod1_body`
-- _不正確です_ （❌）: `pod1_link`
+- _正解_ （👍）:`pod1_body`
+- _不正確です_ （❌）: `pod1body`
 
 各セクションは、各フィールドタイプの 1 つのみを使用できます。 例えば、次のフィールドは「`pod1`」セクションに属しています。
 
@@ -177,9 +190,10 @@ _セクション_ このセクションのフィールドには高い一貫性�
 
 このルールのため、セクションをネストすることはできません。
 
-メールやメタ広告などの各テンプレートタイプには、セクションの使用に関するチャネル固有の制約があります。 [ テンプレート使用のベストプラクティス ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) トピックの _チャネル固有のガイドライン_ を参照してください。
+メールやメタ広告などの各テンプレートタイプには、セクションの使用に関するチャネル固有の制約があります。 [ テンプレート使用のベストプラクティス ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) トピックの _チャネル固有のガイドライン_ を参照してください。
 
 例えば、1 つのメールテンプレートに最大 3 つのセクションを含めることができます。したがって、次の 3 つのヘッドラインと本文セクションを含めることができます。
+
 
 - `pre_header`
 - `pod1_headline`
@@ -192,7 +206,9 @@ _セクション_ このセクションのフィールドには高い一貫性�
 
 GenStudio for Performance Marketingは `pod1_headline` が `pod2_body` よりも `pod1_body` と密接に関係していることを理解しています。
 
-複数セクションのメールの各セクションに対して様々なコンテンツを生成するプロンプトを作成する方法については、[ 構造化プロンプト ](/help/user-guide/effective-prompts.md#structured-prompts) を参照してください。
+>[!TIP]
+>
+>複数セクションのメールの各セクションに対して様々なコンテンツを生成するプロンプトを作成する方法については、[ 構造化プロンプト ](/help/user-guide/effective-prompts.md#structured-prompts) を参照してください。
 
 ## テンプレートのプレビュー
 

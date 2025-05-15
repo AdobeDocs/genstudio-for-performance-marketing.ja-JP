@@ -4,9 +4,9 @@ description: Adobe GenStudio for Performance Marketing [!DNL Create] のジェ�
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 4eb45ec7e845847ebac86986924bbc39aaed42c0
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '710'
 ht-degree: 1%
 
 ---
@@ -35,68 +35,131 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 ## [!DNL Create] のユースケース
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="コンテンツを新規作成" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong> メールエクスペリエンスの作成 </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="メタ広告エクスペリエンスの作成" src="../../assets/icons/icon-addContent.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong> メタ広告エクスペリエンスの作成 </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-linkedin.md">
+
       <img alt="LinkedIn 広告エクスペリエンスの作成" src="../../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-linkedin.md">
+
          <strong>LinkedIn 広告エクスペリエンスの作成 </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="ディスプレイとエクスペリエンスの作成" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong> ディスプレイ広告エクスペリエンスの作成 </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-banner-experience.md">
+
       <img alt="バナーエクスペリエンスの作成" src="../../assets/icons/icon-search.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-banner-experience.md">
+
          <strong> バナーエクスペリエンスの作成 </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/generate-assets.md">
+
       <img alt="画像の作成" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/generate-assets.md">
+
          <strong> 画像の生成 </strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketingを使用すると、マーケターは **新しいマーケティングコンテンツを作成** できます。 このユースケースでは、定義済みの [ ガイドライン ](/help/user-guide/guidelines/overview.md) とインスピレーション画像を使用して、ブランドに合わせたコンテンツの作成を通知します。
@@ -127,7 +190,7 @@ AI で生成されたコンテンツを作成するには、生成するコン�
 
 ### コンテンツチェック
 
-GenStudio for Performance Marketingは、各バリアントに対して [&#128279;](/help/user-guide/guidelines/brand-validation.md#content-check-panel) ブランドガイドライン [&#128279;](/help/user-guide/guidelines/brands.md)、platform ガイドラインおよび [ アクセシビリティ標準 ](/help/user-guide/guidelines/overview.md#compliance) に照らしたコンテンツチェック  を実行し、[!DNL Brand]、platform およびアクセシビリティの各標準を最大限に満たすようにします。 [ コンテンツチェック ](/help/user-guide/guidelines/brand-validation.md#content-check-summary) 生成された任意のコンテンツに関する情報を利用でき、包括的なコンテンツチェックおよびテキストと画像の一貫性に対する準拠を示します。 この情報を使用して、生成されたエクスペリエンスを改訂または改善し、ブランドとさらに良く一致させることができます。
+GenStudio for Performance Marketingは、各バリアントに対して [ ブランドガイドライン [ ](/help/user-guide/guidelines/brands.md)、platform ガイドラインおよび [ アクセシビリティ標準 ](/help/user-guide/guidelines/overview.md#compliance) に照らしたコンテンツチェック ](/help/user-guide/guidelines/brand-validation.md#content-check-panel) を実行し、[!DNL Brand]、platform およびアクセシビリティの各標準を最大限に満たすようにします。 [ コンテンツチェック ](/help/user-guide/guidelines/brand-validation.md#content-check-summary) 生成された任意のコンテンツに関する情報を利用でき、包括的なコンテンツチェックおよびテキストと画像の一貫性に対する準拠を示します。 この情報を使用して、生成されたエクスペリエンスを改訂または改善し、ブランドとさらに良く一致させることができます。
 
 ### レビューと承認
 
@@ -137,11 +200,11 @@ GenStudio for Performance Marketingは、各バリアントに対して [&#12827
 
 ### ドラフト
 
-[!DNL Create] の _最近の作業_ セクションで、最近のすべてのドラフトにアクセスして管理します。 以前の作業を表示して完了し、[[!DNL Content]](/help/user-guide/content/overview.md) への公開や使用するための書き出しの準備を行います。
+[!DNL Create] の _最近_ セクションでは、最近のすべてのドラフトにアクセスして管理できます。 以前の作業を表示して完了し、[[!DNL Content]](/help/user-guide/content/overview.md) への公開や使用するための書き出しの準備を行います。 オプション （3 つのドット）アイコンをクリックして、ドラフトを削除します。
 
-進行中のドラフトは自動的に保存されます。 [!DNL Create] ホームに戻ると、「_最近の作業_ セクションが更新され、最新のドラフトが表示されます。 このセクションの各ドラフトには、「ドラフト _、「承認済み_ などのステータスが表示 _れ_ す。
+ドラフトは自動的に保存され、ホームの _最近_ セクション [!DNL Create] 表示されます。 このセクションの各ドラフトには、「ドラフト _、「承認済み_ などのステータスが表示 _れ_ す。
 
-並べ替えアイコン（グリッドまたはテーブル）をクリックして、_最近の作業_ 項目をグリッドまたはテーブル表示に表示します。
+ギャラリー表示（グリッド）アイコンをクリックして、グリッド表示またはテーブル表示で _最近_ の項目を表示します。
 
 ### バリアントの管理
 

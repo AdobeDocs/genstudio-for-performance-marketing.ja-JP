@@ -4,9 +4,9 @@ description: パフォーマンスマーケティング用の Adobe GenStudio �
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: c51afb3decac43f3a71d5859ba4296a8c09730d7
+source-git-commit: c3c3ca28d31539383863cf7c8ad11a24aed0965f
 workflow-type: tm+mt
-source-wordcount: '2252'
+source-wordcount: '2300'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,18 @@ ht-degree: 1%
 
 このリリース情報では、GenStudio for Performance Marketing アプリケーションの最新のアップデートについて詳しく説明します。
 
-## 2025.04.10 {#latest}
+## 2025.05.15 {#latest}
+
+### 修正および機能強化
+
+* 個々のバリアントの画像への [ 代替（代替）テキストの追加 ](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) 機能が有効になりました。
+* [ 新しいメタアスペクト比 ](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) – 横 1.19:1 （1080 ピクセル幅）を追加しました。
+* 書き出しやダウンロードに複数のエクスペリエンスを選択できるようになりました。 [ エクスペリエンスの書き出し ](/help/user-guide/content/manage-assets.md#export-experiences) を参照してください。
+<!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
+
+## 以前のリリースノート
+
++++ご注意（2025.05.15 より）
 
 ### 修正および機能強化
 
@@ -23,8 +34,6 @@ ht-degree: 1%
 * エクスペリエンスの [ 個々のレイヤーの表示と選択 ](/help/user-guide/create/manage-variants.md#view-layers) 編集可能なテキストフィールドまたは編集可能な画像）の機能を有効にして、コンテンツの再生成や画像の切り抜きなどの修正に合わせてハイライト表示できるようになりました。
 * オーディエンスの注意を引き、マーケティングメッセージをハイライト表示するために、エクスペリエンスにテキストを追加するために [ 新しいテンプレートフィールド ](/help/user-guide/content/use-templates.md#template-elements)、`sub-headline` を追加しました。
 * GenStudio for Performance MarketingからGoogle Campaign Manager 360 への [ 広告エクスペリエンスの公開 ](/help/user-guide/activation/overview.md) サポートを追加しました。 アクティブ化は、Google Manager 360 広告主に公開する前の詳細な Campaign Manager 360 広告プレビューをサポートします。 アクティブ化を通じて公開された広告は、ライブになると自動的にインサイトに取り込まれ、ユーザーは広告のパフォーマンスを追跡およびレポートできるようになります。
-
-## 以前のリリースノート
 
 +++ご注意（2025.03.13 より）
 
@@ -68,7 +77,7 @@ ht-degree: 1%
 * [ コンテンツチェック ](/help/user-guide/guidelines/brand-validation.md) およびレビューと承認の機能を新しい右側のアクションバーに移動して、キャンバスのスペースを最大化し、ユーザーエクスペリエンスを向上させました。
 * [ ブランドをアップロードまたは手動で追加 ](/help/user-guide/guidelines/add-guidelines.md#add-brands) するためのフローを簡略化しました。
 * キャンバスで [ バリアント内の画像アセットを追加または入れ替える ](/help/user-guide/create/manage-variants.md#swap-image) 機能が導入されました。
-* 所有メディア、有料メディア、コンテンツの各セクションに分けることで、チャネルカテゴリ [&#128279;](/help/user-guide/create/overview.md) 作成ホーム上  のユーザーエクスペリエンスと可視性が向上しました。
+* 所有メディア、有料メディア、コンテンツの各セクションに分けることで、チャネルカテゴリ ](/help/user-guide/create/overview.md) 作成ホーム上 [ のユーザーエクスペリエンスと可視性が向上しました。
 * テーブル表示とギャラリー表示 [!DNL Insights] フィルタリングを改善しました。
 
 +++
@@ -215,7 +224,7 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 * 書き出されたHTMLで、すべての文字が正しく表示されるようになりました。<!-- GS-7246 -->
 
-* 特定の言語で、[!DNL Content]_エクスペリエンス_&#x200B;**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
+* 特定の言語で、[!DNL Content]_エクスペリエンス_**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
 
 * 50 x 50 のサイズのテンプレートで作成されたディスプレイ広告が、想定された画像サイズで書き出されるようになりました。 以前は、PNG ファイルは、期待される寸法の 2 倍で書き出されていました。<!-- GS-7192 -->
 
