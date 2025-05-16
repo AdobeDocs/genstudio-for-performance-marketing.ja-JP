@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: d0fd0bd2ac98149ec4d6449a7490d55cc48d9ae2
+source-git-commit: 04bb7adcc9ce7eaeca2ea1f3ef39882f8e43ff6d
 workflow-type: tm+mt
 source-wordcount: '1480'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 生成 AI がコンテンツの挿入に使用するコンテンツプレースホルダー（フィールド）を挿入することで、GenStudio for Performance Marketingで使用するテンプレートをカスタマイズできます。
 
-以降の節では、_[!DNL Handlebars]_&#x200B;テンプレート言語を使用してHTML テンプレートをGenStudio for Performance Marketingに適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 テンプレートの準備方法については、_ Handlebars 言語ガイド _の [ 概要  [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) を参照してください。
+以降の節では、_[!DNL Handlebars]_テンプレート言語を使用してHTML テンプレートをGenStudio for Performance Marketingに適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 テンプレートの準備方法については、_ Handlebars 言語ガイド _の [ 概要  [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) を参照してください。
 
 テンプレートの準備が整ったら、[GenStudio for Performance Marketingにアップロード ](use-templates.md#upload-a-template)、カスタムテンプレートに基づいてパーソナライズされたメールの生成を開始できます。
 
@@ -30,10 +30,10 @@ GenStudio for Performance Marketingはテンプレート内の特定の [ 要素
 
 HTML テンプレートの先頭または本文内では、[!DNL Handlebars] の構文を使用して、GenStudio for Performance Marketingに実際のコンテンツをテンプレートに入力させる必要があるコンテンツプレースホルダーを挿入できます。 GenStudio for Performance Marketingは、[ 認識された _field_ name](#recognized-field-names) に基づいてコンテンツプレースホルダーを認識および解釈します。
 
-例えば、[!DNL Handlebars] 構文で `{{ headline }}` を使用して、メールのヘッドラインを配置する場所を示すことができます。 GenStudioはこのフィールドを認識し、ガイドラインとプロンプトの条件に基づいて関連するヘッドラインを生成して、この場所にヘッドラインを挿入します。
+例えば、[!DNL Handlebars] 構文で `{{headline}}` を使用して、メールのヘッドラインを配置する場所を示すことができます。 GenStudioはこのフィールドを認識し、ガイドラインとプロンプトの条件に基づいて関連するヘッドラインを生成して、この場所にヘッドラインを挿入します。
 
 ```handlebars
-<div>{{ headline }}</div>
+<div>{{headline}}</div>
 ```
 
 ### 認識されたフィールド名
@@ -126,10 +126,10 @@ GenStudio for Performance Marketingでは、様々なコールトゥアクショ
 
 ### 画像テキスト上
 
-`{{ on_image_text }}` プレースホルダーは、エクスペリエンスの画像に直接配置された、短い影響を受けるメッセージのテキストオーバーレイを指定するために使用されます。
+`{{on_image_text}}` プレースホルダーは、エクスペリエンスの画像に直接配置された、短い影響を受けるメッセージのテキストオーバーレイを指定するために使用されます。
 
 ```html
-<div class="image-text">{{ on_image_text }}</div>
+<div class="image-text">{{on_image_text}}</div>
 ```
 
 <!-- this field does not work in Create canvas 2025/03
@@ -166,7 +166,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 <tbody>
     <tr>
         <td>
-            <p><span class="footer-text">{{ footerLegal }}</span></p>
+            <p><span class="footer-text">{{footerLegal}}</span></p>
         </td>
     </tr>
 </tbody>
@@ -190,7 +190,7 @@ _セクション_ このセクションのフィールドには高い一貫性�
 
 このルールのため、セクションをネストすることはできません。
 
-メールやメタ広告などの各テンプレートタイプには、セクションの使用に関するチャネル固有の制約があります。 [ テンプレート使用のベストプラクティス ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) トピックの _チャネル固有のガイドライン_ を参照してください。
+メールやメタ広告などの各テンプレートタイプには、セクションの使用に関するチャネル固有の制約があります。 [ テンプレート使用のベストプラクティス ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) トピックの _チャネル固有のガイドライン_ を参照してください。
 
 例えば、1 つのメールテンプレートに最大 3 つのセクションを含めることができます。したがって、次の 3 つのヘッドラインと本文セクションを含めることができます。
 
@@ -236,9 +236,9 @@ GenStudio for Performance Marketingは `pod1_headline` が `pod2_body` よりも
 
 ```html
 <a class="button" {{#if _genStudio.browser }}
-   href="{{ link }}"{{/if}}{{#if _genStudio.export }}
-   href="{{ link }}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
-   target="_blank">{{ cta }}</a>
+   href="{{link}}"{{/if}}{{#if _genStudio.export }}
+   href="{{link}}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
+   target="_blank">{{cta}}</a>
 ```
 
 ## 静的コンテンツ
@@ -270,15 +270,15 @@ GenStudio for Performance Marketingは `pod1_headline` が `pod2_body` よりも
             }
         </style>
     </head>
-    <body>{{ pre_header }}
+    <body>{{pre_header}}
         <div class="container">
-            <h1>{{ headline }}</h1>
-            <p><a href="{{ link }}">
-            <img alt="{{ headline }}"
-                    src="{{ image }}"
+            <h1>{{headline}}</h1>
+            <p><a href="{{link}}">
+            <img alt="{{headline}}"
+                    src="{{image}}"
                     width="600" height="600"
                     border="0"/></a></p>
-            <p>{{ body }}</p>
+            <p>{{body}}</p>
         </div>
     </body>
 </html>
@@ -315,22 +315,22 @@ GenStudio for Performance Marketingは `pod1_headline` が `pod2_body` よりも
             }
         </style>
     </head>
-    <body>{{ pre_header }}
+    <body>{{pre_header}}
         <div class="container">
-            <h1>{{ headline }}</h1>
-            <p>{{ body }}</p>
+            <h1>{{headline}}</h1>
+            <p>{{body}}</p>
             <!-- Pod1 -->
             <div class="pod">
-                <h2>{{ pod1_headline }}</h2>
-                <p><img alt="{{ headline }}" src="{{ pod1_image }}" width="200" height="200" border="0"></p>
-                <p>{{ pod1_body }}</p>
+                <h2>{{pod1_headline}}</h2>
+                <p><img alt="{{ headline }}" src="{{pod1_image}}" width="200" height="200" border="0"></p>
+                <p>{{pod1_body}}</p>
             </div>
             <!-- End of Pod1 -->
             <!-- Pod2 -->
             <div class="pod">
-                <h2>{{ pod2_headline }}</h2>
-                <p><img alt="{{ headline }}" src="{{ pod2_image }}" width="200" height="200" border="0"></p>
-                <p>{{ pod2_body }}</p>
+                <h2>{{pod2_headline}}</h2>
+                <p><img alt="{{headline}}" src="{{pod2_image}}" width="200" height="200" border="0"></p>
+                <p>{{pod2_body}}</p>
             </div>
             <!-- End of Pod2 -->
         </div>
@@ -377,8 +377,8 @@ GenStudio for Performance Marketingは `pod1_headline` が `pod2_body` よりも
     </head>
     <body>
         <div class="ad-container">
-            <img src="{{ image }}" alt="Ad Image" class="ad-image" />
-            <div class="ad-text">{{ on_image_text }}</div>
+            <img src="{{image}}" alt="Ad Image" class="ad-image" />
+            <div class="ad-text">{{on_image_text}}</div>
         </div>
     </body>
 </html>

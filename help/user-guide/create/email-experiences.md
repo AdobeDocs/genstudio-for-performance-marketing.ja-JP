@@ -5,9 +5,9 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
+source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,8 @@ Adobe GenStudio for Performance Marketingでは、ジェネレーティブ AI �
 * 見出し
 * サブ見出し
 * 本文
-* コールトゥアクション（CTA）
+* Call to action（CTA）
 * 画像
-* ブランドロゴ
 
 [ テンプレート要素 ](/help/user-guide/content/use-templates.md#template-elements) を参照してください。
 
@@ -38,7 +37,7 @@ Content creators and marketers can produce brand-consistent email experiences in
 
 ## 複数セクションのメール
 
-メールエクスペリエンスには複数のセクションを含めることができるので、ブランドや目標に合わせて完全にカスタマイズできます。 [ [!DNL Products]  各セクションのアセットを選択して視覚的に表示し ](/help/user-guide/create/create-email-experience.md#add-parameters) [ 構造化プロンプト ](/help/user-guide/effective-prompts.md#structured-prompts) を使用して一意のコンテンツを作成します。 各セクションは、1 つのビジュアルアセットをサポートします。
+メールエクスペリエンスには複数のセクションを含めることができるので、ブランドや目標に合わせて完全にカスタマイズできます。 [ [!DNL Products]  各セクションのアセットを選択して視覚的に表示し ](/help/user-guide/create/create-email-experience.md#add-parameters)[ 構造化プロンプト ](/help/user-guide/effective-prompts.md#structured-prompts) を使用して一意のコンテンツを作成します。 各セクションは、1 つのビジュアルアセットをサポートします。
 
 複数セクションのテンプレートを作成する方法については、[ セクションを使用したテンプレートのカスタマイズ ](/help/user-guide/content/customize-template.md#sections-or-groups) を参照してください。
 

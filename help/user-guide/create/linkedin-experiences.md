@@ -6,9 +6,9 @@ badgeBeta: label="Beta" tooltip="この機能は現在Betaにあるので、一�
 role: User
 level: Beginner
 exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,8 @@ LinkedIn エクスペリエンスの編集可能なセクションは次のと�
 * 見出し
 * 紹介テキスト
 * 説明
-* コールトゥアクション（CTA）
+* Call to action（CTA）
 * 画像
-* ブランドロゴ
 
 [ テンプレート要素 ](/help/user-guide/content/use-templates.md#template-elements) を参照してください。
 
@@ -41,7 +40,7 @@ LinkedIn エクスペリエンスの編集可能なセクションは次のと�
 LinkedIn エクスペリエンスの各フィールドとセクションは、次の順序で順に読み込まれます。
 
 1. すべてのバリエーションのプライマリテキスト
-1. コールトゥアクションと関連する URL
+1. Call-to-actionと関連する URL
 1. 見出し
 1. 画像上のテキスト
 1. ブランドの検証
