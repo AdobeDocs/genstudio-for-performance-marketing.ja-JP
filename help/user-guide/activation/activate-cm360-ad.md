@@ -2,24 +2,25 @@
 title: Google Campaign Manager 360 広告のアクティブ化
 description: Google Campaign Manager 360 エクスペリエンスをアクティブ化する方法について説明します。
 feature: Ad Activation
-source-git-commit: d0cfc68fd28d04ea61f96364b796b389f7a0ae81
+exl-id: e4ee4e04-8dd0-4e05-a0f7-0ddca2fbb6be
+source-git-commit: 09450c99dfc6bc283519b068a3b34c0551e45fc8
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
 # Google Campaign Manager 360 広告のアクティブ化
 
-Adobe GenStudio for Performance Marketingを使用すると、GenStudioのシステムマネージャーとエディターは広告クリエイティブをGoogle Campaign Manager 360 プラットフォームに公開できます。
+Adobe GenStudio for Performance Marketingを使用すると、GenStudioのシステムマネージャーとエディターはGoogle Campaign Manager 360 プラットフォームに広告エクスペリエンスを公開できます。
 
-Google Campaign Manager 360 の広告エクスペリエンスの公開は、ア _[!DNL Content]_&#x200B;ットギャラリーまたはホームから開始&#x200B;_[!DNL Activate]_ きます。
+Google Campaign Manager 360 の広告エクスペリエンスの公開は、ア _[!DNL Content]_ットギャラリーまたはホームから開始_[!DNL Activate]_ きます。
 
 ## 手順 1:Google Campaign Manager 360 アカウントの設定
 
-アクティベーションを開始する前に、[Google Campaign Manager 360 アカウントにログイン ](https://campaignmanager.google.com) します。 Google Campaign Manager 360 の広告主にアクセスできることを確認します。 GenStudio for Performance Marketingから Campaign Manager 360 クリエイティブを公開すると、作成時に選択した広告主アカウントに配信されます。
+アクティベーションを開始する前に、[Google Campaign Manager 360 アカウントにログイン ](https://campaignmanager.google.com) します。 Google Campaign Manager 360 の広告主にアクセスできることを確認します。 Campaign Manager 360 エクスペリエンスをGenStudio for Performance Marketingから公開すると、作成時に選択した広告主ライブラリに配信されます。
 
-Campaign Manager 360 を使用すると、マーケターは、様々な _広告主_ 内でキャンペーンと広告を整理できます。 各広告主は、クリエイティブライブラリを含む。 GenStudio for Performance Marketingは、広告エクスペリエンスクリエイティブをクリエイティブライブラリに公開します。
+Campaign Manager 360 を使用すると、マーケターは、様々な _広告主_ 内でキャンペーンと広告を整理できます。 各広告主は、クリエイティブライブラリを含む。 GenStudio for Performance Marketingは、広告エクスペリエンスをクリエイティブライブラリに公開します。
 
 ## 手順 2:Google Campaign Manager 360 アカウントへの接続
 
@@ -27,44 +28,41 @@ Campaign Manager 360 を使用すると、マーケターは、様々な _広告
 
 同期が完了したら、追加されたアカウントを表示できます。
 
-## 手順 3：クリエイティブ用のコンテンツを選択
+## 手順 3：広告エクスペリエンスに合ったコンテンツの選択
 
-公開プロセスは、_[!DNL Content]_&#x200B;Experience ギャラリーまたは&#x200B;_[!DNL Activate]_ ホームから開始できます。 承認済みのエクスペリエンスは編集できません。 各エクスペリエンスには、1 つのアセットのみを含めることができます。
+公開プロセスは、_[!DNL Content]_Experience ギャラリーまたは_[!DNL Activate]_ ホームから開始できます。 承認済みのエクスペリエンスは編集できません。 各エクスペリエンスには、1 つのアセットのみを含めることができます。
 
 **エクスペリエンスを選択するには**:
 
-1. _[!DNL Content]_&#x200B;ギャラリーの検索およびフィルターツールを使用して、アクティベートするエクスペリエンスを特定し、「**[!UICONTROL アクティベート]**」をクリックします。 （または、Google Campaign Manager 360 製品カードの&#x200B;**[!UICONTROL 新規]**&#x200B;をクリックして、_[!DNL Activate]_ からエクスペリエンスを選択することもできます。）
+1. _[!DNL Content]_ギャラリーの検索およびフィルターツールを使用して、アクティブ化するエクスペリエンスを特定し、「**[!UICONTROL 使用]**」をクリックします。 （または、Google Campaign Manager 360 製品カードの&#x200B;**[!UICONTROL 新規]**をクリックして、_[!DNL Activate]_ からエクスペリエンスを選択することもできます。）
 
-   このエクスペリエンスには、Google Campaign Manager 360 _Creativeの設定_ ページが開きます。 選択したエクスペリエンスから変更できない詳細が事前入力されます。
+   このエクスペリエンスのGoogle Campaign Manager 360 _エクスペリエンス設定_ ページが開きます。 エクスペリエンスの詳細が事前入力されていますが、変更することはできません。 アクティベーションを続行する前に、プラットフォームの選択を求められる場合があります。
 
-1. **[!UICONTROL 広告主]** ドロップダウンメニューから広告主を選択します。
+1. （任意）「**[!UICONTROL エクスペリエンスを追加]**」をクリックして、このアクティベーショングループにエクスペリエンスを追加します。
 
-   使用可能な広告主は、Google Campaign Manager 360 アカウントの設定によって決まります。
+1. **[!UICONTROL 次へ]** をクリックして、Google Campaign Manager 360 プラットフォームの設定を確認します。
+_Platform 設定_ ビューが開きます。 このビューには、設定済みのGoogle Campaign Manager 360 アカウントから派生したオプションが入力されます。
 
-1. 広告主を選択したら、「**[!UICONTROL 次へ]**」をクリックして、Google Campaign Manager 360 の設定を確定します。
+## 手順 4:Google Campaign Manager 360 プラットフォームの設定の確認
 
-1. エクスペリエンスに名前を割り当てます。 アクティブ化した後、この名前を使用して、_アクティブ化されたエクスペリエンス_ テーブルでこのエクスペリエンスを検索できます。
+1. **[!UICONTROL 広告主]** ドロップダウンメニューから広告主を選択します。 Campaign Manager 360 アカウントの設定によって、使用可能な広告主が決まります。
 
-## 手順 4:Google Campaign Manager 360 アカウントの設定の確認
+   アクティベーションが完了すると、クリエイティブエクスペリエンスがGoogle Campaign Manager 360 のこの広告主ライブラリに配信されます。
 
-広告エクスペリエンスを選択した後、アセットの公開先となるGoogle Campaign Manager 360 アカウント広告主を確認する必要があります。 Google Campaign Manager 360 アカウントビューには、設定済みのGoogle Campaign Manager 360 アカウントから派生したオプションが入力されます。
+1. 「**[!UICONTROL Creative名]**」フィールドに名前を追加します。 Google Campaign Manager 360 は、この名前でエクスペリエンスを識別します。
+選択した各エクスペリエンスに対して繰り返します。
 
-### トラッキング ID
-
-クリエイティブ名は、GenStudio for Performance Marketingでは _トラッキング ID_ とも呼ばれます。 トラッキングにより、パフォーマンス指標を収集できます。 「_Creative名_」フィールドにクリエイティブ名を入力します。
-
-右上の **[!UICONTROL 次へ]** をクリックして、広告エクスペリエンスをプレビューし、アクティベーションを完了します。
+1. **[!UICONTROL 次へ]** をクリックして、Google Campaign Manager 360 の設定を確定します。
 
 ## 手順 5：広告のプレビューとアクティブ化
 
-_レビュー_ ページでは、公開前に広告エクスペリエンスを確認する最後の機会が提供されます。
+_レビュー_ ページでは、公開前にアクティベーションを確認する最後の機会が提供されます。
 
-このアクティベーションを _[!DNL Activate]_&#x200B;から開始した場合は、_ Creative設定 **[!UICONTROL ラベルの横にある]** 「編集」セクション _をクリックして変更を加えることができます。 また、右上の&#x200B;**[!UICONTROL 戻る]**&#x200B;をクリックして、_ Creative設定 _ページに戻ることもできます。 エクスペリエンスコンテンツは編集できません。
+1. （任意） **[!UICONTROL プラットフォーム設定]** ラベルの横にある「編集 _セクション_ をクリックして、プラットフォーム設定を編集します。 エクスペリエンスコンテンツは編集できません。
+
+1. **[!UICONTROL 公開]** をクリックします。
+Campaign Manager 360 の広告エクスペリエンスは、選択した Campaign Manager 360 の広告主内のクリエイティブライブラリに直接プッシュされます。
 
 ## 手順 6：広告エクスペリエンスの公開を完了する
 
-1. 「**[!UICONTROL 公開する]**」をクリックします。
-
-   Campaign Manager 360 の広告エクスペリエンス全体が、選択した Campaign Manager 360 の広告主内のクリエイティブライブラリに直接プッシュされます。
-
-1. [Google Campaign Manager 360 アカウントにログイン ](https://campaignmanager.google.com) して、公開したクリエイティブ内で広告の設定とデプロイの最後の手順を管理します。
+1. [Google Campaign Manager 360 アカウントにログイン ](https://campaignmanager.google.com) して、公開されたエクスペリエンス内で広告の設定とデプロイの最後の手順を管理します。
