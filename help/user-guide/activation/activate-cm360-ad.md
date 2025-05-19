@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketingを使用すると、GenStudioのシステムマネージャーとエディターはGoogle Campaign Manager 360 プラットフォームに広告エクスペリエンスを公開できます。
 
-Google Campaign Manager 360 の広告エクスペリエンスの公開は、ア _[!DNL Content]_ットギャラリーまたはホームから開始_[!DNL Activate]_ きます。
+Google Campaign Manager 360 の広告エクスペリエンスの公開は、ア _[!DNL Content]_&#x200B;ットギャラリーまたはホームから開始&#x200B;_[!DNL Activate]_ きます。
 
 ## 手順 1:Google Campaign Manager 360 アカウントの設定
 
@@ -30,11 +30,11 @@ Campaign Manager 360 を使用すると、マーケターは、様々な _広告
 
 ## 手順 3：広告エクスペリエンスに合ったコンテンツの選択
 
-公開プロセスは、_[!DNL Content]_Experience ギャラリーまたは_[!DNL Activate]_ ホームから開始できます。 承認済みのエクスペリエンスは編集できません。 各エクスペリエンスには、1 つのアセットのみを含めることができます。
+公開プロセスは、_[!DNL Content]_&#x200B;Experience ギャラリーまたは&#x200B;_[!DNL Activate]_ ホームから開始できます。 承認済みのエクスペリエンスは編集できません。 各エクスペリエンスには、1 つのアセットのみを含めることができます。
 
 **エクスペリエンスを選択するには**:
 
-1. _[!DNL Content]_ギャラリーの検索およびフィルターツールを使用して、アクティブ化するエクスペリエンスを特定し、「**[!UICONTROL 使用]**」をクリックします。 （または、Google Campaign Manager 360 製品カードの&#x200B;**[!UICONTROL 新規]**をクリックして、_[!DNL Activate]_ からエクスペリエンスを選択することもできます。）
+1. _[!DNL Content]_&#x200B;ギャラリーの検索およびフィルターツールを使用して、アクティブ化するエクスペリエンスを特定し、「**[!UICONTROL 使用]**」をクリックします。 （または、Google Campaign Manager 360 製品カードの&#x200B;**[!UICONTROL 新規]**&#x200B;をクリックして、_[!DNL Activate]_ からエクスペリエンスを選択することもできます。）
 
    このエクスペリエンスのGoogle Campaign Manager 360 _エクスペリエンス設定_ ページが開きます。 エクスペリエンスの詳細が事前入力されていますが、変更することはできません。 アクティベーションを続行する前に、プラットフォームの選択を求められる場合があります。
 
