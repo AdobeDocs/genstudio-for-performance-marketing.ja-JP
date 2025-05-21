@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: f7913f4df1ae0f8d86bdaca778d102d21b0b6c3f
+source-git-commit: dc958a831e3fa26cfc18f7c1a5febd0662102d43
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,9 @@ GenStudio for Performance Marketingと連携するようにメールテンプレ
 
 **制約**:
 
-- [ セクション ](customize-template.md#sections-or-groups) の使用：
-   - 基本テンプレート（1 つのセクションのみ）は、単一のテンプレート要素のセットを生成できます。
-   - 複雑なテンプレート（複数のセクション）では、最大 3 つのテンプレート要素セットを生成できます。
+- マーケティングメールには、0 個、2 個または 3 個の [ セクション ](customize-template.md#sections-or-groups) を含めることができます。
+   - 基本テンプレート（ゼロセクション）は、グループ命名規則を必要としない単一のテンプレート要素セットを生成できます。
+   - 複雑なテンプレート（複数のセクション）では、最大 3 つのテンプレート要素セットを生成できます。そのため、グループ命名規則（`groupname_fieldname`）に従う必要があります。
 - テンプレートで許可される最大フィールド数は 20 です
 - HTMLの最大ファイルサイズは 102 KB です
 
@@ -77,7 +77,7 @@ GenStudio for Performance Marketingと連携するようにメールテンプレ
 
 メールの場合、「`subject`」フィールドが自動的に含まれます。 次のフィールドには、コンテンツプレースホルダーを使用します。
 
-- `pre_header`
+- `pre_header` （リッチテキストが有効になっていません）
 - `headline`
 - `sub_headline`
 - `body`
@@ -103,8 +103,11 @@ GenStudio for Performance Marketingと連携するようにメタ広告テンプ
 
 - [ セクション ](customize-template.md#sections-or-groups) の使用：
    - 使用できるセクションは 1 つだけで、単一のテンプレート要素セットが生成されます。
+- 1 つの画像フィールドのみが必要です。
 
 **サポートされる縦横比**:
+
+縦横比を設定する必要があります。
 
 - 正方形 1:1 （1080 x 1080 ピクセル）
 - 縦 4:5 （1080 x 1350 ピクセル）
@@ -135,10 +138,11 @@ GenStudio for Performance Marketingと連携するようにバナーとディス
 
 - [ セクション ](customize-template.md#sections-or-groups) の使用：
    - 使用できるセクションは 1 つだけで、単一のテンプレート要素セットが生成されます。
+- 1 つの画像フィールドのみが必要です。
 
 **サポートされるディメンション**:
 
-- 幅 x 高さ（ピクセル）
+- 幅 x 高さ（ピクセル）を設定してください
 - 縦：
    - 300 x 600
    - 160 x 600&#x200B;
@@ -171,6 +175,7 @@ LinkedIn 広告テンプレートをカスタマイズしてGenStudio for Perfor
 
 - [ セクション ](customize-template.md#sections-or-groups) の使用：
    - 使用できるセクションは 1 つだけで、単一のテンプレート要素セットが生成されます。
+- 1 つの画像フィールドのみが必要です。
 - 最大画像サイズは 5 MB
 - 最大見出し 70 文字
 - 150 文字以内の紹介文
