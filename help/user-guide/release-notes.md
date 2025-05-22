@@ -4,7 +4,7 @@ description: パフォーマンスマーケティング用の Adobe GenStudio �
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: c3c3ca28d31539383863cf7c8ad11a24aed0965f
+source-git-commit: 2e30223f67d8ad7e230245c825600e60a57e2ccd
 workflow-type: tm+mt
 source-wordcount: '2300'
 ht-degree: 1%
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ## 以前のリリースノート
 
-+++ご注意（2025.05.15 より）
++++備考：2025.04.15 より
 
 ### 修正および機能強化
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 * [ コンテンツチェック ](/help/user-guide/guidelines/brand-validation.md) およびレビューと承認の機能を新しい右側のアクションバーに移動して、キャンバスのスペースを最大化し、ユーザーエクスペリエンスを向上させました。
 * [ ブランドをアップロードまたは手動で追加 ](/help/user-guide/guidelines/add-guidelines.md#add-brands) するためのフローを簡略化しました。
 * キャンバスで [ バリアント内の画像アセットを追加または入れ替える ](/help/user-guide/create/manage-variants.md#swap-image) 機能が導入されました。
-* 所有メディア、有料メディア、コンテンツの各セクションに分けることで、チャネルカテゴリ [&#128279;](/help/user-guide/create/overview.md) 作成ホーム上  のユーザーエクスペリエンスと可視性が向上しました。
+* 所有メディア、有料メディア、コンテンツの各セクションに分けることで、チャネルカテゴリ ](/help/user-guide/create/overview.md) 作成ホーム上 [ のユーザーエクスペリエンスと可視性が向上しました。
 * テーブル表示とギャラリー表示 [!DNL Insights] フィルタリングを改善しました。
 
 +++
@@ -224,7 +224,7 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 * 書き出されたHTMLで、すべての文字が正しく表示されるようになりました。<!-- GS-7246 -->
 
-* 特定の言語で、[!DNL Content]_エクスペリエンス_&#x200B;**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
+* 特定の言語で、[!DNL Content]_エクスペリエンス_**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
 
 * 50 x 50 のサイズのテンプレートで作成されたディスプレイ広告が、想定された画像サイズで書き出されるようになりました。 以前は、PNG ファイルは、期待される寸法の 2 倍で書き出されていました。<!-- GS-7192 -->
 
