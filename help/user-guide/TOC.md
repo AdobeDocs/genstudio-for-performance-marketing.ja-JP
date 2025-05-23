@@ -5,10 +5,10 @@ user-guide-description: パフォーマンスマーケティング用の Adobe G
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 8dbb4b44cacac952e3c1b25e19551cbee60107b2
+source-git-commit: 2745df9f67c1af4261bfdbf096b721e9bb97bc4b
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 22%
+source-wordcount: '221'
+ht-degree: 21%
 
 ---
 
@@ -69,6 +69,8 @@ ht-degree: 22%
       + [ テンプレートのベストプラクティス ](content/best-practices-for-templates.md)
 + キャンペーン {#campaigns}
    + [ キャンペーンの概要 ](campaigns/overview.md)
+   + [ キャンペーンの作成 ](campaigns/create-campaign.md)
+   + [ キャンペーンの管理 ](campaigns/manage-campaign.md)
 + アクティブ化 {#activation}
    + [ アクティベーションの概要 ](activation/overview.md)
    + [ アクティベーションワークフロー ](activation/create-activation.md)
