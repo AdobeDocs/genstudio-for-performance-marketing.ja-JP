@@ -3,9 +3,9 @@ title: バリアントの管理
 description: 生成されるバリアントとアセットをカスタマイズし、デジタルマーケティングのニーズに合わせて強化します。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 3060aa0a75dd39fe5b73f246d57666e8a62fd42b
+source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1697'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生
 **バリアントのレイヤーを表示するには**:
 
 1. バリアントのセットを生成したら、バリアント内の編集可能なフィールドまたは画像をクリックします。
-1. _[!UICONTROL ビューレイヤ]_&rbrack; をクリックします。
+1. _[!UICONTROL ビューレイヤ]_] をクリックします。
 1. をクリックして、リストから画層を選択します。 バリアントで選択したレイヤーがハイライト表示されます。
 
    選択したレイヤーに必要な編集を加えます。
@@ -148,7 +148,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 1. **[!UICONTROL コンテンツから入れ替え]** アイコンをクリックします。
 1. GenStudio Assets [!DNL Content] ビューのフィルターと検索機能を使用して、検索結果をさらに絞り込みます。
 
-   また、（場所 &rbrack;**メニューから選択すると、Connected Adobe Experience Manager（AEM）Assets Content Hub リポジトリで使用可能な画像を使用す &lbrack;**&#x200B;[[!UICONTROL &#x200B; こともでき &#x200B;]](/help/user-guide/content/manage-assets.md#location) す。
+   また、（場所 ]**メニューから選択すると、Connected Adobe Experience Manager（AEM）Assets Content Hub リポジトリで使用可能な画像を使用す [**[!UICONTROL  こともでき ](/help/user-guide/content/manage-assets.md#location) す。
 
 1. 画像をクリックして選択し、「**[!UICONTROL 使用]**」をクリックします。
 
@@ -211,7 +211,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
    バリアントが削除されます。
 
-## バリアントごとのブランド検証
+## ブランドの検証
 
 _コンテンツチェック_ パネルを使用して、一貫性のあるブランドアイデンティティ、[ADA アクセシビリティ標準、プラットフォームガイドライン ](/help/user-guide/guidelines/overview.md#content-checks)、バリアントの配置を維持します。
 
