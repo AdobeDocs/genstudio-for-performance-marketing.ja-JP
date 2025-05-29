@@ -4,9 +4,9 @@ description: Adobe GenStudio for Performance Marketingの概念と用語につ�
 feature: Generative AI
 role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: 1ff6a3ecf0a0773c3a6f13d6993042b0620c6dd2
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ GenStudio for Performance Marketingは、生成 AI の力を活用して、コ�
 
 {{in-academy}}
 
-## 大規模な言語モデル
+### 大規模な言語モデル
 
 GenStudio for Performance Marketingは、Adobeのジェネレーティブ AI プラットフォームを活用しています。このプラットフォームは、基盤となる AI および機械学習（ML）サービスを提供します。 このプラットフォームは、大規模な言語モデル（LLM）の使用を簡素化し、Adobeの GenAI 機能が魅力的なエクスペリエンスを作成できるようにします。
 
@@ -39,7 +39,7 @@ GenStudio for Performance Marketingでは、Azure OpenAI.<!-- Claude, and Gemini
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_&#x200B;は、[Adobe GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) で定義されているように、GenStudio for Performance Marketing内での生成 AI 機能の使用を定量化するユニットです。
+_[!DNL Generative Actions]_は、[Adobe GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) で定義されているように、GenStudio for Performance Marketing内での生成 AI 機能の使用を定量化するユニットです。
 
 <!-- Add example about usage mode?
 Where users check how many generative actions they have left
@@ -48,11 +48,11 @@ If genactions roll over month to month or not -->
 
 ### 料率
 
-[GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) に記載されている通り、[!DNL Generative Actions] のデフォルトの割り当てが受け取ります。
+[GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) に記載されている通り、[!DNL Generative Actions] のデフォルトの割り当てが受け取ります。
 
 >[!NOTE]
 >
->使用率は場合によって異なります。 計画は変更される場合があります。 更新後の評価について詳しくは、[Adobe GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) を参照してください。
+>使用率は場合によって異なります。 計画は変更される場合があります。 更新後の評価について詳しくは、[Adobe GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) を参照してください。
 
 次の関数は、指定された割合で [!DNL Generative Actions] を使用します。
 
