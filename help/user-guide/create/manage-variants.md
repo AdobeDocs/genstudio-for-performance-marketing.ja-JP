@@ -45,7 +45,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生
 **バリアントのレイヤーを表示するには**:
 
 1. バリアントのセットを生成したら、バリアント内の編集可能なフィールドまたは画像をクリックします。
-1. _[!UICONTROL ビューレイヤ]_] をクリックします。
+1. _[!UICONTROL ビューレイヤ]_&rbrack; をクリックします。
 1. をクリックして、リストから画層を選択します。 バリアントで選択したレイヤーがハイライト表示されます。
 
    選択したレイヤーに必要な編集を加えます。
@@ -148,7 +148,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 1. **[!UICONTROL コンテンツから入れ替え]** アイコンをクリックします。
 1. GenStudio Assets [!DNL Content] ビューのフィルターと検索機能を使用して、検索結果をさらに絞り込みます。
 
-   また、（場所 ]**メニューから選択すると、Connected Adobe Experience Manager（AEM）Assets Content Hub リポジトリで使用可能な画像を使用す [**[!UICONTROL  こともでき ](/help/user-guide/content/manage-assets.md#location) す。
+   また、（場所 &rbrack;**メニューから選択すると、Connected Adobe Experience Manager（AEM）Assets Content Hub リポジトリで使用可能な画像を使用す &lbrack;**&#x200B;[[!UICONTROL &#x200B; こともでき &#x200B;]](/help/user-guide/content/manage-assets.md#location) す。
 
 1. 画像をクリックして選択し、「**[!UICONTROL 使用]**」をクリックします。
 

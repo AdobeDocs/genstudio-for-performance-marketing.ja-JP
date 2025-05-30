@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Adobe GenStudio for Performance Marketingでは、ジェネレーティブ AI を使用して [ ディスプレイ広告エクスペリエンスの作成を成功 ](/help/user-guide/create/create-display-ad.md) 効率化できます。
 
-[!DNL Create] は、[ ガイドライン [、画像アセット、および ](/help/user-guide/create/create-display-ad.md) 適切に作成されたプロンプト ](/help/user-guide/guidelines/overview.md) を使用して、現代のマーケターが [ ブランドと一貫性のあるディスプレイ広告エクスペリエンスを作成 ](/help/user-guide/effective-prompts.md) できるようにします。
+[!DNL Create] は、[&#128279;](/help/user-guide/guidelines/overview.md) ガイドライン [、画像アセット、および ](/help/user-guide/create/create-display-ad.md) 適切に作成されたプロンプト  を使用して、現代のマーケターが [ ブランドと一貫性のあるディスプレイ広告エクスペリエンスを作成 ](/help/user-guide/effective-prompts.md) できるようにします。
 
 表示とエクスペリエンスを生成する際に、4 つのバリエーションが作成され、キャンバスに表示されます。
 
