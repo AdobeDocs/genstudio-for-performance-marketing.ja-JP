@@ -192,7 +192,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 このルールのため、セクションをネストすることはできません。
 
-メールやメタ広告などの各テンプレートタイプには、セクションの使用に関するチャネル固有の制約があります。 [ テンプレート使用のベストプラクティス ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) トピックの _チャネル固有のガイドライン_ を参照してください。
+メールやメタ広告などの各テンプレートタイプには、セクションの使用に関するチャネル固有の制約があります。 [ テンプレート使用のベストプラクティス ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) トピックの _チャネル固有のガイドライン_ を参照してください。
 
 例えば、1 つのメールテンプレートに最大 3 つのセクションを含めることができます。したがって、次の 3 つのヘッドラインと本文セクションを含めることができます。
 
