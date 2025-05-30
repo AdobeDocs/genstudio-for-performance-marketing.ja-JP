@@ -4,7 +4,7 @@ description: Adobe GenStudio for Performance Marketingの概念と用語につ�
 feature: Generative AI
 role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: 1ff6a3ecf0a0773c3a6f13d6993042b0620c6dd2
+source-git-commit: 78313c2a2177a2ccb39e37a87ca3c657e7906d0a
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -39,7 +39,7 @@ GenStudio for Performance Marketingでは、Azure OpenAI.<!-- Claude, and Gemini
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_&#x200B;は、[Adobe GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) で定義されているように、GenStudio for Performance Marketing内での生成 AI 機能の使用を定量化するユニットです。
+_[!DNL Generative Actions]_は、[Adobe GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) で定義されているように、GenStudio for Performance Marketing内での生成 AI 機能の使用を定量化するユニットです。
 
 <!-- Add example about usage mode?
 Where users check how many generative actions they have left
@@ -48,11 +48,11 @@ If genactions roll over month to month or not -->
 
 ### 料率
 
-[GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) に記載されている通り、[!DNL Generative Actions] のデフォルトの割り当てが受け取ります。
+[GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) に記載されている通り、[!DNL Generative Actions] のデフォルトの割り当てが受け取ります。
 
 >[!NOTE]
 >
->使用率は場合によって異なります。 計画は変更される場合があります。 更新後の評価について詳しくは、[Adobe GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) を参照してください。
+>使用率は場合によって異なります。 計画は変更される場合があります。 更新後の評価について詳しくは、[Adobe GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) を参照してください。
 
 次の関数は、指定された割合で [!DNL Generative Actions] を使用します。
 

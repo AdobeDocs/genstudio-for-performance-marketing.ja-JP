@@ -5,10 +5,10 @@ user-guide-description: パフォーマンスマーケティング用の Adobe G
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 2745df9f67c1af4261bfdbf096b721e9bb97bc4b
+source-git-commit: 7ac97f040917ee737cd29ba8f5c7d8c72a75e577
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 21%
+source-wordcount: '237'
+ht-degree: 20%
 
 ---
 
@@ -61,12 +61,18 @@ ht-degree: 21%
    + [ アセットとエクスペリエンスの管理 ](content/manage-assets.md)
    + [AEM リポジトリの接続 ](content/connect-aem-repo.md)
    + [ 資産の詳細 ](content/asset-details.md)
-   + テンプレート {#templates}
-      + [ テンプレートの操作 ](content/use-templates.md)
-      + [ テンプレートのカスタマイズ ](content/customize-template.md)
-      + [ テンプレートコードエディター ](content/code-editor.md)
-      + [ アクセシブルなテンプレートの作成 ](content/accessibility-for-templates.md)
-      + [ テンプレートのベストプラクティス ](content/best-practices-for-templates.md)
++ テンプレート {#templates}
+   + [ テンプレートの操作 ](content/use-templates.md)
+   + [ スターターテンプレート ](templates/starter-templates.md)
+   + [ テンプレートのカスタマイズ ](content/customize-template.md)
+   + [ テンプレートコードエディター ](content/code-editor.md)
+   + [ アクセシブルなテンプレートの作成 ](content/accessibility-for-templates.md)
+   + [ テンプレートのベストプラクティス ](content/best-practices-for-templates.md)
+   + チャネルのベストプラクティス {#channel-best-practice}
+      + [ ディスプレイ広告ガイド ](templates/display-template.md)
+      + [ メールガイド ](templates/email-template.md)
+      + [LinkedIn 広告ガイド ](templates/linkedin-template.md)
+      + [ メタ広告ガイド ](templates/meta-template.md)
 + キャンペーン {#campaigns}
    + [ キャンペーンの概要 ](campaigns/overview.md)
    + [ キャンペーンの作成 ](campaigns/create-campaign.md)

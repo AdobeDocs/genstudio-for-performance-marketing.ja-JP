@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: f6c00f473d561cae123997ab3e310867fbdf60d1
+source-git-commit: 4a82431c0f6a0f2f16c80160a46241dfa702195b
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 生成 AI がコンテンツの挿入に使用するコンテンツプレースホルダー（フィールド）を挿入することで、GenStudio for Performance Marketingで使用するテンプレートをカスタマイズできます。
 
-以降の節では、_[!DNL Handlebars]_&#x200B;テンプレート言語を使用してHTML テンプレートをGenStudio for Performance Marketingに適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 テンプレートの準備方法については、_ Handlebars 言語ガイド _の [ 概要  [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) を参照してください。
+以降の節では、_[!DNL Handlebars]_テンプレート言語を使用してHTML テンプレートをGenStudio for Performance Marketingに適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 テンプレートの準備方法については、_ Handlebars 言語ガイド _の [ 概要  [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) を参照してください。
 
 テンプレートの準備が整ったら、[GenStudio for Performance Marketingにアップロード ](use-templates.md#upload-a-template)、カスタムテンプレートに基づいてパーソナライズされたメールの生成を開始できます。
 
@@ -176,7 +176,6 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 フィールドのグループが 2～3 つある場合は、マーケティングメールテンプレートでセクションを使用できます。 _セクション_ このセクションのフィールドには高い一貫性が必要であることをGenStudio for Performance Marketingに伝えます。 この関係を確立すると、AI がセクションのクリエイティブ要素に一致するコンテンツを生成するのに役立ちます。
 
-
 フィールドがセクションまたはグループの一部であることを示すプレフィックスとして、選択したグループ名を使用します。 アンダースコア（`_`）の後にフィールド名（`headline`、`body`、`image`、`cta` など）を使用します。
 
 構文：`groupname_fieldname`
@@ -193,17 +192,14 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 このルールのため、セクションをネストすることはできません。
 
-メールやメタ広告などの各テンプレートタイプには、セクションの使用に関するチャネル固有の制約があります。 [ テンプレート使用のベストプラクティス ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) トピックの _チャネル固有のガイドライン_ を参照してください。
+メールやメタ広告などの各テンプレートタイプには、セクションの使用に関するチャネル固有の制約があります。 [ テンプレート使用のベストプラクティス ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) トピックの _チャネル固有のガイドライン_ を参照してください。
 
 例えば、1 つのメールテンプレートに最大 3 つのセクションを含めることができます。したがって、次の 3 つのヘッドラインと本文セクションを含めることができます。
 
 - `pre_header`
-- `pod1_headline`
-- `pod1_body`
-- `pod2_headline`
-- `pod2_body`
-- `pod3_headline`
-- `pod3_body`
+- `pod1_headline`、`pod1_body`
+- `pod2_headline`、`pod2_body`
+- `pod3_headline`、`pod3_body`
 - `cta`
 
 GenStudio for Performance Marketingは `pod1_headline` が `pod2_body` よりも `pod1_body` と密接に関係していることを理解しています。
@@ -252,138 +248,3 @@ GenStudio for Performance Marketingは `pod1_headline` が `pod2_body` よりも
 ### コンテンツを更新
 
 最初のプレビューの作成後にソースが変更された場合は、[refresh](/help/user-guide/content/use-templates.md#refresh-template) 関数を使用して、外部ソースからのコンテンツの最新バージョンでテンプレートプレビューを更新できます。
-
-## テンプレートの例
-
-+++例：1 つのセクションを持つメールテンプレート
-
-以下は、1 つのセクションを含むメールのHTML テンプレートの基本的な例です。 ヘッドには、スタイル設定用のシンプルなインライン CSS が含まれています。 本文には、`pre_header`、`headline`、`image` [ プレースホルダー ](#content-placeholders) が含まれており、メール生成プロセス中にGenStudio for Performance Marketingでコンテンツを挿入するために使用されます。
-
-```html {line-numbers="true" highlight="13"}
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Adobe</title>
-        <style>
-            .container {
-            width: 100%;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            }
-        </style>
-    </head>
-    <body>{{pre_header}}
-        <div class="container">
-            <h1>{{headline}}</h1>
-            <p><a href="{{link}}">
-            <img alt="{{headline}}"
-                    src="{{image}}"
-                    width="600" height="600"
-                    border="0"/></a></p>
-            <p>{{body}}</p>
-        </div>
-    </body>
-</html>
-```
-
-+++
-
-+++例：複数のセクションを持つメールテンプレート
-
-以下は、上記の例と同じHTML テンプレートですが、さらに 2 つのセクションがあります。 ヘッドには、グループのスタイル設定に使用するインライン CSS が含まれています。 本文では、プレフィックスを使用して、[ コンテンツプレースホルダー ](#content-placeholders) を含む 2 つのグループを使用します。
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Adobe</title>
-        <style>
-            .container {
-            width: 100%;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            }
-            .pod {
-            background-color: #f8f8f8;
-            margin: 10px;
-            padding: 20px;
-            border-radius: 5px;
-            }
-            .pod h2 {
-            color: #333;
-            }
-            .pod p {
-                color: #666;
-            }
-        </style>
-    </head>
-    <body>{{pre_header}}
-        <div class="container">
-            <h1>{{headline}}</h1>
-            <p>{{body}}</p>
-            <!-- Pod1 -->
-            <div class="pod">
-                <h2>{{pod1_headline}}</h2>
-                <p><img alt="{{ headline }}" src="{{pod1_image}}" width="200" height="200" border="0"></p>
-                <p>{{pod1_body}}</p>
-            </div>
-            <!-- End of Pod1 -->
-            <!-- Pod2 -->
-            <div class="pod">
-                <h2>{{pod2_headline}}</h2>
-                <p><img alt="{{headline}}" src="{{pod2_image}}" width="200" height="200" border="0"></p>
-                <p>{{pod2_body}}</p>
-            </div>
-            <!-- End of Pod2 -->
-        </div>
-    </body>
-</html>
-```
-
-+++
-
-+++例：メタ広告テンプレート
-
-次に、メタ広告テンプレートの基本的な例を示します。 ヘッドには、スタイル設定用のインライン CSS が含まれています。 本文では、`image` や `on_image_text` などの [ コンテンツプレースホルダー ](#content-placeholders) を使用して、GenStudio for Performance Marketingでコンテンツを生成できる場所を示します。
-
-```html {line-numbers="true" highlight="33"}
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Adobe</title>
-        <style>
-            .ad-container {
-            font-family: Helvetica, sans-serif;
-            position: relative;
-            text-align: center;
-            height: 100%;
-            }
-            .ad-image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            }
-            .ad-text {
-            position: absolute;
-            top: 0;
-            left: 0;
-            margin: 1em;
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-            padding: 1em;
-            font-size: 75px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="ad-container">
-            <img src="{{image}}" alt="Ad Image" class="ad-image" />
-            <div class="ad-text">{{on_image_text}}</div>
-        </div>
-    </body>
-</html>
-```
-
-+++

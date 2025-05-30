@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 0%
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 # メタ広告エクスペリエンスの作成
 
-このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン [&#128279;](/help/user-guide/create/meta-experiences.md) を使用して、ブランド化された  メタ広告エクスペリエンス）を生成する方法を説明します。
+このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン ](/help/user-guide/create/meta-experiences.md) を使用して、ブランド化された [ メタ広告エクスペリエンス）を生成する方法を説明します。
 
 Meta 広告エクスペリエンスの作成を開始する前に、GenStudio for Performance Marketingで [ ガイドラインを組み込む ](/help/user-guide/guidelines/add-guidelines.md) ことが重要です。また、[ プロンプトの作成 ](/help/user-guide/effective-prompts.md) の基本を理解しておく必要があります。
 
 ## テンプレートを選択
 
-新しいメタ広告エクスペリエンスの生成を開始するには、使用可能なテンプレートを使用して、コンテンツのフレームワークを提供します。 サポートされるメタ広告の縦横比について詳しくは、[ テンプレートのベストプラクティス ](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) を参照してください。
+新しいメタ広告エクスペリエンスの生成を開始するには、使用可能なテンプレートを使用して、コンテンツのフレームワークを提供します。 サポートされるメタ広告の縦横比について詳しくは、[ メタ広告テンプレートガイドライン ](/help/user-guide/templates/meta-template.md) を参照してください。
 
 **メタ広告テンプレートを選択するには**:
 
-1. _[!DNL Create]_&#x200B;で、「**[!UICONTROL メタ広告]**」をクリックします。
+1. _[!DNL Create]_で、「**[!UICONTROL メタ広告]**」をクリックします。
 1. _フィルター_ の横にある検索オプションを使用して、特定のメタ広告テンプレートを見つけます。
 1. テンプレートをクリックして選択し、「**[!UICONTROL 使用]**」をクリックします。
 
@@ -137,7 +137,7 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 
 ## エクスペリエンスの公開と書き出し
 
-生成したメタ広告を現在および将来の使用で使用できるようにするには、[!UICONTROL &#x200B; コンテンツ &#x200B;] に公開し、マーケティングキャンペーンで使用するためにエクスポートします。
+生成したメタ広告を現在および将来の使用で使用できるようにするには、[!UICONTROL  コンテンツ ] に公開し、マーケティングキャンペーンで使用するためにエクスポートします。
 
 1. **新しいメタ広告エクスペリエンスを公開するには** 上部のツールバーまたは承認フロー内の **[!UICONTROL 公開]** をクリックします。
 1. **新しいメタ広告エクスペリエンスを書き出すには** 上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。

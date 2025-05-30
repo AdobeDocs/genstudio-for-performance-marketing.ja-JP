@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 1%
@@ -16,18 +16,18 @@ ht-degree: 1%
 
 Adobe GenStudio for Performance Marketingでは、ジェネレーティブ AI を使用して [ ディスプレイ広告エクスペリエンスの作成を成功 ](/help/user-guide/create/create-display-ad.md) 効率化できます。
 
-[!DNL Create] は、[&#128279;](/help/user-guide/guidelines/overview.md) ガイドライン [、画像アセット、および ](/help/user-guide/create/create-display-ad.md) 適切に作成されたプロンプト  を使用して、現代のマーケターが [ ブランドと一貫性のあるディスプレイ広告エクスペリエンスを作成 ](/help/user-guide/effective-prompts.md) できるようにします。
+[!DNL Create] は、[ ガイドライン [、画像アセット、および ](/help/user-guide/create/create-display-ad.md) 適切に作成されたプロンプト ](/help/user-guide/guidelines/overview.md) を使用して、現代のマーケターが [ ブランドと一貫性のあるディスプレイ広告エクスペリエンスを作成 ](/help/user-guide/effective-prompts.md) できるようにします。
 
 表示とエクスペリエンスを生成する際に、4 つのバリエーションが作成され、キャンバスに表示されます。
 
-サポートされるディメンション、認識されるフィールド名などについて詳しくは、[ チャネル固有のテンプレートガイドラインに従う ](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) を参照してください。
+サポートされるディメンション、認識されるフィールド名などについて詳しくは、[ 広告テンプレートガイドラインの表示 ](/help/user-guide/templates/display-template.md) を参照してください。
 
 ディスプレイとエクスペリエンスの編集可能なセクションには、次のものが含まれます。
 
 * 見出し
 * サブ見出し
 * 本文
-* コールトゥアクション（CTA）
+* Call to action（CTA）
 * 画像
 
 [ テンプレート要素 ](/help/user-guide/content/use-templates.md#template-elements) を参照してください。
