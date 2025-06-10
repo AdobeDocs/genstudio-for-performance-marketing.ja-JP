@@ -67,7 +67,7 @@ _レビュー担当者_ は、コメントを追加できますが、コンテ�
 
 GenStudio for Performance Marketingの製品内通知では、アセットのステータスの変更やコメントに応じて、承認者とコンテンツ編集者をリアルタイム `@mention` 更新します。 通知は、複数のレビュー、編集、承認のサイクルを通じた迅速な反復をサポートします。
 
-コンテンツ編集者および承認者は新規登録して、これらの通知をSlackで受け取ることができます。 [Experience Cloudのサービスの購読 ](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/subscription) を参照してください。
+コンテンツ編集者および承認者は新規登録して、これらの通知をSlackで受け取ることができます。 [Experience Cloudのサービスの購読 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/customer-attributes/subscription) を参照してください。
 
 承認参加者が実行するアクション製品内通知およびメール通知が自動でトリガーされます。 承認プロセスを開始すると、指定された承認者にメールと製品内通知の両方が届きます。 承認者がコメントを追加したり、決定を下したりするたびに、製品内およびメール通知 `@mention` 使用してループを維持できます。 通知には、コンテンツドラフトへのリンクが含まれます。
 
