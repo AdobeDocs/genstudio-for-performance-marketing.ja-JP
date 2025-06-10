@@ -3,18 +3,18 @@ title: 承認済みコンテンツの公開
 description: Adobe GenStudio for Performance Marketingで承認済みコンテンツを公開する方法を説明します。
 feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
+source-git-commit: 82a29250b1a054c91f144c4e9c431324c5e61afa
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
 # 承認済みコンテンツの公開
 
-ブランドに合わせて承認済みコンテンツを作成する最終段階では、適切なメタデータを使用してコンテンツを [!DNL Content] に保存します。 ユーザー（コンテンツエディターまたは作成者）は、アセットを [!DNL Content] に公開または保存することで、承認済みアセットを最終処理できます。
+ブランドに合わせて承認済みコンテンツを作成する最終段階では、適切なメタデータを使用してコンテンツを [!DNL Content] に保存します。 ユーザー（コンテンツエディターまたは作成者）は、承認済みアセットを [!DNL Content] に公開して最終処理できます。
 
-すべての指定承認者がドラフトを承認すると、ドラフトステータスが **承認済み** に変更されます。 Adobe GenStudio for Performance Marketingでは、エディターのキャンバスに _公開準備が完了した承認済みのバリアント_ ポップアップが表示されます。
+すべての指定承認者がドラフトを承認すると、ドラフトステータスが **承認済み** に変わります。 Adobe GenStudio for Performance Marketingでは、エディターのキャンバスに _公開準備が完了した承認済みのバリアント_ ポップアップが表示されます。
 
 その後、適切なメタデータを使用して [!DNL Content] に公開することで、ドラフトを最終処理できます。 承認されたドラフトは、ドラフトを [!DNL Content] に公開するまで、他のGenStudio for Performance Marketing ユーザーは使用できません。
 
@@ -34,9 +34,11 @@ ht-degree: 0%
 
 ## 公開後
 
-すべてのGenStudio for Performance Marketing ユーザーは、[!DNL Content] で承認済みのアセットやエクスペリエンスにアクセスできます。 アセットの詳細パネルは、アセットのアップロードと承認の履歴を識別します。 これらの属性は、保存されたコンテンツを識別します。
+すべてのGenStudio for Performance Marketing ユーザーは、[!DNL Content] で承認済みのアセットやエクスペリエンスにアクセスできます。 _アセットの詳細_ パネルには、アセットのアップロード履歴と承認履歴が表示されます。 これらの属性は、保存されたコンテンツを識別します。
 
 * **[!UICONTROL 作成者]**：アセットまたはエクスペリエンスをアップロードしたGenStudio ユーザーを識別します。
 * **[!UICONTROL 承認履歴]**：承認日時および承認者を識別します。
 
 ドラフトアセットまたはエクスペリエンスを [!DNL Content] に保存した後のドラフト URL は無効です。
+
+Workfront Proofの統合を有効にした場合、プルーフのコメントとバージョンは、アセットまたはエクスペリエンスの公開後に保存されます。

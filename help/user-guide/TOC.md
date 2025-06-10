@@ -5,9 +5,9 @@ user-guide-description: パフォーマンスマーケティング用の Adobe G
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 7ac97f040917ee737cd29ba8f5c7d8c72a75e577
+source-git-commit: ecb6a410e26339ca295dad10e0c8dda2d73ae5a4
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '238'
 ht-degree: 20%
 
 ---
@@ -52,7 +52,8 @@ ht-degree: 20%
    + [ 画像を生成 ](create/generate-assets.md)
 + レビューと承認 {#approve}
    + [ レビューと承認の概要 ](approvals/overview.md)
-   + [ コンテンツのレビューと承認のリクエスト ](approvals/request-review.md)
+   + [Workfront Proofの統合 ](approvals/proof-integration.md)
+   + [ 審査及び承認の請求 ](approvals/request-review.md)
    + [ コンテンツのレビューと編集 ](approvals/review-and-edit.md)
    + [ コンテンツを承認 ](approvals/approve-content.md)
    + [ 承認済みコンテンツの公開 ](approvals/publish-content.md)
