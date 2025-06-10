@@ -38,4 +38,4 @@ ht-degree: 1%
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
-ドラフトの作成者に承認が通知され、作業が完了します。 [!DNL Content] に保存するプロセスまたは ](/help/user-guide/approvals/publish-content.md) 公開 _の概要については、[ コンテンツの公開_ を参照してください。
+ドラフトの作成者に承認が通知され、作業が完了します。 [!DNL Content] に保存するプロセスまたは [&#128279;](/help/user-guide/approvals/publish-content.md) 公開 _の概要については、 コンテンツの公開_ を参照してください。
