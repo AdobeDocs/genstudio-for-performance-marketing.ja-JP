@@ -3,9 +3,9 @@ title: アクセシブルなテンプレートの作成
 description: Adobe GenStudio for Performance Marketingでテンプレートを作成して、より多くのオーディエンスにリーチし、最適なエクスペリエンスを提供できるようにします。
 feature: Media Templates
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: 28c128ad6f3d173b7516a6b1309555c12e6a4e2d
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,11 @@ GenStudio for Performance Marketingでは、様々なエクスペリエンスの
 ```
 
 ![ アイデア、本、巨大な鉛筆を持つ男、コンピュータのコラージュ ](/help/assets/card-create-assets.png){width="400"}
+
+テンプレートをカスタマイズする場合は、`alt` 属性と `aria-label` 属性のコンテンツプレースホルダーを使用します。
+
+- [ 代替テキスト ](/help/user-guide/content/customize-template.md#alternative-text)
+- [ アクセシビリティラベル ](/help/user-guide/content/customize-template.md#accessibility-label)
 
 ## フォント
 

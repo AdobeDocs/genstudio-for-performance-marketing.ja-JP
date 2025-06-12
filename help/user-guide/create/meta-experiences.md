@@ -5,18 +5,18 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 0344e43bc9cd417ea7b3ecd3a394bbcd6b104303
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
 
 # メタエクスペリエンス
 
-Adobe GenStudio for Performance Marketingでは、ジェネレーティブ AI を使用して [ 効果的なメタエクスペリエンスの作成 ](/help/user-guide/create/create-meta-ad.md) を効率化できます。
+Adobe GenStudio for Performance Marketingでは、ジェネレーティブ AI を使用して [ 効果的なメタエクスペリエンスの作成 ](/help/user-guide/create/create-meta-ad.md) を効率化できます。 [!DNL Create] を使用すると、コンテンツ作成者は [ ガイドライン ](/help/user-guide/guidelines/overview.md)、画像アセット、[ 適切に作成されたプロンプト ](/help/user-guide/effective-prompts.md) を使用して、メタ広告エクスペリエンスをすばやく [ 作成 ](/help/user-guide/create/create-meta-ad.md) できます。
 
-[!DNL Create] を使用すると、コンテンツ作成者は [ ガイドライン ](/help/user-guide/guidelines/overview.md)、画像アセット、[ 適切に作成されたプロンプト ](/help/user-guide/effective-prompts.md) を使用して、メタ広告エクスペリエンスをすばやく [ 作成 ](/help/user-guide/create/create-meta-ad.md) できます。
+メタエクスペリエンスを生成する際には、4 つのバリエーションが作成され、キャンバスに表示されます。 GenStudio for Performance Marketingは、[ 標準サイズとカスタムサイズのメタ広告 ](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) の両方をサポートしています。
 
 メタエクスペリエンスを生成する際には、4 つのバリエーションが作成され、キャンバスに表示されます。
 
@@ -28,13 +28,9 @@ GenStudio for Performance Marketingは、[ 標準サイズとカスタムサイ�
 * 本文
 * Call to action（CTA）
 * 画像上のテキスト
-* 画像
+* 画像/ビデオ
 
 [ テンプレート要素 ](/help/user-guide/content/use-templates.md#template-elements) を参照してください。
-
-<!-- ## Meta ad capabilities
-
-Content creators and marketers can produce brand-consistent Meta ad experiences in GenStudio for Performance Marketing. -->
 
 ## メタ広告チャネル
 

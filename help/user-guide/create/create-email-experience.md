@@ -6,16 +6,16 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: 12336812e8f4f55935f624ad0a195b5928850c7f
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
 
 # メールエクスペリエンスの作成
 
-このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン [&#128279;](/help/user-guide/create/email-experiences.md) を使用して、ブランド化された  メールエクスペリエンス）を生成する方法を説明します。
+このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン ](/help/user-guide/create/email-experiences.md) を使用して、ブランド化された [ メールエクスペリエンス）を生成する方法を説明します。
 
 効果的なメールエクスペリエンスを作成するには、開始する前に [GenStudio for Performance Marketingにガイドラインを追加 ](/help/user-guide/guidelines/add-guidelines.md) し、[ プロンプトの作成の基本 ](/help/user-guide/effective-prompts.md) をブラッシュアップすることをお勧めします。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 **メールテンプレートを選択するには**:
 
-1. _[!DNL Create]_&#x200B;で、「**[!UICONTROL メール]**」をクリックします。
+1. _[!DNL Create]_で、「**[!UICONTROL メール]**」をクリックします。
 1. _フィルター_ の横にある検索オプションを使用して、特定のメールテンプレートを検索します。
 1. クリックしてメールテンプレートを選択し、「**[!UICONTROL 使用]**」をクリックします。
 
@@ -86,10 +86,12 @@ ht-degree: 0%
 * **メールドラフト名を [ 編集](/help/user-guide/create/manage-variants.md#change-draft-name)** するには、キャンバスの上部にある _名称未設定のドラフト_ タイトルをクリックし、新しいタイトルを入力します。
 * **メールを [ 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、編集可能なテキストフィールド（件名行、ヘッダー、本文コピーなど）のいずれかをクリックし、必要に応じて編集します
 * **コールトゥアクションを [ 変更または選択](/help/user-guide/create/manage-variants.md#revise-call-to-action)** するには、「call-to-action」ボタンをクリックし、「_[!UICONTROL フレーズ変更]_」または _[!UICONTROL リンクを追加]_ を選択します。
+* **バリアントの [ テキストの書式設定を適用する](/help/user-guide/create/manage-variants.md#manually-edit-text)** には、バリアントの画像上のテキストをクリックし、**[!UICONTROL テキストの書式設定]** をクリックします。
 * **バリアントのセクションを [ 再生成](/help/user-guide/create/manage-variants.md#re-generate-sections)** するには、編集可能なテキストフィールドをクリックして _[!UICONTROL 編集候補]_ オプションを使用するか、新しいプロンプトを入力して **[!UICONTROL 生成]** をクリックします。
 * **バリアント内の画像を追加 [ 入れ替え](/help/user-guide/create/manage-variants.md#swap-image)** するには、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックし、**[!UICONTROL コンテンツから入れ替え]** アイコンをクリックします。
 * **バリアント内の画像へのリンクを追加 [ するには](/help/user-guide/create/manage-variants.md#add-image-link)**、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックし、リンクアイコンをクリックします。
 * **バリアント内の画像の代替テキストを追加 [ するには](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**、画像アセットをクリックし、「_代替テキスト_」オプションを使用して、画像ごとに代替テキストを手動で追加または生成します。
+* **バリアントに [ アクセシビリティラベルを追加 ](/help/user-guide/create/manage-variants.md#add-accessibility-labels) するには** 画像またはcall-to-action リンクをクリックし、リンクまたはボタンの機能を説明する簡単な説明を入力します。
 * **メールを [ 削除](/help/user-guide/create/manage-variants.md#delete-variant)** するには、をクリックしてメールのタイトル（「メール 1/4」など）を選択し、「**[!UICONTROL バリアントを削除]**」をクリックします。
 
 ## 生成フィードバックを送信
@@ -129,7 +131,7 @@ ht-degree: 0%
 
 ## エクスペリエンスの公開と書き出し
 
-生成されたメールを現在および将来の使用で使用できるようにするには、メールを [!UICONTROL &#x200B; コンテンツ &#x200B;] に公開し、マーケティングキャンペーンで使用するために書き出します。
+生成されたメールを現在および将来の使用で使用できるようにするには、メールを [!UICONTROL  コンテンツ ] に公開し、マーケティングキャンペーンで使用するために書き出します。
 
 1. **新しいメールエクスペリエンスを公開するには** 上部のツールバーまたは承認フロー内の **[!UICONTROL 公開]** をクリックします。
 1. **新しいメールエクスペリエンスを書き出すには**、上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。

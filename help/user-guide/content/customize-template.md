@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 4a82431c0f6a0f2f16c80160a46241dfa702195b
+source-git-commit: 2c5a16f0767958d09cfe5bbaa7a5538ca1b4fe75
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1613'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 生成 AI がコンテンツの挿入に使用するコンテンツプレースホルダー（フィールド）を挿入することで、GenStudio for Performance Marketingで使用するテンプレートをカスタマイズできます。
 
-以降の節では、_[!DNL Handlebars]_&#x200B;テンプレート言語を使用してHTML テンプレートをGenStudio for Performance Marketingに適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 テンプレートの準備方法については、_ Handlebars 言語ガイド _の [ 概要  [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) を参照してください。
+以降の節では、_[!DNL Handlebars]_テンプレート言語を使用してHTML テンプレートをGenStudio for Performance Marketingに適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 テンプレートの準備方法については、_ Handlebars 言語ガイド _の [ 概要  [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) を参照してください。
 
 テンプレートの準備が整ったら、[GenStudio for Performance Marketingにアップロード ](use-templates.md#upload-a-template)、カスタムテンプレートに基づいてパーソナライズされたメールの生成を開始できます。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## コンテンツプレースホルダー
 
-GenStudio for Performance Marketingはテンプレート内の特定の [ 要素 ](use-templates.md#template-elements) を認識しますが、それは [ 認識されたフィールド名 ](#recognized-field-names) で識別した場合に限られます。
+GenStudio for Performance Marketingは、テンプレート内の特定の種類のコンテンツや [ 要素 ](use-templates.md#template-elements) を認識しますが、それは [ 認識されたフィールド名 ](#recognized-field-names) で識別した場合に限られます。
 
 HTML テンプレートの先頭または本文内では、[!DNL Handlebars] の構文を使用して、GenStudio for Performance Marketingに実際のコンテンツをテンプレートに入力させる必要があるコンテンツプレースホルダーを挿入できます。 GenStudio for Performance Marketingは、これらのプレースホルダーを [ 認識された _field_ name](#recognized-field-names) に基づいて認識および解釈します。 各フィールド名は、コンテンツの生成方法とテンプレートへの挿入方法を決定する特定のルールと動作に関連付けられています。
 
@@ -124,6 +124,14 @@ GenStudio for Performance Marketingでは、様々なコールトゥアクショ
 - `{{image}}` は、画像のソース URL のプレースホルダーです。
 - `{{imageDescription}}` は代替テキストのプレースホルダーで、アクセシビリティおよび SEO のために画像の説明が提供されます。
 
+### アクセシビリティラベル
+
+`aria-label` 属性は、表示ラベルのない要素に対して、アクセス可能な名前を定義するために使用されます。 この属性は、CTA ボタンなどのインタラクティブ要素のコンテキストを提供することが重要なテンプレートで特に役立ちます。
+
+```html
+<a class="button" href="{{link}}" aria-label="{{CTAAriaLabel}}">{{cta}}</a>
+```
+
 ### 画像テキスト上
 
 `{{on_image_text}}` プレースホルダーは、エクスペリエンスの画像に直接配置された、短い影響を受けるメッセージのテキストオーバーレイを指定するために使用されます。
@@ -172,9 +180,38 @@ At this time, you cannot select the brand logo for the template upload. The foll
 </tbody>
 ```
 
+### リッチテキスト編集
+
+リッチテキスト編集を使用して、リッ [!DNL Create] プロセス中にクリエイティブコンテンツを強化します。 キャンバスは、コンテンツプレースホルダーの場所に基づいてリッチテキスト機能を決定します。 リッチテキスト機能は、コンテンツプレースホルダーをスタンドアロン要素として使用するか、ブロックレベルのHTML タグ（`<p>`、`<div>`、`<span>` など）内で使用する場合にのみ使用できます。
+
+段落内のスタンドアロンコンテンツに対して、リッチテキスト編集を使用できます。
+
+```html
+<p>{{body}}</p>
+```
+
+HTML属性内でコンテンツプレースホルダー（`alt`、`href`、`src` など）を使用する場合、そのフィールドではリッチテキストの編集はサポートされません。
+
+`alt` のコンテンツではリッチテキスト編集は使用 **できません**
+
+```html
+<img src="image.jpg" alt="{{image_description}}">
+```
+
+1 つのフィールドが複数回表示される場合、リッチテキスト機能は、いずれかのインスタンスでHTML属性として使用されているかどうかに基づいて決定されます。 例えば、ヘッドラインが見出しとして、また画像の代替テキストとして使用される場合、`alt` タグが優先されます。
+
+リッチテキスト編集は、リッ `alt` コンテンツとして使用されるので、`headline` では使用 **できません**。
+
+```html
+<h1>{{headline}}</h1>
+<img src="image.jpg" alt="{{headline}}">
+```
+
+リッチテキスト編集は、ソーシャルチャネル（Meta、LinkedIn）の `on_image_text` など、特定のチャネル内の特定のフィールドで使用できます。
+
 ## セクションまたはグループ
 
-フィールドのグループが 2～3 つある場合は、マーケティングメールテンプレートでセクションを使用できます。 _セクション_ このセクションのフィールドには高い一貫性が必要であることをGenStudio for Performance Marketingに伝えます。 この関係を確立すると、AI がセクションのクリエイティブ要素に一致するコンテンツを生成するのに役立ちます。
+メールテンプレートに複数のコンテンツ領域（複数のオファーやストーリーなど）が必要な場合は、セクションやグループを使用して整理できます。 _セクション_ このセクションのフィールドには高い一貫性が必要であることをGenStudio for Performance Marketingに伝えます。 この関係を確立すると、AI がセクションのクリエイティブ要素に一致するコンテンツを生成するのに役立ちます。
 
 フィールドがセクションまたはグループの一部であることを示すプレフィックスとして、選択したグループ名を使用します。 アンダースコア（`_`）の後にフィールド名（`headline`、`body`、`image`、`cta` など）を使用します。
 
@@ -192,7 +229,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 このルールのため、セクションをネストすることはできません。
 
-メールやメタ広告などの各テンプレートタイプには、セクションの使用に関するチャネル固有の制約があります。 [ テンプレート使用のベストプラクティス ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) トピックの _チャネル固有のガイドライン_ を参照してください。
+メールやメタ広告などの各テンプレートタイプには、セクションの使用に関するチャネル固有の制約があります。 [ テンプレート使用のベストプラクティス ](/help/user-guide/content/best-practices-for-templates.md) トピックの _チャネル固有のガイドライン_ を参照してください。
 
 例えば、1 つのメールテンプレートに最大 3 つのセクションを含めることができます。したがって、次の 3 つのヘッドラインと本文セクションを含めることができます。
 

@@ -3,12 +3,12 @@ title: GenStudio for Performance Marketing用のメールテンプレートの�
 description: Adobe GenStudio for Performance Marketingで使用するメールテンプレートを準備する方法について説明します。
 level: Beginner
 feature: Media Templates
-hide: true
-hidefromtoc: true
+badgeBeta: label="Beta" tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"
 recommendations: noDisplay, noCatalog
-source-git-commit: 35a519a8d28e260bfa6d9ed671bd5bf1cfeda931
+exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
+source-git-commit: a7c69659c348fad3e067a84c1d242809a83b42fb
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '410'
 ht-degree: 2%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 2%
 _スターターテンプレート_ は、GenStudio for Performance Marketingをすぐに使い始めたり、効果的なメディアを作成する方法を学んだりするのに役立つ、事前定義されたテンプレートオプションです。 [!DNL Create] で、メディアタイプを選択します。 スターターテンプレートが使用可能な場合は、「**[!UICONTROL スターターテンプレート]**」タブに切り替えて、ニーズに合ったテンプレートを参照して選択します。
 
 ![ 「スターターテンプレート」タブ ](/help/assets/starter-templates.png " 「テンプレート」タブを選択 "){width="350"}
-
-## 適切な縦横比の選択
 
 広告に適した縦横比の選択は、影響力を最大限に高め、様々なプラットフォームやプレースメントでコンテンツを正しく表示するために重要です。 縦横比を選択する場合は、次の点を考慮してください。
 

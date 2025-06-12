@@ -6,18 +6,16 @@ badgeBeta: label="Beta" tooltip="この機能は現在Betaにあるので、一�
 role: User
 level: Beginner
 exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
-source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
+source-git-commit: c34576c93550eff6f15b31416e7a41ec36339fe5
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
 # LinkedIn エクスペリエンス
 
-Adobe GenStudio for Performance Marketingでは、ジェネレーティブ AI を活用して、効率的に [ 強力な LinkedIn エクスペリエンスを作成 ](/help/user-guide/create/create-linkedin.md) できます。
-
-[!DNL Create] を使用すると、コンテンツ作成者やマーケターは、[ ガイドライン ](/help/user-guide/guidelines/overview.md)、画像アセット、[ 指示プロンプト ](/help/user-guide/effective-prompts.md) を使用して、ブランドに準拠した LinkedIn エクスペリエンスを [ 生成 ](/help/user-guide/create/create-email-experience.md) できます。
+Adobe GenStudio for Performance Marketingでは、ジェネレーティブ AI を活用して、効率的に [ 強力な LinkedIn エクスペリエンスを作成 ](/help/user-guide/create/create-linkedin.md) できます。 [!DNL Create] を使用すると、コンテンツ作成者やマーケターは、[ ガイドライン ](/help/user-guide/guidelines/overview.md)、画像アセット、[ 指示プロンプト ](/help/user-guide/effective-prompts.md) を使用して、ブランドに準拠した LinkedIn エクスペリエンスを [ 生成 ](/help/user-guide/create/create-email-experience.md) できます。
 
 LinkedIn エクスペリエンスを生成する際には、4 つのバリエーションが作成され、キャンバスに表示されます。
 
@@ -27,7 +25,7 @@ LinkedIn エクスペリエンスの編集可能なセクションは次のと�
 * 紹介テキスト
 * 説明
 * Call to action（CTA）
-* 画像
+* 画像/ビデオ
 
 [ テンプレート要素 ](/help/user-guide/content/use-templates.md#template-elements) を参照してください。
 

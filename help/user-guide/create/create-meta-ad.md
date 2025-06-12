@@ -6,16 +6,16 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
 
 # メタ広告エクスペリエンスの作成
 
-このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン [&#128279;](/help/user-guide/create/meta-experiences.md) を使用して、ブランド化された  メタ広告エクスペリエンス）を生成する方法を説明します。
+このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン ](/help/user-guide/create/meta-experiences.md) を使用して、ブランド化された [ メタ広告エクスペリエンス）を生成する方法を説明します。
 
 Meta 広告エクスペリエンスの作成を開始する前に、GenStudio for Performance Marketingで [ ガイドラインを組み込む ](/help/user-guide/guidelines/add-guidelines.md) ことが重要です。また、[ プロンプトの作成 ](/help/user-guide/effective-prompts.md) の基本を理解しておく必要があります。
 
@@ -23,10 +23,15 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 
 新しいメタ広告エクスペリエンスの生成を開始するには、使用可能なテンプレートを使用して、コンテンツのフレームワークを提供します。 サポートされるメタ広告の縦横比について詳しくは、[ メタ広告テンプレートガイドライン ](/help/user-guide/templates/meta-template.md) を参照してください。
 
+テンプレートを選択する際は、アップロードしたテンプレートの 1 つを使用するか、スターターテンプレートを使用するかを選択できます。
+
 **メタ広告テンプレートを選択するには**:
 
-1. _[!DNL Create]_&#x200B;で、「**[!UICONTROL メタ広告]**」をクリックします。
-1. _フィルター_ の横にある検索オプションを使用して、特定のメタ広告テンプレートを見つけます。
+1. _[!DNL Create]_で、「**[!UICONTROL メタ広告]**」をクリックします。
+1. **[!UICONTROL カスタムテンプレート]** を選択してアップロードしたテンプレートまたは **[!UICONTROL スターターテンプレート]** を選択して、事前定義済みのテンプレートを参照します。
+
+   Meta バリアントにビデオアセットを追加する予定の場合は、スターターテンプレートを選択する必要があります。 ビデオの使用を容易にするシステム定義のコンテンツ領域が事前に読み込まれています。
+
 1. テンプレートをクリックして選択し、「**[!UICONTROL 使用]**」をクリックします。
 
    これにより、コンテンツ作成の中心となるキャンバスが開きます。
@@ -46,14 +51,17 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 
    これらのメニューから利用できるブランド、ペルソナ、製品がない場合は、[GenStudio for Performance Marketingにガイドラインを追加 ](/help/user-guide/guidelines/add-guidelines.md) します。
 
-1. コンテンツの生成に影響を与えるために、エクスペリエンス *および* で使用するコンテンツを追加します。
-   * **[!UICONTROL コンテンツから選択]** をクリックして、[!DNL Content] リポジトリからアセット（画像）を選択し、1 つ以上の画像をフィルタリングして選択します。
+1. エクスペリエンス（および *で使用するコンテンツ（画像やビデオ）を追加して* コンテンツの生成に影響を与えます。
+   * **[!UICONTROL コンテンツから選択]** をクリックして、[!DNL Content] リポジトリからアセットを選択し、1 つ以上の画像をフィルタリングして選択します。
+
+     ビデオのセクションがあるテンプレートを使用している場合は、ビデオコンテンツ（.mp4）が事前選択され、フィルタリングされます。 ビデオの上にマウスポインターを置くと、自動再生されたプレビューが表示されます。
 
      ![ ビジュアルコンテンツを選択 ](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
 
      接続された [!DNL AEM Assets Content Hub] リポジトリのアセットを使用するには、_場所_ ドロップダウンメニューからリポジトリを選択します。 1 つ以上の画像のフィルタリングと選択
 
-   * または、アセットを「**[!UICONTROL コンテンツから選択]** セクションにドラッグ&amp;ドロップして、1 つ以上の新しいアセットをアップロードします。
+   * または、画像を「**[!UICONTROL コンテンツから選択]**」セクションにドラッグ&amp;ドロップして、1 つ以上の新しいアセットをアップロードします。
+
 1. **[!UICONTROL 使用]** をクリックします。
 
 パラメーターの追加が完了したら、「_パラメーター_」アイコンをもう一度クリックすると、プロンプトドロワーを折りたたむことができます。
@@ -68,6 +76,8 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 
 1. _生成するエクスペリエンスを記述」_ プロンプトボックスにプロンプトを入力します。
 1. 「**[!UICONTROL 生成]**」をクリックします。
+
+   ビデオの生成方法と管理方法について詳しくは、[ ビデオの管理 ](#manage-videos) を参照してください。
 
 デフォルトでは、4 つのバリエーション（追加したプロンプト、ガイドラインおよびコンテンツによってすべて強化される）が生成され、キャンバスに表示されます。
 
@@ -93,13 +103,23 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 * **メタ広告を [ 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、広告セクションのいずれか（件名行など）をクリックします
 ヘッダー（本文コピー）を使用し、必要に応じて編集します。
 * **コールトゥアクションを変更または選択するには**、「call-to-action」ボタンをクリックし、使用可能なボタンテキストオプションから選択します。 _リンク_ に、call-to-actionテキストの URL を入力します。
+* **バリアントで [ テキストの書式設定を適用](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、バリアントの画像上のテキストまたはインラインリンクをクリックし、「**[!UICONTROL テキストの書式設定]**」をクリックします。
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **バリアント内の画像へのリンクを追加 [ するには](/help/user-guide/create/manage-variants.md#add-image-link)**、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックし、リンクアイコンをクリックします。
+* **広告のサイズと縦横比を [ 変更](/help/user-guide/create/manage-variants.md#change-aspect-ratio)** するには、_[!UICONTROL サイズ変更]_ ボタン（キャンバスの左側にボタンアイコンが表示されたボックス）をクリックし、すべてのバリアントに適用する新しいサイズと縦横比を選択します。 バリアントが複製され、サイズが変更されます。
 * **バリアントのセクションを [ 再生成](/help/user-guide/create/manage-variants.md#re-generate-sections)** するには、編集可能なテキストフィールドをクリックして _[!UICONTROL 編集候補]_ オプションを使用するか、新しいプロンプトを入力して **[!UICONTROL 生成]** をクリックします。
 * **バリアント内の画像を追加 [ 入れ替え](/help/user-guide/create/manage-variants.md#swap-image)** するには、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックし、**[!UICONTROL コンテンツから入れ替え]** アイコンをクリックします。
-* **画像を [ 切り抜きまたは再配置](/help/user-guide/create/manage-variants.md#crop-assets)** するには、画像の上にマウスポインターを置き、表示される切り抜きアイコンをクリックし、画像のサイズと配置を調整します。
+* **画像を [ 切り抜きまたは再配置](/help/user-guide/create/manage-variants.md#crop-assets)** するには、画像をクリックし、**[!UICONTROL 編集]** （鉛筆アイコン）をクリックしてから **[!UICONTROL 切り抜き]** をクリックします。 画像のサイズと配置を調整します。
+* **画像のサイズを調整およびフィットするために生成拡張を使用 [ するには ](/help/user-guide/create/manage-variants.md#use-generative-expand) 作業テンプレートに合わせます**、画像をクリックし、**[!UICONTROL 編集]** （鉛筆アイコン）をクリックしてから **[!UICONTROL 展開]** をクリックします。 必要な縦横比とテンプレートに合わせて画像を調整します。
 * **バリアント内の画像の代替テキストを追加 [ するには](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**、画像アセットをクリックし、「_代替テキスト_」オプションを使用して、画像ごとに代替テキストを手動で追加または生成します。
+* **バリアントに [ アクセシビリティラベルを追加 ](/help/user-guide/create/manage-variants.md#add-accessibility-labels) するには** 画像またはcall-to-action リンクをクリックし、リンクまたはボタンの機能を説明する簡単な説明を入力します。
 * **メタ広告を [ 削除](/help/user-guide/create/manage-variants.md#delete-variant)** するには、バリアントのオプションメニューをクリックし、**[!UICONTROL バリアントを削除]** をクリックします。
+
+### ビデオを管理
+
+各ビデオにポインタを合わせると、ループ再生された自動再生が表示されます。
+
+ビデオは、生成時に選択した縦横比に合わせて変更されます。 **[!UICONTROL ビデオを再フレーム]** をクリックしてオフに切り替えて、元の屈折されていないビデオに戻します。
 
 ## 生成フィードバックを送信
 
@@ -137,7 +157,7 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 
 ## エクスペリエンスの公開と書き出し
 
-生成したメタ広告を現在および将来の使用で使用できるようにするには、[!UICONTROL &#x200B; コンテンツ &#x200B;] に公開し、マーケティングキャンペーンで使用するためにエクスポートします。
+生成したメタ広告を現在および将来の使用で使用できるようにするには、[!UICONTROL  コンテンツ ] に公開し、マーケティングキャンペーンで使用するためにエクスポートします。
 
 1. **新しいメタ広告エクスペリエンスを公開するには** 上部のツールバーまたは承認フロー内の **[!UICONTROL 公開]** をクリックします。
 1. **新しいメタ広告エクスペリエンスを書き出すには** 上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。

@@ -4,10 +4,10 @@ description: パフォーマンスマーケティング用の Adobe GenStudio �
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 2e30223f67d8ad7e230245c825600e60a57e2ccd
+source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
 workflow-type: tm+mt
-source-wordcount: '2300'
-ht-degree: 1%
+source-wordcount: '2667'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,45 @@ ht-degree: 1%
 
 このリリース情報では、GenStudio for Performance Marketing アプリケーションの最新のアップデートについて詳しく説明します。
 
-## 2025.05.15 {#latest}
+## 2025.06 {#latest}
+
+### 使用可能なスターターテンプレート
+
+[!BADGE Beta]{type=Informative tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"}
+
+[ スターターテンプレート ](/help/user-guide/templates/starter-templates.md) を使用すると、クリエイティブプロセスをすぐに開始できます。 Meta または LinkedIn 広告スターターテンプレートから選択できるようになりました。
+
+### ジェネレーティブ拡張 AI 機能
+
+[!BADGE Beta]{type=Informative tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"}
+
+GenStudio for Performance Marketing [!DNL Create] では、[Generative Expand AI capabilities](/help/user-guide/create/manage-variants.md#use-generative-expand) を使用して、画像のサイズを拡大し、有料メディアのバリエーションで広告テンプレートに合わせて生成コンテンツを追加できるようになりました。
+
+### 広告へのビデオの追加
+
+[!BADGE Beta]{type=Informative tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"}
+
+画像コンテンツと共に、ビデオを [LinkedIn](/help/user-guide/create/create-linkedin.md#manage-videos) および [Meta](/help/user-guide/create/create-meta-ad.md#manage-videos) 広告に追加できるようになりました。 ビデオを選択してバリアントに追加する際に、GenStudio for Performance Marketingでビデオの自動再生プレビューを直接参照してください。
+
+### 修正および機能強化
+
+* GenStudio for Performance Marketingから LinkedIn Campaign Manager への [ 広告エクスペリエンスの公開 ](/help/user-guide/activation/activate-linkedin-ad.md) サポートを追加しました。 [!DNL Activate] は、LinkedIn キャンペーンマネージャーに公開する前の詳細な LinkedIn 広告プレビューをサポートしています。
+
+* [Workfront Proof統合 ](/help/user-guide/approvals/overview.md) は、Proof の堅牢なレビューおよび承認機能をGenStudio for Performance Marketingに提供します。 GenStudio for Performance MarketingでレビューされたコンテンツはWorkfront Proofと同期され、レビューのコメントとステータスは保持されます。
+
+* アクセシビリティラベル [Aria-labels）を追加して、バリアントで ](/help/user-guide/create/manage-variants.md#add-accessibility-labels) 画像とcall-to-action リンクにアクセス可能な名前を指定）する機能を追加しました。
+
+* 英語以外の言語で [ ブランドガイドライン ](/help/user-guide/guidelines/brands.md) を追加または変更すると、GenStudio for Performance Marketingによってそのガイドラインが同じ言語で表示されます。
+
+* 手動で [!DNL Brand] を追加した後、またはドキュメントから手動で抽出して [!DNL Brand] を作成した後に、[ ブランドのサムネール画像を変更または追加 ](/help/user-guide/guidelines/add-guidelines.md#change-brand-thumbnail) して、[!DNL Brands] リスト内で各ブランドを簡単に区別できるようにします。
+
+* 生成されたバリアントで [ テキストにリッチテキスト編集形式を使用 ](/help/user-guide/create/manage-variants.md#manually-edit-text) できるようになりました。 カラー、サイズ、リストなど、バリアントテキストの様々な書式設定オプションを試します。
+
+* プラットフォーム設定時に既存の広告セットを複製することで、プラットフォーム設定時に [ 新しい広告セットを作成 ](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set) できるようになりました。 メタ広告セットは、特定の広告のタイミング、チャネルの詳細およびオーディエンスを定義します。 メタキャンペーンには複数の広告セットを含めることができますが、1 つの広告セットは 1 つのキャンペーンにのみ関連付けられます。
+
+## 以前のリリースノート
+
++++ご注意（2025.05.15 より）
 
 ### 修正および機能強化
 
@@ -24,7 +62,7 @@ ht-degree: 1%
 * 書き出しやダウンロードに複数のエクスペリエンスを選択できるようになりました。 [ エクスペリエンスの書き出し ](/help/user-guide/content/manage-assets.md#export-experiences) を参照してください。
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
-## 以前のリリースノート
++++
 
 +++備考：2025.04.15 より
 
@@ -34,6 +72,8 @@ ht-degree: 1%
 * エクスペリエンスの [ 個々のレイヤーの表示と選択 ](/help/user-guide/create/manage-variants.md#view-layers) 編集可能なテキストフィールドまたは編集可能な画像）の機能を有効にして、コンテンツの再生成や画像の切り抜きなどの修正に合わせてハイライト表示できるようになりました。
 * オーディエンスの注意を引き、マーケティングメッセージをハイライト表示するために、エクスペリエンスにテキストを追加するために [ 新しいテンプレートフィールド ](/help/user-guide/content/use-templates.md#template-elements)、`sub-headline` を追加しました。
 * GenStudio for Performance MarketingからGoogle Campaign Manager 360 への [ 広告エクスペリエンスの公開 ](/help/user-guide/activation/overview.md) サポートを追加しました。 アクティブ化は、Google Manager 360 広告主に公開する前の詳細な Campaign Manager 360 広告プレビューをサポートします。 アクティブ化を通じて公開された広告は、ライブになると自動的にインサイトに取り込まれ、ユーザーは広告のパフォーマンスを追跡およびレポートできるようになります。
+
++++
 
 +++ご注意（2025.03.13 より）
 
@@ -77,7 +117,7 @@ ht-degree: 1%
 * [ コンテンツチェック ](/help/user-guide/guidelines/brand-validation.md) およびレビューと承認の機能を新しい右側のアクションバーに移動して、キャンバスのスペースを最大化し、ユーザーエクスペリエンスを向上させました。
 * [ ブランドをアップロードまたは手動で追加 ](/help/user-guide/guidelines/add-guidelines.md#add-brands) するためのフローを簡略化しました。
 * キャンバスで [ バリアント内の画像アセットを追加または入れ替える ](/help/user-guide/create/manage-variants.md#swap-image) 機能が導入されました。
-* 所有メディア、有料メディア、コンテンツの各セクションに分けることで、チャネルカテゴリ [&#128279;](/help/user-guide/create/overview.md) 作成ホーム上  のユーザーエクスペリエンスと可視性が向上しました。
+* 所有メディア、有料メディア、コンテンツの各セクションに分けることで、チャネルカテゴリ ](/help/user-guide/create/overview.md) 作成ホーム上 [ のユーザーエクスペリエンスと可視性が向上しました。
 * テーブル表示とギャラリー表示 [!DNL Insights] フィルタリングを改善しました。
 
 +++
@@ -224,7 +264,7 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 * 書き出されたHTMLで、すべての文字が正しく表示されるようになりました。<!-- GS-7246 -->
 
-* 特定の言語で、[!DNL Content]_エクスペリエンス_&#x200B;**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
+* 特定の言語で、[!DNL Content]_エクスペリエンス_**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
 
 * 50 x 50 のサイズのテンプレートで作成されたディスプレイ広告が、想定された画像サイズで書き出されるようになりました。 以前は、PNG ファイルは、期待される寸法の 2 倍で書き出されていました。<!-- GS-7192 -->
 

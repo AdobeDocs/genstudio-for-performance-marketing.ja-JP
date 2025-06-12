@@ -5,9 +5,9 @@ user-guide-description: パフォーマンスマーケティング用の Adobe G
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: ecb6a410e26339ca295dad10e0c8dda2d73ae5a4
+source-git-commit: 69915cf03785c3a916bab75cbc34d0126749cddc
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 20%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 20%
    + [ 有料メディアを接続 ](connectors/connect-channel.md)
    + 有料メディアアカウント {#connect-account}
       + [Google Campaign Manager 360](connectors/google-cm360.md)
+      + [LinkedIn](connectors/linkedin-ads.md)
       + [ メタ広告 ](connectors/meta-ads.md)
 + ガイドライン {#guidelines}
    + [ ガイドラインの概要 ](guidelines/overview.md)
@@ -85,6 +86,7 @@ ht-degree: 20%
    + [ アクティベーションの最適化 ](activation/troubleshooting.md)
    + 有料メディア広告 {#paid-media-ads}
       + [Google Campaign Manager 360](activation/activate-cm360-ad.md)
+      + [LinkedIn](activation/activate-linkedin-ad.md)
       + [ メタ ](activation/activate-meta-ad.md)
 + インサイト {#insights}
    + [インサイトの概要](insights/overview.md)

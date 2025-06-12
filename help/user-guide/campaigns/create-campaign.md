@@ -3,7 +3,8 @@ title: Adobe GenStudio for Performance Marketing キャンペーン
 description: 生成 AI アセットとエクスペリエンスを活用するデジタルマーケティングキャンペーンを作成および管理する方法について説明します。
 feature: Campaign Planning, Campaign Brief
 badgeBeta: label="Beta" tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"
-source-git-commit: edbeb7f0d08e2215a23f15cfeff77a5217cd264b
+exl-id: b7c4194f-fa61-4739-acd6-7acbdd98e9b2
+source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 0%
@@ -16,12 +17,11 @@ GenStudio for Performance Marketing キャンペーンは、主要なデジタ�
 
 キャンペーンの主要な要素はキャンペーンオブジェクトに格納されます。これにより、同じ一意のキャンペーン名でラベル付けされたすべてのアセットとエクスペリエンスの共有コンテキストが作成されます。 このラベルは、GenStudio for Performance Marketing全体でキャンペーンを識別します。
 
-GenStudioのシステムマネージャーと Genstudio の編集者はキャンペーンを作成できます。
+GenStudio システムマネージャーとGenStudio エディターはキャンペーンを作成できます。
 
 ## キャンペーンの詳細を定義
 
 {{$include /help/_includes/campaign-details.md}}
-
 
 **キャンペーンの詳細を入力するには**:
 

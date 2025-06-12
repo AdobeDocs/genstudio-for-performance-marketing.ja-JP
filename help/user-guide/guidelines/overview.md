@@ -4,7 +4,7 @@ description: GenStudio for Performance Marketing [!DNL Brands], [!DNL Products],
 level: Beginner
 feature: Brand Personalization, Product Personalization, Persona Personalization, Variant Generation, Generative AI
 exl-id: 577c627b-0895-4958-a883-3133b4a3efde
-source-git-commit: f08e92fd8d71fb8e918d8c8167d1e62ed86e35cb
+source-git-commit: dcd347dedd17497a080989df9e92dbf175cd2b2e
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -37,7 +37,7 @@ GenStudio for Performance Marketing ガイドライン：
 * ブランドアイデンティティの複雑さを定義
 * 生成 AI がコンテンツの作成に使用する、ロゴやフォント、ピクセル間隔、メッセージングガイドラインの繊細さなどの個別の要素に対する情報の基本リポジトリを作成します
 * 定義したブランド ID が、コンテンツの各部分の作成に通知されるようにします
-* 生成または検証されたコンテンツの各部分に対してチェックされるブランド ID フレームワークと [ て動作 ](#brand-validation) ます。
+* 生成または検証されたコンテンツの各部分に対してチェックされるブランド ID フレームワークと [ て動作 ](#content-checks) ます。
 * 生成されたバリアントに対して ADA アクセシビリティおよび Platform ガイドラインを実装します
 
 ブランド、製品、ペルソナのデータをGenStudio for Performance Marketingに組み込むことで、AI で生成されたコンテンツの品質を向上させ、包括的でカスタマイズされたブランドアイデンティティを保証できます。
@@ -46,8 +46,8 @@ GenStudio for Performance Marketing ガイドライン：
 
 [!DNL Brands]、[!DNL Products] および [!DNL Personas] のガイドラインでは、生成されたコンテンツがブランドの望ましい表現に準拠していることを確認するために、主に次の 2 つのユースケースが可能です。
 
-* **コンテンツ生成**&#x200B;[[!DNL Create]](/help/user-guide/create/overview.md) または [ コンテンツ ](/help/user-guide/content/overview.md)
-* [**ブランド検証**](#brand-validation)：コンテンツ作成プロセスの一環として行われます
+* **コンテンツ生成**[[!DNL Create]](/help/user-guide/create/overview.md) または [ コンテンツ ](/help/user-guide/content/overview.md)
+* [**ブランド検証**](#content-checks)：コンテンツ作成プロセスの一環として行われます
 
 ## コンテンツチェック
 
@@ -63,5 +63,5 @@ Adobe GenStudio for Performance Marketingでは、外部プラットフォーム
 
 これらの累積的なコンプライアンスチェックには、次のものが含まれます。
 
-* **ADA アクセシビリティ** – 様々な能力のユーザーに対応する包括的なコンテンツとデジタルエクスペリエンスの開発を確実に行うために不可欠です。 これにより、web アクセシビリティ機能との整合性が確保され、すべてのユーザーに公平なアクセスが提供されます。 GenStudio for Performance Marketingは現在、ADA Level A のコピー（テキスト）アクセシビリティ標準を参照しています。
+* **ADA アクセシビリティ** – 様々な能力のユーザーに対応する包括的なコンテンツとデジタルエクスペリエンスの開発を確実に行うために不可欠です。 これにより、web アクセシビリティ機能との整合性が確保され、すべてのユーザーに公平なアクセスが提供されます。 GenStudio for Performance Marketingは現在、ADA Level AA のコピー（テキスト）アクセシビリティ標準を参照しています。
 * **プラットフォームコンプライアンス**:Meta や LinkedIn などの各プラットフォームの特定のガイドラインを遵守し、業界のベストプラクティスに従うために不可欠です。 これらは、システムに存在し、[[!DNL Brand]  ガイドライン ](/help/user-guide/guidelines/brands.md#brands-guidelines) に事前入力されたデフォルトのガイドラインです。

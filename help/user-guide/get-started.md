@@ -5,9 +5,9 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 1ff6a3ecf0a0773c3a6f13d6993042b0620c6dd2
+source-git-commit: 7495891b58d7830453ba81048df3373820823136
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Adobe GenStudio for Performance Marketingは、コンテンツの作成、管理
 
 ## コンテンツの作成、共有、レビューを開始
 
-ジェネレーティブ AI ベースのツールを初めて使用する場合、またはGenStudio for Performance Marketingの基本原則に興味がある場合は、[ 概念 ](/help/user-guide/concepts.md) および [ 効果的なプロンプトの記述 ](/help/user-guide/effective-prompts.md) を参照してください。 クリエイティブなプロセスでジェネレーティブ AI テクノロジーを活用する方法については、Adobeのオンライン ラーニング プラットフォームである [&#128279;](https://learningmanager.adobe.com/genstudioacademy)0&rbrace;Adobe GenStudio Academy&rbrace; をご覧ください。
+ジェネレーティブ AI ベースのツールを初めて使用する場合、またはGenStudio for Performance Marketingの基本原則に興味がある場合は、[ 概念 ](/help/user-guide/concepts.md) および [ 効果的なプロンプトの記述 ](/help/user-guide/effective-prompts.md) を参照してください。 クリエイティブなプロセスでジェネレーティブ AI テクノロジーを活用する方法については、Adobeのオンライン ラーニング プラットフォームである ](https://learningmanager.adobe.com/genstudioacademy)0}Adobe GenStudio Academy} をご覧ください。[
 
 ## GenStudio for Performance Marketingをパーソナライズ
 
@@ -28,7 +28,14 @@ GenStudio for Performance Marketingは、ブランドと市場に関する情報
 
 ### 手順 1：ガイドラインの追加
 
-組織のブランド ID の主要な構成要素を設定することは、コンテンツ編集者や共同作業者の作業にとって不可欠な前提条件です。 [ ガイドライン ](/help/user-guide/guidelines/overview.md) ロゴ、声のトーン、カラーパレットなど、ブランドの特徴を取り込みます。 [[!DNL Brands]  ガイドライン ](/help/user-guide/guidelines/brands.md) ドキュメントをアップロードするか、ブランド情報を手動で入力できます。 [[!DNL Personas]  ガイドライン ](/help/user-guide/guidelines/personas.md) と [[!DNL Products]  ガイドライン ](/help/user-guide/guidelines/products.md) も重要です。 GenStudio for Performance Marketingの基盤となるジェネレーティブ AI 機能では、これらのガイドラインを使用して、コンテンツの生成をガイドするガードレールを確立します。
+ブランド [ ガイドライン ](/help/user-guide/guidelines/overview.md) は、ブランドの特性を取り込みます。 GenStudio for Performance Marketingの基盤となるジェネレーティブ AI 機能では、これらのガイドラインを使用して、コンテンツの生成をガイドするガードレールを確立します。 [[!DNL Brands]  ガイドライン ](/help/user-guide/guidelines/brands.md) ドキュメントをアップロードするか、ブランド情報を手動で入力できます。
+
+コンテンツ編集者や共同作業者は、組織の [ ブランドアイデンティティ ](/help/user-guide/guidelines/brands.md) の基本要素が確立されるまで、作業を開始できません。 これらのブランドコンポーネントには、次の両方が含まれます。
+
+* 無形の要素（声のトーンなど）
+* ロゴ、カラーパレット、タイポグラフィなどの有形アセット。
+
+ガイドラインを作成する前に、GenStudio for Performance Marketingによる [ ブランドコンポーネント ](/help/user-guide/guidelines/brands.md) の定義方法を学びます
 
 #### ガイドライン文書の準備
 

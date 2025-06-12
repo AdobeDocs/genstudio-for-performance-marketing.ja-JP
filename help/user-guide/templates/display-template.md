@@ -4,9 +4,10 @@ description: Adobe GenStudio for Performance Marketingでディスプレイ広�
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 78313c2a2177a2ccb39e37a87ca3c657e7906d0a
+exl-id: 076239b3-9444-48f9-bdd6-ef2b757bdf0d
+source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '288'
 ht-degree: 1%
 
 ---
@@ -27,12 +28,16 @@ GenStudio for Performance Marketingと連携するようにバナーとディス
 
 ## 認識されたフィールド名
 
-バナー広告とディスプレイ広告の場合は、「`cta`」フィールドがGenStudio for Performance Marketingによって自動的に生成されます。 テンプレートをカスタマイズする場合、次の必須フィールドにコンテンツプレースホルダーを使用します。
+バナーやディスプレイ広告テンプレートをカスタマイズする場合は、次の必須フィールドにコンテンツプレースホルダーを使用します。
 
 - `headline`
 - `sub_headline`
 - `body`
 - `image` （必須、コンテンツJPEG、PNG またはGIFから選択）
+
+GenStudio for Performance Marketingでは、次のフィールドが自動的に生成されます。 次の場合は、コンテンツプレースホルダーを適用する必要はありません。
+
+- `cta`
 
 テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー ](/help/user-guide/content/customize-template.md#content-placeholders) を参照してください。
 
