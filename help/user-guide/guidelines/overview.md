@@ -46,7 +46,7 @@ GenStudio for Performance Marketing ガイドライン：
 
 [!DNL Brands]、[!DNL Products] および [!DNL Personas] のガイドラインでは、生成されたコンテンツがブランドの望ましい表現に準拠していることを確認するために、主に次の 2 つのユースケースが可能です。
 
-* **コンテンツ生成**[[!DNL Create]](/help/user-guide/create/overview.md) または [ コンテンツ ](/help/user-guide/content/overview.md)
+* **コンテンツ生成**&#x200B;[[!DNL Create]](/help/user-guide/create/overview.md) または [ コンテンツ ](/help/user-guide/content/overview.md)
 * [**ブランド検証**](#content-checks)：コンテンツ作成プロセスの一環として行われます
 
 ## コンテンツチェック

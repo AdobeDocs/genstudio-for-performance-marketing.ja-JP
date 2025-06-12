@@ -36,7 +36,7 @@ LinkedIn 広告プロファイルアカウントをGenStudio for Performance Mar
 
 1. **[!UICONTROL 詳細]**/**[!UICONTROL 設定]** をクリックします。
 
-1. 「_Data Connectors_」セクションで、「**[!UICONTROL LinkedIn 広告 _カードの]**接続_ をクリックします。
+1. 「_Data Connectors_」セクションで、「**[!UICONTROL LinkedIn 広告 _カードの]**&#x200B;接続_ をクリックします。
 
 1. LinkedIn 広告アカウントにログインします。
 

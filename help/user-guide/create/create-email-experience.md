@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # メールエクスペリエンスの作成
 
-このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン ](/help/user-guide/create/email-experiences.md) を使用して、ブランド化された [ メールエクスペリエンス）を生成する方法を説明します。
+このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン [&#128279;](/help/user-guide/create/email-experiences.md) を使用して、ブランド化された  メールエクスペリエンス）を生成する方法を説明します。
 
 効果的なメールエクスペリエンスを作成するには、開始する前に [GenStudio for Performance Marketingにガイドラインを追加 ](/help/user-guide/guidelines/add-guidelines.md) し、[ プロンプトの作成の基本 ](/help/user-guide/effective-prompts.md) をブラッシュアップすることをお勧めします。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 **メールテンプレートを選択するには**:
 
-1. _[!DNL Create]_で、「**[!UICONTROL メール]**」をクリックします。
+1. _[!DNL Create]_&#x200B;で、「**[!UICONTROL メール]**」をクリックします。
 1. _フィルター_ の横にある検索オプションを使用して、特定のメールテンプレートを検索します。
 1. クリックしてメールテンプレートを選択し、「**[!UICONTROL 使用]**」をクリックします。
 
@@ -131,7 +131,7 @@ ht-degree: 0%
 
 ## エクスペリエンスの公開と書き出し
 
-生成されたメールを現在および将来の使用で使用できるようにするには、メールを [!UICONTROL  コンテンツ ] に公開し、マーケティングキャンペーンで使用するために書き出します。
+生成されたメールを現在および将来の使用で使用できるようにするには、メールを [!UICONTROL &#x200B; コンテンツ &#x200B;] に公開し、マーケティングキャンペーンで使用するために書き出します。
 
 1. **新しいメールエクスペリエンスを公開するには** 上部のツールバーまたは承認フロー内の **[!UICONTROL 公開]** をクリックします。
 1. **新しいメールエクスペリエンスを書き出すには**、上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。
