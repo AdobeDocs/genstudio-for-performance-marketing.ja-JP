@@ -4,9 +4,9 @@ description: パフォーマンスマーケティング用の Adobe GenStudio �
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
+source-git-commit: 13687f4ac6c558a419c0bb7b83aa4f6d174aabbc
 workflow-type: tm+mt
-source-wordcount: '2667'
+source-wordcount: '2694'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,8 @@ GenStudio for Performance Marketing [!DNL Create] では、[Generative Expand AI
 * 生成されたバリアントで [ テキストにリッチテキスト編集形式を使用 ](/help/user-guide/create/manage-variants.md#manually-edit-text) できるようになりました。 カラー、サイズ、リストなど、バリアントテキストの様々な書式設定オプションを試します。
 
 * プラットフォーム設定時に既存の広告セットを複製することで、プラットフォーム設定時に [ 新しい広告セットを作成 ](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set) できるようになりました。 メタ広告セットは、特定の広告のタイミング、チャネルの詳細およびオーディエンスを定義します。 メタキャンペーンには複数の広告セットを含めることができますが、1 つの広告セットは 1 つのキャンペーンにのみ関連付けられます。
+
+* キャンペーンの詳細をエクスポートして、Word やPDFのキャンペーンブリーフとして外部からアクセスできるようになりました。 キャンペーンを選択し、「**[!UICONTROL エクスポート]**」（右上隅）をクリックします。
 
 ## 以前のリリースノート
 
@@ -117,7 +119,7 @@ GenStudio for Performance Marketing [!DNL Create] では、[Generative Expand AI
 * [ コンテンツチェック ](/help/user-guide/guidelines/brand-validation.md) およびレビューと承認の機能を新しい右側のアクションバーに移動して、キャンバスのスペースを最大化し、ユーザーエクスペリエンスを向上させました。
 * [ ブランドをアップロードまたは手動で追加 ](/help/user-guide/guidelines/add-guidelines.md#add-brands) するためのフローを簡略化しました。
 * キャンバスで [ バリアント内の画像アセットを追加または入れ替える ](/help/user-guide/create/manage-variants.md#swap-image) 機能が導入されました。
-* 所有メディア、有料メディア、コンテンツの各セクションに分けることで、チャネルカテゴリ [&#128279;](/help/user-guide/create/overview.md) 作成ホーム上  のユーザーエクスペリエンスと可視性が向上しました。
+* 所有メディア、有料メディア、コンテンツの各セクションに分けることで、チャネルカテゴリ ](/help/user-guide/create/overview.md) 作成ホーム上 [ のユーザーエクスペリエンスと可視性が向上しました。
 * テーブル表示とギャラリー表示 [!DNL Insights] フィルタリングを改善しました。
 
 +++
@@ -264,7 +266,7 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 * 書き出されたHTMLで、すべての文字が正しく表示されるようになりました。<!-- GS-7246 -->
 
-* 特定の言語で、[!DNL Content]_エクスペリエンス_&#x200B;**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
+* 特定の言語で、[!DNL Content]_エクスペリエンス_**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
 
 * 50 x 50 のサイズのテンプレートで作成されたディスプレイ広告が、想定された画像サイズで書き出されるようになりました。 以前は、PNG ファイルは、期待される寸法の 2 倍で書き出されていました。<!-- GS-7192 -->
 
