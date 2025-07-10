@@ -3,9 +3,9 @@ title: バリアントの管理
 description: 生成されるバリアントとアセットをカスタマイズし、デジタルマーケティングのニーズに合わせて強化します。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
+source-git-commit: ab4bc7eddf0ef4c514a64338ca4e68814c4616a5
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2106'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生
 
 1. バリアントのセットを生成した後、バリアント内の編集可能なテキストをダブルクリックします。
 1. 新しいテキストを入力します。
-1. テキストをフォーマットするには、該当するテキストをハイライト表示し、「**[!UICONTROL &#x200B; テキストをフォーマット**]」をクリックします。
+1. テキストをフォーマットするには、該当するテキストをハイライト表示し、「**[!UICONTROL  テキストをフォーマット**]」をクリックします。
 
    使用可能な書式設定オプションのいずれか（またはすべて！）をテキストに適用します。
 
@@ -60,7 +60,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生
 **バリアントのレイヤーを表示するには**:
 
 1. バリアントのセットを生成したら、バリアント内の編集可能なフィールドまたは画像をクリックします。
-1. _[!UICONTROL ビューレイヤ]_&rbrack; をクリックします。
+1. _[!UICONTROL ビューレイヤ]_] をクリックします。
 1. をクリックして、リストから画層を選択します。 バリアントで選択したレイヤーがハイライト表示されます。
 
    選択したレイヤーに必要な編集を加えます。
@@ -196,27 +196,26 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 1. **[!UICONTROL コンテンツから入れ替え]** アイコンをクリックします。
 1. GenStudio Assets [!DNL Content] ビューのフィルターと検索機能を使用して、検索結果をさらに絞り込みます。
 
-   また、（場所 &rbrack;**メニューから選択すると、Connected Adobe Experience Manager（AEM）Assets Content Hub リポジトリで使用可能な画像を使用す &lbrack;**&#x200B;[[!UICONTROL &#x200B; こともでき &#x200B;]](/help/user-guide/content/manage-assets.md#location) す。
+   また、（場所 [**[!UICONTROL  メニューから選択すると、Connected Adobe Experience Manager（AEM）Assets Content Hub リポジトリで使用可能な画像を使用す ]**こともでき ](/help/user-guide/content/manage-assets.md#location) す。
 
 1. 画像をクリックして選択し、「**[!UICONTROL 使用]**」をクリックします。
 
    画像が追加されるか、該当するバリアントに入れ替えられます。
 
-## 画像リンクを追加
+## リンクを追加
 
-生成されたバリアントでの画像の追加や入れ替えと同様に、画像へのリンクを追加できます。 この機能を有効にするには、バリアントの生成に使用するテンプレート _必須_ に、リンクの [ コンテンツプレースホルダー ](/help/user-guide/content/customize-template.md#content-placeholders) を含める必要があります）。
+バリアント内にテキスト、画像、CTA ボタンへのリンクを追加できます。 この機能を有効にするには、バリアントの生成に使用するテンプレート _必須_ に、リンクの [ コンテンツプレースホルダー ](/help/user-guide/content/customize-template.md#content-placeholders) を含める必要があります）。
 
-**バリアントに画像リンクを追加するには**:
+**バリアントにリンクを追加するには**:
 
-1. バリアントのセットを生成したら、画像アセットをクリックします。
-
-   バリアントに現在配置された画像アセットがない場合は、画像アセット領域をクリックします。
-
-1. リンクアイコンをクリックします。
-1. 既存のデフォルトリンクを削除するには、「**[!UICONTROL リンクを削除]**」をクリックします。
-1. テキストフィールドにリンクを追加し、「**[!UICONTROL 適用]**」をクリックします。
-
-   定義したリンクは、バリアントセット内のすべての画像に適用されます。
+1. 広告の編集時に、要素変数をクリックして「**[!UICONTROL リンクを追加]**」または **[!UICONTROL リンクを編集]** アイコンを見つけます。
+2. アイコンをクリックして、テキストフィールドへのウィンドウを開きます。
+3. 宛先を入力します。 URL アドレス、メールアドレス、電話番号を含むリンクを使用できます。
+   * `https://`
+   * `mailto:`
+   * `tel:`
+   * `sms:`
+   * `https://wa.me/` 以 `whatsapp://`
 
 ## 画像の代替テキストの追加
 
