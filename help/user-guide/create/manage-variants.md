@@ -3,9 +3,9 @@ title: バリアントの管理
 description: 生成されるバリアントとアセットをカスタマイズし、デジタルマーケティングのニーズに合わせて強化します。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: ab4bc7eddf0ef4c514a64338ca4e68814c4616a5
+source-git-commit: 2cf3bd4cb01f75dbff9fcf0cca7239256fc81129
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2101'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生
 
 1. バリアントのセットを生成した後、バリアント内の編集可能なテキストをダブルクリックします。
 1. 新しいテキストを入力します。
-1. テキストをフォーマットするには、該当するテキストをハイライト表示し、「**[!UICONTROL &#x200B; テキストをフォーマット**]」をクリックします。
+1. テキストをフォーマットするには、該当するテキストをハイライト表示し、「**[!UICONTROL  テキストをフォーマット**]」をクリックします。
 
    使用可能な書式設定オプションのいずれか（またはすべて！）をテキストに適用します。
 
@@ -60,7 +60,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生
 **バリアントのレイヤーを表示するには**:
 
 1. バリアントのセットを生成したら、バリアント内の編集可能なフィールドまたは画像をクリックします。
-1. _[!UICONTROL ビューレイヤ]_&rbrack; をクリックします。
+1. _[!UICONTROL ビューレイヤ]_] をクリックします。
 1. をクリックして、リストから画層を選択します。 バリアントで選択したレイヤーがハイライト表示されます。
 
    選択したレイヤーに必要な編集を加えます。
@@ -162,7 +162,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
 ## アスペクト比の変更
 
-必要な広告サイズに合わせて、[ メタ広告の縦横比 ](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) をすばやく変更できます。 不要な切り抜きや引き伸ばしを避けるために、テンプレートのサイズに近い画像の縦横比を選択します。 例えば、テンプレートが 1200 × 628 ピクセル（幅の広い長方形）の場合、1:1 の正方形の画像を使用すると、側面が切り抜かれ、重要なコンテンツが途切れる可能性があります。 最適な画像サイズは、テンプレートの高さに一致する 628 x 628 ピクセルです。
+必要な広告サイズに合わせて、[ メタ広告の縦横比 ](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) をすばやく変更できます。 不要な切り抜きや引き伸ばしを避けるために、テンプレートのサイズに近い画像の縦横比を選択します。 例えば、テンプレートが 1200 × 628 ピクセル（幅の広い長方形）の場合、1:1 正方形の画像を使用すると、側面が切り抜かれて、重要なコンテンツが途切れる可能性があります。 最適な画像サイズは、テンプレートの高さに一致する 628 x 628 ピクセルです。
 
 >[!NOTE]
 >
@@ -170,7 +170,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
 **生成されたメタ広告の縦横比を変更するには**:
 
-1. バリアントのセットを生成したら、キャンバスの左側にある縦横比のサイズ変更アイコン（ボックスの隅を指す矢印）を選択します。
+1. バリアントのセットを生成した後、キャンバスの左側にある **[!UICONTROL 縦横比のサイズ変更]** （ボックスの隅を指す矢印）をクリックします。
 
    広告に現在使用されている縦横比は、_[!UICONTROL サイズ変更]_ ウィンドウの上部に表示されます。
 
@@ -184,7 +184,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
    [!DNL Create] は、選択した新しい縦横比に基づいて各バリアントのコピーを作成します。 初期のアスペクト比を含むすべてのバリアントがキャンバスに存在します。
 
-   例えば、最初に 1:1 の縦横比で 4 つのバリアントを生成し、縦横比を 4:5 に変更した場合、合計 _8_ のバリアントがキャンバスで使用できるようになりました。
+   例えば、最初に 1:1 の縦横比で 4 つのバリアントを生成し、縦横比を 4:5 に変更した場合、キャンバスで合計 _8_ のバリアントを使用できるようになりました。
 
 ## 画像を入れ替え
 
@@ -196,7 +196,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 1. **[!UICONTROL コンテンツから入れ替え]** アイコンをクリックします。
 1. GenStudio Assets [!DNL Content] ビューのフィルターと検索機能を使用して、検索結果をさらに絞り込みます。
 
-   また、（場所 [**[!UICONTROL &#x200B; メニューから選択すると、Connected Adobe Experience Manager（AEM）Assets Content Hub リポジトリで使用可能な画像を使用す &#x200B;]**&#x200B;こともでき ](/help/user-guide/content/manage-assets.md#location) す。
+   また、（場所 [**[!UICONTROL  メニューから選択すると、Connected Adobe Experience Manager（AEM）Assets Content Hub リポジトリで使用可能な画像を使用す ]**こともでき ](/help/user-guide/content/manage-assets.md#location) す。
 
 1. 画像をクリックして選択し、「**[!UICONTROL 使用]**」をクリックします。
 

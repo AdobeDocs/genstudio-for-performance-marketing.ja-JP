@@ -3,7 +3,7 @@ title: 承認済みコンテンツの公開
 description: Adobe GenStudio for Performance Marketingで承認済みコンテンツを公開する方法を説明します。
 feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: 82a29250b1a054c91f144c4e9c431324c5e61afa
+source-git-commit: 7979887740dad1e3c70c9cefc528306ddfd47c3c
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%
