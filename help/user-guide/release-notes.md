@@ -4,18 +4,51 @@ description: パフォーマンスマーケティング用の Adobe GenStudio �
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 13687f4ac6c558a419c0bb7b83aa4f6d174aabbc
+source-git-commit: 09dea200babd7bdd20a3372c91aca9918117897e
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '3052'
 ht-degree: 0%
 
 ---
 
 # GenStudio for Performance Marketing リリースノート
 
-このリリース情報では、GenStudio for Performance Marketing アプリケーションの最新のアップデートについて詳しく説明します。
+このリリース情報では、GenStudio for Performance Marketing アプリケーションの最新のアップデートについて説明します。
 
-## 2025.06 {#latest}
+## 2025.07.25 {#latest}
+
+### 互換性のあるアセットフィルター
+
+[!DNL Insights] モジュールの新しいフィルターにより、広告プレビューから [ サポートされていない画像アセットやビデオアセット ](/help/user-guide/insights/ads.md#ad-formats) を自動的に非表示にし、視覚的に混乱したり壊れたタイルをなくしました。 この機能強化により、実際に使用可能で、すぐに使用できるメディアのみが表示されるようになり、よりクリーンで信頼性の高いエクスペリエンスが実現します。 このフィルターは、既存の互換性広告フィルターと連携して機能します。
+
+### Meta のマルチアセット有効化
+
+メタ広告のマルチ縦横比の画像アクティベーションを使用すると、広告主は 1 つの広告クリエイティブで、異なる縦横比の複数の画像アセットをアップロードしてアクティブ化できます。 この機能により、1 つの広告がフィード、ストーリー、リールなどの様々なメタプレースメントに適したクリエイティブなフィット感を提供できます。 広告主は、プレースメントをまたいで各画像がどのようにレンダリングされるかをプレビューし、1 回の API 呼び出しで、すべてのバージョンを Meta に公開できます。
+
+### バリアントでのリッチテキスト書式設定
+
+[ 生成されたバリアントのテキストフィールドを、リッチテキスト形式 ](/help/user-guide/create/manage-variants.md#manually-edit-text) 太字、斜体、下線、テキスト整列、リスト、テキストカラー、テキストサイズ、リンクなどのオプションを使用して編集します。 これにより、オーディエンスのテキストやフレーズを調整し、レイアウト要件に合わせて書式設定を適用できます。
+
+### 画像およびリンクのアクセシビリティラベル
+
+アクセシビリティラベル（Aria-label）をバリアント内の画像およびcall-to-action リンクに追加して、インタラクティブ要素の目的を理解するのに役立つ、アクセシブルな名前を提供します。 手順について詳しくは、[ バリアントの管理 ](/help/user-guide/create/manage-variants.md) を参照してください。
+
+### 英語以外のコンテンツの生成
+
+[!BADGE Beta]{type=Informative tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"}
+
+プロンプトの引き出しの新しい言語セレクタードロップダウンメニューは、多言語コンテンツの作成をサポートしており、地域のマーケターがローカルオーディエンス向けにオンブランドコンテンツを開発できます。 この機能は現在、12 の GA 言語と 5 つのBeta言語をサポートしています。言語リストは、より一貫性のある出力のために、LLM に対して定義済みのワークフローと明確な言語ディレクティブを提供します。
+
+### メタ広告のテンプレート選択はオプションです
+
+[!BADGE Beta]{type=Informative tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"}
+
+メタ広告でテンプレートの選択がオプションになり、メディアの上部にあるテキストやロゴを必要とせずに広告を作成できるようになりました。 この機能強化により、テキストのオーバーレイやロゴの配置が不要なアニメーション GIF やビデオなど、他のメディアタイプも可能になりました。
+
+
+## 以前のリリースノート
+
++++ご注意：2025.06.15 より
 
 ### 使用可能なスターターテンプレート
 
@@ -53,7 +86,7 @@ GenStudio for Performance Marketing [!DNL Create] では、[Generative Expand AI
 
 * キャンペーンの詳細をエクスポートして、Word やPDFのキャンペーンブリーフとして外部からアクセスできるようになりました。 キャンペーンを選択し、「**[!UICONTROL エクスポート]**」（右上隅）をクリックします。
 
-## 以前のリリースノート
++++
 
 +++ご注意（2025.05.15 より）
 
@@ -70,7 +103,7 @@ GenStudio for Performance Marketing [!DNL Create] では、[Generative Expand AI
 
 ### 修正および機能強化
 
-* テンプレートの新しいフィルターオプション [!DNL Create] と _[!UICONTROL コンテンツ]_/_[!UICONTROL テンプレート]_ で、_[!UICONTROL テンプレートを選択]_ リストを絞り込めるようになりました。 [ テンプレートを検索 ](/help/user-guide/content/use-templates.md#search-templates) を参照してください。 これらのフィルターを通じてテンプレートを検出可能にするために、テンプレートにメタデータが適切にタグ付けされていることを確認します。
+* テンプレートの新しいフィルターオプション _[!UICONTROL と]_ コンテンツ [!DNL Create]/_[!UICONTROL テンプレート]_ で、_[!UICONTROL テンプレートを選択]_ リストを絞り込めるようになりました。 [ テンプレートを検索 ](/help/user-guide/content/use-templates.md#search-templates) を参照してください。 これらのフィルターを通じてテンプレートを検出可能にするために、テンプレートにメタデータが適切にタグ付けされていることを確認します。
 * エクスペリエンスの [ 個々のレイヤーの表示と選択 ](/help/user-guide/create/manage-variants.md#view-layers) 編集可能なテキストフィールドまたは編集可能な画像）の機能を有効にして、コンテンツの再生成や画像の切り抜きなどの修正に合わせてハイライト表示できるようになりました。
 * オーディエンスの注意を引き、マーケティングメッセージをハイライト表示するために、エクスペリエンスにテキストを追加するために [ 新しいテンプレートフィールド ](/help/user-guide/content/use-templates.md#template-elements)、`sub-headline` を追加しました。
 * GenStudio for Performance MarketingからGoogle Campaign Manager 360 への [ 広告エクスペリエンスの公開 ](/help/user-guide/activation/overview.md) サポートを追加しました。 アクティブ化は、Google Manager 360 広告主に公開する前の詳細な Campaign Manager 360 広告プレビューをサポートします。 アクティブ化を通じて公開された広告は、ライブになると自動的にインサイトに取り込まれ、ユーザーは広告のパフォーマンスを追跡およびレポートできるようになります。
@@ -114,12 +147,12 @@ GenStudio for Performance Marketing [!DNL Create] では、[Generative Expand AI
 
 ### 修正および機能強化
 
-* [[!DNL Brands]](/help/user-guide/guidelines/brands.md) の [ デフォルトチャネル ](/help/user-guide/guidelines/brands.md#channel-guidelines)、[ 画像 ](/help/user-guide/guidelines/brands.md#image-guidelines)、[ ロゴ ](/help/user-guide/guidelines/brands.md#logos) および [ カラー ](/help/user-guide/guidelines/brands.md#colors) ガイドラインの機能を有効にしました。
+* [ の ](/help/user-guide/guidelines/brands.md#channel-guidelines) デフォルトチャネル [、](/help/user-guide/guidelines/brands.md#image-guidelines) 画像 [、](/help/user-guide/guidelines/brands.md#logos) ロゴ [ および ](/help/user-guide/guidelines/brands.md#colors) カラー [[!DNL Brands]](/help/user-guide/guidelines/brands.md) ガイドラインの機能を有効にしました。
 * バリアント内で [ 画像へのリンクを追加 ](/help/user-guide/create/manage-variants.md#add-image-link) する機能を追加しました。
 * [ コンテンツチェック ](/help/user-guide/guidelines/brand-validation.md) およびレビューと承認の機能を新しい右側のアクションバーに移動して、キャンバスのスペースを最大化し、ユーザーエクスペリエンスを向上させました。
 * [ ブランドをアップロードまたは手動で追加 ](/help/user-guide/guidelines/add-guidelines.md#add-brands) するためのフローを簡略化しました。
 * キャンバスで [ バリアント内の画像アセットを追加または入れ替える ](/help/user-guide/create/manage-variants.md#swap-image) 機能が導入されました。
-* 所有メディア、有料メディア、コンテンツの各セクションに分けることで、チャネルカテゴリ [&#128279;](/help/user-guide/create/overview.md) 作成ホーム上  のユーザーエクスペリエンスと可視性が向上しました。
+* 所有メディア、有料メディア、コンテンツの各セクションに分けることで、チャネルカテゴリ [ 作成ホーム上 ](/help/user-guide/create/overview.md) のユーザーエクスペリエンスと可視性が向上しました。
 * テーブル表示とギャラリー表示 [!DNL Insights] フィルタリングを改善しました。
 
 +++
@@ -148,7 +181,7 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 ### 新しいコールトゥアクションの生成
 
-バリアントを管理する際に、新しいコールトゥアクション（CTA）フレーズを生成できるようになりました。 新しい _フレーズ変更_ オプションと _リンク追加_ オプションを使用して、新しいフレーズを生成し、CTAリンクを編集します。 これらの新しいCTA関数が機能するには、テンプレートを適切に設定する必要があります。 _テンプレートのカスタマイズ_:[ コールトゥアクション ](/help/user-guide/content/customize-template.md#calls-to-action) のガイドラインに従います。 バリアントでの CTA の管理に関するガイドラインについては、[ コールトゥアクションの改訂 ](/help/user-guide/create/manage-variants.md#revise-call-to-action) を参照してください。<!-- GS-6676 -->
+バリアントを管理する際に、新しいcall-to-action（CTA）フレーズを生成できるようになりました。 新しい _フレーズ変更_ オプションと _リンク追加_ オプションを使用して、新しいフレーズを生成し、CTAリンクを編集します。 これらの新しいCTA関数が機能するには、テンプレートを適切に設定する必要があります。 _テンプレートのカスタマイズ_:[ コールトゥアクション ](/help/user-guide/content/customize-template.md#calls-to-action) のガイドラインに従います。 バリアントでの CTA の管理に関するガイドラインについては、[Call to actionの改訂 ](/help/user-guide/create/manage-variants.md#revise-call-to-action) を参照してください。<!-- GS-6676 -->
 
 ### 修正および機能強化
 
@@ -202,7 +235,7 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 その他の新機能により、エディターは次のことができます。
 
-* ア [!DNL Content] ットテンプレート **[!UICONTROL アセットの詳細]** ビューの「_更新_」ボタンを使用して、選択したテンプレートを更新します。<!-- GS-7102 -->
+* ア **[!UICONTROL ットテンプレート]** アセットの詳細 [!DNL Content] ビューの「_更新_」ボタンを使用して、選択したテンプレートを更新します。<!-- GS-7102 -->
 
 * ディスプレイ広告のセクションおよび E メールバリアントを再生成します。 [ ディスプレイ広告エクスペリエンスの作成 ](/help/user-guide/create/create-display-ad.md#revise-generated-display-ads) および [ メールエクスペリエンスの作成 ](/help/user-guide/create/create-email-experience.md#revise-generated-emails) を参照してください。<!-- GS-5080 5078-->
 
@@ -266,7 +299,7 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 * 書き出されたHTMLで、すべての文字が正しく表示されるようになりました。<!-- GS-7246 -->
 
-* 特定の言語で、[!DNL Content]_エクスペリエンス_&#x200B;**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
+* 特定の言語で、[!DNL Content]_エクスペリエンス_**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
 
 * 50 x 50 のサイズのテンプレートで作成されたディスプレイ広告が、想定された画像サイズで書き出されるようになりました。 以前は、PNG ファイルは、期待される寸法の 2 倍で書き出されていました。<!-- GS-7192 -->
 
@@ -292,11 +325,11 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 * ドラフト読み込み時のちらつきのスクロールバーの問題が解決されました。<!-- GS-5587 -->
 
-* [!DNL Content] の _承認されたテンプレートを追加_ ポップアップの `View documentation` しいリンクが期待どおりに動作するようになりました。<!-- GS-6881 -->
+* `View documentation` の [!DNL Content] 承認されたテンプレートを追加 _ポップアップの_ しいリンクが期待どおりに動作するようになりました。<!-- GS-6881 -->
 
 * サイズ変更操作中にプロンプトドロワーから画像を削除しても、エラーが発生しなくなりました。<!-- GS-7115 7009 -->
 
-* [!DNL Create] のアクションメニュー（...）から **[!UICONTROL 削除]** を選択すると、期待どおりに動作するようになりました。<!-- GS-6871 -->
+* **[!UICONTROL のアクションメニュー（...）から]** 削除 [!DNL Create] を選択すると、期待どおりに動作するようになりました。<!-- GS-6871 -->
 
 * ユーザーは、すべてのメタ広告テンプレートのインタラクティブ要素をキーボードだけで制御できるようになりました。<!-- GS-4066 -->
 
