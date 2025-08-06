@@ -21,7 +21,7 @@ ht-degree: 1%
 
 このビデオのチュートリアルを見るか、次の手順に従います。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470499/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3470500/?learn=on&enablevpops&captions=jpn)
 
 ## 手順 1：ユーザーグループの作成
 
