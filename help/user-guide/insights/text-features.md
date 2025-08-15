@@ -3,7 +3,7 @@ title: テキスト機能
 description: GenStudio for Performance Marketingで使用される属性カテゴリのテキスト機能について説明します。
 feature: Reporting and Insights, Text Attributes, Generative AI
 exl-id: 7b81b0ae-0c62-468f-965c-fd8070644fb3
-source-git-commit: ac2e18899f910a47ec5013a13c2ee2771684ddad
+source-git-commit: 3ccc6313a7c559f1c0846c144d23b783da0aecfa
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 テキスト機能には、単語、文、絵文字などの特定のテキスト要素のカウントや、[!DNL Insights] での分析に使用されるセマンティクス、感情、トーンの分類が含まれます。 テキストは、読みやすさのスコアが得られる場合もあります。
 
-GenStudio for Performance Marketingは、Adobeの AI と機械学習機能を使用して、テキストを調べ、関連するテキストのトーンとマーケティングの物語に基づいて [!UICONTROL &#x200B; メディア属性 &#x200B;] を適用します。 このプロセスでは、入力テキストが英数字を含んでいるか、余分な空白や印刷不可能な文字が削除されているか、テキストが許容される最大 1500 語に切り捨てられているかが検証されます。 検出された属性タグを適用する前に、AI が一般的なトーンを予測します。
+GenStudio for Performance Marketingは、Adobeの AI と機械学習機能を使用して、テキストを調べ、関連するテキストのトーンとマーケティングの物語に基づいて [!UICONTROL  メディア属性 ] を適用します。 このプロセスでは、入力テキストが英数字を含んでいるか、余分な空白や印刷不可能な文字が削除されているか、テキストが許容される最大 1500 語に切り捨てられているかが検証されます。 検出された属性タグを適用する前に、AI が一般的なトーンを予測します。
 
 ## 声トーン
 
