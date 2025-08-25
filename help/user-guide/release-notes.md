@@ -4,9 +4,9 @@ description: パフォーマンスマーケティング用の Adobe GenStudio �
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 7390dc758427d19b23ce054b23fd830662913498
+source-git-commit: 778be59db2bf159c57095fbb2d89cff8c9704b33
 workflow-type: tm+mt
-source-wordcount: '3415'
+source-wordcount: '3411'
 ht-degree: 0%
 
 ---
@@ -47,15 +47,15 @@ Adobe GenStudioのテキスト属性インサイトでは、広告コピーで�
 
 詳しくは、[ テンプレートコードエディターのガイダンス ](/help/user-guide/content/code-editor.md) を参照してください。
 
-### 新しい Clio 4 Standard および Clio 4 Ultra 画像生成モデルのサポート
+### 新しいFirefly画像生成モデルのサポート
 
 [!BADGE Beta]{type=Informative tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"}
 
 Adobe GenStudio for Performance Marketingでは、次の 2 つの強力なバリアントを含む最新のFirefly Image Model 4 スイートをサポートするようになりました。
 
-**Clio 4 Standard**：スピードとシンプルさを追求し、イラスト、アイコン、基本的な被写体写真、単体写真の生成に最適。日常のクリエイティブニーズの 90% をカバーします。
+**Firefly Image 4**：高速かつシンプルに最適化され、イラスト、アイコン、基本的な物体写真、単体撮影に最適で、クリエイティブの日常ニーズの 90% をカバーしています。
 
-**Clio 4 Ultra**：写実性と精度を重視し、人のポートレート、中規模グループ、複雑なシーンの描写に優れ、クリエイティブなハイエンド作業に対応
+**Firefly Image 4 Ultra**：写実的かつ精緻に表現し、人のポートレート、中規模のグループ、複雑なシーンなどの高度なクリエイティブ作業に最適。
 
 これらの新しい画像生成モデルの使用について詳しくは、[ アセットの生成 ](/help/user-guide/create/generate-assets.md) を参照してください。
 
@@ -351,7 +351,7 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 * 書き出されたHTMLで、すべての文字が正しく表示されるようになりました。<!-- GS-7246 -->
 
-* 特定の言語で、[!DNL Content]_エクスペリエンス_&#x200B;**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
+* 特定の言語で、[!DNL Content]_エクスペリエンス_**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
 
 * 50 x 50 のサイズのテンプレートで作成されたディスプレイ広告が、想定された画像サイズで書き出されるようになりました。 以前は、PNG ファイルは、期待される寸法の 2 倍で書き出されていました。<!-- GS-7192 -->
 
