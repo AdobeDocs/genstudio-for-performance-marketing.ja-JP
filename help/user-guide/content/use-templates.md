@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 7dfd915ebcc001b12357cfa334346e6698436d7d
+source-git-commit: 2f15dc05f65ec216c7d242ffb3e14a83c76f3000
 workflow-type: tm+mt
 source-wordcount: '1366'
 ht-degree: 1%
@@ -59,7 +59,7 @@ GenStudio for Performance Marketingで使用できるように [ テンプレー
 
 ## テンプレートの管理
 
-_[!DNL Templates]_&#x200B;ギャラリーには、GenStudio for Performance Marketingでエクスペリエンスを生成するためにカスタマイズされたテンプレートのインベントリが表示されます。
+_[!DNL Templates]_ギャラリーには、GenStudio for Performance Marketingでエクスペリエンスを生成するためにカスタマイズされたテンプレートのインベントリが表示されます。
 
 ### テンプレートを検索
 
@@ -72,9 +72,9 @@ _[!DNL Templates]_&#x200B;ギャラリーには、GenStudio for Performance Mark
 
 以下に、チャネルタイプ別のフィルターを示します（メール、ディスプレイ広告、メタ広告、LinkedIn 広告など）。
 
-![ コンテンツテンプレートのリスト ](/help/assets/content-templates-filter.png "LinkedIn テンプレートの検索 "){width="650" zoomable="yes"}
+![ コンテンツテンプレートのリスト ](/help/assets/content-templates-filter.png "LinkedIn テンプレートの検索 "){width="650"}
 
-テンプレート検索機能は、所有メディアまたは有料メディアのテンプレートを選択する際に [!UICONTROL &#x200B; 作成 &#x200B;] 中に使用できます。 特定のフィルターオプションが表示されない場合は、対応するメタデータ条件に一致するテンプレートがリポジトリにないことを示しています。 これらのフィルターを通じてテンプレートを検出可能にするために、テンプレートにメタデータが適切にタグ付けされていることを確認します。
+テンプレート検索機能は、所有メディアまたは有料メディアのテンプレートを選択する際に [!UICONTROL  作成 ] 中に使用できます。 特定のフィルターオプションが表示されない場合は、対応するメタデータ条件に一致するテンプレートがリポジトリにないことを示しています。 これらのフィルターを通じてテンプレートを検出可能にするために、テンプレートにメタデータが適切にタグ付けされていることを確認します。
 
 ### テンプレートを追加
 
@@ -82,34 +82,34 @@ _[!DNL Templates]_&#x200B;ギャラリーには、GenStudio for Performance Mark
 
 **テンプレートを追加するには**:
 
-1. _[!DNL Content]_&#x200B;で、「**[!UICONTROL テンプレート]**」セクションを選択します。
+1. _[!DNL Content]_で、「**[!UICONTROL テンプレート]**」セクションを選択します。
 
-1. **[!UICONTROL テンプレートを追加]** をクリックします。
+2. **[!UICONTROL テンプレートを追加]** をクリックします。
 
-1. _[!UICONTROL 承認済みテンプレートを追加]_ ウィンドウで、HTML テンプレートファイルを参照するか、HTML テンプレートファイルをドロップスペースにドラッグします。 「**[!UICONTROL 次へ]**」をクリックします。
+3. _[!UICONTROL 承認済みテンプレートを追加]_ ウィンドウで、HTML テンプレートファイルを参照するか、HTML テンプレートファイルをドロップスペースにドラッグします。 「**[!UICONTROL 次へ]**」をクリックします。
 
-1. _[!UICONTROL 検出されたフィールドを確認]_ パネルで、フィールドを確認します。 正しいテンプレートを使用していることと、すべての詳細が期待どおりに動作していることを確認します。
+4. _[!UICONTROL 検出されたフィールドを確認]_ パネルで、フィールドを確認します。 正しいテンプレートを使用していることと、すべての詳細が期待どおりに動作していることを確認します。
 
    メールテンプレートのプレビューの例：
 
-   ![ プレビューフィールドが検出されました ](/help/assets/template-detected-fields.png){width="650" zoomable="yes"}
+   ![ プレビューフィールドが検出されました ](/help/assets/template-detected-fields.png){width="650"}
 
    >[!TIP]
    >
    >テンプレートが正しくない場合は、「**[!UICONTROL 戻る]** をクリックして前の手順に戻ります。 修正されたテンプレートファイルをアップロードします。 または、[ テンプレートコードエディター ](/help/user-guide/content/code-editor.md) を使用して、簡単な修正を行います。
 
-1. テンプレートのプレビューが正しければ、「**[!UICONTROL 次へ]**」をクリックします。
+5. テンプレートのプレビューが正しければ、「**[!UICONTROL 次へ]**」をクリックします。
 
-1. _[!UICONTROL テンプレートの詳細とアップロードを指定]_ で、テンプレートに名前を付け **[!UICONTROL チャネル]** タイプを選択します。
+6. _[!UICONTROL テンプレートの詳細とアップロードを指定]_ で、テンプレートに名前を付け **[!UICONTROL チャネル]** タイプを選択します。
 
    テンプレート名とチャネルタイプが必要です。 その他の要件には、次のようなものがあります。
 
    - **Meta**：縦横比が必要です
    - **バナーとディスプレイ広告**：ディメンションが必要です
 
-1. 検索とフィルタリングでテンプレートの識別を向上させるために、できるだけ多くの詳細を追加します。
+7. 検索とフィルタリングでテンプレートの識別を向上させるために、できるだけ多くの詳細を追加します。
 
-1. 「**[!UICONTROL 完了]**」をクリックします。
+8. 「**[!UICONTROL 完了]**」をクリックします。
 
 ### テンプレートを更新
 
@@ -117,11 +117,11 @@ _[!DNL Templates]_&#x200B;ギャラリーには、GenStudio for Performance Mark
 
 **テンプレートを更新するには**:
 
-1. _[!DNL Content]_&#x200B;で、「**[!UICONTROL テンプレート]**」セクションを選択します。
+1. _[!DNL Content]_で、「**[!UICONTROL テンプレート]**」セクションを選択します。
 
-1. テンプレートをクリックすると、全画面表示と詳細リストが表示されます。
+2. テンプレートをクリックすると、全画面表示と詳細リストが表示されます。
 
-1. 右上隅の **[!UICONTROL 更新]** （丸の矢印）をクリックして、テンプレートで使用されているすべてのアセットを更新します。
+3. 右上隅の **[!UICONTROL 更新]** （丸の矢印）をクリックして、テンプレートで使用されているすべてのアセットを更新します。
 
 ### テンプレートを使用したエクスペリエンスの作成
 
@@ -129,13 +129,13 @@ GenStudio for Performance Marketingで既存のテンプレートを検索およ
 
 **テンプレートを使用してエクスペリエンスを作成するには**:
 
-1. _[!DNL Content]_&#x200B;で、「**[!UICONTROL テンプレート]**」セクションを選択します。
+1. _[!DNL Content]_で、「**[!UICONTROL テンプレート]**」セクションを選択します。
 
-1. テンプレートをクリックすると、全画面表示と詳細リストが表示されます。
+2. テンプレートをクリックすると、全画面表示と詳細リストが表示されます。
 
-1. 右上隅にある **[!UICONTROL エクスペリエンスを作成]** （絵筆）をクリックして、テンプレートを使用します。
+3. 右上隅にある **[!UICONTROL エクスペリエンスを作成]** （絵筆）をクリックして、テンプレートを使用します。
 
-1. エクスペリエンスの [ 作成 ](/help/user-guide/create/overview.md#create-use-cases) を続行します。
+4. エクスペリエンスの [ 作成 ](/help/user-guide/create/overview.md#create-use-cases) を続行します。
 
 ## AJOおよびMarketoのテンプレート
 
@@ -155,4 +155,4 @@ Adobe Journey Optimizer（AJO）またはMarketoで作成したテンプレー�
 
 >[!ENDSHADEBOX]
 
-次に、GenStudio for Performance Marketingがコンテンツを生成する場所を示すプレースホルダーを使用して [ テンプレートをカスタマイズ ](/help/user-guide/content/customize-template.md) します。 [!DNL Content] リポジトリに [ テンプレートを追加 ](#add-a-template) し、テンプレートを検証します。 コードエディターを使用して軽微な修正を加えます。
+次に、GenStudio for Performance Marketingがコンテンツを生成する場所を示すプレースホルダーを使用して [ テンプレートをカスタマイズ ](/help/user-guide/content/customize-template.md) します。 [ リポジトリに ](#add-a-template) テンプレートを追加 [!DNL Content] し、テンプレートを検証します。 コードエディターを使用して軽微な修正を加えます。

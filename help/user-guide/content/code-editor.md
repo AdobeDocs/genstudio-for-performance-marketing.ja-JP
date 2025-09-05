@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
-source-git-commit: 81c4b10e22ac347eb2a464496bd65b29c3c94efa
+source-git-commit: f9fec89a522f3c82367516b79dbc79db5a106bbf
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 _[!UICONTROL 検出されたフィールドの確認]_ ウィンドウには、GenStudio for Performance Marketingがテンプレートで認識するフィールドのリストが表示されます。 リストを確認すると、HTML コードをスクロールしてテンプレートの作成を確認できます。
 
-![ コードエディタービュー ](/help/assets/template-detected-fields.png " 検出されたフィールドの確認 "){width="600" zoomable="yes"}
+![ コードエディタービュー ](/help/assets/template-detected-fields.png " 検出されたフィールドの確認 "){width="600"}
 
 リストにフィールドがないことに気付いた場合は、テンプレートコードを検索し、見つからないフィールドの場所を見つけます。 Handlebars 構文と [ 認識されたフィールド名 ](/help/user-guide/content/customize-template.md#recognized-field-names) を使用して、正しいプレースホルダーを挿入します。 コードエディターの下部に表示される「検索と置換」フォームを使用して、コード内の特定の文字列を検索します。 （Windows `CTRL`+`F` またはmacOS `CMD`+`F`）
 
@@ -36,7 +36,7 @@ _[!UICONTROL 検出されたフィールドの確認]_ ウィンドウには、G
 >
 >画像変数の役割は調整できません。
 
-![ 複数役割フィールド選択 ](/help/assets/multirole-dropdown-field.png " 複数役割フィールド選択 "){width="600" zoomable="yes"}
+![ 複数役割フィールド選択 ](/help/assets/multirole-dropdown-field.png " 複数役割フィールド選択 "){width="600"}
 
 変数に役割を割り当てるには：
 
@@ -49,7 +49,7 @@ _[!UICONTROL 検出されたフィールドの確認]_ ウィンドウには、G
 
 テンプレートにエラーがある場合は、問題の簡単な説明を含む `Template is invalid` メッセージが表示される場合があります。 次の例では、`_image` フィールドが複数ポッドテンプレートで確立されたフィールド命名規則に準拠していないことをメッセージが示しています。 また、フィールド名を正しいプレフィックスで更新する必要があることをお知らせします。 テンプレートコードエディターで「`_image`」フィールドを見つけ、指示に従って名前を更新します。
 
-![ 無効なテンプレートを修正 ](/help/assets/animation/template-code-editor.gif){width="600" zoomable="yes"}
+![ 無効なテンプレートを修正 ](/help/assets/animation/template-code-editor.gif){width="600"}
 
 _[!UICONTROL 検出されたフィールドをチェック]_ パネルが更新され、変更が反映されます。 フィールドが正しく、完全であることを確認したら、「**[!UICONTROL 次へ]**」をクリックして続行 [ テンプレートのアップロード ](/help/user-guide/content/use-templates.md#add-a-template) します。
 
