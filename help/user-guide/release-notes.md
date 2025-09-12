@@ -4,9 +4,9 @@ description: パフォーマンスマーケティング用の Adobe GenStudio �
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 778be59db2bf159c57095fbb2d89cff8c9704b33
+source-git-commit: a666052494382be09bb24ef5d4d803d5ec710baf
 workflow-type: tm+mt
-source-wordcount: '3411'
+source-wordcount: '3502'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,17 @@ ht-degree: 0%
 
 このリリース情報では、GenStudio for Performance Marketing アプリケーションの最新のアップデートについて説明します。
 
-## 2025.08.15 {#latest}
+## 2025.09.11 {#latest}
+
+### 有料メディア向けの新しいジェネレーティブ拡張 AI 機能
+
+新しい GenExpand 機能を使用すると、マーケターは、クリエイティブアセットを動的に調整して、Meta、LinkedIn、ディスプレイ広告、バナーなど、有料メディアチャネル間の様々な縦横比をサポートできます。 幅の狭い画像を広いレイアウトに追加するなど、画像が意図した縦横比に合わない場合は、GenExpand を使用して画像を調整できます。
+
+この機能により、GenStudio for Performance Marketingでの画像の編集やサイズ変更のプロセスが直接合理化されます。 詳しくは、[ ジェネレーティブ拡張 AI 機能 ](/help/user-guide/create/manage-variants.md#use-generative-expand) を参照してください。
+
+## 以前のリリースノート
+
++++ご注意（2025.08.15 以降）
 
 ### テキスト属性のインサイト
 
@@ -65,8 +75,7 @@ Adobe GenStudio for Performance Marketingでは、次の 2 つの強力なバリ
 
 Adobe GenStudio for Performance Marketingには、メール翻訳機能が組み込まれており、マーケターはメールキャンペーンをグローバルに効率的に拡張できます。 この機能を使用すると、承認済みのメールエクスペリエンスを Azure Open AI 翻訳サービスで複数のターゲット言語に翻訳できます。
 
-
-## 以前のリリースノート
++++
 
 +++ご注意（2025.07.25 より）
 
@@ -351,7 +360,7 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 * 書き出されたHTMLで、すべての文字が正しく表示されるようになりました。<!-- GS-7246 -->
 
-* 特定の言語で、[!DNL Content]_エクスペリエンス_&#x200B;**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
+* 特定の言語で、[!DNL Content]_エクスペリエンス_**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
 
 * 50 x 50 のサイズのテンプレートで作成されたディスプレイ広告が、想定された画像サイズで書き出されるようになりました。 以前は、PNG ファイルは、期待される寸法の 2 倍で書き出されていました。<!-- GS-7192 -->
 
