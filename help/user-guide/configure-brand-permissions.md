@@ -4,7 +4,7 @@ description: GenStudio for Performance Marketingの作成者と編集者に権�
 level: Intermediate
 feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-source-git-commit: 8ed591795cee157760159cca6e899cab15792252
+source-git-commit: adb1d34eb76d7594933fe9951c4c1885e6d6369b
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 1%
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 デフォルトでは、GenStudio システム管理者が [!DNL Brands] を作成および編集できます。 コンテンツ編集者および共同作業者の役割には、編集権限と作成権限がありますが、システム管理権限は必要ない場合があります。
 
-コンテンツ編集者と共同作業者にこれらの [!DNL Brand] 関連の権限を付与するには、Adobe システム管理者がAdobe Admin Consoleで追加の設定タスクを実行する必要があります。 [Enterprise and Teams 管理ガイド ](https://helpx.adobe.com/jp/enterprise/using/admin-console.html#Overview) の _Adobe Admin Console_ を参照してください。
+コンテンツ編集者と共同作業者にこれらの [!DNL Brand] 関連の権限を付与するには、Adobe システム管理者がAdobe Admin Consoleで追加の設定タスクを実行する必要があります。 [Enterprise and Teams 管理ガイド ](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) の _Adobe Admin Console_ を参照してください。
 
 ユーザーとユーザーグループの追加は、すべてのAdobe製品に共通する基本的なタスクで、Admin Consoleを通じて管理される権限が付与されます。 ユーザー管理の概要とユーザーおよびユーザーグループを追加する手順については、{Enterprise and Teams 管理ガイド [ の ](https://helpx.adobe.com/jp/enterprise/using/users.html)0}Adobe Admin Console ユーザー _を参照してください。_
 
 このビデオのチュートリアルを見るか、次の手順に従います。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470500/?learn=on&enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3474996?learn=on&enablevpops)
 
 ## 手順 1：ユーザーグループの作成
 
@@ -95,7 +95,7 @@ _プロジェクト_ は、選択したユーザーがアセット（この場�
 
 1. 「**[!UICONTROL 作成]**」をクリックします。_プロジェクトに招待_ ポップアップが開きます。
 
-[ エンタープライズおよびチーム管理ガイド ](https://helpx.adobe.com/jp/enterprise/using/projects-in-business-storage.html) の _プロジェクトの管理_ を参照してください。
+[ エンタープライズおよびチーム管理ガイド ](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html) の _プロジェクトの管理_ を参照してください。
 
 ## 手順 5：ユーザーグループをプロジェクトに招待
 
