@@ -16,7 +16,7 @@ ht-degree: 0%
 
 このトピックでは、プライベート配布について説明します。 プライベート配布は、アドオンのデプロイメントを、開発対象の組織（IMS 組織で識別される）に制限します。
 
-公開配布を行うと、アドオンはAdobe Exchange上でアプリとして使用できるようになります。 [2}App Builder](https://developer.adobe.com/app-builder/docs/guides/distribution/public/) 開発者向けドキュメントの { 公開配布 _では、任意のAdobe組織でアプリを使用できるようにする方法が説明されています。_
+公開配布を行うと、アドオンはAdobe Exchange上でアプリとして使用できるようになります。 [2&rbrace;App Builder](https://developer.adobe.com/app-builder/docs/guides/distribution/public/) 開発者向けドキュメントの &lbrace; 公開配布 _では、任意のAdobe組織でアプリを使用できるようにする方法が説明されています。_
 
 >[!BEGINSHADEBOX]
 
@@ -38,16 +38,16 @@ App Builder アプリは、App Builder プロジェクトにデプロイする�
 
 1. [Adobe Developer Console](https://developer.adobe.com/console/) から、アプリがデプロイされている組織、プロジェクト、ワークスペースを選択します。
 
-1. [!UICONTROL 2}Workspaceの概要 ] エリアから「_承認」を選択します。__アプリの承認_ ペインが開きます。
+1. [!UICONTROL 2&rbrace;Workspaceの概要 &#x200B;] エリアから「_承認」を選択します。__アプリの承認_ ペインが開きます。
 
 1. _アプリ送信の詳細_ 領域に、アドオンに関する情報の詳細を追加します。 詳細には、アプリ名、説明、連絡先のメールが含まれます。
 
-1. すべてのフィールドへの入力が完了したら、「[!UICONTROL  送信 ]」をクリックします。
+1. すべてのフィールドへの入力が完了したら、「[!UICONTROL &#x200B; 送信 &#x200B;]」をクリックします。
 
-1. Developer Consoleへのログインに使用したのと同じAdobe IDを使用して [Adobe Exchange} にログインします。 ](https://exchange.adobe.com/)この組織のシステム管理者権限を持っていない場合は、組織システム管理者に承認を依頼してください。
+1. Developer Consoleへのログインに使用したのと同じAdobe IDを使用して [Adobe Exchange&rbrace; にログインします。 ](https://exchange.adobe.com/)この組織のシステム管理者権限を持っていない場合は、組織システム管理者に承認を依頼してください。
 
-1. [!UICONTROL  管理 ]/[!UICONTROL App Builder アプリケーション ] を選択して、アプリをレビューするリクエストにアクセスします。
+1. [!UICONTROL &#x200B; 管理 &#x200B;]/[!UICONTROL App Builder アプリケーション &#x200B;] を選択して、アプリをレビューするリクエストにアクセスします。
 
-1. アプリを確認したら、「[!UICONTROL  承認 ]」を選択します。 有益なメモを追加することもできます。
+1. アプリを確認したら、「[!UICONTROL &#x200B; 承認 &#x200B;]」を選択します。 有益なメモを追加することもできます。
 
 これで、アドオンが組織のGenStudio for Performance Marketing インスタンスに表示されるようになりました。
