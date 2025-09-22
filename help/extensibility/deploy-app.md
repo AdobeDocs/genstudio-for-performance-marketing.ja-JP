@@ -3,16 +3,16 @@ title: App Builder アプリケーションのデプロイ
 description: GenStudio for Performance Marketing用のApp Builder アプリまたはアドオンをデプロイします。
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
-source-git-commit: 6fef5933421a56cf9f77c19bc198f017ee6c117e
+source-git-commit: 7fdd3f54a0a031bfe26b48983de9cd24baad2f62
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
 # アプリのデプロイ
 
-アプリを実行すると、デプロイ前にアドオンの動作の予備スナップショットが得られます。 この情報はデバッグを容易にします。 アプリケーションを承認用に再送信しなくても、デプロイ済みのアプリケーションのビルドとデプロイメントを強制できます。
+アプリを実行すると、デプロイ前にアドオンの動作の予備スナップショットが提供されます。 この情報はデバッグを容易にします。
 
 **アプリを実行するには**:
 
@@ -24,13 +24,13 @@ aio app run
 
 **アプリをデプロイするには**:
 
-1. デプロイメントワークスペースに移動します。 例えば、実稼動ワークスペースに移動するには、次の手順を実行します。
+1. デプロイメント ワークスペースに移動します。
 
    ```bash
-   aio app use -w Production
+   aio app use -w [deployment_workspace]
    ```
 
-1. アプリをデプロイします。
+2. アプリをデプロイします。
 
    ```bash
    aio app deploy
@@ -38,9 +38,11 @@ aio app run
 
 **再デプロイメントを強制的に実行するには**:
 
+アプリを承認用に再送信しなくても、アプリのビルドとデプロイメントを強制的に行うことができます。
+
 >[!NOTE]
 >
->ビルドおよびデプロイメントを強制的に実行すると、既存のデプロイメントが上書きされます。 最初に、テスト環境でアプリのテストを十分に行います。
+>ビルドおよびデプロイメントを強制的に実行すると、既存のデプロイメントが上書きされます。 最初にテスト環境で **アプリを十分にテストします**。
 
 ```bash
 aio app build --force-build
@@ -60,8 +62,10 @@ aio app deploy --force-build --force-deploy
 
 デプロイ後、GenStudio for Performance Marketingの URL に `query` パラメーターを追加することで、GenStudio for Performance Marketingでアプリを表示できます。
 
-`https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.net/index.html#/@<ims-org>/genstudio/create`
+```txt
+https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.net/index.html#/@<ims-org>/genstudio/create
+```
 
 アドオンに満足したら、`query` パラメーターを指定せずに配布する準備が整います。
 
-これで [ アプリを配布 ](distribute-app.md) できます。
+これで、[ アプリを配布 ](distribute-app.md) できます。

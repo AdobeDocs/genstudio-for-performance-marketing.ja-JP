@@ -4,7 +4,7 @@ description: パフォーマンスマーケティング用の Adobe GenStudio �
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a666052494382be09bb24ef5d4d803d5ec710baf
+source-git-commit: 06f273d520c39042e180b5acaec33004df1cd5fe
 workflow-type: tm+mt
 source-wordcount: '3502'
 ht-degree: 0%
@@ -195,7 +195,7 @@ GenStudio for Performance Marketing [!DNL Create] では、[Generative Expand AI
 
 ### 拡張機能
 
-新しいGenStudio for Performance Marketing[ 拡張フレームワーク ](/help/extensibility/overview.md) は、独自のクレーム・コンプライアンス・プロトコルをアドオンまたは拡張可能なアプリケーションを使用したコンテンツ作成ワークフローおよび検証に組み込むためのツールを提供します。
+新しいGenStudio for Performance Marketing[ 拡張フレームワーク ](/help/extensibility/setup.md) は、独自のクレーム・コンプライアンス・プロトコルをアドオンまたは拡張可能なアプリケーションを使用したコンテンツ作成ワークフローおよび検証に組み込むためのツールを提供します。
 
 ### テンプレート
 
@@ -360,7 +360,7 @@ Beta プログラムは、製品開発を形成し、一般提供への準備状
 
 * 書き出されたHTMLで、すべての文字が正しく表示されるようになりました。<!-- GS-7246 -->
 
-* 特定の言語で、[!DNL Content]_エクスペリエンス_&#x200B;**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
+* 特定の言語で、[!DNL Content]_エクスペリエンス_**[!UICONTROL 書き出し]** ポップアップのボタンが切り詰められなくなりました。<!-- GS-6873 -->
 
 * 50 x 50 のサイズのテンプレートで作成されたディスプレイ広告が、想定された画像サイズで書き出されるようになりました。 以前は、PNG ファイルは、期待される寸法の 2 倍で書き出されていました。<!-- GS-7192 -->
 

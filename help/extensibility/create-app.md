@@ -1,11 +1,11 @@
 ---
-title: GenStudio for Performance Marketingを拡張するApp Builder アプリの作成
-description: アプリまたはアドオンの作成を開始します。
+title: App Builder アプリケーションの作成
+description: GenStudio for Performance Marketingを拡張するアプリまたはアドオンの作成を開始します。
 feature: Extensibility
 exl-id: 4e757dd4-a02d-472c-bc13-6f27dffa48f2
-source-git-commit: 89b7f477310326755a6b34cb97d5ad5664e98dec
+source-git-commit: 04a4f6432c5db87489e39f9396a7782c86441695
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ GenStudio for Performance Marketingのネイティブ機能を拡張する開発
 
 * npm （Node.js とともにパッケージ化）
 
-* Adobe Developer コマンドラインインターフェイス（CLI）。 インストール手順：`npm install -g @adobe/aio-cli`
+* Adobe Developer コマンドラインインターフェイス（CLI）。 npm と共にインストールするには、次のコマンドを実行します：`npm install -g @adobe/aio-cli`
 
 >[!ENDSHADEBOX]
 
@@ -48,9 +48,9 @@ App Builder アプリケーションの主要なコンポーネントには、�
 
    * `app.config.yaml`
    * `ext.config.yaml`：アドオンの設定ファイル
-   * `app.config.yaml`：アドオンの設定ファイル（アプリを as a GenStudio for Performance Marketing アドオンとして定義することを含む）
+   * `app.config.yaml`：アドオンの設定ファイル（アプリをGenStudio for Performance Marketing アドオンとして定義することを含む）
    * `.aio`
-   * `.env`: `.env` ファイルをソース管理にコミットしない
+   * `.env`: `.env` ファイルをソース管理にコミットしないでください。
 
 ### ソースコード
 
@@ -70,7 +70,7 @@ App Builder アプリケーションの主要なコンポーネントには、�
 
 ### Source コードコンポーネント
 
-* `ExtensionRegistration.tsx`：ホストアプリ（GenStudio for Performance Marketing）がアドオンを読み込んで表示するために必要な API を定義します。
+* `ExtensionRegistration.tsx`: ホストアプリ（GenStudio for Performance Marketing）がアドオンを読み込んで表示するために必要な API を定義します。
 
 * `App.tsx`：他のコンポーネントへのルーティングを定義するメインアプリコンポーネント。
 
@@ -88,7 +88,7 @@ App Builder アプリケーションの主要なコンポーネントには、�
 
 1. [GenStudio UIX Examples](https://github.com/adobe/genstudio-uix-examples) リポジトリからサンプルアプリをダウンロードします。
 
-1. [Adobe Developer Console](https://developer.adobe.com/console/) のApp Builder プロジェクトワークスペースから、「**[!UICONTROL すべてダウンロード]**」を選択してプロジェクトの詳細をダウンロードします。
+1. [Adobe Developer Console](https://developer.adobe.com/console/) のApp Builder プロジェクトワークスペースから、「[!UICONTROL  すべてダウンロード ]」を選択してプロジェクトの詳細をダウンロードします。
 
 1. 好みの統合開発環境（IDE）で、サンプルアプリをローカルで開きます。
 
@@ -106,13 +106,11 @@ App Builder アプリケーションの主要なコンポーネントには、�
 
 ## アドオンにカスタムコードを追加
 
-アドオンコードは、`AdditionalContextDialog.tsx` ファイルと `RightPanel.tsx` ファイルで定義します。 これら 2 つのファイルは、ユーザーがアドオンにアクセスしたときのポップアップの外観と動作を定義します。
+`AdditionalContextDialog.tsx` ファイルと `RightPanel.tsx` ファイルでアドオンコードを定義します。 これら 2 つのファイルは、ユーザーがアドオンにアクセスしたときのポップアップの外観と動作を定義します。
 
-* `AdditionalContextDialog.tsx`: _コンテキストを追加_ アドオンを使用する予定がある場合は、このコンポーネントを定義します。 ユーザーは、[!DNL Create] のプロンプトドロワーで _アドオン_ をクリックすると、このコンポーネントを操作します。
+* `AdditionalContextDialog.tsx`: _コンテキストを追加_ アドオンを使用する予定がある場合は、このコンポーネントを定義します。 ユーザーは、_のプロンプトドロワーで_ アドオン [!DNL Create] をクリックすると、このコンポーネントを操作します。
 
 * `RightPanel.tsx`：右側のパネル _アドオン_ エクスペリエンスの検証）を使用する予定がある場合は、このコンポーネントを定義します。 ユーザーは、エクスペリエンスドラフトの右側のパネルで検証アドオンをクリックすると、このコンポーネン [!DNL Create] を操作します。
-
-これで、[ アプリをデプロイ ](deploy-app.md) する準備が整いました
 
 ## アプリ開発のベストプラクティス
 
@@ -124,4 +122,6 @@ App Builder アプリケーションの主要なコンポーネントには、�
   rm -rf node_modules package-lock.json && npm i
   ```
 
-* GenStudio UIX SDKをアップグレードします。 最新バージョンの [GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk) を使用していることを確認してください。 最新のGenStudioの変更内容の使用方法については [&#128279;](https://github.com/adobe/genstudio-uix-examples)SDK UIX のサンプルリポジトリを参照してください。
+* GenStudio UIX SDKをアップグレードします。 最新バージョンの [GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk) を使用していることを確認してください。 最新のGenStudioの変更内容の使用方法については [](https://github.com/adobe/genstudio-uix-examples)SDK UIX のサンプルリポジトリを参照してください。
+
+これで、[ アプリをデプロイ ](deploy-app.md) する準備が整いました
