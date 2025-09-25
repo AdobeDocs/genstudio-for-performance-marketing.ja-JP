@@ -16,15 +16,15 @@ ht-degree: 1%
 
 # 画像の生成
 
-GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （絵筆のアイコン）を使用すると、選択した画像からインスピレーションを得て、その視覚的なインパクトと全体的な美学をキャプチャする _[!DNL On-brand images]_ール生成されたアセットを生成できます。<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
+GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （絵筆のアイコン）を使用すると、選択した画像からインスピレーションを得て、その視覚的なインパクトと全体的な美学をキャプチャする _[!DNL On-brand images]_&#x200B;ール生成されたアセットを生成できます。<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
 
 人目を引く効果的な画像をデザインするには、[GenStudio for Performance Marketingにガイドラインを追加する ](/help/user-guide/guidelines/add-guidelines.md)、[ プロンプトの記述の基本 ](/help/user-guide/effective-prompts.md) を確認することをお勧めします。
 
 ## 画像タイプ
 
-選択し _[!DNL On-brand images]_画像からインスピレーションを得て、その視覚的なインパクトと全体的な美学をキャプチャする生成されたアセットです。 これらの画像は、[!DNL Content] で既に使用可能な画像と、デザインをガイドする慎重に作成されたプロンプトを使用して作成されます。 生成プロセス中に選択したブランドガイドラインとパラメーターの両方に厳密に従います。
+選択し _[!DNL On-brand images]_&#x200B;画像からインスピレーションを得て、その視覚的なインパクトと全体的な美学をキャプチャする生成されたアセットです。 これらの画像は、[!DNL Content] で既に使用可能な画像と、デザインをガイドする慎重に作成されたプロンプトを使用して作成されます。 生成プロセス中に選択したブランドガイドラインとパラメーターの両方に厳密に従います。
 
-設定 _[!DNL On-brand images]_れたガイドライン、パラメーター、<!-- and _[!DNL Similar images]_ --> 慎重に作成されたプロンプト [ を組み込んで、人目を引く画像アセットを配信で ](/help/user-guide/effective-prompts.md) ます。
+設定 _[!DNL On-brand images]_&#x200B;れたガイドライン、パラメーター、<!-- and _[!DNL Similar images]_ --> 慎重に作成されたプロンプト [ を組み込んで、人目を引く画像アセットを配信で ](/help/user-guide/effective-prompts.md) ます。
 
 <!-- * _[!DNL Similar images]_—Image assets created with strong similarity to an existing selected image available in [!DNL Content]. When generating similar images, GenStudio for Performance Marketing redesigns the selected image, giving slight variations on the content to provide variety and nuance. -->
 
@@ -34,11 +34,11 @@ GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/over
 
 ### 参照画像を選択
 
-_[!DNL On-brand images]_を作成するには、[!DNL Content] に保存されている既存の画像を選択します。 サポートされる [ ディメンションについて詳しくは、](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) テンプレートのベストプラクティス [!DNL on-brand image] を参照してください。
+_[!DNL On-brand images]_&#x200B;を作成するには、[!DNL Content] に保存されている既存の画像を選択します。 サポートされる [ ディメンションについて詳しくは、](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) テンプレートのベストプラクティス [!DNL on-brand image] を参照してください。
 
 **参照画像を選択するには**:
 
-1. _[!DNL Create]_で、**[!UICONTROL ブランド上画像]**をクリックします。
+1. _[!DNL Create]_&#x200B;で、**[!UICONTROL ブランド上画像]**&#x200B;をクリックします。
 1. _フィルター_ の横にある検索オプションを使用して、特定の画像を検索します。
 
    ![ 参照画像を選択 ](/help/assets/select-img.png){width="400" zoomable="yes"}
@@ -107,7 +107,7 @@ _[!DNL On-brand images]_を作成するには、[!DNL Content] に保存され�
 
 1. [ 画像の切り抜き ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-images.html)、[ オブジェクトの削除 ](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)、エフェクトの適用などの画像編集を実行します。
 
-   Adobe Expressを使用してAdobe Expressで画像を変更する方法については [](https://helpx.adobe.com/express/user-guide.html)GenStudio for Performance Marketing ドキュメント } を参照してください。
+   Adobe Expressを使用してAdobe Expressで画像を変更する方法については [&#128279;](https://helpx.adobe.com/express/user-guide.html)GenStudio for Performance Marketing ドキュメント &rbrace; を参照してください。
 
 1. 「_[!UICONTROL 変更を適用]_」をクリックして編集内容を保存します。
 1. 必要に応じて個々の画像のバリエーションを編集し、変更を適用して進行状況を保存します。
@@ -148,7 +148,7 @@ You can quickly generate images similar to a selected image within [!DNL Content
 
 生成された画像のドラフトは、_ホームの_ 最近 [!DNL Create] セクションに表示されます。
 
-生成した画像を現在および将来の使用で使用できるようにするには、画像を [!UICONTROL  コンテンツ ] に公開し、マーケティングキャンペーンで使用するために書き出します。
+生成した画像を現在および将来の使用で使用できるようにするには、画像を [!UICONTROL &#x200B; コンテンツ &#x200B;] に公開し、マーケティングキャンペーンで使用するために書き出します。
 
 1. **新しい画像を公開するには**、上部のツールバーにある **[!UICONTROL 公開]** をクリックします。
    1. 必要に応じて _[!UICONTROL キャンペーン]_ や _[!UICONTROL チャネル]_ などの _[!UICONTROL 詳細を追加]_ します。
