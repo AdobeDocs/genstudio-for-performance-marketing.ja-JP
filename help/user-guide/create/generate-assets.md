@@ -105,9 +105,9 @@ _[!DNL On-brand images]_&#x200B;を作成するには、[!DNL Content] に保存
 
    _Adobe Expressを使用_ ウィンドウが表示されます。
 
-1. [ 画像の切り抜き ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-images.html)、[ オブジェクトの削除 ](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)、エフェクトの適用などの画像編集を実行します。
+1. [ 画像の切り抜き ](https://helpx.adobe.com/jp/express/create-and-edit-images/edit-images/crop-images.html)、[ オブジェクトの削除 ](https://helpx.adobe.com/jp/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)、エフェクトの適用などの画像編集を実行します。
 
-   Adobe Expressを使用してAdobe Expressで画像を変更する方法については [&#128279;](https://helpx.adobe.com/express/user-guide.html)GenStudio for Performance Marketing ドキュメント &rbrace; を参照してください。
+   Adobe Expressを使用してAdobe Expressで画像を変更する方法については [&#128279;](https://helpx.adobe.com/jp/express/user-guide.html)GenStudio for Performance Marketing ドキュメント &rbrace; を参照してください。
 
 1. 「_[!UICONTROL 変更を適用]_」をクリックして編集内容を保存します。
 1. 必要に応じて個々の画像のバリエーションを編集し、変更を適用して進行状況を保存します。
