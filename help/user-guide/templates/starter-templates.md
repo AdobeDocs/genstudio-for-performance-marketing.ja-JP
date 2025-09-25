@@ -6,10 +6,10 @@ feature: Media Templates
 badgeBeta: label="Beta" tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"
 recommendations: noDisplay, noCatalog
 exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
-source-git-commit: a7c69659c348fad3e067a84c1d242809a83b42fb
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 2%
+source-wordcount: '403'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,7 @@ _スターターテンプレート_ は、GenStudio for Performance Marketingを
 
 ### LinkedIn 広告テンプレート
 
-静的画像ではすべての縦横比がサポートされます。 ビデオの場合は、LinkedIn ストーリーに 9:16 を使用し、ビデオが短い垂直方向の形式向けに最適化されていることを確認します。
+静的画像ではすべての縦横比がサポートされます。 ビデオの場合は、LinkedIn ストーリーに 9:16 を使用し、ビデオが短い垂直方向の形式に最適化されていることを確認します。
 
 | 縦横比 | オリエンテーション | ガイダンス |
 |--------------|--------------|------------------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ _スターターテンプレート_ は、GenStudio for Performance Marketingを
 | 2:3、4:5 | 縦 | ポートレート形式に適しており、モバイルデバイスでクリエイティブを目立たせるのに役立ちます。 |
 | 9:16 | 垂直方向 | LinkedIn ストーリー（ビデオのフルスクリーンエクスペリエンス）に最適です。 |
 
-### メタ広告テンプレート
+### Meta広告テンプレート
 
 すべての縦横比は、静的画像とビデオメディアタイプでサポートされます。
 

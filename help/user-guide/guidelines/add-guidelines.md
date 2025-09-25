@@ -5,7 +5,7 @@ feature: Brand Personalization, Product Personalization, Persona Personalization
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '2194'
 ht-degree: 0%
@@ -32,7 +32,7 @@ GenStudio for Performance Marketingへのガイドラインの追加は、作成
 
 英語以外の言語で記述されたブランドガイドラインをアップロードした場合、または英語以外の言語を使用して手動でブランドを作成した場合、GenStudio for Performance Marketingではそのガイドラインが同じ言語で表示されます。
 
-左側のナビゲーション領域で、「_共有_ リストから「**[!DNL Brands]**」をクリックします。 _[!DNL Brands]_&#x200B;パネルで、「**ブランドを追加**」を選択します。
+左側のナビゲーション領域で、「**[!DNL Brands]** 共有 _リストから「_」をクリックします。 _[!DNL Brands]_パネルで、「**ブランドを追加**」を選択します。
 
 >[!TIP]
 >
@@ -82,7 +82,7 @@ GenStudio for Performance Marketingへのガイドラインの追加は、作成
 
      ![ 音声ガイドライン [!DNL Brand] 追加 ](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
 
-   - [_画像ガイドライン_](brands.md#image-guidelines):「カテゴリを追加 **&#x200B;**&#x200B;をクリックして、「一般的なアートガイドライン」や「製品写真」などのガイドラインカテゴリを追加します。 追加した各カテゴリにガイドラインを入力します。
+   - [_画像ガイドライン_](brands.md#image-guidelines):「カテゴリを追加 **** をクリックして、「一般的なアートガイドライン」や「製品写真」などのガイドラインカテゴリを追加します。 追加した各カテゴリにガイドラインを入力します。
    - [_チャネルガイドライン_](brands.md#channel-guidelines)：使用可能な各チャネルをクリックして、適切なガイドラインを追加します。
    - [_ロゴ_](brands.md#logos):「**[!UICONTROL ロゴを追加]**」をクリックしてドラッグ&amp;ドロップするか、参照してロゴをアップロードします。
    - [_カラー_](brands.md#colors): 「**[!UICONTROL カラーを追加]**」をクリックして 16 進数またはRGBのカラーコードを使用するか、カラーピッカーをクリックして個々のカラーを追加します。
@@ -91,7 +91,7 @@ GenStudio for Performance Marketingへのガイドラインの追加は、作成
 
 作成した [!DNL Brands] を表示するには、_[!UICONTROL Brands]_ パネルの上部付近にある背面矢印をクリックして、_[!UICONTROL Brands]_ ホームに戻ります。
 
-情報にアクセスするために [!DNL Brand] を [ 公開 ](#publish-brand) する必要はありません。 手動で追加した情報は、追加後直ちに使用できます。 組織内の他のユーザーがGenStudio for Performance Marketingの [!DNL Brand] 情報を使用できるようにするには、その情報を公開する必要があります。 作成された [!DNL Brand] は、公開されるまでドラフト形式になります。
+情報にアクセスするために [ を ](#publish-brand) 公開 [!DNL Brand] する必要はありません。 手動で追加した情報は、追加後直ちに使用できます。 組織内の他のユーザーがGenStudio for Performance Marketingの [!DNL Brand] 情報を使用できるようにするには、その情報を公開する必要があります。 作成された [!DNL Brand] は、公開されるまでドラフト形式になります。
 
 ### ブランドサムネールの変更
 
@@ -106,17 +106,17 @@ GenStudio for Performance Marketingへのガイドラインの追加は、作成
 1. _[!UICONTROL サムネールを変更]_ で、アップロードした画像を変更します。
 1. 「**[!UICONTROL 更新]**」を選択して、画像を [!DNL Brand] サムネール画像として保存します。
 
-[!DNL Brand] ージの [!UICONTROL &#x200B; ロゴ &#x200B;] タブ表示で、既存の [!DNL Brand] ロゴを選択できます。 クリックしてロゴを開き、アクションメニューから **[!UICONTROL ブランドサムネールとして使用]** を選択します。
+[!DNL Brand] ージの [!UICONTROL  ロゴ ] タブ表示で、既存の [!DNL Brand] ロゴを選択できます。 クリックしてロゴを開き、アクションメニューから **[!UICONTROL ブランドサムネールとして使用]** を選択します。
 
 ### ブランドを公開
 
 [!DNL Brand] ドラフトを公開する前に、すべてのガイドラインセクションをクリックして、入力されたすべての情報を確認します。 必要に応じて、ブランドガイドラインを変更します。
 
-_[!DNL Brands]_&#x200B;では、ドラフトまたは公開済みの [!DNL Brands] はタイルとして表示されます。 ステータスバッジ_ 公開済み _または_ ドラフト _と、ブランドが最後に変更された日時が、各タイルの下部に表示されます。
+_[!DNL Brands]_では、ドラフトまたは公開済みの [!DNL Brands] はタイルとして表示されます。 ステータスバッジ_ 公開済み _または_ ドラフト _と、ブランドが最後に変更された日時が、各タイルの下部に表示されます。
 
 >[!TIP]
 >
->自分が作成したブランドのみを表示する場合は、[!DNL Brands] フィルター（ファネルアイコン **から「** 自分で作成」を選択します。
+>自分が作成したブランドのみを表示する場合は、**[!UICONTROL フィルター（funnel アイコン]** から「[!DNL Brands] 自分が作成したブランド」を選択します。
 
 **ブランドドラフトを公開するには**:
 
@@ -138,34 +138,34 @@ _[!DNL Brands]_&#x200B;では、ドラフトまたは公開済みの [!DNL Brand
 
 ### ブランドの管理
 
-_[!DNL Brands]_&#x200B;ホームで、クリックして、既に作成されているブランドを開き、管理または公開できます。
+_[!DNL Brands]_ホームで、クリックして、既に作成されているブランドを開き、管理または公開できます。
 
 **ブランド情報を表示** するには、左側のナビゲーション領域で「**[!UICONTROL [!DNL Brands]]**」をクリックし、既存のブランドをクリックして開きます。
 
-[!DNL Brands] 表示で **ブランドを変更するには** 次の手順に従います。
+**表示で** ブランドを変更するには [!DNL Brands] 次の手順に従います。
 
 1. **[!DNL Brands]** で、定義済みのブランドをクリックして開きます。
-1. 個々の詳細を表示したり、ガイドラインを変更したりするには、上部にある [**[!UICONTROL &#x200B; ブランドの音声ガイドライン &#x200B;]**](brands.md#brand-voice-guidelines)、[**[!UICONTROL &#x200B; 画像ガイドライン &#x200B;]**](brands.md#image-guidelines)、[**[!UICONTROL &#x200B; チャネルガイドライン &#x200B;]**](brands.md#channel-guidelines)、[**[!UICONTROL &#x200B; ロゴ &#x200B;]**](brands.md#logos) または [**[!DNL Colors]**](brands.md#colors) をクリックします。
-1. ブランドロゴを管理するには、上部の [**[!UICONTROL &#x200B; ロゴ &#x200B;]**](brands.md#logos) をクリックし、アクションメニュー（3 つのドット）をクリックします。
-   1. **[!UICONTROL 詳細を表示]** を選択して、_形式_ や _サイズ_ などの [!DNL Brand] の情報を表示します。
+1. 個々の詳細を表示したり、ガイドラインを変更したりするには、上部にある [**[!UICONTROL  ブランドの音声ガイドライン ]**](brands.md#brand-voice-guidelines)、[**[!UICONTROL  画像ガイドライン ]**](brands.md#image-guidelines)、[**[!UICONTROL  チャネルガイドライン ]**](brands.md#channel-guidelines)、[**[!UICONTROL  ロゴ ]**](brands.md#logos) または [**[!DNL Colors]**](brands.md#colors) をクリックします。
+1. ブランドロゴを管理するには、上部の [**[!UICONTROL  ロゴ ]**](brands.md#logos) をクリックし、アクションメニュー（3 つのドット）をクリックします。
+   1. **[!UICONTROL 詳細を表示]** を選択して、[!DNL Brand] 形式 _や_ サイズ _などの_ の情報を表示します。
    1. 「**[!UICONTROL ダウンロード]**」を選択して、ロゴをダウンロードします。
-   1. ロゴをサムネール画像として設定するには、「[**[!UICONTROL &#x200B; ブランドサムネールとして使用 &#x200B;]](#change-brand-thumbnail)」を選択します。
+   1. ロゴをサムネール画像として設定するには、「[**[!UICONTROL  ブランドサムネールとして使用 ]](#change-brand-thumbnail)」を選択します。
    1. 「**[!UICONTROL 名前変更]**」を選択して、ロゴの名前を変更します。
    1. 「**[!UICONTROL 削除]**」を選択して、ロゴを削除します。
 1. 既存のブランドの名前を変更するには、タイトルをクリックして新しいタイトルを入力します。
-1. 既存のブランドを複製するには、_[!DNL Brands]_&#x200B;のアクションメニューから&#x200B;**[!UICONTROL 複製]**&#x200B;を選択します。
+1. 既存のブランドを複製するには、**[!UICONTROL のアクションメニューから]** 複製 _[!DNL Brands]_を選択します。
    1. _ブランドを複製_ ポップアップにブランド名を入力し、「**[!UICONTROL ブランドを複製]**」をクリックします。
 
       ポップアップは、ブランドが複製されていることを確認します（「新しいブランドが作成されました」）。 複製されたブランドは、最初は _非公開_ モードになっています。
 
    1. 複製したブランドをカスタマイズし、[ 公開 ](#publish-brand) して使用できるようにします。
-1. ブランドを削除するには、[!DNL Brands] のアクションメニューから **[!UICONTROL 削除]** を選択します。
+1. ブランドを削除するには、**[!UICONTROL のアクションメニューから]** 削除 [!DNL Brands] を選択します。
 
 ## [!DNL Personas] の追加
 
 ペルソナを追加するには、[ ペルソナガイドをアップロード ](#upload-a-persona) するか、ガイドラインを選択してペルソナの詳細を入力して [ 手動でペルソナを作成 ](#manually-add-persona) します。
 
-左側のナビゲーション領域で、「_共有_ リストから「**[!DNL Personas]**」をクリックします。 _[!DNL Personas]_&#x200B;パネルで、「**ペルソナを追加**」を選択します。
+左側のナビゲーション領域で、「**[!DNL Personas]** 共有 _リストから「_」をクリックします。 _[!DNL Personas]_パネルで、「**ペルソナを追加**」を選択します。
 
 GenStudio for Performance Marketingで [!DNL Persona] を追加すると、作成するコンテンツを理想的なオーディエンスにターゲット設定するのに役立ちます。
 
@@ -219,21 +219,21 @@ GenStudio for Performance Marketingで [!DNL Persona] を追加すると、作�
    1. **[!UICONTROL 画像を使用]** をクリックします。
    1. カバー画像の位置を変更するには、アクションメニューの **[!UICONTROL 再配置]** をクリックし、画像を目的の位置にドラッグして **[!UICONTROL 保存]** をクリックします。
 
-   作成した [!DNL Personas] を表示するには、「_ペルソナ_ ビューの上部付近にある背面矢印をクリックして、_[!DNL Personas]_&#x200B;ホームに戻ります。
+   作成した [!DNL Personas] を表示するには、「_ペルソナ_ ビューの上部付近にある背面矢印をクリックして、_[!DNL Personas]_ホームに戻ります。
 
 ### [!DNL Personas] の管理
 
-_[!DNL Personas]_&#x200B;ホームでは、**作成済みの[!DNL Persona]**&#x200B;を開いて編集またはレビューするか、**ペルソナを削除**&#x200B;リストから選択できます。
+_[!DNL Personas]_ホームでは、**作成済みの[!DNL Persona]**を開いて編集またはレビューするか、**ペルソナを削除**リストから選択できます。
 
-- [!DNL Personas] のアクションメニューから **[!UICONTROL 開く]** を選択して、既存のペルソナを修正してレビューします。
-- [!DNL Personas] のアクションメニューから「**[!UICONTROL 削除]**」を選択して、ペルソナを **削除** します。
-- [!DNL Personas] のアクションメニューからペルソナの **&#x200B;**&#x200B;名前を変更 **を選択し** す。
+- **[!UICONTROL のアクションメニューから]** 開く [!DNL Personas] を選択して、既存のペルソナを修正してレビューします。
+- **[!UICONTROL のアクションメニューから「]** 削除 [!DNL Personas]」を選択して、ペルソナを **削除** します。
+- **[!UICONTROL のアクションメニューからペルソナの]**[!DNL Personas] 名前を変更 **を選択し** す。
 
 ## [!DNL Products] の追加
 
 製品を追加するには、[ 製品ガイドをアップロード ](#upload-a-product) するか、[ 製品を手動で作成 ](#manually-add-product) ガイドラインを選択して製品の詳細を入力します。
 
-左側のナビゲーション領域で、「_共有_ リストから「**[!DNL Products]**」をクリックします。 _[!DNL Products]_&#x200B;パネルで、「**製品を追加**」を選択します。
+左側のナビゲーション領域で、「**[!DNL Products]** 共有 _リストから「_」をクリックします。 _[!DNL Products]_パネルで、「**製品を追加**」を選択します。
 
 ![[!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"} を追加
 
@@ -287,12 +287,12 @@ GenStudio for Performance Marketingに [!DNL Product] を含めることで、�
    1. **[!UICONTROL 画像を使用]** をクリックします。
    1. カバー画像の位置を変更するには、アクションメニューの **[!UICONTROL 再配置]** をクリックし、画像を目的の位置にドラッグして **[!UICONTROL 保存]** をクリックします。
 
-   作成した [!DNL Products] を表示するには、「_製品_ ビューの上部付近にある背面矢印をクリックして、_[!DNL Products]_&#x200B;ホームに戻ります。
+   作成した [!DNL Products] を表示するには、「_製品_ ビューの上部付近にある背面矢印をクリックして、_[!DNL Products]_ホームに戻ります。
 
 ### [!DNL Products] の管理
 
-_[!DNL Products]_&#x200B;ホームでは、**作成済みの[!DNL Product]**&#x200B;を開いて編集またはレビューするか、**製品を削除**&#x200B;リストから操作できます。
+_[!DNL Products]_ホームでは、**作成済みの[!DNL Product]**を開いて編集またはレビューするか、**製品を削除**リストから操作できます。
 
-- [!DNL Products] のアクションメニューから **[!UICONTROL 開く]** を選択して、既存の製品を改訂およびレビューします。
-- [!DNL Products] のアクションメニューから「**[!UICONTROL 削除]**」を選択して、製品を **削除** します。
-- [!DNL Products] のアクションメニューから製品の **[!UICONTROL 名前を変更]** を選択します **名前を変更**。
+- **[!UICONTROL のアクションメニューから]** 開く [!DNL Products] を選択して、既存の製品を改訂およびレビューします。
+- **[!UICONTROL のアクションメニューから「]** 削除 [!DNL Products]」を選択して、製品を **削除** します。
+- **[!UICONTROL のアクションメニューから製品の]** 名前を変更 [!DNL Products] を選択します **名前を変更**。

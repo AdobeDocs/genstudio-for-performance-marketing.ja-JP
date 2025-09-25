@@ -4,10 +4,11 @@ description: Adobe GenStudio for Performance Marketingで LinkedIn テンプレ�
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 35a519a8d28e260bfa6d9ed671bd5bf1cfeda931
+exl-id: 85432185-8311-411b-b57b-f482c3d45854
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 2%
+source-wordcount: '297'
+ht-degree: 3%
 
 ---
 

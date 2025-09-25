@@ -7,7 +7,7 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # LinkedIn エクスペリエンスの作成
 
-このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン [&#128279;](/help/user-guide/create/meta-experiences.md) を使用して、ブランドガイドラインに準拠した LinkedIn エクスペリエンス）を生成する方法を説明します。
+このチュートリアルでは、GenStudio for Performance Marketing [ （左側のナビゲーションエリアにある絵筆のアイコン ](/help/user-guide/create/meta-experiences.md) を使用して、ブランドガイドラインに準拠した [[!DNL Create]](/help/user-guide/create/overview.md)LinkedIn エクスペリエンス）を生成する方法を説明します。
 
 LinkedIn 広告の作成を開始する前に、GenStudio for Performance Marketingで [ ガイドラインの追加 ](/help/user-guide/guidelines/add-guidelines.md) を行い、[ プロンプトの作成 ](/help/user-guide/effective-prompts.md) の基本を学習することが重要です。
 
@@ -28,10 +28,10 @@ LinkedIn 広告の作成を開始する前に、GenStudio for Performance Market
 
 **LinkedIn テンプレートを選択するには**:
 
-1. _[!DNL Create]_&#x200B;で&#x200B;**[!UICONTROL LinkedIn]**&#x200B;をクリックします。
+1. _[!DNL Create]_で&#x200B;**[!UICONTROL LinkedIn]**をクリックします。
 1. **[!UICONTROL カスタムテンプレート]** を選択してアップロードしたテンプレートまたは **[!UICONTROL スターターテンプレート]** を選択して、事前定義済みのテンプレートを参照します。
 
-   Meta バリアントにビデオアセットを追加する予定の場合は、スターターテンプレートを選択する必要があります。 ビデオの使用を容易にするシステム定義のコンテンツ領域が事前に読み込まれています。
+   Metaのバリエーションにビデオアセットを追加する場合は、スターターテンプレートを選択する必要があります。 ビデオの使用を容易にするシステム定義のコンテンツ領域が事前に読み込まれています。
 
 1. クリックしてテンプレートを選択し、**[!UICONTROL 使用]** をクリックします。
 
@@ -39,7 +39,7 @@ LinkedIn 広告の作成を開始する前に、GenStudio for Performance Market
 
 ## パラメーターを追加
 
-プロンプトドロワーの _パラメーター_ に [ ガイドライン ](/help/user-guide/guidelines/overview.md) とアセットを追加すると、コンテンツ生成プロセスが強化されます。これは、LinkedIn エクスペリエンスを生成するための準備における重要な手順です。
+プロンプトドロワーの [ パラメーター ](/help/user-guide/guidelines/overview.md) に _ガイドライン_ とアセットを追加すると、コンテンツ生成プロセスが強化されます。これは、LinkedIn エクスペリエンスを生成するための準備における重要な手順です。
 
 **パラメーターとアセットを追加するには**:
 
@@ -89,9 +89,9 @@ LinkedIn 広告の作成を開始する前に、GenStudio for Performance Market
 
 * **LinkedIn とドラフトの名前を [ 編集](/help/user-guide/create/manage-variants.md#change-draft-name)** するには、キャンバスの上部にある _名称未設定のドラフト_ タイトルをクリックして、新しいタイトルを入力します。
 * **LinkedIn 広告を [ 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、任意の広告セクション（件名行、ヘッダー、本文コピーなど）をクリックし、必要に応じて編集します。
-* **コールトゥアクションを変更または選択するには**、「call-to-action」ボタンをクリックし、使用可能なボタンテキストオプションから選択します。 _リンク_ に、call-to-actionテキストの URL を入力します。
+* **call to actionを変更または選択するには** 「call-to-action」ボタンをクリックし、使用可能なボタンテキストオプションから選択します。 _リンク_ に、call-to-actionテキストの URL を入力します。
 * **バリアントの [ テキストの書式設定を適用する](/help/user-guide/create/manage-variants.md#manually-edit-text)** には、バリアントの画像上のテキストをクリックし、**[!UICONTROL テキストの書式設定]** をクリックします。
-* **バリアントのセクションを [ 再生成](/help/user-guide/create/manage-variants.md#re-generate-sections)** するには、編集可能なテキストフィールドをクリックして _[!UICONTROL 編集候補]_ オプションを使用するか、_[!UICONTROL Generate new text_ セクションに新しいプロンプトを入力して &#x200B;]&#x200B;**[!UICONTROL Generate]** をクリックします。
+* **バリアントのセクションを [ 再生成](/help/user-guide/create/manage-variants.md#re-generate-sections)** するには、編集可能なテキストフィールドをクリックして _[!UICONTROL 編集候補]_ オプションを使用するか、_[!UICONTROL Generate new text_ セクションに新しいプロンプトを入力して ]**[!UICONTROL Generate]** をクリックします。
 * **画像のサイズを調整およびフィットするために生成拡張を使用 [ するには ](/help/user-guide/create/manage-variants.md#use-generative-expand) 作業テンプレートに合わせます**、画像をクリックし、**[!UICONTROL 編集]** （鉛筆アイコン）をクリックしてから **[!UICONTROL 展開]** をクリックします。 必要な縦横比とテンプレートに合わせて画像を調整します。
 * **画像を [ 切り抜きまたは再配置](/help/user-guide/create/manage-variants.md#crop-assets)** するには、画像の上にマウスポインターを置き、表示される切り抜きアイコンをクリックし、画像のサイズと配置を調整します。
 * **広告のサイズと縦横比を [ 変更](/help/user-guide/create/manage-variants.md#change-aspect-ratio)** するには、_[!UICONTROL サイズ変更]_ ボタン（キャンバスの左側にボタンアイコンが表示されたボックス）をクリックし、すべてのバリアントに適用する新しいサイズと縦横比を選択します。 バリアントが複製され、サイズが変更されます。
@@ -130,19 +130,19 @@ LinkedIn 広告の作成を開始する前に、GenStudio for Performance Market
 
 **レビューと承認を取得するには**:
 
-1. [ ドラフトのメタ広告エクスペリエンスの承認 ](/help/user-guide/approvals/request-review.md) を依頼する [ 承認リクエストの開始 ](/help/user-guide/approvals/approve-content.md)。
+1. [Meta広告エクスペリエンスのドラフトの承認 ](/help/user-guide/approvals/request-review.md) を依頼する [ 承認リクエストの開始 ](/help/user-guide/approvals/approve-content.md)。
 
    ![ レビューおよび承認用のドラフトの送信 ](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
 
 1. レビュープロセス中に [ レビュー担当者を削除または追加 ](/help/user-guide/approvals/review-and-edit.md#manage-approvals) できます。
 1. [ レビュー用にコンテンツにアクセス ](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) し、修正要求を表示します。
-1. レビューのコメントごとにドラフトを編集し [ メタ広告エクスペリエンスを公開 ](#publish-and-export-experience) します。
+1. レビューコメントごとにドラフトを編集し、[Meta広告エクスペリエンスを公開する ](#publish-and-export-experience) ようにします。
 
 詳しくは、[ レビューと承認 ](/help/user-guide/approvals/overview.md) を参照してください。
 
 ## エクスペリエンスの公開と書き出し
 
-生成した LinkedIn 広告を現在および将来の使用で利用できるようにするには、広告を [!UICONTROL &#x200B; コンテンツ &#x200B;] に公開し、マーケティングキャンペーンで使用するために書き出します。
+生成した LinkedIn 広告を現在および将来の使用で利用できるようにするには、広告を [!UICONTROL  コンテンツ ] に公開し、マーケティングキャンペーンで使用するために書き出します。
 
 1. **新しいエクスペリエンスを公開するには** 上部のツールバーまたは承認フロー内の **[!UICONTROL 公開]** をクリックします。
 1. **新しいエクスペリエンスを書き出すには**、上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。

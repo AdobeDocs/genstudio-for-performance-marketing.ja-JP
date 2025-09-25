@@ -3,7 +3,7 @@ title: コンテンツのレビューと編集
 description: Adobe GenStudio for Performance Marketingを使用してコンテンツを反復的にレビューおよび編集する方法について説明します。
 feature: Content Review, Content Management
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-source-git-commit: 8aa55fba08fa438ae2320c1159aa3c27877ee778
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -64,7 +64,7 @@ _承認_ パネルから、変更候補のリストを表示したり、ドラ�
 
 ## Workfront Proofを使用したコンテンツのレビュー
 
-[!DNL Proofing Viewer] には、プルーフに注釈を付けたり変更を追跡したりするための [ 堅牢なマークアップツール ](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) が用意されています。 また、2 つのバージョンのプルーフを比較することもできます。
+[!DNL Proofing Viewer] には、プルーフに注釈を付けたり変更を追跡したりするための [ 堅牢なマークアップツール ](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) が用意されています。 また、2 つのバージョンのプルーフを比較することもできます。
 
 **コンテンツをレビューするには**:
 
@@ -84,7 +84,7 @@ _承認_ パネルから、変更候補のリストを表示したり、ドラ�
 
 ### プルーフの比較
 
-[!DNL Proofing Viewer] から、[ プルーフのバージョンを比較 ](https://experienceleague.adobe.com/ja/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs) できます。
+[!DNL Proofing Viewer] から、[ プルーフのバージョンを比較 ](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs) できます。
 
 **プルーフを比較するには**:
 
@@ -94,4 +94,4 @@ _承認_ パネルから、変更候補のリストを表示したり、ドラ�
 
    プルーフが並んで表示され、新しいバージョンが左側に表示されます。
 
-Workfront Proofには、自動比較ツールなど、プルーフを比較するためのツールがいくつか用意されています。 [ 比較ツールの使用 ](https://experienceleague.adobe.com/ja/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools) を参照してください。
+Workfront Proofには、自動比較ツールなど、プルーフを比較するためのツールがいくつか用意されています。 [ 比較ツールの使用 ](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools) を参照してください。

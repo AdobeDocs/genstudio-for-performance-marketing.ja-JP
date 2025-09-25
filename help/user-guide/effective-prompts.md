@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 2%
@@ -43,7 +43,7 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) では、プロンプトドロワーで **[!UICONTROL プロンプト条件]** （[_パラメーター_](/help/user-guide/create/overview.md#parameters) とプロンプト）を使用して、選択を通じて詳細を追加し、AI の解釈を改善できます。
 
-[ メール ](/help/user-guide/create/email-experiences.md) の場合、プロンプト条件には [ パラメーター ](/help/user-guide/guidelines/overview.md) に _ガイドライン_ を追加すること、メールのバリエーションで使用するアセットをアップロードすること、説明プロンプトを含めることができます。 [ メタ広告 ](/help/user-guide/create/create-meta-ad.md) の場合、プロンプト条件には、_パラメーター_ でのブランドガイドライン、既存アセットの選択またはアップロード、画像またはアセットに関連する設定（縦横比など）、プロンプトなどが含まれます。 真のパワーは、[ ガイドラインの設定 ](/help/user-guide/guidelines/add-guidelines.md) から始まります。
+[ メール ](/help/user-guide/create/email-experiences.md) の場合、プロンプト条件には [ パラメーター ](/help/user-guide/guidelines/overview.md) に _ガイドライン_ を追加すること、メールのバリエーションで使用するアセットをアップロードすること、説明プロンプトを含めることができます。 [Meta広告 ](/help/user-guide/create/create-meta-ad.md) の場合、プロンプトの条件には、_パラメーター_ でのブランドガイドライン、既存アセットの選択またはアップロード、画像またはアセットに関連する設定（縦横比など）、プロンプトなどが含まれます。 真のパワーは、[ ガイドラインの設定 ](/help/user-guide/guidelines/add-guidelines.md) から始まります。
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ GenStudio for Performance Marketingのガイドラインは、生成 AI がア�
 
 ### 構造化されたプロンプト
 
-複数セクションのメールの場合、メール内のセクションごとに様々なコンテンツを生成するための、セクション固有の手順を提供するように促す構造を作成できます。 構造化プロンプトは、生成されたコンテンツを対応するコンテンツプレースホルダーに挿入できるように [&#128279;](/help/user-guide/content/customize-template.md#sections-or-groups) メールテンプレート内のセクション名  を直接参照する必要があります。
+複数セクションのメールの場合、メール内のセクションごとに様々なコンテンツを生成するための、セクション固有の手順を提供するように促す構造を作成できます。 構造化プロンプトは、生成されたコンテンツを対応するコンテンツプレースホルダーに挿入できるように [ メールテンプレート内のセクション名 ](/help/user-guide/content/customize-template.md#sections-or-groups) を直接参照する必要があります。
 
 例えば、最初のセクションでは新製品のプロモーションをおこない、2 番目のセクションではコスト削減のメリットを詳しく説明するメールのコンテンツを生成するよう、GenStudio for Performance Marketingに指示できます。
 
@@ -79,7 +79,7 @@ GenStudio for Performance Marketingのガイドラインは、生成 AI がア�
 - 最初に汎用のユーザープロンプトを参照し、次にセクション固有のディレクティブを参照します。
 - セクション名の参照とディレクティブの間の区切りとして、コロン、ハイフン、コンマ、その他の区切り文字（`,:;#$!~|@=-%&*^_`）を使用します。 例えば、次をセクション固有のプロンプトディレクティブとして使用できます。`Pod1; Describe how to easily edit text and swap images.`
 
-以下は、推奨されるプロンプト構造を明確にし、`Pod1`、`Pod2`、`Pod3` などの識別用語 `Pod` を使用するメールテンプレートを活用するプロンプトのサンプルです。
+以下は、推奨されるプロンプト構造を明確にし、`Pod`、`Pod1`、`Pod2` などの識別用語 `Pod3` を使用するメールテンプレートを活用するプロンプトのサンプルです。
 
 ```properties
 Create an exciting multi-pod email focusing on Creative Cloud and its powerful generative AI capabilities.

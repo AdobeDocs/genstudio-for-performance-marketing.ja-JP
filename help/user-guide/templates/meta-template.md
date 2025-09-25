@@ -1,22 +1,22 @@
 ---
-title: メタ広告テンプレートガイドライン
-description: Adobe GenStudio for Performance Marketingでメタ広告テンプレートを使用する際は、ベストプラクティスに従ってください。
+title: Meta広告テンプレートガイドライン
+description: Adobe GenStudio for Performance MarketingでMeta広告テンプレートを使用する際は、ベストプラクティスに従ってください。
 level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: e69039b0-272d-4f39-b0e4-916be710fd5f
-source-git-commit: d9d774f727b69b18af6114965fdb8ffb450f797b
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
 
-# メタ広告テンプレートガイドライン
+# Meta広告テンプレートガイドライン
 
-メタ広告テンプレートを使用すると、メタプラットフォーム間で視覚的に一貫性のある効果的な広告を作成できます。 推奨されるデザインプラクティスに従い、サポートされるフィールドを使用することにより、テンプレートがGenStudio for Performance Marketing用に最適化されるようになります。 このガイドでは、シームレスな統合と効果的な結果を得るために、メタ広告テンプレートを構造化、カスタマイズ、準備する方法について説明します。
+Meta広告テンプレートを使用すると、Meta プラットフォーム間で視覚的に一貫性のある効果的な広告を作成できます。 推奨されるデザインプラクティスに従い、サポートされるフィールドを使用することにより、テンプレートがGenStudio for Performance Marketing用に最適化されるようになります。 このガイドでは、シームレスな統合と効果的な結果を得るためのMeta広告テンプレートの構造化、カスタマイズおよび準備方法について説明します。
 
-GenStudio for Performance Marketingと連携するようにメタ広告テンプレートをカスタマイズする場合は、次のデザインのベストプラクティスに従います。
+GenStudio for Performance Marketingと連携するようにMetaとテンプレートをカスタマイズする場合は、次のデザインのベストプラクティスに従います。
 
 - 列レイアウトには 360 ピクセルの幅を使用
 - 画像には 1080 x 1080 ピクセルの最小解像度を使用します
@@ -25,13 +25,13 @@ GenStudio for Performance Marketingと連携するようにメタ広告テンプ
 - ビューポートを定義し **い** でください
 - JavaScript **使用しない**
 - CSS **HTML要素を上書きし** い
-- `background-image` の代わりに `<img>` タグを使用します
+- `<img>` の代わりに `background-image` タグを使用します
 - マスクを使用して、背景画像のテキスト読みやすさを向上させます
 - 使用できるセクションは 1 つだけで、単一のテンプレート要素セットが生成されます
 
 ## 認識されたフィールド名
 
-メタ広告テンプレートをカスタマイズする場合は、次の必須フィールドにコンテンツプレースホルダーを適用します。
+Meta広告テンプレートをカスタマイズする場合は、次の必須フィールドにコンテンツプレースホルダーを適用します。
 
 - `image` （必須、コンテンツJPEG、PNG またはGIFから選択）
 - `on_image_text` （画像上に表示されるテキスト）
@@ -48,7 +48,7 @@ GenStudio for Performance Marketingでは、次のフィールドが自動的に
 
 | 縦横比 | 寸法（ピクセル） | メモ |
 |------------------|----------------------------|-----------------------------------------------------------------------|
-| 正方形 1:1 | 1080 x 1080 | ほとんどのメタプレースメントの標準。幅広い互換性を確保するために推奨されます。 |
+| 正方形 1:1 | 1080 x 1080 | ほとんどのMeta プレースメントの標準。幅広い互換性を実現するために推奨されます。 |
 | 縦 4:5 | 1080 x 1350 | モバイルフィード用に最適化され、より垂直方向のスペースを提供します。 |
 | ストーリー 9:16 | 1080 x 1920 | ストーリーやリールに最適です。モバイル画面全体を埋めます。 |
 | 横 1.91:1 | 1080 x 566 | リンク広告やニュースフィードのプレースメントに最適（ワイドフォーマット）。 |
@@ -58,11 +58,11 @@ GenStudio for Performance Marketingでは、次のフィールドが自動的に
 
 ## テンプレートの例
 
-+++例：メタ広告テンプレート
++++例：Meta広告テンプレート
 
 <!-- Does this need to be a precise size? -->
 
-次に、メタ広告テンプレートの基本的な例を示します。 ヘッドには、スタイル設定用のインライン CSS が含まれています。 本文では、`image` や `on_image_text` などの [ コンテンツプレースホルダー ](#content-placeholders) を使用して、GenStudio for Performance Marketingでコンテンツを生成できる場所を示します。
+次に、Meta広告テンプレートの基本的な例を示します。 ヘッドには、スタイル設定用のインライン CSS が含まれています。 本文では、[ や ](#content-placeholders) などの `image` コンテンツプレースホルダー `on_image_text` を使用して、GenStudio for Performance Marketingでコンテンツを生成できる場所を示します。
 
 ```html {line-numbers="true" highlight="33"}
 <!DOCTYPE html>

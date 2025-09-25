@@ -1,36 +1,36 @@
 ---
-title: メタ広告エクスペリエンスの作成
-description: Adobe GenStudio for Performance Marketingを使用して（Facebook や Instagram 用の）オンブランドのメタ広告エクスペリエンスを作成する方法を説明します。
+title: Meta Ad Experience の作成
+description: Adobe GenStudio for Performance Marketingを使用して、Facebook や Instagram 向けのブランド上のMeta広告エクスペリエンスを作成する方法を説明します。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 0%
 
 ---
 
-# メタ広告エクスペリエンスの作成
+# Meta広告エクスペリエンスの作成
 
-このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン [&#128279;](/help/user-guide/create/meta-experiences.md) を使用して、ブランド化された  メタ広告エクスペリエンス）を生成する方法を説明します。
+このチュートリアルでは、GenStudio for Performance Marketing [ （左側のナビゲーションエリアにある絵筆のアイコン）を使用して ](/help/user-guide/create/meta-experiences.md) ブランド化された [[!DNL Create]](/help/user-guide/create/overview.md)Meta広告エクスペリエンスを生成する方法を実演します。
 
-Meta 広告エクスペリエンスの作成を開始する前に、GenStudio for Performance Marketingで [ ガイドラインを組み込む ](/help/user-guide/guidelines/add-guidelines.md) ことが重要です。また、[ プロンプトの作成 ](/help/user-guide/effective-prompts.md) の基本を理解しておく必要があります。
+Meta広告エクスペリエンスの作成を開始する前に、GenStudio for Performance Marketingで [ ガイドラインを組み込む ](/help/user-guide/guidelines/add-guidelines.md) ことと、[ プロンプトの作成 ](/help/user-guide/effective-prompts.md) の基本を理解することが重要です。
 
 ## テンプレートを選択
 
-新しいメタ広告エクスペリエンスの生成を開始するには、使用可能なテンプレートを使用して、コンテンツのフレームワークを提供します。 サポートされるメタ広告の縦横比について詳しくは、[ メタ広告テンプレートガイドライン ](/help/user-guide/templates/meta-template.md) を参照してください。
+新しいMeta広告エクスペリエンスの生成を開始するには、使用可能なテンプレートを使用してコンテンツのフレームワークを提供します。 サポートされるMetaの広告アスペクト比について詳しくは [](/help/user-guide/templates/meta-template.md)Meta広告テンプレートガイドライン } を参照してください。
 
 テンプレートを選択する際は、アップロードしたテンプレートの 1 つを使用するか、スターターテンプレートを使用するかを選択できます。
 
-**メタ広告テンプレートを選択するには**:
+**Meta広告テンプレートを選択するには**:
 
-1. _[!DNL Create]_&#x200B;で、「**[!UICONTROL メタ広告]**」をクリックします。
+1. _[!DNL Create]_で、**[!UICONTROL Meta広告]**をクリックします。
 1. **[!UICONTROL カスタムテンプレート]** を選択してアップロードしたテンプレートまたは **[!UICONTROL スターターテンプレート]** を選択して、事前定義済みのテンプレートを参照します。
 
-   Meta バリアントにビデオアセットを追加する予定の場合は、スターターテンプレートを選択する必要があります。 ビデオの使用を容易にするシステム定義のコンテンツ領域が事前に読み込まれています。
+   Metaのバリエーションにビデオアセットを追加する場合は、スターターテンプレートを選択する必要があります。 ビデオの使用を容易にするシステム定義のコンテンツ領域が事前に読み込まれています。
 
 1. テンプレートをクリックして選択し、「**[!UICONTROL 使用]**」をクリックします。
 
@@ -38,7 +38,7 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 
 ## パラメーターを追加
 
-プロンプトドロワーの _パラメーター_ に [ ガイドライン ](/help/user-guide/guidelines/overview.md) とアセットを追加すると、コンテンツ生成プロセスが強化されます。これは、メタ広告を生成するための準備における重要な手順です。
+プロンプトドロワーに [ ガイドライン ](/help/user-guide/guidelines/overview.md) とアセットを _パラメーター_ に追加すると、コンテンツ作成プロセスが強化されます。これは、Meta広告を作成する準備をする際に重要な手順です。
 
 事前定義済みのガイドライン（[!DNL Brands]、[!DNL Personas]、[!DNL Products]）を含むテンプレートを使用する場合、これらのガイドラインはバリアントに適用されます。 必要に応じて変更できます。
 
@@ -68,7 +68,7 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 
 ## プロンプトを入力
 
-ガイドラインを選択したら、自然言語を使用してプロンプトを作成し、新しいメタ広告エクスペリエンスのコンテンツの生成を開始します。 詳細なプロンプトは、あいまいなプロンプトやあいまいなプロンプトよりも高品質の出力を生成します。
+ガイドラインを選択したら、自然言語を使用してプロンプトを作成し、新しいMeta広告エクスペリエンス用のコンテンツの生成を開始します。 詳細なプロンプトは、あいまいなプロンプトやあいまいなプロンプトよりも高品質の出力を生成します。
 
 プロンプトの書き込みについて詳しくは、[ 効果的なプロンプトの書き込み ](/help/user-guide/effective-prompts.md) を参照してください。
 
@@ -81,28 +81,28 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 
 デフォルトでは、4 つのバリエーション（追加したプロンプト、ガイドラインおよびコンテンツによってすべて強化される）が生成され、キャンバスに表示されます。
 
-生成されたコンテンツは徐々に読み込まれます。メタエクスペリエンスの各セクションが生成されると、キャンバスに表示されます。 これらの変更がキャンバスにどのように読み込まれるかを学ぶには、[ メタエクスペリエンス ](/help/user-guide/create/meta-experiences.md#progressive-loading) を参照してください。
+生成されたコンテンツは徐々に読み込まれます。Meta エクスペリエンスの各セクションが生成されると、キャンバスに表示されます。 これらの変更内容がキャンバスに読み込まれる方法については、[Meta エクスペリエンス ](/help/user-guide/create/meta-experiences.md#progressive-loading) を参照してください。
 
-## メタ広告チャネルを選択
+## Meta広告チャネルを選択
 
-メタ広告を生成する際は、Facebook 広告または Instagram 広告から選択できます。
+Meta広告を作成する際は、Facebook または Instagram の広告から選択できます。
 
-右側のメニューバー（Facebook および Instagram アイコン **で「メタ広告」チャネルオプションを** Facebook **」と「Instagram**」の間で切り替えて、各チャネルのバリアントを表示および管理します。
+右側のメニューバー（Facebook および Instagram アイコン **でMeta広告チャネルオプションを** Facebook **と** Instagram）の間で切り替えて、各チャネルのバリアントを表示および管理します。
 
-[ メタ広告の改訂 ](#revise-generated-variants) 時に、Facebook 広告と Instagram 広告のアスペクト比を変更できます。
+[Meta広告の見直し ](#revise-generated-variants) を行う際には、Facebook や Instagram の広告のアスペクト比を変えることができます。
 
 ## 生成されたバリアントを修正
 
-承認または公開用に送信する内容を選択する前に [!DNL Content] メタ広告を編集したり、生成された広告のセットからバリアントを削除したりできます。
+承認または公開の対象を選択する前に [!DNL Content]Meta広告を編集するか、生成された広告のセットからバリアントを削除できます。
 
 変更する個々のレイヤーをハイライト表示するには、編集可能なフィールドまたは画像をクリックし、「_[!UICONTROL レイヤーを表示]_」をクリックします。
 
 **生成されたバリアントを修正するには**:
 
-* **メタ広告のドラフト名を [ 編集](/help/user-guide/create/manage-variants.md#change-draft-name)** するには、キャンバスの上部にある _名称未設定のドラフト_ タイトルをクリックし、新しいタイトルを入力します。
-* **メタ広告を [ 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、広告セクションのいずれか（件名行など）をクリックします
+* **Metaとドラフトの名前を [ 編集](/help/user-guide/create/manage-variants.md#change-draft-name)** するには、キャンバス上部の _名称未設定のドラフト_ タイトルをクリックし、新しいタイトルを入力します。
+* **Meta広告を [ 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、広告セクションのいずれか（件名など）をクリックします。
 ヘッダー（本文コピー）を使用し、必要に応じて編集します。
-* **コールトゥアクションを変更または選択するには**、「call-to-action」ボタンをクリックし、使用可能なボタンテキストオプションから選択します。 _リンク_ に、call-to-actionテキストの URL を入力します。
+* **call to actionを変更または選択するには** 「call-to-action」ボタンをクリックし、使用可能なボタンテキストオプションから選択します。 _リンク_ に、call-to-actionテキストの URL を入力します。
 * **バリアントで [ テキストの書式設定を適用](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、バリアントの画像上のテキストまたはインラインリンクをクリックし、「**[!UICONTROL テキストの書式設定]**」をクリックします。
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **バリアント内の画像へのリンクを追加 [ するには](/help/user-guide/create/manage-variants.md#add-image-link)**、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックし、リンクアイコンをクリックします。
@@ -113,7 +113,7 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 * **画像のサイズを調整およびフィットするために生成拡張を使用 [ するには ](/help/user-guide/create/manage-variants.md#use-generative-expand) 作業テンプレートに合わせます**、画像をクリックし、**[!UICONTROL 編集]** （鉛筆アイコン）をクリックしてから **[!UICONTROL 展開]** をクリックします。 必要な縦横比とテンプレートに合わせて画像を調整します。
 * **バリアント内の画像の代替テキストを追加 [ するには](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**、画像アセットをクリックし、「_代替テキスト_」オプションを使用して、画像ごとに代替テキストを手動で追加または生成します。
 * **バリアントに [ アクセシビリティラベルを追加 ](/help/user-guide/create/manage-variants.md#add-accessibility-labels) するには** 画像またはcall-to-action リンクをクリックし、リンクまたはボタンの機能を説明する簡単な説明を入力します。
-* **メタ広告を [ 削除](/help/user-guide/create/manage-variants.md#delete-variant)** するには、バリアントのオプションメニューをクリックし、**[!UICONTROL バリアントを削除]** をクリックします。
+* **Meta広告を [ 削除](/help/user-guide/create/manage-variants.md#delete-variant)** するには、バリアントのオプションメニューをクリックし、**[!UICONTROL バリアントを削除]** をクリックします。
 
 ### ビデオを管理
 
@@ -145,28 +145,28 @@ Meta 広告エクスペリエンスの作成を開始する前に、GenStudio fo
 
 **レビューと承認を取得するには**:
 
-1. [ ドラフトのメタ広告エクスペリエンスの承認 ](/help/user-guide/approvals/request-review.md) を依頼する [ 承認リクエストの開始 ](/help/user-guide/approvals/approve-content.md)。
+1. [Meta広告エクスペリエンスのドラフトの承認 ](/help/user-guide/approvals/request-review.md) を依頼する [ 承認リクエストの開始 ](/help/user-guide/approvals/approve-content.md)。
 
    ![ レビューおよび承認用のドラフトの送信 ](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
 
 1. レビュープロセス中に [ レビュー担当者を削除または追加 ](/help/user-guide/approvals/review-and-edit.md#manage-approvals) できます。
 1. [ レビュー用にコンテンツにアクセス ](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) し、修正要求を表示します。
-1. レビューのコメントごとにドラフトを編集し [ メタ広告エクスペリエンスを公開 ](#publish-and-export-experience) します。
+1. レビューコメントごとにドラフトを編集し、[Meta広告エクスペリエンスを公開する ](#publish-and-export-experience) ようにします。
 
 詳しくは、[ レビューと承認 ](/help/user-guide/approvals/overview.md) を参照してください。
 
 ## エクスペリエンスの公開と書き出し
 
-生成したメタ広告を現在および将来の使用で使用できるようにするには、[!UICONTROL &#x200B; コンテンツ &#x200B;] に公開し、マーケティングキャンペーンで使用するためにエクスポートします。
+生成したMeta広告を現在および将来の使用で使用できるようにするには、[!UICONTROL  コンテンツ ] に公開し、マーケティングキャンペーンで使用するためにエクスポートします。
 
-1. **新しいメタ広告エクスペリエンスを公開するには** 上部のツールバーまたは承認フロー内の **[!UICONTROL 公開]** をクリックします。
-1. **新しいメタ広告エクスペリエンスを書き出すには** 上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。
+1. **新しいMeta広告エクスペリエンスを公開するには** 上部のツールバーまたは承認フロー内の **[!UICONTROL 公開]** をクリックします。
+1. **新しいMeta広告エクスペリエンスを書き出すには** 上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。
    1. 「HTMLと画像」または「CSV と画像（JPGまたは PNG）」のフォーマットを選択し、「**[!UICONTROL 書き出し]**」をクリックします。
 
 詳細は、[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) を参照してください。
 
-## メタを接続
+## Metaを接続
 
-GenStudio for Performance Marketingを Meta に接続して、コンテンツのパフォーマンスに関する高度な分析とインサイトを受け取ることができます。
+GenStudio for Performance MarketingをMetaに接続すると、コンテンツのパフォーマンスに関する高度な分析やインサイトを受け取ることができます。
 
-[ メタ広告の連携 ](/help/user-guide/connectors/meta-ads.md) を参照してください。
+[Meta広告の連携 ](/help/user-guide/connectors/meta-ads.md) を参照してください。

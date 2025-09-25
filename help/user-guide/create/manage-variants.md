@@ -3,7 +3,7 @@ title: バリアントの管理
 description: 生成されるバリアントとアセットをカスタマイズし、デジタルマーケティングのニーズに合わせて強化します。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 2cf3bd4cb01f75dbff9fcf0cca7239256fc81129
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '2101'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # バリアントの管理
 
-Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生成されるバリアント [ メール ](/help/user-guide/create/email-experiences.md)、[ メタ広告 ](/help/user-guide/create/meta-experiences.md) などをカスタマイズして強化し、デジタルマーケティング戦略で使用できます。
+Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生成されるバリアント [ メール ](/help/user-guide/create/email-experiences.md)、[Meta広告 ](/help/user-guide/create/meta-experiences.md) などをカスタマイズして強化し、デジタルマーケティング戦略で使用できます。
 
 [ エクスペリエンスの作成 ](/help/user-guide/create/overview.md) 時に、生成されたバリアントのコンテンツとアセットを個別にまたはバッチで変更できます。 個々のマイクロレベルでバリアントを管理する機能により、生成されたコンテンツの各部分を管理できます。
 
@@ -20,7 +20,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生
 
 生成されたバリアントドラフトには、キャンバスの上部にデフォルト名が表示されます。 デフォルトのドラフト名は、チャネルタイプ、日付、生成時刻を含む次の規則を使用します。
 
-*例*:「Meta：名称未設定ドラフト - 09.5.24、午前 9:56」
+*例*:「Meta：名称未設定のドラフト - 09.5.24、午前 9:56」
 
 **デフォルト名を変更するには**:
 
@@ -41,13 +41,13 @@ Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生
 * テキストサイズ
 * リンク
 
-テキストの書式設定オプションは、チャネル（メタ、メールなど）によって異なります
+テキストの書式設定オプションは、チャネル（Meta、メールなど）によって異なります
 
 **生成されたバリアントでテキストを手動で編集するには**:
 
 1. バリアントのセットを生成した後、バリアント内の編集可能なテキストをダブルクリックします。
 1. 新しいテキストを入力します。
-1. テキストをフォーマットするには、該当するテキストをハイライト表示し、「**[!UICONTROL &#x200B; テキストをフォーマット**]」をクリックします。
+1. テキストをフォーマットするには、該当するテキストをハイライト表示し、「**[!UICONTROL  テキストをフォーマット**]」をクリックします。
 
    使用可能な書式設定オプションのいずれか（またはすべて！）をテキストに適用します。
 
@@ -60,7 +60,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生
 **バリアントのレイヤーを表示するには**:
 
 1. バリアントのセットを生成したら、バリアント内の編集可能なフィールドまたは画像をクリックします。
-1. _[!UICONTROL ビューレイヤ]_&rbrack; をクリックします。
+1. _[!UICONTROL ビューレイヤ]_] をクリックします。
 1. をクリックして、リストから画層を選択します。 バリアントで選択したレイヤーがハイライト表示されます。
 
    選択したレイヤーに必要な編集を加えます。
@@ -69,7 +69,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生
 
 GenStudio for Performance Marketingには、生成されたバリアントのセクションを再生成する機能が組み込まれています。 テキストのフレーズを変更、短縮、長くしたり、新しいプロンプトを追加して新しいコンテンツを生成したりできます。
 
-例えば、あるメタ広告バリアントのヘッドラインセクションを再生成して、特定の背景アセットでどのように見えるかを確認できます。 セクションの内容を _[!UICONTROL 再フレーズ]_、_[!UICONTROL 短縮]_、_[!UICONTROL 延長]_ したり、_[!UICONTROL 新しいテキストを生成]_ して新しいプロンプトを追加したりできます。
+例えば、あるMeta広告バリアントのヘッドラインセクションを再生成して、特定の背景アセットでどのように見えるかを確認できます。 セクションの内容を _[!UICONTROL 再フレーズ]_、_[!UICONTROL 短縮]_、_[!UICONTROL 延長]_ したり、_[!UICONTROL 新しいテキストを生成]_ して新しいプロンプトを追加したりできます。
 
 ![ セクションの再生成 ](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
@@ -130,7 +130,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
 ## ジェネレーティブ展開を使用
 
-画像のサイズを展開し、「生成展開」で生成コンテンツを追加します。 ジェネレーティブ展開を使用すると、不適切な画像を、バナー、メタ広告、LinkedIn 広告またはディスプレイ広告テンプレートに最適な縦横比に変換できます。
+画像のサイズを展開し、「生成展開」で生成コンテンツを追加します。 Generative Expand を使用すると、不適切な画像を、バナー、Meta広告、LinkedIn 広告またはディスプレイ広告テンプレートに最適な縦横比に変換できます。
 
 この生成展開機能は、切り抜きツールとペアで使用され、有料メディアチャネルの様々な縦横比でアセットを完全に制御できます。
 
@@ -162,13 +162,13 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
 ## アスペクト比の変更
 
-必要な広告サイズに合わせて、[ メタ広告の縦横比 ](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) をすばやく変更できます。 不要な切り抜きや引き伸ばしを避けるために、テンプレートのサイズに近い画像の縦横比を選択します。 例えば、テンプレートが 1200 × 628 ピクセル（幅の広い長方形）の場合、1:1 正方形の画像を使用すると、側面が切り抜かれて、重要なコンテンツが途切れる可能性があります。 最適な画像サイズは、テンプレートの高さに一致する 628 x 628 ピクセルです。
+必要な広告サイズに合わせて、[Meta広告の縦横比 ](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) をすばやく変更できます。 不要な切り抜きや引き伸ばしを避けるために、テンプレートのサイズに近い画像の縦横比を選択します。 例えば、テンプレートが 1200 × 628 ピクセル（幅の広い長方形）の場合、1:1 正方形の画像を使用すると、側面が切り抜かれて、重要なコンテンツが途切れる可能性があります。 最適な画像サイズは、テンプレートの高さに一致する 628 x 628 ピクセルです。
 
 >[!NOTE]
 >
 >使用可能なテンプレートに応じて、様々な縦横比とサイズを使用できます。
 
-**生成されたメタ広告の縦横比を変更するには**:
+**生成されたMeta広告の縦横比を変更するには**:
 
 1. バリアントのセットを生成した後、キャンバスの左側にある **[!UICONTROL 縦横比のサイズ変更]** （ボックスの隅を指す矢印）をクリックします。
 
@@ -196,7 +196,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 1. **[!UICONTROL コンテンツから入れ替え]** アイコンをクリックします。
 1. GenStudio Assets [!DNL Content] ビューのフィルターと検索機能を使用して、検索結果をさらに絞り込みます。
 
-   また、（場所 [**[!UICONTROL &#x200B; メニューから選択すると、Connected Adobe Experience Manager（AEM）Assets Content Hub リポジトリで使用可能な画像を使用す &#x200B;]**&#x200B;こともでき ](/help/user-guide/content/manage-assets.md#location) す。
+   また、（場所 [**[!UICONTROL  メニューから選択すると、Connected Adobe Experience Manager（AEM）Assets Content Hub リポジトリで使用可能な画像を使用す ]**こともでき ](/help/user-guide/content/manage-assets.md#location) す。
 
 1. 画像をクリックして選択し、「**[!UICONTROL 使用]**」をクリックします。
 

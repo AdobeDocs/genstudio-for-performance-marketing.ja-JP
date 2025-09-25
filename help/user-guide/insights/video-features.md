@@ -1,10 +1,10 @@
 ---
-title: ビデオ機能
+title: ビデオの機能
 description: GenStudio for Performance Marketingで使用される属性カテゴリのビデオ機能について説明します。
 level: Intermediate
 feature: Reporting and Insights, Video Attributes, Generative AI
 exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
-source-git-commit: c742fb33a04b36da35036a4554a475141fce8b01
+source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -23,7 +23,7 @@ GenStudio for Performance Marketingのオーディオ検出では、ビデオの
 
 **ビデオをプレビューしてオーディオのサンプルを再生するには**:
 
-1. _[!DNL Insights]_&#x200B;で、**[!UICONTROL 属性]**&#x200B;ビューを選択します。
+1. _[!DNL Insights]_で、**[!UICONTROL 属性]**ビューを選択します。
 
 1. **[!UICONTROL ビデオ]** を選択して、テーブルの表示を変更します。
 

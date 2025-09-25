@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Adobe GenStudio for Performance Marketingでは、ジェネレーティブ AI を使用して [ ディスプレイ広告エクスペリエンスの作成を成功 ](/help/user-guide/create/create-display-ad.md) 効率化できます。
 
-[!DNL Create] は、[&#128279;](/help/user-guide/guidelines/overview.md) ガイドライン [、画像アセット、および ](/help/user-guide/create/create-display-ad.md) 適切に作成されたプロンプト  を使用して、現代のマーケターが [ ブランドと一貫性のあるディスプレイ広告エクスペリエンスを作成 ](/help/user-guide/effective-prompts.md) できるようにします。
+[!DNL Create] は、[ ガイドライン ](/help/user-guide/create/create-display-ad.md)、画像アセット、および [ 適切に作成されたプロンプト ](/help/user-guide/guidelines/overview.md) を使用して、現代のマーケターが [ ブランドと一貫性のあるディスプレイ広告エクスペリエンスを作成 ](/help/user-guide/effective-prompts.md) できるようにします。
 
 表示とエクスペリエンスを生成する際に、4 つのバリエーションが作成され、キャンバスに表示されます。
 

@@ -3,7 +3,7 @@ title: レビューと承認のリクエスト
 description: Adobe GenStudio for Performance Marketingで生成されたコンテンツのレビューをリクエストします。
 feature: Content Review, Content Management
 exl-id: 4d5cb23c-457f-47b6-a265-a283afbc54d4
-source-git-commit: ec6b226745ba5b093f9c33246be3a8ed20c84381
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 0%

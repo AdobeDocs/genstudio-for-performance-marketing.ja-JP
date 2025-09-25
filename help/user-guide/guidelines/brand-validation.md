@@ -3,7 +3,7 @@ title: Adobe GenStudio for Performance Marketingでのブランド検証
 description: GenStudio for Performance Marketingでのビルトインのブランド検証システムの仕組みを説明します。
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -27,8 +27,8 @@ GenStudio for Performance Marketingは、次のような様々な側面からブ
 
 _コンテンツチェック_ 概要には、次の項目が表示されます。
 
-* 検証に合格した [ ガイドライン ](overview.md) の数とテストしたガイドラインの数から計算した、[[!DNL Brand]](brands.md) ールへの準拠の割合
-* Meta や LinkedIn など、プラットフォームガイドラインの `Pass` または `Fail` の結果
+* 検証に合格した [[!DNL Brand]](brands.md) ガイドライン [ の数とテストしたガイドラインの数から計算した、](overview.md) ールへの準拠の割合
+* Metaや LinkedIn など、プラットフォームガイドラインの `Pass` または `Fail` の結果
 * ADA アクセシビリティ標準規格に対する `Pass` または `Fail` の結果
 
 ![ コンテンツチェックの概要 ](/help/assets/content-check-summary.png){width="400" zoomable="yes"}
@@ -45,7 +45,7 @@ _コンテンツチェック_ 概要には、次の項目が表示されます�
 
 _コンテンツチェック_ パネルには、画像セクションとバリデーションセクションの検証と [ コンプライアンス情報 ](/help/user-guide/guidelines/overview.md#compliance) が表示されます。
 
-* コンテン [!DNL Brand]、プラットフォームガイドラインおよびアクセシビリティ標準の _コンテンツチェック_ 概要情報の表現
+* コンテン _、プラットフォームガイドラインおよびアクセシビリティ標準の_ コンテンツチェック [!DNL Brand] 概要情報の表現
 * _レビューが必要_ 節で、失敗したガイドラインの数と、修正が必要な各ガイドラインの詳細情報を表示します
 * _合格_ 合格したガイドラインの数と、各合格ガイドラインの詳細情報を表示する節
 
@@ -56,7 +56,7 @@ _コンテンツチェック_ パネルには、画像セクションとバリ�
 _コンテンツチェック_ パネルでは、実行するガイドラインおよびアクセシビリティ標準チェックを切り替えることができます。 パネルの上部にある _コンテンツタイプ_ アイコン（レベルアイコン）をクリックして、オンとオフを切り替えます。
 
 * **[!DNL Brand]** - ガイドラインに関連するチェック [!DNL Brand] 実行します
-* **Platform ガイドライン** - Meta など、チャネル固有のプラットフォームに関連付けられているチェックを実行します。
+* **Platform ガイドライン** - Metaなど、チャネル固有のプラットフォームに関連付けられているチェックを実行します。
 * **アクセシビリティ** - ADA アクセシビリティ標準に関連するチェックを実行します
 
 **コンテンツタイプを設定** するには、実行するチェックをオンまたはオフに切り替えるをクリックし、「**適用**」をクリックします。

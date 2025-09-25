@@ -2,7 +2,8 @@
 title: LinkedIn 広告の有効化
 description: LinkedIn 広告エクスペリエンスをアクティブ化する方法を説明します。
 feature: Ad Activation
-source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
+exl-id: edc95319-36c3-4cbf-a5c0-865b49482b50
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -63,7 +64,7 @@ _プレビューパネル_ では、特定の広告プレースメントのコ�
 
    このエクスペリエンスの LinkedIn 広告 _エクスペリエンス設定_ ページが開きます。 選択したエクスペリエンスの詳細が事前に入力されています。 アクティベーションを続行する前に、プラットフォームの選択を求められる場合があります。
 
-1. （オプション）編集可能なフィールド（**[!UICONTROL Call to action]**、**[!UICONTROL Web サイトの URL]**、*[!UICONTROL &#x200B; リンクを表示 &#x200B;]**）の値を編集します。
+1. （オプション）編集可能なフィールド（**[!UICONTROL Call to action]**、**[!UICONTROL Web サイトの URL]**、*[!UICONTROL  リンクを表示 ]**）の値を編集します。
 
 1. （任意）「**[!UICONTROL エクスペリエンスを追加]**」をクリックして、このアクティベーショングループにエクスペリエンスを追加します。
 

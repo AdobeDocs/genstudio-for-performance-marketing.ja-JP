@@ -3,7 +3,7 @@ title: コンテンツを承認
 description: 生成されたコンテンツをAdobe GenStudio for Performance Marketingで承認する方法を説明します。
 feature: Content Review, Content Management
 exl-id: f6458d8f-dff3-448e-9f08-6d192f8a91d9
-source-git-commit: 1240a608d704a6fe1a99eace97fc0a6029b08f71
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # コンテンツを承認
 
-承認者は、レビューと承認が必要な際に、製品内通知、メールおよび有効になっている場合はSlack通知を受け取ります。 通知には、レビュー中のコンテンツを表示するキャンバスへのリンクが表示されます。 通知の管理について詳しくは、[ アカウント環境設定と通知 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences) を参照してください。
+承認者は、レビューと承認が必要な際に、製品内通知、メールおよび有効になっている場合はSlack通知を受け取ります。 通知には、レビュー中のコンテンツを表示するキャンバスへのリンクが表示されます。 通知の管理について詳しくは、[ アカウント環境設定と通知 ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences) を参照してください。
 
 コンテンツドラフトが組織の標準と期待を満たしている場合は、ドラフトを承認する準備が整います。
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 **コンテンツに関する決定を行うには**:
 
-1. [!DNL Proofing Viewer] の上部にある「**[!UICONTROL 決定を下す]**」をクリックします。
+1. **[!UICONTROL の上部にある「]** 決定を下す [!DNL Proofing Viewer]」をクリックします。
 
    _プルーフ決定_ ポップアップが開き、フィードバックを承認または送信するためのオプションが表示されます。
 
@@ -38,4 +38,4 @@ ht-degree: 1%
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
-ドラフトの作成者に承認が通知され、作業が完了します。 [!DNL Content] に保存するプロセスまたは [&#128279;](/help/user-guide/approvals/publish-content.md) 公開 _の概要については、 コンテンツの公開_ を参照してください。
+ドラフトの作成者に承認が通知され、作業が完了します。 [ に保存するプロセスまたは ](/help/user-guide/approvals/publish-content.md) 公開 [!DNL Content] の概要については、_コンテンツの公開_ を参照してください。

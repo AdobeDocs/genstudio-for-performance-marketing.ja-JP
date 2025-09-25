@@ -3,7 +3,7 @@ title: アクティベーションの管理
 description: Adobe GenStudio for Performance Marketingでアクティブ化されたエクスペリエンスを管理する方法を説明します。
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 | 属性 | 値 |
 |------------------|---------------------------------------------------------------------------------------------|
-| エクスペリエンス名 | GenStudio for Performance Marketingのエクスペリエンスの名前 <br> この名前は、_[!DNL Content]_&#x200B;のエクスペリエンスを識別します |
+| エクスペリエンス名 | GenStudio for Performance Marketingのエクスペリエンスの名前 <br> この名前は、_[!DNL Content]_のエクスペリエンスを識別します |
 | 広告名 | 広告チャネルの広告名 |
 | 公開日 | 広告エクスペリエンスが正常に公開された日付 <br> 年の月日形式を使用 |
 | 公開者 | エクスペリエンスをアクティブ化したGenStudio for Performance Marketing ユーザーの名前 |
@@ -40,7 +40,7 @@ ht-degree: 0%
 _アクティブ化されたエクスペリエンス_ ビューで、アクティブ化をクリックします。 読み取り専用の _アクティベーションの詳細_ ビューには、アクティベーションの失敗など、アクティベーションされたエクスペリエンスの定義の詳細がキャプチャされます。 このビューには、GenStudio for Performance Marketingと広告チャネルの両方から得られた情報が含まれます。
 
 * **公開日時**：広告チャネルマネージャーからの公開日時
-* **広告 ID**：有料チャネルによって割り当てられ、トラッキングに使用される ID。 このフィールドの横にある **[!UICONTROL 開く]** ボタンをクリックして、公開済みの広告をメタ広告マネージャーで表示します
+* **広告 ID**：有料チャネルによって割り当てられ、トラッキングに使用される ID。 このフィールドの横にある **[!UICONTROL 開く]** ボタンをクリックして、Meta Ads Manager で公開済みの広告を表示します
 * **エクスペリエンスの詳細**:GenStudio for Performance Marketingのアクティベーションワークフロー中に割り当てられた、選択された画像アセット、テキストおよびメタデータ
 * **チャネル設定**：広告エクスペリエンスをアクティブ化するために使用される有料チャネルアカウント
 

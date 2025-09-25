@@ -6,7 +6,7 @@ level: Experienced
 role: Admin, Data Architect
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -19,7 +19,7 @@ GenStudio for Performance Marketingでは、Adobe Experience Platform（AEP）�
 
 ## データ接続
 
-GenStudio for Performance Marketingは、Customer Journey Analytics（CJA）を使用し、1 つ以上のAEP データセットへの接続を作成して、複数のデータソースを集計します。 CJA は、これらのデータ接続を使用して、[!DNL Insights] で指標を分析するためのデータビューを作成します。
+GenStudio for Performance Marketingでは、Customer Journey Analytics（CJA）を使用して、1 つ以上のAEP データセットへの接続を作成することで、複数のデータソースを集計します。 CJAでは、これらのデータ接続を使用して、[!DNL Insights] で指標を分析するためのデータビューを作成します。
 
 >[!BEGINSHADEBOX]
 
@@ -39,7 +39,7 @@ GenStudio for Performance Marketingを確実に動作させるために必要な
 - AEP接続：`GS Insights` プレフィックスが付いたデータフロー
 - AEP Connections:GS Insights アカウント
 
-AEPでデータコンポーネントを削除する前に、_Customer Journey Analytics_ ガイドの [ 影響の削除 ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/deletion) を参照してください。
+AEPでデータコンポーネントを削除する前に、[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) ガイドの _影響の削除_ を参照してください。
 
 >[!ENDSHADEBOX]
 

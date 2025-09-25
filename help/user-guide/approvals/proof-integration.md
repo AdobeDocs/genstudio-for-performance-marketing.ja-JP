@@ -1,8 +1,9 @@
 ---
-title: Workfront Proofとレビューおよび承認との統合
+title: Workfront Proofとレビューおよび承認の統合
 description: Workfront ProofとAdobe GenStudio for Performance Marketingの統合。
 feature: Content Review, Content Management
-source-git-commit: f8508ee9440714137141e933cfe0f5761a510c7a
+exl-id: 149db773-4787-4cfb-b29e-c49f13abf39a
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
@@ -11,13 +12,13 @@ ht-degree: 0%
 
 # Workfront ProofとGenStudio for Performance Marketingの統合
 
-とWorkfront Proofの統合は、承認テンプレート、複数ステージのワークフロー、プルーフのバージョンを比較 [ する機能などの高度な機能により、GenStudio for Performance Marketingのレビューと承認のライフサイクルを強化 ](https://experienceleague.adobe.com/ja/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs) ます。 構造化されたバージョン管理により、コンテンツのレビューのライフサイクル全体を通じて、透明性、説明責任、および合理化された共同作業が確保されます。
+とWorkfront Proofの統合は、承認テンプレート、複数ステージのワークフロー、プルーフのバージョンを比較 [ する機能などの高度な機能により、GenStudio for Performance Marketingのレビューと承認のライフサイクルを強化 ](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs) ます。 構造化されたバージョン管理により、コンテンツのレビューのライフサイクル全体を通じて、透明性、説明責任、および合理化された共同作業が確保されます。
 
 >[!BEGINSHADEBOX]
 
 **前提条件**:
 
-[Adobe Workfront Web ビューア拡張機能のインストール ](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
+[Adobe Workfront Web ビューア拡張機能のインストール ](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +45,7 @@ Workfront Proof [!DNL Proofing Viewer] は、プルーフの表示、コメン�
 
 ### ライセンスとユーザーの役割
 
-ライセンスは、製品内の一連のユーザー使用権限を識別します。 Workfront Proofには、GenStudio for Performance Marketingよりも多くのライセンスタイプまたはユーザーの役割が用意されています。 [ プルーフの役割の概要 ](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) では、Workfront Proofのレビューと承認のワークフローに関連付けられたユーザーの役割について説明します。
+ライセンスは、製品内の一連のユーザー使用権限を識別します。 Workfront Proofには、GenStudio for Performance Marketingよりも多くのライセンスタイプまたはユーザーの役割が用意されています。 [ プルーフの役割の概要 ](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) では、Workfront Proofのレビューと承認のワークフローに関連付けられたユーザーの役割について説明します。
 
 | GenStudio for Performance Marketing ライセンス       | Workfront ライセンス                 | 説明                                                                                                                                                      |
 |---------------------------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -56,7 +57,7 @@ Adobe システム管理者は、Adobe Admin Consoleで両方の製品のユー�
 
 >[!NOTE]
 >
-> Workfront Proofには [ 追加のユーザーの役割 ](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) が用意されています。 パフォーマンスマーケティング内にすべての役割が表示されるわけではありません。 ただし、Workfront Proofテンプレート内に設定されたすべてのロールが適用されます。
+> Workfront Proofには [ 追加のユーザーの役割 ](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) が用意されています。 パフォーマンスマーケティング内にすべての役割が表示されるわけではありません。 ただし、Workfront Proofテンプレート内に設定されたすべてのロールが適用されます。
 
 ### ドラフトと配達確認
 
@@ -78,9 +79,9 @@ Workfront Proof承認テンプレートには、プルーフ承認ワークフ�
 
 レビュー担当者は、プルーフの特定の領域を直接クリックして、コンテキストに沿った正確なコメントを残すことができます。 すべてのコメントにはタイムスタンプが付き、プルーフのバージョン履歴の一部として保存されます。 コメント履歴は、GenStudio for Performance Marketingでは使用できません。
 
-[2 つのバージョンのプルーフを比較 ](https://experienceleague.adobe.com/ja/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs) して、レビューのコメントとコンテンツを評価できます。
+[2 つのバージョンのプルーフを比較 ](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs) して、レビューのコメントとコンテンツを評価できます。
 
 ## 通知とリマインダー
 
 レビュー担当者と承認者は、新しいプルーフがレビュー可能になった場合、または進行中のレビューのステータスが変更された場合に、メール通知を受け取ります。
-[ プルーフ通知とリマインダー ](https://experienceleague.adobe.com/ja/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders) には、プルーフへのパーソナライズされたリンク、プルーフの詳細と承認プロセスを通じたその進行状況、バージョン情報が含まれます。
+[ プルーフ通知とリマインダー ](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders) には、プルーフへのパーソナライズされたリンク、プルーフの詳細と承認プロセスを通じたその進行状況、バージョン情報が含まれます。

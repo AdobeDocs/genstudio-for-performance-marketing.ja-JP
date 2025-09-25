@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 12336812e8f4f55935f624ad0a195b5928850c7f
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # メールエクスペリエンスの作成
 
-このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン [&#128279;](/help/user-guide/create/email-experiences.md) を使用して、ブランド化された  メールエクスペリエンス）を生成する方法を説明します。
+このチュートリアルでは、GenStudio for Performance Marketing [ （左側のナビゲーションエリアにある絵筆のアイコン ](/help/user-guide/create/email-experiences.md) を使用して、ブランド化された [[!DNL Create]](/help/user-guide/create/overview.md) メールエクスペリエンス）を生成する方法を説明します。
 
 効果的なメールエクスペリエンスを作成するには、開始する前に [GenStudio for Performance Marketingにガイドラインを追加 ](/help/user-guide/guidelines/add-guidelines.md) し、[ プロンプトの作成の基本 ](/help/user-guide/effective-prompts.md) をブラッシュアップすることをお勧めします。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 **メールテンプレートを選択するには**:
 
-1. _[!DNL Create]_&#x200B;で、「**[!UICONTROL メール]**」をクリックします。
+1. _[!DNL Create]_で、「**[!UICONTROL メール]**」をクリックします。
 1. _フィルター_ の横にある検索オプションを使用して、特定のメールテンプレートを検索します。
 1. クリックしてメールテンプレートを選択し、「**[!UICONTROL 使用]**」をクリックします。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## パラメーターを追加
 
-プロンプトドロワーの _パラメーター_ に [ ガイドライン ](/help/user-guide/guidelines/overview.md) とアセットを追加すると、コンテンツ生成プロセスが過大評価され、メールエクスペリエンスを生成するための不可欠な準備手順となります。
+プロンプトドロワーの [ パラメーター ](/help/user-guide/guidelines/overview.md) に _ガイドライン_ とアセットを追加すると、コンテンツ生成プロセスが過大評価され、メールエクスペリエンスを生成するための不可欠な準備手順となります。
 
 事前定義済みのガイドライン（[!DNL Brands]、[!DNL Personas]、[!DNL Products]）を含むテンプレートを使用する場合、これらのガイドラインはバリアントに適用されます。 必要に応じて変更できます。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 1. **[!UICONTROL 使用]** をクリックします。
 
    >[!NOTE]
-   >メールテンプレートに複数のセクションがある場合、_複数セクションのメール_ の各メールセクションに [!DNL Products] とコンテンツ（ビジュアルアセット）を選択します。 複数セクションのメールで、セクションごとに 1 つのビジュアルアセットを使用できます。 [!DNL Content] から複数セクションのメールにビジュアルアセットのみを追加できます。ローカルソースからアセットをドラッグ&amp;ドロップまたはアップロードすることはできません。
+   >メールテンプレートに複数のセクションがある場合、[!DNL Products] 複数セクションのメール _の各メールセクションに_ とコンテンツ（ビジュアルアセット）を選択します。 複数セクションのメールで、セクションごとに 1 つのビジュアルアセットを使用できます。 [!DNL Content] から複数セクションのメールにビジュアルアセットのみを追加できます。ローカルソースからアセットをドラッグ&amp;ドロップまたはアップロードすることはできません。
    >![ 各メールセクションのコンテンツとパラメーターの追加 ](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}
 
 パラメーターの追加が完了したら、「_パラメーター_」アイコンをもう一度クリックすると、プロンプトドロワーを折りたたむことができます。
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 * **メールドラフト名を [ 編集](/help/user-guide/create/manage-variants.md#change-draft-name)** するには、キャンバスの上部にある _名称未設定のドラフト_ タイトルをクリックし、新しいタイトルを入力します。
 * **メールを [ 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、編集可能なテキストフィールド（件名行、ヘッダー、本文コピーなど）のいずれかをクリックし、必要に応じて編集します
-* **コールトゥアクションを [ 変更または選択](/help/user-guide/create/manage-variants.md#revise-call-to-action)** するには、「call-to-action」ボタンをクリックし、「_[!UICONTROL フレーズ変更]_」または _[!UICONTROL リンクを追加]_ を選択します。
+* **Call to actionを [ 変更または選択](/help/user-guide/create/manage-variants.md#revise-call-to-action)** するには、「call-to-action」ボタンをクリックし、「_[!UICONTROL フレーズ変更]_」または _[!UICONTROL リンクを追加]_ を選択します。
 * **バリアントの [ テキストの書式設定を適用する](/help/user-guide/create/manage-variants.md#manually-edit-text)** には、バリアントの画像上のテキストをクリックし、**[!UICONTROL テキストの書式設定]** をクリックします。
 * **バリアントのセクションを [ 再生成](/help/user-guide/create/manage-variants.md#re-generate-sections)** するには、編集可能なテキストフィールドをクリックして _[!UICONTROL 編集候補]_ オプションを使用するか、新しいプロンプトを入力して **[!UICONTROL 生成]** をクリックします。
 * **バリアント内の画像を追加 [ 入れ替え](/help/user-guide/create/manage-variants.md#swap-image)** するには、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックし、**[!UICONTROL コンテンツから入れ替え]** アイコンをクリックします。
@@ -131,7 +131,7 @@ ht-degree: 0%
 
 ## エクスペリエンスの公開と書き出し
 
-生成されたメールを現在および将来の使用で使用できるようにするには、メールを [!UICONTROL &#x200B; コンテンツ &#x200B;] に公開し、マーケティングキャンペーンで使用するために書き出します。
+生成されたメールを現在および将来の使用で使用できるようにするには、メールを [!UICONTROL  コンテンツ ] に公開し、マーケティングキャンペーンで使用するために書き出します。
 
 1. **新しいメールエクスペリエンスを公開するには** 上部のツールバーまたは承認フロー内の **[!UICONTROL 公開]** をクリックします。
 1. **新しいメールエクスペリエンスを書き出すには**、上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。
