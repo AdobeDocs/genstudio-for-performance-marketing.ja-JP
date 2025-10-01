@@ -1,43 +1,44 @@
 ---
-title: メタ広告への接続
-description: メタ広告アカウントを連携して、Adobe GenStudio for Performance Marketingで広告とメディアをアクティブ化およびモニタリングします。
+title: Meta Ads への接続
+description: Meta Ads アカウントを接続して、Adobe GenStudio for Performance Marketingで広告とメディアをアクティブ化およびモニタリングします。
 level: Intermediate
 role: Admin, Data Engineer
 recommendations: noDisplay
 feature: Reporting and Insights
-source-git-commit: 2f18b273684a9fe9b9b8903838ae09f5cd2b7842
+exl-id: 78110edf-947b-4e05-a3f1-de4b1eabda44
+source-git-commit: fb5fe4885340639f8179c8de6944ac21bfe009ec
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
 
-# メタ広告への接続
+# Meta Ads への接続
 
-メタ広告プロファイルアカウントをGenStudio for Performance Marketingに接続すると、キャンペーンの管理、コンテンツのエクスポート、アクティブなキャンペーンの広告データへのアクセスを行うことができます。
+このページでは、Meta Ads プロファイルアカウントをGenStudio for Performance Marketingに接続して管理し、キャンペーンの管理、コンテンツのエクスポート、アクティブなキャンペーンの広告データへのアクセスを行う方法について説明します。
 
 >[!BEGINSHADEBOX]
 
 **前提条件**:
 
-- すべてのメタサービスにアクセスできる Facebook/Meta ログイン
+- すべてのMeta サービスにアクセスできる Facebook/Meta ログイン
 
-- メタビジネスPortfolioおよび広告アカウントに対する _フルコントロール_。以下が含まれます。
+- 以下を含むMeta Business Portfolioおよび広告アカウントに対する _フルコントロール_
 
    - キャンペーンの管理
    - パフォーマンスの表示
    - Creative Hub モックアップの管理
    - 高度な分析
 
-- ブラウザーでポップアップブロッカーを削除します
+- ブラウザーでポップアップブロッカーを無効にする
 
 >[!ENDSHADEBOX]
 
-**Meta 広告アカウントを接続するには**:
+## Meta広告アカウントを接続
 
 1. **[!UICONTROL 詳細]**/**[!UICONTROL 設定]** をクリックします。
 
-1. 「_Data Connectors_」セクションで、**[!UICONTROL メタ広告]** カードの _接続_ をクリックします。
+1. 「_Data Connectors_」セクションで、**[!UICONTROL Meta Ads]** カードの _接続_ をクリックします。
 
 1. Facebook アカウントにログインします。
 
@@ -45,10 +46,10 @@ ht-degree: 0%
 
 1. Facebook 認証の手順に従い、アカウント情報を確認して、「**[!UICONTROL 次のユーザーとして続行]**」をクリックします。
 
-1. _[!UICONTROL ビジネス向けの Facebook ログイン]_ （Meta からAdobeへのシンボル）で、次の選択を順を追ってGenStudio for Performance Marketing アクセスを付与します。
+1. _[!UICONTROL ビジネス向けの Facebook ログイン]_ （MetaからAdobeへのシンボル）で、以下の選択項目を順を追ってGenStudio for Performance Marketing アクセスを付与します。
 
-   - 1 つ以上のメタビジネスプロファイルを選択し、「**[!UICONTROL 続行]**」をクリックします
-   - 1 つ以上のメタページを選択し、「**[!UICONTROL 続行]**」をクリックします。
+   - 1 つ以上のMeta ビジネスプロファイルを選択し、「**[!UICONTROL 続行]**」をクリックします
+   - 1 つ以上のMetaページを選択し、「**[!UICONTROL 続行]**」をクリックします
    - 1 つ以上の Instagram アカウントを選択し、**[!UICONTROL 続行]** をクリックします
    - 選択内容を確認し、「**[!UICONTROL 保存]**」をクリックします
 
@@ -58,12 +59,35 @@ ht-degree: 0%
 
    この手順により、最適なパフォーマンスを得るために、GenStudio for Performance Marketingがすべての広告、メタデータおよび指標にアクセスできるようにします。
 
-1. _[!UICONTROL メタ広告]_ で、[!DNL Insights] に含める 1 つ以上のアカウントを選択し、**[!UICONTROL 選択]** をクリックします。
+1. _[!UICONTROL Meta広告]_ で、[!DNL Insights] に含める 1 つ以上のアカウントを選択し、**[!UICONTROL 選択]** をクリックします。
 
 1. _Platform に接続_ 確認が表示されたら、「**[!UICONTROL アカウントを表示]**」をクリックします。
 
-   _[!UICONTROL メタ広告アカウント]_ ビューには、`Account name`、`Added by`、`Date added` および `Status` が一覧表示されます。
+   _[!UICONTROL Meta Ads アカウント]_ ビューには、`Account name`、`Added by`、`Date added` および `Status` がリストされます。
 
-   ![ メタアカウントリスト ](/help/assets/meta/meta-accounts-list.png " 接続されたメタアカウントのリスト "){zoomable="yes"}
+   ![Meta アカウントのリスト ](/help/assets/meta/meta-accounts-list.png " 接続されているMeta アカウントのリスト "){zoomable="yes"}
 
-リストにさらにアカウントを追加するには、「**[!UICONTROL アカウントを追加]**」を使用します。 同じメタビジネスプロファイルにリンクされたアカウントを追加する場合、承認フローが若干異なる場合があります。 接続プロセスでは、新しい Meta Ads アカウントのみを選択します。
+リストにさらにアカウントを追加するには、「**[!UICONTROL アカウントを追加]**」を使用します。 同じMeta ビジネスプロファイルにリンクされたアカウントを追加する場合、認証フローが若干異なることがあります。 接続プロセスでは、新しいMeta Ads アカウントのみを選択します。
+
+## Meta Ads 統合の切断とトラブルシューティング
+
+GenStudio for Performance Marketing インスタンスがMeta Ads アカウントに正しく接続されていない場合があります。 問題の原因となる可能性のある一般的な設定を次に示します。
+
+- Instagram アカウントは、関連する Facebook ページを選択せずに選択されます
+- 最初の接続を実行したユーザーの権限を失効させました
+
+このような場合は、Meta広告アカウントをGenStudio for Performance Marketing インスタンスに再接続するのが最適です。 まず、ユーザーはMeta Business Manager から直接アプリ統合を削除し、権限をリセットするための新しい方法を作成する必要があります。 これには、Meta Business Manager への管理者アクセス権が必要です。
+
+次の手順では、キャッシュされた権限をクリアし、統合フローをリセットします。
+
+1. Facebook web サイトにアクセスして [0}Meta Business Manager} にアクセスします。](https://business.facebook.com)
+1. アカウントでログインします。 アカウントには、Business Manager への管理者アクセス権が必要です。
+1. 左下にある「**[!UICONTROL 設定]**」歯車アイコンをクリックして、ビジネスPortfolio設定に移動します。
+1. 左側のメニューで、「**[!UICONTROL 統合]**」をクリックします。
+1. **[!UICONTROL 接続されているアプリ]** を選択します。 接続されたアプリのリストにAdobe GenStudioが表示されます。
+   ![Meta Business Manager 接続アプリケーション ](./meta-connected-apps.png "Meta Business Manager 接続アプリケーション ウィンドウ ")
+1. アプリ名をクリックします。
+1. 「**[!UICONTROL 削除]**」をクリックします。
+1. プロンプトが表示されたら、削除を確認します。
+
+Meta広告アカウント、Instagram プロファイル、Facebook ページに再接続できるようになりました。
