@@ -6,7 +6,7 @@ role: Admin, Data Engineer
 recommendations: noDisplay
 feature: Reporting and Insights
 exl-id: 78110edf-947b-4e05-a3f1-de4b1eabda44
-source-git-commit: fb5fe4885340639f8179c8de6944ac21bfe009ec
+source-git-commit: 40c7d2d40f1c4bea9794e706d8e1ce7bf92042e3
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## Meta広告アカウントを接続
+## Meta Ads アカウントを接続する
 
 1. **[!UICONTROL 詳細]**/**[!UICONTROL 設定]** をクリックします。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
    - 1 つ以上の Instagram アカウントを選択し、**[!UICONTROL 続行]** をクリックします
    - 選択内容を確認し、「**[!UICONTROL 保存]**」をクリックします
 
-     ![&#x200B; 選択項目を確認 &#x200B;](/help/assets/meta/meta-review-selections.png " 選択項目を確認 "){width="400" zoomable="yes"}
+     ![ 選択項目を確認 ](/help/assets/meta/meta-review-selections.png " 選択項目を確認 "){width="400" zoomable="yes"}
 
 1. アカウントが接続されていることを確認したら、**[!UICONTROL 取得]** をクリックします。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    _[!UICONTROL Meta Ads アカウント]_ ビューには、`Account name`、`Added by`、`Date added` および `Status` がリストされます。
 
-   ![Meta アカウントのリスト &#x200B;](/help/assets/meta/meta-accounts-list.png " 接続されているMeta アカウントのリスト "){zoomable="yes"}
+   ![Meta アカウントのリスト ](/help/assets/meta/meta-accounts-list.png " 接続されているMeta アカウントのリスト "){zoomable="yes"}
 
 リストにさらにアカウントを追加するには、「**[!UICONTROL アカウントを追加]**」を使用します。 同じMeta ビジネスプロファイルにリンクされたアカウントを追加する場合、認証フローが若干異なることがあります。 接続プロセスでは、新しいMeta Ads アカウントのみを選択します。
 
@@ -80,12 +80,12 @@ GenStudio for Performance Marketing インスタンスがMeta Ads アカウン�
 
 次の手順では、キャッシュされた権限をクリアし、統合フローをリセットします。
 
-1. Facebook web サイトにアクセスして [0&rbrace;Meta Business Manager&rbrace; にアクセスします。](https://business.facebook.com)
+1. Facebook web サイトにアクセスして [0}Meta Business Manager} にアクセスします。](https://business.facebook.com)
 1. アカウントでログインします。 アカウントには、Business Manager への管理者アクセス権が必要です。
 1. 左下にある「**[!UICONTROL 設定]**」歯車アイコンをクリックして、ビジネスPortfolio設定に移動します。
 1. 左側のメニューで、「**[!UICONTROL 統合]**」をクリックします。
 1. **[!UICONTROL 接続されているアプリ]** を選択します。 接続されたアプリのリストにAdobe GenStudioが表示されます。
-   ![Meta Business Manager 接続アプリケーション &#x200B;](./meta-connected-apps.png "Meta Business Manager 接続アプリケーション ウィンドウ ")
+   ![Meta Business Manager 接続アプリケーション ](./meta-connected-apps.png "Meta Business Manager 接続アプリケーション ウィンドウ ")
 1. アプリ名をクリックします。
 1. 「**[!UICONTROL 削除]**」をクリックします。
 1. プロンプトが表示されたら、削除を確認します。
