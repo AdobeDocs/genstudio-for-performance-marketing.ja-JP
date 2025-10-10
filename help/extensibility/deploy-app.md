@@ -85,33 +85,33 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 プロンプト拡張機能は、テンプレートの **パラメーターセクション** にある **アドオン** ドロップダウンで見つかります。
 
-![ プロンプト拡張機能 ](./select-prompt-ext.png){width="600" zoomable="yes"}
+![&#x200B; プロンプト拡張機能 &#x200B;](./select-prompt-ext.png){width="600" zoomable="yes"}
 
 アドオンダイアログが開き、LLM 生成用に追加する追加のコンテキストを選択できます。
 
-![ プロンプト拡張機能ドロップダウン ](./select-prompt-dropdown.png){width="600" zoomable="yes"}
+![&#x200B; プロンプト拡張機能ドロップダウン &#x200B;](./select-prompt-dropdown.png){width="600" zoomable="yes"}
 
 ### 検証拡張機能の検索
 
 検証拡張機能は、プロンプト生成後、結果と共に表示される右側のサイドナビで見つけることができます。
 
-![ 検証の拡張 ](./validation-ext.png){width="600" zoomable="yes"}
+![&#x200B; 検証の拡張 &#x200B;](./validation-ext.png){width="600" zoomable="yes"}
 
 選択した拡張機能を実行して、生成されたコンテンツを検証します。
 
-![ 有効な検証 ](./validation-valid.png){width="600" zoomable="yes"}
+![&#x200B; 有効な検証 &#x200B;](./validation-valid.png){width="600" zoomable="yes"}
 
 ### DAM 拡張機能の検索
 
 デジタルアセット管理（DAM）拡張機能は、テンプレートの **パラメーターセクション** でコンテンツを選択すると見つかります。 **場所を選択** ドロップダウンの下部を参照して、アドオンを表示します。
 
-![DAM 拡張機能 ](./dam-ext.png){width="600" zoomable="yes"}
+![DAM 拡張機能 &#x200B;](./dam-ext.png){width="600" zoomable="yes"}
 
 ### テンプレート拡張機能の検索
 
 テンプレートを選択すると、テンプレート拡張機能が「**外部テンプレートアプリ**」タブに表示されます。 このタブは、選択するテンプレートアプリがある場合にのみ表示されます。
 
-![ テンプレート拡張機能 ](./template-ext.png){width="600" zoomable="yes"}
+![&#x200B; テンプレート拡張機能 &#x200B;](./template-ext.png){width="600" zoomable="yes"}
 
 
 ### 翻訳拡張機能の検索
@@ -125,4 +125,4 @@ GenStudioのデフォルトの翻訳を使用する代わりに、翻訳拡張�
 
 アドオンに満足したら、`query` パラメーターを指定せずに配布する準備が整います。
 
-これで、[ アプリを配布 ](distribute-app.md) できます。
+これで、[&#x200B; アプリを配布 &#x200B;](distribute-app.md) できます。
