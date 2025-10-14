@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # バリアントの管理
 
-Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生成されるバリアント [ メール ](/help/user-guide/create/email-experiences.md)、[Meta広告 ](/help/user-guide/create/meta-experiences.md) などをカスタマイズして強化し、デジタルマーケティング戦略で使用できます。
+Adobe GenStudio for Performance Marketing [!DNL Create] を使用すると、生成されるバリアント [&#x200B; メール &#x200B;](/help/user-guide/create/email-experiences.md)、[Meta広告 &#x200B;](/help/user-guide/create/meta-experiences.md) などをカスタマイズして強化し、デジタルマーケティング戦略で使用できます。
 
-[ エクスペリエンスの作成 ](/help/user-guide/create/overview.md) 時に、生成されたバリアントのコンテンツとアセットを個別にまたはバッチで変更できます。 個々のマイクロレベルでバリアントを管理する機能により、生成されたコンテンツの各部分を管理できます。
+[&#x200B; エクスペリエンスの作成 &#x200B;](/help/user-guide/create/overview.md) 時に、生成されたバリアントのコンテンツとアセットを個別にまたはバッチで変更できます。 個々のマイクロレベルでバリアントを管理する機能により、生成されたコンテンツの各部分を管理できます。
 
 ## ドラフト名を変更
 
@@ -71,7 +71,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
 例えば、あるMeta広告バリアントのヘッドラインセクションを再生成して、特定の背景アセットでどのように見えるかを確認できます。 セクションの内容を _[!UICONTROL 再フレーズ]_、_[!UICONTROL 短縮]_、_[!UICONTROL 延長]_ したり、_[!UICONTROL 新しいテキストを生成]_ して新しいプロンプトを追加したりできます。
 
-![ セクションの再生成 ](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
+![&#x200B; セクションの再生成 &#x200B;](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
 **個々のバリアントセクションを再生成するには**:
 
@@ -149,11 +149,11 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
    生成展開を使用する前に、次の手順に従います。
 
-   ![ 生成拡張の前 ](/help/assets/before-genexpand.png){width="300" zoomable="yes"}
+   ![&#x200B; 生成拡張の前 &#x200B;](/help/assets/before-genexpand.png){width="300" zoomable="yes"}
 
    生成展開を使用した後：
 
-   ![ 生成拡張の後 ](/help/assets/after-genexpand.png){width="300" zoomable="yes"}
+   ![&#x200B; 生成拡張の後 &#x200B;](/help/assets/after-genexpand.png){width="300" zoomable="yes"}
 
 1. 「**[!UICONTROL 生成]**」をクリックします。
 1. クリックスルーして生成されたオプションを選択するか、**[!UICONTROL 詳細]** （プラスアイコン）をクリックして生成されたオプションのリストを表示します。
@@ -162,7 +162,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
 ## アスペクト比の変更
 
-必要な広告サイズに合わせて、[Meta広告の縦横比 ](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) をすばやく変更できます。 不要な切り抜きや引き伸ばしを避けるために、テンプレートのサイズに近い画像の縦横比を選択します。 例えば、テンプレートが 1200 × 628 ピクセル（幅の広い長方形）の場合、1:1 正方形の画像を使用すると、側面が切り抜かれて、重要なコンテンツが途切れる可能性があります。 最適な画像サイズは、テンプレートの高さに一致する 628 x 628 ピクセルです。
+必要な広告サイズに合わせて、[Meta広告の縦横比 &#x200B;](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) をすばやく変更できます。 不要な切り抜きや引き伸ばしを避けるために、テンプレートのサイズに近い画像の縦横比を選択します。 例えば、テンプレートが 1200 × 628 ピクセル（幅の広い長方形）の場合、1:1 正方形の画像を使用すると、側面が切り抜かれて、重要なコンテンツが途切れる可能性があります。 最適な画像サイズは、テンプレートの高さに一致する 628 x 628 ピクセルです。
 
 >[!NOTE]
 >
@@ -176,7 +176,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
    このリビジョンの影響を受けるバリエーションの数は、ウィンドウの右上隅に示されています。 _例_:「4/4 のバリエーション」
 
-1. [ 使用可能な縦横比 ](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) を選択します。
+1. [&#x200B; 使用可能な縦横比 &#x200B;](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) を選択します。
 
    キャンバスに現在表示されていないアスペクト比のサイズのみ選択できます。
 
@@ -196,7 +196,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 1. **[!UICONTROL コンテンツから入れ替え]** アイコンをクリックします。
 1. GenStudio Assets [!DNL Content] ビューのフィルターと検索機能を使用して、検索結果をさらに絞り込みます。
 
-   また、（場所 [**[!UICONTROL &#x200B; メニューから選択すると、Connected Adobe Experience Manager（AEM）Assets Content Hub リポジトリで使用可能な画像を使用す &#x200B;]**&#x200B;こともでき ](/help/user-guide/content/manage-assets.md#location) す。
+   また、（場所 [**[!UICONTROL &#x200B; メニューから選択すると、Connected Adobe Experience Manager（AEM）Assets Content Hub リポジトリで使用可能な画像を使用す &#x200B;]**&#x200B;こともでき &#x200B;](/help/user-guide/content/manage-assets.md#location) す。
 
 1. 画像をクリックして選択し、「**[!UICONTROL 使用]**」をクリックします。
 
@@ -204,7 +204,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
 ## リンクを追加
 
-バリアント内にテキスト、画像、CTA ボタンへのリンクを追加できます。 この機能を有効にするには、バリアントの生成に使用するテンプレート _必須_ に、リンクの [ コンテンツプレースホルダー ](/help/user-guide/content/customize-template.md#content-placeholders) を含める必要があります）。
+バリアント内にテキスト、画像、CTA ボタンへのリンクを追加できます。 この機能を有効にするには、バリアントの生成に使用するテンプレート _必須_ に、リンクの [&#x200B; コンテンツプレースホルダー &#x200B;](/help/user-guide/content/customize-template.md#content-placeholders) を含める必要があります）。
 
 **バリアントにリンクを追加するには**:
 
@@ -221,7 +221,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
 作成プロセス中にコンテンツ（画像）を追加する場合、含まれるすべての画像に対して代替テキストを定義できます。 画像に代替テキストを追加すると、アクセシビリティ、検索エンジンの最適化、ユーザーエクスペリエンスが向上します。
 
-代替テキスト機能を有効にするには、テンプレートに [ コンテンツプレースホルダーを追加 ](/help/user-guide/content/customize-template.md#alternative-text) します。
+代替テキスト機能を有効にするには、テンプレートに [&#x200B; コンテンツプレースホルダーを追加 &#x200B;](/help/user-guide/content/customize-template.md#alternative-text) します。
 
 **生成されたバリアントの画像に代替テキストを追加するには**:
 
@@ -247,7 +247,7 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 1. テキストボックスをクリックし、リンクまたはボタンの機能について説明する簡単な説明を追加します。 例えば、call to actionのボタンリンクには「WKND の公式サイトで購入」を使用できます。
 1. 「**[!UICONTROL 適用]**」をクリックします。
 
-アクセシビリティラベル機能を有効にするには、テンプレートに [ コンテンツプレースホルダーを追加 ](/help/user-guide/content/customize-template.md) します。
+アクセシビリティラベル機能を有効にするには、テンプレートに [&#x200B; コンテンツプレースホルダーを追加 &#x200B;](/help/user-guide/content/customize-template.md) します。
 
 ## デバイスのプレビュー
 
@@ -273,15 +273,15 @@ GenStudio for Performance Marketingには、生成されたバリアントのセ
 
 ## ブランドの検証
 
-_コンテンツチェック_ パネルを使用して、一貫性のあるブランドアイデンティティ、[ADA アクセシビリティ標準、プラットフォームガイドライン ](/help/user-guide/guidelines/overview.md#content-checks)、バリアントの配置を維持します。
+_コンテンツチェック_ パネルを使用して、一貫性のあるブランドアイデンティティ、[ADA アクセシビリティ標準、プラットフォームガイドライン &#x200B;](/help/user-guide/guidelines/overview.md#content-checks)、バリアントの配置を維持します。
 
-[ ブランド検証 ](/help/user-guide/guidelines/brand-validation.md) を参照してください。
+[&#x200B; ブランド検証 &#x200B;](/help/user-guide/guidelines/brand-validation.md) を参照してください。
 
 ## 生成のフィードバック
 
 生成されたブランドに合わせたアセットの品質に関するフィードバックを送信して、コンテンツ生成プロセスを改善できます。 結果の品質が高いか低いかを示すと、GenStudio for Performance Marketingの全体的なコンテンツ品質とユーザーの安全性を高めるのに役立ちます。
 
-![ コンテンツ生成時にフィードバックを送信 ](/help/assets/generation-feedback.png){width="500" zoomable="yes"}
+![&#x200B; コンテンツ生成時にフィードバックを送信 &#x200B;](/help/assets/generation-feedback.png){width="500" zoomable="yes"}
 
 生成フィードバックは、バリアントの収集されたセットではなく、個々のバリアントに適用されます。
 

@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # コンテンツを承認
 
-承認者は、レビューと承認が必要な際に、製品内通知、メールおよび有効になっている場合はSlack通知を受け取ります。 通知には、レビュー中のコンテンツを表示するキャンバスへのリンクが表示されます。 通知の管理について詳しくは、[ アカウント環境設定と通知 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences) を参照してください。
+承認者は、レビューと承認が必要な際に、製品内通知、メールおよび有効になっている場合はSlack通知を受け取ります。 通知には、レビュー中のコンテンツを表示するキャンバスへのリンクが表示されます。 通知の管理について詳しくは、[&#x200B; アカウント環境設定と通知 &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences) を参照してください。
 
 コンテンツドラフトが組織の標準と期待を満たしている場合は、ドラフトを承認する準備が整います。
 
@@ -38,4 +38,4 @@ ht-degree: 1%
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
-ドラフトの作成者に承認が通知され、作業が完了します。 [ に保存するプロセスまたは ](/help/user-guide/approvals/publish-content.md) 公開 [!DNL Content] の概要については、_コンテンツの公開_ を参照してください。
+ドラフトの作成者に承認が通知され、作業が完了します。 [&#x200B; に保存するプロセスまたは &#x200B;](/help/user-guide/approvals/publish-content.md) 公開 [!DNL Content] の概要については、_コンテンツの公開_ を参照してください。

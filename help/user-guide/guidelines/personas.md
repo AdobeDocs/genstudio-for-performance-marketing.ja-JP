@@ -19,16 +19,16 @@ GenStudio for Performance Marketingでは、ガイドライン（[[!DNL Brands]�
 **ペルソナの表示または変更**:
 
 1. 左側のナビゲーション領域で、「**[!UICONTROL ペルソナ]**」をクリックします。
-1. [ 個々の詳細の表示またはペルソナの変更 ](add-guidelines.md#manage-personas) を行うには、_[!DNL Personas]_&#x200B;のアクションメニューをクリックして&#x200B;**開く**&#x200B;を選択します。
+1. [&#x200B; 個々の詳細の表示またはペルソナの変更 &#x200B;](add-guidelines.md#manage-personas) を行うには、_[!DNL Personas]_&#x200B;のアクションメニューをクリックして&#x200B;**開く**&#x200B;を選択します。
 1. ガイドラインカテゴリのテキストフィールドをクリックして、ペルソナのガイドラインを修正します。
 
-GenStudio for Performance Marketingでペルソナを追加または変更する方法については、[ ガイドラインの追加 ](add-guidelines.md) を参照してください。
+GenStudio for Performance Marketingでペルソナを追加または変更する方法については、[&#x200B; ガイドラインの追加 &#x200B;](add-guidelines.md) を参照してください。
 
 ## [!DNL Personas] ガイドライン
 
 個々のペルソナのガイドラインは、GenStudio for Performance Marketingに対して、[!DNL Personas] ーザーの明確な全体像を提供します。
 
-![ ペルソナのガイドライン ](/help/assets/personas.png){width="600" zoomable="yes"}
+![&#x200B; ペルソナのガイドライン &#x200B;](/help/assets/personas.png){width="600" zoomable="yes"}
 
 このガイドラインでは、各ガイドラインのカテゴリと関連例について詳しく説明します。 例としては、生成されたコンテンツの出力を形成するサンプル入力があります。 これらを使用して、独自の [!DNL Personas] ガイドラインを伝えます。
 

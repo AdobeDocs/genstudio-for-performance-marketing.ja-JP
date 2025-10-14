@@ -16,9 +16,9 @@ ht-degree: 0%
 
 [[!DNL Brands]](/help/user-guide/guidelines/brands.md)、[[!DNL Products]](/help/user-guide/guidelines/products.md)、[[!DNL Personas]](/help/user-guide/guidelines/personas.md) は、GenStudio for Performance Marketingでユーザー定義のガイドラインであり、AI で生成されたすべてのコンテンツをブランドアイデンティティに合わせてカスタマイズすることにより、コンテンツを効果的にパーソナライゼーションできるようにします。
 
-[ ガイドラインの概要 ](/help/user-guide/guidelines/overview.md) を参照してください。
+[&#x200B; ガイドラインの概要 &#x200B;](/help/user-guide/guidelines/overview.md) を参照してください。
 
-GenStudio for Performance Marketingへのガイドラインの追加は、作成プロセスの重要な手順です。 ガイドラインは、ユーザー定義のプロンプト、[ アクセシビリティとコンテンツチェック ](overview.md#compliance)、Adobe生成 AI テクノロジーと共に、コンテンツ作成プロセスに情報を提供し、効果的なアセットを作成します。
+GenStudio for Performance Marketingへのガイドラインの追加は、作成プロセスの重要な手順です。 ガイドラインは、ユーザー定義のプロンプト、[&#x200B; アクセシビリティとコンテンツチェック &#x200B;](overview.md#compliance)、Adobe生成 AI テクノロジーと共に、コンテンツ作成プロセスに情報を提供し、効果的なアセットを作成します。
 
 ガイドラインは、ユーザー定義にすることも、[default [!DNL Brand] channel guidelines](/help/user-guide/guidelines/brands.md#default-channel-guidelines) などのデフォルトガイドラインとして存在することもできます。
 
@@ -28,7 +28,7 @@ GenStudio for Performance Marketingへのガイドラインの追加は、作成
 
 ## ブランドを追加
 
-[!DNL Brand] を追加するには、[ ブランドガイドをアップロード ](#upload-a-brand) するか、[ ブランドを手動で作成 ](#manually-add-brand) ガイドラインを選択してブランドの詳細を入力します。 [a [!DNL Brand]](#publish-brand) を [!DNL Content] に公開して、今後のコンテンツ生成で使用できるようにします。
+[!DNL Brand] を追加するには、[&#x200B; ブランドガイドをアップロード &#x200B;](#upload-a-brand) するか、[&#x200B; ブランドを手動で作成 &#x200B;](#manually-add-brand) ガイドラインを選択してブランドの詳細を入力します。 [a [!DNL Brand]](#publish-brand) を [!DNL Content] に公開して、今後のコンテンツ生成で使用できるようにします。
 
 英語以外の言語で記述されたブランドガイドラインをアップロードした場合、または英語以外の言語を使用して手動でブランドを作成した場合、GenStudio for Performance Marketingではそのガイドラインが同じ言語で表示されます。
 
@@ -61,7 +61,7 @@ GenStudio for Performance Marketingへのガイドラインの追加は、作成
 
 ### ブランドを手動で追加
 
-既存のブランドドキュメントをアップロードする代わりに、ブランドの詳細を手動で追加して、新しい [ ブランド ](brands.md) を作成できます。
+既存のブランドドキュメントをアップロードする代わりに、ブランドの詳細を手動で追加して、新しい [&#x200B; ブランド &#x200B;](brands.md) を作成できます。
 
 **ブランドを手動で追加するには**:
 
@@ -80,18 +80,18 @@ GenStudio for Performance Marketingへのガイドラインの追加は、作成
    - _このブランドを使用するタイミング_: **[!UICONTROL 追加]** をクリック（または、テキストフィールドをクリックして既存のテキストを変更）し、ブランドに関する概要および使用状況情報を入力します。 「**[!UICONTROL 変更を保存]**」をクリックします。
    - [_[!DNL Brand] voice guidelines _](brands.md#brand-voice-guidelines)：各ガイドライン フィールドに該当する情報を追加します。
 
-     ![ 音声ガイドライン [!DNL Brand] 追加 ](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
+     ![&#x200B; 音声ガイドライン [!DNL Brand] 追加 &#x200B;](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
 
    - [_画像ガイドライン_](brands.md#image-guidelines):「カテゴリを追加 **&#x200B;**&#x200B;をクリックして、「一般的なアートガイドライン」や「製品写真」などのガイドラインカテゴリを追加します。 追加した各カテゴリにガイドラインを入力します。
    - [_チャネルガイドライン_](brands.md#channel-guidelines)：使用可能な各チャネルをクリックして、適切なガイドラインを追加します。
    - [_ロゴ_](brands.md#logos):「**[!UICONTROL ロゴを追加]**」をクリックしてドラッグ&amp;ドロップするか、参照してロゴをアップロードします。
    - [_カラー_](brands.md#colors): 「**[!UICONTROL カラーを追加]**」をクリックして 16 進数またはRGBのカラーコードを使用するか、カラーピッカーをクリックして個々のカラーを追加します。
 
-     ![ ブランドカラー ](/help/assets/colors.png){width="600" zoomable="yes"}
+     ![&#x200B; ブランドカラー &#x200B;](/help/assets/colors.png){width="600" zoomable="yes"}
 
 作成した [!DNL Brands] を表示するには、_[!UICONTROL Brands]_ パネルの上部付近にある背面矢印をクリックして、_[!UICONTROL Brands]_ ホームに戻ります。
 
-情報にアクセスするために [ を ](#publish-brand) 公開 [!DNL Brand] する必要はありません。 手動で追加した情報は、追加後直ちに使用できます。 組織内の他のユーザーがGenStudio for Performance Marketingの [!DNL Brand] 情報を使用できるようにするには、その情報を公開する必要があります。 作成された [!DNL Brand] は、公開されるまでドラフト形式になります。
+情報にアクセスするために [&#x200B; を &#x200B;](#publish-brand) 公開 [!DNL Brand] する必要はありません。 手動で追加した情報は、追加後直ちに使用できます。 組織内の他のユーザーがGenStudio for Performance Marketingの [!DNL Brand] 情報を使用できるようにするには、その情報を公開する必要があります。 作成された [!DNL Brand] は、公開されるまでドラフト形式になります。
 
 ### ブランドサムネールの変更
 
@@ -158,12 +158,12 @@ _[!DNL Brands]_&#x200B;ホームで、クリックして、既に作成されて
 
       ポップアップは、ブランドが複製されていることを確認します（「新しいブランドが作成されました」）。 複製されたブランドは、最初は _非公開_ モードになっています。
 
-   1. 複製したブランドをカスタマイズし、[ 公開 ](#publish-brand) して使用できるようにします。
+   1. 複製したブランドをカスタマイズし、[&#x200B; 公開 &#x200B;](#publish-brand) して使用できるようにします。
 1. ブランドを削除するには、**[!UICONTROL のアクションメニューから]** 削除 [!DNL Brands] を選択します。
 
 ## [!DNL Personas] の追加
 
-ペルソナを追加するには、[ ペルソナガイドをアップロード ](#upload-a-persona) するか、ガイドラインを選択してペルソナの詳細を入力して [ 手動でペルソナを作成 ](#manually-add-persona) します。
+ペルソナを追加するには、[&#x200B; ペルソナガイドをアップロード &#x200B;](#upload-a-persona) するか、ガイドラインを選択してペルソナの詳細を入力して [&#x200B; 手動でペルソナを作成 &#x200B;](#manually-add-persona) します。
 
 左側のナビゲーション領域で、「**[!DNL Personas]** 共有 _リストから「_」をクリックします。 _[!DNL Personas]_&#x200B;パネルで、「**ペルソナを追加**」を選択します。
 
@@ -192,7 +192,7 @@ GenStudio for Performance Marketingで [!DNL Persona] を追加すると、作�
 
 ### ペルソナを手動で追加
 
-既存のペルソナドキュメントをアップロードする代わりに、ペルソナの詳細を手動で追加して、新しい [ ペルソナ ](personas.md) を入力できます。
+既存のペルソナドキュメントをアップロードする代わりに、ペルソナの詳細を手動で追加して、新しい [&#x200B; ペルソナ &#x200B;](personas.md) を入力できます。
 
 **ペルソナを手動で追加するには**:
 
@@ -231,7 +231,7 @@ _[!DNL Personas]_&#x200B;ホームでは、**作成済みの[!DNL Persona]**&#x2
 
 ## [!DNL Products] の追加
 
-製品を追加するには、[ 製品ガイドをアップロード ](#upload-a-product) するか、[ 製品を手動で作成 ](#manually-add-product) ガイドラインを選択して製品の詳細を入力します。
+製品を追加するには、[&#x200B; 製品ガイドをアップロード &#x200B;](#upload-a-product) するか、[&#x200B; 製品を手動で作成 &#x200B;](#manually-add-product) ガイドラインを選択して製品の詳細を入力します。
 
 左側のナビゲーション領域で、「**[!DNL Products]** 共有 _リストから「_」をクリックします。 _[!DNL Products]_&#x200B;パネルで、「**製品を追加**」を選択します。
 
@@ -262,7 +262,7 @@ GenStudio for Performance Marketingに [!DNL Product] を含めることで、�
 
 ### 製品を手動で追加
 
-既存の製品ドキュメントをアップロードする代わりに、製品の詳細を手動で追加して、新しい [ 製品 ](products.md) を入力できます。
+既存の製品ドキュメントをアップロードする代わりに、製品の詳細を手動で追加して、新しい [&#x200B; 製品 &#x200B;](products.md) を入力できます。
 
 **製品を手動で追加するには**:
 

@@ -14,15 +14,15 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketingでは、1 つのアセットを使用した LinkedIn エクスペリエンスの [LinkedIn Campaign Manager](https://business.linkedin.com/marketing-solutions) および LinkedIn ページへのアクティブ化をサポートしています。
 
-GenStudio for Performance Marketingで [LinkedIn エクスペリエンスを作成 ](/help/user-guide/create/create-linkedin.md) して、アクティベーション用に選択したり、[!DNL Activate] で承認済みアセットから新しいエクスペリエンスを構築したりできます。
+GenStudio for Performance Marketingで [LinkedIn エクスペリエンスを作成 &#x200B;](/help/user-guide/create/create-linkedin.md) して、アクティベーション用に選択したり、[!DNL Activate] で承認済みアセットから新しいエクスペリエンスを構築したりできます。
 
-LinkedIn 広告のアクティベートは、他の有料チャネルへのアクティベートに必要な [ 同じ一般的な手順 ](create-activation.md) に従います。 アクティベーションプロセスは、LinkedIn の特定の要件に合わせた広告エクスペリエンスの準備をサポートします。 LinkedIn Campaign で LinkedIn エクスペリエンスをアクティブ化した後、GenStudio for Performance Marketing Manager を使用して、最終的な公開の前に、特定の LinkedIn 広告プレースメントのエクスペリエンスを微調整します。
+LinkedIn 広告のアクティベートは、他の有料チャネルへのアクティベートに必要な [&#x200B; 同じ一般的な手順 &#x200B;](create-activation.md) に従います。 アクティベーションプロセスは、LinkedIn の特定の要件に合わせた広告エクスペリエンスの準備をサポートします。 LinkedIn Campaign で LinkedIn エクスペリエンスをアクティブ化した後、GenStudio for Performance Marketing Manager を使用して、最終的な公開の前に、特定の LinkedIn 広告プレースメントのエクスペリエンスを微調整します。
 
 GenStudioのシステムマネージャーとエディターは、広告エクスペリエンスをアクティブ化できます。
 
 ## 手順 1:LinkedIn アカウントの設定
 
-アクティベーションを開始する前に、LinkedIn キャンペーンマネージャーアカウントに [ ログイン ](https://www.linkedin.com/campaignmanager/login) します。
+アクティベーションを開始する前に、LinkedIn キャンペーンマネージャーアカウントに [&#x200B; ログイン &#x200B;](https://www.linkedin.com/campaignmanager/login) します。
 
 >[!BEGINSHADEBOX]
 
@@ -105,4 +105,4 @@ _レビュー_ ページでは、公開前にアクティベーションを確�
 
 ## 手順 6：広告エクスペリエンスの公開を完了する
 
-1. [ ログイン ](https://www.linkedin.com/campaignmanager/login)LinkedIn キャンペーンマネージャーアカウントで広告エクスペリエンスを確認し、特定の LinkedIn ページへの公開を最終決定します。
+1. [&#x200B; ログイン &#x200B;](https://www.linkedin.com/campaignmanager/login)LinkedIn キャンペーンマネージャーアカウントで広告エクスペリエンスを確認し、特定の LinkedIn ページへの公開を最終決定します。

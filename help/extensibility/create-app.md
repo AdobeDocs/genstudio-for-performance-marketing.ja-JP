@@ -124,4 +124,4 @@ App Builder アプリケーションの主要なコンポーネントには、�
 
 * GenStudio UIX SDKをアップグレードします。 最新バージョンの [GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk) を使用していることを確認してください。 最新のGenStudioの変更内容の使用方法については [&#128279;](https://github.com/adobe/genstudio-uix-examples)SDK UIX のサンプルリポジトリを参照してください。
 
-これで、[ アプリをデプロイ ](deploy-app.md) する準備が整いました
+これで、[&#x200B; アプリをデプロイ &#x200B;](deploy-app.md) する準備が整いました

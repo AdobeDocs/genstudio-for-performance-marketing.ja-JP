@@ -39,7 +39,7 @@ GenStudio for Performance Marketingでは、次のフィールドが自動的に
 
 - `cta`
 
-テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー ](/help/user-guide/content/customize-template.md#content-placeholders) を参照してください。
+テンプレートでのフィールド名の使用について詳しくは、[&#x200B; コンテンツプレースホルダー &#x200B;](/help/user-guide/content/customize-template.md#content-placeholders) を参照してください。
 
 ## サポートされるディメンション
 

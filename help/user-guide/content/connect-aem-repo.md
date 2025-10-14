@@ -46,16 +46,16 @@ Adobe Experience Manager（AEM）にアセットがある場合は、次の手�
 
 [!DNL AEM Assets Content Hub] で使用するアセットを承認して、GenStudio for Performance Marketingで使用できるようにします。
 
-[2&rbrace;AEM as a Cloud Service&rbrace; ドキュメントの ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)Experience Managerでのアセットの承認 _を参照してください。_
+[2&rbrace;AEM as a Cloud Service&rbrace; ドキュメントの &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)Experience Managerでのアセットの承認 _を参照してください。_
 
 ## 手順 4：アセットの表示の設定
 
 設定オプション _[!DNL AEM Assets Content Hub]_、フィルター、アセットの詳細、検索、ブランディングの設定オプションの各セットを確認します。
 
-[2&rbrace;AEM as a Cloud Service&rbrace; ドキュメントの ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options)Content Hub ユーザーインターフェイスの設定 _を参照してください。_
+[2&rbrace;AEM as a Cloud Service&rbrace; ドキュメントの &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options)Content Hub ユーザーインターフェイスの設定 _を参照してください。_
 
 ## 手順 5：接続の確認
 
 GenStudio for Performance Marketing コンテンツでは、右側のギャラリーの上にある _[!UICONTROL 場所]_ リストを使用できます。 アクセス権がない場合や、組織が [!DNL AEM Assets Content Hub] リポジトリをデプロイおよび接続していない場合、リストは使用できません。
 
-場所のリストとリポジトリの変更について詳しくは、[Assetsの場所 ](manage-assets.md#assets-location) を参照してください。
+場所のリストとリポジトリの変更について詳しくは、[Assetsの場所 &#x200B;](manage-assets.md#assets-location) を参照してください。

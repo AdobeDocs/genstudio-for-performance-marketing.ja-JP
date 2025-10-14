@@ -18,13 +18,13 @@ Google Campaign Manager 360 の広告エクスペリエンスの公開は、ア 
 
 ## 手順 1:Google Campaign Manager 360 アカウントの設定
 
-アクティベーションを開始する前に、[Google Campaign Manager 360 アカウントにログイン ](https://campaignmanager.google.com) します。 Google Campaign Manager 360 の広告主にアクセスできることを確認します。 Campaign Manager 360 エクスペリエンスをGenStudio for Performance Marketingから公開すると、作成時に選択した広告主ライブラリに配信されます。
+アクティベーションを開始する前に、[Google Campaign Manager 360 アカウントにログイン &#x200B;](https://campaignmanager.google.com) します。 Google Campaign Manager 360 の広告主にアクセスできることを確認します。 Campaign Manager 360 エクスペリエンスをGenStudio for Performance Marketingから公開すると、作成時に選択した広告主ライブラリに配信されます。
 
 Campaign Manager 360 を使用すると、マーケターは、様々な _広告主_ 内でキャンペーンと広告を整理できます。 各広告主は、クリエイティブライブラリを含む。 GenStudio for Performance Marketingは、広告エクスペリエンスをクリエイティブライブラリに公開します。
 
 ## 手順 2:Google Campaign Manager 360 アカウントへの接続
 
-クリエイティブライブラリにアセットを公開する前に、GenStudio システムマネージャーはGoogle Campaign Manager 360 アカウントをGenStudio for Performance Marketingに接続する必要があります。 このユーザーが Campaign Manager 360 で読み取りと書き込みを行うには、広告主への管理者アクセス権が必要です。 [ 有料メディアアカウントの接続 ](/help/user-guide/connectors/connect-channel.md) を参照してください。
+クリエイティブライブラリにアセットを公開する前に、GenStudio システムマネージャーはGoogle Campaign Manager 360 アカウントをGenStudio for Performance Marketingに接続する必要があります。 このユーザーが Campaign Manager 360 で読み取りと書き込みを行うには、広告主への管理者アクセス権が必要です。 [&#x200B; 有料メディアアカウントの接続 &#x200B;](/help/user-guide/connectors/connect-channel.md) を参照してください。
 
 同期が完了したら、追加されたアカウントを表示できます。
 
@@ -65,4 +65,4 @@ Campaign Manager 360 の広告エクスペリエンスは、選択した Campaig
 
 ## 手順 6：広告エクスペリエンスの公開を完了する
 
-1. [Google Campaign Manager 360 アカウントにログイン ](https://campaignmanager.google.com) して、公開されたエクスペリエンス内で広告の設定とデプロイの最後の手順を管理します。
+1. [Google Campaign Manager 360 アカウントにログイン &#x200B;](https://campaignmanager.google.com) して、公開されたエクスペリエンス内で広告の設定とデプロイの最後の手順を管理します。

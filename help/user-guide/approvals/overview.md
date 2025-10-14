@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> この機能は、[Adobe Workfront Proof との統合 ](/help/user-guide/approvals/proof-integration.md) として利用することもできます。 この統合により、GenStudio for Performance Marketing Canvas でプルーフ機能が提供されます。 Workfront Proofとの統合により、GenStudio for Performance Marketingはより構造化され、透明性が高く、共同作業ができるレビュープロセスを獲得し、チームがより自信を持って明確にドラフトから最終版に移行するのを支援します。
+> この機能は、[Adobe Workfront Proof との統合 &#x200B;](/help/user-guide/approvals/proof-integration.md) として利用することもできます。 この統合により、GenStudio for Performance Marketing Canvas でプルーフ機能が提供されます。 Workfront Proofとの統合により、GenStudio for Performance Marketingはより構造化され、透明性が高く、共同作業ができるレビュープロセスを獲得し、チームがより自信を持って明確にドラフトから最終版に移行するのを支援します。
 
 ## レビューと承認ワークフローの利点
 
@@ -27,19 +27,19 @@ ht-degree: 0%
 
 * **キャンペーンの目標と法的要件の遵守**。 承認プロセスは、コンテンツがキャンペーンの目標をサポートしていることを検証するのに役立ちます。 すべてのマーケティング資料が法的基準および規制基準に確実に準拠するようにすることで、リスクと潜在的な法的問題を最小限に抑えることができます。
 
-* **Adobe Workfront Proof との統合**。 ユーザーは、Workfront Proof内から堅牢なレビューおよび承認機能を使用してGenStudio for Performance Marketingにアクセスできます。 GenStudio for Performance MarketingでレビューされたコンテンツはWorkfront Proofと同期され、レビューのコメントとステータスは保持されます。 [ 統合のハイライト ](/help/user-guide/approvals/proof-integration.md) は、Proof がGenStudio for Performance Marketingの承認ワークフローをどのように拡張するかを特定します。
+* **Adobe Workfront Proof との統合**。 ユーザーは、Workfront Proof内から堅牢なレビューおよび承認機能を使用してGenStudio for Performance Marketingにアクセスできます。 GenStudio for Performance MarketingでレビューされたコンテンツはWorkfront Proofと同期され、レビューのコメントとステータスは保持されます。 [&#x200B; 統合のハイライト &#x200B;](/help/user-guide/approvals/proof-integration.md) は、Proof がGenStudio for Performance Marketingの承認ワークフローをどのように拡張するかを特定します。
 
 ## レビューと承認のライフサイクル
 
 レビューと承認のワークフローの主なフェーズには、次のものが含まれます。
 
-* [ 作成したコンテンツのレビューと承認をリクエスト ](/help/user-guide/approvals/request-review.md) します。 GenStudio for Performance Marketingは、承認のリクエストと承認者の管理のプロセスを合理化します。 Workfront Proofの承認テンプレートを使用すると、このタスクをさらに簡略化できます。
+* [&#x200B; 作成したコンテンツのレビューと承認をリクエスト &#x200B;](/help/user-guide/approvals/request-review.md) します。 GenStudio for Performance Marketingは、承認のリクエストと承認者の管理のプロセスを合理化します。 Workfront Proofの承認テンプレートを使用すると、このタスクをさらに簡略化できます。
 
-* [ コンテンツのレビューと編集 ](/help/user-guide/approvals/review-and-edit.md)。 通知を使用すると、コンテンツ作成者は、リクエストされた変更や承認に関するループに留まります。 コンテンツトリガーの改訂、自動新規承認サイクル
+* [&#x200B; コンテンツのレビューと編集 &#x200B;](/help/user-guide/approvals/review-and-edit.md)。 通知を使用すると、コンテンツ作成者は、リクエストされた変更や承認に関するループに留まります。 コンテンツトリガーの改訂、自動新規承認サイクル
 
-* [ コンテンツを承認 ](/help/user-guide/approvals/approve-content.md). 指定承認者が、コンテンツを承認済み、または公開準備完了としてマークします。
+* [&#x200B; コンテンツを承認 &#x200B;](/help/user-guide/approvals/approve-content.md). 指定承認者が、コンテンツを承認済み、または公開準備完了としてマークします。
 
-* [ コンテンツを公開 ](/help/user-guide/approvals/publish-content.md). 承認済みのコンテンツを [!DNL Content] に公開すると、組織内の他のユーザーが使用または参照できるようになります。
+* [&#x200B; コンテンツを公開 &#x200B;](/help/user-guide/approvals/publish-content.md). 承認済みのコンテンツを [!DNL Content] に公開すると、組織内の他のユーザーが使用または参照できるようになります。
 
 ## コンテンツドラフトについて
 
@@ -57,7 +57,7 @@ _ドラフト_ は、レビューと承認のプロセスを完了していな�
 
 >[!NOTE]
 >
-> ドラフトは、Workfront Proof統合のユーザーの _プルーフ_ に対応します。 [ ドラフトと配達確認 ](/help/user-guide/approvals/proof-integration.md#drafts-and-proofs) は、永続性とバージョン管理の点で異なります。
+> ドラフトは、Workfront Proof統合のユーザーの _プルーフ_ に対応します。 [&#x200B; ドラフトと配達確認 &#x200B;](/help/user-guide/approvals/proof-integration.md#drafts-and-proofs) は、永続性とバージョン管理の点で異なります。
 
 ## 承認ロール
 
@@ -67,7 +67,7 @@ _レビュー担当者_ は、コメントを追加できますが、コンテ�
 
 GenStudio for Performance Marketingの製品内通知では、アセットのステータスの変更やコメントに応じて、承認者とコンテンツ編集者をリアルタイム `@mention` 更新します。 通知は、複数のレビュー、編集、承認のサイクルを通じた迅速な反復をサポートします。
 
-コンテンツ編集者および承認者は新規登録して、これらの通知をSlackで受け取ることができます。 [Experience Cloudのサービスの購読 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/customer-attributes/subscription) を参照してください。
+コンテンツ編集者および承認者は新規登録して、これらの通知をSlackで受け取ることができます。 [Experience Cloudのサービスの購読 &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/customer-attributes/subscription) を参照してください。
 
 承認参加者が実行するアクション製品内通知およびメール通知が自動でトリガーされます。 承認プロセスを開始すると、指定された承認者にメールと製品内通知の両方が届きます。 承認者がコメントを追加したり、決定を下したりするたびに、製品内およびメール通知 `@mention` 使用してループを維持できます。 通知には、コンテンツドラフトへのリンクが含まれます。
 

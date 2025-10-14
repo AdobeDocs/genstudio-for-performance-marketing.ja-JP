@@ -17,7 +17,7 @@ Adobe GenStudio for Performance Marketingのネイティブ機能を拡張する
 >[!BEGINSHADEBOX]
 
 **前提条件**
-アプリのプロジェクトを作成するには、App Builderおよび [&#128279;](https://developer.adobe.com/developer-console/)2&rbrace;Adobe Developer Console&rbrace; へのアクセス権が必要です。 [Developer Consoleでのプロジェクトの作成 ](https://developer.adobe.com/app-builder/docs/getting_started/first_app#2-create-a-new-project-on-developer-console) を参照してください。
+アプリのプロジェクトを作成するには、App Builderおよび [&#128279;](https://developer.adobe.com/developer-console/)2&rbrace;Adobe Developer Console&rbrace; へのアクセス権が必要です。 [Developer Consoleでのプロジェクトの作成 &#x200B;](https://developer.adobe.com/app-builder/docs/getting_started/first_app#2-create-a-new-project-on-developer-console) を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -31,6 +31,6 @@ Adobe GenStudio for Performance Marketingのネイティブ機能を拡張する
 
 1. テンプレートオプションから _0&rbrace;App Builder&rbrace; を選択します。_
 
-「**[!UICONTROL テンプレートからプロジェクトを作成]**」オプションが表示されない場合は、正しい IMS 組織を選択していることを確認してください。 [App Builderへのアクセス方法 ](https://developer.adobe.com/app-builder/docs/overview/getting_access/) のプロセスに従っていることを確認します。 IMS 組織が正しい場合、App Builderは有効になっていません。 [Adobeへのアクセス方法 ](https://developer.adobe.com/app-builder/docs/overview/getting_access/) の説明に従って、App Builderにお問い合わせください。
+「**[!UICONTROL テンプレートからプロジェクトを作成]**」オプションが表示されない場合は、正しい IMS 組織を選択していることを確認してください。 [App Builderへのアクセス方法 &#x200B;](https://developer.adobe.com/app-builder/docs/overview/getting_access/) のプロセスに従っていることを確認します。 IMS 組織が正しい場合、App Builderは有効になっていません。 [Adobeへのアクセス方法 &#x200B;](https://developer.adobe.com/app-builder/docs/overview/getting_access/) の説明に従って、App Builderにお問い合わせください。
 
-これで、[ アプリを開発 ](create-app.md) する準備が整いました。
+これで、[&#x200B; アプリを開発 &#x200B;](create-app.md) する準備が整いました。

@@ -19,16 +19,16 @@ GenStudio for Performance Marketingの [!DNL Products] は、製品の仕様、�
 **製品を表示または変更するには**:
 
 1. 左側のナビゲーションエリアで、「**[!UICONTROL 製品]**」をクリックします。
-1. [ 個々の詳細の表示または製品の変更 ](add-guidelines.md#manage-products) を行うには、_[!DNL Products]_&#x200B;のアクションメニューをクリックし、「**[!UICONTROL 開く]**」を選択します。
+1. [&#x200B; 個々の詳細の表示または製品の変更 &#x200B;](add-guidelines.md#manage-products) を行うには、_[!DNL Products]_&#x200B;のアクションメニューをクリックし、「**[!UICONTROL 開く]**」を選択します。
 1. 「ガイドライン」カテゴリテキストフィールドをクリックして、製品ガイドラインを修正します。
 
-GenStudio for Performance Marketingで商品を追加または変更する方法については、[ ガイドラインの追加 ](add-guidelines.md) を参照してください。
+GenStudio for Performance Marketingで商品を追加または変更する方法については、[&#x200B; ガイドラインの追加 &#x200B;](add-guidelines.md) を参照してください。
 
 ## [!DNL Products] ガイドライン
 
 個々の商品ガイドラインは、GenStudio for Performance Marketingに商品の明確な全体像を提供します。
 
-![ 製品ガイドライン ](/help/assets/products.png){width="600" zoomable="yes"}
+![&#x200B; 製品ガイドライン &#x200B;](/help/assets/products.png){width="600" zoomable="yes"}
 
 このガイドラインでは、各ガイドラインのカテゴリと関連例について詳しく説明します。 例としては、生成されたコンテンツの出力を形成するサンプル入力があります。 これらを使用して、[!DNL Products] のガイドラインに通知します。
 

@@ -18,13 +18,13 @@ GenStudio for Performance Marketingは、[!DNL Brand] 社から豊富なブラ�
 
 ## ブランドの管理
 
-ブランドガイドラインをGenStudio for Performance Marketingに追加した後、ガイドラインを [ 管理 ](/help/user-guide/guidelines/add-guidelines.md#manage-brands) および [ 公開 ](/help/user-guide/guidelines/add-guidelines.md#publish-brand) できます。 公開すると、チームがアセットの生成に使用できるようになります。
+ブランドガイドラインをGenStudio for Performance Marketingに追加した後、ガイドラインを [&#x200B; 管理 &#x200B;](/help/user-guide/guidelines/add-guidelines.md#manage-brands) および [&#x200B; 公開 &#x200B;](/help/user-guide/guidelines/add-guidelines.md#publish-brand) できます。 公開すると、チームがアセットの生成に使用できるようになります。
 
 状態 [!DNL Brands]_非公開_ または _公開済み_ のいずれかです。 新しい [!DNL Brands] は _非公開_ として開始されます。
 
-チームがアセットを生成できるように、を [ 公開  [!DNL Brand]](/help/user-guide/guidelines/add-guidelines.md#publish-brand) する必要があります。
+チームがアセットを生成できるように、を [&#x200B; 公開  [!DNL Brand]](/help/user-guide/guidelines/add-guidelines.md#publish-brand) する必要があります。
 
-公開されたブランドは、編集（変更はすぐに使用可能）、複製、非公開のいずれかを行うことができます。 コンテンツの作成と検証に使用できるのは、公開済みの [!DNL brands] のみです。 [ ガイドラインの追加 ](/help/user-guide/guidelines/add-guidelines.md#manage-brands) を参照してください。
+公開されたブランドは、編集（変更はすぐに使用可能）、複製、非公開のいずれかを行うことができます。 コンテンツの作成と検証に使用できるのは、公開済みの [!DNL brands] のみです。 [&#x200B; ガイドラインの追加 &#x200B;](/help/user-guide/guidelines/add-guidelines.md#manage-brands) を参照してください。
 
 削除された [!DNL Brands] は 30 日間アーカイブされ、その期間内に復元できます。
 
@@ -36,9 +36,9 @@ GenStudio for Performance Marketingは、[!DNL Brand] 社から豊富なブラ�
 >
 >英語以外の言語で記述されたブランドガイドラインをアップロードした場合、または英語以外の言語を使用して手動でブランドを作成した場合、GenStudio for Performance Marketingではそのガイドラインが同じ言語で表示されます。
 
-[ プラットフォームガイドラインおよび ADA アクセシビリティ標準 ](/help/user-guide/guidelines/overview.md#compliance) から抽象化された一部のチャネルガイドラインは、デフォルト値として事前入力されます。
+[&#x200B; プラットフォームガイドラインおよび ADA アクセシビリティ標準 &#x200B;](/help/user-guide/guidelines/overview.md#compliance) から抽象化された一部のチャネルガイドラインは、デフォルト値として事前入力されます。
 
-![ ブランドガイドライン ](/help/assets/brands.png){width="600" zoomable="yes"}
+![&#x200B; ブランドガイドライン &#x200B;](/help/assets/brands.png){width="600" zoomable="yes"}
 
 次のガイドラインの節では、各ガイドラインのカテゴリ、例となるガイドライン、考えられる結果について詳しく説明します。 ガイドラインの例は、結果の出力を形作るサンプル入力です（以下の結果例）。それらを使用して、独自のブランドガイドラインを示します。
 
@@ -55,7 +55,7 @@ GenStudio for Performance Marketingは、[!DNL Brand] 社から豊富なブラ�
 
 ### 画像のガイドライン
 
-次の表に、画像ガイドラインの各カテゴリと関連する値を示します。 画像ガイドラインを適用するには、「一般的なアートガイドライン」や「製品写真」などの [ カテゴリを確立 ](add-guidelines.md#add-brands) する必要があります。
+次の表に、画像ガイドラインの各カテゴリと関連する値を示します。 画像ガイドラインを適用するには、「一般的なアートガイドライン」や「製品写真」などの [&#x200B; カテゴリを確立 &#x200B;](add-guidelines.md#add-brands) する必要があります。
 
 | ガイドラインカテゴリ | 説明 | 値 |
 | ------------------| :---------- | :---------- |
@@ -149,7 +149,7 @@ Add logos to your brand in the **[!UICONTROL Logos]** tab.
 - ファイルサイズ
 - 解決策
 
-ロゴのアクションメニュー（3 つのドット）から、個々のロゴの [ 詳細の表示と管理 ](/help/user-guide/guidelines/add-guidelines.md#manage-brands) を行うことができます。
+ロゴのアクションメニュー（3 つのドット）から、個々のロゴの [&#x200B; 詳細の表示と管理 &#x200B;](/help/user-guide/guidelines/add-guidelines.md#manage-brands) を行うことができます。
 
 - **[!UICONTROL 詳細を表示]**
 - **[!UICONTROL ダウンロード]**
@@ -161,7 +161,7 @@ Add logos to your brand in the **[!UICONTROL Logos]** tab.
 
 個々の [!DNL Brands] 内のカラーを管理して、一貫性のあるアクセスしやすいテキストスタイル設定を確保します。 16 進数コードまたはRGB コードでカラーを選択または定義します。単色のみがサポートされます（不透明度はサポートされません）。 無制限のカラーを追加したり、ギャラリーフォーマットで表示したり、16 進数コードやRGB コードから人間が読み取れる名前に変更したりできます。
 
-![ ブランドカラー ](/help/assets/colors.png){width="600" zoomable="yes"}
+![&#x200B; ブランドカラー &#x200B;](/help/assets/colors.png){width="600" zoomable="yes"}
 
 カラーのアクションメニュー（3 つのドット）から、カラーを **[!UICONTROL 編集]**、**[!UICONTROL 名前を変更]**、または **[!UICONTROL 削除]** できます。
 
@@ -169,4 +169,4 @@ Add logos to your brand in the **[!UICONTROL Logos]** tab.
 
 GenStudio for Performance Marketingでは、ブランドの検証は、[!DNL Brands]、[!DNL Products]、[!DNL Personas] の生成 AI 機能と組み合わせて重要な役割を果たします。 これにより、すべてのコンテンツが、ブランドアイデンティティやアクセシビリティに関する懸念と一貫した状態を保つことができます。
 
-[ ブランド検証 ](/help/user-guide/guidelines/brand-validation.md) を参照してください。
+[&#x200B; ブランド検証 &#x200B;](/help/user-guide/guidelines/brand-validation.md) を参照してください。

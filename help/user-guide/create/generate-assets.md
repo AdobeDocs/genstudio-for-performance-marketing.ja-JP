@@ -18,13 +18,13 @@ ht-degree: 1%
 
 GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （絵筆のアイコン）を使用すると、選択した画像からインスピレーションを得て、その視覚的なインパクトと全体的な美学をキャプチャする _[!DNL On-brand images]_&#x200B;ール生成されたアセットを生成できます。<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
 
-人目を引く効果的な画像をデザインするには、[GenStudio for Performance Marketingにガイドラインを追加する ](/help/user-guide/guidelines/add-guidelines.md)、[ プロンプトの記述の基本 ](/help/user-guide/effective-prompts.md) を確認することをお勧めします。
+人目を引く効果的な画像をデザインするには、[GenStudio for Performance Marketingにガイドラインを追加する &#x200B;](/help/user-guide/guidelines/add-guidelines.md)、[&#x200B; プロンプトの記述の基本 &#x200B;](/help/user-guide/effective-prompts.md) を確認することをお勧めします。
 
 ## 画像タイプ
 
 選択し _[!DNL On-brand images]_&#x200B;画像からインスピレーションを得て、その視覚的なインパクトと全体的な美学をキャプチャする生成されたアセットです。 これらの画像は、[!DNL Content] で既に使用可能な画像と、デザインをガイドする慎重に作成されたプロンプトを使用して作成されます。 生成プロセス中に選択したブランドガイドラインとパラメーターの両方に厳密に従います。
 
-設定 _[!DNL On-brand images]_&#x200B;れたガイドライン、パラメーター、<!-- and _[!DNL Similar images]_ --> 慎重に作成されたプロンプト [ を組み込んで、人目を引く画像アセットを配信で ](/help/user-guide/effective-prompts.md) ます。
+設定 _[!DNL On-brand images]_&#x200B;れたガイドライン、パラメーター、<!-- and _[!DNL Similar images]_ --> 慎重に作成されたプロンプト [&#x200B; を組み込んで、人目を引く画像アセットを配信で &#x200B;](/help/user-guide/effective-prompts.md) ます。
 
 <!-- * _[!DNL Similar images]_—Image assets created with strong similarity to an existing selected image available in [!DNL Content]. When generating similar images, GenStudio for Performance Marketing redesigns the selected image, giving slight variations on the content to provide variety and nuance. -->
 
@@ -34,14 +34,14 @@ GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/over
 
 ### 参照画像を選択
 
-_[!DNL On-brand images]_&#x200B;を作成するには、[!DNL Content] に保存されている既存の画像を選択します。 サポートされる [ ディメンションについて詳しくは、](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) テンプレートのベストプラクティス [!DNL on-brand image] を参照してください。
+_[!DNL On-brand images]_&#x200B;を作成するには、[!DNL Content] に保存されている既存の画像を選択します。 サポートされる [&#x200B; ディメンションについて詳しくは、](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) テンプレートのベストプラクティス [!DNL on-brand image] を参照してください。
 
 **参照画像を選択するには**:
 
 1. _[!DNL Create]_&#x200B;で、**[!UICONTROL ブランド上画像]**&#x200B;をクリックします。
 1. _フィルター_ の横にある検索オプションを使用して、特定の画像を検索します。
 
-   ![ 参照画像を選択 ](/help/assets/select-img.png){width="400" zoomable="yes"}
+   ![&#x200B; 参照画像を選択 &#x200B;](/help/assets/select-img.png){width="400" zoomable="yes"}
 
    接続された [!DNL AEM Assets Content Hub] リポジトリのアセットを使用するには、_場所_ ドロップダウンメニューからリポジトリを選択します。 1 つの画像をフィルタリングして選択します。
 
@@ -55,13 +55,13 @@ _[!DNL On-brand images]_&#x200B;を作成するには、[!DNL Content] に保存
 
 ### パラメーターを追加
 
-[ ガイドライン ](/help/user-guide/guidelines/overview.md) およびパラメーターを組み込むと、コンテンツ生成プロセスが強化され、コンテン [!DNL on-brand image] を生成するための重要な準備手順となります。
+[&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md) およびパラメーターを組み込むと、コンテンツ生成プロセスが強化され、コンテン [!DNL on-brand image] を生成するための重要な準備手順となります。
 
 **ガイドラインとパラメーターを追加するには**:
 
 1. 「_基本_」タブで、コンテンツの作成を通知する [!DNL Brand] を選択します。
 
-   このメニューから利用できるブランドがない場合は、[GenStudio for Performance Marketingにガイドラインを追加 ](/help/user-guide/guidelines/add-guidelines.md) します。
+   このメニューから利用できるブランドがない場合は、[GenStudio for Performance Marketingにガイドラインを追加 &#x200B;](/help/user-guide/guidelines/add-guidelines.md) します。
 
 1. 目的に合った画像カテゴリを _[!UICONTROL 画像カテゴリ]_ から選択します。
 
@@ -86,7 +86,7 @@ _[!DNL On-brand images]_&#x200B;を作成するには、[!DNL Content] に保存
 
 パラメーターを選択したら、自然言語を使用してプロンプトを作成し、ブランド画像での生成を開始します。
 
-[ 有効なプロンプトの記述 ](/help/user-guide/effective-prompts.md) を参照してください。
+[&#x200B; 有効なプロンプトの記述 &#x200B;](/help/user-guide/effective-prompts.md) を参照してください。
 
 **プロンプトを入力するには**:
 
@@ -105,7 +105,7 @@ _[!DNL On-brand images]_&#x200B;を作成するには、[!DNL Content] に保存
 
    _Adobe Expressを使用_ ウィンドウが表示されます。
 
-1. [ 画像の切り抜き ](https://helpx.adobe.com/jp/express/create-and-edit-images/edit-images/crop-images.html)、[ オブジェクトの削除 ](https://helpx.adobe.com/jp/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)、エフェクトの適用などの画像編集を実行します。
+1. [&#x200B; 画像の切り抜き &#x200B;](https://helpx.adobe.com/jp/express/create-and-edit-images/edit-images/crop-images.html)、[&#x200B; オブジェクトの削除 &#x200B;](https://helpx.adobe.com/jp/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)、エフェクトの適用などの画像編集を実行します。
 
    Adobe Expressを使用してAdobe Expressで画像を変更する方法については [&#128279;](https://helpx.adobe.com/jp/express/user-guide.html)GenStudio for Performance Marketing ドキュメント &rbrace; を参照してください。
 
@@ -114,17 +114,17 @@ _[!DNL On-brand images]_&#x200B;を作成するには、[!DNL Content] に保存
 
 ### コンテンツチェックの整合性の確認
 
-生成されたバリアントを最適化し、ブランド ID、プラットフォームガイドラインおよびアクセシビリティ標準に厳密に準拠するには、[_コンテンツチェック_ パネル ](/help/user-guide/guidelines/brand-validation.md#content-check-panel) の機能を活用します。 このパネルには、包括的なコンテンツチェックの詳細が表示され、改善点が明らかになります。
+生成されたバリアントを最適化し、ブランド ID、プラットフォームガイドラインおよびアクセシビリティ標準に厳密に準拠するには、[_コンテンツチェック_ パネル &#x200B;](/help/user-guide/guidelines/brand-validation.md#content-check-panel) の機能を活用します。 このパネルには、包括的なコンテンツチェックの詳細が表示され、改善点が明らかになります。
 
 **コンテンツチェックを実行するには**:
 
-1. 右側のアクションバーにある _コンテンツチェック_ パネルアイコンをクリックして、[_コンテンツチェック_ パネル ](/help/user-guide/guidelines/brand-validation.md#content-check-panel) を開きます。 *レビューが必要* チェックと *合格* チェックの概要を表示し、改善が必要なセクションとガイドラインを確認します。
+1. 右側のアクションバーにある _コンテンツチェック_ パネルアイコンをクリックして、[_コンテンツチェック_ パネル &#x200B;](/help/user-guide/guidelines/brand-validation.md#content-check-panel) を開きます。 *レビューが必要* チェックと *合格* チェックの概要を表示し、改善が必要なセクションとガイドラインを確認します。
 
-   ![_コンテンツチェック_ パネル ](/help/assets/content-check-img.png){width="500" zoomable="yes"}
+   ![_コンテンツチェック_ パネル &#x200B;](/help/assets/content-check-img.png){width="500" zoomable="yes"}
 
 1. 画像のバリアントを改訂し、バリアントが実行されるコンテンツチェックと密接に合致するようにします。
 
-[ ブランド検証 ](/help/user-guide/guidelines/brand-validation.md) を参照してください。
+[&#x200B; ブランド検証 &#x200B;](/help/user-guide/guidelines/brand-validation.md) を参照してください。
 
 <!-- ## Generate Similar images
 

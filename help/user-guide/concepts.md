@@ -27,7 +27,7 @@ GenStudio for Performance Marketingを使用すると、次のことができま
 
 GenStudio for Performance Marketingは、生成 AI の力を活用して、コンテンツ作成プロセスを加速し、高品質なコンテンツ生成を確実に行います。 クリエイティブアセットの反復的なライフサイクルにより、ターゲットオーディエンスの共感を得られる、より正確でブランドに合わせたコンテンツが得られます。
 
-強力なブランドガイドライン機能を通じて、組織のブランディング、顧客のペルソナ、製品の説明を取り込むことから始めます。 これらのガイドラインの準備とアップロード方法については、[ ガイドラインの概要 ](../user-guide/guidelines/overview.md) を参照してください。
+強力なブランドガイドライン機能を通じて、組織のブランディング、顧客のペルソナ、製品の説明を取り込むことから始めます。 これらのガイドラインの準備とアップロード方法については、[&#x200B; ガイドラインの概要 &#x200B;](../user-guide/guidelines/overview.md) を参照してください。
 
 {{in-academy}}
 
@@ -39,7 +39,7 @@ GenStudio for Performance Marketingでは、Azure OpenAI.<!-- Claude, and Gemini
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_&#x200B;は、[Adobe GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) で定義されているように、GenStudio for Performance Marketing内での生成 AI 機能の使用を定量化するユニットです。
+_[!DNL Generative Actions]_&#x200B;は、[Adobe GenStudio for Performance Marketingの製品説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) で定義されているように、GenStudio for Performance Marketing内での生成 AI 機能の使用を定量化するユニットです。
 
 <!-- Add example about usage mode?
 Where users check how many generative actions they have left
@@ -48,11 +48,11 @@ If genactions roll over month to month or not -->
 
 ### 料率
 
-[!DNL Generative Actions]GenStudio for Performance Marketingの製品説明 [ に記載されている通り、](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) のデフォルトの割り当てが受け取ります。
+[!DNL Generative Actions]GenStudio for Performance Marketingの製品説明 [&#x200B; に記載されている通り、](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) のデフォルトの割り当てが受け取ります。
 
 >[!NOTE]
 >
->使用率は場合によって異なります。 計画は変更される場合があります。 更新後の評価について詳しくは、[Adobe GenStudio for Performance Marketingの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) を参照してください。
+>使用率は場合によって異なります。 計画は変更される場合があります。 更新後の評価について詳しくは、[Adobe GenStudio for Performance Marketingの製品説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) を参照してください。
 
 次の関数は、指定された割合で [!DNL Generative Actions] を使用します。
 
@@ -70,9 +70,9 @@ If genactions roll over month to month or not -->
 
 次の場合に [!DNL Generative Actions] _は使用されません_。
 
-* バリアント生成時の [ ブランド検証 ](/help/user-guide/guidelines/brand-validation.md) の使用
-* [ アップロードされたガイドライン ](/help/user-guide/guidelines/add-guidelines.md) からの情報の抽出
-* 手動 [ バリアントの再チェック ](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment)
+* バリアント生成時の [&#x200B; ブランド検証 &#x200B;](/help/user-guide/guidelines/brand-validation.md) の使用
+* [&#x200B; アップロードされたガイドライン &#x200B;](/help/user-guide/guidelines/add-guidelines.md) からの情報の抽出
+* 手動 [&#x200B; バリアントの再チェック &#x200B;](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment)
 * デジタルアセットには、属性（[[!DNL Insights]](/help/user-guide/insights/overview.md)）が自動的にタグ付けされます
 
 >[!TIP]
@@ -83,7 +83,7 @@ If genactions roll over month to month or not -->
 
 AI を使用してコンテンツを生成する場合、出力が安全で、すべてのユーザーにとって包括的であることを確認することが不可欠です。 これには、有害な偏見、ヘイトスピーチ、攻撃的な内容、不敬の可能性があるコンテンツの評価が必要です。 Adobeでは、コンテンツの創出技術を多角的に検証し、倫理の総合的な見直しを行い、有害コンテンツの発生抑制に向けた効果的な緩和策を実施しています。
 
-このアプローチは、社会的責任を強化し、評判リスクを最小限に抑え、[Adobeの信頼と安全および倫理ポリシー ](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf) を確実に遵守します。
+このアプローチは、社会的責任を強化し、評判リスクを最小限に抑え、[Adobeの信頼と安全および倫理ポリシー &#x200B;](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf) を確実に遵守します。
 
 GenStudio for Performance Marketingには、Adobeのデータガバナンスの標準とポリシーに従って、有害または偏って特定されたコンテンツが使用されるのを防ぐための緩和計画が組み込まれています。 このようなコンテンツが検出されると、「生成できません」というメッセージが表示されてアセットの生成がブロックされることに注意する必要があります。
 

@@ -30,7 +30,7 @@ GenStudio for Performance Marketing向けの拡張可能なアプリの開発者
 
 ## 環境の設定
 
-開発者は、Adobe App Builderを使用してGenStudio for Performance Marketingのカスタムアドオンを作成します。 Adobe Creative エクスペリエンス製品用のカスタムアプリを初めて開発する場合は、Adobe App Builderのフレームワークについてよく理解してください。 チュートリアルとディスカッションについては、[App Builder ドキュメント ](https://developer.adobe.com/app-builder/docs/overview/) を参照してください。
+開発者は、Adobe App Builderを使用してGenStudio for Performance Marketingのカスタムアドオンを作成します。 Adobe Creative エクスペリエンス製品用のカスタムアプリを初めて開発する場合は、Adobe App Builderのフレームワークについてよく理解してください。 チュートリアルとディスカッションについては、[App Builder ドキュメント &#x200B;](https://developer.adobe.com/app-builder/docs/overview/) を参照してください。
 
 ### 開発ツール
 
@@ -48,4 +48,4 @@ GenStudio for Performance Marketing向けの拡張可能なアプリの開発者
 
 Adobe App Builderは、GenStudio for Performance Marketingがプロビジョニングされているのと同じ IMS 組織で、デフォルトで有効になっています。
 
-環境を設定したら、[App Builder プロジェクトを作成 ](create-project.md) して、アプリを作成できます。
+環境を設定したら、[App Builder プロジェクトを作成 &#x200B;](create-project.md) して、アプリを作成できます。

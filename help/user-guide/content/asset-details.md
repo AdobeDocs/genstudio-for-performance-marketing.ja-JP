@@ -24,15 +24,15 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 
 1. 「_[!UICONTROL 詳細]_」セクションが表示されない場合は、「**[!UICONTROL 情報]** （i）」アイコンをクリックします。
 
-アセットの詳細には、作成またはアップロード処理中に適用されたメタデータが含まれます。 アセットメタデータタイプには、[ システムメタデータ ](#system-metadata) および [ ユーザー定義メタデータ ](#user-defined-metadata) が含まれます。
+アセットの詳細には、作成またはアップロード処理中に適用されたメタデータが含まれます。 アセットメタデータタイプには、[&#x200B; システムメタデータ &#x200B;](#system-metadata) および [&#x200B; ユーザー定義メタデータ &#x200B;](#user-defined-metadata) が含まれます。
 
 次の画像アセットには、ファイルタイプ、サイズ、その他の特性、1 つのユーザー定義キーワード、AI によって検出された複数の属性と色を記述したシステムメタデータが含まれています。
 
-![ 複数のタグを持つアセットの詳細 ](/help/assets/content-asset-details.png)
+![&#x200B; 複数のタグを持つアセットの詳細 &#x200B;](/help/assets/content-asset-details.png)
 
 >[!NOTE]
 >
->AEM リポジトリからのAssetsには、異なるメタデータが表示されます。 アセットの詳細を設定する方法については、[ アセットの表示の設定 ](connect-aem-repo.md#step-4-configure-asset-visibility) を参照 [!DNL AEM Assets Content Hub] てください。
+>AEM リポジトリからのAssetsには、異なるメタデータが表示されます。 アセットの詳細を設定する方法については、[&#x200B; アセットの表示の設定 &#x200B;](connect-aem-repo.md#step-4-configure-asset-visibility) を参照 [!DNL AEM Assets Content Hub] てください。
 
 ## システムメタデータ
 
@@ -42,7 +42,7 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 
 承認済みのアセットを [!DNL Content] に保存すると、GenStudio for Performance MarketingはAdobeの AI と機械学習機能を使用してアセットを調査し、アセットの機能に基づいてタグを適用します。 例えば、猫の画像では、`pet photography` や `cat` などの属性タグや、画像内で支配的な色を識別するカラータグが生成される場合があります。 検出され、自動的に適用されたタグは編集できません。
 
-画像、ビデオおよびテキスト機能の詳細なリストについては、[!DNL Insights] 属性カテゴリ [ を参照してください ](/help/user-guide/insights/attributes.md#categories) 属性カテゴリ）。
+画像、ビデオおよびテキスト機能の詳細なリストについては、[!DNL Insights] 属性カテゴリ [&#x200B; を参照してください &#x200B;](/help/user-guide/insights/attributes.md#categories) 属性カテゴリ）。
 
 ### 生成されたコンテンツメタデータ
 
@@ -52,7 +52,7 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 
 ユーザー定義メタデータは、アセットのコンテンツにマーケティングコンテキストを追加するので、マーケターはアセットの使用方法とエンゲージメント方法を理解できます。
 
-[ アセットをアップロード ](/help/user-guide/content/manage-assets.md#add-assets) する際に、GenStudio for Performance Marketingにメタデータとして存在する一連のオプションのアセット詳細を定義できます。 さらに詳細を含めると、検索とフィルタリングでのアセットの識別が向上します。
+[&#x200B; アセットをアップロード &#x200B;](/help/user-guide/content/manage-assets.md#add-assets) する際に、GenStudio for Performance Marketingにメタデータとして存在する一連のオプションのアセット詳細を定義できます。 さらに詳細を含めると、検索とフィルタリングでのアセットの識別が向上します。
 
 **ユーザー定義のメタデータを編集するには**:
 

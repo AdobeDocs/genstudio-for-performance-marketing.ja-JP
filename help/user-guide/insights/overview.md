@@ -33,7 +33,7 @@ Adobe GenStudio for Performance Marketing [!DNL Insights] は、データに基�
 
 [!DNL Insights] ダッシュボードには、コンテンツタイプ（[!UICONTROL &#x200B; チャネル &#x200B;]、[!UICONTROL &#x200B; 広告 &#x200B;]、[!UICONTROL &#x200B; メディア &#x200B;]、[!UICONTROL &#x200B; 属性 &#x200B;] ごとに設定可能なテーブルがあります。
 
-ダッ ![[!DNL Insights] ボード ](/help/assets/insights-dashboard.png)
+ダッ ![[!DNL Insights] ボード &#x200B;](/help/assets/insights-dashboard.png)
 
 各ビューには、対応するテーブルが表示され、キーワード、フィルタリングおよび日付範囲で検索できます。 テーブルの右側の上にある設定（歯車）アイコンをクリックして、表示可能な列タイプを切り替えることができます。 _[!UICONTROL 概要]_ 行には、列の合計または平均が表示される場合があります。
 
@@ -41,19 +41,19 @@ Adobe GenStudio for Performance Marketing [!DNL Insights] は、データに基�
 
 ### チャネル
 
-[[!DNL Insights] _[!UICONTROL &#x200B; チャネル &#x200B;]_&#x200B;ビュー ](channels.md) はデフォルトのビューで、目標、予算、ローンチ日、アクティビティなどの、アクティブなキャンペーンの詳細のリストが表示されます。 GenStudio for Performance Marketingが統計データの受信を開始できるように、[ チャネルアカウントを接続 ](/help/user-guide/connectors/connect-channel.md) してください。
+[[!DNL Insights] _[!UICONTROL &#x200B; チャネル &#x200B;]_&#x200B;ビュー &#x200B;](channels.md) はデフォルトのビューで、目標、予算、ローンチ日、アクティビティなどの、アクティブなキャンペーンの詳細のリストが表示されます。 GenStudio for Performance Marketingが統計データの受信を開始できるように、[&#x200B; チャネルアカウントを接続 &#x200B;](/help/user-guide/connectors/connect-channel.md) してください。
 
 ### 広告
 
-[[!DNL Insights] _[!UICONTROL &#x200B; 広告 &#x200B;]_&#x200B;ビュー ](ads.md) は、広告の有効性の評価に重点を置いています。 [!UICONTROL &#x200B; 広告 &#x200B;] ビューを使用すると、指定した日付範囲内の広告の配置に基づいて広告の指標を分析できます。_[!UICONTROL &#x200B; 広告名 &#x200B;]_&#x200B;をクリックすると、広告パフォーマンス指標、広告配置別のパフォーマンスおよび属性を表示できます。
+[[!DNL Insights] _[!UICONTROL &#x200B; 広告 &#x200B;]_&#x200B;ビュー &#x200B;](ads.md) は、広告の有効性の評価に重点を置いています。 [!UICONTROL &#x200B; 広告 &#x200B;] ビューを使用すると、指定した日付範囲内の広告の配置に基づいて広告の指標を分析できます。_[!UICONTROL &#x200B; 広告名 &#x200B;]_&#x200B;をクリックすると、広告パフォーマンス指標、広告配置別のパフォーマンスおよび属性を表示できます。
 
 ### メディア
 
-[[!DNL Insights] _[!UICONTROL &#x200B; メディア &#x200B;]_&#x200B;表示 ](media.md) は、クリエイティブコンテンツのパフォーマンスを分析するのに役立つように設計されています。 クリック数やインプレッション数など、選択した指標の改善に貢献するメディア属性を特定できます。
+[[!DNL Insights] _[!UICONTROL &#x200B; メディア &#x200B;]_&#x200B;表示 &#x200B;](media.md) は、クリエイティブコンテンツのパフォーマンスを分析するのに役立つように設計されています。 クリック数やインプレッション数など、選択した指標の改善に貢献するメディア属性を特定できます。
 
 メディアコンテンツをクリックすると、様々な広告や広告プレースメントにわたるパフォーマンスに関する詳細なコンテキストが提供されます。
 
-![ メディア詳細 ](/help/assets/insights-media-details.png){width="600" zoomable="yes"}
+![&#x200B; メディア詳細 &#x200B;](/help/assets/insights-media-details.png){width="600" zoomable="yes"}
 
 メディアの詳細表示の左側には、アセットのサムネールと属性のリストが表示されます。 ハイライト表示された指標は、`Click-through rate`、`Cost per click`、`Spend` の 3 つです。 パフォーマンスハイライトは、選択した期間の実際の値（実線）と平均値（点線）の比較を示します（デフォルトは `Last 30 days`）。
 
@@ -61,4 +61,4 @@ Adobe GenStudio for Performance Marketing [!DNL Insights] は、データに基�
 
 メディア _属性_ は、色、トーン、構成（件名、フォント、視覚要素など）、その他の主要なコンポーネントなど、固有の詳細によってクリエイティブコンテンツを識別するのに役立ちます。 多くの場合、属性は測定および分析が最も少ないコンテンツ情報のセットです。
 
-[[!DNL Insights] _[!UICONTROL &#x200B; 属性 &#x200B;]_&#x200B;ビュー ](attributes.md) は、特定のオーディエンス、チャネル、地域でどの属性のパフォーマンスが高いかを調査および特定するのに役立ち、季節的なトレンドを強調するのに役立ちます。 これらのインサイトを使用すると、パフォーマンスの高い属性を使用して、バリアントの作成、特定のオーディエンスのターゲット設定、様々なキャンペーン戦略の実験などを行うことができます。
+[[!DNL Insights] _[!UICONTROL &#x200B; 属性 &#x200B;]_&#x200B;ビュー &#x200B;](attributes.md) は、特定のオーディエンス、チャネル、地域でどの属性のパフォーマンスが高いかを調査および特定するのに役立ち、季節的なトレンドを強調するのに役立ちます。 これらのインサイトを使用すると、パフォーマンスの高い属性を使用して、バリアントの作成、特定のオーディエンスのターゲット設定、様々なキャンペーン戦略の実験などを行うことができます。

@@ -11,11 +11,11 @@ ht-degree: 38%
 
 ## アドビオープンソース行動規範
 
-このプロジェクトでは、[アドビオープンソース行動規範](code-of-conduct.md) または [.NET Foundation 行動規範](https://dotnetfoundation.org/about/policies/code-of-conduct)を採用しています。[ 投稿 ](contributing.md) の記事を参照してください。
+このプロジェクトでは、[アドビオープンソース行動規範](code-of-conduct.md) または [.NET Foundation 行動規範](https://dotnetfoundation.org/about/policies/code-of-conduct)を採用しています。[&#x200B; 投稿 &#x200B;](contributing.md) の記事を参照してください。
 
 ### 小規模な変更
 
-軽微な更新を行う場合は、記事を開いて **編集** リンクをクリックすると、記事の GitHub ソースが表示されます。 GitHub UI を使用して更新をおこないます。一般的な [Adobeドキュメントのコントリビューターガイド ](https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/introduction) を参照してください。
+軽微な更新を行う場合は、記事を開いて **編集** リンクをクリックすると、記事の GitHub ソースが表示されます。 GitHub UI を使用して更新をおこないます。一般的な [Adobeドキュメントのコントリビューターガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/introduction) を参照してください。
 
 このリポジトリのドキュメントやコード例に対して送信する小規模な修正や説明には、アドビの利用条件が適用されます。
 
@@ -38,7 +38,7 @@ Adobeプロダクトチームのテクニカルライター、プログラムマ
 このリポジトリ内の記事はすべて、GitHub 固有の Markdown を使用しています。 Markdown に詳しくない方は、以下を参照してください。
 
 - [Markdown の基本](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [ 印刷用 Markdown チートシート ](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
+- [&#x200B; 印刷用 Markdown チートシート &#x200B;](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
 
 ## ラベル
 

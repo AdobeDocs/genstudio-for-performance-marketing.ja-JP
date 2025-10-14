@@ -19,7 +19,7 @@ ht-degree: 0%
 
 [!DNL Insights] の各表示には、フィルターオプションのリストが表示されます。 左側にフィルター（funnel）トグルで **[!UICONTROL フィルター]** メニューが開きます。 テーブルとギャラリーのどちらを表示している場合でも、適用されたフィルターは、テーブルまたはギャラリーの上にある **[!UICONTROL フィルター条件]** リストに表示されます。 デフォルトでは、チャネルとアカウントが選択されます。
 
-![ フィルター条件 ](/help/assets/insights-filter-by.png " フィルター条件 "){width=600 zoomable="yes"}
+![&#x200B; フィルター条件 &#x200B;](/help/assets/insights-filter-by.png " フィルター条件 "){width=600 zoomable="yes"}
 
 適用されたフィルターは、すべてのビューで保持されます。 選択したすべてのフィルターを削除するには、テーブルまたはギャラリーの上にある **[!UICONTROL すべてクリア]** を選択します。
 
@@ -27,13 +27,13 @@ ht-degree: 0%
 
 検索（虫眼鏡）アイコンをクリックして検索語を入力し、テーブルまたはギャラリー内の特定の項目を検索します。 例えば、`Gear` 広告 [!UICONTROL &#x200B; テーブルに用語 &#x200B;] を入力すると、名前に用語 `Gear` を使用している広告のみを表示するように結果がフィルタリングされます。
 
-![ 検索フィールドの例 ](/help/assets/insights-search.png " 名前に歯車が含まれている広告を検索 "){width=600 zoomable="yes"}
+![&#x200B; 検索フィールドの例 &#x200B;](/help/assets/insights-search.png " 名前に歯車が含まれている広告を検索 "){width=600 zoomable="yes"}
 
 ### 日付範囲
 
 日付範囲セレクターは、表示されたデータを分析目標に合わせるための強力なツールです。 日付範囲セレクターを使用して、テーブル表示またはギャラリー表示に表示されるデータの時間枠を調整します。 デフォルトでは、日付範囲は過去 30 日間に設定されています。 特定の期間にデータを追加したりフォーカスを移動したりするには、日付範囲を展開します。
 
-![ 日付範囲セレクター ](/help/assets/insights-date-range.png " 日付範囲を選択 "){width=400}
+![&#x200B; 日付範囲セレクター &#x200B;](/help/assets/insights-date-range.png " 日付範囲を選択 "){width=400}
 
 テーブル表示またはギャラリー表示に項目が表示されない場合は、関連するデータを除く選択した日付範囲が原因である可能性があります。 このような場合は、日付範囲を大きくして、目的のデータが含まれるようにします。
 
@@ -59,7 +59,7 @@ _[!UICONTROL キャンペーン]_ および _[!UICONTROL 広告]_ フィルタ�
 
 1. _[!DNL Insights]_&#x200B;で、**[!UICONTROL 広告]**&#x200B;ビューを選択します。
 
-   ![ フィルターメニューを使用した広告フィルターおよびテーブル ](/help/assets/insights-ads-filter.png " 広告ビュー "){zoomable="yes"}
+   ![&#x200B; フィルターメニューを使用した広告フィルターおよびテーブル &#x200B;](/help/assets/insights-ads-filter.png " 広告ビュー "){zoomable="yes"}
 
 1. テーブルの左側の上にあるフィルター（funnel）切り替えスイッチをクリックして、**[!UICONTROL フィルター]** メニューを開きます。
 
@@ -67,7 +67,7 @@ _[!UICONTROL キャンペーン]_ および _[!UICONTROL 広告]_ フィルタ�
 
 1. **[!UICONTROL キャンペーン]** フィルターを展開し、「**[!UICONTROL 選択]**」をクリックします。
 
-   ![ キャンペーンのフィルター ](/help/assets/insights-filter-campaigns-expand.png " キャンペーンの展開フィルター "){width=200}
+   ![&#x200B; キャンペーンのフィルター &#x200B;](/help/assets/insights-filter-campaigns-expand.png " キャンペーンの展開フィルター "){width=200}
 
 1. _[!UICONTROL キャンペーンを選択]_ 検索フィールドに、キーワードをコンマで区切って入力します。
 
@@ -75,23 +75,23 @@ _[!UICONTROL キャンペーン]_ および _[!UICONTROL 広告]_ フィルタ�
 
    - `adventure` **AND** `ready` の両方を含むキャンペーン名を検索するには、両方のキーワードをコンマで区切って入力します。
 
-     ![ すべてのキーワードの検索 ](/help/assets/insights-select-campaigns-and.png " 両方のキーワードを含むキャンペーン名を検索 "){width=500}
+     ![&#x200B; すべてのキーワードの検索 &#x200B;](/help/assets/insights-select-campaigns-and.png " 両方のキーワードを含むキャンペーン名を検索 "){width=500}
 
    - `adventure` **OR** `ready` のいずれかを含むキャンペーン名を検索するには、各キーワードを個別に入力します。
 
-     ![ いずれかのキーワードを検索 ](/help/assets/insights-select-campaigns-or.png " 少なくとも 1 つのキーワードを含むキャンペーン名を検索します "){width=500}
+     ![&#x200B; いずれかのキーワードを検索 &#x200B;](/help/assets/insights-select-campaigns-or.png " 少なくとも 1 つのキーワードを含むキャンペーン名を検索します "){width=500}
 
    - 詳細検索を実行するには、複数のキーワードセットを組み合わせます。 例えば、`adventure` と `apparel` の **OR**`sun` と `gear` でキャンペーン名を検索します。
 
-     ![ 複数のキーワードセットで検索 ](/help/assets/insights-advanced-or.png " 複数のキーワードセットを使用してキャンペーン名を検索 "){width=500}
+     ![&#x200B; 複数のキーワードセットで検索 &#x200B;](/help/assets/insights-advanced-or.png " 複数のキーワードセットを使用してキャンペーン名を検索 "){width=500}
 
 1. 結果の検索から 1 つ以上のキャンペーンを選択し、「**[!UICONTROL 適用]**」をクリックします。
 
-   ![ キャンペーンのリスト ](/help/assets/insights-select-campaigns-list.png " 含めるキャンペーンを選択 ")
+   ![&#x200B; キャンペーンのリスト &#x200B;](/help/assets/insights-select-campaigns-list.png " 含めるキャンペーンを選択 ")
 
 選択したキャンペーンが、広告テーブルまたはギャラリーの上にある _[!UICONTROL フィルター条件]_ リストに表示されます。 選択したキャンペーンにリンクされている広告にのみ焦点を当てることができます。 この例では、フィルタリングされた結果に 6 つの広告が含まれており、よりターゲットを絞った分析用のビューを提供します。
 
-![ キャンペーンでフィルターしたテーブル ](/help/assets/insights-filter-by-campaigns.png " キャンペーンフィルターを使用したテーブル "){zoomable="yes"}
+![&#x200B; キャンペーンでフィルターしたテーブル &#x200B;](/help/assets/insights-filter-by-campaigns.png " キャンペーンフィルターを使用したテーブル "){zoomable="yes"}
 
 [!UICONTROL Media] テーブルを、広告名と同様の方法でさらにフィルタリングできます。 **[!UICONTROL 広告]** フィルターを展開して **[!UICONTROL 選択]** をクリックすると、同様のキーワードフィルターを実行して、メディアテーブルまたはギャラリー表示を絞り込むことができます。
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 _[!UICONTROL Media]_ テーブルは、**[!UICONTROL Media ID]** を使用して整理されます。 表示リスト （テーブル） アイコンとギャラリー表示（グリッド） アイコンを使用して、ビューを切り替えることができます。 テーブルの右側の上にある設定（歯車）アイコンをクリックして、表示可能列を切り替えます。
 
-![ メディアフィルターとテーブル ](/help/assets/insights-media-filter.png){zoomable="yes"}
+![&#x200B; メディアフィルターとテーブル &#x200B;](/help/assets/insights-media-filter.png){zoomable="yes"}
 
 _[!UICONTROL メディア]_ ギャラリー表示には、メディアプレビューとクリックスルー率などの指標のコラージュが表示されます。 ギャラリーの右側の上にある設定（歯車）アイコンをクリックして **[!UICONTROL カード設定]** を開き、3 つの表示可能な指標のいずれかを切り替えます。
 
@@ -34,7 +34,7 @@ _[!UICONTROL メディア]_ ギャラリー表示には、メディアプレビ�
 
 _メディアの詳細_ ビューには、選択したメディアを使用する広告が表示されます。 詳細には、合計メディアパフォーマンス、メディアを使用した広告、ユーザー定義の属性、メディアに関連付けられた AI 検出機能が含まれます。
 
-![ メディア詳細 ](/help/assets/insights-media-details.png){zoomable="yes"}
+![&#x200B; メディア詳細 &#x200B;](/help/assets/insights-media-details.png){zoomable="yes"}
 
 ### メディア属性
 

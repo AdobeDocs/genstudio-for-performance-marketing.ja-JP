@@ -19,29 +19,29 @@ ht-degree: 0%
 
 _[!UICONTROL Attributes]_ テーブルは、[!UICONTROL Attribute] という名前を使用して整理されます。 「**[!UICONTROL 画像]**」ボタンと「**[!UICONTROL ビデオ]**」ボタンを使用して、リストタイプを切り替えることができます。 テーブルの右側の上にある設定（歯車）アイコンをクリックして、表示可能列を切り替えます。
 
-![ 属性フィルターとテーブル ](/help/assets/insights-attributes-filter.png){zoomable="yes"}
+![&#x200B; 属性フィルターとテーブル &#x200B;](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
 {{filter-table}}
 
 ## 属性の詳細
 
-属性は、色、構成、視覚要素、その他のプロパティなど、固有の詳細によって [ 広告 ](ads.md#ad-details) および [ メディア ](media.md#media-details) を識別するのに役立ちます。
+属性は、色、構成、視覚要素、その他のプロパティなど、固有の詳細によって [&#x200B; 広告 &#x200B;](ads.md#ad-details) および [&#x200B; メディア &#x200B;](media.md#media-details) を識別するのに役立ちます。
 
 属性の詳細表示では、選択した属性を使用している広告を確認できます。 詳細には、属性のパフォーマンスの合計と、各広告に関連するパフォーマンス指標の分類が含まれます。
 
-![ 属性パフォーマンス指標 ](/help/assets/insights-attribute-details.png){zoomable="yes"}
+![&#x200B; 属性パフォーマンス指標 &#x200B;](/help/assets/insights-attribute-details.png){zoomable="yes"}
 
-GenStudio for Performance Marketingは、特定の機能を検出し、メディアコンテンツまたは広告をタグとして適切な属性を適用します。 これらのタグの例については、[ カテゴリ ](#categories) を参照してください。 広告に関連付けられているすべての属性を表示するには、テーブルの右側の上にある設定（歯車）アイコンをクリックして **[!UICONTROL 属性]** 列を選択します。
+GenStudio for Performance Marketingは、特定の機能を検出し、メディアコンテンツまたは広告をタグとして適切な属性を適用します。 これらのタグの例については、[&#x200B; カテゴリ &#x200B;](#categories) を参照してください。 広告に関連付けられているすべての属性を表示するには、テーブルの右側の上にある設定（歯車）アイコンをクリックして **[!UICONTROL 属性]** 列を選択します。
 
 ## カテゴリ
 
 属性 _カテゴリ_ は、共通の特性を共有する関連属性を整理する分類グループです。 これらのカテゴリは、より詳細なコンテキストを提供し、それらのアプリケーションと使用を容易にすることで、特定の属性の検出、識別、理解を合理化するのに役立ちます。
 
-GenStudio for Performance Marketingは、Adobeの AI と機械学習機能を使用して、[ 画像 ](image-features.md)、[ ビデオ ](video-features.md) および [ テキスト ](text-features.md) を調べ、正確性の可能性に基づいて属性を広告およびメディアに適用します。
+GenStudio for Performance Marketingは、Adobeの AI と機械学習機能を使用して、[&#x200B; 画像 &#x200B;](image-features.md)、[&#x200B; ビデオ &#x200B;](video-features.md) および [&#x200B; テキスト &#x200B;](text-features.md) を調べ、正確性の可能性に基づいて属性を広告およびメディアに適用します。
 
 広告およびメディアコンテンツの検出された属性リストは、すべてを網羅しているわけではありません。 豊富な機能セットを含むコンテンツは、AI によって特定された 3 つの最も支配的な機能に制限される場合があります。 例えば、次の図には、検出された複数の画像属性（複数のオブジェクト、前景色、背景色など）が含まれています。
 
-![ 画像属性 ](/help/assets/category/asset-attributes.png "Toucan の画像には、検出された複数の属性が含まれています "){width="300" zoomable="yes"}
+![&#x200B; 画像属性 &#x200B;](/help/assets/category/asset-attributes.png "Toucan の画像には、検出された複数の属性が含まれています "){width="300" zoomable="yes"}
 
 >[!INFO]
 >
@@ -56,7 +56,7 @@ GenStudio for Performance Marketingは、Adobeの AI と機械学習機能を使
 | 指標 | 定義 | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL 属性]** | 属性名。 | 任意の主要指標の列見出しをクリックして、テーブルを並べ替えます。 |
-| **[!UICONTROL カテゴリ]** | 属性の固有の品質を表す [ カテゴリ ](#categories)。 |  |
+| **[!UICONTROL カテゴリ]** | 属性の固有の品質を表す [&#x200B; カテゴリ &#x200B;](#categories)。 |  |
 | 画像の **[!UICONTROL 数]** | この属性を持つ画像の数。 | 属性テーブルのカウントは、属性の詳細ビューのカウントとは異なる場合があります。 この不一致は、MetaやGenStudioなどのチャネルソースで使用される要約計算が若干異なる場合に発生する可能性があります。 |
 | ビデオの **[!UICONTROL 数]** | この属性を持つビデオの数。 | 属性テーブルのカウントは、属性の詳細ビューのカウントとは異なる場合があります。 この不一致は、MetaやGenStudioなどのチャネルソースで使用される要約計算が若干異なる場合に発生する可能性があります。 |
 | **[!UICONTROL インプレッション]** | この属性を持つ画像またはビデオが、インタラクションや表示に関係なく、チャネルに読み込まれるたびに発生する回数。 | インプレッション数が多い場合は、幅広い視認性を示す可能性がありますが、真のパフォーマンスを実現するinsightの場合は、他のエンゲージメント指標と関連して検討してください。 |

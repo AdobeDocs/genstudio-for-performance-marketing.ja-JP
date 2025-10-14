@@ -25,7 +25,7 @@ GenStudio for Performance Marketingでは、Customer Journey Analytics（CJA）�
 
 **データ接続に関する重要な情報**
 
-[Adobe システム管理者 ](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager) の場合は、GenStudio for Performance MarketingをサポートするAEP サンドボックス管理コンポーネントおよびデータレイクコンポーネントへのアクセスを許可する使用権限がある可能性があります。
+[Adobe システム管理者 &#x200B;](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager) の場合は、GenStudio for Performance MarketingをサポートするAEP サンドボックス管理コンポーネントおよびデータレイクコンポーネントへのアクセスを許可する使用権限がある可能性があります。
 
 >[!WARNING]
 >
@@ -47,4 +47,4 @@ AEPでデータコンポーネントを削除する前に、[Customer Journey An
 
 GenStudio for Performance Marketingはチャネルデータを 13 か月間保持します。 この保持ポリシーには、最初の接続中に取り込まれた 6 か月のデータが含まれており、包括的な履歴データの分析とレポートを確実に行います。
 
-[ 有料メディアアカウントの接続 ](/help/user-guide/connectors/connect-channel.md) を参照してください。
+[&#x200B; 有料メディアアカウントの接続 &#x200B;](/help/user-guide/connectors/connect-channel.md) を参照してください。

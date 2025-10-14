@@ -14,15 +14,15 @@ ht-degree: 1%
 
 Adobe GenStudio for Performance Marketingでは、Instagram や Facebook へのMeta広告エクスペリエンスのアクティベーションをサポートしています。
 
-GenStudio for Performance Marketingで [Meta エクスペリエンスを作成 ](/help/user-guide/create/create-meta-ad.md) して、アクティベーション用に選択したり、[!DNL Activate] で承認済みアセットから新しいエクスペリエンスを構築したりできます。
+GenStudio for Performance Marketingで [Meta エクスペリエンスを作成 &#x200B;](/help/user-guide/create/create-meta-ad.md) して、アクティベーション用に選択したり、[!DNL Activate] で承認済みアセットから新しいエクスペリエンスを構築したりできます。
 
-Meta広告のアクティブ化は、他の有料チャネルに対するアクティブ化に必要な [ 同じ一般的な手順 ](create-activation.md) に従います。 アクティベーションプロセスは、Meta固有の要件に合わせた広告エクスペリエンスの準備をサポートします。 GenStudio for Performance MarketingでMeta エクスペリエンスをアクティブ化した後、[Meta Ads Manager](https://adsmanager.facebook.com/) を使用して、最終的に公開する前に、特定のMeta広告プレースメントのエクスペリエンスを微調整します。
+Meta広告のアクティブ化は、他の有料チャネルに対するアクティブ化に必要な [&#x200B; 同じ一般的な手順 &#x200B;](create-activation.md) に従います。 アクティベーションプロセスは、Meta固有の要件に合わせた広告エクスペリエンスの準備をサポートします。 GenStudio for Performance MarketingでMeta エクスペリエンスをアクティブ化した後、[Meta Ads Manager](https://adsmanager.facebook.com/) を使用して、最終的に公開する前に、特定のMeta広告プレースメントのエクスペリエンスを微調整します。
 
 GenStudioのシステムマネージャーとエディターは、広告エクスペリエンスをアクティブ化できます。
 
 ## 手順 1:Meta アカウントの設定
 
-アクティベーションを開始する前に、[Metaにログイン ](https://adsmanager.facebook.com/) して、Meta Ads Manager アカウントにアクセスします。
+アクティベーションを開始する前に、[Metaにログイン &#x200B;](https://adsmanager.facebook.com/) して、Meta Ads Manager アカウントにアクセスします。
 
 >[!BEGINSHADEBOX]
 
@@ -41,7 +41,7 @@ GenStudioのシステムマネージャーとエディターは、広告エク�
 
 組織がエクスペリエンスをアクティブ化する前に、GenStudio system manager がMeta アカウントをGenStudio for Performance Marketingに接続する必要があります。 この連携により、GenStudioとMetaなどの外部マーケティングツールとの間でデータが送受信され、アクティベーションプロセスが可能になります。
 
-[Meta Ads への接続 ](/help/user-guide/connectors/meta-ads.md) を参照してください。
+[Meta Ads への接続 &#x200B;](/help/user-guide/connectors/meta-ads.md) を参照してください。
 
 同期が完了したら、追加されたアカウントを表示できます。 大量のデータの同期には時間がかかります。
 
@@ -83,8 +83,8 @@ GenStudioのシステムマネージャーとエディターは、広告エク�
 
 1. エクスペリエンスに名前を割り当てます。 アクティブ化した後、この名前を使用して、_アクティブ化されたエクスペリエンス_ テーブルでこのエクスペリエンスを検索できます。
 1. メディアアセットを選択します。 [!DNL Content] のアセットを使用することも、外部アセット（OneDrive やDropboxなど）をアップロードすることもできます。
-1. [ テキストを追加 ](#add-ad-text) します。
-1. [ メタデータを追加 ](#assign-metadata).
+1. [&#x200B; テキストを追加 &#x200B;](#add-ad-text) します。
+1. [&#x200B; メタデータを追加 &#x200B;](#assign-metadata).
 
    _プレビューパネル_ では、特定の広告プレースメントのコンテキストでのテキストとアセットのインタラクティブなビューがサポートされます。 _プレースメントを選択_ ドロップダウンメニューを使用して、サポートされる広告配置を切り替えます。 プレビューでは、特定のプレースメントの広告要素に関する決定を最終決定することができます。 _プレビュー_ パネルでプレースメントを選択すると、広告のビューのみが影響を受けます。 _プレビュー_ パネルのプレースメントの選択が保存されません。
 
@@ -96,7 +96,7 @@ GenStudioのシステムマネージャーとエディターは、広告エク�
 
 **コンテンツからアセットをアップロードするには**:
 
-[!DNL Content] は、組織の承認済みアセットとエクスペリエンスを一元的に表示できます。 [[!DNL Content]  検索 ](/help/user-guide/content/manage-assets.md) （虫眼鏡）メニューオプションと **[!UICONTROL フィルター]** メニューオプションを使用して、表示されたアセットの在庫 _ギャラリー_ にフォーカスできます。
+[!DNL Content] は、組織の承認済みアセットとエクスペリエンスを一元的に表示できます。 [[!DNL Content]  検索 &#x200B;](/help/user-guide/content/manage-assets.md) （虫眼鏡）メニューオプションと **[!UICONTROL フィルター]** メニューオプションを使用して、表示されたアセットの在庫 _ギャラリー_ にフォーカスできます。
 
 1. [!DNL Activate] から、チャネルカードの **[!UICONTROL 新規]** をクリックします。 _エクスペリエンス設定_ ビューが開きます。
 
@@ -216,4 +216,4 @@ _レビュー_ ページには、_エクスペリエンスの設定_ で組み�
 
    Meta広告エクスペリエンス全体とそれに関連するメタデータが、選択したMeta Ads Manager 広告セットに直接プッシュされます。 エクスペリエンスは、非アクティブな状態でMeta Ads Manager に配信されます。 Meta Ads Manager から、広告エクスペリエンスとMeta キャンペーンをデプロイする最終ステップを管理できます。
 
-1. [Meta Ads Manager にログイン ](https://adsmanager.facebook.com/) して、広告エクスペリエンスを確認し、特定のMeta チャネルへの公開を最終決定します。
+1. [Meta Ads Manager にログイン &#x200B;](https://adsmanager.facebook.com/) して、広告エクスペリエンスを確認し、特定のMeta チャネルへの公開を最終決定します。

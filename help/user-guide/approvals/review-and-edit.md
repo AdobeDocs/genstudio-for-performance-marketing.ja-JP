@@ -18,7 +18,7 @@ ht-degree: 0%
 
 コンテンツ編集者は、レビューコメントに応じて、コンテンツに対してインプロセス編集を行うことができます。 ドラフトが修正中の間は、承認者はレビューコメントの追加を続行できますが、承認ステータスを変更することはできません。 コンテンツエディターは、キャンバス上でコンテンツの編集を続行できますが、承認者はレビューを続行できます。
 
-大幅な変更が行われた場合は、すべての関係者から [ 新しいレビューをリクエスト ](/help/user-guide/approvals/request-review.md#request-new-approval) できます。
+大幅な変更が行われた場合は、すべての関係者から [&#x200B; 新しいレビューをリクエスト &#x200B;](/help/user-guide/approvals/request-review.md#request-new-approval) できます。
 
 ## 承認要求の表示
 
@@ -64,7 +64,7 @@ _承認_ パネルから、変更候補のリストを表示したり、ドラ�
 
 ## Workfront Proofを使用したコンテンツのレビュー
 
-[!DNL Proofing Viewer] には、プルーフに注釈を付けたり変更を追跡したりするための [ 堅牢なマークアップツール ](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) が用意されています。 また、2 つのバージョンのプルーフを比較することもできます。
+[!DNL Proofing Viewer] には、プルーフに注釈を付けたり変更を追跡したりするための [&#x200B; 堅牢なマークアップツール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) が用意されています。 また、2 つのバージョンのプルーフを比較することもできます。
 
 **コンテンツをレビューするには**:
 
@@ -84,7 +84,7 @@ _承認_ パネルから、変更候補のリストを表示したり、ドラ�
 
 ### プルーフの比較
 
-[!DNL Proofing Viewer] から、[ プルーフのバージョンを比較 ](https://experienceleague.adobe.com/ja/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs) できます。
+[!DNL Proofing Viewer] から、[&#x200B; プルーフのバージョンを比較 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs) できます。
 
 **プルーフを比較するには**:
 
@@ -94,4 +94,4 @@ _承認_ パネルから、変更候補のリストを表示したり、ドラ�
 
    プルーフが並んで表示され、新しいバージョンが左側に表示されます。
 
-Workfront Proofには、自動比較ツールなど、プルーフを比較するためのツールがいくつか用意されています。 [ 比較ツールの使用 ](https://experienceleague.adobe.com/ja/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools) を参照してください。
+Workfront Proofには、自動比較ツールなど、プルーフを比較するためのツールがいくつか用意されています。 [&#x200B; 比較ツールの使用 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools) を参照してください。
