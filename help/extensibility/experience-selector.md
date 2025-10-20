@@ -2,7 +2,7 @@
 title: GenStudio Experience Selector MFE
 description: GenStudio アプリおよびアドオン用の Experience Selector マイクロフロントエンドの実装を理解します。
 feature: Extensibility, Extensions, Experiences
-source-git-commit: e30e43bd8d226628b425c341d19195f7f860e560
+source-git-commit: 2d6453274d1bfeb35df2821e7e31eec1ca87b013
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 6%
@@ -28,13 +28,13 @@ MFE は、次の 2 つの異なるアプローチを使用して統合できま�
 ### ESM （ES モジュール）：推奨
 
 ```javascript
-import { renderExperienceSelectorWithSUSI } from 'https://experience-stage.adobe.com/solutions/GenStudio-experience-selector-mfe/static-assets/resources/@genstudio/experience-selector/esm/standalone.js';
+import { renderExperienceSelectorWithSUSI } from 'https://experience.adobe.com/solutions/GenStudio-experience-selector-mfe/static-assets/resources/@genstudio/experience-selector/esm/standalone.js';
 ```
 
 ### UMD （Universal Module Definition）
 
 ```html
-<script src="https://experience-stage.adobe.com/solutions/GenStudio-experience-selector-mfe/static-assets/resources/@genstudio/experience-selector/umd/standalone.js"></script>
+<script src="https://experience.adobe.com/solutions/GenStudio-experience-selector-mfe/static-assets/resources/@genstudio/experience-selector/umd/standalone.js"></script>
 ```
 
 ## 設定プロパティ
@@ -46,7 +46,7 @@ import { renderExperienceSelectorWithSUSI } from 'https://experience-stage.adobe
 | `apiKey` | 文字列 | はい | GenStudio サービスの API キー |
 | `imsOrg` | 文字列 | はい | IMS 組織 ID |
 | `env` | 文字列 | はい | 環境（`stage`、`prod`） |
-| `susiConfig` | object | はい | [SUSI 認証設定 &#x200B;](#susi-configuration) |
+| `susiConfig` | object | はい | [SUSI 認証設定 ](#susi-configuration) |
 | `onSelectionConfirmed` | 関数 | はい | 選択が確定したときのコールバック |
 | `onDismiss` | 関数 | はい | ダイアログが閉じたときのコールバック |
 | `locale` | 文字列 | いいえ | 言語ロケール（例：`en-US`） |
@@ -109,13 +109,13 @@ import { renderExperienceSelectorWithSUSI } from 'https://experience-stage.adobe
 
 - [Vite ビルドシステムとの統合を示した **完全な React アプリケーション**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/react-js)。
 
-- [&#x200B; コンポジション API 統合を使用した **Vue 3 アプリケーション**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vue-js)。
+- [ コンポジション API 統合を使用した **Vue 3 アプリケーション**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vue-js)。
 
 - [2 つの **Vanilla JavaScript実装**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js):
 
-   - [&#x200B; この **Vanilla ESM** バージョンでは、ES6 モジュールと最新のJavaScriptが使用されています &#x200B;](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm)。
+   - [ この **Vanilla ESM** バージョンでは、ES6 モジュールと最新のJavaScriptが使用されています ](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm)。
 
-   - [&#x200B; この **Vanilla UMD** バージョンでは、スクリプトタグを介して読み込まれた UMD バンドルを使用します &#x200B;](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var)。
+   - [ この **Vanilla UMD** バージョンでは、スクリプトタグを介して読み込まれた UMD バンドルを使用します ](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var)。
 
 ## 認証フロー
 
