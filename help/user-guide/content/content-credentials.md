@@ -33,11 +33,11 @@ Content CredentialsがAdmin Consoleでアクティブ化されると、GenStudio
 
 ## Content Credentialsとは 
 
-Content Credentialsは、コンテンツの作成方法の詳細と作成者の ID 情報を含む、耐久性のある業界標準のメタデータです。 Content Credentialsは、コンテンツがサポートプラットフォームにオンラインで公開されたとき、または [Adobeの検査ツール ](https://contentauthenticity.adobe.com/inspect)[Adobe Content Authenticity Chrome ブラウザー拡張機能 ](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html) などのツールを使用して表示できます。  
+Content Credentialsは、コンテンツの作成方法の詳細と作成者の ID 情報を含む、耐久性のある業界標準のメタデータです。 Content Credentialsは、コンテンツがサポートプラットフォームにオンラインで公開されたとき、または [Adobeの検査ツール &#x200B;](https://contentauthenticity.adobe.com/inspect) [Adobe Content Authenticity Chrome ブラウザー拡張機能 &#x200B;](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html) などのツールを使用して表示できます。  
 
 Content Credentialsを適用すると、コンテンツの作成方法の透明性を高め、ユーザーがコンテンツに慣れるのに役立ちます。
 
-[Content Credentialsの詳細については ](https://helpx.adobe.com/jp/creative-cloud/help/content-credentials.html)Adobeを参照してください。
+[Content Credentialsの詳細については &#x200B;](https://helpx.adobe.com/jp/creative-cloud/help/content-credentials.html)Adobeを参照してください。
 
 ## ブランド署名とアセットトラッキング
 
@@ -55,13 +55,13 @@ Content Credentialsの適用は、読み込みとコンテンツ検出から、�
 
 サムネールの右上隅にあるContent Credential バッジは、「ブランドが署名した」コンテンツを示します。
 
-![ 読み込まれたアセット（資格情報を含む） ](./images/import-discovery1.png){width="350"}
+![&#x200B; 読み込まれたアセット（資格情報を含む） &#x200B;](./images/import-discovery1.png){width="350"}
 
 署名済みコンテンツを選択すると、公開されたブランド、レコーダー、使用されたツール、タイムスタンプなどの詳細なメタデータが表示されます。
 
 コンテンツは、資格情報のステータスでフィルタリングできます。
 
-![ アセットの資格情報データ ](./images/import-discovery2.png)
+![&#x200B; アセットの資格情報データ &#x200B;](./images/import-discovery2.png)
 
 ### 作成と選択
 
@@ -69,33 +69,33 @@ Content Credentialバッジは、キャンバスアセットセレクターに�
 
 認証情報のメタデータは、編集全体を通じてプロベンションチェーンを維持するためにエクスペリエンスのアセットが選択されるたびに保持されます。
 
-![ キャンバスアセットセレクターのContent Credential バッジ ](./images/creation-selection1.png)
+![&#x200B; キャンバスアセットセレクターのContent Credential バッジ &#x200B;](./images/creation-selection1.png)
 
 ### 編集と変換
 
 ドラフトからの書き出し時に、変更されたアセットは自動的に再署名され、新しい資格情報が元の資格情報にリンクされます。
 
-![ 書き出されたアセットの資格情報データ ](./images/edit-and-transformation1.png){width="300"}
+![&#x200B; 書き出されたアセットの資格情報データ &#x200B;](./images/edit-and-transformation1.png){width="300"}
 
 ### レビューと承認
 
 レビューと承認のプレビューでは、右側のパネルにアセットの資格情報ステータスが表示されます。
 
-![ 承認済みアセットの資格情報データ ](./images/review-and-approve1.png){width="300"}
+![&#x200B; 承認済みアセットの資格情報データ &#x200B;](./images/review-and-approve1.png){width="300"}
 
 レビュー担当者がアセットを検査すると、バリアントごとの資格情報の詳細が表示されます。 ユーザーが「**[!UICONTROL コンテンツに保存]** をクリックすると、承認済みのエクスペリエンスが再署名されます。
 
-![ 承認済みアセットの資格情報データ ](./images/review-and-approve2.png)
+![&#x200B; 承認済みアセットの資格情報データ &#x200B;](./images/review-and-approve2.png)
 
 ### アクティベーションとエクスポート
 
 アクティベーション時に、エクスペリエンスセレクターに資格情報ステータスが表示される。
 
-![ アクティブ化されたアセットの資格情報データ ](./images/activate-export1.png){width="350"}
+![&#x200B; アクティブ化されたアセットの資格情報データ &#x200B;](./images/activate-export1.png){width="350"}
 
 書き出されたファイルには、C2PA 準拠の資格情報が埋め込まれます。
 
 サポートされるすべての形式（JPEG、PNG、MP4）で資格情報の整合性が維持されます。
 
-![ 書き出されたアセットの資格情報データ ](./images/activate-export2.png)
+![&#x200B; 書き出されたアセットの資格情報データ &#x200B;](./images/activate-export2.png)
 
