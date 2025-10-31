@@ -33,7 +33,7 @@ Content CredentialsがAdmin Consoleでアクティブ化されると、GenStudio
 
 ## Content Credentialsとは 
 
-Content Credentialsは、コンテンツの作成方法の詳細と作成者の ID 情報を含む、耐久性のある業界標準のメタデータです。 Content Credentialsは、コンテンツがサポートプラットフォームにオンラインで公開されたとき、または [Adobeの検査ツール &#x200B;](https://contentauthenticity.adobe.com/inspect) [Adobe Content Authenticity Chrome ブラウザー拡張機能 &#x200B;](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html) などのツールを使用して表示できます。  
+Content Credentialsは、コンテンツの作成方法の詳細と作成者の ID 情報を含む、耐久性のある業界標準のメタデータです。 Content Credentialsは、コンテンツがサポートプラットフォームにオンラインで公開されたとき、または [Adobeの検査ツール &#x200B;](https://contentauthenticity.adobe.com/inspect) [Adobe Content Authenticity Chrome ブラウザー拡張機能 &#x200B;](https://helpx.adobe.com/jp/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html) などのツールを使用して表示できます。  
 
 Content Credentialsを適用すると、コンテンツの作成方法の透明性を高め、ユーザーがコンテンツに慣れるのに役立ちます。
 
