@@ -22,7 +22,7 @@ GenStudio for Performance Marketingと連携するようにバナーとディス
 - スリムなサイズで適切に表示されるアセットの準備
 - 1 つの画像フィールドのみが必要です
 - 埋め込み画像またはエンコードされた背景画像は使用し **い**
-- GenStudio for Performance Marketing コンテンツリポジトリにアップロードされた背景画像（`image` フィールド）を使用します。 最適な結果を得るには、[ ディスプレイ広告用の画像のアップロード ](#uploading-images-for-display-ads) のガイドラインに従ってください
+- GenStudio for Performance Marketing コンテンツリポジトリにアップロードされた背景画像（`image` フィールド）を使用します。 最適な結果を得るには、[&#x200B; ディスプレイ広告用の画像のアップロード &#x200B;](#uploading-images-for-display-ads) のガイドラインに従ってください
 - JavaScript **使用しない**
 - 使用できるセクションは 1 つだけで、単一のテンプレート要素セットが生成されます
 
@@ -39,7 +39,7 @@ GenStudio for Performance Marketingでは、次のフィールドが自動的に
 
 - `cta`
 
-テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー ](/help/user-guide/content/customize-template.md#content-placeholders) を参照してください。
+テンプレートでのフィールド名の使用について詳しくは、[&#x200B; コンテンツプレースホルダー &#x200B;](/help/user-guide/content/customize-template.md#content-placeholders) を参照してください。
 
 ## サポートされるディメンション
 
@@ -61,12 +61,12 @@ GenStudio for Performance Marketingでは、次のフィールドが自動的に
 
 画像の切り抜きを解決するには、ユーザーは、画像をコンテンツリポジトリにアップロードする際に、画像の縦横比をテンプレートで定義する必要があります。 承認済みのディスプレイ広告テンプレートをアップロードする場合：
 
-1. [ 詳細を追加 ](/help/user-guide/content/use-templates.md#add-a-template) ページが表示されるまで **[!UICONTROL テンプレートのアップロードプロセスを続行]** ます。
+1. [&#x200B; 詳細を追加 &#x200B;](/help/user-guide/content/use-templates.md#add-a-template) ページが表示されるまで **[!UICONTROL テンプレートのアップロードプロセスを続行]** ます。
 
-1. テンプレートで使用する画像の縦横比を **[!UICONTROL 広告の幅（px）]****[!UICONTROL 広告の高さ（px）]** で定義します。 これにより、画像を表示するテンプレートのセクションに対する画像ウィンドウが定義されます。
+1. テンプレートで使用する画像の縦横比を **[!UICONTROL 広告の幅（px）]**&#x200B;**[!UICONTROL 広告の高さ（px）]** で定義します。 これにより、画像を表示するテンプレートのセクションに対する画像ウィンドウが定義されます。
 
 1. 「**[!UICONTROL 詳細]**」セクションで、「**[!UICONTROL 画像サイズ]**」ドロップダウンを選択し、「_固定サイズに切り抜き_」を選択します。
-   ![ 固定サイズに切り抜き ](./crop-to-fixed-size.png " 固定サイズに切り抜き "){width="80%"}
+   ![&#x200B; 固定サイズに切り抜き &#x200B;](./crop-to-fixed-size.png " 固定サイズに切り抜き "){width="80%"}
 
 ブラウザーで画像のサイズと縦横比を決定するには：
 
@@ -82,10 +82,10 @@ GenStudio for Performance Marketingでは、次のフィールドが自動的に
 
 アップロード時にこれらの詳細が適用されない場合、画像はテンプレートの全縦横比と見なされ、その縦横比に完全に一致しない画像は切り抜いて表示されます。
 
-![ ディスプレイでの画像の切り抜き ad](./cropped-display.png "Image cropping"){width="60%"}
+![&#x200B; ディスプレイでの画像の切り抜き ad](./cropped-display.png "Image cropping"){width="60%"}
 
 ディ **❌プレイ広告テンプレートの切り抜き画像**
 
-![ ディスプレイ広告に表示される画像 ](./full-fit.png " ディスプレイ広告に表示される画像 "){width="60%"}
+![&#x200B; ディスプレイ広告に表示される画像 &#x200B;](./full-fit.png " ディスプレイ広告に表示される画像 "){width="60%"}
 
 画像 **✅完全に表示されました**
