@@ -18,30 +18,30 @@ ht-degree: 0%
 
 GenStudio for Performance Marketingでテンプレートを使用する場合は、次の推奨事項を使用します。
 
-1. [ テンプレート要素 ](#know-about-template-elements) について
-1. コンテンツを効果的にパーソナライゼーションするための [ チャネルガイドライン ](#configure-channel-guidelines) の設定
-1. 最適なエクスペリエンスを実現するために [ アクセシビリティ標準 ](accessibility-for-templates.md) を使用したデザイン
-1. [ チャネル固有のテンプレートガイドライン ](#follow-channel-specific-template-guidelines) に従う
+1. [&#x200B; テンプレート要素 &#x200B;](#know-about-template-elements) について
+1. コンテンツを効果的にパーソナライゼーションするための [&#x200B; チャネルガイドライン &#x200B;](#configure-channel-guidelines) の設定
+1. 最適なエクスペリエンスを実現するために [&#x200B; アクセシビリティ標準 &#x200B;](accessibility-for-templates.md) を使用したデザイン
+1. [&#x200B; チャネル固有のテンプレートガイドライン &#x200B;](#follow-channel-specific-template-guidelines) に従う
 
 >[!TIP]
 >
->基本的なテンプレートの要素と手順について詳しくは、[ テンプレートの操作 ](use-templates.md) を参照してください。 次のキャンペーンで使用する [ テンプレートのカスタマイズ ](customize-template.md) について詳しく説明します。
+>基本的なテンプレートの要素と手順について詳しくは、[&#x200B; テンプレートの操作 &#x200B;](use-templates.md) を参照してください。 次のキャンペーンで使用する [&#x200B; テンプレートのカスタマイズ &#x200B;](customize-template.md) について詳しく説明します。
 
 ## テンプレート要素について
 
 ベストプラクティスとして、テンプレートの各部分をよく理解しておいてください。 テンプレートタイプごとに異なる要素を使用して、チャネル固有のコンテンツ作成用構造を作成します。 テンプレートをカスタマイズするには、GenStudio for Performance Marketingでコンテンツを生成する必要がある場所で、これらの要素の代わりにフィールド名を使用します。
 
-[ テンプレート要素 ](use-templates.md#template-elements) を参照してください。
+[&#x200B; テンプレート要素 &#x200B;](use-templates.md#template-elements) を参照してください。
 
 ## チャネルガイドラインの設定
 
 明確なチャネルガイドラインの定義は、生成されたコンテンツがブランドの要件や目標に確実に合致するようにするために不可欠です。 チャネルガイドラインでは、テンプレートで使用するトーン、長さ、スタイルなどの要素に関するルールを指定できます。 例えば、本文の最大文字数を設定したり、特定のcall-to-action スタイルを要求したりできます。 これらのガイドラインを事前に設定することで、各 AI プロンプトで詳細な手順を書き出す必要性を減らし、コンテンツ生成プロセスを合理化し、メール間の一貫性を確保します。
 
-テンプレート内のすべての主要なフィールドについて、ブランドの [ チャネルガイドライン ](/help/user-guide/guidelines/brands.md#channel-guidelines) を確認して定義します。 ガイドラインを定義しない場合は、[ デフォルトのチャネルガイドライン ](/help/user-guide/guidelines/brands.md#default-channel-guidelines) が適用されますが、ブランド要件が完全に反映されていない可能性があります。
+テンプレート内のすべての主要なフィールドについて、ブランドの [&#x200B; チャネルガイドライン &#x200B;](/help/user-guide/guidelines/brands.md#channel-guidelines) を確認して定義します。 ガイドラインを定義しない場合は、[&#x200B; デフォルトのチャネルガイドライン &#x200B;](/help/user-guide/guidelines/brands.md#default-channel-guidelines) が適用されますが、ブランド要件が完全に反映されていない可能性があります。
 
-![ ボディ仕様 ](/help/assets/channel-email-body.png)
+![&#x200B; ボディ仕様 &#x200B;](/help/assets/channel-email-body.png)
 
-[ ブランド、製品、ペルソナのガイドライン ](/help/user-guide/guidelines/overview.md) が生成されたコンテンツにどのように影響し、マーケティング目標に合わせてそれらを調整するかについて説明します。
+[&#x200B; ブランド、製品、ペルソナのガイドライン &#x200B;](/help/user-guide/guidelines/overview.md) が生成されたコンテンツにどのように影響し、マーケティング目標に合わせてそれらを調整するかについて説明します。
 
 ## テンプレート用の画像のアップロード
 
@@ -53,12 +53,12 @@ GenStudio for Performance Marketingでテンプレートを使用する場合は
 
 画像の切り抜きを解決するには、ユーザーは、コンテンツリポジトリにアップロードする際に、テンプレートで使用される画像の縦横比を定義する必要があります。 承認済みテンプレートをアップロードする場合：
 
-1. [ 詳細を追加 ](/help/user-guide/content/use-templates.md#add-a-template) ページが表示されるまで **[!UICONTROL テンプレートのアップロードプロセスを続行]** ます。
+1. [&#x200B; 詳細を追加 &#x200B;](/help/user-guide/content/use-templates.md#add-a-template) ページが表示されるまで **[!UICONTROL テンプレートのアップロードプロセスを続行]** ます。
 
-2. テンプレートで使用する画像の縦横比を **[!UICONTROL 広告の幅（px）]****[!UICONTROL 広告の高さ（px）]** で定義します。 これにより、画像を表示するテンプレートのセクションに対する画像ウィンドウが定義されます。
+2. テンプレートで使用する画像の縦横比を **[!UICONTROL 広告の幅（px）]**&#x200B;**[!UICONTROL 広告の高さ（px）]** で定義します。 これにより、画像を表示するテンプレートのセクションに対する画像ウィンドウが定義されます。
 
 3. 「**[!UICONTROL 詳細]**」セクションで、「**[!UICONTROL 画像サイズ]**」ドロップダウンを選択し、「_固定サイズに切り抜き_」を選択します。
-   ![ 固定サイズに切り抜き ](./images/crop-to-fixed-size.png " 固定サイズに切り抜き "){width="80%"}
+   ![&#x200B; 固定サイズに切り抜き &#x200B;](./images/crop-to-fixed-size.png " 固定サイズに切り抜き "){width="80%"}
 
 ブラウザーで画像のサイズと縦横比を決定するには：
 
@@ -74,11 +74,11 @@ GenStudio for Performance Marketingでテンプレートを使用する場合は
 
 アップロード時にこれらの詳細が適用されない場合、画像はテンプレートの全縦横比と見なされ、その縦横比に完全に一致しない画像は切り抜いて表示されます。
 
-![ ディスプレイでの画像の切り抜き ad](./images/cropped-display.png "Image cropping"){width="60%"}
+![&#x200B; ディスプレイでの画像の切り抜き ad](./images/cropped-display.png "Image cropping"){width="60%"}
 
 ディ **❌プレイ広告テンプレートの切り抜き画像**
 
-![ ディスプレイ広告に表示される画像 ](./images/full-fit.png " ディスプレイ広告に表示される画像 "){width="60%"}
+![&#x200B; ディスプレイ広告に表示される画像 &#x200B;](./images/full-fit.png " ディスプレイ広告に表示される画像 "){width="60%"}
 
 画像 **✅完全に表示されました**
 
