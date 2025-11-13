@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # ガイドラインの追加
 
-GenStudio for Performance Marketingでは、ユーザー定義のガイドラインを設定して、AI で生成されたコンテンツをブランド ID に合わせてカスタマイズできます。 このページでは、使用可能な各ガイドラインを設定して使用する手順を説明します。 一般的な説明については、[ ガイドラインの概要 ](/help/user-guide/guidelines/overview.md) を参照してください。
+GenStudio for Performance Marketingでは、ユーザー定義のガイドラインを設定して、AI で生成されたコンテンツをブランド ID に合わせてカスタマイズできます。 このページでは、使用可能な各ガイドラインを設定して使用する手順を説明します。 一般的な説明については、[&#x200B; ガイドラインの概要 &#x200B;](/help/user-guide/guidelines/overview.md) を参照してください。
 
-GenStudio for Performance Marketingへのガイドラインの追加は、作成プロセスの重要な手順です。 ガイドラインは、ユーザー定義のプロンプト、[ アクセシビリティとコンテンツチェック ](overview.md#compliance)、Adobe生成 AI テクノロジーと共に、コンテンツ作成プロセスに情報を提供し、効果的なアセットを作成します。
+GenStudio for Performance Marketingへのガイドラインの追加は、作成プロセスの重要な手順です。 ガイドラインは、ユーザー定義のプロンプト、[&#x200B; アクセシビリティとコンテンツチェック &#x200B;](overview.md#compliance)、Adobe生成 AI テクノロジーと共に、コンテンツ作成プロセスに情報を提供し、効果的なアセットを作成します。
 
 ガイドラインは、ユーザー定義にすることも、[default [!DNL Brand] channel guidelines](/help/user-guide/guidelines/brands.md#default-channel-guidelines) などのデフォルトガイドラインとして存在することもできます。
 
@@ -26,11 +26,11 @@ GenStudio for Performance Marketingへのガイドラインの追加は、作成
 
 ## ブランドを追加
 
-[!DNL Brand] を追加するには、[ ブランドガイドをアップロード ](#upload-a-brand) するか、[ ブランドを手動で作成 ](#manually-add-brand) ガイドラインを選択してブランドの詳細を入力します。 [a [!DNL Brand]](#publish-brand) を [!DNL Content] に公開して、今後のコンテンツ生成で使用できるようにします。
+[!DNL Brand] を追加するには、[&#x200B; ブランドガイドをアップロード &#x200B;](#upload-a-brand) するか、[&#x200B; ブランドを手動で作成 &#x200B;](#manually-add-brand) ガイドラインを選択してブランドの詳細を入力します。 [a [!DNL Brand]](#publish-brand) を [!DNL Content] に公開して、今後のコンテンツ生成で使用できるようにします。
 
 左側のナビゲーション領域で、「**[!DNL Brands]** 共有 _リストから「_」をクリックします。
 
-![GenStudio for Performance Marketingのガイドライン ](/help/assets/guidelines.png){width="650" zoomable="yes"}
+![GenStudio for Performance Marketingのガイドライン &#x200B;](/help/assets/guidelines.png){width="650" zoomable="yes"}
 
 英語以外の言語で記述されたブランドガイドラインをアップロードした場合、または英語以外の言語を使用して手動でブランドを作成した場合、GenStudio for Performance Marketingではそのガイドラインが同じ言語で表示されます。
 
@@ -46,7 +46,7 @@ GenStudio for Performance Marketingへのガイドラインの追加は、作成
 
 **ブランドドキュメントをアップロードするには**:
 
-1. _[!DNL Brands]_パネルで、「**[!UICONTROL ブランドを追加]**ボタンを選択します。
+1. _[!DNL Brands]_&#x200B;パネルで、「**[!UICONTROL ブランドを追加]**&#x200B;ボタンを選択します。
 1. **[!UICONTROL PDF をアップロード]** を選択し、「_ブランドを追加する方法を選択_ ポップアップでブランド名を入力します。
 1. 「**[!UICONTROL 続行]**」を選択します。
 1. ブランドガイドラインドキュメントを参照して _[!UICONTROL ブランドを追加]_ ポップアップに添付またはドラッグします。
@@ -61,7 +61,7 @@ GenStudio for Performance Marketingへのガイドラインの追加は、作成
 
 ### ブランドを手動で追加
 
-既存のブランドドキュメントをアップロードする代わりに、ブランドの詳細を手動で追加して、新しい [ ブランド ](brands.md) を作成できます。
+既存のブランドドキュメントをアップロードする代わりに、ブランドの詳細を手動で追加して、新しい [&#x200B; ブランド &#x200B;](brands.md) を作成できます。
 
 **ブランドを手動で追加するには**:
 
@@ -80,18 +80,18 @@ GenStudio for Performance Marketingへのガイドラインの追加は、作成
    - _このブランドを使用するタイミング_: **[!UICONTROL 追加]** をクリック（または、テキストフィールドをクリックして既存のテキストを変更）し、ブランドに関する概要および使用状況情報を入力します。 「**[!UICONTROL 変更を保存]**」をクリックします。
    - [_[!DNL Brand] voice guidelines _](brands.md#brand-voice-guidelines)：各ガイドライン フィールドに該当する情報を追加します。
 
-     ![ 音声ガイドライン [!DNL Brand] 追加 ](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
+     ![&#x200B; 音声ガイドライン [!DNL Brand] 追加 &#x200B;](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
 
-   - [_画像ガイドライン_](brands.md#image-guidelines):「カテゴリを追加 **** をクリックして、「一般的なアートガイドライン」や「製品写真」などのガイドラインカテゴリを追加します。 追加した各カテゴリにガイドラインを入力します。
+   - [_画像ガイドライン_](brands.md#image-guidelines):「カテゴリを追加 **&#x200B;**&#x200B;をクリックして、「一般的なアートガイドライン」や「製品写真」などのガイドラインカテゴリを追加します。 追加した各カテゴリにガイドラインを入力します。
    - [_チャネルガイドライン_](brands.md#channel-guidelines)：使用可能な各チャネルをクリックして、適切なガイドラインを追加します。
    - [_ロゴ_](brands.md#logos):「**[!UICONTROL ロゴを追加]**」をクリックしてドラッグ&amp;ドロップするか、参照してロゴをアップロードします。
    - [_カラー_](brands.md#colors): 「**[!UICONTROL カラーを追加]**」をクリックして 16 進数またはRGBのカラーコードを使用するか、カラーピッカーをクリックして個々のカラーを追加します。
 
-     ![ ブランドカラー ](/help/assets/colors.png){width="600" zoomable="yes"}
+     ![&#x200B; ブランドカラー &#x200B;](/help/assets/colors.png){width="600" zoomable="yes"}
 
 作成した [!DNL Brands] を表示するには、_[!UICONTROL Brands]_ パネルの上部付近にある背面矢印をクリックして、_[!UICONTROL Brands]_ ホームに戻ります。
 
-情報にアクセスするために [ を ](#publish-brand) 公開 [!DNL Brand] する必要はありません。 手動で追加した情報は、追加後直ちに使用できます。 組織内の他のユーザーがGenStudio for Performance Marketingの [!DNL Brand] 情報を使用できるようにするには、その情報を公開する必要があります。 作成された [!DNL Brand] は、公開されるまでドラフト形式になります。
+情報にアクセスするために [&#x200B; を &#x200B;](#publish-brand) 公開 [!DNL Brand] する必要はありません。 手動で追加した情報は、追加後直ちに使用できます。 組織内の他のユーザーがGenStudio for Performance Marketingの [!DNL Brand] 情報を使用できるようにするには、その情報を公開する必要があります。 作成された [!DNL Brand] は、公開されるまでドラフト形式になります。
 
 ### ブランドサムネールの変更
 
@@ -106,13 +106,13 @@ GenStudio for Performance Marketingへのガイドラインの追加は、作成
 1. _[!UICONTROL サムネールを変更]_ で、アップロードした画像を変更します。
 1. 「**[!UICONTROL 更新]**」を選択して、画像を [!DNL Brand] サムネール画像として保存します。
 
-[!DNL Brand] ージの [!UICONTROL  ロゴ ] タブ表示で、既存の [!DNL Brand] ロゴを選択できます。 クリックしてロゴを開き、アクションメニューから **[!UICONTROL ブランドサムネールとして使用]** を選択します。
+[!DNL Brand] ージの [!UICONTROL &#x200B; ロゴ &#x200B;] タブ表示で、既存の [!DNL Brand] ロゴを選択できます。 クリックしてロゴを開き、アクションメニューから **[!UICONTROL ブランドサムネールとして使用]** を選択します。
 
 ### ブランドを公開
 
 [!DNL Brand] ドラフトを公開する前に、すべてのガイドラインセクションをクリックして、入力されたすべての情報を確認します。 必要に応じて、ブランドガイドラインを変更します。
 
-_[!DNL Brands]_では、ドラフトまたは公開済みの [!DNL Brands] はタイルとして表示されます。 ステータスバッジ_ 公開済み _または_ ドラフト _と、ブランドが最後に変更された日時が、各タイルの下部に表示されます。
+_[!DNL Brands]_&#x200B;では、ドラフトまたは公開済みの [!DNL Brands] はタイルとして表示されます。 ステータスバッジ_ 公開済み _または_ ドラフト _と、ブランドが最後に変更された日時が、各タイルの下部に表示されます。
 
 >[!TIP]
 >
@@ -138,36 +138,36 @@ _[!DNL Brands]_では、ドラフトまたは公開済みの [!DNL Brands] は�
 
 ### ブランドの管理
 
-_[!DNL Brands]_ホームで、クリックして、既に作成されたブランドを開き、管理または公開できます。
+_[!DNL Brands]_&#x200B;ホームで、クリックして、既に作成されたブランドを開き、管理または公開できます。
 
 **ブランド情報を表示** するには、左側のナビゲーション領域で「**[!UICONTROL [!DNL Brands]]**」をクリックし、既存のブランドをクリックして開きます。
 
 **表示で** ブランドを変更するには [!DNL Brands] 次の手順に従います。
 
 1. **[!DNL Brands]** で、定義済みのブランドをクリックして開きます。
-1. 個々の詳細を表示したり、ガイドラインを変更したりするには、上部にある [**[!UICONTROL  ブランドの音声ガイドライン ]**](brands.md#brand-voice-guidelines)、[**[!UICONTROL  画像ガイドライン ]**](brands.md#image-guidelines)、[**[!UICONTROL  チャネルガイドライン ]**](brands.md#channel-guidelines)、[**[!UICONTROL  ロゴ ]**](brands.md#logos) または [**[!DNL Colors]**](brands.md#colors) をクリックします。
-1. ブランドロゴを管理するには、上部の [**[!UICONTROL  ロゴ ]**](brands.md#logos) をクリックし、アクションメニュー（3 つのドット）をクリックします。
+1. 個々の詳細を表示したり、ガイドラインを変更したりするには、上部にある [**[!UICONTROL &#x200B; ブランドの音声ガイドライン &#x200B;]**](brands.md#brand-voice-guidelines)、[**[!UICONTROL &#x200B; 画像ガイドライン &#x200B;]**](brands.md#image-guidelines)、[**[!UICONTROL &#x200B; チャネルガイドライン &#x200B;]**](brands.md#channel-guidelines)、[**[!UICONTROL &#x200B; ロゴ &#x200B;]**](brands.md#logos) または [**[!DNL Colors]**](brands.md#colors) をクリックします。
+1. ブランドロゴを管理するには、上部の [**[!UICONTROL &#x200B; ロゴ &#x200B;]**](brands.md#logos) をクリックし、アクションメニュー（3 つのドット）をクリックします。
    1. **[!UICONTROL 詳細を表示]** を選択して、[!DNL Brand] 形式 _や_ サイズ _などの_ の情報を表示します。
    1. 「**[!UICONTROL ダウンロード]**」を選択して、ロゴをダウンロードします。
-   1. ロゴをサムネール画像として設定するには、「[**[!UICONTROL  ブランドサムネールとして使用 ]](#change-brand-thumbnail)」を選択します。
+   1. ロゴをサムネール画像として設定するには、「[**[!UICONTROL &#x200B; ブランドサムネールとして使用 &#x200B;]](#change-brand-thumbnail)」を選択します。
    1. 「**[!UICONTROL 名前変更]**」を選択して、ロゴの名前を変更します。
    1. 「**[!UICONTROL 削除]**」を選択して、ロゴを削除します。
 1. 既存のブランドの名前を変更するには、タイトルをクリックして新しいタイトルを入力します。
-1. 既存のブランドを複製するには、**[!UICONTROL のアクションメニューから]** 複製 _[!DNL Brands]_を選択します。
+1. 既存のブランドを複製するには、**[!UICONTROL のアクションメニューから]** 複製 _[!DNL Brands]_&#x200B;を選択します。
    1. _ブランドを複製_ ポップアップにブランド名を入力し、「**[!UICONTROL ブランドを複製]**」をクリックします。
 
       ポップアップは、ブランドが複製されていることを確認します（「新しいブランドが作成されました」）。 複製されたブランドは、最初は _非公開_ モードになっています。
 
-   1. 複製したブランドをカスタマイズし、[ 公開 ](#publish-brand) して使用できるようにします。
+   1. 複製したブランドをカスタマイズし、[&#x200B; 公開 &#x200B;](#publish-brand) して使用できるようにします。
 1. ブランドを削除するには、**[!UICONTROL のアクションメニューから]** 削除 [!DNL Brands] を選択します。
 
 ## [!DNL Personas] の追加
 
-ペルソナを追加するには、ガイドラインを選択してペルソナの詳細を入力し、[ ペルソナをアップロード ](#upload-a-persona) するか、[ ペルソナを手動で作成 ](#manually-add-persona) します。
+ペルソナを追加するには、ガイドラインを選択してペルソナの詳細を入力し、[&#x200B; ペルソナをアップロード &#x200B;](#upload-a-persona) するか、[&#x200B; ペルソナを手動で作成 &#x200B;](#manually-add-persona) します。
 
 左側のナビゲーション領域で、「**[!DNL Personas]** 共有 _リストから「_」をクリックします。
 
-![GenStudio for Performance Marketingのガイドライン ](/help/assets/guidelines.png){width="650" zoomable="yes"}
+![GenStudio for Performance Marketingのガイドライン &#x200B;](/help/assets/guidelines.png){width="650" zoomable="yes"}
 
 GenStudio for Performance Marketingで [!DNL Persona] を追加すると、作成するコンテンツを理想的なオーディエンスにターゲット設定するのに役立ちます。
 
@@ -179,7 +179,7 @@ GenStudio for Performance Marketingで [!DNL Persona] を追加すると、作�
 
 詳しくは、[[!DNL Personas]](/help/user-guide/guidelines/personas.md) を参照してください。
 
-1. _[!DNL Personas]_パネルで、「**[!UICONTROL ペルソナを追加]**ボタンを選択します。
+1. _[!DNL Personas]_&#x200B;パネルで、「**[!UICONTROL ペルソナを追加]**&#x200B;ボタンを選択します。
 1. **[!UICONTROL ファイルをアップロード]** を選択し、「_ペルソナを追加する方法を選択_ ポップアップでペルソナ名を入力します。
 1. 「**[!UICONTROL 続行]**」を選択します。
 1. ペルソナガイドラインのドキュメントを参照して添付するか、「ペルソナを追加 _[!UICONTROL ポップアップにドラッグ]_ ます。
@@ -194,7 +194,7 @@ GenStudio for Performance Marketingで [!DNL Persona] を追加すると、作�
 
 ### ペルソナを手動で追加
 
-既存のペルソナドキュメントをアップロードする代わりに、ペルソナの詳細を手動で追加して、新しい [ ペルソナ ](personas.md) を入力できます。
+既存のペルソナドキュメントをアップロードする代わりに、ペルソナの詳細を手動で追加して、新しい [&#x200B; ペルソナ &#x200B;](personas.md) を入力できます。
 
 **ペルソナを手動で追加するには**:
 
@@ -221,24 +221,24 @@ GenStudio for Performance Marketingで [!DNL Persona] を追加すると、作�
    1. **[!UICONTROL 画像を使用]** をクリックします。
    1. カバー画像の位置を変更するには、アクションメニューの **[!UICONTROL 再配置]** をクリックし、画像を目的の位置にドラッグして **[!UICONTROL 保存]** をクリックします。
 
-   作成した [!DNL Personas] を表示するには、「_ペルソナ_ ビューの上部付近にある背面矢印をクリックして、_[!DNL Personas]_ホームに戻ります。
+   作成した [!DNL Personas] を表示するには、「_ペルソナ_ ビューの上部付近にある背面矢印をクリックして、_[!DNL Personas]_&#x200B;ホームに戻ります。
 
 ### [!DNL Personas] の管理
 
-_[!DNL Personas]_ホームでは、**作成済みの[!DNL Persona]**を開いて編集またはレビューするか、**ペルソナを削除**リストから選択できます。
+_[!DNL Personas]_&#x200B;ホームでは、**作成済みの[!DNL Persona]**&#x200B;を開いて編集またはレビューするか、**ペルソナを削除**&#x200B;リストから選択できます。
 
 - **[!UICONTROL のアクションメニューから]** 開く [!DNL Personas] を選択して、既存のペルソナを修正してレビューします。
 - **[!UICONTROL のアクションメニューから「]** 削除 [!DNL Personas]」を選択して、ペルソナを **削除** します。
-- **[!UICONTROL のアクションメニューからペルソナの]**[!DNL Personas] 名前を変更 **を選択し** す。
+- **[!UICONTROL のアクションメニューからペルソナの]**&#x200B;[!DNL Personas] 名前を変更 **を選択し** す。
 
 ## [!DNL Products] の追加
 
 製品を追加するには：
 
 1. 左側のナビゲーション領域で、「**[!DNL Products]** 共有 _リストから「_」をクリックします。
-   ![GenStudio for Performance Marketingのガイドライン ](/help/assets/guidelines.png){width="650" zoomable="yes"}
-1. _[!DNL Products]_パネルで、「**製品を追加**」を選択します。
-1. ガイドラインを選択して製品の詳細を入力することで、[ 製品をアップロード ](#upload-a-product) または [ 製品を手動で作成 ](#manually-add-product) を選択できます。
+   ![GenStudio for Performance Marketingのガイドライン &#x200B;](/help/assets/guidelines.png){width="650" zoomable="yes"}
+1. _[!DNL Products]_&#x200B;パネルで、「**製品を追加**」を選択します。
+1. ガイドラインを選択して製品の詳細を入力することで、[&#x200B; 製品をアップロード &#x200B;](#upload-a-product) または [&#x200B; 製品を手動で作成 &#x200B;](#manually-add-product) を選択できます。
 
 ![[!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"} を追加
 
@@ -267,7 +267,7 @@ GenStudio for Performance Marketingに [!DNL Product] を含めることで、�
 
 ### 製品を手動で追加
 
-既存の製品ドキュメントをアップロードする代わりに、製品の詳細を手動で追加して、新しい [ 製品 ](products.md) を入力できます。
+既存の製品ドキュメントをアップロードする代わりに、製品の詳細を手動で追加して、新しい [&#x200B; 製品 &#x200B;](products.md) を入力できます。
 
 **製品を手動で追加するには**:
 
@@ -292,11 +292,11 @@ GenStudio for Performance Marketingに [!DNL Product] を含めることで、�
    1. **[!UICONTROL 画像を使用]** をクリックします。
    1. カバー画像の位置を変更するには、アクションメニューの **[!UICONTROL 再配置]** をクリックし、画像を目的の位置にドラッグして **[!UICONTROL 保存]** をクリックします。
 
-   作成した [!DNL Products] を表示するには、「_製品_ ビューの上部付近にある背面矢印をクリックして、_[!DNL Products]_ホームに戻ります。
+   作成した [!DNL Products] を表示するには、「_製品_ ビューの上部付近にある背面矢印をクリックして、_[!DNL Products]_&#x200B;ホームに戻ります。
 
 ### [!DNL Products] の管理
 
-_[!DNL Products]_ホームでは、**作成済みの[!DNL Product]**を開いて編集またはレビューするか、**製品を削除**リストから操作できます。
+_[!DNL Products]_&#x200B;ホームでは、**作成済みの[!DNL Product]**&#x200B;を開いて編集またはレビューするか、**製品を削除**&#x200B;リストから操作できます。
 
 - **[!UICONTROL のアクションメニューから]** 開く [!DNL Products] を選択して、既存の製品を改訂およびレビューします。
 - **[!UICONTROL のアクションメニューから「]** 削除 [!DNL Products]」を選択して、製品を **削除** します。
@@ -306,11 +306,11 @@ _[!DNL Products]_ホームでは、**作成済みの[!DNL Product]**を開いて
 
 >[!NOTE]
 >
->[!DNL Audiences] 機能を使用するには、Adobe チームがGenStudioにオンボーディングする必要があります。 テンプレートパラメーターに _[!DNL Audiences]_が表示されない場合は、Adobe担当者にお問い合わせください。
+>[!DNL Audiences] 機能を使用するには、Adobe チームがGenStudioにオンボーディングする必要があります。 テンプレートパラメーターに _[!DNL Audiences]_&#x200B;が表示されない場合は、Adobe担当者にお問い合わせください。
 
 Adobe Real-Time Customer Data Platform（RTCDP）からターゲットを絞 [!DNL Audiences] た顧客セグメントを提供することで、正確なターゲティングデータをコンテンツ生成ワークフローに取り込みます。 GenStudio for Performance Marketingでは、オーディエンス定義を活用して、特定の顧客セグメントに合わせてカスタマイズされたマーケティングコンテンツを作成するのに役立ちます。
 
-[!DNL Audiences] は、パラメーターペインの [_[!DNL Create]_ワークフロー ](../create/overview.md#templates) にドロップダウンとして表示されます。 両方_[!DNL Audiences]_ ガイドラインを使用する場合は、_[!DNL Personas]_に特異性を追加できますが、個別に効果的に使用することもできます。
+[!DNL Audiences] は、パラメーターペインの [_[!DNL Create]_&#x200B;ワークフロー &#x200B;](../create/overview.md#templates) にドロップダウンとして表示されます。 両方&#x200B;_[!DNL Audiences]_ ガイドラインを使用する場合は、_[!DNL Personas]_&#x200B;に特異性を追加できますが、個別に効果的に使用することもできます。
 
 オンボーディング中に、オーディエンス定義が読み込まれ、GenStudio互換のフォーマットに変換されます。 このプロセスは通常、完了するまでに数日かかります。 開始するには、Adobe チームにお問い合わせください。
 
@@ -318,13 +318,13 @@ Adobe Real-Time Customer Data Platform（RTCDP）からターゲットを絞 [!D
 
 - Adobe Real-Time Customer Data Platformへの組織アクセス
 - RTCDP サンドボックスに設定済みの既存のオーディエンス
-- _[!DNL Audience]_統合には、Adobe チームによる手動のオンボーディングプロセスが必要です
+- _[!DNL Audience]_&#x200B;統合には、Adobe チームによる手動のオンボーディングプロセスが必要です
 
 **オーディエンスを選択するには**:
 
-1. [_[!DNL Create]_ワークフロー ](../create/overview.md#templates) でテンプレートを選択し、**[!UICONTROL 使用]**ボタンをクリックしてドラフトを開きます。
+1. [_[!DNL Create]_&#x200B;ワークフロー &#x200B;](../create/overview.md#templates) でテンプレートを選択し、**[!UICONTROL 使用]**&#x200B;ボタンをクリックしてドラフトを開きます。
 1. パラメーターリストで「_[!UICONTROL オーディエンス]_」ドロップダウンをクリックすると、使用可能なすべてのオーディエンスが表示されます。
-   ![ ペルソナパラメーターペインのオーディエンスドロップダウン ](./audience-dropdown.png){width=450}
+   ![&#x200B; ペルソナパラメーターペインのオーディエンスドロップダウン &#x200B;](./audience-dropdown.png){width=450}
 1. 割り当てるオーディエンスをリストから選択します。 [!DNL Persona] ーザーが選択されている場合は、選択した [!DNL Persona] ーディエンスに合った推奨オーディエンスが推奨されます。
 1. **[!UICONTROL オーディエンスの詳細を表示]** をクリックして、選択したオーディエンスに対して生成された展開された説明とメッセージング環境設定を表示します。 オーディエンスの詳細は、コンテンツ生成を通知し、クリエイティブがターゲットセグメントの特定の特性や好みに合っていることを確認します。
-   ![ オーディエンスの詳細パネル ](./audience-details.png){width=450}
+   ![&#x200B; オーディエンスの詳細パネル &#x200B;](./audience-details.png){width=450}
