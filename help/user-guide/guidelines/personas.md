@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Personas]
 description: GenStudio for Performance Marketing [!DNL Personas] 、お客様の関心、問題点、好み、行動特性を取り込み、お客様のセグメントを真に表したものです。
 feature: Persona Personalization, Variant Generation, Generative AI
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 顧客の情報、関心、問題点、好み、行動特性など、顧客セグメントを真正に描写で [!DNL Personas] ます。
 
-GenStudio for Performance Marketingでは、ガイドライン（[[!DNL Brands]、 [!DNL Products]、および  [!DNL Personas]](overview.md)）とAdobeのジェネレーティブ AI テクノロジーの力を活用して、ターゲット顧客に向けてパーソナライズされたマーケティングコンテンツをキュレーション&#x200B;ます。
+GenStudio for Performance Marketingでは [ ガイドラインの力 ](overview.md) とAdobeのジェネレーティブ AI テクノロジーを活用して、パーソナライズされたマーケティングコンテンツをターゲット顧客にキュレーションします。&#x200B;
 
 **ペルソナの表示または変更**:
 
 1. 左側のナビゲーション領域で、「**[!UICONTROL ペルソナ]**」をクリックします。
-1. [&#x200B; 個々の詳細の表示またはペルソナの変更 &#x200B;](add-guidelines.md#manage-personas) を行うには、_[!DNL Personas]_&#x200B;のアクションメニューをクリックして&#x200B;**開く**&#x200B;を選択します。
+1. [ 個々の詳細の表示またはペルソナの変更 ](add-guidelines.md#manage-personas) を行うには、_[!DNL Personas]_のアクションメニューをクリックして&#x200B;**開く**を選択します。
 1. ガイドラインカテゴリのテキストフィールドをクリックして、ペルソナのガイドラインを修正します。
 
-GenStudio for Performance Marketingでペルソナを追加または変更する方法については、[&#x200B; ガイドラインの追加 &#x200B;](add-guidelines.md) を参照してください。
+GenStudio for Performance Marketingでペルソナを追加または変更する方法については、[ ガイドラインの追加 ](add-guidelines.md) を参照してください。
 
 ## [!DNL Personas] ガイドライン
 
 個々のペルソナのガイドラインは、GenStudio for Performance Marketingに対して、[!DNL Personas] ーザーの明確な全体像を提供します。
 
-![&#x200B; ペルソナのガイドライン &#x200B;](/help/assets/personas.png){width="600" zoomable="yes"}
+![ ペルソナのガイドライン ](/help/assets/personas.png){width="600" zoomable="yes"}
 
 このガイドラインでは、各ガイドラインのカテゴリと関連例について詳しく説明します。 例としては、生成されたコンテンツの出力を形成するサンプル入力があります。 これらを使用して、独自の [!DNL Personas] ガイドラインを伝えます。
 
