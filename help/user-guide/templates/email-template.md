@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 49d8d5daa2f3c93c18cd9132dab5207871b51237
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -40,11 +40,11 @@ GenStudio for Performance Marketingでは、次のフィールドが自動的に
 - `pre_header`
 - `subject`
 
-テンプレートで許可される最大フィールド数は 20 です。 テンプレートでのフィールド名の使用について詳しくは、[&#x200B; コンテンツプレースホルダー &#x200B;](/help/user-guide/content/customize-template.md#content-placeholders) を参照してください。
+テンプレートで許可される最大フィールド数は 20 です。 テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー ](/help/user-guide/templates/customize-template.md#content-placeholders) を参照してください。
 
 ## 複数セクションのメール
 
-_セクション_ を使用すると、コンテンツを個別のグループに整理して、より複雑なレイアウトをサポートできます。 GenStudio for Performance Marketingでは、グループ命名規則を使用して各セクションを定義できます。 [&#x200B; テンプレートセクションのカスタマイズ &#x200B;](/help/user-guide/content/customize-template.md#sections-or-groups) を参照してください。
+_セクション_ を使用すると、コンテンツを個別のグループに整理して、より複雑なレイアウトをサポートできます。 GenStudio for Performance Marketingでは、グループ命名規則を使用して各セクションを定義できます。 [ テンプレートセクションのカスタマイズ ](/help/user-guide/templates/customize-template.md#sections-or-groups) を参照してください。
 
 複数セクションのテンプレートには、0 個、2 個、または 3 個のセクションがあります。
 
@@ -110,7 +110,7 @@ _セクション_ を使用すると、コンテンツを個別のグループ�
 
 +++例：複数のセクションを持つメールテンプレート
 
-ここでは、上記の例と同じHTML テンプレートを、さらに 2 つのセクションで紹介します。 ヘッドには、グループのスタイル設定に使用するインライン CSS が含まれています。 本文では、プレフィックスを使用して、[&#x200B; コンテンツプレースホルダー &#x200B;](#content-placeholders) を含む 2 つのグループを使用します。
+ここでは、上記の例と同じHTML テンプレートを、さらに 2 つのセクションで紹介します。 ヘッドには、グループのスタイル設定に使用するインライン CSS が含まれています。 本文では、プレフィックスを使用して、[ コンテンツプレースホルダー ](#content-placeholders) を含む 2 つのグループを使用します。
 
 ```html
 <!DOCTYPE html>

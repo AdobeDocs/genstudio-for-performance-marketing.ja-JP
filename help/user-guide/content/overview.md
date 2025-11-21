@@ -4,7 +4,7 @@ description: ブランドで承認されたアセットを 1 つの直感的な�
 level: Beginner
 feature: Content Management, Media Templates
 exl-id: e44e9c2d-33ee-4621-93a2-27f49478a8c9
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 650a32a1bbb10c17ff25c5bbb36f12cead218dfc
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -13,63 +13,116 @@ ht-degree: 1%
 
 # Adobe GenStudio for Performance Marketing [!DNL Content]
 
-GenStudio for Performance Marketing [!DNL Content] は、ブランドが承認したすべてのアセット、エクスペリエンスおよびテンプレートを一元的に保存、検索および共有する場所を提供します。 コンテンツの編集とリミックス、コンテンツの使用状況とセンチメントのインサイト、生成 AI を使用した既存のアセットの更新と再利用ができます。
+GenStudio for Performance Marketing [!DNL Content] は、ブランドが承認したすべてのアセット、エクスペリエンスおよびテンプレートを一元的に保存、検索および共有する場所を提供します。 コンテンツの編集とリミックス、コンテンツの使用状況とセンチメントのinsight、ジェネレーティブ AI を使用した既存アセットの更新と再利用を行うことができます。
 
 ## [!DNL Content] のユースケース
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md#search">
+
          <img alt="拡大鏡" src="../../assets/icons/icon-search.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md#search-content">
+
          <strong> コンテンツを検索 </strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md">
+
          <img alt="プラス記号（+）付きの画像" src="../../assets/icons/icon-addContent.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md">
+
          <strong> アセットの追加 </strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/asset-details.md#edit-in-express">
+
          <img alt="Adobe Expressで編集" src="../../assets/icons/icon-editExpress.png">
+
       </a>
+
       <p>
+
          <a href="../content/asset-details.md#edit-in-express">
+
          <strong>Adobe Expressでのアセットの編集 </strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
-      <a href="../content/customize-template.md">
+
+      <a href="../templates/customize-template.md">
+
          <img alt="アセットの稲妻" src="../../assets/icons/icon-template.png">
+
       </a>
+
       <p>
-         <a href="../content/customize-template.md">
+
+         <a href="../templates/customize-template.md">
+
          <strong> テンプレートのカスタマイズ </strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
-      <a href="../content/use-templates.md">
+
+      <a href="../templates/use-templates.md">
+
          <img alt="プラス記号を使用したアセット上のボルトの軽量化" src="../../assets/icons/icon-addTemplate.png">
+
       </a>
+
       <p>
-         <a href="../content/use-templates.md#upload-a-template">
+
+         <a href="../templates/use-templates.md#upload-a-template">
+
          <strong> テンプレートをアップロード </strong>
+
          </a>
+
       </p>
+
    </td>
+
 </tr>
+
 </table>
 
 ## [!DNL Content] 機能
@@ -78,7 +131,7 @@ GenStudio for Performance Marketing [!DNL Content] を使用すると、承認�
 
 ### アセットのアップロード
 
-**[!UICONTROL アセットを追加]** パネルを使用すると、ローカルファイル内のアセットをドラッグ&amp;ドロップまたは参照できます。 オプションで、OneDrive やDropboxなどの外部ソースからアセットを読み込むことができます。 アップロード前に必要な詳細は、[!UICONTROL &#x200B; キャンペーン &#x200B;] またはプロジェクト名のみです。 キーワードなどの詳細情報を指定すると、チームの全員が関連するコンテンツをすばやく識別して取得できます。
+**[!UICONTROL アセットを追加]** パネルを使用すると、ローカルファイル内のアセットをドラッグ&amp;ドロップまたは参照できます。 オプションで、OneDrive やDropboxなどの外部ソースからアセットを読み込むことができます。 アップロード前に必要な詳細は、[!UICONTROL  キャンペーン ] またはプロジェクト名のみです。 キーワードなどの詳細情報を指定すると、チームの全員が関連するコンテンツをすばやく識別して取得できます。
 
 ### 承認済みコンテンツの検索
 
@@ -86,4 +139,4 @@ GenStudio for Performance Marketing [!DNL Content] を使用すると、承認�
 
 ### テンプレートの操作
 
-テンプレートを使用すると作成プロセスが迅速化されるので、複数のチャネルにわたって一貫性のあるコンテンツを生成できます。 事前設定済みのレイアウトとデザイン要素を使用して、作成プロセスの出発点として使用するカスタムテンプレートをアップロードします。 基本的なテンプレート要素と手順については、[&#x200B; テンプレートの操作 &#x200B;](use-templates.md) を参照してください。 [&#x200B; テンプレートのカスタマイズ &#x200B;](customize-template.md) トピックを使用したテンプレートの構築について詳しく説明します。
+テンプレートを使用すると作成プロセスが迅速化されるので、複数のチャネルにわたって一貫性のあるコンテンツを生成できます。 事前設定済みのレイアウトとデザイン要素を使用して、作成プロセスの出発点として使用するカスタムテンプレートをアップロードします。 基本的なテンプレート要素と手順については、[ テンプレートの操作 ](../templates/use-templates.md) を参照してください。 [ テンプレートのカスタマイズ ](../templates/customize-template.md) トピックを使用したテンプレートの構築について詳しく説明します。

@@ -6,7 +6,7 @@ badgeBeta: label="Beta" tooltip="この機能は現在Betaにあるので、一�
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 2%
@@ -15,13 +15,13 @@ ht-degree: 2%
 
 # バナーエクスペリエンス
 
-Adobe GenStudio for Performance Marketingでは、生成 AI を活用して [&#x200B; 成功するバナーエクスペリエンスの作成 &#x200B;](/help/user-guide/create/create-banner-experience.md) を強化できます。
+Adobe GenStudio for Performance Marketingでは、生成 AI を活用して [ 成功するバナーエクスペリエンスの作成 ](/help/user-guide/create/create-banner-experience.md) を強化できます。
 
-[!DNL Create] を使用すると、現代のマーケターは [&#x200B; ガイドライン &#x200B;](/help/user-guide/create/create-banner-experience.md)、画像アセット、および [&#x200B; 適切に作成されたプロンプト &#x200B;](/help/user-guide/guidelines/overview.md) を利用して、[&#x200B; 包括的なバナーエクスペリエンスを作成 &#x200B;](/help/user-guide/effective-prompts.md) できます。
+[!DNL Create] を使用すると、現代のマーケターは [ ガイドライン ](/help/user-guide/create/create-banner-experience.md)、画像アセット、および [ 適切に作成されたプロンプト ](/help/user-guide/guidelines/overview.md) を利用して、[ 包括的なバナーエクスペリエンスを作成 ](/help/user-guide/effective-prompts.md) できます。
 
 バナーエクスペリエンスを生成すると、4 つのバリエーションが作成され、キャンバスに表示されます。
 
-サポートされるディメンション、認識されるフィールド名などについて詳しくは、[&#x200B; チャネル固有のテンプレートガイドラインに従う &#x200B;](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) を参照してください。
+サポートされるディメンション、認識されるフィールド名などについて詳しくは、[ チャネル固有のテンプレートガイドラインに従う ](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) を参照してください。
 
 ディスプレイとエクスペリエンスの編集可能なセクションには、次のものが含まれます。
 
@@ -31,7 +31,7 @@ Adobe GenStudio for Performance Marketingでは、生成 AI を活用して [&#x
 * Call to action（CTA）
 * 画像
 
-[&#x200B; テンプレート要素 &#x200B;](/help/user-guide/content/use-templates.md#template-elements) を参照してください。
+[ テンプレート要素 ](/help/user-guide/templates/use-templates.md#template-elements) を参照してください。
 
 <!-- ## Character counts
 

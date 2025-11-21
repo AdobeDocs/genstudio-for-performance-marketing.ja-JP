@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 2%
@@ -18,7 +18,7 @@ Adobe GenStudio for Performance Marketingで効果的に作業するには、生
 
 GenStudio for Performance Marketingでは、アセットを変更する機会があるたびに生成 AI プロンプトが表示されます。 効果的なプロンプトのコンポーネントには、説明的な言語、例、設定済みのガイドラインでは提供されない情報を含める必要があります。
 
-ベストプラクティスとしては、[&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md) を使用してGenStudio for Performance Marketingにブランド情報を提供すると、生成 AI を最大限に活用して、ブランドに合わせたコンテンツエクスペリエンスを作成できます。
+ベストプラクティスとしては、[ ガイドライン ](/help/user-guide/guidelines/overview.md) を使用してGenStudio for Performance Marketingにブランド情報を提供すると、生成 AI を最大限に活用して、ブランドに合わせたコンテンツエクスペリエンスを作成できます。
 
 ## 記述言語
 
@@ -35,7 +35,7 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 +++サンプル結果を参照
 
-![&#x200B; 生成された 3 通のメール &#x200B;](/help/assets/sample-email.png)
+![ 生成された 3 通のメール ](/help/assets/sample-email.png)
 
 +++
 
@@ -43,7 +43,7 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) では、プロンプトドロワーで **[!UICONTROL プロンプト条件]** （[_パラメーター_](/help/user-guide/create/overview.md#parameters) とプロンプト）を使用して、選択を通じて詳細を追加し、AI の解釈を改善できます。
 
-[&#x200B; メール &#x200B;](/help/user-guide/create/email-experiences.md) の場合、プロンプト条件には [&#x200B; パラメーター &#x200B;](/help/user-guide/guidelines/overview.md) に _ガイドライン_ を追加すること、メールのバリエーションで使用するアセットをアップロードすること、説明プロンプトを含めることができます。 [Meta広告 &#x200B;](/help/user-guide/create/create-meta-ad.md) の場合、プロンプトの条件には、_パラメーター_ でのブランドガイドライン、既存アセットの選択またはアップロード、画像またはアセットに関連する設定（縦横比など）、プロンプトなどが含まれます。 真のパワーは、[&#x200B; ガイドラインの設定 &#x200B;](/help/user-guide/guidelines/add-guidelines.md) から始まります。
+[ メール ](/help/user-guide/create/email-experiences.md) の場合、プロンプト条件には [ パラメーター ](/help/user-guide/guidelines/overview.md) に _ガイドライン_ を追加すること、メールのバリエーションで使用するアセットをアップロードすること、説明プロンプトを含めることができます。 [Meta広告 ](/help/user-guide/create/create-meta-ad.md) の場合、プロンプトの条件には、_パラメーター_ でのブランドガイドライン、既存アセットの選択またはアップロード、画像またはアセットに関連する設定（縦横比など）、プロンプトなどが含まれます。 真のパワーは、[ ガイドラインの設定 ](/help/user-guide/guidelines/add-guidelines.md) から始まります。
 
 >[!NOTE]
 >
@@ -55,11 +55,11 @@ GenStudio for Performance Marketingのガイドラインは、生成 AI がア�
 
 >[!TIP]
 >
->GenStudio for Performance Marketingで [!DNL Brand] ガイドラインを使用する方法とタイミングを制御します。 ブランドガイドラインの設定および管理方法については、[&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md) を参照してください。
+>GenStudio for Performance Marketingで [!DNL Brand] ガイドラインを使用する方法とタイミングを制御します。 ブランドガイドラインの設定および管理方法については、[ ガイドライン ](/help/user-guide/guidelines/overview.md) を参照してください。
 
 ### 構造化されたプロンプト
 
-複数セクションのメールの場合、メール内のセクションごとに様々なコンテンツを生成するための、セクション固有の手順を提供するように促す構造を作成できます。 構造化プロンプトは、生成されたコンテンツを対応するコンテンツプレースホルダーに挿入できるように [&#x200B; メールテンプレート内のセクション名 &#x200B;](/help/user-guide/content/customize-template.md#sections-or-groups) を直接参照する必要があります。
+複数セクションのメールの場合、メール内のセクションごとに様々なコンテンツを生成するための、セクション固有の手順を提供するように促す構造を作成できます。 構造化プロンプトは、生成されたコンテンツを対応するコンテンツプレースホルダーに挿入できるように [ メールテンプレート内のセクション名 ](/help/user-guide/templates/customize-template.md#sections-or-groups) を直接参照する必要があります。
 
 例えば、最初のセクションでは新製品のプロモーションをおこない、2 番目のセクションではコスト削減のメリットを詳しく説明するメールのコンテンツを生成するよう、GenStudio for Performance Marketingに指示できます。
 
@@ -93,7 +93,7 @@ Pod2: Focus on Adobe Illustrator and its new generative AI tools, such as Genera
 Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they can edit images and text inside a PDF.
 ```
 
-[&#x200B; テンプレート使用のベストプラクティス &#x200B;](/help/user-guide/content/best-practices-for-templates.md) を参照してください。
+[ テンプレート使用のベストプラクティス ](/help/user-guide/templates/best-practices-for-templates.md) を参照してください。
 
 ## 再試行
 
