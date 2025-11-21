@@ -18,7 +18,7 @@ GenStudio for Performance Marketingは、次のような様々な側面からブ
 
 * 定義済みまたはデフォルトの [!DNL Brand] ガイドライン
 * Platform のガイドライン
-* [ 米国障害者法（ADA）基準 ](/help/user-guide/guidelines/brand-validation.md#american-with-disabilities-act-ada-validation)
+* [&#x200B; 米国障害者法（ADA）基準 &#x200B;](/help/user-guide/guidelines/brand-validation.md#american-with-disabilities-act-ada-validation)
 <!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 
 
@@ -28,29 +28,29 @@ GenStudio for Performance Marketingは、次のような様々な側面からブ
 
 _コンテンツチェック_ 概要には、次の項目が表示されます。
 
-* 検証に合格した [[!DNL Brand]](brands.md) ガイドライン [ の数とテストしたガイドラインの数から計算した、](overview.md) ールへの準拠の割合
+* 検証に合格した [[!DNL Brand]](brands.md) ガイドライン [&#x200B; の数とテストしたガイドラインの数から計算した、](overview.md) ールへの準拠の割合
 * Metaや LinkedIn など、プラットフォームガイドラインの `Pass` または `Fail` の結果
 * ADA アクセシビリティ標準規格に対する `Pass` または `Fail` の結果
 
-![ コンテンツチェックの概要 ](/help/assets/content-check-summary.png){width="400" zoomable="yes"}
+![&#x200B; コンテンツチェックの概要 &#x200B;](/help/assets/content-check-summary.png){width="400" zoomable="yes"}
 
 パーセンテージをクリックして、バリアントの準拠を確認します。 バリアントや他のコンテンツを編集すると、スコアが自動更新されます。 _問題を表示および修正_ をクリックして、さらに準拠することができます。
 
-[ ブランドの整合性の向上 ](#improve-brand-alignment) を参照してください。
+[&#x200B; ブランドの整合性の向上 &#x200B;](#improve-brand-alignment) を参照してください。
 
 ## コンテンツチェックパネル
 
 右側のアクションバーからクリックすると _コンテンツチェック_ パネルがキャンバスの右側に開きます _または_ コンテンツチェック [_概要アイコンからクリック_](#content-check-summary)。 このパネルは、詳細なブランド検証、プラットフォームガイドライン、アクセシビリティ標準情報を提供し、改善の機会を明らかにします。
 
-![ コンテンツチェックパネル ](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
+![&#x200B; コンテンツチェックパネル &#x200B;](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
-_コンテンツチェック_ パネルには、画像セクションとバリデーションセクションの検証と [ コンプライアンス情報 ](/help/user-guide/guidelines/overview.md#compliance) が表示されます。
+_コンテンツチェック_ パネルには、画像セクションとバリデーションセクションの検証と [&#x200B; コンプライアンス情報 &#x200B;](/help/user-guide/guidelines/overview.md#compliance) が表示されます。
 
 * コンテン _、プラットフォームガイドラインおよびアクセシビリティ標準の_ コンテンツチェック [!DNL Brand] 概要情報の表現
 * _レビューが必要_ 節で、失敗したガイドラインの数と、修正が必要な各ガイドラインの詳細情報を表示します
 * _合格_ 合格したガイドラインの数と、各合格ガイドラインの詳細情報を表示する節
 
-[ コンテンツチェック ](#improve-brand-alignment) パネルスコアを改善する方法については、_ブランドの関連付けの向上_ を参照してください。
+[&#x200B; コンテンツチェック &#x200B;](#improve-brand-alignment) パネルスコアを改善する方法については、_ブランドの関連付けの向上_ を参照してください。
 
 ### コンテンツタイプ
 
@@ -64,7 +64,7 @@ _コンテンツチェック_ パネルでは、実行するガイドライン�
 
 ## ブランドの整合性の向上
 
-生成されるコンテンツの効果を最大限に高め、一貫したブランドアイデンティティを維持するには、[_コンテンツチェック_ 概要 ](#content-check-summary) および [_コンテンツチェック_ パネル ](#content-check-panel) を使用します。 [[!DNL Brand]  ガイドライン ](brands.md)、Platform のガイドラインチェック、アクセシビリティ標準のチェックに合わせて、特定のセクションを手動で変更できます。
+生成されるコンテンツの効果を最大限に高め、一貫したブランドアイデンティティを維持するには、[_コンテンツチェック_ 概要 &#x200B;](#content-check-summary) および [_コンテンツチェック_ パネル &#x200B;](#content-check-panel) を使用します。 [[!DNL Brand]  ガイドライン &#x200B;](brands.md)、Platform のガイドラインチェック、アクセシビリティ標準のチェックに合わせて、特定のセクションを手動で変更できます。
 
 **生成されたバリアントのブランドの整合性を向上させるには**:
 
@@ -91,9 +91,9 @@ _コンテンツチェック_ パネルでは、実行するガイドライン�
 
 これらのアクセシビリティチェックは、Americans with Disabilities Act （ADA）の法的遵守のために含まれています。
 
-[WCAG 1.1.1 非テキストコンテンツ ](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html) – 画像が `<alt>` 属性を提供することを確認します。
-[WCAG 1.4.3 コントラスト（最低限） ](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) – 生成されたテキストの背景に対するコントラストが 4.5:1 になるようにします。
-[WCAG 3.1.3 珍しい単語 ](https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html) – 慣用句や専門用語を含め、珍しい方法または制限された方法で使用される単語やフレーズを識別します。
-[WCAG 3.1.4 略語 ](https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html) – 略語の展開された形式または意味を識別するためのメカニズム。
-[WCAG 3.1.5 読み取りレベル ](https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html) – より低い中等教育レベルでコンテンツが確実に読み取れるようにします。
+[WCAG 1.1.1 非テキストコンテンツ &#x200B;](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html) – 画像が `<alt>` 属性を提供することを確認します。
+[WCAG 1.4.3 コントラスト（最低限） &#x200B;](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) – 生成されたテキストの背景に対するコントラストが 4.5:1 になるようにします。
+[WCAG 3.1.3 珍しい単語 &#x200B;](https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html) – 慣用句や専門用語を含め、珍しい方法または制限された方法で使用される単語やフレーズを識別します。
+[WCAG 3.1.4 略語 &#x200B;](https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html) – 略語の展開された形式または意味を識別するためのメカニズム。
+[WCAG 3.1.5 読み取りレベル &#x200B;](https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html) – より低い中等教育レベルでコンテンツが確実に読み取れるようにします。
 
