@@ -15,13 +15,13 @@ ht-degree: 2%
 
 # バナーエクスペリエンス
 
-Adobe GenStudio for Performance Marketingでは、生成 AI を活用して [ 成功するバナーエクスペリエンスの作成 ](/help/user-guide/create/create-banner-experience.md) を強化できます。
+Adobe GenStudio for Performance Marketingでは、生成 AI を活用して [&#x200B; 成功するバナーエクスペリエンスの作成 &#x200B;](/help/user-guide/create/create-banner-experience.md) を強化できます。
 
-[!DNL Create] を使用すると、現代のマーケターは [ ガイドライン ](/help/user-guide/create/create-banner-experience.md)、画像アセット、および [ 適切に作成されたプロンプト ](/help/user-guide/guidelines/overview.md) を利用して、[ 包括的なバナーエクスペリエンスを作成 ](/help/user-guide/effective-prompts.md) できます。
+[!DNL Create] を使用すると、現代のマーケターは [&#x200B; ガイドライン &#x200B;](/help/user-guide/create/create-banner-experience.md)、画像アセット、および [&#x200B; 適切に作成されたプロンプト &#x200B;](/help/user-guide/guidelines/overview.md) を利用して、[&#x200B; 包括的なバナーエクスペリエンスを作成 &#x200B;](/help/user-guide/effective-prompts.md) できます。
 
 バナーエクスペリエンスを生成すると、4 つのバリエーションが作成され、キャンバスに表示されます。
 
-サポートされるディメンション、認識されるフィールド名などについて詳しくは、[ チャネル固有のテンプレートガイドラインに従う ](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) を参照してください。
+サポートされるディメンション、認識されるフィールド名などについて詳しくは、[&#x200B; チャネル固有のテンプレートガイドラインに従う &#x200B;](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) を参照してください。
 
 ディスプレイとエクスペリエンスの編集可能なセクションには、次のものが含まれます。
 
@@ -31,7 +31,7 @@ Adobe GenStudio for Performance Marketingでは、生成 AI を活用して [ �
 * Call to action（CTA）
 * 画像
 
-[ テンプレート要素 ](/help/user-guide/templates/use-templates.md#template-elements) を参照してください。
+[&#x200B; テンプレート要素 &#x200B;](/help/user-guide/templates/use-templates.md#template-elements) を参照してください。
 
 <!-- ## Character counts
 
