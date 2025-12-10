@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 9f4cfd470590b2971c615a6437e6ae730cde5c18
+source-git-commit: 8fb4a0e3acaf1a45d8f0f00f975247fc8fb746e3
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1612'
 ht-degree: 0%
 
 ---
@@ -16,21 +16,21 @@ ht-degree: 0%
 
 生成 AI がコンテンツの挿入に使用するコンテンツプレースホルダー（フィールド）を挿入することで、GenStudio for Performance Marketingで使用するテンプレートをカスタマイズできます。
 
-以降の節では、_[!DNL Handlebars]_&#x200B;テンプレート言語を使用してHTML テンプレートをGenStudio for Performance Marketingに適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 テンプレートの準備方法については、[Handlebars 言語ガイド  [!DNL Handlebars] の &#x200B;](https://handlebarsjs.com/guide/#what-is-handlebars) 概要__を参照してください。
+以降の節では、_[!DNL Handlebars]_テンプレート言語を使用してHTML テンプレートをGenStudio for Performance Marketingに適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 テンプレートの準備方法については、[Handlebars 言語ガイド  [!DNL Handlebars] の ](https://handlebarsjs.com/guide/#what-is-handlebars) 概要__を参照してください。
 
-テンプレートの準備が整ったら、[GenStudio for Performance Marketingにアップロード &#x200B;](use-templates.md#upload-a-template)、カスタムテンプレートに基づいてパーソナライズされたメールの生成を開始できます。
+テンプレートの準備が整ったら、[GenStudio for Performance Marketingにアップロード ](use-templates.md#upload-a-template)、カスタムテンプレートに基づいてパーソナライズされたメールの生成を開始できます。
 
-[&#x200B; アクセシビリティガイドライン &#x200B;](accessibility-for-templates.md) および [&#x200B; ベストプラクティス &#x200B;](/help/user-guide/templates/best-practices-for-templates.md) に従って、より多くのオーディエンスにリーチし、最適なエクスペリエンスを提供できるようにします。
+[ アクセシビリティガイドライン ](accessibility-for-templates.md) および [ ベストプラクティス ](/help/user-guide/templates/best-practices-for-templates.md) に従って、より多くのオーディエンスにリーチし、最適なエクスペリエンスを提供できるようにします。
 
 ## コンテンツプレースホルダー
 
 >[!TIP]
 >
->コンテンツのプレースホルダーは **ユーザーが後で入力するコンテンツ内のプレースホルダーテキストと同じではありま** ん。 詳しくは、[&#x200B; テンプレートでのプレースホルダーテキストの使用 &#x200B;](/help/user-guide/templates/best-practices-for-templates.md#using-placeholder-text-in-templates) を参照してください。
+>コンテンツのプレースホルダーは **ユーザーが後で入力するコンテンツ内のプレースホルダーテキストと同じではありま** ん。 詳しくは、[ テンプレートでのプレースホルダーテキストの使用 ](/help/user-guide/templates/best-practices-for-templates.md#using-placeholder-text-in-templates) を参照してください。
 
-GenStudio for Performance Marketingは、テンプレート内の特定の種類のコンテンツや [&#x200B; 要素 &#x200B;](use-templates.md#template-elements) を認識しますが、それは [&#x200B; 認識されたフィールド名 &#x200B;](#recognized-field-names) で識別した場合に限られます。
+GenStudio for Performance Marketingは、テンプレート内の特定の種類のコンテンツや [ 要素 ](use-templates.md#template-elements) を認識しますが、それは [ 認識されたフィールド名 ](#recognized-field-names) で識別した場合に限られます。
 
-HTML テンプレートの先頭または本文内では、[!DNL Handlebars] の構文を使用して、GenStudio for Performance Marketingに実際のコンテンツをテンプレートに入力させる必要があるコンテンツプレースホルダーを挿入できます。 GenStudio for Performance Marketingは、これらのプレースホルダーを [&#x200B; 認識された _field_ name](#recognized-field-names) に基づいて認識および解釈します。 各フィールド名は、コンテンツの生成方法とテンプレートへの挿入方法を決定する特定のルールと動作に関連付けられています。
+HTML テンプレートの先頭または本文内では、[!DNL Handlebars] の構文を使用して、GenStudio for Performance Marketingに実際のコンテンツをテンプレートに入力させる必要があるコンテンツプレースホルダーを挿入できます。 GenStudio for Performance Marketingは、これらのプレースホルダーを [ 認識された _field_ name](#recognized-field-names) に基づいて認識および解釈します。 各フィールド名は、コンテンツの生成方法とテンプレートへの挿入方法を決定する特定のルールと動作に関連付けられています。
 
 例えば、`{{headline}}` 構文で [!DNL Handlebars] を使用して、メールのヘッドラインを配置する場所を示すことができます。 GenStudioはこのフィールドを認識し、ガイドラインとプロンプトの条件に基づいて関連するヘッドラインを生成して、この場所にヘッドラインを挿入します。
 
@@ -49,10 +49,10 @@ HTML テンプレートの先頭または本文内では、[!DNL Handlebars] の
 | `{{sub_headline}}` | サブ見出し | メールバナ <br> とディスプレイ広告 |
 | `{{introductory_text}}` | 紹介テキスト | LinkedIn 広告 |
 | `{{body}}` | 本文コピー | <br>Meta広告 <br> バナーおよびディスプレイ広告をメールで送信 |
-| `{{cta}}` | Call to action<br>[&#x200B; コールトゥアクション &#x200B;](#calls-to-action) を参照 | メール <br>Meta広告 <br> バナーとディスプレイ広告 <br>LinkedIn 広告 |
+| `{{cta}}` | Call to action<br>[ コールトゥアクション ](#calls-to-action) を参照 | メール <br>Meta広告 <br> バナーとディスプレイ広告 <br>LinkedIn 広告 |
 | `{{image}}` | 画像 – [!DNL Content] から選択 | メール <br>Meta広告 <br> バナーとディスプレイ広告 <br>LinkedIn 広告 |
-| `{{on_image_text}}` | 画像テキスト上 <br>[&#x200B; 画像テキスト上 &#x200B;](#on-image-text) を参照してください。 | Meta広告 <br>LinkedIn 広告 |
-| `{{link}}` | 画像のCall to action<br> 画像のリンク [&#x200B; を参照してください &#x200B;](#link-on-image)。 | メール |
+| `{{on_image_text}}` | 画像テキスト上 <br>[ 画像テキスト上 ](#on-image-text) を参照してください。 | Meta広告 <br>LinkedIn 広告 |
+| `{{link}}` | 画像のCall to action<br> 画像のリンク [ を参照してください ](#link-on-image)。 | メール |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
 
@@ -71,7 +71,7 @@ GenStudio for Performance Marketingでは、特定のフィールドが次のテ
 
 >[!TIP]
 >
->GenStudio for Performance Marketingの [&#x200B; テンプレートプレビュー &#x200B;](#template-preview) を使用して、テンプレートを検証できます。
+>GenStudio for Performance Marketingの [ テンプレートプレビュー ](#template-preview) を使用して、テンプレートを検証できます。
 
 ### コールトゥアクション
 
@@ -97,7 +97,7 @@ call to action（CTA）には、フレーズとリンクが含まれます。 �
   <a class="button" href="{{pod1_link}}" >Register now</a>
   ```
 
-GenStudio for Performance Marketingでは、様々なコールトゥアクションフレーズを提供することもできます。 [Call to actionの改訂 &#x200B;](/help/user-guide/create/manage-variants.md#revise-call-to-action) を参照してください。
+GenStudio for Performance Marketingでは、様々なコールトゥアクションフレーズを提供することもできます。 [Call to actionの改訂 ](/help/user-guide/create/manage-variants.md#revise-call-to-action) を参照してください。
 
 ### 画像上のリンク
 
@@ -222,40 +222,32 @@ HTML属性内でコンテンツプレースホルダー（`alt`、`href`、`src`
 - _正解_ （👍）:`pod1_body`
 - _不正確です_ （❌）: `pod1body`
 
-各セクションは、各フィールドタイプの 1 つのみを使用できます。 例えば、次のフィールドは「`pod1`」セクションに属しています。
+各セクションは、各フィールドタイプのいずれか 1 つのみを使用できます。このルールにより、セクションをネストすることはできません。
+
+例えば、次のフィールドは「`pod1`」セクションに属しています。
 
 - `pod1_headline`
 - `pod1_body`
 - `pod1_image`
 - `pod1_cta`
 
-このルールのため、セクションをネストすることはできません。
-
-メールやMeta広告などの各テンプレートタイプには、セクションの使用に関するチャネル固有の制約があります。 [&#x200B; テンプレート使用のベストプラクティス &#x200B;](/help/user-guide/templates/best-practices-for-templates.md) トピックの _チャネル固有のガイドライン_ を参照してください。
-
-例えば、1 つのメールテンプレートに最大 3 つのセクションを含めることができます。したがって、次の 3 つのヘッドラインと本文セクションを含めることができます。
-
-- `pre_header`
-- `pod1_headline`、`pod1_body`
-- `pod2_headline`、`pod2_body`
-- `pod3_headline`、`pod3_body`
-- `cta`
-
 GenStudio for Performance Marketingは `pod1_headline` が `pod1_body` よりも `pod2_body` と密接に関係していることを理解しています。
+
+メールやMeta広告などの各テンプレートタイプには、セクションの使用に関するチャネル固有の制約があります。 [ テンプレート使用のベストプラクティス ](/help/user-guide/templates/best-practices-for-templates.md) トピックの _チャネル固有のガイドライン_ を参照してください。
 
 >[!TIP]
 >
->複数セクションのメールの各セクションに対して様々なコンテンツを生成するプロンプトを作成する方法については、[&#x200B; 構造化プロンプト &#x200B;](/help/user-guide/effective-prompts.md#structured-prompts) を参照してください。
+>複数セクションのメールの各セクションに対して様々なコンテンツを生成するプロンプトを作成する方法については、[ 構造化プロンプト ](/help/user-guide/effective-prompts.md#structured-prompts) を参照してください。
 
 ## テンプレートのプレビュー
 
-[&#x200B; テンプレートをアップロード &#x200B;](use-templates.md#upload-a-template) すると、GenStudio for Performance MarketingはHTML ファイルをスキャンして、認識されたフィールドを探します。 プレビューを使用して [&#x200B; テンプレート要素 &#x200B;](use-templates.md#template-elements) を確認し、それらが [&#x200B; 認識されたフィールド名 &#x200B;](#recognized-field-names) で正しく識別されたことを確認します。
+[ テンプレートをアップロード ](use-templates.md#upload-a-template) すると、GenStudio for Performance MarketingはHTML ファイルをスキャンして、認識されたフィールドを探します。 プレビューを使用して [ テンプレート要素 ](use-templates.md#template-elements) を確認し、それらが [ 認識されたフィールド名 ](#recognized-field-names) で正しく識別されたことを確認します。
 
 メールテンプレートのプレビューの例：
 
-![&#x200B; 検出されたプレビューフィールド &#x200B;](/help/assets/template-detected-fields.png " 検出されたフィールドを確認 "){zoomable="yes"}
+![ 検出されたプレビューフィールド ](/help/assets/template-detected-fields.png " 検出されたフィールドを確認 "){zoomable="yes"}
 
-[&#x200B; テンプレートコードエディター &#x200B;](/help/user-guide/templates/code-editor.md) を参照してください。
+[ テンプレートコードエディター ](/help/user-guide/templates/code-editor.md) を参照してください。
 
 ### プレビューを制御
 
