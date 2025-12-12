@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 8fb4a0e3acaf1a45d8f0f00f975247fc8fb746e3
+source-git-commit: 4f3d8558f37656ccfc67b592e0bb9e90c30a7963
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -40,16 +40,16 @@ GenStudio for Performance Marketingでは、次のフィールドが自動的に
 - `pre_header`
 - `subject`
 
-テンプレートで許可される最大フィールド数は 20 です。 テンプレートでのフィールド名の使用について詳しくは、[&#x200B; コンテンツプレースホルダー &#x200B;](/help/user-guide/templates/customize-template.md#content-placeholders) を参照してください。
+テンプレートで許可される最大フィールド数は 20 です。 テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー ](/help/user-guide/templates/customize-template.md#content-placeholders) を参照してください。
 
 ## 複数セクションのメール
 
-_セクション_ を使用すると、コンテンツを個別のグループに整理して、より複雑なレイアウトをサポートできます。 GenStudio for Performance Marketingでは、グループ命名規則を使用して各セクションを定義できます。 [&#x200B; テンプレートセクションのカスタマイズ &#x200B;](/help/user-guide/templates/customize-template.md#sections-or-groups) を参照してください。
+_セクション_ を使用すると、コンテンツを個別のグループに整理して、より複雑なレイアウトをサポートできます。 GenStudio for Performance Marketingでは、グループ命名規則を使用して各セクションを定義できます。 [ テンプレートセクションのカスタマイズ ](/help/user-guide/templates/customize-template.md#sections-or-groups) を参照してください。
 
-複数セクションのメールテンプレートには、最大 10 個のセクションを設定できます。
+複数セクションのテンプレートには、0 個、2 個、または 3 個のセクションがあります。
 
 - 基本テンプレート（ゼロセクション）は、グループ命名規則を必要としない単一のテンプレート要素セットを生成できます。
-- 複雑なテンプレート（複数のセクション）では、一連のテンプレート要素を生成できます。これには、グループ命名規則 `<groupname_fieldname>` に従う必要があります。
+- 複雑なテンプレート（複数のセクション）では、最大 3 つのテンプレート要素セットを生成できます。そのため、グループの命名規則（`<groupname_fieldname>`）に従う必要があります。
 - 複数のセクションを使用する場合、スタンドアロンのままの要素は、セクションの外部には入力されません。
 
 次に、グループ命名規則を使用したフィールド名の例を 2 つのセクションに示します。
@@ -110,7 +110,7 @@ _セクション_ を使用すると、コンテンツを個別のグループ�
 
 +++例：複数のセクションを持つメールテンプレート
 
-ここでは、上記の例と同じHTML テンプレートを、さらに 2 つのセクションで紹介します。 ヘッドには、グループのスタイル設定に使用するインライン CSS が含まれています。 本文では、プレフィックスを使用して、[&#x200B; コンテンツプレースホルダー &#x200B;](#content-placeholders) を含む 2 つのグループを使用します。
+ここでは、上記の例と同じHTML テンプレートを、さらに 2 つのセクションで紹介します。 ヘッドには、グループのスタイル設定に使用するインライン CSS が含まれています。 本文では、プレフィックスを使用して、[ コンテンツプレースホルダー ](#content-placeholders) を含む 2 つのグループを使用します。
 
 ```html
 <!DOCTYPE html>
