@@ -60,7 +60,7 @@ GenStudio対応テンプレートを作成するには：
 1. Photoshopでドキュメントを開きます。
 1. 生成されたコンテンツのテキストレイヤーを特定します。
 1. 画層の名前をフィールド名表記形式 `{<name_of_generated_field>}` に変更します。 例：`{body}`、`{headline}`、`{cta}`。
-1. すべてのレイヤーのレイヤー名を変更します [ テンプレートタイプ用のチャネルに必要なフィールド ](../../user-guide/templates/customize-template.md#recognized-field-names)。
+1. すべてのレイヤーのレイヤー名を変更します [&#x200B; テンプレートタイプ用のチャネルに必要なフィールド &#x200B;](../../user-guide/templates/customize-template.md#recognized-field-names)。
 
 | チャネル | 生成の必須フィールド | 生成用のオプション フィールド |
 | --- | --- | --- |
@@ -109,9 +109,9 @@ Instagram や Facebook のストーリーについて：
 1. 「**[!UICONTROL ログイン]**」ボタンをクリックします。 URL を開く権限を要求するメッセージが表示されたら、オプションで **選択内容を保存** のチェックボックスをオンにし、「**[!UICONTROL 許可]** をクリックします。
 1. Web ブラウザーを使用して、GenStudio for Performance Marketingへのアクセス権を持つプロファイルでログインします。
 1. 開いたテンプレートに適用されるチャネル（Meta、LinkedIn またはディスプレイ）を選択します。
-   ![ チャネル選択 ](./ps-select-channel.png){width="300" zoomable="yes"}
+   ![&#x200B; チャネル選択 &#x200B;](./ps-select-channel.png){width="300" zoomable="yes"}
 1. コンテンツ生成の [!DNL Brand]、[!DNL Persona] および [!DNL Product] コンテキストを選択します。
-   ![ ブランド、ペルソナ、製品の選択 ](./ps-select-box.png){width="300" zoomable="yes"}
+   ![&#x200B; ブランド、ペルソナ、製品の選択 &#x200B;](./ps-select-box.png){width="300" zoomable="yes"}
 1. 作成するバリエーションの数を選択します。
 1. **[!UICONTROL コンテンツを選択]** の下にあるボタンを使用して、アセットから画像を参照して選択します。 最近追加された 40 個のアセットが最初に表示され、他のアセットを検索できます。 選択した画像は、テンプレートに合わせて自動的にサイズ変更されます。
 1. **[!UICONTROL テキストプロンプト]** ボックスにコンテンツのテキストプロンプトを入力します。
@@ -133,7 +133,7 @@ Instagram や Facebook のストーリーについて：
 
 ユーザーは、コンテンツの生成または翻訳後に書き出しを選択できます。 書き出されたエクスペリエンスは、GenStudio for Performance Marketingの「コンテンツ」セクションに入力されます。
 
-![ 「コンテンツ」セクションに表示される、書き出されたアセット ](./content-assets.png){width="90%"}
+![&#x200B; 「コンテンツ」セクションに表示される、書き出されたアセット &#x200B;](./content-assets.png){width="90%"}
 
 ## トラブルシューティング
 

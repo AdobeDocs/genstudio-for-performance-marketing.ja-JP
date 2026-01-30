@@ -20,10 +20,10 @@ GenStudio for Performance Marketingが提供するプラグインを、他のAdo
 
 GenStudio for Performance Marketing Figma プラグインを使用すると、Figma アプリケーションに新しいパネルが追加され、ブランド上のコンテンツの生成などのGenStudio for Performance Marketing アクションを実行できるようになります。
 
-Figma プラグインについて詳しくは、[Figma プラグイン ](figma-plugin.md) ページを参照してください。
+Figma プラグインについて詳しくは、[Figma プラグイン &#x200B;](figma-plugin.md) ページを参照してください。
 
 ## Photoshop プラグイン
 
 GenStudio for Performance Marketing Photoshop プラグインは、Adobe Photoshopに新しいパネルを追加して、ブランド上のコンテンツの生成などのGenStudio for Performance Marketing アクションを実行できるようにします。
 
-Photoshop プラグインについて詳しくは、[Photoshop プラグイン ](photoshop-plugin.md) ページを参照してください。
+Photoshop プラグインについて詳しくは、[Photoshop プラグイン &#x200B;](photoshop-plugin.md) ページを参照してください。
