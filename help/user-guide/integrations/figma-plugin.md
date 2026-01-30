@@ -27,7 +27,7 @@ GenStudio for Performance Marketing Figma プラグインを使用すると、Fi
 * 生成された [!DNL Experiences] をGenStudio for Performance Marketingに書き出します。
 * Figma キャンバスで選択した要素に適応するプラグインオプションを使用します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478810?captions=jpn&learn=on)
 
 ## テンプレートの作成
 
