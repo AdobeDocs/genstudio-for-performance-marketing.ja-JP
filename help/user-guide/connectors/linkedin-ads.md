@@ -2,12 +2,13 @@
 title: LinkedIn 広告への接続
 description: LinkedIn 広告アカウントを連携して、Adobe GenStudio for Performance Marketingで広告とメディアをアクティブ化およびモニタリングします。
 level: Intermediate
-role: Admin, Data Engineer
+role: Admin, Developer
 recommendations: noDisplay
 feature: Reporting and Insights
-source-git-commit: c720a7c34250caa6aefea19149fcd33c8fd5f37f
+exl-id: 8ad10ce2-8558-430c-8cc3-4c29bfa970c6
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ LinkedIn 広告プロファイルアカウントをGenStudio for Performance Mar
 
 1. **[!UICONTROL 詳細]**/**[!UICONTROL 設定]** をクリックします。
 
-1. 「_Data Connectors_」セクションで、「**[!UICONTROL LinkedIn 広告 _カードの]**&#x200B;接続_ をクリックします。
+1. 「_Data Connectors_」セクションで、「**[!UICONTROL LinkedIn 広告 _カードの]**接続_ をクリックします。
 
 1. LinkedIn 広告アカウントにログインします。
 

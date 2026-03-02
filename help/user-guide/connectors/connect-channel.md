@@ -2,19 +2,19 @@
 title: 有料メディアアカウントの接続
 description: Adobe GenStudio for Performance Marketingで有料メディアアカウントを接続して、広告やメディアをアクティブ化およびモニタリングします。
 level: Intermediate
-role: Admin, Data Engineer
+role: Admin, Developer
 feature: Reporting and Insights, Delivery and Activation
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 631ad4931363a6acef902bf4626bd79aff683981
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # 有料メディアアカウントの接続
 
-_有料メディアアカウント_ とは、企業が有料広告キャンペーンを管理および実行するサードパーティの広告プラットフォーム上のアカウントを指します。 これらのアカウントは、ソーシャルメディアプラットフォームやディスプレイネットワークなどの有料チャネルを通じて、製品、サービス、ブランドを宣伝するために使用されます。 有料メディアアカウントをGenStudio for Performance Marketingに接続すると、データ交換の効率化、[&#x200B; インサイトでのキャンペーンのパフォーマンスの監視 &#x200B;](/help/user-guide/insights/overview.md)、[&#x200B; アクティブ化を使用した新規広告プレースメントの配信 &#x200B;](/help/user-guide/activation/overview.md) を行うことができます。
+_有料メディアアカウント_ とは、企業が有料広告キャンペーンを管理および実行するサードパーティの広告プラットフォーム上のアカウントを指します。 これらのアカウントは、ソーシャルメディアプラットフォームやディスプレイネットワークなどの有料チャネルを通じて、製品、サービス、ブランドを宣伝するために使用されます。 有料メディアアカウントをGenStudio for Performance Marketingに接続すると、データ交換の効率化、[ インサイトでのキャンペーンのパフォーマンスの監視 ](/help/user-guide/insights/overview.md)、[ アクティブ化を使用した新規広告プレースメントの配信 ](/help/user-guide/activation/overview.md) を行うことができます。
 
 ## データ取り込み
 
