@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # アーカイブ済み
 
-このリポジトリは GHEC に移行されました：<https://github.com/Adobe-Enterprise-Docs/genstudio-for-performance-marketing.en>
+このリポジトリは GHEC に移行されました：<https://github.com/Adobe-Enterprise-Docs/genstudio-for-performance-marketing.ja-JP>
