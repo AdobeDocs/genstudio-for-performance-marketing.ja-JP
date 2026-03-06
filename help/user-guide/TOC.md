@@ -1,11 +1,11 @@
 ---
 user-guide-title: パフォーマンスマーケティング用の Adobe GenStudio ユーザーガイド
 breadcrumb-title: ユーザーガイド
-user-guide-description: パフォーマンスマーケティング用の Adobe GenStudio の機能を探索します。オンブランドのアセットをすばやく作成、バリエーションを生成、エクスペリエンスを最適化する方法について説明します。
+user-guide-description: パフォーマンスマーケティング用の Adobe GenStudio の機能を探索します。 オンブランドのアセットをすばやく作成、バリエーションを生成、エクスペリエンスを最適化する方法について説明します。
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 89f88d217d6afdf431519a5cd3803a9857fcd84d
+source-git-commit: 9cd03372041056483e94ae324124e791a8c8d7ba
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 20%
@@ -32,7 +32,7 @@ ht-degree: 20%
       + [Meta広告 &#x200B;](connectors/meta-ads.md)
 + ガイドライン {#guidelines}
    + [&#x200B; ガイドラインの概要 &#x200B;](guidelines/overview.md)
-   + [ブランド](guidelines/brands.md)
+   + [&#x200B; ブランド &#x200B;](guidelines/brands.md)
    + [&#x200B; ペルソナ &#x200B;](guidelines/personas.md)
    + [&#x200B; 製品 &#x200B;](guidelines/products.md)
    + [&#x200B; ガイドラインの追加 &#x200B;](guidelines/add-guidelines.md)
@@ -107,5 +107,5 @@ ht-degree: 20%
    + [&#x200B; 統合の概要 &#x200B;](integrations/overview.md)
    + [Photoshop プラグイン &#x200B;](integrations/photoshop-plugin.md)
    + [Figma プラグイン &#x200B;](integrations/figma-plugin.md)
-+ [GenStudio Academy – 非表示 &#x200B;](genstudioacademy.md)
-+ [&#x200B; テストマークダウン – 非表示 &#x200B;](test-markdown.md)
++ [hide-from-tocGenStudio Academy – 非表示 &#x200B;](genstudioacademy.md)
++ [hide-from-toc テストマークダウン – 非表示 &#x200B;](test-markdown.md)
