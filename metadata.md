@@ -4,7 +4,7 @@ solution: GenStudio for Performance Marketing
 landing-page-name: genstudio-for-performance-marketing
 landing-page-breadcrumb-title: GenStudio
 type: Documentation
-git-repo: https://github.com/AdobeDocs/genstudio-for-performance-marketing.en
+git-repo: https://github.com/AdobeDocs/genstudio-for-performance-marketing.ja-JP
 mini-toc-levels: 2
 description: Adobe GenStudio for Performance Marketing ガイド
 index: true
