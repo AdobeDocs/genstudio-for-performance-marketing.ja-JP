@@ -3,9 +3,15 @@ title: テキスト機能
 description: GenStudio for Performance Marketingで使用される属性カテゴリのテキスト機能について説明します。
 feature: Reporting and Insights, Text Attributes, Generative AI
 exl-id: 7b81b0ae-0c62-468f-965c-fd8070644fb3
-source-git-commit: 3ccc6313a7c559f1c0846c144d23b783da0aecfa
+TQID: https://experienceleague.adobe.com/Oec5q249StCtuG-2-n1dYmJoEDRPaqLF2QANpwClQ3A
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: 1298
 ht-degree: 1%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 1%
 
 テキスト機能には、単語、文、絵文字などの特定のテキスト要素のカウントや、[!DNL Insights] での分析に使用されるセマンティクス、感情、トーンの分類が含まれます。 テキストは、読みやすさのスコアが得られる場合もあります。
 
-GenStudio for Performance Marketingは、Adobeの AI と機械学習機能を使用して、テキストを調べ、関連するテキストのトーンとマーケティングの物語に基づいて [!UICONTROL &#x200B; メディア属性 &#x200B;] を適用します。 このプロセスでは、入力テキストが英数字を含んでいるか、余分な空白や印刷不可能な文字が削除されているか、テキストが許容される最大 1500 語に切り捨てられているかが検証されます。 検出された属性タグを適用する前に、AI が一般的なトーンを予測します。
+GenStudio for Performance Marketingは、Adobeの AI と機械学習機能を使用して、テキストを調べ、関連するテキストのトーンとマーケティングの物語に基づいて [!UICONTROL  メディア属性 ] を適用します。 このプロセスでは、入力テキストが英数字を含んでいるか、余分な空白や印刷不可能な文字が削除されているか、テキストが許容される最大 1500 語に切り捨てられているかが検証されます。 検出された属性タグを適用する前に、AI が一般的なトーンを予測します。
 
 ## 声トーン
 
@@ -41,7 +47,7 @@ GenStudio for Performance Marketingは、Adobeの AI と機械学習機能を使
 | 詩的 | 芸術的で表現力豊か。 | `Embrace the dawn of a new opportunity.` |
 | 定量的 | 数値データによる。 | `99% of users loved this offer, and you will too.` |
 | 感覚 | 感覚を引き付ける。 | `Feel the excitement with this incredible offer!` |
-| ストーリーテリング | メッセージを伝えるためにストーリーをナレーションする。 | `Once upon a time, there was an offer you couldn't refuse.` |
+| Storytelling | メッセージを伝えるためにストーリーをナレーションする。 | `Once upon a time, there was an offer you couldn't refuse.` |
 
 ## 情緒的魅力
 
@@ -131,8 +137,8 @@ GenStudio for Performance MarketingAI は、テキストを分析して感情的
 
 | カテゴリ | 説明 | 例 |
 | --------------------- | --------------------------------------------------------------------------- | --------------------- |
-| 絵文字の数 | テキストに存在する絵文字の数です。 絵文字を使用すると、エンゲージメントを高め、感情を素早く伝えることができます。 | `😊`、`🚀`、`❤️` |
-| HashTags Count | テキストで使用されるハッシュタグの数。 ハッシュタグは、コンテンツを分類し、ソーシャルメディアでの検出性を高めるのに役立ちます。 | `#Marketing`、`#Sale` |
+| 絵文字の数 | テキストに存在する絵文字の数です。 絵文字を使用すると、エンゲージメントを高め、感情を素早く伝えることができます。 | `😊`, `🚀`, `❤️` |
+| HashTags Count | テキストで使用されるハッシュタグの数。 ハッシュタグは、コンテンツを分類し、ソーシャルメディアでの検出性を高めるのに役立ちます。 | `#Marketing`, `#Sale` |
 | 文あたりの単語数 | テキスト内の文あたりの平均単語数。 多くの場合、短い文の方が読みやすく理解しやすいです。 | `10` |
 | 単語数 | テキスト内の単語の合計数。 単語数が多いと、より詳細な情報が得られますが、読むためにより多くの労力が必要になる場合もあります。 | `1500 words` |
 | ストップワードの比率 | テキスト内の意味のある単語に対するストップワードの比率。 ストップワード（「a」「an」「the」など）は、多くの場合、検索クエリや検索結果で無視されます。 ストップワードの割合が高いと、コンテンツのエンゲージメントが低下し、読みにくくなります。 | `0.375` |

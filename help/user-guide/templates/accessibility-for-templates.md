@@ -3,16 +3,21 @@ title: アクセシブルなテンプレートの作成
 description: Adobe GenStudio for Performance Marketingでテンプレートを作成して、より多くのオーディエンスにリーチし、最適なエクスペリエンスを提供できるようにします。
 feature: Media Templates
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: 9e51e853542d20f0b90b10071f4f26aaae1d6aad
+TQID: https://experienceleague.adobe.com/b56YHJsOAunGenV-F3u7Y2mo56f6CnnX4qPXyzczPJY
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: 369
 ht-degree: 0%
 
 ---
 
 # アクセシブルなテンプレートの作成
 
-Adobeは、すべてのオーディエンスに最適なエクスペリエンスを提供するよう取り組んでいます。 詳しくは、[Adobeでのアクセシビリティイニシアチブ &#x200B;](https://www.adobe.com/trust/accessibility/initiatives.html) を参照してください。
+Adobeは、すべてのオーディエンスに最適なエクスペリエンスを提供するよう取り組んでいます。 詳しくは、[Adobeでのアクセシビリティイニシアチブ ](https://www.adobe.com/trust/accessibility/initiatives.html) を参照してください。
 
 GenStudio for Performance Marketingでは、様々なエクスペリエンスのコンテンツを作成できるアセットとテンプレートをアップロードできます。 アクセシビリティ標準に準拠することで、コンテンツが対象オーディエンスの上限に到達することができます。
 
@@ -26,12 +31,12 @@ GenStudio for Performance Marketingでは、様々なエクスペリエンスの
 <img alt="Collage of ideas, books, man holding giant pencil, computer" src="card-create-assets.png">
 ```
 
-![&#x200B; アイデア、本、巨大な鉛筆を持つ男、コンピュータのコラージュ &#x200B;](/help/assets/card-create-assets.png){width="400"}
+![ アイデア、本、巨大な鉛筆を持つ男、コンピュータのコラージュ ](/help/assets/card-create-assets.png){width="400"}
 
 テンプレートをカスタマイズする場合は、`alt` 属性と `aria-label` 属性のコンテンツプレースホルダーを使用します。
 
-- [&#x200B; 代替テキスト &#x200B;](/help/user-guide/templates/customize-template.md#alternative-text)
-- [&#x200B; アクセシビリティラベル &#x200B;](/help/user-guide/templates/customize-template.md#accessibility-label)
+- [ 代替テキスト ](/help/user-guide/templates/customize-template.md#alternative-text)
+- [ アクセシビリティラベル ](/help/user-guide/templates/customize-template.md#accessibility-label)
 
 ## フォント
 

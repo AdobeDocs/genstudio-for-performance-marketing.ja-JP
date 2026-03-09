@@ -3,9 +3,16 @@ title: Adobe GenStudio for Performance Marketing キャンペーン
 description: キャンペーンとキャンペーンコンテンツの管理について学ぶ
 feature: Campaign Planning, Campaign Brief
 badgeBeta: label="Beta" tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"
-source-git-commit: 689a3f9c1860237d82774850f5b07145c6d3f562
+exl-id: 7f730f83-1bad-4727-98ba-6ab692a4be2d
+TQID: https://experienceleague.adobe.com/IdIZdyo1g6DCfOWTEz6hbVboY-TvXI0W1g8Fn1q46wg
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b286a442-6f0d-405a-adea-abb4a98e2d7bid: bf1f49e6-dcda-4b68-a4d5-aeecf05031a6id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: 550
 ht-degree: 0%
 
 ---
@@ -34,7 +41,7 @@ ht-degree: 0%
 
 1. キャンペーン名のすぐ下にある **[!UICONTROL コンテンツ]** をクリックします。 _キャンペーンコンテンツをフィルター_ ビューが開きます。
 
-1. **[!UICONTROL フィルター条件]** エリアの切り替えボタンを切り替えて、_Assets_ _、&lbrace; エクスペリエンス_、_テンプレート_ でキャンペーンコンテンツを識別します。
+1. **[!UICONTROL フィルター条件]** エリアの切り替えボタンを切り替えて、_Assets_ _、{ エクスペリエンス_、_テンプレート_ でキャンペーンコンテンツを識別します。
 この表示には、リンクされたアセット、エクスペリエンスおよびテンプレートが表示されます。 アセットのカードをダブルクリックすると、詳細が表示されます。
 
 ## キャンペーンコンテンツを更新
@@ -59,7 +66,7 @@ ht-degree: 0%
 
 キャンペーンの _詳細_ ビューには、このキャンペーンにリンクされているチャネル、ターゲットペルソナ、地域、製品が含まれています。
 
-1. _チャネル&#x200B;**、_ 地域 _、**&#x200B;ペルソナ_、または _製品_ ラベルの右側にある _レコードを接続_ をクリックします。
+1. _チャネル&#x200B;]**、_ 地域 _、**[!UICONTROL ペルソナ_、または _製品_ ラベルの右側にある _レコードを接続_ をクリックします。
 
    _レコードを接続_ ポップアップが開きます。
 
@@ -73,8 +80,8 @@ ht-degree: 0%
 
 **キャンペーンを削除するには**:
 
-1. _キャンペーン_ で、削除するキャンペーンの名前の横にあるアクションメニュー（...）をクリックします。
+1. _キャンペーン_ で、アクションメニュー（...）をクリックします 削除するキャンペーンの名前の横。
 
 1. 「**[!UICONTROL 削除]**」を選択します。
 
-   または、_詳細_ ビューで、キャンペーン名の横にあるアクションメニュー（...）からキャンペーンを削除できます。
+   または、アクションメニュー（...）からキャンペーンを削除することもできます。 _詳細_ ビューのキャンペーン名の隣。

@@ -3,10 +3,15 @@ title: アクティベーションの管理
 description: Adobe GenStudio for Performance Marketingでアクティブ化されたエクスペリエンスを管理する方法を説明します。
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
+TQID: https://experienceleague.adobe.com/ird0IiW8L5Axjj2FmEjlUcD1sPaNCNfxj9XNqGfQWiI
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 0%
+source-wordcount: 361
+ht-degree: 1%
 
 ---
 
@@ -24,7 +29,7 @@ ht-degree: 0%
 
 | 属性 | 値 |
 |------------------|---------------------------------------------------------------------------------------------|
-| エクスペリエンス名 | GenStudio for Performance Marketingのエクスペリエンスの名前 <br> この名前は、_[!DNL Content]_&#x200B;のエクスペリエンスを識別します |
+| エクスペリエンス名 | GenStudio for Performance Marketingのエクスペリエンスの名前 <br> この名前は、_[!DNL Content]_のエクスペリエンスを識別します |
 | 広告名 | 広告チャネルの広告名 |
 | 公開日 | 広告エクスペリエンスが正常に公開された日付 <br> 年の月日形式を使用 |
 | 公開者 | エクスペリエンスをアクティブ化したGenStudio for Performance Marketing ユーザーの名前 |
