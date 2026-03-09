@@ -2,10 +2,22 @@
 title: GenStudio Experience Selector MFE
 description: GenStudio アプリおよびアドオン用の Experience Selector マイクロフロントエンドの実装を理解します。
 feature: Extensibility, Extensions, Experiences
-source-git-commit: 27e85e62f83bad391348c45da1558cd1a58204fc
+exl-id: 918d3772-406b-4e16-bddc-0d5b160978d3
+TQID: https://experienceleague.adobe.com/0KCx1agovbj3-ShbAZ6JiHnHchMI47F9g4mvE4NPpvc
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bfaa655b-e017-428d-80d0-09de2183b296
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 5%
+source-wordcount: 601
+ht-degree: 4%
 
 ---
 
@@ -49,11 +61,11 @@ import { renderExperienceSelectorWithSUSI } from 'https://experience.adobe.com/s
 | `susiConfig` | object | はい | [SUSI 認証設定 &#x200B;](#susi-configuration) |
 | `onSelectionConfirmed` | 関数 | はい | 選択が確定したときのコールバック |
 | `onDismiss` | 関数 | はい | ダイアログが閉じたときのコールバック |
-| `locale` | 文字列 | いいえ | 言語ロケール（例：`en-US`） |
-| `isOpen` | ブール値 | いいえ | 最初のダイアログの状態 |
-| `selectionType` | 文字列 | いいえ | 選択モード （`single` または `multiple`） |
+| `locale` | 文字列 | 不要 | 言語ロケール（例：`en-US`） |
+| `isOpen` | ブーリアン | 不要 | 最初のダイアログの状態 |
+| `selectionType` | 文字列 | 不要 | 選択モード （`single` または `multiple`） |
 | `customFilters` | 配列 | いいえ | カスタムフィルター条件 |
-| `dialogTitle` | 文字列 | いいえ | カスタムダイアログのタイトル |
+| `dialogTitle` | 文字列 | 不要 | カスタムダイアログのタイトル |
 
 ### SUSI 設定
 

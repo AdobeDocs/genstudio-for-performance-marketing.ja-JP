@@ -3,9 +3,21 @@ title: Adobe GenStudio for Performance Marketing用Photoshop プラグイン
 description: GenStudio for Performance MarketingのPhotoshop プラグインをインストール、設定、使用する方法について説明します。
 feature: Generative AI
 role: User
-source-git-commit: bb6b8de80bdf6089e70756bea5dbf3e6a7945052
+exl-id: e3f57acd-f2dd-4957-aa5e-c97595a29899
+TQID: https://experienceleague.adobe.com/9p-ohsF1gIVKv3vwjnP9o675l3gJT3tVxx34PefFzCQ
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: 816
 ht-degree: 1%
 
 ---
@@ -64,9 +76,9 @@ GenStudio対応テンプレートを作成するには：
 
 | チャネル | 生成の必須フィールド | 生成用のオプション フィールド |
 | --- | --- | --- |
-| LinkedIn | `{on_image_text}`、`{image}` | `{headline}`、`{introductory_text}`、`{cta}`、`{website_url}` |
-| Meta | `{on_image_text}`、`{image}` | `{body}`、`{headline}`、`{cta}`、`{website_url}`、`{display_link}` |
-| ディスプレイ | `{body}`、`{image}` | `{headline}`、`{cta}`、`{website_url}` |
+| LinkedIn | `{on_image_text}`, `{image}` | `{headline}`, `{introductory_text}`, `{cta}`, `{website_url}` |
+| Meta | `{on_image_text}`, `{image}` | `{body}`, `{headline}`, `{cta}`, `{website_url}`, `{display_link}` |
+| ディスプレイ | `{body}`, `{image}` | `{headline}`, `{cta}`, `{website_url}` |
 
 複数の画層で同じフィールド指定を共有できますが、各画層で指定できるフィールドは 1 つだけです。 例えば、ドキュメントに複数のアートボードがある場合：
 
@@ -141,7 +153,7 @@ Instagram や Facebook のストーリーについて：
 
 ### マッピングされたフィールド
 
-テキストまたは画像が置き換えられない場合、確認フィールドは、括弧 `{}` ではなく、中括弧 `()` で正しくマッピングされます。
+テキストまたは画像が置き換えられない場合、確認フィールドは、括弧 `()` ではなく、中括弧 `{}` で正しくマッピングされます。
 
 ### 使用可能なフォントの確認
 

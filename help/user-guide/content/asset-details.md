@@ -3,10 +3,32 @@ title: アセットの詳細
 description: Adobe GenStudio for Performance Marketingでは、検索性とパフォーマンストラッキングのために、リッチなメタデータを使用して承認済みコンテンツを格納します。
 feature: Generative AI, Content Attributes, Content Management
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+TQID: https://experienceleague.adobe.com/Hm7qcrP6VcXf6IqZ2pYybduNyjjV8kdWj571gcRpglI
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+  - id: b03d2162-d906-40a0-9cbd-001391e22d4a
+  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 2%
+source-wordcount: 732
+ht-degree: 1%
 
 ---
 
@@ -42,7 +64,7 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 
 承認済みのアセットを [!DNL Content] に保存すると、GenStudio for Performance MarketingはAdobeの AI と機械学習機能を使用してアセットを調査し、アセットの機能に基づいてタグを適用します。 例えば、猫の画像では、`pet photography` や `cat` などの属性タグや、画像内で支配的な色を識別するカラータグが生成される場合があります。 検出され、自動的に適用されたタグは編集できません。
 
-画像、ビデオおよびテキスト機能の詳細なリストについては、[!DNL Insights] 属性カテゴリ [&#x200B; を参照してください &#x200B;](/help/user-guide/insights/attributes.md#categories) 属性カテゴリ）。
+画像、ビデオおよびテキスト機能の詳細なリストについては、[!DNL Insights] 属性カテゴリ [&#128279;](/help/user-guide/insights/attributes.md#categories) を参照してください  属性カテゴリ）。
 
 ### 生成されたコンテンツメタデータ
 
@@ -76,8 +98,8 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) がGenStudio for Performance Marketingに追加されて使用されるようになりました |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) がGenStudio for Performance Marketingに追加されて使用されるようになりました |
 | チャネル | メール、バナー、ディスプレイ広告など、特定のコンテンツタイプを配信するプラットフォーム |
-| [!UICONTROL &#x200B; 期間 &#x200B;] | 四半期、シーズン、年など、アセットを使用する時間枠。 例：`Winter 2023` |
-| 地域  | アセットが使用される地域。 例：`North America`, `APAC`, `Italy` |
+| [!UICONTROL &#x200B; 期間 &#x200B;] | 四半期、シーズン、年など、アセットを使用する時間枠。例：`Winter 2023` |
+| 地域 | アセットが使用される地域。 例：`North America`, `APAC`, `Italy` |
 | 言語 | アセットを使用する言語。 例：`Spanish` |
 | キーワード | ユーザー定義のキーワードは、アセットの特徴や目的をさらに特定するために使用されます |
 
@@ -91,7 +113,7 @@ Adobe GenStudio for Performance Marketingでは、検索性とパフォーマン
 
 情報には次が含まれる場合があります。
 
-- `Brand` のプロセス中に選択された `Product`、`Persona`、および [!DNL Create] のパラメーター
+- [!DNL Create] のプロセス中に選択された `Brand`、`Product`、および `Persona` のパラメーター
 - メールエクスペリエンスの `Subject line` と `Preheader`
 - Meta広告の `Headline` と `Body`
 

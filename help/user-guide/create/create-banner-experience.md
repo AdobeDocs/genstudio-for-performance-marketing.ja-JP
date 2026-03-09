@@ -7,16 +7,36 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: 4172d58660b0242976f73d7575142456ae8c4ae1
+TQID: https://experienceleague.adobe.com/bgBb1B5ZzEt-qvNn-U-N-95lrGjFGD9d9vE47vVV7jg
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: 1089
 ht-degree: 0%
 
 ---
 
 # バナーエクスペリエンスの作成
 
-このチュートリアルでは、GenStudio for Performance Marketing [&#x200B; （左側のナビゲーションエリアにある絵筆のアイコン &#x200B;](banner-experiences.md) を使用して、ブランド化された [[!DNL Create]](/help/user-guide/create/overview.md) バナーエクスペリエンス）を作成する方法を説明します。
+このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン [&#128279;](banner-experiences.md) を使用して、ブランド化された  バナーエクスペリエンス）を作成する方法を説明します。
 
 魅力的なバナーエクスペリエンスをデザインするには、開始する前に、[GenStudio for Performance Marketingにガイドラインを追加する &#x200B;](/help/user-guide/guidelines/add-guidelines.md)、[&#x200B; プロンプトの記述の基本 &#x200B;](/help/user-guide/effective-prompts.md) を確認することをお勧めします。
 
@@ -35,7 +55,7 @@ ht-degree: 0%
 
 ## パラメーターを追加
 
-プロンプトドロワー内の [&#x200B; パラメーター &#x200B;](/help/user-guide/guidelines/overview.md) に _ガイドライン_ およびアセットを組み込むと、コンテンツ生成プロセスが強化され、バナーエクスペリエンスを作成するための重要な準備手順となります。
+プロンプトドロワー内の _パラメーター_ に [&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md) およびアセットを組み込むと、コンテンツ生成プロセスが強化され、バナーエクスペリエンスを作成するための重要な準備手順となります。
 
 ![&#x200B; プロンプト ドロワーにパラメータを入力 &#x200B;](/help/assets/prompt-displayad2.png){width="50%" align="center"}
 
@@ -137,4 +157,4 @@ When revising and preparing email experiences, you can toggle between previews f
 
       書き出されたHTMLは、テンプレートや `div` コンテナなど、事前に定義された web プロパティ内に配置する必要があります。 これらのサイズを設定しないと、個別に表示した場合に画像がゆがんで見えることがあります。
 
-詳しくは、[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) を参照してください。
+[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) を参照してください。

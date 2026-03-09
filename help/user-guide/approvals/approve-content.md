@@ -3,10 +3,17 @@ title: コンテンツを承認
 description: 生成されたコンテンツをAdobe GenStudio for Performance Marketingで承認する方法を説明します。
 feature: Content Review, Content Management
 exl-id: f6458d8f-dff3-448e-9f08-6d192f8a91d9
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+TQID: https://experienceleague.adobe.com/-gEhuBGNiJb3BxrRvJKcZea87FCe5FERanIKGLBuO3U
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 1%
+source-wordcount: 202
+ht-degree: 5%
 
 ---
 
@@ -30,7 +37,7 @@ ht-degree: 1%
 
 **コンテンツに関する決定を行うには**:
 
-1. **[!UICONTROL の上部にある「]** 決定を下す [!DNL Proofing Viewer]」をクリックします。
+1. [!DNL Proofing Viewer] の上部にある「**[!UICONTROL 決定を下す]**」をクリックします。
 
    _プルーフ決定_ ポップアップが開き、フィードバックを承認または送信するためのオプションが表示されます。
 
@@ -38,4 +45,4 @@ ht-degree: 1%
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
-ドラフトの作成者に承認が通知され、作業が完了します。 [&#x200B; に保存するプロセスまたは &#x200B;](/help/user-guide/approvals/publish-content.md) 公開 [!DNL Content] の概要については、_コンテンツの公開_ を参照してください。
+ドラフトの作成者に承認が通知され、作業が完了します。 [!DNL Content] に保存するプロセスまたは [&#128279;](/help/user-guide/approvals/publish-content.md) 公開 _の概要については、 コンテンツの公開_ を参照してください。

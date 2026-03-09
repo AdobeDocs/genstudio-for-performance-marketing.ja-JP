@@ -7,10 +7,30 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c1118ada-7fee-43cd-aff4-eab69539afb4
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+TQID: https://experienceleague.adobe.com/NXtN00EKTe0lGI8jJMJWJfWx6mHoMQI1of1mJhgrR5U
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+  - id: e4a0febc-5163-4017-82ce-fc7594509fb6
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 1%
+source-wordcount: 836
+ht-degree: 0%
 
 ---
 
@@ -24,7 +44,7 @@ GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/over
 
 選択し _[!DNL On-brand images]_&#x200B;画像からインスピレーションを得て、その視覚的なインパクトと全体的な美学をキャプチャする生成されたアセットです。 これらの画像は、[!DNL Content] で既に使用可能な画像と、デザインをガイドする慎重に作成されたプロンプトを使用して作成されます。 生成プロセス中に選択したブランドガイドラインとパラメーターの両方に厳密に従います。
 
-設定 _[!DNL On-brand images]_&#x200B;れたガイドライン、パラメーター、<!-- and _[!DNL Similar images]_ --> 慎重に作成されたプロンプト [&#x200B; を組み込んで、人目を引く画像アセットを配信で &#x200B;](/help/user-guide/effective-prompts.md) ます。
+設定 _[!DNL On-brand images]_&#x200B;れたガイドライン、パラメーター、[&#x200B; 慎重に作成されたプロンプト &#x200B;](/help/user-guide/effective-prompts.md) を組み込んで、人目を引く画像アセットを配信で <!-- and _[!DNL Similar images]_ --> ます。
 
 <!-- * _[!DNL Similar images]_—Image assets created with strong similarity to an existing selected image available in [!DNL Content]. When generating similar images, GenStudio for Performance Marketing redesigns the selected image, giving slight variations on the content to provide variety and nuance. -->
 
@@ -34,7 +54,7 @@ GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/over
 
 ### 参照画像を選択
 
-_[!DNL On-brand images]_&#x200B;を作成するには、[!DNL Content] に保存されている既存の画像を選択します。 サポートされる [&#x200B; ディメンションについて詳しくは、](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) テンプレートのベストプラクティス [!DNL on-brand image] を参照してください。
+_[!DNL On-brand images]_&#x200B;を作成するには、[!DNL Content] に保存されている既存の画像を選択します。 サポートされる [!DNL on-brand image] ディメンションについて詳しくは、[&#x200B; テンプレートのベストプラクティス &#x200B;](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) を参照してください。
 
 **参照画像を選択するには**:
 
@@ -72,7 +92,7 @@ _[!DNL On-brand images]_&#x200B;を作成するには、[!DNL Content] に保存
    Models are available if you access to [custom models in Firefly](https://adobedx.slack.com/archives/CMF1JGMLY/p1743534402774569). The _Models_ list will be blank if you do not have access. -->
 
 1. _[!UICONTROL 縦横比]_ から目的の縦横比を選択します。
-1. **[!UICONTROL スタイル参照]** の _[!UICONTROL コンテンツから選択]_ をクリックして、参照画像を追加します。 選択する画像は、生成する画像の視覚的な美しさと深さに影響を与えます。
+1. _[!UICONTROL スタイル参照]_ の **[!UICONTROL コンテンツから選択]** をクリックして、参照画像を追加します。 選択する画像は、生成する画像の視覚的な美しさと深さに影響を与えます。
 
    接続された [!DNL AEM Assets Content Hub] リポジトリのアセットを使用するには、_場所_ ドロップダウンメニューからリポジトリを選択します。 1 つの画像をフィルタリングして選択します。
 
@@ -146,7 +166,7 @@ You can quickly generate images similar to a selected image within [!DNL Content
 
 ## 画像の公開と書き出し
 
-生成された画像のドラフトは、_ホームの_ 最近 [!DNL Create] セクションに表示されます。
+生成された画像のドラフトは、[!DNL Create] ホームの _最近_ セクションに表示されます。
 
 生成した画像を現在および将来の使用で使用できるようにするには、画像を [!UICONTROL &#x200B; コンテンツ &#x200B;] に公開し、マーケティングキャンペーンで使用するために書き出します。
 
@@ -157,4 +177,4 @@ You can quickly generate images similar to a selected image within [!DNL Content
 1. **新しい画像を書き出すには**、上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。
    1. フォーマット（JPGまたは PNG）を選択し、「**[!UICONTROL エクスポート]**」をクリックします。
 
-詳しくは、[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) を参照してください。
+[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) を参照してください。

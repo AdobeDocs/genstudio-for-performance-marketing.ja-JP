@@ -5,9 +5,25 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 4f3d8558f37656ccfc67b592e0bb9e90c30a7963
+TQID: https://experienceleague.adobe.com/6gHxPvfz-30X3w2MYIc2Aj5SiGZokzOqSvOHYTQ-u7I
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: 1646
 ht-degree: 0%
 
 ---
@@ -16,7 +32,7 @@ ht-degree: 0%
 
 生成 AI がコンテンツの挿入に使用するコンテンツプレースホルダー（フィールド）を挿入することで、GenStudio for Performance Marketingで使用するテンプレートをカスタマイズできます。
 
-以降の節では、_[!DNL Handlebars]_&#x200B;テンプレート言語を使用してHTML テンプレートをGenStudio for Performance Marketingに適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 テンプレートの準備方法については、[Handlebars 言語ガイド  [!DNL Handlebars] の &#x200B;](https://handlebarsjs.com/guide/#what-is-handlebars) 概要__を参照してください。
+以降の節では、_[!DNL Handlebars]_&#x200B;テンプレート言語を使用してHTML テンプレートをGenStudio for Performance Marketingに適応させる方法について説明します。 [!DNL Handlebars] の構文では、コンテンツのプレースホルダーとして中括弧を使用した通常のテキストを使用します。 テンプレートの準備方法については、_ Handlebars 言語ガイド _の [&#x200B; 概要  [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) を参照してください。
 
 テンプレートの準備が整ったら、[GenStudio for Performance Marketingにアップロード &#x200B;](use-templates.md#upload-a-template)、カスタムテンプレートに基づいてパーソナライズされたメールの生成を開始できます。
 
@@ -32,7 +48,7 @@ GenStudio for Performance Marketingは、テンプレート内の特定の種類
 
 HTML テンプレートの先頭または本文内では、[!DNL Handlebars] の構文を使用して、GenStudio for Performance Marketingに実際のコンテンツをテンプレートに入力させる必要があるコンテンツプレースホルダーを挿入できます。 GenStudio for Performance Marketingは、これらのプレースホルダーを [&#x200B; 認識された _field_ name](#recognized-field-names) に基づいて認識および解釈します。 各フィールド名は、コンテンツの生成方法とテンプレートへの挿入方法を決定する特定のルールと動作に関連付けられています。
 
-例えば、`{{headline}}` 構文で [!DNL Handlebars] を使用して、メールのヘッドラインを配置する場所を示すことができます。 GenStudioはこのフィールドを認識し、ガイドラインとプロンプトの条件に基づいて関連するヘッドラインを生成して、この場所にヘッドラインを挿入します。
+例えば、[!DNL Handlebars] 構文で `{{headline}}` を使用して、メールのヘッドラインを配置する場所を示すことができます。 GenStudioはこのフィールドを認識し、ガイドラインとプロンプトの条件に基づいて関連するヘッドラインを生成して、この場所にヘッドラインを挿入します。
 
 ```handlebars
 <div>{{headline}}</div>
@@ -115,7 +131,7 @@ GenStudio for Performance Marketingでは、様々なコールトゥアクショ
 
 ### 代替テキスト
 
-ユーザー定義のフィールド名をプレースホルダーとして使用して、画像の代替テキスト（HTML `alt="text"` 属性）説明を生成します。 次の `{{imageDescription}}` プレースホルダーは、同じ `{{image}}` タグ内の `<img>` フィールドで使用され、画像とその説明の間の関係が保持されます。
+ユーザー定義のフィールド名をプレースホルダーとして使用して、画像の代替テキスト（HTML `alt="text"` 属性）説明を生成します。 次の `{{imageDescription}}` プレースホルダーは、同じ `<img>` タグ内の `{{image}}` フィールドで使用され、画像とその説明の間の関係が保持されます。
 
 ```html
 <img src="{{image}}" alt="{{imageDescription}}">
@@ -194,7 +210,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 HTML属性内でコンテンツプレースホルダー（`alt`、`href`、`src` など）を使用する場合、そのフィールドではリッチテキストの編集はサポートされません。
 
-**のコンテンツではリッチテキスト編集は使用** できません `alt`
+`alt` のコンテンツではリッチテキスト編集は使用 **できません**
 
 ```html
 <img src="image.jpg" alt="{{image_description}}">
@@ -202,7 +218,7 @@ HTML属性内でコンテンツプレースホルダー（`alt`、`href`、`src`
 
 1 つのフィールドが複数回表示される場合、リッチテキスト機能は、いずれかのインスタンスでHTML属性として使用されているかどうかに基づいて決定されます。 例えば、ヘッドラインが見出しとして、また画像の代替テキストとして使用される場合、`alt` タグが優先されます。
 
-リッチテキスト編集は、リッ **コンテンツとして使用されるので、** では使用 `headline` できません `alt`。
+リッチテキスト編集は、リッ `alt` コンテンツとして使用されるので、`headline` では使用 **できません**。
 
 ```html
 <h1>{{headline}}</h1>
@@ -213,9 +229,9 @@ HTML属性内でコンテンツプレースホルダー（`alt`、`href`、`src`
 
 ## セクションまたはグループ
 
-メールテンプレートに複数のコンテンツ領域（複数のオファーやストーリーなど）が必要な場合は、セクションやグループを使用して整理できます。 _セクション_ このセクションのフィールドには高い一貫性が必要であることをGenStudio for Performance Marketingに伝えます。 この関係を確立すると、AI がセクションのクリエイティブ要素に一致するコンテンツを生成するのに役立ちます。
+メールテンプレートに複数のコンテンツ領域（複数のオファーやストーリーなど）が必要な場合は、セクションやグループを使用して整理できます。_セクション_ このセクションのフィールドには高度な一貫性が必要であることをGenStudio for Performance Marketingに通知します。 この関係を確立すると、AI がセクションのクリエイティブ要素に一致するコンテンツを生成するのに役立ちます。
 
-フィールドがセクションまたはグループの一部であることを示すプレフィックスとして、選択したグループ名を使用します。 アンダースコア（`headline`）の後にフィールド名（`body`、`image`、`cta`、`_` など）を使用します。
+フィールドがセクションまたはグループの一部であることを示すプレフィックスとして、選択したグループ名を使用します。 アンダースコア（`_`）の後にフィールド名（`headline`、`body`、`image`、`cta` など）を使用します。
 
 構文：`groupname_fieldname`
 
@@ -236,12 +252,12 @@ HTML属性内でコンテンツプレースホルダー（`alt`、`href`、`src`
 例えば、1 つのメールテンプレートに最大 3 つのセクションを含めることができます。したがって、次の 3 つのヘッドラインと本文セクションを含めることができます。
 
 - `pre_header`
-- `pod1_headline`、`pod1_body`
-- `pod2_headline`、`pod2_body`
-- `pod3_headline`、`pod3_body`
+- `pod1_headline`, `pod1_body`
+- `pod2_headline`, `pod2_body`
+- `pod3_headline`, `pod3_body`
 - `cta`
 
-GenStudio for Performance Marketingは `pod1_headline` が `pod1_body` よりも `pod2_body` と密接に関係していることを理解しています。
+GenStudio for Performance Marketingは `pod1_headline` が `pod2_body` よりも `pod1_body` と密接に関係していることを理解しています。
 
 >[!TIP]
 >

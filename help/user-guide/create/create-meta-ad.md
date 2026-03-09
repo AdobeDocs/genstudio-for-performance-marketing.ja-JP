@@ -6,16 +6,41 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 9ac53f3fc88df095f4098693090dafb9416bda27
+TQID: https://experienceleague.adobe.com/ht5ZJBghEPMEL--WNyl5uam-Mb92dsgp-4g9jQ9aO-g
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+  - id: b03d2162-d906-40a0-9cbd-001391e22d4a
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+  - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: 1414
 ht-degree: 0%
 
 ---
 
 # Meta広告エクスペリエンスの作成
 
-このチュートリアルでは、GenStudio for Performance Marketing [&#x200B; （左側のナビゲーションエリアにある絵筆のアイコン）を使用して &#x200B;](/help/user-guide/create/meta-experiences.md) ブランド化された [[!DNL Create]](/help/user-guide/create/overview.md)Meta広告エクスペリエンスを生成する方法を実演します。
+このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン）を使用して [&#128279;](/help/user-guide/create/meta-experiences.md) ブランド化された Meta広告エクスペリエンスを生成する方法を実演します。
 
 Meta広告エクスペリエンスの作成を開始する前に、GenStudio for Performance Marketingで [&#x200B; ガイドラインを組み込む &#x200B;](/help/user-guide/guidelines/add-guidelines.md) ことと、[&#x200B; プロンプトの作成 &#x200B;](/help/user-guide/effective-prompts.md) の基本を理解することが重要です。
 

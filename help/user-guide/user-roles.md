@@ -5,16 +5,35 @@ level: Beginner
 feature: Generative AI, Guidelines
 role: Admin
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 4bef680734ee3369c13b10088fd39f22995a5f0f
+TQID: https://experienceleague.adobe.com/H1MbYm5RniRbZBous-F4nBi-2h5RD1AG4IgydlP22-c
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: 1155
 ht-degree: 10%
 
 ---
 
 # ユーザーの役割と権限
 
-最新のマーケティングキャンペーンを作成してデプロイするには、様々な責任やスキルセットを持つ利害関係者間の共同作業が必要です。 _ユーザーの役割_ は、GenStudio for Performance Marketingの多くの機能への関係者のアクセスを制御します。 割り当てられたユーザーの役割によって、このプラットフォームを使用して実行できるタスクが決まります。 Adobe システム管理者によって、Adobe Admin ConsoleのGenStudio製品プロファイルの役割に割り当てられます。 お知らせメールは、割り当てられた役割を識別します。
+最新のマーケティングキャンペーンを作成してデプロイするには、様々な責任やスキルセットを持つ利害関係者間の共同作業が必要です。_ユーザーの役割_ GenStudio for Performance Marketingの多くの機能への関係者のアクセスを制御します。 割り当てられたユーザーの役割によって、このプラットフォームを使用して実行できるタスクが決まります。 Adobe システム管理者によって、Adobe Admin ConsoleのGenStudio製品プロファイルの役割に割り当てられます。 お知らせメールは、割り当てられた役割を識別します。
 
 >[!NOTE]
 >
@@ -26,7 +45,7 @@ ht-degree: 10%
 
 **Adobe システム管理者** Adobe Admin Consoleのパワーユーザー権限を持ち、ユーザーの追加や削除などのすべてのユーザー管理タスクを実行します。 このシステム管理者の役割は、GenStudio for Performance Marketing アプリケーションに権限を提供しません。このため、Adobe システム管理者はGenStudioのライセンスを必要としません。 Adobe システム管理者は、通常、Admin Consoleを使用して、GenStudio デプロイメントのユーザーアカウントを追加および削除し、個々のユーザーまたはユーザーグループに対する使用権限や権限を割り当てまたは削除します。
 
-**GenStudio システムマネージャー** は、GenStudio for Performance Marketing内のパワーユーザーですが、Adobe Admin Consoleでタスクを実行する権限はありません。 この System Manager の役割にはGenStudio製品ライセンスが必要で、[Adobe GenStudio for Performance Marketing製品の説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) のパワーユーザーに対応しています。 GenStudio システムマネージャーは、[!DNL Brands] 成、[!DNL Persona] 除、[!DNL Product] ージの作成、削除、更新、公開など、GenStudio for Performance Marketingの機能を完全に利用できます。 [Adobe GenStudio for Performance Marketing製品説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) では、GenStudioのユーザーロールと製品ライセンスとの関係を説明します。
+**GenStudio システムマネージャー** は、GenStudio for Performance Marketing内のパワーユーザーですが、Adobe Admin Consoleでタスクを実行する権限はありません。 この System Manager の役割にはGenStudio製品ライセンスが必要で、[Adobe GenStudio for Performance Marketing製品の説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) のパワーユーザーに対応しています。 GenStudio システムマネージャーは、[!DNL Brands] 成、[!DNL Persona] 除、[!DNL Product] ージの作成、削除、更新、公開など、GenStudio for Performance Marketingの機能を完全に利用できます。[Adobe GenStudio for Performance Marketing製品説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) GenStudioのユーザーロールと製品ライセンスとの関係を説明します。
 
 [&#x200B; エンタープライズおよびチーム管理ガイド &#x200B;](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html#enterprise) の _管理者の役割_ を参照してください。
 
@@ -56,7 +75,7 @@ _編集者_ またはコンテンツ作成者は、GenStudio for Performance Mar
 
 エディターのデフォルトの権限を次の表に示します。
 
-| 機能 | 作成 | アップデート | 削除 | 表示 |
+| 機能 | 作成 | 更新 | 削除 | 表示 |
 |-----------|----------------|----------------|----------------|----------------|
 | [!DNL Brands] | いいえ | いいえ | いいえ | はい |
 | [!DNL Campaigns] | はい | はい | はい | はい |
@@ -78,7 +97,7 @@ _共同作業者_ は、GenStudio for Performance Marketingでアセットを表
 
 次の表に、デフォルトのコラボレータ権限を示します。
 
-| 機能 | 作成 | アップデート | 削除 | 表示 |
+| 機能 | 作成 | 更新 | 削除 | 表示 |
 |-----------|----------------|----------------|----------------|----------------|
 | [!DNL Brands] | いいえ | いいえ | いいえ | はい |
 | [!DNL Campaigns] | はい | はい | はい | はい |
@@ -96,7 +115,7 @@ _GenStudio システムマネージャー_ は、GenStudio for Performance Marke
 
 次の表に、デフォルトのシステムマネージャー権限を示します。
 
-| 機能 | 作成 | アップデート | 削除 | 表示 |
+| 機能 | 作成 | 更新 | 削除 | 表示 |
 |-----------|----------------|----------------|----------------|----------------|
 | [!DNL Brands] | はい | はい | はい | はい |
 | [!DNL Campaigns] | はい | はい | はい | はい |
