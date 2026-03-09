@@ -5,10 +5,16 @@ feature: Generative AI
 role: User
 exl-id: e3f57acd-f2dd-4957-aa5e-c97595a29899
 TQID: https://experienceleague.adobe.com/9p-ohsF1gIVKv3vwjnP9o675l3gJT3tVxx34PefFzCQ
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 816
@@ -66,7 +72,7 @@ GenStudio対応テンプレートを作成するには：
 1. Photoshopでドキュメントを開きます。
 1. 生成されたコンテンツのテキストレイヤーを特定します。
 1. 画層の名前をフィールド名表記形式 `{<name_of_generated_field>}` に変更します。 例：`{body}`、`{headline}`、`{cta}`。
-1. すべてのレイヤーのレイヤー名を変更します [ テンプレートタイプ用のチャネルに必要なフィールド ](../../user-guide/templates/customize-template.md#recognized-field-names)。
+1. すべてのレイヤーのレイヤー名を変更します [&#x200B; テンプレートタイプ用のチャネルに必要なフィールド &#x200B;](../../user-guide/templates/customize-template.md#recognized-field-names)。
 
 | チャネル | 生成の必須フィールド | 生成用のオプション フィールド |
 | --- | --- | --- |
@@ -115,9 +121,9 @@ Instagram や Facebook のストーリーについて：
 1. 「**[!UICONTROL ログイン]**」ボタンをクリックします。 URL を開く権限を要求するメッセージが表示されたら、オプションで **選択内容を保存** のチェックボックスをオンにし、「**[!UICONTROL 許可]** をクリックします。
 1. Web ブラウザーを使用して、GenStudio for Performance Marketingへのアクセス権を持つプロファイルでログインします。
 1. 開いたテンプレートに適用されるチャネル（Meta、LinkedIn またはディスプレイ）を選択します。
-   ![ チャネル選択 ](./ps-select-channel.png){width="300" zoomable="yes"}
+   ![&#x200B; チャネル選択 &#x200B;](./ps-select-channel.png){width="300" zoomable="yes"}
 1. コンテンツ生成の [!DNL Brand]、[!DNL Persona] および [!DNL Product] コンテキストを選択します。
-   ![ ブランド、ペルソナ、製品の選択 ](./ps-select-box.png){width="300" zoomable="yes"}
+   ![&#x200B; ブランド、ペルソナ、製品の選択 &#x200B;](./ps-select-box.png){width="300" zoomable="yes"}
 1. 作成するバリエーションの数を選択します。
 1. **[!UICONTROL コンテンツを選択]** の下にあるボタンを使用して、アセットから画像を参照して選択します。 最近追加された 40 個のアセットが最初に表示され、他のアセットを検索できます。 選択した画像は、テンプレートに合わせて自動的にサイズ変更されます。
 1. **[!UICONTROL テキストプロンプト]** ボックスにコンテンツのテキストプロンプトを入力します。
@@ -139,7 +145,7 @@ Instagram や Facebook のストーリーについて：
 
 ユーザーは、コンテンツの生成または翻訳後に書き出しを選択できます。 書き出されたエクスペリエンスは、GenStudio for Performance Marketingの「コンテンツ」セクションに入力されます。
 
-![ 「コンテンツ」セクションに表示される、書き出されたアセット ](./content-assets.png){width="90%"}
+![&#x200B; 「コンテンツ」セクションに表示される、書き出されたアセット &#x200B;](./content-assets.png){width="90%"}
 
 ## トラブルシューティング
 

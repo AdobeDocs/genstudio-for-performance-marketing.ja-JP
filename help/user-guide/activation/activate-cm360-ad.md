@@ -4,11 +4,17 @@ description: Google Campaign Manager 360 エクスペリエンスをアクティ
 feature: Ad Activation
 exl-id: e4ee4e04-8dd0-4e05-a0f7-0ddca2fbb6be
 TQID: https://experienceleague.adobe.com/pQbT2OC7-jK33HhJWgTBBtJrmEvr48mGkl8v-fTkOLQ
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2: id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2:
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 551
@@ -24,19 +30,19 @@ Google Campaign Manager 360 の広告エクスペリエンスの公開は、ア 
 
 ## 手順 1:Google Campaign Manager 360 アカウントの設定
 
-アクティベーションを開始する前に、[Google Campaign Manager 360 アカウントにログイン ](https://campaignmanager.google.com) します。 Google Campaign Manager 360 の広告主にアクセスできることを確認します。 Campaign Manager 360 エクスペリエンスをGenStudio for Performance Marketingから公開すると、作成時に選択した広告主ライブラリに配信されます。
+アクティベーションを開始する前に、[Google Campaign Manager 360 アカウントにログイン &#x200B;](https://campaignmanager.google.com) します。 Google Campaign Manager 360 の広告主にアクセスできることを確認します。 Campaign Manager 360 エクスペリエンスをGenStudio for Performance Marketingから公開すると、作成時に選択した広告主ライブラリに配信されます。
 
 Campaign Manager 360 を使用すると、マーケターは、様々な _広告主_ 内でキャンペーンと広告を整理できます。 各広告主は、クリエイティブライブラリを含む。 GenStudio for Performance Marketingは、広告エクスペリエンスをクリエイティブライブラリに公開します。
 
 ## 手順 2:Google Campaign Manager 360 アカウントへの接続
 
-クリエイティブライブラリにアセットを公開する前に、GenStudio システムマネージャーはGoogle Campaign Manager 360 アカウントをGenStudio for Performance Marketingに接続する必要があります。 このユーザーが Campaign Manager 360 で読み取りと書き込みを行うには、広告主への管理者アクセス権が必要です。 [ 有料メディアアカウントの接続 ](/help/user-guide/connectors/connect-channel.md) を参照してください。
+クリエイティブライブラリにアセットを公開する前に、GenStudio システムマネージャーはGoogle Campaign Manager 360 アカウントをGenStudio for Performance Marketingに接続する必要があります。 このユーザーが Campaign Manager 360 で読み取りと書き込みを行うには、広告主への管理者アクセス権が必要です。 [&#x200B; 有料メディアアカウントの接続 &#x200B;](/help/user-guide/connectors/connect-channel.md) を参照してください。
 
 同期が完了したら、追加されたアカウントを表示できます。
 
 ## 手順 3：広告エクスペリエンスに合ったコンテンツの選択
 
-公開プロセスは、_[!DNL Content]_Experience ギャラリーまたは_[!DNL Activate]_ ホームから開始できます。 承認済みのエクスペリエンスは編集できません。 各エクスペリエンスには、1 つのアセットのみを含めることができます。
+公開プロセスは、_[!DNL Content]_&#x200B;Experience ギャラリーまたは&#x200B;_[!DNL Activate]_ ホームから開始できます。 承認済みのエクスペリエンスは編集できません。 各エクスペリエンスには、1 つのアセットのみを含めることができます。
 
 **エクスペリエンスを選択するには**:
 
@@ -71,4 +77,4 @@ Campaign Manager 360 の広告エクスペリエンスは、選択した Campaig
 
 ## 手順 6：広告エクスペリエンスの公開を完了する
 
-1. [Google Campaign Manager 360 アカウントにログイン ](https://campaignmanager.google.com) して、公開されたエクスペリエンス内で広告の設定とデプロイの最後の手順を管理します。
+1. [Google Campaign Manager 360 アカウントにログイン &#x200B;](https://campaignmanager.google.com) して、公開されたエクスペリエンス内で広告の設定とデプロイの最後の手順を管理します。
