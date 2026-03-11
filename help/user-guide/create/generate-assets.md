@@ -27,7 +27,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
 source-wordcount: 836
 ht-degree: 0%
@@ -87,9 +87,11 @@ _[!DNL On-brand images]_&#x200B;を作成するには、[!DNL Content] に保存
 
    画像カテゴリは、[!DNL Brand] を選択した場合に使用できます。 オプションは、選択した [!DNL Brand] によって決定されます。
 
-<!-- 1. _(Optional)_ Select a custom model from _[!UICONTROL Model]_.
+<!-- 
+1. _(Optional)_ Select a custom model from _[!UICONTROL Model]_.
 
-   Models are available if you access to [custom models in Firefly](https://adobedx.slack.com/archives/CMF1JGMLY/p1743534402774569). The _Models_ list will be blank if you do not have access. -->
+   Models are available if you access to [custom models in Firefly](https://adobedx.slack.com/archives/CMF1JGMLY/p1743534402774569). The _Models_ list will be blank if you do not have access. 
+-->
 
 1. _[!UICONTROL 縦横比]_ から目的の縦横比を選択します。
 1. _[!UICONTROL スタイル参照]_ の **[!UICONTROL コンテンツから選択]** をクリックして、参照画像を追加します。 選択する画像は、生成する画像の視覚的な美しさと深さに影響を与えます。
@@ -146,7 +148,8 @@ _[!DNL On-brand images]_&#x200B;を作成するには、[!DNL Content] に保存
 
 [&#x200B; ブランド検証 &#x200B;](/help/user-guide/guidelines/brand-validation.md) を参照してください。
 
-<!-- ## Generate Similar images
+<!-- 
+## Generate Similar images
 
 You can quickly generate images similar to a selected image within [!DNL Content] from the [!DNL Create] home.
 
@@ -162,7 +165,8 @@ You can quickly generate images similar to a selected image within [!DNL Content
 
    The Canvas, which serves as the central hub for content creation, is displayed. Four image variations similar to the original selected image appear.
 
-   ![Generate similar images](/help/assets/generate-similar.png){width="400" zoomable="yes"} -->
+   ![Generate similar images](/help/assets/generate-similar.png){width="400" zoomable="yes"} 
+-->
 
 ## 画像の公開と書き出し
 
