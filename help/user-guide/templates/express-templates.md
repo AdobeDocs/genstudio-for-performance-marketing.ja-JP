@@ -13,18 +13,18 @@ ht-degree: 0%
 
 # [!DNL Adobe Express] テンプレートの使用
 
-[!DNL Adobe Express][!DNL GenStudio for Performance Marketing] 作成および設計されたテンプレートを使用できます。 [!DNL Adobe Express] からブランドアセットを取り込み、これらの強力なツールを使用して、魅力的なマーケティングキャンペーンや [!DNL Experiences] に統合します。
+[!DNL Adobe Express]&#x200B;[!DNL GenStudio for Performance Marketing] 作成および設計されたテンプレートを使用できます。 [!DNL Adobe Express] からブランドアセットを取り込み、これらの強力なツールを使用して、魅力的なマーケティングキャンペーンや [!DNL Experiences] に統合します。
 
 このガイドでは、要件と機能を [!DNL Adobe Express] のテンプレートで説明します。
 
 ## [!DNL Adobe Express] のテンプレートについて
 
-ま [!DNL Adobe Express]、アプリケーションに用意されている [ 既存のスターターテンプレートを使用して新しいドキュメントを作成する ](https://helpx.adobe.com/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) か、次のような便利なブランド制限を含めることができる [ カスタムテンプレートを使用する ](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) ことができます。
+ま [!DNL Adobe Express]、アプリケーションに用意されている [&#x200B; 既存のスターターテンプレートを使用して新しいドキュメントを作成する &#x200B;](https://helpx.adobe.com/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) か、次のような便利なブランド制限を含めることができる [&#x200B; カスタムテンプレートを使用する &#x200B;](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html) ことができます。
 
-- [ ロックされた要素 ](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html) 変更できない
+- [&#x200B; ロックされた要素 &#x200B;](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html) 変更できない
 - 必要に応じてユーザーが要素のロックを解除する方法を制御する制限をロックします
 
-[!DNL Adobe Express] のテンプレートに設定されたロック設定も、[!DNL GenStudio for Performance Marketing] で適用されます。 [ ブランド制限  [!DNL Adobe Express]  カスタムテンプレートを作成する手順 ](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/template-control.html) を使用します。
+[!DNL Adobe Express] のテンプレートに設定されたロック設定も、[!DNL GenStudio for Performance Marketing] で適用されます。 [&#x200B; ブランド制限  [!DNL Adobe Express]  カスタムテンプレートを作成する手順 &#x200B;](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/template-control.html) を使用します。
 
 Express テンプレートでカスタムフォントを使用するには、管理者はまず、Admin Console でカスタムフォントの対象となるオファーを受け入れる必要があります。このオファーは、Express ライセンス使用権の一部として含まれています。
 
@@ -45,23 +45,23 @@ Express テンプレートでカスタムフォントを使用するには、管
 
 **[!UICONTROL テンプレートを選択]** の下の上部バーで、**Express テンプレート** を見つけます。
 
-![ テンプレートを選択パネルに表示される高速テンプレート ](./images/express-template-select.png){width=70%}
+![&#x200B; テンプレートを選択パネルに表示される高速テンプレート &#x200B;](./images/express-template-select.png){width=70%}
 
 [!DNL Express] テンプレートを選択して「**[!UICONTROL 使用]** をクリックすると、ドラフト前のパラメーターとプロンプトが左側のポップアップパネルに表示されます。 「**[!UICONTROL 生成]**」ボタンをクリックして、選択したテンプレートで新しいコンテンツを作成します。
 
-![Express テンプレートのパラメーターペイン ](./images/express-template-predraft.png){width=90%}
+![Express テンプレートのパラメーターペイン &#x200B;](./images/express-template-predraft.png){width=90%}
 
 >[!IMPORTANT]
 >
->コンテンツの生成中、Express テンプレートレイヤーは、[!DNL GenStudio for Performance Marketing] 用のフィールドの役割で自動的にタグ付けされます。 テンプレート上の要素は、[ 手動でタグ付け ](#manual-tagging-of-templates) することもできます。
+>コンテンツの生成中、Express テンプレートレイヤーは、[!DNL GenStudio for Performance Marketing] 用のフィールドの役割で自動的にタグ付けされます。 テンプレート上の要素は、[&#x200B; 手動でタグ付け &#x200B;](#manual-tagging-of-templates) することもできます。
 
 ## [!DNL Adobe Express] テンプレートを使用したバリアントとア [!DNL Experiences] ットについて
 
-[!DNL Express] テンプレートには、（他のバリアントの管理 [ の際に知り合いになると思われる多くの同じ機能が用意されてい ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text) す。 ただし、[!DNL Express] のコンテンツのワークフローを効率化するために、いくつかの強力な追加機能があります。 この節では、[!DNL Adobe Express] 実装専用の機能について説明します。
+[!DNL Express] テンプレートには、（他のバリアントの管理 [&#x200B; の際に知り合いになると思われる多くの同じ機能が用意されてい &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text) す。 ただし、[!DNL Express] のコンテンツのワークフローを効率化するために、いくつかの強力な追加機能があります。 この節では、[!DNL Adobe Express] 実装専用の機能について説明します。
 
 ### 複数のサイズの自動生成
 
-[ で 1 つのアセットに対して複数のページが作成された  [!DNL Express]](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html) 場合、それらのページはそのアセットから作成された任意のテンプレートに引き継がれます。 Express ページは、それぞれ異なるサイズのクリエイティブコンテンツとして [!DNL GenStudio for Performance Marketing] に生成されます。
+[&#x200B; で 1 つのアセットに対して複数のページが作成された  [!DNL Express]](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html) 場合、それらのページはそのアセットから作成された任意のテンプレートに引き継がれます。 Express ページは、それぞれ異なるサイズのクリエイティブコンテンツとして [!DNL GenStudio for Performance Marketing] に生成されます。
 
 1 つのアセットに対してサイズの異なる複数のコンテンツが存在する場合 [!DNL Express]、1 回の生成ですべてのサイズのバリアントを生成できます。
 
@@ -73,7 +73,7 @@ Express テンプレートでカスタムフォントを使用するには、管
 
 ### キャンバス ペインのヘッダ機能
 
-![ キャンバスペインのヘッダーバー ](./images/canvas-header.png)
+![&#x200B; キャンバスペインのヘッダーバー &#x200B;](./images/canvas-header.png)
 
 キャンバス ペインのヘッダのボタンを使用して、次の操作を行います。
 
@@ -83,7 +83,7 @@ Express テンプレートでカスタムフォントを使用するには、管
 
 ### エクスペリエンスグループのフィードバックを割り当て
 
-![Experience ヘッダーのオプション ](./images/experiences-header.png)
+![Experience ヘッダーのオプション &#x200B;](./images/experiences-header.png)
 
 生成されたバリアントの各グループにフィードバックを割り当てます。 これらのフィードバックラベルは、AI が次世代で考慮する必要があるバリアントを理解するのに役立ちます。
 
@@ -97,7 +97,7 @@ Express テンプレートでカスタムフォントを使用するには、管
 
 エクスペリエンスのグループで生成された単一のバリアントサイズは、ごみ箱アイコンを使用して削除できます。
 
-![ バリアント削除アイコン ](./images/variant-delete.png){width=300}
+![&#x200B; バリアント削除アイコン &#x200B;](./images/variant-delete.png){width=300}
 
 ### スペースバーからパン
 
@@ -109,7 +109,7 @@ Express テンプレートでカスタムフォントを使用するには、管
 
 生成されたバリアントのテキストフィールドを編集できます。 様々なフレーズや言葉を試したり、書式を適用したりして、オーディエンスのテキストを絞り込みます。 例えば、画像のレイアウトに合わせてバリアントのテキストを太字で右揃えにすることができます。
 
-![ 手動テキスト編集オプション ](./images/color-swap.png){width=60%}
+![&#x200B; 手動テキスト編集オプション &#x200B;](./images/color-swap.png){width=60%}
 
 使用可能なテキストフォーマットには、次のものがあります。
 
@@ -134,7 +134,7 @@ Express テンプレートでカスタムフォントを使用するには、管
 **バリアントのレイヤーを表示するには**:
 
 1. バリアントのセットを生成したら、バリアント内の編集可能なフィールドまたは画像をクリックします。 レイヤーは右上のタイルの行に表示されます。
-   ![ バリアント内のレイヤー ](./images/view-layers.png){width=50%}
+   ![&#x200B; バリアント内のレイヤー &#x200B;](./images/view-layers.png){width=50%}
 1. レイヤータイルをクリックして選択します。 バリアントで選択したレイヤーがハイライト表示されます。
 1. 選択したレイヤーに必要な編集を加えます。
 
@@ -142,9 +142,9 @@ Express テンプレートでカスタムフォントを使用するには、管
 
 [!DNL GenStudio for Performance Marketing] には、生成されたバリアントのセクションを再生成する機能が組み込まれています。 テキストのフレーズを変更、短縮、長くしたり、新しいプロンプトを追加して新しいコンテンツを生成したりできます。
 
-例えば、あるMeta広告バリアントのヘッドラインセクションを再生成して、特定の背景アセットでどのように見えるかを確認できます。 ガイドのプロンプトを使用して、セクションのテキストコンテンツを **[!UICONTROL 再フレーズ]**、**[!UICONTROL 短縮]**、または **[!UICONTROL 延長**[!UICONTROL 、または ]**再生]** できます。
+例えば、あるMeta広告バリアントのヘッドラインセクションを再生成して、特定の背景アセットでどのように見えるかを確認できます。 ガイドのプロンプトを使用して、セクションのテキストコンテンツを **[!UICONTROL 再フレーズ]**、**[!UICONTROL 短縮]**、または **[!UICONTROL 延長**&#x200B;[!UICONTROL 、または &#x200B;]&#x200B;**再生]** できます。
 
-![ セクションの書き換え ](./images/rewrite-sections.png){width=50%}
+![&#x200B; セクションの書き換え &#x200B;](./images/rewrite-sections.png){width=50%}
 
 **個々のバリアントセクションを書き換えるには**:
 
@@ -155,7 +155,7 @@ Express テンプレートでカスタムフォントを使用するには、管
    1. 「**[!UICONTROL 生成]**」をクリックします。
 1. 結果は、パネルにオプションとして表示されます。 目的のオプションを選択し、「**[!UICONTROL 置換]**」をクリックします。 バリアントが、改訂されたテキストで更新されます。
 
-![ 最適な、書き換えられたコンテンツを選択する ](./images/rewrite-replace.png){width=50%}
+![&#x200B; 最適な、書き換えられたコンテンツを選択する &#x200B;](./images/rewrite-replace.png){width=50%}
 
 ### アセットの切り抜き
 
@@ -180,24 +180,24 @@ Express テンプレートでカスタムフォントを使用するには、管
 
 ### テンプレートの手動によるタグ付け
 
-テンプレート内の要素は、作成ワークフローでの [ テンプレートの生成 ](#find-express-templates) 中に自動的にタグ付けされます。 ただし、これらの要素は手動でタグ付けすることもできます。
+テンプレート内の要素は、作成ワークフローでの [&#x200B; テンプレートの生成 &#x200B;](#find-express-templates) 中に自動的にタグ付けされます。 ただし、これらの要素は手動でタグ付けすることもできます。
 
 **テンプレート要素を手動でタグ付けするには**:
 
 1. テンプレート上の要素を選択します。
 1. ドロップダウンを使用して、その要素のタグを選択します。
-   ![ テンプレート要素の手動によるタグ付け ](./images/manually-tagging-templates.png){width=80%}
+   ![&#x200B; テンプレート要素の手動によるタグ付け &#x200B;](./images/manually-tagging-templates.png){width=80%}
 
 タグ付けのオプションは、要素のタイプによって異なります。
 
 ### テンプレートロックの制限
 
-テンプレートには [ ロックされた要素 ](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html) を含めることができます。これらの要素は [!DNL Express] から引き継がれ、一部の機能の変更方法を制御します。 これらの設定は、テンプレートによって考慮され、テンプレートで変更することもできます。
+テンプレートには [&#x200B; ロックされた要素 &#x200B;](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html) を含めることができます。これらの要素は [!DNL Express] から引き継がれ、一部の機能の変更方法を制御します。 これらの設定は、テンプレートによって考慮され、テンプレートで変更することもできます。
 
 1. テンプレート上でロックされた要素を選択します。
 1. 選択した要素の左上にあるロックアイコンをクリックします。
 1. 正しいオプションを選択して、要素のロックを解除します。
-   ![ アイコンを使用して、ロックされた要素のロックを解除する ](./images/unlock-option.png){width=60%}
+   ![&#x200B; アイコンを使用して、ロックされた要素のロックを解除する &#x200B;](./images/unlock-option.png){width=60%}
 
 ### ビデオアセンブリ
 
@@ -206,7 +206,7 @@ Express テンプレートでカスタムフォントを使用するには、管
 **ビデオアセンブリを使用するには**:
 
 1. エクスペリエンスを選択し、「**[!UICONTROL 編集]**」ボタンをクリックしてフォーカスモードに切り替え、ビデオアセンブリ機能を使用します。 単一のバリアントのみが表示され、下に沿ってシーン ラインが表示されます。
-   ![ ビデオアセンブリオプションを使用した、選択されたエクスペリエンス ](./images/video-assembly.png){width=70%}
+   ![&#x200B; ビデオアセンブリオプションを使用した、選択されたエクスペリエンス &#x200B;](./images/video-assembly.png){width=70%}
 1. ビデオエクスペリエンスを調整します。 ビデオアセンブリのオプションは次のとおりです。
    - ビデオを再生
    - サウンドのミュートとミュート解除
@@ -222,25 +222,25 @@ Express テンプレートでカスタムフォントを使用するには、管
 **生成展開を使用して画像を展開するには**:
 
 1. ロック解除された画像レイヤーを選択し、画像フレームの下部にある **[!UICONTROL 展開]** ボタンをクリックします。
-   ![ 展開ペインを表示する画像レイヤー ](./images/image-expand.png){width=70%}
+   ![&#x200B; 展開ペインを表示する画像レイヤー &#x200B;](./images/image-expand.png){width=70%}
 1. 画像が展開される目的の寸法にフレームを引っ張ります。 展開オプションウィンドウが表示されます。 「展開」オプションでは、次の方法で拡張を容易にすることができます。
    - プロンプトの入力
    - フレームに合わせるを選択
    - 寸法をリセット
-     ![ オプションを展開ウィンドウ ](./images/image-expand-options.png){width=50%}
+     ![&#x200B; オプションを展開ウィンドウ &#x200B;](./images/image-expand-options.png){width=50%}
 1. **[!UICONTROL 展開]** をクリックして、世代を作成します。 選択するバリエーションがフレームの下部に表示されます。
 1. 最適なバリアントを選択して、「**[!UICONTROL 保持]**」をクリックします。
-   ![ 生成されたバリアント ](./images/image-expand-keep.png){width=50%}
+   ![&#x200B; 生成されたバリアント &#x200B;](./images/image-expand-keep.png){width=50%}
 
-![ 最終的な展開画像 ](./images/expand-after.png){width=60%}
+![&#x200B; 最終的な展開画像 &#x200B;](./images/expand-after.png){width=60%}
 
 ### ブランドの検証
 
 _コンテンツチェック_ パネルを使用して、一貫したブランドアイデンティティ、ADA アクセシビリティ標準、プラットフォームガイドライン、バリアントの配置を維持します。
 
-[ ブランド検証 ](/help/user-guide/guidelines/brand-validation.md) を参照してください。
+[&#x200B; ブランド検証 &#x200B;](/help/user-guide/guidelines/brand-validation.md) を参照してください。
 
 ## レビューして承認
 
-バリアントを編集および調整した後、[ レビューと承認ワークフロー ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/overview) を使用してコンテンツを承認して公開します。
+バリアントを編集および調整した後、[&#x200B; レビューと承認ワークフロー &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/overview) を使用してコンテンツを承認して公開します。
 
