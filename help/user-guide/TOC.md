@@ -5,9 +5,9 @@ user-guide-description: パフォーマンスマーケティング用の Adobe G
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 9cd03372041056483e94ae324124e791a8c8d7ba
+source-git-commit: 05bc285ff614c8d3e15beab3411c7666b01d1155
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 20%
 
 ---
@@ -70,6 +70,7 @@ ht-degree: 20%
    + [&#x200B; テンプレートのカスタマイズ &#x200B;](templates/customize-template.md)
    + [&#x200B; テンプレートコードエディター &#x200B;](templates/code-editor.md)
    + [&#x200B; アクセシブルなテンプレートの作成 &#x200B;](templates/accessibility-for-templates.md)
+   + [Express テンプレートの使用 &#x200B;](/help/user-guide/templates/express-templates.md)
    + [&#x200B; テンプレートのベストプラクティス &#x200B;](templates/best-practices-for-templates.md)
    + チャネルのベストプラクティス {#channel-best-practice}
       + [&#x200B; ディスプレイ広告ガイド &#x200B;](templates/display-template.md)
@@ -107,5 +108,5 @@ ht-degree: 20%
    + [&#x200B; 統合の概要 &#x200B;](integrations/overview.md)
    + [Photoshop プラグイン &#x200B;](integrations/photoshop-plugin.md)
    + [Figma プラグイン &#x200B;](integrations/figma-plugin.md)
-+ [hide-from-tocGenStudio Academy – 非表示 &#x200B;](genstudioacademy.md)
-+ [hide-from-toc テストマークダウン – 非表示 &#x200B;](test-markdown.md)
++ {hide-from-toc}[GenStudio Academy – 非表示 &#x200B;](genstudioacademy.md)
++ {hide-from-toc}[&#x200B; テストマークダウン – 非表示 &#x200B;](test-markdown.md)
