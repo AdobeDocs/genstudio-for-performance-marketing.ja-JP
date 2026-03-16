@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ### 軽微な変更
 
-軽微な更新を行う場合は、記事を開いて **編集** リンクをクリックすると、記事の GitHub ソースが表示されます。 GitHub UI を使用して更新を行います。 一般的な [Adobe ドキュメントのコントリビューターガイド &#x200B;](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) を参照してください。
+軽微な更新を行う場合は、記事を開いて **編集** リンクをクリックすると、記事の GitHub ソースが表示されます。 GitHub UI を使用して更新を行います。 一般的な [Adobe ドキュメントのコントリビューターガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/introduction) を参照してください。
 
 このリポジトリのドキュメントおよびコード例について投稿者が送信した軽微な修正や説明は、Adobeの利用規約の対象となります。
 
@@ -31,7 +31,7 @@ Adobeの製品チームのテクニカルライター、プログラムマネー
 
 コミュニティのコントリビューターは、基本的な編集を行う場合は GitHub UI を使用し、大きな変更を加える場合はリポジトリをフォークします。
 
-詳しくは、[Adobe ドキュメント投稿者ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) を参照してください。
+詳しくは、[Adobe ドキュメント投稿者ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/introduction) を参照してください。
 
 ## マークダウン
 
