@@ -1,5 +1,5 @@
 ---
-source-git-commit: 3af756e5bc0e2731187c3879c1593605706d6a2c
+source-git-commit: 28ad1f3a659fd1f44283c8e5913810f8637b87a2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ## Adobe オープン Source行動規範
 
-このプロジェクトでは、[Adobe オープン Source行動規範 &#x200B;](code-of-conduct.md) または [.NET Foundation 行動規範 &#x200B;](https://dotnetfoundation.org/about/policies/code-of-conduct) を採用しています。 [&#x200B; 投稿 &#x200B;](contributing.md) の記事を参照してください。
+このプロジェクトでは、[Adobe オープン Source行動規範 &#x200B;](code-of-conduct.md) または [.NET Foundation 行動規範 &#x200B;](https://dotnetfoundation.org/about/policies/code-of-conduct) を採用しています。 [&#x200B; 投稿 &#x200B;](contributing.md) ページを参照してください。
 
 ### 軽微な変更
 
