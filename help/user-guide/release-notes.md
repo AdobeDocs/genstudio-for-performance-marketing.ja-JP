@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: b3ebb731f7b9a7968a232fe2283b5ef2441c3f6c
 workflow-type: tm+mt
-source-wordcount: 4448
+source-wordcount: 4584
 ht-degree: 0%
 
 ---
@@ -50,7 +50,28 @@ ht-degree: 0%
 
 このリリース情報では、GenStudio for Performance Marketing アプリケーションの最新のアップデートについて説明します。
 
-## 2026.01 {#latest}
+## 2026.03 {#latest}
+
+### Meta、LinkedIn およびディスプレイ用の Express テンプレート
+
+[!DNL Create] は、Meta、LinkedIn およびディスプレイ用に [&#128279;](/help/user-guide/templates/express-templates.md)Horizon Canvas 上の Express テンプレート  をサポートするようになりました。 スターターテンプレートやカスタムブランドレイアウトなどのAdobe Express テンプレートは、作成ワークフローで直接使用できます。
+
+キャンバスは、次のようなテンプレート機能をサポートしています。
+
+* テンプレートごとに複数のサイズ
+* express で設定されたレイヤのロックとロック解除オプション
+* テンプレート要素のWYSIWYGの編集
+* テキスト、メディアスワップ、ロゴの置換、ビデオのリフレームなどに対応する豊富なコントロール
+
+詳しくは、[GenStudio for Performance MarketingでのAdobe Express テンプレートの使用 &#x200B;](/help/user-guide/templates/express-templates.md) を参照してください。
+
+### GenStudio for Performance MarketingのTikTok コンテンツ
+
+GenStudio for Performance MarketingからTikTokのフィード内ビデオ広告を作成、承認およびアクティブ化できるようになりました。 [!DNL Create] ワークフローで簡単に広告を生成し、エクスペリエンスを [!DNL Content] に公開します。 [!DNL Insights] for TikTokを使用してパフォーマンスを監視し、クリエイティブの次回の更新について通知します。
+
+## 以前のリリースノート
+
++++ご注意（2026.01.15 以降）
 
 ### HTML キャンバスプロンプトパネルの再設計
 
@@ -66,7 +87,7 @@ ht-degree: 0%
 
 GenStudio for Performance MarketingでContent Credentialsがサポートされるようになり、チームは作成、レビュー、エクスポートを通じて、アセットに信頼性メタデータを適用し、保持できるようになりました。 認証情報のバッジと詳細は主要なワークフロー全体に表示されるので、組織はコンテンツを共有する際にプロパティを検証し、信頼を維持できます。
 
-## 以前のリリースノート
++++
 
 +++ご注意（2025.12.12 以降）
 
