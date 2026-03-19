@@ -5,10 +5,10 @@ user-guide-description: パフォーマンスマーケティング用の Adobe G
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 05bc285ff614c8d3e15beab3411c7666b01d1155
+source-git-commit: 10f873f1d68b03a1d9b8ea6d288c8b824ac9ad00
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 20%
+source-wordcount: '256'
+ht-degree: 19%
 
 ---
 
@@ -42,6 +42,7 @@ ht-degree: 20%
    + [&#x200B; メールエクスペリエンス &#x200B;](create/email-experiences.md)
    + [Metaのエクスペリエンス &#x200B;](create/meta-experiences.md)
    + [LinkedIn エクスペリエンス &#x200B;](create/linkedin-experiences.md)
+   + [TikTokのエクスペリエンス &#x200B;](create/tiktok-experiences.md)
    + [&#x200B; 広告エクスペリエンスの表示 &#x200B;](create/display-ad-experiences.md)
    + [&#x200B; バナーエクスペリエンス &#x200B;](create/banner-experiences.md)
    + [&#x200B; バリアントの管理 &#x200B;](create/manage-variants.md)
