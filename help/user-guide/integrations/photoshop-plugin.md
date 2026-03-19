@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 87ea02eca400ec5c2144126156ebf2450e3c3049
 workflow-type: tm+mt
-source-wordcount: 816
+source-wordcount: 856
 ht-degree: 1%
 
 ---
@@ -146,6 +146,10 @@ Instagram や Facebook のストーリーについて：
 ユーザーは、コンテンツの生成または翻訳後に書き出しを選択できます。 書き出されたエクスペリエンスは、GenStudio for Performance Marketingの「コンテンツ」セクションに入力されます。
 
 ![&#x200B; 「コンテンツ」セクションに表示される、書き出されたアセット &#x200B;](./content-assets.png){width="90%"}
+
+## Figma フレームのPhotoshopへの変換
+
+Figma フレームは、Photoshop ドキュメントに変換し、Photoshop プラグインで使用するために書き出すことができます。 フレームの変換方法については、Figma プラグインのページの [Figma フレームをPhotoshopに変換する &#x200B;](figma-plugin.md#convert-figma-frames-to-photoshop) の節を参照してください。
 
 ## トラブルシューティング
 
