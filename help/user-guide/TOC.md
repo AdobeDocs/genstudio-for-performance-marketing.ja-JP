@@ -5,10 +5,10 @@ user-guide-description: パフォーマンスマーケティング用の Adobe G
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 10f873f1d68b03a1d9b8ea6d288c8b824ac9ad00
+source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 19%
+source-wordcount: '257'
+ht-degree: 98%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 19%
    + [&#x200B; データ管理 &#x200B;](insights/data-management.md)
 + 統合 {#integrations}
    + [&#x200B; 統合の概要 &#x200B;](integrations/overview.md)
-   + [Photoshop プラグイン &#x200B;](integrations/photoshop-plugin.md)
+   + [GenStudio Photoshop プラグイン &#x200B;](integrations/photoshop-plugin.md)
    + [Figma プラグイン &#x200B;](integrations/figma-plugin.md)
 + {hide-from-toc}[GenStudio Academy – 非表示 &#x200B;](genstudioacademy.md)
 + {hide-from-toc}[&#x200B; テストマークダウン – 非表示 &#x200B;](test-markdown.md)

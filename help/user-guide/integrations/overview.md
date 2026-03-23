@@ -1,6 +1,6 @@
 ---
-title: Adobe GenStudio for Performance Marketing統合
-description: Adobe GenStudio for Performance Marketingで使用できる統合について説明します。
+title: Adobe GenStudio for Performance Marketingとの連携
+description: Adobe GenStudio for Performance Marketingの統合機能について説明します。
 feature: Generative AI
 role: User
 exl-id: fe8c9811-2a23-4e13-bccf-784fcac5dfe9
@@ -19,30 +19,29 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a3045fbab1e26338bdfbed21f6a373d56719ee07
+source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
 workflow-type: tm+mt
-source-wordcount: 201
+source-wordcount: 195
 ht-degree: 0%
 
 ---
 
-# Adobe GenStudio for Performance Marketing統合
+# Adobe GenStudio for Performance Marketingとの連携
 
-GenStudio for Performance Marketingは他の強力なデザイン製品と統合されており、これらの製品を利用するマーケターにはシームレスなエクスペリエンスを提供します。 ここでは、使用可能な統合とその使用方法に関する情報を確認できます。
+GenStudio for Performance Marketingは、その他の強力なデザイン製品との統合機能を提供し、そうした製品を利用しているマーケターにシームレスな体験を提供します。 ここでは、利用可能な統合とその使用方法に関する情報を説明します。
 
-GenStudio for Performance Marketingが提供するプラグインを、他のAdobe製品やその他の製品と共に探索して、デザインワークフローを効率化します。
+GenStudio for Performance Marketingのプラグインと、他のAdobe製品などを利用して、デザインワークフローを効率化できます。
 
-メモ：これらのプラグインを使用すると、クリエイティブ担当者は広告を作成し、承認済みエクスペリエンスとしてGenStudioに書き出すことができますが、広告テンプレートを作成するクリエイティブにとって、GenStudio for Performance Marketing内のAdobe Express テンプレートは推奨されるアプローチです。
+注：これらのプラグインを使用すると、クリエイターは広告を作成し、承認済みのエクスペリエンスとしてGenStudioに書き出すことができますが、GenStudio for Performance Marketing内のAdobe Express テンプレートは、クリエイターが広告テンプレートを作成する際に推奨されるアプローチです。
 
 ## Figma プラグイン
 
-GenStudio for Performance Marketing Figma プラグインを使用すると、Figma アプリケーションに新しいパネルが追加され、ブランド上のコンテンツの生成などのGenStudio for Performance Marketing アクションを実行できるようになります。
+GenStudio for Performance Marketing Figma プラグインは、Figma アプリケーションに新しいパネルを追加し、ユーザーがブランドに即したコンテンツの生成など、GenStudio for Performance Marketingのアクションを実行できるようにします。
 
 Figma プラグインについて詳しくは、[Figma プラグイン &#x200B;](figma-plugin.md) ページを参照してください。
 
-## Photoshop プラグイン
+## GenStudio Photoshop
 
-GenStudio for Performance Marketing Photoshop プラグインは、Adobe Photoshopに新しいパネルを追加して、ブランド上のコンテンツの生成などのGenStudio for Performance Marketing アクションを実行できるようにします。
+GenStudio Photoshopでは、Adobe Photoshopに新しいパネルが追加され、ブランドに即したコンテンツの生成など、GenStudio for Performance Marketingのアクションを実行できるようになりました。
 
-Photoshop プラグインについて詳しくは、[Photoshop プラグイン &#x200B;](photoshop-plugin.md) ページを参照してください。
-
+GenStudio Photoshopの詳細については、[GenStudio Photoshop](photoshop-plugin.md) ページを参照してください。
