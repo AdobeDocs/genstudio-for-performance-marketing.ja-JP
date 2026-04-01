@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 59f51bf35c5ad81845d2cd11c6659a0833e4de7b
+source-git-commit: 0c9aa3dd0939e9e31d3e53f02c954e65a151026b
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: 1464
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ GenStudio for Performance Marketingの[!DNL Insights]は現在、次の利用可
 | LinkedIn | <ul><li>単一の画像広告</li><li>シングル動画広告</li><li>記事の広告</li></ul> | <ul><li>カルーセル広告</li><li>ドキュメント広告</li><li>イベント広告</li><li>ソートリーダー広告</li><li>リードジェネレーション広告</li><li>フォロワー広告</li><li>会話広告</li><li>スポットライト広告</li><li>ジョブ広告</li><li>コンテンツ広告</li><li>メッセージ広告</li></ul> |
 | TikTok | <ul><li>単一の画像広告</li><li>シングル動画広告</li></ul> | <ul><li>インフィード広告（ビデオ、Spark、カルーセル）</li><li>プレミアム認知度広告（トップビュー、ブランド引き継ぎ）</li><li>インタラクティブ広告（ハッシュタグ「課題」、「ブランド効果」）</li><li>Commerce Ads （ショッピング、カタログ、ライブ）</li><li>リード&amp;メッセージ広告</li><li>広告の種類を決定するアセットがないため、分類が困難です</li></ul> |
 | DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YOUTUBE_AND_PARTNERS_AD</li></ul> | 有料メディアチャネルでは、クリエイティブアセットを取得するためのアクセスが提供されないため、広告の種類を正確に分類することが困難です。 |
-| Innovid | 該当なし | 広告の種類を決定するアセットがないため、分類が困難です。 |
+| Innovid | 該当なし | 有料メディアチャネルでは、クリエイティブアセットを取得するためのアクセスが提供されないため、広告の種類を正確に分類することが困難です。 |
 
 ### 広告の配置
 
