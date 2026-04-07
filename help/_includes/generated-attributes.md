@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # 生成属性
 
-アセットとエクスペリエンスが承認されて[!DNL Content]に保存される場合、または広告プレースメントがサードパーティチャネルから取り込まれる場合、GenStudio for Performance Marketing [は、その固有の機能に基づいてタグ ](/help/user-guide/content/asset-details.md#generated-tags)を生成します。
+アセットとエクスペリエンスが承認されて[!DNL Content]に保存される場合、または広告プレースメントがサードパーティチャネルから取り込まれる場合、GenStudio for Performance Marketing [は、その固有の機能に基づいてタグ &#x200B;](/help/user-guide/content/asset-details.md#generated-tags)を生成します。
 
 機能カテゴリには、次のものが含まれます。
 
