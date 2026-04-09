@@ -13,7 +13,7 @@ ht-degree: 0%
 
 同じ[!DNL IMS]組織で[!DNL Marketo Engage]と[!DNL GenStudio for Performance Marketing]を使用する組織は、[!DNL Adobe Exchange]から&#x200B;**Marketo for GenStudio** アプリをインストールできます。 システム管理者がアプリを承認してデプロイメントを完了すると、作成者は、GenStudioで電子メールエクスペリエンスを作成する際に、[!DNL Content]に直接アップロードされたテンプレートの横にMarketo テンプレートを選択できます。
 
-このトピックは、アプリをインストールし、Marketoから資格情報を収集し、アプリをExchangeにデプロイする&#x200B;**管理者**&#x200B;を対象としています。 AJOとMarketo テンプレートの構文がGenStudioでどのように機能するかについては、[AJOとMarketoのテンプレート ](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo)を参照してください。
+このトピックは、アプリをインストールし、Marketoから資格情報を収集し、アプリをExchangeにデプロイする&#x200B;**管理者**&#x200B;を対象としています。 AJOとMarketo テンプレートの構文がGenStudioでどのように機能するかについては、[AJOとMarketoのテンプレート &#x200B;](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo)を参照してください。
 
 ## 前提条件
 
@@ -25,8 +25,8 @@ ht-degree: 0%
 >[!VIDEO](https://video.tv.adobe.com/v/3483299?learn=on)
 
 1. [Adobe Exchange](https://exchange.adobe.com)を開き、**[!UICONTROL Experience Cloud]**&#x200B;に移動します。
-1. GenStudio](https://exchange.adobe.com/apps/ec/ab6p21vo8r/marketo-for-genstudio)の[Marketo リストを開きます。
-   ![Adobe ExchangeのGenStudio用Marketoのリスト ](/help/extensibility/marketo-adobe-exchange.png){width="75%"}
+1. GenStudio[&#128279;](https://exchange.adobe.com/apps/ec/ab6p21vo8r/marketo-for-genstudio)のMarketo リストを開きます。
+   ![Adobe ExchangeのGenStudio用Marketoのリスト &#x200B;](/help/extensibility/marketo-adobe-exchange.png){width="75%"}
 1. **[!UICONTROL 無料]**&#x200B;を選択して、組織のアプリをリクエストします。
 1. 組織&#x200B;**がリクエストをレビューして承認**&#x200B;したら、[Marketo資格情報を取得](#get-marketo-credentials)および[Exchange](#deploy-the-application-from-exchange)からアプリケーションをデプロイします。
 
@@ -40,13 +40,13 @@ ht-degree: 0%
 1. **[!UICONTROL セキュリティ]**&#x200B;で、**[!UICONTROL ユーザーと役割]**&#x200B;を開きます。
 1. 新しいAPI ユーザーの場合は、**[!UICONTROL APIのみのユーザーを作成]**&#x200B;をクリックします（API ユーザーごとに一意の電子メールを使用）。 **[!UICONTROL API ロール（すべてのワークスペース）]**&#x200B;の役割（または組織が必要とする役割）を割り当てます。 使用するAPI ユーザーが既にある場合は、[LaunchPoint サービスの作成または選択](#create-or-select-a-launchpoint-service)にスキップします。
 
-![ ユーザーと役割（APIのみ） ユーザーとAPI役割](/help/extensibility/marketo-users-roles-api-user.png){width="80%"}
+![&#x200B; ユーザーと役割（APIのみ） ユーザーとAPI役割](/help/extensibility/marketo-users-roles-api-user.png){width="80%"}
 
 ### LaunchPoint サービスの作成または選択
 
 1. **[!UICONTROL 管理者]**&#x200B;の&#x200B;**[!UICONTROL 統合]**&#x200B;で、**[!UICONTROL LaunchPoint]**&#x200B;を開きます。
-1. **[!UICONTROL 作成]**をクリックして、新しいサービスを作成します（または既存のカスタムサービスを使用します）。
-   ![LaunchPoint カスタムサービス ](/help/extensibility/marketo-launchpoint-custom-service.png){width="80%"}
+1. **[!UICONTROL 作成]**&#x200B;をクリックして、新しいサービスを作成します（または既存のカスタムサービスを使用します）。
+   ![LaunchPoint カスタムサービス &#x200B;](/help/extensibility/marketo-launchpoint-custom-service.png){width="80%"}
 1. サービスの場合、**[!UICONTROL 詳細を表示]**&#x200B;をクリックし、**[!UICONTROL クライアント ID]**&#x200B;と&#x200B;**[!UICONTROL クライアントシークレット]**&#x200B;をコピーします。 これらはAdobe Exchange **[!UICONTROL Configuration]**&#x200B;で入力します。
 
 ### Marketo REST APIのベース URLをメモします
@@ -66,7 +66,7 @@ ht-degree: 0%
 1. **[!UICONTROL 管理]**&#x200B;を選択し、**Marketo for GenStudio** アプリを開きます（例：**[!UICONTROL App Builder アプリケーション]**&#x200B;または組織の管理アプリ）。
 1. **[!UICONTROL 環境]**&#x200B;で、ドロップダウンから既存の環境を選択するか、**[!UICONTROL 環境を追加]**&#x200B;を選択して環境を作成します。
 1. 選択した環境の&#x200B;**[!UICONTROL 設定]**&#x200B;を開きます。
-1. [LaunchPoint](#create-or-select-a-launchpoint-service)の&#x200B;**[!UICONTROL クライアント ID]**&#x200B;と&#x200B;**[!UICONTROL クライアントシークレット]**、Marketo Engage ID URL ]**、および**[!UICONTROL  Marketo Engage REST API ベース URL ]**（[Web サービス ](#note-your-marketo-rest-api-base-url)のベースホスト）を入力します。**[!UICONTROL 
+1. [LaunchPoint](#create-or-select-a-launchpoint-service)の&#x200B;**[!UICONTROL クライアント ID]**&#x200B;と&#x200B;**[!UICONTROL クライアントシークレット]**、Marketo Engage ID URL **、および**&#x200B;[!UICONTROL &#x200B; Marketo Engage REST API ベース URL &#x200B;]&#x200B;**（[Web サービス &#x200B;](#note-your-marketo-rest-api-base-url)のベースホスト）を入力します。**
 1. 「**[!UICONTROL デプロイ]**」をクリックします。 デプロイメントが成功すると、アクションは&#x200B;**[!UICONTROL デプロイ解除]**&#x200B;に変わります。
 
 ### 設定を更新
