@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 70984b2c03e14a14b36fca6dfc62dcda9138949e
+source-git-commit: 10f44078f4c1b5865006311f9b32eab479986722
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: 1443
 ht-degree: 1%
 
 ---
@@ -160,6 +160,8 @@ GenStudio for Performance Marketingの既存のテンプレートを検索して
 Adobe Journey Optimizer（AJO）またはMarketoで作成したテンプレートをアップロードできます。 GenStudio for Performance Marketingは、アプリケーション固有のパターンを検出して無視し、AJOまたはMarketoで使用するために元のフォームを保持します。 元のAJOまたはMarketoの構文を変更する必要はありません。
 
 GenStudio内のJourney Optimizer ライブラリからAJO テンプレートを使用するには（メールエクスペリエンスの作成時に「**[!UICONTROL AJO テンプレート]**」タブを含む）、Adobe Exchangeから[Journey Optimizer for GenStudio](/help/extensibility/journey-optimizer-for-genstudio.md) アプリをインストールして設定する必要があります。
+
+GenStudio内のMarketo Engage ライブラリからMarketo テンプレートを使用するには（メールエクスペリエンスの作成時に「**[!UICONTROL Marketo テンプレート]**」タブを含む）、Adobe Exchangeから[Marketo for GenStudio](/help/extensibility/marketo-for-genstudio.md)」をインストールして設定する必要があります。
 
 認識されるアプリケーションパターンは次のとおりです。
 
