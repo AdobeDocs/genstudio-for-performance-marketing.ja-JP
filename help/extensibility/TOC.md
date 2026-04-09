@@ -5,10 +5,10 @@ user-guide-description: パフォーマンスマーケティング用の Adobe G
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: Developer
-source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
+source-git-commit: 70984b2c03e14a14b36fca6dfc62dcda9138949e
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 62%
+source-wordcount: '60'
+ht-degree: 58%
 
 ---
 
@@ -21,8 +21,9 @@ ht-degree: 62%
 + アプリ開発 {#apps}
    + [App Builder プロジェクトの作成](create-project.md)
    + [App Builder アプリの開発](create-app.md)
-   + [アプリのデプロイ](deploy-app.md)
+   + [アプリをデプロイ](deploy-app.md)
    + [アプリの配布](distribute-app.md)
+   + [Journey Optimizer for GenStudio](journey-optimizer-for-genstudio.md)
    + [Experience Selector MFE](experience-selector.md)
 
 <!--
