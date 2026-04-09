@@ -79,9 +79,9 @@ AJO **[!UICONTROL 権限]** > **[!UICONTROL ロール]**&#x200B;の&#x200B;**[!U
 
 **関連項目** （Journey Optimizer アクセス制御）:
 
-* [アクセス制御](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/access-control-landing-page)
-* [Journey Optimizerでの権限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
-* [システム管理者向けの基本を学ぶ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/quick-start/administrator)
+* [アクセス制御](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/access-control/access-control-landing-page)
+* [Journey Optimizerでの権限](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/access-control/permissions)
+* [システム管理者向けの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/quick-start/administrator)
 
 ## GenStudioでのAJO テンプレートへのアクセス
 
