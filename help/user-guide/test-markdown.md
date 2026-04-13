@@ -1,7 +1,7 @@
 ---
-title: Markdown のテストページ
-description: この記事は、様々なマークダウン変換のテストでは非表示になっています。
-hide: yes
+title: Markdownのテストページ
+description: この記事は、さまざまなマークダウン変換をテストする場合は非表示になります。
+hide: true
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 47d838ed-ab3f-4e0b-b161-ced97d8ceadd
@@ -13,15 +13,15 @@ feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 316b75b3c31485464c7339ec4fdba5db1fc90286
+source-git-commit: 51b4eea1a1de48edc52b7f740638c2a2989d9c19
 workflow-type: tm+mt
 source-wordcount: 37
 ht-degree: 0%
 
 ---
 
-# Markdown のテストページ
+# Markdownのテストページ
 
 このページは、ライブ環境でのコンテンツ形式の変更と概念実証のテストのみを目的としています。
 
-3 月 16 日（Pt）
+3月16日（PT）
