@@ -23,7 +23,7 @@ AI コーディングアシスタントが、GenStudio for Performance Marketing
 - フォーマット規則：ドキュメントはGitHub風のMarkdownを使用します。 見出しは一般的に、文頭の大文字と短い段落に続きます。 リリースノートのリストには`*`個、機能セクションには`###`個の箇条書きを使用します。
 
 ## ドキュメントのスタイルガイドライン
-- テクニカルドキュメントのベストプラクティスについては、[Microsoftのライティングスタイルガイド ](https://learn.microsoft.com/en-us/style-guide/)に従ってください。
+- テクニカルドキュメントのベストプラクティスについては、[Microsoftのライティングスタイルガイド &#x200B;](https://learn.microsoft.com/en-us/style-guide/)に従ってください。
    - 利用者の行動に焦点を当てた、明確で簡潔な文章を書く
    - アクティブな声と現在の緊張を使用する
    - テキストをスキャン可能な短いチャンクに分割
@@ -73,5 +73,5 @@ markdownlint --config markdownlint_custom.json "help/**/*.md"
 yarn lint
 ```
 
----
+&#x200B;---
 必要に応じて、これをリポジトリの`.github/copilot-instructions.md`にマージできます（または文言/長さを調整できます）。 何を変更または追加すればよいですか？

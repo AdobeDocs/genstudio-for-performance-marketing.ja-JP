@@ -15,7 +15,7 @@ ht-degree: 6%
 
 - リリースノート **body**&#x200B;のコンテンツを編集する場合、タスクがメタデータの変更を明示的に求めない限り、**既存のfrontmatter**&#x200B;のキーと値を保持します。
 - より短いテンプレートに合わせて、分類や商品メタデータを削除しないでください。
-- ExL ページに必要な概念には、通常、`title`、`description`および`role`が含まれます。新しいページについては、[Experience League メタデータガイダンス ](https://experienceleague.adobe.com/en/docs/authoring-guide/using/authoring/using-metadata)に従ってください。
+- ExL ページに必要な概念には、通常、`title`、`description`および`role`が含まれます。新しいページについては、[Experience League メタデータガイダンス &#x200B;](https://experienceleague.adobe.com/en/docs/authoring-guide/using/authoring/using-metadata)に従ってください。
 
 ## 内部ソース（KTおよびリリースウィキ）
 
