@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ### 「作成」ワークフローのRTCDP オーディエンス
 
-[Adobe Real-Time Customer Data Platform（RTCDP）オーディエンス &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines#add-audiences)は、[!DNL Create] ワークフローで利用できるため、既存のガイドラインに沿ってオーディエンス定義で生成されたエクスペリエンスをグラウンド化できます。
+[Adobe Real-Time Customer Data Platform（RTCDP）オーディエンス &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines#add-audiences)は、[!DNL Create] ワークフローで利用できるため、既存のガイドラインに沿ってオーディエンス定義で生成されたエクスペリエンスをグラウンド化できます。
 
 ### [!DNL Insights]の非表示の表示チャネル
 
