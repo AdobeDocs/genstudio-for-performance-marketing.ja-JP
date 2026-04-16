@@ -1,6 +1,6 @@
 ---
-title: Adobe GenStudio for Performance Marketingの基本を学ぶ
-description: GenStudio for Performance Marketingの使用を開始して、ブランドに合わせたマーケティングコンテンツを生成し、キャンペーン管理を高速化する方法を説明します。
+title: Adobe GenStudio for Performance Marketing入門
+description: GenStudio for Performance Marketingの導入方法について学び、ブランドに即したマーケティングコンテンツを生成し、キャンペーン管理を加速させる方法を学びましょう。
 level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
@@ -26,68 +26,68 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: 665
 ht-degree: 0%
 
 ---
 
-# Adobe GenStudio for Performance Marketingの概要
+# Adobe GenStudio for Performance Marketingの導入方法
 
-Adobe GenStudio for Performance Marketingは、コンテンツの作成、管理、分析を合理化するように設計された包括的なツールスイートを提供します。 マーケティングコンテンツの作成、確認、共有、分析の方法を変換する生成 AI 機能をコンテンツ作成ライフサイクルに組み込みます。
+Adobe GenStudio for Performance Marketingは、コンテンツの制作、管理、分析を合理化するために設計された包括的なツール群を提供しています。 生成AIを利用して、マーケティングコンテンツの制作、レビュー、共有、分析のプロセスを変革できます。
 
-## コンテンツの作成、共有、レビューを開始
+## コンテンツの制作、共有、レビューを開始する
 
-ジェネレーティブ AI ベースのツールを初めて使用する場合、またはGenStudio for Performance Marketingの基本原則に興味がある場合は、[&#x200B; 概念 &#x200B;](/help/user-guide/concepts.md) および [&#x200B; 効果的なプロンプトの記述 &#x200B;](/help/user-guide/effective-prompts.md) を参照してください。 クリエイティブなプロセスでジェネレーティブ AI テクノロジーを活用する方法については、Adobeのオンライン ラーニング プラットフォームである [&#128279;](https://learningmanager.adobe.com/genstudioacademy)0&rbrace;Adobe GenStudio Academy&rbrace; をご覧ください。
+生成AI ベースのツールを初めて使用する場合や、GenStudio for Performance Marketingの基本原則に関心がある場合は、[概念](/help/user-guide/concepts.md)および[効果的なプロンプトの作成](/help/user-guide/effective-prompts.md)を参照してください。 クリエイティブプロセスで生成AI テクノロジーを使用する方法については、[Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)、Adobeのオンライン学習プラットフォームをご覧ください。
 
-## GenStudio for Performance Marketingをパーソナライズ
+## Personalise GenStudio for Performance Marketing
 
-GenStudio for Performance Marketingは、ブランドと市場に関する情報を使用して、ブランドに準拠したコンテンツ作成を強化します。 生成 AI は、顧客 [&#x200B; ペルソナ &#x200B;](/help/user-guide/guidelines/personas.md)、[&#x200B; 製品 &#x200B;](/help/user-guide/guidelines/products.md) および [&#x200B; ブランドガイドライン &#x200B;](/help/user-guide/guidelines/overview.md) の説明を活用して、組織の要件に合わせてコンテンツを生成する手順を示します。
+GenStudio for Performance Marketingは、企業や市場に関する情報を活用して、ブランドに即したコンテンツ制作を促進します。 生成AIは、顧客[&#x200B; ペルソナ &#x200B;](/help/user-guide/guidelines/personas.md)、[製品](/help/user-guide/guidelines/products.md)、[&#x200B; ブランドガイドライン &#x200B;](/help/user-guide/guidelines/overview.md)の説明を活用して、組織の要件に合わせてコンテンツ生成を導きます。
 
-システム管理者は、組織固有の情報を入力またはアップロードすることでAdobe GenStudio for Performance Marketingを設定します。 この準備により、コンテンツ編集者と共同作業者が生成 AI 機能を効果的に使用して、キャンペーンアセットを作成およびレビューできるようになります。 Adobe システム管理者が組織の製品インスタンスをプロビジョニングし、GenStudio システムマネージャーの権限を割り当てると、GenStudio システムマネージャーはガイドラインを使用して製品の基盤となる生成 AI フレームワークを準備できます。
+システムマネージャーは、組織固有の情報を入力またはアップロードすることで、Adobe GenStudio for Performance Marketingを設定します。 この準備により、コンテンツ編集者や共同作業者は、生成AI機能を効果的に使用して、キャンペーンアセットを作成およびレビューできます。 Adobeのシステム管理者が組織のプロダクトインスタンスをプロビジョニングし、GenStudio system manager権限を割り当てると、GenStudio system managerは、ガイドラインを使用して製品の基盤となる生成AI フレームワークを準備できます。
 
-### 手順 1：ガイドラインの追加
+### 手順1：ガイドラインの追加
 
-ブランド [&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md) は、ブランドの特性を取り込みます。 GenStudio for Performance Marketingの基盤となるジェネレーティブ AI 機能では、これらのガイドラインを使用して、コンテンツの生成をガイドするガードレールを確立します。 [[!DNL Brands]  ガイドライン &#x200B;](/help/user-guide/guidelines/brands.md) ドキュメントをアップロードするか、ブランド情報を手動で入力できます。
+ブランド [&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md)は、ブランド特性をキャプチャします。 GenStudio for Performance Marketingの基本的な生成AI機能は、これらのガイドラインを活用して、コンテンツ生成を導くガードレールを確立します。 [[!DNL Brands]  ガイドライン &#x200B;](/help/user-guide/guidelines/brands.md)のドキュメントをアップロードするか、ブランド情報を手動で入力できます。
 
-コンテンツ編集者や共同作業者は、組織の [&#x200B; ブランドアイデンティティ &#x200B;](/help/user-guide/guidelines/brands.md) の基本要素が確立されるまで、作業を開始できません。 これらのブランドコンポーネントには、次の両方が含まれます。
+コンテンツ編集者と共同作業者は、組織の[&#x200B; ブランドアイデンティティ &#x200B;](/help/user-guide/guidelines/brands.md)の基本要素が確立されるまで、作業を開始できません。 これらのブランドコンポーネントには、次の両方が含まれます。
 
-* 無形の要素（声のトーンなど）
+* 声のトーンなどの無形要素
 * ロゴ、カラーパレット、タイポグラフィなどの有形アセット。
 
-ガイドラインを作成する前に、GenStudio for Performance Marketingによる [&#x200B; ブランドコンポーネント &#x200B;](/help/user-guide/guidelines/brands.md) の定義方法を学びます
+ガイドラインを作成する前に、GenStudio for Performance Marketingが[&#x200B; ブランドコンポーネント &#x200B;](/help/user-guide/guidelines/brands.md)をどのように定義しているかをご確認ください
 
-#### ガイドライン文書の準備
+#### ガイドラインドキュメントの準備
 
-包括的で焦点を当てた [[!DNL Brands]](/help/user-guide/guidelines/brands.md)、[[!DNL Products]](/help/user-guide/guidelines/products.md)、[[!DNL Personas]](/help/user-guide/guidelines/personas.md) のガイドラインにより、組織のマーケティングキャンペーンの中心的側面が定義されます。 GenStudio for Performance Marketingでは、ブランドの構築を開始するために、これらのガイドラインから情報を抽出します。 ガイドラインのドキュメントをアップロードすることも、GenStudio for Performance Marketingに手動で情報を入力する際に参照することもできます。 この情報をアップロードまたは入力する方法については、[&#x200B; ガイドラインの追加 &#x200B;](/help/user-guide/guidelines/overview.md) を参照してください。
+包括的で焦点を絞った[[!DNL Brands]](/help/user-guide/guidelines/brands.md)、[[!DNL Products]](/help/user-guide/guidelines/products.md)、[[!DNL Personas]](/help/user-guide/guidelines/personas.md)のガイドラインは、組織のマーケティングキャンペーンの主要な側面を定義します。 GenStudio for Performance Marketingでは、これらのガイドラインから情報を抽出し、ブランド構築を開始します。 GenStudio for Performance Marketingに手動で情報を入力する際に、ガイドラインドキュメントをアップロードしたり、ドキュメントを参照したりできます。 この情報のアップロードまたは入力に関するガイダンスについては、[&#x200B; ガイドラインの追加](/help/user-guide/guidelines/overview.md)を参照してください。
 
-#### ガイドラインの改訂
+#### ガイドラインを修正
 
-GenStudio システムマネージャーは、組織固有のブランド要件を手動で入力またはアップロードすることで、製品の基盤となるジェネレーティブ AI フレームワークを準備できます。 組織のブランドガイドラインの設定は 1 回限りのアクションですが、組織のボラティリティ、成長および市場状況の変化に基づいて、これらのガイドラインを改訂および強化することができます。
+GenStudioのシステムマネージャーは、組織の特定のブランド要件を手動で入力またはアップロードすることで、製品の基盤となる生成AI フレームワークを準備できます。 組織のブランドガイドラインの設定は1回限りのアクションですが、組織のボラティリティ、成長、変化する市場状況に基づいて、これらのガイドラインを修正および強化することができます。
 
-### 手順 2:GenStudio [!DNL Brands] 用のAdobe Admin Console プロジェクトの設定
+### 手順2: GenStudio [!DNL Brands]用のAdobe Admin Console プロジェクトの設定
 
-システム管理者は、共同作業者が [!DNL Brands] を編集または作成する前に、追加のセットアップ タスクを完了する必要があります。 Adobe システム管理者は、Adobe Admin Consoleで次のタスクを実行します。
+システム管理者は、共同作業者が[!DNL Brands]を編集または作成する前に、追加のセットアップ タスクを完了する必要があります。 Adobe システム管理者は、Adobe Admin Consoleで次のタスクを実行します。
 
-* 資格を編集および作成する必要があるすべてのユーザーを含んだ新しいユーザーグループ [!DNL Brands] 作成します。
+* [!DNL Brands]の使用権限を編集および作成する必要があるすべてのユーザーを含む、新しいユーザーグループを作成します。
 
-* Adobe Admin Consoleで新規プロジェクトを作成します。
+* Adobe Admin Consoleで新しいプロジェクトを作成します。
 
-[&#x200B; ブランド権限の割り当て &#x200B;](configure-brand-permissions.md) を参照してください。
+「[&#x200B; ブランド権限の割り当て](configure-brand-permissions.md)」を参照してください。
 
-### 手順 3：テンプレートのアップロード
+### 手順3：テンプレートのアップロード
 
-テンプレートを使用すると、コンテンツを迅速に作成できます。 テンプレートには、ヘッダーやフッターなど、承認済みの機能が含まれており、特定のチャネル用に最適化されています。 通常、システムマネージャーは組織のテンプレートをアップロードおよび管理します。 コンテンツエディターは、テンプレートを使用して、組織ブランドの確立された境界内でコンテンツ作成プロセスを開始します。
+テンプレートは、コンテンツ制作を加速させます。 テンプレートには、ヘッダーやフッターなどの承認済み機能が含まれており、特定のチャネルに最適化されています。 通常、システムマネージャーは、自社のテンプレートをアップロードおよび管理します。 コンテンツエディターは、テンプレートを使用して、組織ブランドが定める範囲内で、コンテンツ制作プロセスを促進します。
 
-[&#x200B; テンプレートの操作 &#x200B;](/help/user-guide/templates/use-templates.md) を参照してください。
+[&#x200B; テンプレートの操作](/help/user-guide/templates/use-templates.md)を参照してください。
 
-### 手順 4：承認されたアセットのアップロード
+### ステップ 4：承認済みアセットのアップロード
 
-[!DNL Content] の承認済みアセットは、すべてのGenStudio for Performance Marketing エディターが使用できます。 コンテンツエディターが新しいエクスペリ [!DNL Content] ンスやアセットの作成に使用するアセットを、アセットに入力することができます。
+[!DNL Content]の承認済みアセットは、すべてのGenStudio for Performance Marketing エディターで使用できます。 コンテンツエディターが新しいエクスペリエンスやアセットを作成する際に使用するアセットを[!DNL Content]に入力できます。
 
-[&#x200B; 承認済みアセットのアップロード &#x200B;](/help/user-guide/content/manage-assets.md) を参照してください。
+[承認済みアセットのアップロード &#x200B;](/help/user-guide/content/manage-assets.md)を参照してください。
 
-### 手順 5：有料メディアアカウントへの接続
+### 手順5：有料メディアアカウントに接続する
 
-GenStudio for Performance Marketingと有料メディアアカウントの間の連携を設定して、アクティブなマーケティングキャンペーン、アセットおよびエクスペリエンスからデータを受け取ります。 [!DNL Insights] を使用すると、チャネルから派生したデータを分析できます。 [&#x200B; 有料メディアアカウントの接続 &#x200B;](/help/user-guide/connectors/connect-channel.md) を参照してください。
+Adobe GenStudio for Performance Marketingと有料メディアアカウントを連携し、アクティブなマーケティング施策、アセット、エクスペリエンスからデータを受け取ることができます。 [!DNL Insights]を使用して、MetaおよびLinkedInで作業する際の&#x200B;**[!UICONTROL Insights 2.0]** クロスチャネルの概要（[&#x200B; インサイトの概要](/help/user-guide/insights/overview.md#insights-20)）など、チャネル派生データを分析します。 [有料メディアアカウントの接続](/help/user-guide/connectors/connect-channel.md)を参照してください。
