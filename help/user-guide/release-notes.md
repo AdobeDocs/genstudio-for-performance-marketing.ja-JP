@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 45495ee2df117d6c9d87324fc1ac421387fd3032
+source-git-commit: f7f72c23c8bc7a52040af2c897b94d107a7c95bf
 workflow-type: tm+mt
-source-wordcount: 4994
+source-wordcount: 4727
 ht-degree: 0%
 
 ---
@@ -52,35 +52,11 @@ ht-degree: 0%
 
 ## 2026.04.16 {#latest}
 
-### 新しい[!DNL Insights] 2.0の概要
-
-[[!DNL Insights]](/help/user-guide/insights/overview.md)のバージョン 2.0は、**Meta**&#x200B;と&#x200B;**LinkedIn**&#x200B;のパフォーマンスを1つのワークスペースにまとめます。 クロスチャネルおよびチャネルに特化したスナップショット、貢献度スタイルのレポート、パフォーマンスの高い広告ビューと低い広告ビューにより、支出が発生している場所を容易に確認することができます。
-
-### 広告タグからの[!DNL Insights]
-
-**広告タグからのインサイト**&#x200B;では、トラッキング IDをタグディメンションに分割し、広告名をスプレッドシートに書き出さずに、パフォーマンス（コスト、エンゲージメント、コンバージョンなど）と並行して分析できます。 より強いタグ値と弱いタグ値はエクスペリエンスに表示されるため、命名規則はオフラインでデコードするものではなく、操作できるものになります。
-
 ### [!DNL Create]のコンテキストに応じた推奨事項
 
 [作成ワークフロー](/help/user-guide/create/overview.md)で、**[!UICONTROL コンテンツから選択]**&#x200B;が開き、**[!UICONTROL 関連性]**&#x200B;の並べ替えが表示されるようになりました。したがって、グリッドには、[!DNL Brands]、[!DNL Products]、[!DNL Personas]およびプロンプト ドロワー内の言語が反映されます。
 
 または、最新性がコンテキストフィットではなくリードする必要がある場合は、**[!UICONTROL 最近追加した]**&#x200B;に切り替えます。
-
-### HTML Canvasでのコンテンツフラグメントスワップ
-
-HTML Canvasの[電子メールエクスペリエンス &#x200B;](/help/user-guide/create/create-email-experience.md)の場合、**1つのCanvasで3つのスロットタイプを使用して電子メールエクスペリエンスを組み立てます**:
-
-* 生成スロット（AI生成のコピー）
-* コンテンツフラグメントスロット（コンテンツアドバイザーMFEを介して接続されたAEM リポジトリから選択された事前承認済みのコンテンツフラグメント）
-* ロックされたスロット（法的免責事項などの不変フィールド）
-
-これらのコンテンツフラグメントは、同じキャンバス内に統合されているため、HTMLを手作業で再構築することなく、モジュール形式の承認済みコピーを同梱できます。
-
-### URLから[!DNL Brands]、[!DNL Products]および[!DNL Personas]を作成
-
-ブランド URLから始まる[!DNL Brands]、[!DNL Products]、または[!DNL Personas]を作成し、ブランドがオンラインで公開する内容に基づいて出力を設定します。
-
-ブランドガイドラインは、1回の自動パスで生成できます。 製品とペルソナは、詳細が作成される前に確認した、候補の候補から開始します。
 
 ### [!DNL Create]のコネクテッド TV （CTV）広告
 
@@ -91,12 +67,6 @@ HTML Canvasの[電子メールエクスペリエンス &#x200B;](/help/user-guid
 ### HTML 5の表示テンプレート、バリエーション、サイズ変更
 
 **DOM ベースのHTML5 zip ファイルをアップロードして、[!DNL Create]で表示テンプレート**&#x200B;を作成し、HTML5広告のバリエーションを作成し、クリエイティブのサイズを追加の縦横比に変更できます。 完了したエクスペリエンスは、[Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md)および[[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md)にアクティベートできます。
-
-### GenStudioのFirefly Creativeの制作ワークフロー
-
-[!BADGE Beta]{type=Informative tooltip="この機能は現在Betaに搭載されているため、一部の機能が制限されたり、機能が変更されたりする場合があります。"}
-
-**Firefly Creative実稼動** ワークフローをGenStudio for Performance Marketingから公開して実行できるので、マーケターはアプリ内での実稼動の実行、成果物のダウンロード、完成したアセットの[[!DNL Content]](/help/user-guide/content/overview.md)へのルーティングを、少ないツールホップで実行できます。
 
 ## 以前のリリースノート
 
