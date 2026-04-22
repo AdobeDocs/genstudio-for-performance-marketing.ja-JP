@@ -1,114 +1,111 @@
 ---
-title: 組織のContent Credentials
-description: GenStudio for Performance MarketingでContent Credentialsを申請およびレビューする方法について説明します。
+title: Content Credentials法人版
+description: GenStudio for Performance MarketingでContent Credentialsを適用してレビューする方法について説明します。
 level: Intermediate
 feature: Content Management, Content Attributes
 exl-id: 9fc1e428-7fa7-4f00-84ba-51c9318766f4
 TQID: https://experienceleague.adobe.com/ATpH1AXBAhr5tJDVkgx0ZaK20YYBmP7NQF0BUCtGiGw
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 1%
+source-wordcount: 723
+ht-degree: 0%
 
 ---
 
-# 組織のContent Credentials
+# Content Credentials法人版
 
-ブランドの信頼性を証明しコンプライアンスを促進する、コンテンツの改ざん防止資格情報がマーケティングワークフローに直接組み込まれる仕組みを説明します。
+ブランドの信頼性を証明し、コンプライアンスを促進するコンテンツの改ざん防止のための資格情報が、マーケティングワークフローに直接組み込まれる方法をご確認ください。
 
 >[!WARNING]
 >
-> この機能は現在ベータ版で、アクセス権が付与された組織のみが使用できます。 ご興味がある場合は、Adobe アカウントチームの担当者にお問い合わせいただくか、[&#x200B; このリンクを使用して登録をリクエスト &#x200B;](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr) してください。
+> この機能は現在ベータ版で、アクセスが許可された組織のみが利用できます。 ご興味のある方は、Adobeの担当者までお問い合わせいただくか、[このリンクを使用して登録をリクエストしてください](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr)。
 
+## Content Credentialsの導入方法 {#content-credentials}
 
-## Content Credentialsの概要
+>[!CONTEXTUALHELP]
+>id="gspm_content_credentials"
+>title="[!DNL GenStudio for Performance Marketing]のContent Credentials"
+>abstract="ブランドの信頼性を証明し、コンプライアンスを促進するコンテンツの改ざんを防ぐ資格情報を、マーケティングワークフローに直接組み込むことができます。"
 
-Content CredentialsがAdmin Consoleでアクティブ化されると、GenStudio for Performance Marketing ユーザーは、アプリ内のすべてのアセットに対してContent Credentialsをグローバルにオンにできます。 資格情報を適用するグローバルオプションがオフになっている場合は、個々のアセットにContent Credentialsを適用するかどうかを選択できます。
+Content CredentialsがAdmin Consoleでアクティベートされた後、GenStudio for Performance Marketing ユーザーはアプリ内のすべてのアセットに対してContent Credentialsを有効にすることができます。 認証情報を適用するグローバルオプションがオフになっている場合、ユーザーは個々のアセットに対してContent Credentialsを適用するオプションを選択できます。
 
-コンテンツが公開されると、Content Credentialsは、LinkedIn などの外部プラットフォームに表示されるようになります。
+コンテンツが公開されると、LinkedInなどの外部プラットフォームにContent Credentialsが表示されます。
 
-管理者は、Admin Console内に有効な X.509 証明書をアップロードする必要があります。 この手順により、企業のデジタル署名が適切に設定され、サポートされているAdobe DX アプリケーションで使用できるようになります。
+管理者は、Admin Console内で有効なX.509証明書をアップロードする責任があります。 この手順により、企業のデジタル署名が適切に設定され、サポートされているAdobe DX アプリケーションで使用できる状態になります。
 
 >[!NOTE]
 >
->この設定を制御することにより、今後はAdmin Consoleに移行して、アプリケーション間のContent Credentials管理を合理化し、管理監督機能を強化する可能性があります。
+>この設定の制御は、将来的にAdmin Consoleに移行する可能性があり、アプリケーション間のContent Credentialsの管理を合理化し、管理上の監視を強化します。
 
-## Content Credentialsとは 
+## Content Credentialsとは？ 
 
-Content Credentialsは、コンテンツの作成方法の詳細と作成者の ID 情報を含む、耐久性のある業界標準のメタデータです。 Content Credentialsは、コンテンツがサポートプラットフォームにオンラインで公開されたとき、または [Adobeの検査ツール &#x200B;](https://contentauthenticity.adobe.com/inspect) [Adobe Content Authenticity Chrome ブラウザー拡張機能 &#x200B;](https://helpx.adobe.com/jp/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html) などのツールを使用して表示できます。  
+Content Credentialsは、業界標準の耐久性のあるメタデータであり、コンテンツの制作方法やクリエイターのID情報が記載されています。 Content Credentialsは、コンテンツがサポートするプラットフォームにオンラインで公開されている場合、または[Adobeの検査ツール ](https://contentauthenticity.adobe.com/inspect)や[Adobe Content Authenticity Chrome ブラウザー拡張機能](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html)などのツールを使用して表示できます。  
 
-Content Credentialsを適用すると、コンテンツの作成方法の透明性を高め、ユーザーがコンテンツに慣れるのに役立ちます。
+Content Credentialsを導入すれば、コンテンツの制作方法の透明性を高め、オーディエンスがコンテンツを活用できるようになります。
 
-[Content Credentialsの詳細については &#x200B;](https://helpx.adobe.com/jp/creative-cloud/help/content-credentials.html)Adobeを参照してください。
+[AdobeでContent Credentials](https://helpx.adobe.com/jp/creative-cloud/help/content-credentials.html)の詳細を確認します。
 
-## ブランド署名とアセットトラッキング
+## ブランド署名とアセット追跡
 
-ブランド署名コンテンツは、ブランドの整合性とユーザーの信頼を高める上で重要な役割を果たします。 Admin Consoleで証明書が適切に設定されている場合は、Adobe アプリケーションで一意のブランド署名を使用してコンテンツに署名できます。 この信頼性の保証は、目に見えない透かしやフィンガープリントのテクノロジーを使用して維持され、コンテンツのライフサイクルを通じて署名の耐久性を維持するのに役立ちます。
+ブランド署名コンテンツは、ブランドの整合性とユーザーの信頼を促進する上で重要な役割を果たします。 組織は、Admin Consoleで証明書が適切に設定されている場合、Adobe アプリケーションで一意のブランド署名を使用してコンテンツに署名できます。 この信頼性の保証は、目に見えない透かしとフィンガープリント技術を使用して維持され、コンテンツのライフサイクル全体を通じて署名の耐久性を維持するのに役立ちます。
 
-企業は、ブランド署名に加えて、アセット ID をコンテンツに直接添付できます。 これにより、特にソーシャルメディアプラットフォームで共有または投稿されるアセットを効率的に追跡できます。 アセット ID を組み込むことで、組織はコンテンツの起源と流通パスを追跡し、監視とアカウンタビリティを強化できます。
+企業は、ブランドへの署名に加えて、アセット IDをコンテンツに直接添付できます。 これにより、特にソーシャルメディアプラットフォームで共有または投稿されたアセットを効率的に追跡できます。 アセット IDを組み込むことで、コンテンツの由来と配信パスを追跡し、管理と説明責任を強化することができます。
 
-## マーケティングワークフローでのContent Credentials
+## マーケティングワークフローにおけるContent Credentials
 
-Content Credentialsの適用は、読み込みとコンテンツ検出から、アクティベーションと書き出しまで、GenStudio for Performance Marketingでのマーケティングワークフロー全体を通じて直接行うことができます。 また、アプリ全体でレビューするために、コンテンツに資格情報が表示されます。
+Content Credentialsの導入は、インポートやコンテンツの発見からアクティベーション、エクスポートに至るまで、マーケティングワークフロー全体を通じて、GenStudio for Performance Marketingで直接実行できます。 また、アプリ全体でレビュー用にコンテンツに表示される資格情報もあります。
 
 ### 読み込みと検出
 
-コンテンツギャラリーでは、読み込まれたアセットに資格情報が表示されます。
+コンテンツギャラリーでは、読み込んだアセットに認証情報が表示されます。
 
-サムネールの右上隅にあるContent Credential バッジは、「ブランドが署名した」コンテンツを示します。
+サムネールの右上隅にあるContent Credential バッジは、「ブランド署名済み」コンテンツを示します。
 
-![&#x200B; 読み込まれたアセット（資格情報を含む） &#x200B;](./images/import-discovery1.png)
+![資格情報を含むインポートされたアセット ](./images/import-discovery1.png)
 
 署名済みコンテンツを選択すると、公開されたブランド、レコーダー、使用されたツール、タイムスタンプなどの詳細なメタデータが表示されます。
 
 コンテンツは、資格情報のステータスでフィルタリングできます。
 
-![&#x200B; アセットの資格情報データ &#x200B;](./images/import-discovery2.jpg)
+![ アセットの資格情報データ ](./images/import-discovery2.jpg)
 
-### 作成と選択
+### コンテンツの制作と選択
 
-Content Credentialバッジは、キャンバスアセットセレクターに表示されます。
+Content Credentialのバッジは、Canvas Asset セレクターに表示されます。
 
-認証情報のメタデータは、編集全体を通じてプロベンションチェーンを維持するためにエクスペリエンスのアセットが選択されるたびに保持されます。
+エクスペリエンスでアセットを選択すると、編集中に来歴チェーンを維持するために資格情報のメタデータが保持されます。
 
-![&#x200B; キャンバスアセットセレクターのContent Credential バッジ &#x200B;](./images/creation-selection1.png)
+![Canvas アセットセレクターのContent Credential バッジ ](./images/creation-selection1.png)
 
 ### 編集と変換
 
-ドラフトからの書き出し時に、変更されたアセットは自動的に再署名され、新しい資格情報が元の資格情報にリンクされます。
+ドラフトからの書き出し中に、変更されたアセットは自動的に再署名され、新しい資格情報は元のアセットにリンクされます。
 
-![&#x200B; 書き出されたアセットの資格情報データ &#x200B;](./images/edit-and-transformation1.png){width="60%"}
+![書き出されたアセットの資格情報データ ](./images/edit-and-transformation1.png){width="60%"}
 
 ### レビューと承認
 
-レビューと承認のプレビューでは、右側のパネルにアセットの資格情報ステータスが表示されます。
+レビューと承認プレビューでは、右側のパネルにアセットの資格情報ステータスが表示されます。
 
-![&#x200B; 承認済みアセットの資格情報データ &#x200B;](./images/review-and-approve1.png){width="60%"}
+![承認済みアセットの資格情報データ ](./images/review-and-approve1.png){width="60%"}
 
-レビュー担当者がアセットを検査すると、バリアントごとの資格情報の詳細が表示されます。 ユーザーが「**[!UICONTROL コンテンツに保存]** をクリックすると、承認済みのエクスペリエンスが再署名されます。
+Per-variant credential details are shown as reviewers inspect the assets. Approved experiences are re-signed when users click **[!UICONTROL Save to Content]**.
 
-![&#x200B; 承認済みアセットの資格情報データ &#x200B;](./images/review-and-approve2.png)
+![承認済みアセットの資格情報データ ](./images/review-and-approve2.png)
 
-### アクティベーションとエクスポート
+### Activation and export
 
-アクティベーション時に、エクスペリエンスセレクターに資格情報ステータスが表示される。
+During Activation, credential status shows in the Experience selector.
 
-![&#x200B; アクティブ化されたアセットの資格情報データ &#x200B;](./images/activate-export1.png){width="60%"}
+![Credential data on an activated asset](./images/activate-export1.png){width="60%"}
 
-書き出されたファイルには、C2PA 準拠の資格情報が埋め込まれます。
+Exported files will have C2PA-compliant credentials embedded.
 
-サポートされるすべての形式（JPEG、PNG、MP4）で資格情報の整合性が維持されます。
+Credential integrity is maintained across all supported formats (JPEG, PNG, MP4).
 
-![&#x200B; 書き出されたアセットの資格情報データ &#x200B;](./images/activate-export2.png)
+![書き出されたアセットの資格情報データ ](./images/activate-export2.png)
