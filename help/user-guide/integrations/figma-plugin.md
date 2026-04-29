@@ -17,17 +17,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
+source-git-commit: b6ee6bef6552cf0a48316c4ce788e7a22f9daf16
 workflow-type: tm+mt
-source-wordcount: 1713
-ht-degree: 93%
+source-wordcount: 1731
+ht-degree: 90%
 
 ---
 
 # GenStudio for Performance Marketing用 Figma プラグイン
 
-GenStudio for Performance Marketing Figma プラグインを使用すると、Figma アプリケーションに新しいパネルが追加され、オンブランドのコンテンツを生成できるようになります。
-[Figma コミュニティマーケットプレイス &#x200B;](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio) からプラグインを検索してインストールします。
+GenStudio for Performance Marketing Figma プラグインは、Figma アプリケーションに新しいパネルを追加し、ブランドに即したコンテンツを生成できるようにします。
+[Figma コミュニティマーケットプレイス &#x200B;](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio)からプラグインを検索してインストールします。
 
 このページでは、プラグインの設定方法および使用方法を説明します。
 
@@ -85,7 +85,11 @@ Instagram や Facebook のストーリーの場合：
 1. テンプレート内の要素（テキスト、画像など）を選択します。
 1. ドロップダウンメニューを使用して役割を割り当てます。
 
-プラグインは、生成されたコンテンツに使用するためのこれらのマッピングを記憶しています。 1 つのフィールド role\は複数のテンプレート要素にマッピングできます。
+>[!IMPORTANT]
+>
+> 画像をマッピングする必要があります：`image` フィールドの役割をテンプレート内の少なくとも1つの画像要素に割り当てます。
+
+プラグインは、生成されたコンテンツに使用するためのこれらのマッピングを記憶しています。 1つのフィールドロールを複数のテンプレート要素にマッピングできます。
 
 ![&#x200B; フィールドの役割のマッピング &#x200B;](./field-role-mapping.png){width="60%"}
 
