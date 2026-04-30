@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6b964da5bf0d0d10508a43f17f68faf1114270c1
+source-git-commit: 1dbfb6115c9340f9c14cef75d5144a303314fa71
 workflow-type: tm+mt
 source-wordcount: 1835
 ht-degree: 85%
@@ -93,9 +93,9 @@ Instagram や Facebook のストーリーの場合：
 
 以下では、これらのフィールドロールの一部がどのようにマッピングされているかを説明します。
 
-| ![&#x200B; フィールドの役割が示されたFacebookの投稿](./facebook-post.png){width="50%" align="center"}<br> | ![&#x200B; フィールドの役割が示されたFacebook ストーリー](./facebook-story.png){width="60%" align="center"}<br> |
+| ![&#x200B; フィールドの役割が示されたFacebookの投稿](./facebook-post.png){width="60%" align="center" zoomable="yes"}<br> | ![&#x200B; フィールドの役割が示されたFacebook ストーリー](./facebook-story.png){width="70%" align="center" zoomable="yes"}<br> |
 |:---:|:---:|
-| ![&#x200B; フィールドの役割が表示されたInstagram投稿](./instagram-post.png){width="50%" align="center"}<br> | ![&#x200B; フィールドの役割が表示されたInstagram ストーリー](./instagram-story.png){width="60%" align="center"}<br> |
+| ![&#x200B; フィールドの役割が表示されたInstagram投稿](./instagram-post.png){width="60%" align="center" zoomable="yes"}<br> | ![&#x200B; フィールドの役割が表示されたInstagram ストーリー](./instagram-story.png){width="70%" align="center" zoomable="yes"}<br> |
 
 **LinkedIn フィールドの役割には**&#x200B;が含まれます。
 
@@ -109,7 +109,7 @@ Instagram や Facebook のストーリーの場合：
 
 以下では、これらのフィールドロールの一部がどのようにマッピングされているかを説明します。
 
-![&#x200B; フィールドの役割が示されたLinkedIn投稿](./linkedin-ad.png){width="20%" align="center"}
+![&#x200B; フィールドの役割が示されたLinkedIn投稿](./linkedin-ad.png){width="30%" align="center" zoomable="yes"}
 
 プラグインは、生成されたコンテンツに使用するためのこれらのマッピングを記憶しています。 1つのフィールドロールを複数のテンプレート要素にマッピングできます。 手動フィールドは、テキストの編集可能性を保持するエレメント用ですが、生成用にマークされません。
 
@@ -122,7 +122,7 @@ Instagram や Facebook のストーリーの場合：
 1. テンプレート内の要素（テキスト、画像など）を選択します。
 1. ドロップダウンメニューを使用して役割を割り当てます。
 
-![&#x200B; フィールドの役割のマッピング &#x200B;](./field-role-mapping.png){width="60%"}
+![&#x200B; フィールドの役割のマッピング &#x200B;](./field-role-mapping.png){width="60%" zoomable="yes"}
 
 {{$include /help/_includes/field-mapping-exceptions.md}}
 
