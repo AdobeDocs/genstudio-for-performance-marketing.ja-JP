@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: b6ee6bef6552cf0a48316c4ce788e7a22f9daf16
+source-git-commit: 6b964da5bf0d0d10508a43f17f68faf1114270c1
 workflow-type: tm+mt
-source-wordcount: 1731
-ht-degree: 90%
+source-wordcount: 1835
+ht-degree: 85%
 
 ---
 
@@ -80,20 +80,49 @@ Instagram や Facebook のストーリーの場合：
 
 プラグインは、ヘッドライン、本文、画像など、テンプレートの様々な要素を理解する必要があります。
 
+**Meta フィールドの役割には、**&#x200B;が含まれます。
+
+* 画像
+* 画像テキスト
+* CTA
+* Body text
+* Headline
+* Web サイト URL
+* リンクを表示
+* 手動フィールド
+
+以下では、これらのフィールドロールの一部がどのようにマッピングされているかを説明します。
+
+| ![&#x200B; フィールドの役割が示されたFacebookの投稿](./facebook-post.png){width="50%" align="center"}<br> | ![&#x200B; フィールドの役割が示されたFacebook ストーリー](./facebook-story.png){width="60%" align="center"}<br> |
+|:---:|:---:|
+| ![&#x200B; フィールドの役割が表示されたInstagram投稿](./instagram-post.png){width="50%" align="center"}<br> | ![&#x200B; フィールドの役割が表示されたInstagram ストーリー](./instagram-story.png){width="60%" align="center"}<br> |
+
+**LinkedIn フィールドの役割には**&#x200B;が含まれます。
+
+* 画像
+* 概要テキスト
+* 画像テキスト
+* Headline
+* CTA
+* Web サイト URL
+* 手動フィールド
+
+以下では、これらのフィールドロールの一部がどのようにマッピングされているかを説明します。
+
+![&#x200B; フィールドの役割が示されたLinkedIn投稿](./linkedin-ad.png){width="20%" align="center"}
+
+プラグインは、生成されたコンテンツに使用するためのこれらのマッピングを記憶しています。 1つのフィールドロールを複数のテンプレート要素にマッピングできます。 手動フィールドは、テキストの編集可能性を保持するエレメント用ですが、生成用にマークされません。
+
+>[!IMPORTANT]
+>
+> **テンプレート内の少なくとも1つの画像要素に`image` フィールドの役割を割り当てることで、画像**&#x200B;をマッピングする必要があります。
+
 要素役割を割り当てるには、次の手順に従います。
 
 1. テンプレート内の要素（テキスト、画像など）を選択します。
 1. ドロップダウンメニューを使用して役割を割り当てます。
 
->[!IMPORTANT]
->
-> 画像をマッピングする必要があります：`image` フィールドの役割をテンプレート内の少なくとも1つの画像要素に割り当てます。
-
-プラグインは、生成されたコンテンツに使用するためのこれらのマッピングを記憶しています。 1つのフィールドロールを複数のテンプレート要素にマッピングできます。
-
 ![&#x200B; フィールドの役割のマッピング &#x200B;](./field-role-mapping.png){width="60%"}
-
-### フィールドマッピングの例外
 
 {{$include /help/_includes/field-mapping-exceptions.md}}
 
