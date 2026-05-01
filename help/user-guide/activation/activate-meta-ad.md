@@ -4,11 +4,19 @@ description: Meta広告エクスペリエンスをアクティベートする方
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
 TQID: https://experienceleague.adobe.com/hDR0ngNiGnCXCCOgNhVG8gX4kHGrNvfybPbuMLwYk7U
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2: id: d87258a7-722c-4afd-b632-adddc447c7aaid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: d87258a7-722c-4afd-b632-adddc447c7aa
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
 source-wordcount: 1980
@@ -47,7 +55,7 @@ GenStudioのシステムマネージャーやエディターは、
 
 エクスペリエンスをアクティベートする前に、GenStudioのシステムマネージャーがMeta アカウントをGenStudio for Performance Marketingに接続する必要があります。 この接続により、GenStudioとMetaなどの外部マーケティングツール間でデータを流すことができ、アクティベーションプロセスが可能になります。 [Meta Adsへの接続](/help/user-guide/connectors/meta-ads.md)を参照してください。
 
-Instagram アカウントを選択するには、Meta Business Managerで[使用するInstagram アカウントが、オンボーディング中に選択した同じ広告アカウント ](/help/user-guide/connectors/meta-ads.md#connect-an-instagram-account)に接続されていることを確認します。 この接続が見つからない場合、アクティベーション中にInstagram アカウントが[!DNL GenStudio for Performance Marketing] _Instagram アカウント_ ドロップダウンメニューに表示されない可能性があります。
+Instagram アカウントを選択するには、Meta Business Managerで[使用するInstagram アカウントが、オンボーディング中に選択した同じ広告アカウント &#x200B;](/help/user-guide/connectors/meta-ads.md#connect-an-instagram-account)に接続されていることを確認します。 この接続が見つからない場合、アクティベーション中にInstagram アカウントが[!DNL GenStudio for Performance Marketing] _Instagram アカウント_ ドロップダウンメニューに表示されない可能性があります。
 
 同期が完了したら、追加されたアカウントを表示できます。 大量のデータは同期に時間がかかります。
 
@@ -57,7 +65,7 @@ Instagram アカウントを選択するには、Meta Business Managerで[使用
 
 * **[!DNL Content]**&#x200B;から直接アクティベートします。 あらかじめ定義された設定で承認済みのエクスペリエンスを選択することは、単一チャネルにアクティベーションをローンチするための最も効率的な方法です。
 
-* **エクスペリエンスの設定[!DNL Activate] > _エクスペリエンスの設定_**から広告エクスペリエンスを組み立てます。 [!DNL Content]からビジュアルアセットを選択し、テキスト要素を追加し、縦横比を選択することで、エクスペリエンスを作成できます。 このアプローチでは、より多くのステップを踏むことができますが、クリエイティブな体験を構築する際により高い柔軟性をもたらします。
+* **エクスペリエンスの設定[!DNL Activate] > _エクスペリエンスの設定_**&#x200B;から広告エクスペリエンスを組み立てます。 [!DNL Content]からビジュアルアセットを選択し、テキスト要素を追加し、縦横比を選択することで、エクスペリエンスを作成できます。 このアプローチでは、より多くのステップを踏むことができますが、クリエイティブな体験を構築する際により高い柔軟性をもたらします。
 
 ### コンテンツから承認済みエクスペリエンスをアクティベート
 
@@ -89,8 +97,8 @@ Instagram アカウントを選択するには、Meta Business Managerで[使用
 
 1. エクスペリエンスに名前を割り当てます。 アクティブ化後、この名前を使用して、_アクティブ化されたエクスペリエンス_ テーブルでこのエクスペリエンスを検索できます。
 1. メディアアセットを選択します。 [!DNL Content]からアセットを使用するか、外部アセット（OneDriveやDropboxなど）をアップロードできます。
-1. [ テキストを追加](#add-ad-text)。
-1. [ メタデータを追加](#assign-metadata)。
+1. [&#x200B; テキストを追加](#add-ad-text)。
+1. [&#x200B; メタデータを追加](#assign-metadata)。
 
    _プレビューパネル_&#x200B;では、特定の広告プレースメントのコンテキストで、テキストとアセットのインタラクティブなビューをサポートしています。 _プレースメントを選択_ ドロップダウンメニューを使用して、サポートされている広告プレースメントを切り替えます。 プレビューを使用すると、特定のプレースメントの広告要素に関する決定を確定できます。 _プレビュー_ パネルでプレースメントを選択すると、広告の表示のみが影響を受けます。 _プレビュー_ パネルでのプレースメントの選択は保存されません。
 
@@ -112,7 +120,7 @@ Instagram アカウントを選択するには、Meta Business Managerで[使用
 
 1. 「**[!UICONTROL 使用]**」をクリックして、選択したアセットを広告エクスペリエンスに含めます。 _エクスペリエンス設定_ ウィンドウでは、_メディア_&#x200B;領域にアセットがデフォルトの縦横比で表示されます。 _プレビュー_ パネルでは、この縦横比をサポートする広告プレースメント内のアセットがプレビューされます。
 
-アップロードに失敗した場合、_[!DNL Content]_のアセットへのリンクを含む有益なエラーメッセージが開きます。
+アップロードに失敗した場合、_[!DNL Content]_&#x200B;のアセットへのリンクを含む有益なエラーメッセージが開きます。
 
 **外部アセットをアップロードするには**:
 
@@ -128,7 +136,7 @@ Microsoft OneDriveまたはDropboxから、最大6枚の静止画像を[!DNL Con
 
 1. （オプション）デバイスからアセットをアップロードするには、**[!UICONTROL 参照]**&#x200B;をクリックし、_ファイルを参照_&#x200B;または&#x200B;_フォルダーを参照_&#x200B;を選択して、アップロードするアセットを特定します。
 
-1. _詳細を追加_&#x200B;領域で、アップロードしたアセットに情報の詳細を追加して、_[!DNL Content]_での検索とフィルタリングを容易にします。 これらの詳細はメタデータとして保存されます。
+1. _詳細を追加_&#x200B;領域で、アップロードしたアセットに情報の詳細を追加して、_[!DNL Content]_&#x200B;での検索とフィルタリングを容易にします。 これらの詳細はメタデータとして保存されます。
 
 1. アセットをアップロードして詳細を割り当てたら、右下の「**[!UICONTROL Assetsを追加]**」をクリックします。
 
