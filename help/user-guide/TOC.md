@@ -5,10 +5,10 @@ user-guide-description: パフォーマンスマーケティング用の Adobe G
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: d1ead032ce38f7487fd83439324f19a805941585
+source-git-commit: a4141df9674b12e27393fa5795ffc079f975cd12
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 93%
+source-wordcount: '269'
+ht-degree: 90%
 
 ---
 
@@ -47,6 +47,8 @@ ht-degree: 93%
    + [&#x200B; 広告エクスペリエンスの表示 &#x200B;](create/display-ad-experiences.md)
    + [&#x200B; バナーエクスペリエンス &#x200B;](create/banner-experiences.md)
    + [&#x200B; バリアントの管理 &#x200B;](create/manage-variants.md)
+   + [&#x200B; ロゴの入れ替えを使用](create/logo-swap.md)
+   + [&#x200B; テンプレートでロゴの入れ替えを設定](create/logo-swap-setup.md)
    + [&#x200B; メールエクスペリエンスの作成 &#x200B;](create/create-email-experience.md)
    + [Meta広告エクスペリエンスの作成 &#x200B;](create/create-meta-ad.md)
    + [LinkedIn エクスペリエンスの作成 &#x200B;](create/create-linkedin.md)
