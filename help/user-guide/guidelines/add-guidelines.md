@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 899a575f664d3aba0fe913fd625f8e5353ee854d
+source-git-commit: 8ec5d89113f24b91b4d963124050eaf4bf1bf368
 workflow-type: tm+mt
-source-wordcount: 3019
+source-wordcount: 3023
 ht-degree: 0%
 
 ---
@@ -199,7 +199,7 @@ _[!DNL Brands]_&#x200B;ホームで、既に作成したブランドをクリッ
 
 ペルソナを追加するには、[&#x200B; ペルソナをアップロード &#x200B;](#upload-a-persona)、[手動でペルソナを作成](#manually-add-persona)、または[URLからペルソナを追加](#adding-personas-from-url)。 ファイルをアップロードするか、ペルソナを手動で追加する場合は、「ガイドライン」を選択し、ペルソナの詳細を入力します。
 
-左側のナビゲーション領域で、_共有_ リストから&#x200B;**[!DNL Personas]**&#x200B;をクリックします。
+左側のナビゲーション領域で、_共有_ リストから&#x200B;**[!DNL More]**&#x200B;をクリックしてから&#x200B;**[!DNL Personas]**&#x200B;をクリックします。
 
 ![GenStudio for Performance Marketingのガイドライン &#x200B;](/help/assets/guidelines.png){width="650" zoomable="yes"}
 
@@ -282,12 +282,12 @@ _[!DNL Personas]_&#x200B;ホームでは、既に作成した&#x200B;[!DNL Perso
 
 製品を追加するには：
 
-1. 左側のナビゲーション領域で、_共有_ リストから&#x200B;**[!DNL Products]**&#x200B;をクリックします。
+1. 左側のナビゲーション領域で、_共有_ リストから&#x200B;**[!DNL More]**&#x200B;をクリックしてから&#x200B;**[!DNL Products]**&#x200B;をクリックします。
    ![GenStudio for Performance Marketingのガイドライン &#x200B;](/help/assets/guidelines.png){width="650" zoomable="yes"}
 1. _[!DNL Products]_&#x200B;パネルで、**[!UICONTROL 製品を追加]**&#x200B;を選択します。
 1. [製品をアップロード &#x200B;](#upload-a-product)、[製品を手動で作成](#manually-add-a-product)、または[製品をURL](#adding-products-from-url)から追加することを選択します。 ファイルをアップロードするか、製品を手動で追加する場合は、「ガイドライン」を選択し、製品の詳細を入力します。
 
-![[!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}を追加
+![[!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes" align="center"}を追加
 
 GenStudio for Performance Marketingに[!DNL Product]を含めると、特定の商品に合わせて作成するコンテンツをより適切に調整できます。
 
