@@ -2,9 +2,9 @@
 title: Marketo for GenStudio
 description: GenStudio Adobe Exchange用Marketo アプリをインストールして設定し、GenStudio for Performance MarketingでMarketo Engage テンプレートを使用できるようにします。
 feature: Extensibility
-source-git-commit: 4118624b479905cd2f2193d542c000678daaf4b8
+source-git-commit: c9bfee479a433a1303a66a66917b0bbe60f24a74
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,20 @@ ht-degree: 0%
 
 ## Marketo資格情報の取得
 
-**Marketo** インスタンスの資格情報を使用します（Adobe Developer Consoleではありません）。 Exchangeにデプロイする前に、次の情報を収集してください。
+**Marketo** インスタンスの資格情報を使用します（Adobe Developer Consoleではありません）。 Exchangeにデプロイする前に、次の手順を使用して次の資格情報を収集します。
+
+>[!NOTE]
+>
+>Marketoの資格情報を生成および取得するには、Marketoの製品管理者アクセス権が必要です。そうでない場合、「管理者」タブはMarketoに表示されません。
 
 ### APIのみのユーザーを作成します（既存のAPI ユーザーを再利用する場合はオプション）
 
 1. Marketoで、**[!UICONTROL Admin]**&#x200B;に移動します。
-1. **[!UICONTROL セキュリティ]**&#x200B;で、**[!UICONTROL ユーザーと役割]**&#x200B;を開きます。
-1. 新しいAPI ユーザーの場合は、**[!UICONTROL APIのみのユーザーを作成]**&#x200B;をクリックします（API ユーザーごとに一意の電子メールを使用）。 **[!UICONTROL API ロール（すべてのワークスペース）]**&#x200B;の役割（または組織が必要とする役割）を割り当てます。 使用するAPI ユーザーが既にある場合は、[LaunchPoint サービスの作成または選択](#create-or-select-a-launchpoint-service)にスキップします。
+   ![Marketo管理者タブ &#x200B;](/help/extensibility/marketo-admin-global.png){width="80%"}
+1. **[!UICONTROL セキュリティ]**&#x200B;で、**[!UICONTROL ユーザーと役割]**&#x200B;を開き、**[!UICONTROL 役割]** タブに移動します。
+1. 新しい役割を作成するか、既存の役割を編集し、次の権限を追加します：_Access API_&#x200B;および&#x200B;_Access Design Studio_。
+1. 新しいAPI ユーザーの場合は、**[!UICONTROL APIのみのユーザーを作成]**&#x200B;をクリックします（API ユーザーごとに一意の電子メールを使用）。
+1. 「役割」のチェックボックスを選択し、作成した新しい役割を割り当てます。 使用するAPI ユーザーが既にある場合は、[LaunchPoint サービスの作成または選択](#create-or-select-a-launchpoint-service)にスキップします。
 
 ![&#x200B; ユーザーと役割（APIのみ） ユーザーとAPI役割](/help/extensibility/marketo-users-roles-api-user.png){width="80%"}
 
@@ -66,12 +73,26 @@ ht-degree: 0%
 1. **[!UICONTROL 管理]**&#x200B;を選択し、**Marketo for GenStudio** アプリを開きます（例：**[!UICONTROL App Builder アプリケーション]**&#x200B;または組織の管理アプリ）。
 1. **[!UICONTROL 環境]**&#x200B;で、ドロップダウンから既存の環境を選択するか、**[!UICONTROL 環境を追加]**&#x200B;を選択して環境を作成します。
 1. 選択した環境の&#x200B;**[!UICONTROL 設定]**&#x200B;を開きます。
-1. [LaunchPoint](#create-or-select-a-launchpoint-service)の&#x200B;**[!UICONTROL クライアント ID]**&#x200B;と&#x200B;**[!UICONTROL クライアントシークレット]**、Marketo Engage ID URL **、および**&#x200B;[!UICONTROL &#x200B; Marketo Engage REST API ベース URL &#x200B;]&#x200B;**（[Web サービス &#x200B;](#note-your-marketo-rest-api-base-url)のベースホスト）を入力します。**
+1. [LaunchPoint](#create-or-select-a-launchpoint-service)の&#x200B;**[!UICONTROL クライアント ID]**&#x200B;と&#x200B;**[!UICONTROL クライアントシークレット]**、**[!UICONTROL Marketo Engage ID URL]**、および&#x200B;**[!UICONTROL Marketo Engage REST API Base URL]** （[Web サービス &#x200B;](#note-your-marketo-rest-api-base-url)のベースホスト）を、Marketo Engage ID URL&#x200B;およびMarketo Engage REST API Base URLの両方に入力します。
 1. 「**[!UICONTROL デプロイ]**」をクリックします。 デプロイメントが成功すると、アクションは&#x200B;**[!UICONTROL デプロイ解除]**&#x200B;に変わります。
 
 ### 設定を更新
 
 環境の設定値を変更するには、まず&#x200B;**[!UICONTROL デプロイ解除]**&#x200B;し、フィールドを更新してから&#x200B;**[!UICONTROL デプロイ]**&#x200B;を再度実行します。
+
+### Workspace設定（オプション）
+
+デフォルトのワークスペースを使用する場合は、この手順をスキップできます。 デフォルトでは、**Workspace ID**&#x200B;および&#x200B;**テンプレートリストページサイズ**&#x200B;のフィールドは事前設定されています。
+
+ただし、別のワークスペースからテンプレートを取得する必要がある場合は、次の手順を実行します。
+
+1. Marketoで、**[!UICONTROL Admin]** → **[!UICONTROL Security]** → **[!UICONTROL Workspaces &amp; Partitions]**&#x200B;に移動します。
+1. **Workspace ID**&#x200B;列はデフォルトで非表示になっています。 有効にするには、ヘッダー行（列名が表示されている場所）を右クリックします。
+1. **[!UICONTROL 列]**&#x200B;を選択します。
+1. リストから&#x200B;**[!UICONTROL ID]**&#x200B;を有効にします。
+   ![Workspace ID列が有効になっているワークスペースとパーティション &#x200B;](/help/extensibility/marketo-workspace-id.png){width="80%"}
+
+表示されたら、設定に適切な&#x200B;**Workspace ID**&#x200B;を使用します。
 
 ## GenStudioでのMarketo テンプレートへのアクセス
 
@@ -94,3 +115,12 @@ GenStudio用Marketoをインストールして設定した後、GenStudioで&#x2
 
 * ページを再読み込みするか、ログアウトしてGenStudioに再度ログインします。
 * ブラウザー開発者ツール **[!UICONTROL Network]** パネルで、Marketo インスタンスへのAPI呼び出しに失敗したことを確認し、Marketoの&#x200B;**[!UICONTROL Web サービス]**&#x200B;に一致するREST ベース URLを確認します（ホストの後に追加パスはありません）。
+
+### 「テンプレートが見つかりません」エラー
+
+拡張機能が正常にインストールされ、「Marketo テンプレート」タブが表示されますが、「テンプレートが見つかりません」と表示される場合は、テンプレートのレンダリング中にアプリケーションがサイズ制限を超えてクラッシュする可能性があります。
+これを解決するには：
+
+1. Exchangeからアプリケーションをデプロイ解除します。
+1. テンプレートリストのページサイズを小さくします（例えば、1または2に設定）。
+1. アプリケーションを再デプロイします。
