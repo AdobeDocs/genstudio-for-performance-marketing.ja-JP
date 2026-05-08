@@ -1,23 +1,25 @@
 ---
 cloud: Experience Cloud
 solution: GenStudio for Performance Marketing
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
 landing-page-name: genstudio-for-performance-marketing
 landing-page-breadcrumb-title: GenStudio
 type: Documentation
 git-repo: https://github.com/AdobeDocs/genstudio-for-performance-marketing.ja-JP
 mini-toc-levels: 2
-description: Adobe GenStudio for Performance Marketing ガイド
+description: Adobe GenStudio for Performance Marketing Guides
 index: true
-source-git-commit: 86e9896a0dfb00e9ee177e827132d5e12f6e8f65
+source-git-commit: 56115543221f6b7deb37bc5275bb69f1559281ef
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 0%
+source-wordcount: 77
+ht-degree: 67%
 
 ---
 
 
-# 内部使用のメタデータ
+# 内部使用のためのメタデータ
 
-metadata.md ファイルには、リポジトリでユーザーガイドの TOC.md ファイルにパススルーされる、リポジトリレベルのメタデータが含まれています。 任意のユーザーガイドの metadata.md コンテンツを変更したい場合は、任意の TOC.md ファイル内で行います。
+metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.md ファイルに渡されるリポジトリレベルのメタデータが含まれています。 任意のユーザーガイドの metadata.md コンテンツを変更する場合は、任意の TOC.md ファイルで変更します。
 
-[solution](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html)、**product**、および **type** の有効な値のリストについては、**メタデータ** を参照してください。
+**solution**、**product**、**type** の有効な値のリストについて詳しくは、[メタデータ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html)を参照してください。
