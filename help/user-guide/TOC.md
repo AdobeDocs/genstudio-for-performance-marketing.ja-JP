@@ -5,10 +5,10 @@ user-guide-description: パフォーマンスマーケティング用の Adobe G
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: da699f7dc5bd4f0994af4a912017dd2503afed69
+source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 89%
+source-wordcount: '275'
+ht-degree: 87%
 
 ---
 
@@ -101,9 +101,10 @@ ht-degree: 89%
    + [インサイトの概要](insights/overview.md)
    + [&#x200B; インサイトフィルター &#x200B;](insights/filter-views.md)
    + [&#x200B; キャンペーン &#x200B;](insights/campaigns.md)
-   + [&#x200B; 広告と広告プレースメント &#x200B;](insights/ads.md)
+   + [公開されたエクスペリエンスの詳細](insights/published-experiences.md)
    + [&#x200B; メディア &#x200B;](insights/media.md)
    + [属性](insights/attributes.md)
+   + [広告タグ &#x200B;](insights/ad-tags.md)
    + 属性カテゴリ {#categories}
       + [&#x200B; 画像機能 &#x200B;](insights/image-features.md)
       + [&#x200B; ビデオ機能 &#x200B;](insights/video-features.md)

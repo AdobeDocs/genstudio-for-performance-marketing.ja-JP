@@ -14,9 +14,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 3a50cdb378d024370808680ec9b606c789429dc2
+source-git-commit: ca8bfb11a301697c92e97bad41ea3ba8aa359847
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: 622
 ht-degree: 0%
 
 ---
@@ -91,6 +91,7 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 * [デジタルアセット管理（DAM）拡張機能](#find-dam-extensions)
 * [テンプレート拡張機能](#find-template-extensions)
 * [翻訳拡張機能](#find-translation-extensions)
+* [コンテンツフラグメント拡張機能](#find-content-fragment-extension)
 
 ### プロンプト拡張機能を探す
 
@@ -128,7 +129,6 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 ![&#x200B; テンプレート拡張機能](./template-ext.png){width="600" zoomable="yes"}
 
-
 ### 翻訳拡張機能を探す
 
 翻訳拡張機能ポイントを使用すると、GenStudioのデフォルトの翻訳を使用する代わりに、プロキシを通じて独自の翻訳サービスを利用できます。
@@ -136,7 +136,21 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 拡張機能が登録されている場合は、提供された翻訳サービスが使用されます。 それ以外の場合は、デフォルトのGenStudio翻訳サービスが使用されます。
 
+### コンテンツフラグメント拡張機能を探す
 
+[!DNL GenStudio for Performance Marketing]のコンテンツフラグメント拡張機能は、[!DNL Create] キャンバスで生成されたメールエクスペリエンスのテキストを、接続されたサードパーティ（3P）リポジトリのエントリに置き換えます。 拡張機能を設定してデプロイした後、ワークフローを終了することなく、キャンバスからコピーを入れ替えます。
+
+>[!NOTE]
+>
+>コンテンツフラグメント拡張機能のスワップは、現在、キャンバス上の&#x200B;**メール**&#x200B;のエクスペリエンスで利用できます。 **Horizon** チャネルのサポートは近日提供開始予定です。
+
+**コンテンツフラグメント拡張機能を使用してテキストを入れ替えるには**:
+
+1. キャンバスで、生成された電子メールのバリエーションの編集可能テキストフィールドをクリックします。
+1. 「**[!UICONTROL スワップ]**」をクリックします。
+   ![&#x200B; テキストを入れ替え](./subject-line-swap.png){width="400" zoomable="yes"}
+1. サードパーティリポジトリの選択。 組織は、リポジトリの表示とリポジトリ UIの動作を制御します。
+1. フィールドの代替テキストとして使用するクレームを選択します。
 
 アドオンに問題がなければ、`query` パラメーターを指定せずに配布しましょう。
 
