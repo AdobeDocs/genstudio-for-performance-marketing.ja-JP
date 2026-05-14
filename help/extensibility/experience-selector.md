@@ -1,6 +1,6 @@
 ---
 title: GenStudio Experience Selector MFE
-description: GenStudio アプリおよびアドオン用の Experience Selector マイクロフロントエンドの実装を理解します。
+description: GenStudio アプリケーションおよびアドオン用のExperience Selector Micro フロントエンドについて理解し、実装します。
 feature: Extensibility, Extensions, Experiences
 exl-id: 918d3772-406b-4e16-bddc-0d5b160978d3
 TQID: https://experienceleague.adobe.com/0KCx1agovbj3-ShbAZ6JiHnHchMI47F9g4mvE4NPpvc
@@ -14,36 +14,38 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 8caee588140b91f81a8c77f7da4b930674f46865
 workflow-type: tm+mt
-source-wordcount: 601
+source-wordcount: 620
 ht-degree: 4%
 
 ---
 
 # GenStudio Experience Selector MFE
 
-エクスペリエンスセレクターは、GenStudio エクスペリエンスを選択するための `ExperienceSelectorDialog` コンポーネントを提供するマイクロフロントエンド（MFE）です。 スタンドアロンのJavaScript バンドルから `renderExperienceSelectorWithSUSI` 関数を読み込むことで、アプリケーション内のコンポーネントを使用します。このバンドルは、デプロイされた最新のマイクロフロントエンドを自動的に読み込み、自然なコンポーネントインターフェイスを表示します。
+Experience Selectorは、GenStudio エクスペリエンスを選択するための`ExperienceSelectorDialog` コンポーネントを提供するマイクロフロントエンド（MFE）です。 スタンドアロンのJavaScript バンドルから`renderExperienceSelectorWithSUSI`関数を読み込むことで、アプリケーションでコンポーネントを使用します。このバンドルは、最新のデプロイ済みマイクロフロントエンドを自動的に読み込み、自然なコンポーネントインターフェイスを提供します。
 
-GenStudio Experience Selector MFE を使用すると、次のことができます。
+GenStudio Experience Selector MFEでは、次のことが可能です。
 
-- GenStudio エクスペリエンスを参照して選択する
-- 様々な条件でエクスペリエンスをフィルタリング
-- 単一選択モードと複数選択モードの両方をサポート
-- SUSI （サインアップログイン）統合による認証の処理
-- 異なるフレームワーク間で一貫性のある UI を提供する
+- GenStudio エクスペリエンスの参照と選択
+- 様々な基準でエクスペリエンスをフィルタリング
+- 単一および複数の選択モードをサポート
+- SUSI （サインアップサインイン）統合による認証の処理
+- さまざまなフレームワークをまたいで一貫性のあるUIを提供する
+
+このMFEをSalesforce LightningにLWCおよびオプションの電子メールテンプレートと共に埋め込む方法については、[SalesforceのExperience Selector MFE](experience-selector-salesforce.md)を参照してください。
 
 ## 統合オプション
 
-MFE は、次の 2 つの異なるアプローチを使用して統合できます。
+MFEは、次の2つの異なるアプローチを使用して統合できます。
 
-### ESM （ES モジュール）：推奨
+### ESM （ES モジュール） – 推奨
 
 ```javascript
 import { renderExperienceSelectorWithSUSI } from 'https://experience.adobe.com/solutions/GenStudio-experience-selector-mfe/static-assets/resources/@genstudio/experience-selector/esm/standalone.js';
 ```
 
-### UMD （Universal Module Definition）
+### UMD （ユニバーサルモジュール定義）
 
 ```html
 <script src="https://experience.adobe.com/solutions/GenStudio-experience-selector-mfe/static-assets/resources/@genstudio/experience-selector/umd/standalone.js"></script>
@@ -51,25 +53,25 @@ import { renderExperienceSelectorWithSUSI } from 'https://experience.adobe.com/s
 
 ## 設定プロパティ
 
-`renderExperienceSelectorWithSUSI` 関数は、次のプロパティを持つ設定オブジェクトを受け入れます。
+`renderExperienceSelectorWithSUSI`関数は、次のプロパティを持つ設定オブジェクトを受け入れます。
 
 | Property | タイプ | 必須 | 説明 |
 |----------|------|----------|-------------|
-| `apiKey` | 文字列 | はい | GenStudio サービスの API キー |
+| `apiKey` | 文字列 | はい | GENSTUDIO サービスのAPI キー |
 | `imsOrg` | 文字列 | はい | IMS 組織 ID |
-| `env` | 文字列 | はい | 環境（`stage`、`prod`） |
-| `susiConfig` | object | はい | [SUSI 認証設定 &#x200B;](#susi-configuration) |
-| `onSelectionConfirmed` | 関数 | はい | 選択が確定したときのコールバック |
-| `onDismiss` | 関数 | はい | ダイアログが閉じたときのコールバック |
-| `locale` | 文字列 | 不要 | 言語ロケール（例：`en-US`） |
-| `isOpen` | ブーリアン | 不要 | 最初のダイアログの状態 |
-| `selectionType` | 文字列 | 不要 | 選択モード （`single` または `multiple`） |
+| `env` | 文字列 | はい | 環境（`stage`, `prod`） |
+| `susiConfig` | object | はい | [SUSI認証設定](#susi-configuration) |
+| `onSelectionConfirmed` | 関数 | はい | 選択が確認されたときのコールバック |
+| `onDismiss` | 関数 | はい | ダイアログが閉じられたときのコールバック |
+| `locale` | 文字列 | 不要 | 言語ロケール （例：`en-US`） |
+| `isOpen` | ブーリアン | 不要 | 最初のダイアログ状態 |
+| `selectionType` | 文字列 | 不要 | 選択モード （`single`または`multiple`） |
 | `customFilters` | 配列 | いいえ | カスタムフィルター条件 |
 | `dialogTitle` | 文字列 | 不要 | カスタムダイアログのタイトル |
 
-### SUSI 設定
+### SUSI設定
 
-`susiConfig` オブジェクトには、以下が含まれます。
+`susiConfig` オブジェクトには、次のものが含まれます。
 
 ```javascript
 {
@@ -86,10 +88,10 @@ import { renderExperienceSelectorWithSUSI } from 'https://experience.adobe.com/s
 
 ## QuickStart
 
-1. 以下の使用可能な例から **フレームワークを選択** します
-1. **サンプルディレクトリに移動します**。
-1. **依存関係をインストール** （React/Vue の例の場合）
-1. API キーと IMS 組織を使用して **設定を更新** します。
+1. **以下の使用可能な例からフレームワーク**&#x200B;を選択します
+1. **サンプルディレクトリに移動**
+1. **依存関係のインストール** （React/Vueの例）
+1. **設定**&#x200B;をAPI キーとIMS組織で更新します：
 
    ```javascript
    const experienceSelectorProps = {
@@ -113,53 +115,53 @@ import { renderExperienceSelectorWithSUSI } from 'https://experience.adobe.com/s
    };
    ```
 
-1. **開発サーバーの実行**
+1. **開発サーバーを実行**
 
 ### 実装例
 
-このリポジトリには、様々なフレームワークの使用例が含まれています。
+このリポジトリには、様々なフレームワークの作業例が含まれています。
 
-- [Vite ビルドシステムとの統合を示した **完全な React アプリケーション**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/react-js)。
+- Vite ビルドシステム [&#128279;](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/react-js)との統合を示すA **完全なReact アプリケーション**。
 
-- [&#x200B; コンポジション API 統合を使用した **Vue 3 アプリケーション**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vue-js)。
+- コンポジション API統合[&#128279;](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vue-js)を使用するA **Vue 3 アプリケーション**。
 
-- [2 つの **Vanilla JavaScript実装**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js):
+- [2つの&#x200B;**Vanilla JavaScript実装**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js):
 
-   - [&#x200B; この **Vanilla ESM** バージョンでは、ES6 モジュールと最新のJavaScriptが使用されています &#x200B;](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm)。
+   - [この&#x200B;**Vanilla ESM**&#x200B;版では、ES6 モジュールと最新のJavaScript](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm)を使用しています。
 
-   - [&#x200B; この **Vanilla UMD** バージョンでは、スクリプトタグを介して読み込まれた UMD バンドルを使用します &#x200B;](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var)。
+   - [この&#x200B;**Vanilla UMD** バージョンでは、スクリプトタグ &#x200B;](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var)を介して読み込まれたUMD バンドルが使用されています。
 
 ## 認証フロー
 
-Experience Selector は、SUSI を通じて次の認証を自動的に処理します。
+Experience Selectorは、SUSIを通じて自動的に認証を処理します。
 
-1. ダイアログが開いたら、既存の認証を確認します。
-1. 認証されていない場合、SUSI ログインフローが開きます。
+1. ダイアログが開くと、既存の認証がチェックされます。
+1. 認証されていない場合は、SUSI ログインフローが開きます。
 1. 認証が成功すると、エクスペリエンスセレクターが表示されます。
-1. ユーザーは、エクスペリエンスを参照して選択できます。
+1. 利用者はエクスペリエンスを閲覧し、選択することができます。
 1. 選択したエクスペリエンスは、`onSelectionConfirmed` コールバックを通じて返されます。
 
 ## 選択コールバック
 
-MFE で [!DNL Experience] を選択し、「**[!UICONTROL 使用]** ボタンをクリックすると、コールバック関数を呼び出して、選択した [!DNL Experience] の詳細を渡す必要があります。
+MFEで[!DNL Experience]を選択し、**[!UICONTROL 使用]** ボタンをクリックすると、選択した[!DNL Experience]の詳細を渡すためにコールバック関数を呼び出す必要があります。
 
-コールバックは、[!DNL Experience] を表すHTML文字列を提供します。 エクスペリエンスにアセット（画像、ビデオなど）が含まれる場合、`<img>` や `<video>` などのHTML要素には、これらのアセットの事前署名済み URL を含む `src` 属性が含まれます。 これらの事前署名済み URL の有効期限は 30 分で、[!DNL Experience] はその時点でクライアントアプリケーションによって使用される必要があります。
+コールバックは、[!DNL Experience]を表すHTML文字列を提供します。 エクスペリエンスにアセット （画像、ビデオなど）が含まれる場合、`<img>`や`<video>`などのHTML要素には、これらのアセットの事前署名済みURLを含む`src`属性が含まれます。 これらの事前署名されたURLの有効期限は30分で、その時点で[!DNL Experience]はクライアントアプリケーションで使用される必要があります。
 
 ### 出力スキーマ
 
-`onSelectionConfirmed` コールバックは、次の構造を持つ [!DNL Experience] オブジェクトの配列を受け取ります。
+`onSelectionConfirmed` コールバックは、次の構造を持つ[!DNL Experience] オブジェクトの配列を受け取ります。
 
 | Property | タイプ | 説明 |
 |----------|------|-------------|
-| `id` | `string` | [!DNL Experience] の一意の ID （URN 形式）。 |
-| `content` | `string` | [!DNL Experience] を表す Base64 でエンコードされたHTML文字列。 |
-| `experienceFields` | `object` | キーと値のペアになった、編集可能なフィールドの [!DNL Experience]。 `experienceFields` の各フィールドには、次の内容が含まれます。 <ul><li>`fieldName`: フィールドの名前/識別子。</li><li>`fieldValue`: フィールドの実際の内容や値。</li></ul> |
-| `metadata` | `object` | エクスペリエンスに関するメタデータ（`channel`、`externalTemplateMetadata` な `externalAssetMetadata`） |
-| `aspectVariants` | `array` | [!DNL Experience] の縦横比のバリアントの配列。 各バリアントの内容は次のとおりです。 <ul><li>`aspectKey`：バリアントの一意の ID。</li><li>`aspectMetadata`：メタデータ（`channel` および `aspectRatio` を含む）。</li><li>`content`：この特定の縦横比に対する、Base64 でエンコードされたHTML文字列。</li></ul> |
+| `id` | `string` | [!DNL Experience] （URN形式）の一意の識別子 |
+| `content` | `string` | [!DNL Experience]を表すBase64 エンコードされたHTML文字列。 |
+| `experienceFields` | `object` | [!DNL Experience]の編集可能なフィールドのキーと値のペア。 `experienceFields`の各フィールドには次が含まれます。 <ul><li>`fieldName`: フィールドの名前/識別子。</li><li>`fieldValue`: フィールドの実際のコンテンツ/値。</li></ul> |
+| `metadata` | `object` | エクスペリエンスに関するメタデータ （例：`channel`、`externalTemplateMetadata`、`externalAssetMetadata`など） |
+| `aspectVariants` | `array` | [!DNL Experience]の縦横比バリエーションの配列。 各バリエーションには次が含まれます。 <ul><li>`aspectKey`: バリアントの一意のID。</li><li>`aspectMetadata`: `channel`と`aspectRatio`を含むメタデータ。</li><li>`content`：この特定の縦横比に対してBase64 エンコードされたHTML文字列。</li></ul> |
 
-### JSON の例
+### JSONの例
 
-スキーマを示すサンプル JSON ブロックを以下に示します。
+以下は、スキーマを示すJSON ブロックの例です。
 
 ```json
 {
