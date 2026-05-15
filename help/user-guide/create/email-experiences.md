@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 853b63dbc04410c09a0b44c05f3655c06e5dfbcb
+source-git-commit: e41ca23a135e2cacfcc029c04992bbff1b515bd6
 workflow-type: tm+mt
-source-wordcount: 581
+source-wordcount: 580
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Content creators and marketers can produce brand-consistent email experiences in
 >
 >コンテンツフラグメントの入れ替えは、現在、キャンバス上の&#x200B;**電子メール**&#x200B;のエクスペリエンスで利用できます。 **Horizon** チャネルのサポートは近日提供開始予定です。
 
-多くの場合、企業のメールコンテンツには、テンプレートに適したコンテンツとともに、新しく生成されたコピーと承認済みのモジュラーブロック（免責事項、安全言語、オファー、規制上の主張など）の両方が必要になります。 [!DNL Adobe Experience Manager]、[!DNL Marketo Engage]、[!DNL Adobe Journey Optimizer]、[!DNL Adobe Campaign]にモジュラーコンテンツを保存するチームは、[!DNL GenStudio for Performance Marketing]を離れることなく、メールエクスペリエンスで使用するコンテンツを検索して入れ替えることができます。 これは、次の場合に便利です。
+多くの場合、企業のメールコンテンツには、テンプレートに適したコンテンツとともに、新しく生成されたコピーと承認済みのモジュラーブロック（免責事項、安全言語、オファー、規制上の主張など）の両方が必要になります。 [!DNL Adobe Experience Manager]にモジュラーコンテンツを保存するチームは、[!DNL GenStudio for Performance Marketing]を離れることなく、そのコンテンツを検索してメールエクスペリエンスで使用することができます。 これは、次の場合に便利です。
 
 * **コンプライアンス対応コンテンツ：** AIはクリエイティブスロットを埋める一方、コンプライアンス承認済みのフラグメントは注射可能なスロットを置き換えます。ロックされた領域は書き出しによって変更されません。
 * **再利用可能な承認済みコンテンツコンポーネント：**&#x200B;承認済みの見出し、地域の免責事項、または製品の説明は、作成者がコピー&amp;ペーストの回避策なしでバリエーションに取り込む間、[!DNL Adobe Experience Manager]の記録システムを維持できます。
