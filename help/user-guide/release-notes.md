@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
+source-git-commit: d8bce70c1e5cd80df2a8b6789de6ee3acda4b643
 workflow-type: tm+mt
-source-wordcount: 4727
+source-wordcount: 4991
 ht-degree: 0%
 
 ---
@@ -50,7 +50,35 @@ ht-degree: 0%
 
 このリリース情報では、GenStudio for Performance Marketing アプリケーションの最新のアップデートを提供します。
 
-## 2026.04.16 {#latest}
+## 2026.05.15 {#latest}
+
+### Horizon キャンバスでの共同編集
+
+Horizonのキャンバス上の有料メディアのドラフトは、もはやソロ演習ではありません。 所有者は、**[!UICONTROL 編集者]**&#x200B;または&#x200B;**[!UICONTROL 閲覧者]**&#x200B;の役割を持つ共同作業者を電子メールで招待できるようになりました。これにより、ツール間で書き出しをバウンスするのではなく、全員が同じリビングドラフトから作業できるようになります。
+
+編集者は、キャンバスの「[!UICONTROL 共有]」ボタンを使用して、アートボードやフィールドの更新（見出し、CTA、説明を含む）をリアルタイムで確認できます。
+
+### [!DNL Create] [!DNL Content] ページのカードレイアウトを更新しました
+
+[!DNL Content]内の[!DNL Create] エントリポイントは、更新されたカードレイアウトをデビューします。
+
+### HTMLのキャンバスで、AEMのコンテンツフラグメントがメールエクスペリエンスに入れ替わる
+
+HTML キャンバスの[電子メールエクスペリエンス &#x200B;](/help/user-guide/create/email-experiences.md)では、事前承認済みの&#x200B;**AEM コンテンツフラグメント**&#x200B;を使用して、事前管理されたモジュールコンテンツのコンテンツスワップが提供されるようになりました。サイドチャネルからペーストする必要はありません。
+
+GenStudio for Performance Marketingから離れることなく、AEMで既に公開されている組織のフラグメントを利用できます。
+
+### URLから[!DNL Brands]、[!DNL Products]および[!DNL Personas]を追加
+
+[!DNL GenStudio for Performance Marketing]がURLから直接&#x200B;**[!DNL Brand]**、**[!DNL Product]**、**[!DNL Persona]**&#x200B;のシグナルを取り込み、ブランドが実際にオンラインで公開する内容を基に出力を維持しながら、手作業による入力の時間を短縮しました。 [&#x200B; パブリック URLからガイドラインを追加](/help/user-guide/guidelines/add-guidelines.md#guidance-when-adding-from-a-url)すると、マーケターが概要を開く前にwebをどのように調査したかが最終的に反映されます。
+
+ブランドガイドラインは1回のピッキングで完了します。一方、製品とペルソナは、インテリジェントなショートリストから開始するため、システムがレコードを拡充する前に属するものを選別できます。 AIを活用した発見により、サイトがシンまたはゲーテッドであっても、意図的に保守的であり続け、規制の厳しいチームをその勢いを保つことなく保護します。
+
+**[!UICONTROL ブランドマネージャー]**&#x200B;以上を必要とする組織では、引き続きこれらのガードレールが自動的に適用されます。 一般にリーチ可能なブランド領域は、地域やポートフォリオをまたいでプログラムを拡張する際に、最も豊富なガイダンスを提供し続けます。
+
+## 以前のリリースノート
+
++++2026.04.16からのメモ
 
 ### [!DNL Create]のコンテキストに応じた推奨事項
 
@@ -68,7 +96,7 @@ ht-degree: 0%
 
 **DOM ベースのHTML5 zip ファイルをアップロードして、[!DNL Create]で表示テンプレート**&#x200B;を作成し、HTML5広告のバリエーションを作成し、クリエイティブのサイズを追加の縦横比に変更できます。 完了したエクスペリエンスは、[Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md)および[[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md)にアクティベートできます。
 
-## 以前のリリースノート
++++
 
 +++2026.03.15からのメモ
 
