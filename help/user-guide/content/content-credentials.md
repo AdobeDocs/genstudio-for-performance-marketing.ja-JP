@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
 workflow-type: tm+mt
 source-wordcount: 723
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 0%
 >
 > この機能は現在ベータ版で、アクセスが許可された組織のみが利用できます。 ご興味のある方は、Adobeの担当者までお問い合わせいただくか、[このリンクを使用して登録をリクエストしてください](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr)。
 
-## Content Credentialsの導入方法 {#content-credentials}
+## Content Credentials の基本を学ぶ {#content-credentials}
 
 >[!CONTEXTUALHELP]
 >id="gspm_content_credentials"
->title="[!DNL GenStudio for Performance Marketing]のContent Credentials"
->abstract="ブランドの信頼性を証明し、コンプライアンスを促進するコンテンツの改ざんを防ぐ資格情報を、マーケティングワークフローに直接組み込むことができます。"
+>title="[!DNL GenStudio for Performance Marketing] の Content Credentials"
+>abstract="ブランドの信頼性を証明し、コンプライアンスを推進するコンテンツの改ざん防止資格情報を、マーケティングワークフローに直接埋め込むことができます。"
 
 Content CredentialsがAdmin Consoleでアクティベートされた後、GenStudio for Performance Marketing ユーザーはアプリ内のすべてのアセットに対してContent Credentialsを有効にすることができます。 認証情報を適用するグローバルオプションがオフになっている場合、ユーザーは個々のアセットに対してContent Credentialsを適用するオプションを選択できます。
 
