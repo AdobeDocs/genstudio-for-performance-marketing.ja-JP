@@ -4,17 +4,11 @@ description: GenStudio アプリケーションおよびアドオン用のExperi
 feature: Extensibility, Extensions, Experiences
 exl-id: 918d3772-406b-4e16-bddc-0d5b160978d3
 TQID: https://experienceleague.adobe.com/0KCx1agovbj3-ShbAZ6JiHnHchMI47F9g4mvE4NPpvc
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bfaa655b-e017-428d-80d0-09de2183b296
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2f451a5fc53507d84b19166b5dde5a412ac0c508
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bfaa655b-e017-428d-80d0-09de2183b296
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 08523446942270522adf69eab5c6c63a85b6d180
 workflow-type: tm+mt
 source-wordcount: 655
 ht-degree: 4%
@@ -25,7 +19,9 @@ ht-degree: 4%
 
 Experience Selectorは、GenStudio エクスペリエンスを選択するための`ExperienceSelectorDialog` コンポーネントを提供するマイクロフロントエンド（MFE）です。 スタンドアロンのJavaScript バンドルから`renderExperienceSelectorWithSUSI`関数を読み込むことで、アプリケーションでコンポーネントを使用します。このバンドルは、最新のデプロイ済みマイクロフロントエンドを自動的に読み込み、自然なコンポーネントインターフェイスを提供します。
 
-> 使用可能なAPI サービス> GenStudio APIには、エクスペリエンスを管理するためのRESTful APIが用意されています。 GenStudio APIを使用してエクスペリエンスを管理する場合は、[GenStudio API ドキュメント &#x200B;](https://developer.adobe.com/genstudio-api/)を参照してください。
+>[!TIP]
+>
+> **API サービスが利用可能** GenStudio APIは、エクスペリエンスを管理するためのRESTful APIを提供します。 GenStudio APIを使用してエクスペリエンスを管理する場合は、[GenStudio API ドキュメント ](https://developer.adobe.com/genstudio-api/)を参照してください。
 
 GenStudio Experience Selector MFEでは、次のことが可能です。
 
@@ -123,15 +119,15 @@ import { renderExperienceSelectorWithSUSI } from 'https://experience.adobe.com/s
 
 このリポジトリには、様々なフレームワークの作業例が含まれています。
 
-- Vite ビルドシステム [&#128279;](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/react-js)との統合を示すA **完全なReact アプリケーション**。
+- Vite ビルドシステム ](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/react-js)との統合を示す[A **完全なReact アプリケーション**。
 
-- コンポジション API統合[&#128279;](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vue-js)を使用するA **Vue 3 アプリケーション**。
+- コンポジション API統合](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vue-js)を使用する[A **Vue 3 アプリケーション**。
 
 - [2つの&#x200B;**Vanilla JavaScript実装**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js):
 
    - [この&#x200B;**Vanilla ESM**&#x200B;版では、ES6 モジュールと最新のJavaScript](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm)を使用しています。
 
-   - [この&#x200B;**Vanilla UMD** バージョンでは、スクリプトタグ &#x200B;](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var)を介して読み込まれたUMD バンドルが使用されています。
+   - [この&#x200B;**Vanilla UMD** バージョンでは、スクリプトタグ ](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var)を介して読み込まれたUMD バンドルが使用されています。
 
 ## 認証フロー
 
