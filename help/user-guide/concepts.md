@@ -65,7 +65,7 @@ GenStudio for Performance Marketingは、Azure OpenAIを通じたサードパー
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_&#x200B;は、[Adobe GenStudio for Performance Marketing製品説明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)で定義されている、GenStudio for Performance Marketing内での生成AI機能の使用を定量化する単位です。
+_[!DNL Generative Actions]_&#x200B;は、[Adobe GenStudio for Performance Marketing製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)で定義されている、GenStudio for Performance Marketing内での生成AI機能の使用を定量化する単位です。
 
 <!-- 
 Add example about usage mode?
@@ -76,11 +76,11 @@ If genactions roll over month to month or not
 
 ### 件の料率
 
-[GenStudio for Performance Marketing製品の説明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)に記載されている[!DNL Generative Actions]の既定の割り当てを受け取ります。
+[GenStudio for Performance Marketing製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)に記載されている[!DNL Generative Actions]の既定の割り当てを受け取ります。
 
 >[!NOTE]
 >
->使用率は異なる場合があります。 計画は変更される場合があります。 最新の料金情報については、[Adobe GenStudio for Performance Marketing製品の説明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)を参照してください。
+>使用率は異なる場合があります。 計画は変更される場合があります。 最新の料金情報については、[Adobe GenStudio for Performance Marketing製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)を参照してください。
 
 次の関数は、指定された割合で[!DNL Generative Actions]を消費します。
 
