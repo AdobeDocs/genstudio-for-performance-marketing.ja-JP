@@ -1,32 +1,18 @@
 ---
-title: ディスプレイ広告エクスペリエンスの作成
-description: パフォーマンスマーケティング用にAdobeでディスプレイ広告エクスペリエンス  [!DNL GenStudio]  作成する方法を説明します。
+title: ディスプレイ広告体験の作成
+description: Adobe [!DNL GenStudio] for Performance Marketingでディスプレイ広告エクスペリエンスを作成する方法について説明します。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
 TQID: https://experienceleague.adobe.com/dxhIgRyUnAI-a-NZwQ7-0UbVzMJcQTHMzT1-d9skmIc
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: f54ee13b-9545-4d68-9842-a12026e60aafid: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
 source-wordcount: 1143
@@ -36,80 +22,80 @@ ht-degree: 0%
 
 # ディスプレイとエクスペリエンスの作成
 
-このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーションエリアにある絵筆のアイコン [&#128279;](display-ad-experiences.md) を使用してブランド化  ディスプレイ広告エクスペリエンス）を生成する方法を説明します。
+このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーション領域のペイントブラシアイコン）を使用して、ブランド化された[ ディスプレイ広告エクスペリエンス ](display-ad-experiences.md)を生成する方法を説明します。
 
-魅力的なディスプレイ広告体験をデザインするには、開始する前に [GenStudio for Performance Marketingにガイドラインを追加 &#x200B;](/help/user-guide/guidelines/add-guidelines.md)、「プロンプトの記述の基本 [&#x200B; を確認するこ &#x200B;](/help/user-guide/effective-prompts.md) をお勧めします。
+魅力的なディスプレイ広告エクスペリエンスをデザインするには、開始する前に[GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)にガイドラインを追加し、[ プロンプトの作成の基本](/help/user-guide/effective-prompts.md)を確認することをお勧めします。
 
-## テンプレートを選択
+## テンプレートの選択
 
-ディスプレイとエクスペリエンスを作成するには、使用可能なテンプレートを使用してコンテンツのフレームワークを提供します。 サポートされるディスプレイ広告ディメンションについて詳しくは、[&#x200B; ディスプレイ広告テンプレートガイドライン &#x200B;](/help/user-guide/templates/display-template.md) を参照してください。
+ディスプレイ広告エクスペリエンスを作成するには、使用可能なテンプレートを使用して、コンテンツのフレームワークを提供します。 サポートされているディスプレイ広告のディメンションについて詳しくは、[ ディスプレイ広告テンプレートのガイドライン ](/help/user-guide/templates/display-template.md)を参照してください。
 
 **ディスプレイ広告テンプレートを選択するには**:
 
-1. _[!DNL Create]_&#x200B;で、**[!UICONTROL 広告を表示]**&#x200B;をクリックします。
-1. _フィルター_ の横にある検索オプションを使用して、特定のディスプレイ広告テンプレートを見つけます。
+1. _[!DNL Create]_で、**[!UICONTROL ディスプレイ広告]**をクリックします。
+1. _フィルター_&#x200B;の横にある検索オプションを使用して、特定のディスプレイ広告テンプレートを検索します。
 1. _テンプレートを選択_ ビューで、ディスプレイ広告テンプレートをクリックします。
-1. **[!UICONTROL 使用]** をクリックします。
+1. 「**[!UICONTROL 使用]**」をクリックします。
 
-   コンテンツ作成の中央ハブとして機能するキャンバスが表示されます。
+   コンテンツ制作の中心的なハブとなるカンバスが表示されます。
 
 ## パラメーターを追加
 
-プロンプトドロワーの _パラメーター_ に [&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md) とアセットを追加することは、コンテンツ生成プロセスをスーパーチャージし、ディスプレイ広告エクスペリエンスを生成するための不可欠な準備手順です。
+プロンプトの引き出しに[ ガイドライン ](/help/user-guide/guidelines/overview.md)と&#x200B;_パラメーター_&#x200B;のアセットを追加すると、コンテンツ生成プロセスが強化され、ディスプレイ広告エクスペリエンスを生成するための不可欠な準備ステップになります。
 
-事前定義済みのガイドライン（[!DNL Brands]、[!DNL Personas]、[!DNL Products] など）を含んだテンプレートを使用している場合、これらのガイドラインはバリアントに適用されます。 必要に応じて変更できます。
+事前に定義されたガイドライン（[!DNL Brands]、[!DNL Personas]、[!DNL Products]など）を含むテンプレートを使用している場合、これらのガイドラインはバリエーションに適用されます。 必要に応じてそれらを変更できます。
 
-![&#x200B; プロンプト ドロワーにパラメータを入力 &#x200B;](/help/assets/prompt-displayad2.png){width="50%" align="center"}
+![ プロンプト ドロワーにパラメーターを入力](/help/assets/prompt-displayad2.png){width="50%" align="center"}
 
 **パラメーターとアセットを追加するには**:
 
 1. _パラメーター_ アイコンをクリックして、プロンプトドロワーを展開します。
-1. 「_パラメーター_」セクションで、ガイドライン（[!DNL Brands]、[!DNL Personas]、[!DNL Products]）を選択して、コンテンツの作成を通知します。
+1. 「_パラメーター_」セクションで、コンテンツ作成に役立つガイドライン（[!DNL Brands]、[!DNL Personas]、および[!DNL Products]）を選択します。
 
-   これらのメニューから利用できるブランド、ペルソナ、製品がない場合は、[GenStudio for Performance Marketingにガイドラインを追加 &#x200B;](/help/user-guide/guidelines/add-guidelines.md) します。
+   これらのメニューから利用できるブランド、ペルソナ、または製品がない場合は、[GenStudio for Performance Marketingにガイドラインを追加します](/help/user-guide/guidelines/add-guidelines.md)。
 
-1. エクスペリエンス *および* で使用するコンテンツを追加して、コンテンツの生成に影響を与えるには、次のようにします。
-   * **[!UICONTROL コンテンツから選択]** をクリックして、[!DNL Content] リポジトリからアセット（画像）を選択し、1 つ以上の画像をフィルタリングして選択します。
+1. エクスペリエンス *および*&#x200B;で使用するコンテンツを追加して、コンテンツ生成に影響を与えるには：
+   * 「**[!UICONTROL コンテンツから選択]**」をクリックして、[!DNL Content] リポジトリからアセット（画像）を選択し、フィルターを実行して1つ以上の画像を選択します。
 
-     接続された [!DNL AEM Assets Content Hub] リポジトリのアセットを使用するには、_場所_ ドロップダウンメニューからリポジトリを選択します。 1 つ以上の画像のフィルタリングと選択
+     接続された[!DNL AEM Assets Content Hub] リポジトリからアセットを使用するには、_場所_ ドロップダウンメニューからリポジトリを選択します。 1つまたは複数の画像をフィルタリングして選択します。
 
-   * または、アセットを「**[!UICONTROL コンテンツから選択]** セクションにドラッグ&amp;ドロップして、1 つ以上の新しいアセットをアップロードします。
-1. **[!UICONTROL 使用]** をクリックします。
+   * または、**[!UICONTROL コンテンツから選択]** セクションにアセットをドラッグ&amp;ドロップして、1つ以上の新しいアセットをアップロードします。
+1. 「**[!UICONTROL 使用]**」をクリックします。
 
-パラメーターの追加が完了したら、「_パラメーター_ アイコンをもう一度クリックして、プロンプトドロワーを折りたたみます。
+パラメーターの追加が完了したら、_パラメーター_ アイコンをもう一度クリックして、プロンプトドロワーを折りたたみます。
 
 ## プロンプトを入力
 
-ガイドラインを選択したら、自然言語を使用してプロンプトを作成し、新しいディスプレイとエクスペリエンスのコンテンツの生成を開始します。 生成されるディスプレイとエクスペリエンスの品質を高めるには、詳細で説明的なプロンプトを作成することが重要です。
+ガイドラインを選択したら、自然言語を使用してプロンプトを作成し、新しいディスプレイ広告エクスペリエンスのコンテンツ生成を開始します。 生成されるディスプレイ広告エクスペリエンスの質を高めるには、詳細で記述的なプロンプトを作成することが重要です。
 
-プロンプトの書き込みについて詳しくは、[&#x200B; 効果的なプロンプトの書き込み &#x200B;](/help/user-guide/effective-prompts.md) を参照してください。
+プロンプトの作成について詳しくは、[効果的なプロンプトの作成](/help/user-guide/effective-prompts.md)を参照してください。
 
 **プロンプトを入力するには**:
 
-1. _生成するエクスペリエンスを記述」_ プロンプトボックスにプロンプトを入力します。
+1. _「生成するエクスペリエンスについて説明する」プロンプト ボックスにプロンプトを入力します。_
 2. 「**[!UICONTROL 生成]**」をクリックします。
 
-デフォルトでは、4 つのバリエーション（追加したプロンプト、ガイドラインおよびコンテンツに基づく）が生成され、キャンバスに表示されます。
+デフォルトでは、プロンプト、ガイドライン、追加したコンテンツをベースにした4つのバリエーションが生成され、キャンバスに表示されます。
 
-## 生成されたバリアントを修正
+## 生成したバリエーションを修正
 
-に承認または公開するために送信する内容を選択する前に [!DNL Content] ディスプレイ広告セクションとテキストフィールドを編集したり、生成されたバリアントを削除したりできます。
+承認または[!DNL Content]への公開のために送信するものを選択する前に、表示広告セクションとテキストフィールドを編集するか、生成されたバリエーションを削除できます。
 
-変更する個々のレイヤーをハイライト表示するには、編集可能なフィールドまたは画像をクリックし、「_[!UICONTROL レイヤーを表示]_」をクリックします。
+修正する個々のレイヤーをハイライト表示するには、編集可能なフィールドまたは画像をクリックし、_[!UICONTROL レイヤーを表示]_&#x200B;をクリックします。
 
-**生成されたバリアントを修正するには**:
+**生成されたバリエーションを修正するには**:
 
-* **ディスプレイとドラフトの名前を [&#x200B; 編集](/help/user-guide/create/manage-variants.md#change-draft-name)** するには、キャンバスの上部にある _名称未設定のドラフト_ タイトルをクリックし、新しいタイトルを入力します。
-* **ディスプレイ広告を [&#x200B; 手動で編集](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、ディスプレイ広告の任意のセクションまたはフィールド（件名行、ヘッダー、本文コピーなど）をダブルクリックし、必要に応じて編集します。
-* **バリアントで [&#x200B; テキストの書式設定を適用](/help/user-guide/create/manage-variants.md#manually-edit-text)** するには、バリアントの画像上のテキストまたはインラインリンクをクリックし、「**[!UICONTROL テキストの書式設定]**」をクリックします。
-* **バリアントのセクションを [&#x200B; 再生成](/help/user-guide/create/manage-variants.md#re-generate-sections)** するには、編集可能なテキストフィールドをクリックして _[!UICONTROL 編集候補]_ オプションを使用するか、_[!UICONTROL Generate new text_ セクションに新しいプロンプトを入力して &#x200B;]&#x200B;**[!UICONTROL Generate]** をクリックします。
-* **バリアント内の画像を追加 [&#x200B; 入れ替え](/help/user-guide/create/manage-variants.md#swap-image)** するには、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックし、**[!UICONTROL コンテンツから入れ替え]** アイコンをクリックします。
-* **バリアント内の画像へのリンクを追加 [&#x200B; するには](/help/user-guide/create/manage-variants.md#add-image-link)**、画像アセット（画像が現在存在しない場合は画像アセット領域）をクリックし、リンクアイコンをクリックします。
-* **バリアント内の画像の代替テキストを追加 [&#x200B; するには](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**、画像アセットをクリックし、「_代替テキスト_」オプションを使用して、画像ごとに代替テキストを手動で追加または生成します。
-* **バリアントに [&#x200B; アクセシビリティラベルを追加 &#x200B;](/help/user-guide/create/manage-variants.md#add-accessibility-labels) するには** 画像またはcall-to-action リンクをクリックし、リンクまたはボタンの機能を説明する簡単な説明を入力します。
-* **広告のサイズと縦横比を [&#x200B; 変更](/help/user-guide/create/manage-variants.md#change-aspect-ratio)** するには、_[!UICONTROL サイズ変更]_ ボタン（キャンバスの左側にボタンアイコンが表示されたボックス）をクリックし、すべてのバリアントに適用する新しいサイズと縦横比を選択します。 バリアントが複製され、サイズが変更されます。
-* **画像を [&#x200B; 切り抜きまたは再配置](/help/user-guide/create/manage-variants.md#crop-assets)** するには、画像をクリックし、**[!UICONTROL 編集]** （鉛筆アイコン）をクリックしてから **[!UICONTROL 切り抜き]** をクリックします。 画像のサイズと配置を調整します。
-* **画像のサイズを調整およびフィットするために生成拡張を使用 [&#x200B; するには &#x200B;](/help/user-guide/create/manage-variants.md#use-generative-expand) 作業テンプレートに合わせます**、画像をクリックし、**[!UICONTROL 編集]** （鉛筆アイコン）をクリックしてから **[!UICONTROL 展開]** をクリックします。 必要な縦横比とテンプレートに合わせて画像を調整します。
+* **表示広告のドラフト名](/help/user-guide/create/manage-variants.md#change-draft-name)**&#x200B;を[編集するには、キャンバスの上部にある&#x200B;_名称未設定のドラフト_ タイトルをクリックし、新しいタイトルを入力します。
+* **手動でディスプレイ広告を編集するには](/help/user-guide/create/manage-variants.md#manually-edit-text)**、ディスプレイ広告セクションまたはフィールド（件名、ヘッダー、本文コピーなど）のいずれかをダブルクリックし、必要に応じて編集します。[
+* **バリエーションで[ テキストの書式設定](/help/user-guide/create/manage-variants.md#manually-edit-text)**&#x200B;を適用するには、バリエーションの画像テキストまたはインラインリンクをクリックし、**[!UICONTROL テキストの書式設定]**&#x200B;をクリックします。
+* **バリアント](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;のセクションを[再生成するには、編集可能なテキストフィールドをクリックし、_[!UICONTROL おすすめの編集]_ オプションを使用するか、_[!UICONTROL 新しいテキストを生成_ セクション ]に新しいプロンプトを入力して、**[!UICONTROL 生成]**&#x200B;をクリックします。
+* **バリアントの画像を[追加または入れ替えるには、](/help/user-guide/create/manage-variants.md#swap-image)**&#x200B;画像アセット （または画像が現在存在しない場合は画像アセット領域）をクリックし、**[!UICONTROL コンテンツから入れ替え]** アイコンをクリックします。
+* **バリアント](/help/user-guide/create/manage-variants.md#add-image-link)**&#x200B;の画像にリンクを[追加するには、画像アセット（または画像が現在存在しない場合は画像アセット領域）をクリックし、リンクアイコンをクリックします。
+* **バリアント](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**&#x200B;の画像に代替テキストを[追加するには、画像アセットをクリックし、_代替テキスト_ オプションを使用して、画像ごとに代替テキストを手動で追加または生成します。
+* **バリエーションに[ アクセシビリティラベル ](/help/user-guide/create/manage-variants.md#add-accessibility-labels)を追加するには**&#x200B;画像またはcall-to-action リンクをクリックし、リンクまたはボタンの機能を説明する簡単な説明を入力します。
+* **広告](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;のサイズと縦横比を[変更するには、_[!UICONTROL サイズ変更]_ ボタン（キャンバスの左側にボタンアイコン付きのボックス）をクリックし、新しいサイズと縦横比を選択して、すべてのバリエーションに適用します。 バリエーションが重複し、サイズが変更されます。
+* **画像を[切り抜きまたは再配置](/help/user-guide/create/manage-variants.md#crop-assets)**&#x200B;するには、画像をクリックし、**[!UICONTROL 編集]** （鉛筆アイコン）をクリックしてから&#x200B;**[!UICONTROL 切り抜き]**&#x200B;をクリックします。 画像のサイズと配置を調整します。
+* **生成拡張を使用して画像のサイズを変更し、画像を作業中のテンプレート**&#x200B;に合わせるには、画像をクリックし、**[!UICONTROL 編集]** （鉛筆アイコン）をクリックしてから&#x200B;**[!UICONTROL 拡張]**&#x200B;します。 [](/help/user-guide/create/manage-variants.md#use-generative-expand)必要なアスペクト比とテンプレートに合わせて画像を調整します。
 
 <!-- 
 # Preview for device
@@ -119,48 +105,48 @@ When revising and preparing email experiences, you can toggle between previews f
 
 ## 生成フィードバックを送信
 
-生成出力の品質に関する [&#x200B; フィードバックを送信 &#x200B;](/help/user-guide/create/manage-variants.md#generation-feedback) するには、オプションアイコン（3 つのドット）をクリックし、**[!UICONTROL 良好な出力]** または **[!UICONTROL 不良な出力]** を選択します。
+生成出力の品質に関するフィードバック ](/help/user-guide/create/manage-variants.md#generation-feedback)を[送信するには、オプションアイコン（3つのドット）をクリックし、**[!UICONTROL 良好な出力]**&#x200B;または&#x200B;**[!UICONTROL 不良な出力]**&#x200B;を選択します。
 
 ## コンテンツチェックの整合性の確認
 
-生成されたバリアントを最適化し、ブランド ID、プラットフォームガイドラインおよびアクセシビリティ標準に厳密に準拠するには、[_コンテンツチェック_ パネル &#x200B;](/help/user-guide/guidelines/brand-validation.md#content-check-panel) の機能を活用します。 このパネルには、包括的なコンテンツチェックの詳細が表示され、改善点が明らかになります。
+生成されたバリエーションを最適化し、ブランドアイデンティティ、プラットフォームガイドライン、アクセシビリティ標準を厳密に遵守するには、[_コンテンツチェック_ パネル ](/help/user-guide/guidelines/brand-validation.md#content-check-panel)の機能を活用します。 このパネルには、包括的なコンテンツチェックの詳細が表示され、改善点が示されます。
 
 **バリアントに対してコンテンツチェックを実行するには**:
 
-1. 右側のアクションバーにある _コンテンツチェック_ パネルアイコンをクリックして、[_コンテンツチェック_ パネル &#x200B;](/help/user-guide/guidelines/brand-validation.md#content-check-panel) を開きます。 *レビューが必要* チェックと *合格* チェックの概要を表示し、改善が必要なセクションとガイドラインを確認します。
+1. 右側のアクションバーの&#x200B;_コンテンツチェック_ パネルアイコンをクリックして、[_コンテンツチェック_ パネル ](/help/user-guide/guidelines/brand-validation.md#content-check-panel)を開きます。 *Needs review*&#x200B;および&#x200B;*Passed*&#x200B;のチェックの概要を表示して、改善が必要なセクションとガイドラインを確認します。
 
-   ![_コンテンツチェック_ パネル &#x200B;](/help/assets/content-check-panel.png){width="300"}
+   ![_コンテンツチェック_ パネル ](/help/assets/content-check-panel.png){width="300"}
 
-2. [&#x200B; バリアントを手動で改訂 &#x200B;](#revise-generated-variants) し、バリアントが実行されたコンテンツチェックと密接に連携していることを確認します。
+2. [ バリエーションを手動で修正](#revise-generated-variants)して、バリエーションが実行されたコンテンツチェックと密接に連携していることを確認します。
 
-[&#x200B; ブランド検証 &#x200B;](/help/user-guide/guidelines/brand-validation.md) を参照してください。
+[ ブランド検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
 
-## レビューと承認の取得
+## レビューと承認を取得
 
-承認パネルは、キャンバスの右側のアクションバーにあるアイコンとしてアクセスでき、レビューを取得したり、レビューのコメントを追跡したり、関係者から承認を得たりできます。
+カンバスの右側のアクションバーのアイコンとしてアクセスできる承認パネルを使用して、レビューの取得、レビューコメントの追跡、関係者からの承認の取得を行います。
 
 **レビューと承認を取得するには**:
 
-1. [&#128279;](/help/user-guide/approvals/approve-content.md)&#x200B; ドラフトのディスプレイ広告エクスペリエンスの承認 [&#x200B; を依頼する &#x200B;](/help/user-guide/approvals/request-review.md) 承認リクエストの開始 &#x200B;。
-1. レビュープロセス中に [&#x200B; レビュー担当者を削除または追加 &#x200B;](/help/user-guide/approvals/review-and-edit.md#manage-approvals) できます。
-1. [&#x200B; レビュー用にコンテンツにアクセス &#x200B;](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) し、修正要求を表示します。
-1. レビューのコメントごとにドラフトを編集し、[&#x200B; ディスプレイ広告エクスペリエンスを公開する &#x200B;](#publish-and-export-experience) ようにします。
+1. [承認要求](/help/user-guide/approvals/request-review.md)を開始して、ドラフトされたディスプレイ広告エクスペリエンスの[承認を求めます](/help/user-guide/approvals/approve-content.md)。
+1. レビュープロセス中に[ レビュー担当者](/help/user-guide/approvals/review-and-edit.md#manage-approvals)を削除または追加します。
+1. [ レビュー用のコンテンツにアクセス ](/help/user-guide/approvals/review-and-edit.md#access-content-for-review)し、リビジョンのリクエストを表示します。
+1. レビューのコメントごとにドラフトを編集し、[ ディスプレイ広告エクスペリエンスを公開](#publish-and-export-experience)します。
 
-[&#x200B; レビューと承認 &#x200B;](/help/user-guide/approvals/overview.md) を参照してください。
+[ レビューと承認](/help/user-guide/approvals/overview.md)を参照してください。
 
 ## エクスペリエンスの公開と書き出し
 
-生成したディスプレイ広告を現在および将来の使用で使用できるようにするには、[!UICONTROL &#x200B; コンテンツ &#x200B;] に公開し、マーケティングキャンペーンで使用するために書き出します。
+生成されたディスプレイ広告を現在および将来の使用に使用できるようにするには、[!UICONTROL  コンテンツ ]に公開し、マーケティングキャンペーンで使用するために書き出します。
 
-1. **新しいディスプレイ広告エクスペリエンスを公開するには** 上部のツールバーまたは承認フロー内の **[!UICONTROL 公開]** をクリックします。
-   1. 「_[!UICONTROL [!DNL Campaigns]]_」を選択し、必要に応じて&#x200B;_[!UICONTROL &#x200B; 詳細 &#x200B;]_&#x200B;を追加します。
+1. **新しいディスプレイ広告エクスペリエンスを公開するには、上部のツールバーまたは承認フロー内の**[!UICONTROL &#x200B;公開&#x200B;]**をクリックします。**
+   1. _[!UICONTROL [!DNL Campaigns]]_を選択し、必要に応じて_[!UICONTROL &#x200B;詳細&#x200B;]_を追加します。
    1. 「**[!UICONTROL 公開する]**」をクリックします。
 
-      ![&#x200B; ディスプレイ広告の公開 &#x200B;](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
+      ![ ディスプレイ広告を公開](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
-1. **新しいディスプレイ広告エクスペリエンスを書き出すには**、上部のツールバーにある **[!UICONTROL 書き出し]** をクリックします。
-   1. 形式（HTMLと画像、PNG、JPG）を選択し、「**[!UICONTROL 書き出し]**」をクリックします。
+1. **新しいディスプレイ広告エクスペリエンスを書き出すには、上部のツールバーの**[!UICONTROL &#x200B;書き出し&#x200B;]**をクリックします。**
+   1. HTMLと画像、PNGまたはJPGのフォーマットを選択し、**[!UICONTROL 書き出し]**&#x200B;をクリックします。
 
-      書き出されたHTMLは、テンプレートや `div` コンテナなど、事前に定義された web プロパティ内に配置する必要があります。 これらのサイズを設定しないと、個別に表示した場合に画像がゆがんで見えることがあります。
+      書き出されたHTMLは、テンプレートや`div` コンテナなど、事前定義されたweb プロパティ内に配置する必要があります。 これらの設定された寸法を使用しない場合、画像は独立して表示されるときに歪んで表示される可能性があります。
 
 [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) を参照してください。
