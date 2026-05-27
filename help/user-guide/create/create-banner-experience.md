@@ -8,12 +8,25 @@ level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
 TQID: https://experienceleague.adobe.com/bgBb1B5ZzEt-qvNn-U-N-95lrGjFGD9d9vE47vVV7jg
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
 source-wordcount: 1089
@@ -23,17 +36,17 @@ ht-degree: 0%
 
 # バナーエクスペリエンスの作成
 
-このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーション領域のペイントブラシアイコン）を使用して、ブランド化された[ バナーエクスペリエンス ](banner-experiences.md)を作成する方法を説明します。
+このチュートリアルでは、GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側のナビゲーション領域のペイントブラシアイコン）を使用して、ブランド化された[&#x200B; バナーエクスペリエンス &#x200B;](banner-experiences.md)を作成する方法を説明します。
 
-魅力的なバナーエクスペリエンスをデザインするには、開始する前に[GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)にガイドラインを追加し、[ プロンプトの作成の基本](/help/user-guide/effective-prompts.md)を確認することをお勧めします。
+魅力的なバナーエクスペリエンスをデザインするには、開始する前に[GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)にガイドラインを追加し、[&#x200B; プロンプトの作成の基本](/help/user-guide/effective-prompts.md)を確認することをお勧めします。
 
 ## テンプレートの選択
 
-バナーエクスペリエンスを作成するには、使用可能なテンプレートを使用して、コンテンツのフレームワークを提供します。 サポートされているバナーディメンションについて詳しくは、[ テンプレートのベストプラクティス ](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)を参照してください。
+バナーエクスペリエンスを作成するには、使用可能なテンプレートを使用して、コンテンツのフレームワークを提供します。 サポートされているバナーディメンションについて詳しくは、[&#x200B; テンプレートのベストプラクティス &#x200B;](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)を参照してください。
 
 **バナーテンプレートを選択するには**:
 
-1. _[!DNL Create]_で、**[!UICONTROL バナー]**をクリックします。
+1. _[!DNL Create]_&#x200B;で、**[!UICONTROL バナー]**&#x200B;をクリックします。
 1. 特定のバナーテンプレートを検索するには、_フィルター_&#x200B;の横にある検索オプションを使用します。
 1. _テンプレートを選択_ ビューで、バナーテンプレートをクリックします。
 1. 「**[!UICONTROL 使用]**」をクリックします。
@@ -42,9 +55,9 @@ ht-degree: 0%
 
 ## パラメーターを追加
 
-[ ガイドライン ](/help/user-guide/guidelines/overview.md)とアセットを&#x200B;_パラメーター_&#x200B;にプロンプト ドロワー内に組み込むと、コンテンツ生成プロセスが強化され、バナーエクスペリエンスを作成するための重要な準備ステップになります。
+[&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md)とアセットを&#x200B;_パラメーター_&#x200B;にプロンプト ドロワー内に組み込むと、コンテンツ生成プロセスが強化され、バナーエクスペリエンスを作成するための重要な準備ステップになります。
 
-![ プロンプト ドロワーにパラメーターを入力](/help/assets/prompt-displayad2.png){width="50%" align="center"}
+![&#x200B; プロンプト ドロワーにパラメーターを入力](/help/assets/prompt-displayad2.png){width="50%" align="center"}
 
 **パラメーターとアセットを追加するには**:
 
@@ -82,17 +95,17 @@ ht-degree: 0%
 
 **生成されたバリエーションを修正するには**:
 
-* **バナーのドラフト名](/help/user-guide/create/manage-variants.md#change-draft-name)**&#x200B;を[編集するには、キャンバスの上部にある&#x200B;_名称未設定のドラフト_ タイトルをクリックし、新しいタイトルを入力します。
-* **バナーを手動で編集するには](/help/user-guide/create/manage-variants.md#manually-edit-text)**&#x200B;で、バナーセクションまたはフィールド（見出しやCTAなど）をダブルクリックし、必要に応じて編集します。[
-* **バリエーションで[ テキストの書式設定](/help/user-guide/create/manage-variants.md#manually-edit-text)**&#x200B;を適用するには、バリエーションの画像テキストまたはインラインリンクをクリックし、**[!UICONTROL テキストの書式設定]**&#x200B;をクリックします。
-* **バリアント](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;のセクションを[再生成するには、編集可能なテキストフィールドをクリックし、_[!UICONTROL おすすめの編集]_ オプションを使用するか、_[!UICONTROL 新しいテキストを生成_ セクション ]に新しいプロンプトを入力して、**[!UICONTROL 生成]**&#x200B;をクリックします。
+* **バナーのドラフト名[&#128279;](/help/user-guide/create/manage-variants.md#change-draft-name)**&#x200B;を編集するには、キャンバスの上部にある&#x200B;_名称未設定のドラフト_ タイトルをクリックし、新しいタイトルを入力します。
+* **バナーを手動で編集するには[&#128279;](/help/user-guide/create/manage-variants.md#manually-edit-text)**&#x200B;で、バナーセクションまたはフィールド（見出しやCTAなど）をダブルクリックし、必要に応じて編集します。
+* **バリエーションで[&#x200B; テキストの書式設定](/help/user-guide/create/manage-variants.md#manually-edit-text)**&#x200B;を適用するには、バリエーションの画像テキストまたはインラインリンクをクリックし、**[!UICONTROL テキストの書式設定]**&#x200B;をクリックします。
+* **バリアント[&#128279;](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;のセクションを再生成するには、編集可能なテキストフィールドをクリックし、_[!UICONTROL おすすめの編集]_ オプションを使用するか、_[!UICONTROL 新しいテキストを生成_ セクション &#x200B;]に新しいプロンプトを入力して、**[!UICONTROL 生成]**&#x200B;をクリックします。
 * **バリアントの画像を[追加または入れ替えるには、](/help/user-guide/create/manage-variants.md#swap-image)**&#x200B;画像アセット （または画像が現在存在しない場合は画像アセット領域）をクリックし、**[!UICONTROL コンテンツから入れ替え]** アイコンをクリックします。
-* **バリアント](/help/user-guide/create/manage-variants.md#add-image-link)**&#x200B;の画像にリンクを[追加するには、画像アセット（または画像が現在存在しない場合は画像アセット領域）をクリックし、リンクアイコンをクリックします。
-* **バリアント](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**&#x200B;の画像に代替テキストを[追加するには、画像アセットをクリックし、_代替テキスト_ オプションを使用して、画像ごとに代替テキストを手動で追加または生成します。
-* **バリエーションに[ アクセシビリティラベル ](/help/user-guide/create/manage-variants.md#add-accessibility-labels)を追加するには**&#x200B;画像またはcall-to-action リンクをクリックし、リンクまたはボタンの機能を説明する簡単な説明を入力します。
-* **広告](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;のサイズと縦横比を[変更するには、_[!UICONTROL サイズ変更]_ ボタン（キャンバスの左側にボタンアイコン付きのボックス）をクリックし、新しいサイズと縦横比を選択して、すべてのバリエーションに適用します。 バリエーションが重複し、サイズが変更されます。
+* **バリアント[&#128279;](/help/user-guide/create/manage-variants.md#add-image-link)**&#x200B;の画像にリンクを追加するには、画像アセット（または画像が現在存在しない場合は画像アセット領域）をクリックし、リンクアイコンをクリックします。
+* **バリアント[&#128279;](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**&#x200B;の画像に代替テキストを追加するには、画像アセットをクリックし、_代替テキスト_ オプションを使用して、画像ごとに代替テキストを手動で追加または生成します。
+* **バリエーションに[&#x200B; アクセシビリティラベル &#x200B;](/help/user-guide/create/manage-variants.md#add-accessibility-labels)を追加するには**&#x200B;画像またはcall-to-action リンクをクリックし、リンクまたはボタンの機能を説明する簡単な説明を入力します。
+* **広告[&#128279;](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;のサイズと縦横比を変更するには、_[!UICONTROL サイズ変更]_ ボタン（キャンバスの左側にボタンアイコン付きのボックス）をクリックし、新しいサイズと縦横比を選択して、すべてのバリエーションに適用します。 バリエーションが重複し、サイズが変更されます。
 * **画像を[切り抜きまたは再配置](/help/user-guide/create/manage-variants.md#crop-assets)**&#x200B;するには、画像をクリックし、**[!UICONTROL 編集]** （鉛筆アイコン）をクリックしてから&#x200B;**[!UICONTROL 切り抜き]**&#x200B;をクリックします。 画像のサイズと配置を調整します。
-* **生成拡張を使用して画像のサイズを変更し、画像を作業中のテンプレート**&#x200B;に合わせるには、画像をクリックし、**[!UICONTROL 編集]** （鉛筆アイコン）をクリックしてから&#x200B;**[!UICONTROL 拡張]**&#x200B;します。 [](/help/user-guide/create/manage-variants.md#use-generative-expand)必要なアスペクト比とテンプレートに合わせて画像を調整します。
+* **生成拡張を使用して画像のサイズを変更し、画像を作業中のテンプレート**&#x200B;に合わせるには、画像をクリックし、**[!UICONTROL 編集]** （鉛筆アイコン）をクリックしてから&#x200B;**[!UICONTROL 拡張]**&#x200B;します。 [&#128279;](/help/user-guide/create/manage-variants.md#use-generative-expand)必要なアスペクト比とテンプレートに合わせて画像を調整します。
 
 <!-- 
 # Preview for device
@@ -102,21 +115,21 @@ When revising and preparing email experiences, you can toggle between previews f
 
 ## 生成フィードバックを送信
 
-生成出力の品質に関するフィードバック ](/help/user-guide/create/manage-variants.md#generation-feedback)を[送信するには、オプションアイコン（3つのドット）をクリックし、**[!UICONTROL 良好な出力]**&#x200B;または&#x200B;**[!UICONTROL 不良な出力]**&#x200B;を選択します。
+生成出力の品質に関するフィードバック [&#128279;](/help/user-guide/create/manage-variants.md#generation-feedback)を送信するには、オプションアイコン（3つのドット）をクリックし、**[!UICONTROL 良好な出力]**&#x200B;または&#x200B;**[!UICONTROL 不良な出力]**&#x200B;を選択します。
 
 ## コンテンツチェックの整合性の確認
 
-生成されたバリエーションを最適化し、ブランドアイデンティティ、プラットフォームガイドライン、アクセシビリティ標準を厳密に遵守するには、[_コンテンツチェック_ パネル ](/help/user-guide/guidelines/brand-validation.md#content-check-panel)の機能を活用します。 このパネルには、包括的なコンテンツチェックの詳細が表示され、改善点が示されます。
+生成されたバリエーションを最適化し、ブランドアイデンティティ、プラットフォームガイドライン、アクセシビリティ標準を厳密に遵守するには、[_コンテンツチェック_ パネル &#x200B;](/help/user-guide/guidelines/brand-validation.md#content-check-panel)の機能を活用します。 このパネルには、包括的なコンテンツチェックの詳細が表示され、改善点が示されます。
 
 **バリアントに対してコンテンツチェックを実行するには**:
 
-1. 右側のアクションバーの&#x200B;_コンテンツチェック_ パネルアイコンをクリックして、[_コンテンツチェック_ パネル ](/help/user-guide/guidelines/brand-validation.md#content-check-panel)を開きます。 _Needs review_&#x200B;および&#x200B;_Passed_&#x200B;のチェックの概要を表示して、改善が必要なセクションとガイドラインを確認します。
+1. 右側のアクションバーの&#x200B;_コンテンツチェック_ パネルアイコンをクリックして、[_コンテンツチェック_ パネル &#x200B;](/help/user-guide/guidelines/brand-validation.md#content-check-panel)を開きます。 _Needs review_&#x200B;および&#x200B;_Passed_&#x200B;のチェックの概要を表示して、改善が必要なセクションとガイドラインを確認します。
 
-   ![_コンテンツチェック_ パネル ](/help/assets/content-check-panel.png){width="300"}
+   ![_コンテンツチェック_ パネル &#x200B;](/help/assets/content-check-panel.png){width="300"}
 
-2. [ バリエーションを手動で修正](#revise-generated-banners)して、バリエーションが実行されたコンテンツチェックと密接に連携していることを確認します。
+2. [&#x200B; バリエーションを手動で修正](#revise-generated-banners)して、バリエーションが実行されたコンテンツチェックと密接に連携していることを確認します。
 
-[ ブランド検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
+[&#x200B; ブランド検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
 
 ## レビューと承認を取得
 
@@ -125,21 +138,21 @@ When revising and preparing email experiences, you can toggle between previews f
 **レビューと承認を取得するには**:
 
 1. [承認要求](/help/user-guide/approvals/request-review.md)を開始して、ドラフトされたバナーエクスペリエンスの[承認を求めます](/help/user-guide/approvals/approve-content.md)。
-1. レビュープロセス中に[ レビュー担当者](/help/user-guide/approvals/review-and-edit.md#manage-approvals)を削除または追加します。
-1. [ レビュー用のコンテンツにアクセス ](/help/user-guide/approvals/review-and-edit.md#access-content-for-review)し、リビジョンのリクエストを表示します。
-1. レビューのコメントごとにドラフトを編集し、[ バナーエクスペリエンスを公開](#publish-and-export-experience)します。
+1. レビュープロセス中に[&#x200B; レビュー担当者](/help/user-guide/approvals/review-and-edit.md#manage-approvals)を削除または追加します。
+1. [&#x200B; レビュー用のコンテンツにアクセス &#x200B;](/help/user-guide/approvals/review-and-edit.md#access-content-for-review)し、リビジョンのリクエストを表示します。
+1. レビューのコメントごとにドラフトを編集し、[&#x200B; バナーエクスペリエンスを公開](#publish-and-export-experience)します。
 
-[ レビューと承認](/help/user-guide/approvals/overview.md)を参照してください。
+[&#x200B; レビューと承認](/help/user-guide/approvals/overview.md)を参照してください。
 
 ## エクスペリエンスの公開と書き出し
 
-生成されたバナーを現在および将来の使用に使用できるようにするには、それを[!UICONTROL  コンテンツ ]に公開し、マーケティングキャンペーンで使用するために書き出します。
+生成されたバナーを現在および将来の使用に使用できるようにするには、それを[!UICONTROL &#x200B; コンテンツ &#x200B;]に公開し、マーケティングキャンペーンで使用するために書き出します。
 
-1. **新しいバナーエクスペリエンスを公開するには、上部のツールバーまたは承認フロー内の**[!UICONTROL &#x200B;公開&#x200B;]**をクリックします。**
-   1. _[!UICONTROL [!DNL Campaigns]]_を選択し、必要に応じて_[!UICONTROL &#x200B;詳細&#x200B;]_を追加します。
+1. **新しいバナーエクスペリエンスを公開するには、上部のツールバーまたは承認フロー内の**&#x200B;[!UICONTROL &#x200B;公開&#x200B;]&#x200B;**をクリックします。**
+   1. _[!UICONTROL [!DNL Campaigns]]_&#x200B;を選択し、必要に応じて&#x200B;_[!UICONTROL &#x200B;詳細&#x200B;]_&#x200B;を追加します。
    1. 「**[!UICONTROL 公開する]**」をクリックします。
 
-      ![ バナーを公開](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
+      ![&#x200B; バナーを公開](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
 1. **新しいバナーを書き出すには**、上部のツールバーの&#x200B;**[!UICONTROL 書き出し]**&#x200B;をクリックします。
    1. HTMLと画像、PNGまたはJPGのフォーマットを選択し、**[!UICONTROL 書き出し]**&#x200B;をクリックします。
