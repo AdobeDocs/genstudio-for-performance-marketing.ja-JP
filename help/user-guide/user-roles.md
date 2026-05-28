@@ -45,9 +45,9 @@ ht-degree: 10%
 
 **Adobe system administrators**&#x200B;は、Adobe Admin Consoleでpower user権限を持ち、ユーザーの追加や削除など、すべてのユーザー管理タスクを実行します。 このシステム管理者ロールは、GenStudio for Performance Marketing アプリケーションで権限を提供しません。これは、Adobe システム管理者がGenStudioのライセンスを必要としない理由です。 Adobe システム管理者は通常、Admin Consoleを使用して、GenStudio デプロイメントからユーザーアカウントを追加および削除し、個々のユーザーまたはユーザーグループから使用権限または権限を割り当てまたは削除します。
 
-**GenStudio system manager**&#x200B;は、GenStudio for Performance Marketing内のパワーユーザーですが、Adobe Admin Consoleでタスクを実行する権限はありません。 このSystem Manager ロールにはGenStudio製品ライセンスが必要で、[Adobe GenStudio for Performance Marketing製品説明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)のPower Userに対応しています。 GenStudioのシステムマネージャーは、[!DNL Brands]、[!DNL Persona]、[!DNL Product]の作成、削除、更新、公開など、GenStudio for Performance Marketingの機能に対する完全な使用権限を持っています。 [Adobe GenStudio for Performance Marketing製品の説明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)では、GenStudio ユーザーロールが製品ライセンスにどのように関連しているかを説明しています。
+**GenStudio system manager**&#x200B;は、GenStudio for Performance Marketing内のパワーユーザーですが、Adobe Admin Consoleでタスクを実行する権限はありません。 このSystem Manager ロールにはGenStudio製品ライセンスが必要で、[Adobe GenStudio for Performance Marketing製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)のPower Userに対応しています。 GenStudioのシステムマネージャーは、[!DNL Brands]、[!DNL Persona]、[!DNL Product]の作成、削除、更新、公開など、GenStudio for Performance Marketingの機能に対する完全な使用権限を持っています。 [Adobe GenStudio for Performance Marketing製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)では、GenStudio ユーザーロールが製品ライセンスにどのように関連しているかを説明しています。
 
-_エンタープライズおよびTeams管理ガイド_&#x200B;の[管理ロール &#x200B;](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)を参照してください。
+_エンタープライズおよびTeams管理ガイド_&#x200B;の[管理ロール &#x200B;](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html#enterprise)を参照してください。
 
 ## 使用権限
 
