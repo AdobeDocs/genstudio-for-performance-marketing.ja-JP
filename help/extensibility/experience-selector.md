@@ -14,7 +14,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 08523446942270522adf69eab5c6c63a85b6d180
+source-git-commit: 600579af1957bd8ee6816eb35038ec0f1d03b854
 workflow-type: tm+mt
 source-wordcount: 655
 ht-degree: 4%
@@ -27,7 +27,9 @@ Experience Selectorは、GenStudio エクスペリエンスを選択するため
 
 >[!TIP]
 >
-> **API サービスが利用可能** GenStudio APIは、エクスペリエンスを管理するためのRESTful APIを提供します。 GenStudio APIを使用してエクスペリエンスを管理する場合は、[GenStudio API ドキュメント &#x200B;](https://developer.adobe.com/genstudio-api/)を参照してください。
+>**API サービスが利用可能** GenStudio APIは、エクスペリエンスを管理するためのRESTful APIを提供します。
+>
+>GenStudio APIを使用してエクスペリエンスを管理する場合は、[GenStudio API ドキュメント &#x200B;](https://developer.adobe.com/genstudio-api/)を参照してください。
 
 GenStudio Experience Selector MFEでは、次のことが可能です。
 
