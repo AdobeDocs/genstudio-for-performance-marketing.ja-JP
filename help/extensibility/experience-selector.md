@@ -14,7 +14,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 600579af1957bd8ee6816eb35038ec0f1d03b854
+source-git-commit: 084f67d1897858ad8c2eb73b94d5881129df5655
 workflow-type: tm+mt
 source-wordcount: 655
 ht-degree: 4%
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 Experience Selectorは、GenStudio エクスペリエンスを選択するための`ExperienceSelectorDialog` コンポーネントを提供するマイクロフロントエンド（MFE）です。 スタンドアロンのJavaScript バンドルから`renderExperienceSelectorWithSUSI`関数を読み込むことで、アプリケーションでコンポーネントを使用します。このバンドルは、最新のデプロイ済みマイクロフロントエンドを自動的に読み込み、自然なコンポーネントインターフェイスを提供します。
 
->[!TIP]
+>[!NOTE]
 >
 >**API サービスが利用可能** GenStudio APIは、エクスペリエンスを管理するためのRESTful APIを提供します。
 >
