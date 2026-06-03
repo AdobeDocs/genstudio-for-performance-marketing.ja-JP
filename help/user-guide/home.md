@@ -1,6 +1,6 @@
 ---
 title: Adobe GenStudio ユーザーガイド
-description: パフォーマンスマーケティング用の Adobe GenStudio の機能を探索します。 オンブランドのアセットを作成し、バリエーションを生成し、エクスペリエンスを最適化する方法について説明します。
+description: パフォーマンスマーケティング用の Adobe GenStudio の機能を探索します。 ブランドに即したアセットの作成、バリエーションの生成、エクスペリエンスの最適化を行う方法をご紹介します。
 role: User
 exl-id: beae7802-09e6-4ca3-9ffa-b8494aea5ae4
 TQID: https://experienceleague.adobe.com/apgYIh5ri1UwarpHziyvJDEJPAOnmDu4QCulAP1-uRE
@@ -29,49 +29,49 @@ ht-degree: 8%
 
 # パフォーマンスマーケティング用の Adobe GenStudio ユーザーガイド
 
-GenStudio for Performance Marketingは、Adobeのジェネレーティブ AI プラットフォーム上に構築されたアプリケーションです。 マーケティングチームは、有料メディア、メール、ディスプレイ広告のキャンペーンコンテンツを作成、管理、最適化できます。 GenStudio for Performance Marketingは、ブランドの整合性を損なうことなく ROI を向上させ、コンテンツ制作を拡大することを目標に、コンテンツの制作とキャンペーン管理のための包括的なツールスイートを提供しています。
+GenStudio for Performance Marketingは、Adobeの生成AI基盤の上に構築されたアプリケーションです。 これにより、マーケティング部門は、有料メディア、メール、ディスプレイ広告用のキャンペーンコンテンツを作成、管理、最適化することができます。 GenStudio for Performance Marketingは、コンテンツ制作とキャンペーン管理のための包括的なツール群を提供し、ブランドの整合性を損なうことなく、ROIを向上させ、コンテンツ制作を拡大することを目的としています。
 
-## 機能の調査
+## さらに詳しく
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
    <td valign="top">
       <a href="../user-guide/effective-prompts.md">
-      <img alt="右の山形" src="../assets/icons/icon-chevronRight.svg" width="35">
+      <img alt="右シェブロン" src="../assets/icons/icon-chevronRight.svg" width="35">
       </a>
       <div>
          <a href="../user-guide/effective-prompts.md">
-         <strong> 有効なプロンプトの作成 </strong>
+         <strong>効果的なプロンプトの作成</strong>
          </a>
       </div>
       <p>
-         <em> オンブランドのデジタルエクスペリエンスを生成する説明的なプロンプトを作成します。</em>
+         <em> ブランドに即したデジタルエクスペリエンスを生成する説明プロンプトを作成します。</em>
       </p>
    </td>
    <td valign="top">
       <a href="../user-guide/create/overview.md">
-      <img alt="絵筆" src="../assets/icons/icon-create.svg" width="35">
+      <img alt="ブラシ" src="../assets/icons/icon-create.svg" width="35">
       </a>
       <div>
          <a href="../user-guide/create/overview.md">
-         <strong> エクスペリエンスの作成 </strong>
+         <strong> エクスペリエンスの作成</strong>
          </a>
       </div>
       <p>
-         <em> パフォーマンスの高いオンブランドのメールとMeta広告を作成します </em>。
+         <em> パフォーマンスに優れたブランドに即した電子メールとMeta広告を作成します。</em>
       </p>
    </td>
    <td valign="top">
       <a href="../user-guide/approvals/overview.md">
-      <img alt="チェックマーク" src="../assets/icons/icon-checkmarkCircle.svg" width="35">
+      <img alt="Checkmark" src="../assets/icons/icon-checkmarkCircle.svg" width="35">
       </a>
       <div>
          <a href="../user-guide/approvals/overview.md">
-         <strong> レビューと承認 </strong>
+         <strong> レビューと承認</strong>
          </a>
       </div>
       <p>
-         <em> マーケティングアセットの合理化されたレビューと承認の調整 </em>
+         <em> マーケティングアセットのレビューと承認の効率化を調整します。</em>
       </p>
    </td>
    <td valign="top">
@@ -80,11 +80,11 @@ GenStudio for Performance Marketingは、Adobeのジェネレーティブ AI プ
       </a>
       <div>
          <a href="../user-guide/content/overview.md">
-         <strong> コンテンツの管理 </strong>
+         <strong> コンテンツの管理</strong>
          </a>
       </div>
       <p>
-         <em> ブランドガイドラインを維持しながら、コンテンツを検索、管理、再利用します </em>。
+         <em> ブランドガイドラインを維持しながら、コンテンツを検索、管理、再利用できます。</em>
       </p>
    </td>
    <td valign="top">
@@ -93,50 +93,50 @@ GenStudio for Performance Marketingは、Adobeのジェネレーティブ AI プ
       </a>
       <div>
          <a href="../user-guide/insights/overview.md">
-         <strong> インサイトの表示 </strong>
+         <strong> インサイトの表示</strong>
          </a>
       </div>
       <p>
-         <em> 有料メディアチャネルのコンテンツの有効性を分析します。</em>
+         <em>有料メディアチャネルのコンテンツ効果を分析します。</em>
       </p>
    </td>
 </tr>
 </table>
 
-## 方法を学ぶ
+## 詳細を見る
 
 <table style="table-layout:fixed">
 <td valign="top">
    <div>
       <a href="/help/user-guide/guidelines/add-guidelines.md">
-      <img alt="ガイドラインの追加" src="../assets/card-guidelines.png">
-      <strong> ガイドラインの追加 </strong>
+      <img alt="ガイドラインを追加" src="../assets/card-guidelines.png">
+      <strong> ガイドラインを追加</strong>
       </a>
    </div>
    <p>
-      <em>GenStudio for Performance Marketingにガイドライン（ブランド、製品、ペルソナ）を追加する方法を説明します。</em>
+      <em>GenStudio for Performance Marketingにガイドライン（ブランド、製品、ペルソナ）を追加する方法について説明します。</em>
    </p>
 </td>
 <td valign="top">
    <div>
       <a href="/help/user-guide/create/create-meta-ad.md">
-      <img alt="フォルダーにファイルを移動する人物" src="../assets/card-manage-content.png">
-      <strong>Meta広告エクスペリエンスの作成 </strong>
+      <img alt="フォルダーにファイルを移動するユーザー" src="../assets/card-manage-content.png">
+      <strong>Meta広告エクスペリエンスを作成</strong>
       </a>
    </div>
    <p>
-      <em> ブランドに合わせたMeta広告エクスペリエンスを作成する方法を説明します </em>。
+      <em> ブランドに即したMeta広告エクスペリエンスを作成する方法を説明します。</em>
    </p>
 </td>
 <td valign="top">
    <div>
       <a href="/help/user-guide/create/generate-assets.md">
-      <img alt="アイデア，本，鉛筆，コンピューター" src="../assets/card-create-assets.png">
-      <strong> 画像の生成 </strong>
+      <img alt="アイデア、本、鉛筆、コンピューター" src="../assets/card-create-assets.png">
+      <strong>画像を生成</strong>
       </a>
    </div>
    <p>
-      <em> 画像の生成方法については、こちらを参照してください </em>。
+      <em>画像の生成方法について説明します。</em>
    </p>
 </td>
 </table>
