@@ -10,7 +10,7 @@ feature_v2:
   - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 9889a98f95d9555ed68c7fa4d093096bea93b6fe
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 228
 ht-degree: 4%
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 Adobe GenStudio for Performance Marketingは、AIを活用して、マーケティングコンテンツの生成、配信、パフォーマンス分析を促進します。 ブランド基準を遵守し、企業ポリシーに準拠したコンテンツ生成をサポートします。 拡張可能なアプリ開発者は、ツールとエンドポイントのGenStudio for Performance Marketingフレームワークを使用して、製品のコア機能を拡張し、企業固有のコンテンツ制作とコンプライアンスのニーズを満たすことができます。
 
-GenStudio for Performance Marketingは、Adobe Experience Cloud製品であり、その製品エコシステムの拡張性フレームワークを使用しています。 拡張可能なアプリ開発者は、[Adobe App Builder](https://developer.adobe.com/app-builder/)と[Adobe GenStudio UI拡張性SDK](https://github.com/adobe/genstudio-uix-sdk)を使用して、特定のユースケースをサポートするカスタムアプリを開発および配布します。
+GenStudio for Performance Marketingは、Adobe CX Enterprise製品であり、その製品エコシステムの拡張性フレームワークを使用しています。 拡張可能なアプリ開発者は、[Adobe App Builder](https://developer.adobe.com/app-builder/)と[Adobe GenStudio UI拡張性SDK](https://github.com/adobe/genstudio-uix-sdk)を使用して、特定のユースケースをサポートするカスタムアプリを開発および配布します。
 
 Adobe Journey Optimizerを使用する組織は、GenStudioで電子メールエクスペリエンスを作成する際に、Adobe Exchangeから[Journey Optimizer GenStudio版](journey-optimizer-for-genstudio.md) アプリをインストールして、AJO テンプレートを使用できます。
 

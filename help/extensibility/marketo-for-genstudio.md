@@ -2,7 +2,7 @@
 title: Marketo for GenStudio
 description: GenStudio Adobe Exchange用Marketo アプリをインストールして設定し、GenStudio for Performance MarketingでMarketo Engage テンプレートを使用できるようにします。
 feature: Extensibility
-source-git-commit: c9bfee479a433a1303a66a66917b0bbe60f24a74
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483312?captions=jpn&learn=on)
 
-1. [Adobe Exchange](https://exchange.adobe.com)を開き、**[!UICONTROL Experience Cloud]**&#x200B;に移動します。
+1. [Adobe Exchange](https://exchange.adobe.com)を開き、**[!UICONTROL CX Enterprise]**&#x200B;に移動します。
 1. GenStudio[&#128279;](https://exchange.adobe.com/apps/ec/ab6p21vo8r/marketo-for-genstudio)のMarketo リストを開きます。
    ![Adobe ExchangeのGenStudio用Marketoのリスト &#x200B;](/help/extensibility/marketo-adobe-exchange.png){width="75%"}
 1. **[!UICONTROL 無料]**&#x200B;を選択して、組織のアプリをリクエストします。
