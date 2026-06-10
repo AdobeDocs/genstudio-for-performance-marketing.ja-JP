@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Adobe Exchangeからアプリをインストールする
 
->[!VIDEO](https://video.tv.adobe.com/v/3483299?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483312?captions=jpn&learn=on)
 
 1. [Adobe Exchange](https://exchange.adobe.com)を開き、**[!UICONTROL CX Enterprise]**&#x200B;に移動します。
 1. GenStudio[&#128279;](https://exchange.adobe.com/apps/ec/ab6p21vo8r/marketo-for-genstudio)のMarketo リストを開きます。
