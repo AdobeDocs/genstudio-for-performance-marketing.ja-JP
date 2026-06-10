@@ -5,11 +5,31 @@ feature: Generative AI
 role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
 TQID: https://experienceleague.adobe.com/i3VF7S-ndAMDoF1akF3l20tStW-IPS--MSysxD-MArc
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32id: f912fa8d-7beb-4468-9ea7-1c0f198b59ef
-subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: be495d08-ecd1-455f-951e-c22de504e667id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+  - id: f912fa8d-7beb-4468-9ea7-1c0f198b59ef
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+  - id: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 754
@@ -33,7 +53,7 @@ GenStudio for Performance Marketingを使用すると、次のことが可能に
 
 GenStudio for Performance Marketingなら、ジェネレーティブ AI （生成型AI）を利用して、コンテンツ制作プロセスを迅速化し、高品質なコンテンツ制作を実現できます。 クリエイティブアセットの反復ライフサイクルは、より正確で、ブランドに即したコンテンツを生み出し、ターゲットオーディエンスの共感を得ることができます。
 
-まず、強力なブランドガイドライン機能を利用して、組織のブランディング、顧客ペルソナ、製品説明を取り込みましょう。 これらのガイドラインを準備してアップロードする方法については、[ ガイドラインの概要](../user-guide/guidelines/overview.md)を参照してください。
+まず、強力なブランドガイドライン機能を利用して、組織のブランディング、顧客ペルソナ、製品説明を取り込みましょう。 これらのガイドラインを準備してアップロードする方法については、[&#x200B; ガイドラインの概要](../user-guide/guidelines/overview.md)を参照してください。
 
 {{in-academy}}
 
@@ -45,7 +65,7 @@ GenStudio for Performance Marketingは、Azure OpenAIを通じたサードパー
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_は、[Adobe GenStudio for Performance Marketing製品説明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)で定義されている、GenStudio for Performance Marketing内での生成AI機能の使用を定量化する単位です。
+_[!DNL Generative Actions]_&#x200B;は、[Adobe GenStudio for Performance Marketing製品説明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)で定義されている、GenStudio for Performance Marketing内での生成AI機能の使用を定量化する単位です。
 
 <!-- 
 Add example about usage mode?
@@ -80,9 +100,9 @@ If genactions roll over month to month or not
 
 [!DNL Generative Actions] _は次の場合に消費されません：_
 
-* バリアント生成中に[ ブランド検証](/help/user-guide/guidelines/brand-validation.md)を使用しています
-* [ アップロードされたガイドライン ](/help/user-guide/guidelines/add-guidelines.md)から情報を抽出しています
-* バリエーションを手動で再チェックする[](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment)
+* バリアント生成中に[&#x200B; ブランド検証](/help/user-guide/guidelines/brand-validation.md)を使用しています
+* [&#x200B; アップロードされたガイドライン &#x200B;](/help/user-guide/guidelines/add-guidelines.md)から情報を抽出しています
+* バリエーションを手動で再チェックする[&#128279;](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment)
 * デジタルアセットには、属性（[[!DNL Insights]](/help/user-guide/insights/overview.md)）が自動的にタグ付けされます
 
 >[!TIP]

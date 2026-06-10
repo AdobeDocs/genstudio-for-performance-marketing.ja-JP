@@ -13,21 +13,21 @@ ht-degree: 0%
 
 同じ[!DNL IMS]組織で[!DNL Adobe Journey Optimizer] （AJO）と[!DNL GenStudio for Performance Marketing]を使用する組織は、[!DNL Adobe Exchange]から&#x200B;**Journey Optimizer for GenStudio** アプリをインストールできます。 システム管理者がアプリを承認してデプロイメントを完了すると、作成者は、GenStudioで電子メールエクスペリエンスを作成する際に、[!DNL Content]に直接アップロードされたテンプレートの横にAJO コンテンツテンプレートを選択できます。
 
-このトピックは、アプリをインストールし、[!DNL Adobe Developer Console]でOAuth資格情報を作成し、[!DNL Adobe Experience Platform]でテクニカルアカウントの権限をマッピングする&#x200B;**管理者と開発者**&#x200B;向けです。 AJOとMarketo テンプレートの構文がGenStudioでどのように機能するかについては、[AJOとMarketoのテンプレート ](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo)を参照してください。
+このトピックは、アプリをインストールし、[!DNL Adobe Developer Console]でOAuth資格情報を作成し、[!DNL Adobe Experience Platform]でテクニカルアカウントの権限をマッピングする&#x200B;**管理者と開発者**&#x200B;向けです。 AJOとMarketo テンプレートの構文がGenStudioでどのように機能するかについては、[AJOとMarketoのテンプレート &#x200B;](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo)を参照してください。
 
 ## 前提条件
 
 * AJOは、拡張機能をデプロイする組織でプロビジョニングする必要があります。
 * AJOでテンプレートを作成するユーザーは、組織の定義に従って、Journey Optimizerで&#x200B;**コンテンツテンプレートを作成および編集**&#x200B;する権限が必要です。
-* AJOのメールテンプレートには、生成されたコンテンツを表示するフィールドプレースホルダー（ハンドルバー）を含める必要があります。 これらのフィールドを使用せずにテンプレートを選択できますが、[!DNL GenStudio for Performance Marketing]が想定するプレースホルダーが見つからない場合、**エクスペリエンスの生成が失敗します**。 [ テンプレートのカスタマイズ ](/help/user-guide/templates/customize-template.md)および[認識済みフィールド名](/help/user-guide/templates/customize-template.md#recognized-field-names)を参照してください。
+* AJOのメールテンプレートには、生成されたコンテンツを表示するフィールドプレースホルダー（ハンドルバー）を含める必要があります。 これらのフィールドを使用せずにテンプレートを選択できますが、[!DNL GenStudio for Performance Marketing]が想定するプレースホルダーが見つからない場合、**エクスペリエンスの生成が失敗します**。 [&#x200B; テンプレートのカスタマイズ &#x200B;](/help/user-guide/templates/customize-template.md)および[認識済みフィールド名](/help/user-guide/templates/customize-template.md#recognized-field-names)を参照してください。
 
 ## Adobe Exchangeからアプリをインストールする
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483287?learn=on)
 
 1. [Adobe Exchange](https://exchange.adobe.com)を開き、**[!UICONTROL CX Enterprise]**&#x200B;に移動します。
-1. GenStudio](https://exchange.adobe.com/apps/ec/abpopqqr1q/journey-optimizer-for-genstudio)の[Journey Optimizer リストを開きます。
-   要件と無料インストール ](/help/extensibility/ajo-adobe-exchange.png){width="75%"}を含むAdobe Exchange上のGenStudio用Journey Optimizerの一覧![
+1. GenStudio[&#128279;](https://exchange.adobe.com/apps/ec/abpopqqr1q/journey-optimizer-for-genstudio)のJourney Optimizer リストを開きます。
+   要件と無料インストール ![&#128279;](/help/extensibility/ajo-adobe-exchange.png){width="75%"}を含むAdobe Exchange上のGenStudio用Journey Optimizerの一覧
 1. **[!UICONTROL 無料]**&#x200B;を選択して、組織のアプリをリクエストします。
 1. 組織&#x200B;**がリクエストをレビューして承認**&#x200B;したら、[Adobe Developer ConsoleでOAuth資格情報を作成](#create-oauth-credentials-in-adobe-developer-console)し、[Exchange](#deploy-the-application-from-exchange)からアプリケーションをデプロイします。
 
@@ -50,18 +50,18 @@ Journey Optimizer APIのOAuth資格情報を提供する[Adobe Developer Console
 1. [Adobe Exchange](https://exchange.adobe.com)に戻ります。
 1. **[!UICONTROL 管理]**&#x200B;を選択し、**[!UICONTROL App Builder アプリケーション]**&#x200B;を開きます（または組織の管理対象アプリケーションへのパス）。
 1. GenStudio **の** Journey Optimizerを選択し、アプリが&#x200B;**Approved**&#x200B;であることを確認します。
-1. **[!UICONTROL 環境]**&#x200B;で、**環境：** ドロップダウンから既存の環境を選択するか、**[!UICONTROL 環境を追加]**を選択して環境を作成します。
+1. **[!UICONTROL 環境]**&#x200B;で、**環境：** ドロップダウンから既存の環境を選択するか、**[!UICONTROL 環境を追加]**&#x200B;を選択して環境を作成します。
    ![承認済みステータスと環境の追加を含むアプリケーションの詳細](/help/extensibility/ajo-config-002.png){width="50%"}
 1. 選択した環境で、**[!UICONTROL 設定]**&#x200B;を選択します。
-1. 「**[!UICONTROL Configuration]**」タブで、**[!UICONTROL AJO資格情報]**を検索します。
-   ![ デプロイ前のAJO資格情報による設定（ドラフト） ](/help/extensibility/ajo-config-004.png){width="80%"}
+1. 「**[!UICONTROL Configuration]**」タブで、**[!UICONTROL AJO資格情報]**&#x200B;を検索します。
+   ![&#x200B; デプロイ前のAJO資格情報による設定（ドラフト） &#x200B;](/help/extensibility/ajo-config-004.png){width="80%"}
 1. Journey Optimizer APIが追加されたDeveloper Console プロジェクトの資格情報（例：**[!UICONTROL AJO クライアント ID]**、**[!UICONTROL AJO クライアントシークレット]**、**[!UICONTROL AJO トークン エンドポイント]**&#x200B;およびその他の必須フィールド）を入力します。
 1. すべての小文字&#x200B;**に** サンドボックス名を入力します（例：`prod`）。
-1. 「**[!UICONTROL デプロイ]**」をクリックします。デプロイメントが完了すると、ステータスは「デプロイ済み」と表示されます。ボタンのテキストが&#x200B;**[!UICONTROL デプロイ解除]**に変更されます。
-   ![ デプロイ済みアプリとアンデプロイ済みアプリは、App Builderのアプリケーションビュー](/help/extensibility/ajo-config-005.png){width="80%"}で利用できます
+1. 「**[!UICONTROL デプロイ]**」をクリックします。デプロイメントが完了すると、ステータスは「デプロイ済み」と表示されます。ボタンのテキストが&#x200B;**[!UICONTROL デプロイ解除]**&#x200B;に変更されます。
+   ![&#x200B; デプロイ済みアプリとアンデプロイ済みアプリは、App Builderのアプリケーションビュー](/help/extensibility/ajo-config-005.png){width="80%"}で利用できます
 
-デプロイメント後、Adobe Developer Consoleには、AJOおよびAdobe Runtime APIを使用したGenStudio &lt;Your_Environment_Name>**用の**Journey Optimizerという名前の新しい自動生成プロジェクトが含まれます。このプロジェクトは読み取り専用で、編集または削除できません。
-![ デプロイメント後に読み取り専用の自動生成されたDeveloper Console プロジェクト ](/help/extensibility/ajo-auto-project.png){width="100%"}
+デプロイメント後、Adobe Developer Consoleには、AJOおよびAdobe Runtime APIを使用したGenStudio &lt;Your_Environment_Name>**用の**&#x200B;Journey Optimizerという名前の新しい自動生成プロジェクトが含まれます。このプロジェクトは読み取り専用で、編集または削除できません。
+![&#x200B; デプロイメント後に読み取り専用の自動生成されたDeveloper Console プロジェクト &#x200B;](/help/extensibility/ajo-auto-project.png){width="100%"}
 
 ### 設定を更新
 
