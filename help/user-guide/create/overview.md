@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: da699f7dc5bd4f0994af4a912017dd2503afed69
+source-git-commit: 5aa02e34bb69b8d6254c9a38dc7cd752eadfcad0
 workflow-type: tm+mt
-source-wordcount: 729
-ht-degree: 88%
+source-wordcount: 794
+ht-degree: 81%
 
 ---
 
@@ -79,7 +79,7 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 
          <a href="/help/user-guide/create/create-email-experience.md">
 
-         <strong>電子メールエクスペリエンスの作成</strong>
+         <strong> メールエクスペリエンスの作成 </strong>
 
          </a>
 
@@ -99,7 +99,7 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 
          <a href="/help/user-guide/create/create-meta-ad.md">
 
-         <strong>Meta広告エクスペリエンスを作成</strong>
+         <strong>Meta広告エクスペリエンスの作成 </strong>
 
          </a>
 
@@ -119,7 +119,7 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 
          <a href="/help/user-guide/create/create-linkedin.md">
 
-         <strong>LinkedIn広告エクスペリエンスを作成</strong>
+         <strong>LinkedIn 広告エクスペリエンスの作成 </strong>
 
          </a>
 
@@ -139,7 +139,7 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 
          <a href="/help/user-guide/create/create-display-ad.md">
 
-         <strong> ディスプレイ広告エクスペリエンスの作成</strong>
+         <strong> ディスプレイ広告エクスペリエンスの作成 </strong>
 
          </a>
 
@@ -159,7 +159,7 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 
          <a href="/help/user-guide/create/create-banner-experience.md">
 
-         <strong> バナーエクスペリエンスの作成</strong>
+         <strong> バナーエクスペリエンスの作成 </strong>
 
          </a>
 
@@ -179,7 +179,7 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 
          <a href="/help/user-guide/create/generate-assets.md">
 
-         <strong>画像を生成</strong>
+         <strong> 画像の生成 </strong>
 
          </a>
 
@@ -234,6 +234,18 @@ GenStudio for Performance Marketingでは、各バリエーションに対して
 ドラフトは自動的に保存され、ホームの _最近_ セクション [!DNL Create] 表示されます。 このセクションの各ドラフトには、「ドラフト _、「承認済み_ などのステータスが表示 _れ_ す。
 
 ギャラリー表示（グリッド）アイコンをクリックして、グリッド表示またはテーブル表示で _最近_ の項目を表示します。
+
+### 共同編集
+
+ドラフトクリエイターは、共同作業者とドラフトを共有し、役割を割り当て、リアルタイムでコンテンツを共同制作できるようになりました。 この機能には、単純なレビューと承認に留まらず、いくつかの重要なワークフローの利点があります。
+
+* **既存のドラフト**&#x200B;を簡単に共同作業できます。クイック通知を使用すると、何も再作成したり書き出したりする必要はありません。
+
+* **チームメンバー間のリアルタイム共同編集**&#x200B;は、後でファイルを更新または結合することなくライブで実行されます。
+
+* R&amp;A フローが開始される前に、興味のある関係者がキャンバスを表示するための&#x200B;**読み取り専用アクセス**。
+
+ドラフトで[共同編集を使用する方法](collaborative-editing.md)について説明します。
 
 ### バリアントの管理
 
