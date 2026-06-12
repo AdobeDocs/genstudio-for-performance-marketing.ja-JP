@@ -1,9 +1,9 @@
 ---
 name: generate-release-notes
 description: ""
-source-git-commit: 85ad74d3f24fb809b11f57b23bd24a7ae3310f43
+source-git-commit: c3c6aa86f4f520d020f8928612d1be6be1599652
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,13 @@ ht-degree: 0%
 
 この順序で作業します。 チェックリストをコピーして、マルチステップ編集の進捗状況を追跡します。
 
+0. [ ] **Jira**&#x200B;および&#x200B;**Confluence** MCPが利用可能な場合は、最初に[consume-release-sources](../consume-release-sources/SKILL.md)を実行して、作業チケット、セレモニーのWiki （GAおよびBetaの機能グループ）、およびKT ページを取り込みます。 MCPが使用できない場合は、貼り付けたKT/wiki コンテンツと[reference.md](reference.md#internal-sources-kt-and-release-wikis) フィールドマッピングを使用します。
 1. [ ] `help/user-guide/release-notes.md`を開き、現在の`## YYYY.MM {#latest}` ブロックを読み取ります。 手順2でアーカイブ手順を実行しない限り、**以前のリリースノート**&#x200B;を&#x200B;**読み取り専用** コンテキストとして扱います。
 2. [ ] **new**&#x200B;の月次リリースを追加する場合：現在の最新のリリースをアーカイブします（[以前の最新の](#archive-previous-latest)をアーカイブするを参照）。
 3. [ ]上位`## YYYY.MM {#latest}` セクションの&#x200B;**のみ**&#x200B;を追加または編集します（最新の月はリリースリストの上部）。
-4. [ ]各項目について、[決定ルール &#x200B;](#decision-rules)を適用します（機能`###`対&#x200B;**修正と機能強化**、Beta バッジなど）。
+4. [ ]各項目について、[決定ルール ](#decision-rules)を適用します（機能`###`対&#x200B;**修正と機能強化**、Beta バッジなど）。
 5. [ ]最も関連性の高い語句のドキュメント リンクを追加または検証します（[reference.md](reference.md#documentation-linking)を参照）。
-6. [ ]終了する前に[品質チェック &#x200B;](#quality-checks)を実行します。
+6. [ ]終了する前に[品質チェック ](#quality-checks)を実行します。
 7. [ ] タスクがメタデータを明示的に更新しない限り、[frontmatter](reference.md#frontmatter)をページに保持します。
 
 ## 決定ルール
@@ -130,14 +131,14 @@ This release information details the latest updates to the GenStudio for Perform
 
 ## コンテンツソース（概要）
 
-ナレッジ転送ドキュメントまたはリリース Wikiから内部的に取得する場合は、[reference.md](reference.md#internal-sources-kt-and-release-wikis)で説明されているようにフィールドをマッピングします。 付属のページは、スタンドアロンユーザードキュメントとして読む必要があります。
+**Jira/Confluence MCP**&#x200B;が使用可能な場合は、[consume-release-sources](../consume-release-sources/SKILL.md)から開始します（ceremony wiki→KT ページ→構造化ハンドオフ）。 それ以外の場合は、[reference.md](reference.md#internal-sources-kt-and-release-wikis)で説明されているように、貼り付けられたナレッジ転送またはリリース Wiki フィールドをマッピングします。 付属のページは、スタンドアロンユーザードキュメントとして読む必要があります。
 
 ## オプション：新しいサブセクションを磨く
 
-`{#latest}`の下に新しい`###` コンテンツを追加した後、コピーエディター形式のパスに[&#x200B; ポーランドのリリースノート &#x200B;](../polish-release-notes/SKILL.md)を実行します（特典のトーン、段落&#x200B;**あたり** 2-3文章、手続き上のハウツーなし） **のみ**。以前のリリースノートまたは既存のテキストでは、明示的に要求されない限り&#x200B;**ではなく**。**&#x200B;**
+`{#latest}`の下に新しい`###` コンテンツを追加した後、コピーエディター形式のパスに[ ポーランドのリリースノート ](../polish-release-notes/SKILL.md)を実行します（特典のトーン、段落&#x200B;**あたり** 2-3文章、手続き上のハウツーなし） **のみ**。以前のリリースノートまたは既存のテキストでは、明示的に要求されない限り&#x200B;**ではなく**。****
 
 ## 追加のリソース
 
 - [examples.md](examples.md) – 貼り付け可能な例（機能、修正、アーカイブ ブロック）。
 - [reference.md](reference.md) — frontmatter ノート、ドキュメントパス、リンク戦略。
-- [&#x200B; ポーランド語リリースノート &#x200B;](../polish-release-notes/SKILL.md) — `{#latest}`の下に新しく追加された`###`に対するオプションのエディトリアルパス。
+- [ ポーランド語リリースノート ](../polish-release-notes/SKILL.md) — `{#latest}`の下に新しく追加された`###`に対するオプションのエディトリアルパス。
