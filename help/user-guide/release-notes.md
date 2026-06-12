@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
+source-git-commit: 8e00ddcb542ae0b8965f2ea7135d184c14b51fa3
 workflow-type: tm+mt
-source-wordcount: 5016
+source-wordcount: 5284
 ht-degree: 0%
 
 ---
@@ -50,7 +50,39 @@ ht-degree: 0%
 
 このリリース情報では、GenStudio for Performance Marketing アプリケーションの最新のアップデートを提供します。
 
-## 2026.05.15 {#latest}
+## 2026.06.11 {#latest}
+
+**新機能**
+
+### [!DNL Create]および[!DNL Activate]のYouTube Shorts
+
+短編動画は、[!DNL GenStudio for Performance Marketing]の管理チャネルになりました。 最初からブランド、商品、ペルソナのガードレールを適用し、[!DNL Create] ワークフローでブランドに即したYouTube Shortsを作成してアクティベートできます。
+
+手作業でYouTube広告を引き継ぐことなく、連携を終了します。ShortsをGoogle Ads デマンドジェネレーションキャンペーンにプッシュするか、DV360を通じてAdobe YouTube広告を引き継いだ際に、非掲載ビデオとしてアップロードします。
+
+### CM360動画アクティベーション
+
+[!DNL GenStudio for Performance Marketing]で作成されたビデオ ディスプレイ広告は、CM360 アクティベーション ゲートで停止しなくなりました。 ディスプレイチャネルから管理されたビデオエクスペリエンスを選択し、アクティベーションワークフローでプレビューし、画像とHTML5のフォーマットと一緒に[Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md)にクリエイターを直接公開します。
+
+### [!DNL Activate]でのMeta アプリのプロモーション キャンペーン
+
+モバイルアプリのマーケターは、アプリのインストールとアプリイベントをターゲットとする広告セットを含む、アプリプロモーションの目的で[Meta キャンペーンにエクスペリエンスをアクティベートできるようになりました](/help/user-guide/activation/activate-meta-ad.md)。 以前は、アプリ以外のキャンペーン目標のみがサポートされていました。
+
+### 水平線上の翻訳キャンバス
+
+すぐに使用できる翻訳機能がHorizon Canvasでの有料メディアエクスペリエンスにも拡張されたため、各地域のチームは外部ツールにコピーをエクスポートすることなく、承認済みのMeta、LinkedIn、ディスプレイのドラフトをローカライズできるようになりました。
+
+広範な翻訳ワークフローについては、[&#x200B; エクスペリエンスの翻訳とローカライズ &#x200B;](/help/user-guide/create/translate-experiences.md)を参照してください。
+
+### メールテンプレートのポッドごとに複数の画像
+
+[!DNL Create]の電子メールテンプレートで、1つのポッド内に複数の画像を含めることができるようになりました。これにより、デザイナーはコンテンツを追加のセクションに分割することなく、より豊富なヒーローレイアウト、商品ギャラリー、マルチアセット storytellingを利用できます。
+
+追加の画像フィールドを使用してテンプレートをアップロードまたは作成し、ポッド構造を尊重したブランドに即したバリエーションを生成できます。 エンドツーエンドのメールワークフローについては、[&#x200B; メールエクスペリエンス &#x200B;](/help/user-guide/create/email-experiences.md)を参照してください。
+
+## 以前のリリースノート
+
++++2026.05.15からのメモ
 
 ### Horizon キャンバスでの共同編集
 
@@ -80,7 +112,7 @@ GenStudio for Performance Marketingから離れることなく、AEMで既に公
 
 会話型AIは新しい有料メディアサーフェスであり、[!DNL GenStudio for Performance Marketing]はChatGPTをエンドツーエンドで運んでいます。 [&#x200B; ブランドに即したコピーのバリエーションを使用してChatGPT広告エクスペリエンス &#x200B;](/help/user-guide/create/create-chatgpt-ad.md)を作成し、ブランドとチャネルのチェックを実行し、承認を通じて作業をルーティングし、承認されたエクスペリエンスを[!DNL Content]に公開して再利用とアクティベーションを行います。
 
-## 以前のリリースノート
++++
 
 +++2026.04.16からのメモ
 
