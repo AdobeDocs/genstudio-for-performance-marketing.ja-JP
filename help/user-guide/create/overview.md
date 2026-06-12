@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5aa02e34bb69b8d6254c9a38dc7cd752eadfcad0
+source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
 workflow-type: tm+mt
-source-wordcount: 794
-ht-degree: 81%
+source-wordcount: 820
+ht-degree: 79%
 
 ---
 
@@ -234,6 +234,10 @@ GenStudio for Performance Marketingでは、各バリエーションに対して
 ドラフトは自動的に保存され、ホームの _最近_ セクション [!DNL Create] 表示されます。 このセクションの各ドラフトには、「ドラフト _、「承認済み_ などのステータスが表示 _れ_ す。
 
 ギャラリー表示（グリッド）アイコンをクリックして、グリッド表示またはテーブル表示で _最近_ の項目を表示します。
+
+### 翻訳とローカリゼーション
+
+承認された電子メールや有料メディアのエクスペリエンスを、[!DNL Create]のランディングページまたは[!DNL Content]から複数の言語に翻訳できます。 [体験の翻訳とローカライズ &#x200B;](/help/user-guide/create/translate-experiences.md)を参照してください。
 
 ### 共同編集
 

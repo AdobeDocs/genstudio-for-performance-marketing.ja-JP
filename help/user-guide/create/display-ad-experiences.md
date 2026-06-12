@@ -1,6 +1,6 @@
 ---
-title: 広告エクスペリエンスを表示
-description: Adobe GenStudio for Performance Marketingでのディスプレイ広告エクスペリエンスについて説明します。
+title: ディスプレイ広告
+description: Adobe GenStudio for Performance Marketingのディスプレイ広告エクスペリエンスの詳細。
 feature: Create Canvas, Media Templates
 role: User
 level: Beginner
@@ -19,32 +19,34 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 106
+source-wordcount: 126
 ht-degree: 1%
 
 ---
 
-# 広告エクスペリエンスを表示
+# ディスプレイ広告エクスペリエンス
 
-Adobe GenStudio for Performance Marketingでは、ジェネレーティブ AI を使用して [&#x200B; ディスプレイ広告エクスペリエンスの作成を成功 &#x200B;](/help/user-guide/create/create-display-ad.md) 効率化できます。
+Adobe GenStudio for Performance Marketingでは、生成AIを使用して、成功したディスプレイ広告エクスペリエンスの[作成を効率化できます](/help/user-guide/create/create-display-ad.md)。
 
-[!DNL Create] は、[&#128279;](/help/user-guide/guidelines/overview.md)&#x200B; ガイドライン [、画像アセット、および &#x200B;](/help/user-guide/create/create-display-ad.md) 適切に作成されたプロンプト &#x200B; を使用して、現代のマーケターが [&#x200B; ブランドと一貫性のあるディスプレイ広告エクスペリエンスを作成 &#x200B;](/help/user-guide/effective-prompts.md) できるようにします。
+[!DNL Create]は、[&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md)、画像アセット、[工夫されたプロンプト &#x200B;](/help/user-guide/effective-prompts.md)を使用することで、現代のマーケターが[&#x200B; ブランド一貫性のあるディスプレイ広告エクスペリエンス &#x200B;](/help/user-guide/create/create-display-ad.md)を作成できるよう支援します。
 
-表示とエクスペリエンスを生成する際に、4 つのバリエーションが作成され、キャンバスに表示されます。
+ディスプレイ広告エクスペリエンスを生成する場合、4つのバリエーションが作成され、キャンバスに表示されます。
 
-サポートされるディメンション、認識されるフィールド名などについて詳しくは、[&#x200B; 広告テンプレートガイドラインの表示 &#x200B;](/help/user-guide/templates/display-template.md) を参照してください。
+サポートされているディメンションや認識済みのフィールド名などについて詳しくは、[広告テンプレートのガイドライン &#x200B;](/help/user-guide/templates/display-template.md)を参照してください。
 
-ディスプレイとエクスペリエンスの編集可能なセクションには、次のものが含まれます。
+HTML キャンバスでは、承認されたディスプレイ広告エクスペリエンスを複数の言語に翻訳できます。 [体験の翻訳とローカライズ &#x200B;](/help/user-guide/create/translate-experiences.md)を参照してください。
 
-* 見出し
-* サブ見出し
+ディスプレイ広告エクスペリエンスの編集可能なセクションには、次のようなものがあります。
+
+* Headline
+* 小見出し
 * 本文
 * Call to action（CTA）
 * 画像
 
-[&#x200B; テンプレート要素 &#x200B;](/help/user-guide/templates/use-templates.md#template-elements) を参照してください。
+[&#x200B; テンプレート要素](/help/user-guide/templates/use-templates.md#template-elements)を参照してください。
 
 <!-- 
 ## Character counts

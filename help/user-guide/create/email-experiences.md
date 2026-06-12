@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e41ca23a135e2cacfcc029c04992bbff1b515bd6
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 580
+source-wordcount: 600
 ht-degree: 0%
 
 ---
@@ -108,3 +108,5 @@ Content creators and marketers can produce brand-consistent email experiences in
 ![&#x200B; コンテンツフラグメント UI ペイン &#x200B;](./cf-pane.png){width="500" zoomable="yes"}
 
 組織が、使用可能なコンテンツフラグメントソースとリポジトリを選択します。 管理者がソースを設定する方法と、作成者がCanvasから&#x200B;**[!UICONTROL Swap]**&#x200B;でコピーをスワップする方法については、[&#x200B; コンテンツフラグメント拡張機能](/help/extensibility/deploy-app.md#find-content-fragment-extension)を参照してください。
+
+また、HTMLのインターフェイスを利用して、承認されたメール体験を複数の言語に翻訳できます。 [体験の翻訳とローカライズ &#x200B;](/help/user-guide/create/translate-experiences.md)を参照してください。
