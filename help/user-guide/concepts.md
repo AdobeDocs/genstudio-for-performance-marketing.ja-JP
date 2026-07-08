@@ -1,6 +1,6 @@
 ---
-title: Adobe GenStudio for Performance Marketingのコンセプト
-description: Adobe GenStudio for Performance Marketingの概念と用語について説明します。
+title: Adobe GenStudio for Performance Marketing の概念
+description: Adobe GenStudio for Performance Marketing の概念と用語について説明します。
 feature: Generative AI
 role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
@@ -31,41 +31,41 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 754
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # 概念
 
-GenStudio for Performance Marketingは、Adobeのコンテンツであるsupply chainを体現し、マーケティング施策を効率化するスタンドアロンのエンタープライズ製品です。 パーソナライズされたブランド承認済みコンテンツを大規模に構築し、効果を監視して、変化し続ける市場に迅速に適応することは困難です。 GenStudio for Performance Marketingは、Creative CloudとCX Enterpriseを、エンタープライズマーケティング部門のパフォーマンスを向上させるツールとして、生成AIを活用した1つのアプリケーションに統合しました。
+GenStudio for Performance Marketing は、マーケティングキャンペーンを効率化するアドビのコンテンツサプライチェーンを具現化した、スタンドアロンのエンタープライズ製品です。ブランド承認済みのパーソナライズされたコンテンツを大規模に作成し、効果を監視し、常に変化するマーケットにすばやく適応することは、容易なことではありません。GenStudio for Performance Marketing は、Creative Cloud と CX Enterprise を単一のアプリケーションに統合し、生成 AI を活用し、エンタープライズマーケティングチームのパフォーマンスを向上させます。
 
-GenStudio for Performance Marketingを使用すると、次のことが可能になります。
+GenStudio for Performance Marketing を使用すると、次の操作を実行できます。
 
-* 有料メディア、電子メール、ディスプレイ広告など、最優先のデジタルチャネルに対する自然言語プロンプトを活用して、ブランドに即したコンテンツを作成できます
+* 有料メディア、メール、ディスプレイ広告など、上位の優先度を持つデジタルチャネル向けに、自然言語プロンプトを使用してブランドに即したコンテンツを作成する
 
-* 関係者と協力して、生成されたコンテンツをレビューし、承認
-* 生成して承認されたコンテンツを保存し、今後のマーケティングキャンペーンに活用
-* アセットのパフォーマンスを分析し、最もパフォーマンスの高いコンテンツの主要属性を特定することで、コンテンツの効果を評価できます
+* 関係者と共同作業して、生成されたコンテンツのレビューと承認を行う
+* 生成および承認されたコンテンツを保存し、今後のマーケティングキャンペーンにアクセスする
+* アセットのパフォーマンスを分析し、上位のパフォーマンスの高いコンテンツの主要な属性を特定して、コンテンツの効果を評価する
 
-## 生成AI テクノロジー
+## 生成 AI テクノロジー
 
-GenStudio for Performance Marketingなら、ジェネレーティブ AI （生成型AI）を利用して、コンテンツ制作プロセスを迅速化し、高品質なコンテンツ制作を実現できます。 クリエイティブアセットの反復ライフサイクルは、より正確で、ブランドに即したコンテンツを生み出し、ターゲットオーディエンスの共感を得ることができます。
+GenStudio for Performance Marketing は 、生成 AI の機能を活用してコンテンツ制作プロセスを高速化し、高品質なコンテンツの生成を確保します。クリエイティブアセットの反復的なライフサイクルにより、ターゲットオーディエンスの共感を呼ぶ、より正確でブランドに一致したコンテンツが作成されます。
 
-まず、強力なブランドガイドライン機能を利用して、組織のブランディング、顧客ペルソナ、製品説明を取り込みましょう。 これらのガイドラインを準備してアップロードする方法については、[&#x200B; ガイドラインの概要](../user-guide/guidelines/overview.md)を参照してください。
+まず、強力なブランドガイドライン機能を通じて、組織のブランディング、顧客ペルソナ、製品説明を取り込みましょう。これらのガイドラインを作成およびアップロードする方法について詳しくは、[ガイドラインの概要](../user-guide/guidelines/overview.md)を参照してください。
 
 {{in-academy}}
 
 ### 大規模言語モデル
 
-GenStudio for Performance Marketingは、Adobeの生成AI基盤を活用して、AIとマシンラーニング（ML）の機能を提供します。 Adobeの生成AIを活用すれば、大規模言語モデル（LLM）の使用を簡素化し、魅力的なエクスペリエンスを構築できます。
+GenStudio for Performance Marketing は、基本的な AI と機械学習（ML）サービスを提供するアドビの生成 AI プラットフォームを活用します。このプラットフォームは、大規模言語モデル（LLM）の使用を簡素化し、魅力的なエクスペリエンスを作成するアドビの生成 AI 機能を活用します。
 
-GenStudio for Performance Marketingは、Azure OpenAIを通じたサードパーティ LLMのGPT シリーズを使用します。<!-- Claude, and Gemini models. -->
+GenStudio for Performance Marketing は、Azure OpenAI を通じてサードパーティ LLM の GPTシリーズを使用します。<!-- Claude, and Gemini models. -->
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_&#x200B;は、[Adobe GenStudio for Performance Marketing製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)で定義されている、GenStudio for Performance Marketing内での生成AI機能の使用を定量化する単位です。
+[Adobe GenStudio for Performance Marketing 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)で定義される _[!DNL Generative Actions]_とは、GenStudio for Performance Marketing 内での生成 AI 機能の使用を定量化する単位です。
 
 <!-- 
 Add example about usage mode?
@@ -74,22 +74,22 @@ How they re-up their genactions
 If genactions roll over month to month or not 
 -->
 
-### 件の料率
+### 料金
 
-[GenStudio for Performance Marketing製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)に記載されている[!DNL Generative Actions]の既定の割り当てを受け取ります。
+[GenStudio for Performance Marketing 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)に記載されている通り、[!DNL Generative Actions] のデフォルトの割り当てが付与されます。
 
 >[!NOTE]
 >
->使用率は異なる場合があります。 計画は変更される場合があります。 最新の料金情報については、[Adobe GenStudio for Performance Marketing製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)を参照してください。
+>使用料金は異なる場合があります。プランは変更される可能性があります。最新の料金情報について詳しくは、[Adobe GenStudio for Performance Marketing 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)を参照してください。
 
-次の関数は、指定された割合で[!DNL Generative Actions]を消費します。
+次の機能は、指定された料金で [!DNL Generative Actions] を消費します。
 
-| 機能 | 生成アクション率 |
+| 機能 | 生成アクション料金 |
 | -----------------------  | ------------------ |
-| メールの作成 | 世代当たり5 |
-| 有料メディア広告の制作 | 世代当たり5 |
-| ディスプレイ広告の制作 | 世代当たり5 |
-| セクションを再生成 | 世代ごとに1 |
+| メールを作成 | 生成あたり 5 個 |
+| 有料メディア広告を作成 | 生成あたり 5 個 |
+| ディスプレイ広告を作成 | 生成あたり 5 個 |
+| セクションを再生成 | 生成あたり 1 個 |
 
 <!-- 
 | Generate on-brand images | 1 per prompt  |
@@ -98,30 +98,30 @@ If genactions roll over month to month or not
 | Video: TTS + Avatar      | 1 per prompt  | 
 -->
 
-[!DNL Generative Actions] _は次の場合に消費されません：_
+次の場合、[!DNL Generative Actions] は消費&#x200B;_されません_。
 
-* バリアント生成中に[&#x200B; ブランド検証](/help/user-guide/guidelines/brand-validation.md)を使用しています
-* [&#x200B; アップロードされたガイドライン &#x200B;](/help/user-guide/guidelines/add-guidelines.md)から情報を抽出しています
-* バリエーションを手動で再チェックする[&#128279;](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment)
-* デジタルアセットには、属性（[[!DNL Insights]](/help/user-guide/insights/overview.md)）が自動的にタグ付けされます
+* バリアント生成中に[ブランド検証](/help/user-guide/guidelines/brand-validation.md)を使用する
+* [アップロードされたガイドライン](/help/user-guide/guidelines/add-guidelines.md)から情報を抽出する
+* 手動で[バリアントを再確認](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment)する
+* デジタルアセットに属性（[[!DNL Insights]](/help/user-guide/insights/overview.md)）が自動的にタグ付けされる
 
 >[!TIP]
 >
->[!DNL Generative Actions]の使用権限を超えた場合は、アカウント担当者から直接購入できます。
+>[!DNL Generative Actions] の使用権限を超過した場合は、アカウント担当者からさらに直接購入できます。
 
 ## データガバナンス
 
-AIを活用してコンテンツを生成する場合、あらゆるユーザーが出力の安全性と包括性を確保することが不可欠です。 そのためには、コンテンツに潜在的な有害な偏見、ヘイトスピーチ、攻撃的な素材、冒涜的な表現がないか評価する必要があります。 Adobeでは、コンテンツ生成テクノロジーを多角的に検証し、包括的な倫理レビューを実施し、有害なコンテンツがアウトプットに出るのを防ぐための効果的な緩和計画を実施しています。
+AI を操作してコンテンツを生成する際は、その出力がすべてのユーザーにとって安全で包括的であることを確保することが不可欠です。これには、コンテンツに有害な偏見、ヘイトスピーチ、攻撃的な素材、冒涜的な表現がないか評価する必要があります。アドビでは、コンテンツ生成テクノロジーを多角的な視点から徹底的にテストし、包括的な倫理レビューを実施し、出力に有害なコンテンツが含まれるのを防ぐための効果的な緩和策を実装しています。
 
-このアプローチは、社会的責任を強化し、風評リスクを最小限に抑え、[AdobeのTrust &amp; Safety and Ethics ポリシー](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf)に準拠することを保証します。
+このアプローチは、社会的責任を強化し、評判に関するリスクを最小限に抑え、[アドビの Trust &amp; Safety および倫理に関するポリシー](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf)の遵守を確保します。
 
-GenStudio for Performance Marketingには、Adobeのデータガバナンス基準とポリシーに従って、特定された有害または偏ったコンテンツの使用を防ぐための緩和計画が組み込まれています。 このようなコンテンツが検出されると、アセットの生成が「生成できません」メッセージでブロックされていることがわかります。
+GenStudio for Performance Marketing には、アドビのデータガバナンス標準およびポリシーに従って、特定された有害または偏ったコンテンツの使用を防ぐための緩和策が組み込まれています。このようなコンテンツが検出されると、「生成できません」というメッセージが表示され、アセットの生成がブロックされたことが通知されます。
 
-このメッセージが表示されたら、プロンプトを編集して、GenStudio for Performance Marketingによるレビュー用にプロンプト コンテンツにフラグを付けて&#x200B;_または_&#x200B;再試行できます。 レビュー用にフラグが付けられたコンテンツのプロンプトデータは、社内レビューのために収集されます。
+このメッセージが表示された場合は、プロンプトを編集してもう一度試す&#x200B;_か_、GenStudio for Performance Marketing によるレビュー用にプロンプトのコンテンツをフラグ付けできます。レビュー用にフラグが付けられたコンテンツのプロンプトデータは、内部レビュー用に収集されます。
 
 ## コンテンツライフサイクル
 
-さまざまなチャネルをまたいで、優れた体験を迅速に求める顧客の期待。 GenStudio for Performance Marketingにより、コンテンツのsupply chainを、マーケター向けに整理されたワークフローに簡素化できます。 GenStudio for Performance Marketingは、ライフサイクルの各段階でAdobeを活用します。
+複数のチャネルで、より迅速に質の高いエクスペリエンスを提供することへの需要が高まっています。GenStudio for Performance Marketing により、コンテンツサプライチェーンが、マーケター向けの整理されたワークフローへと簡素化されます。GenStudio for Performance Marketing は、ライフサイクルの各ステージでアドビテクノロジーを活用します。
 
 <table style="table-layout:auto">
 
@@ -129,13 +129,13 @@ GenStudio for Performance Marketingには、Adobeのデータガバナンス基�
 
     <td>
 
-       <p><strong>ワークフロー/プランニング</strong></p>
+       <p><strong>ワークフローとプランニング</strong></p>
 
     </td>
 
     <td>
 
-        <p>アイデアをブレインストーミングし、ガイドラインを定義し、コンテンツを中心とした戦略を構築してオーディエンスを惹きつけます。</p>
+        <p>アイデアのブレインストーミング、ガイドラインの定義、コンテンツを中心とした戦略の作成を行って、オーディエンスのエンゲージメントを高めます。</p>
 
     </td>
 
@@ -145,13 +145,13 @@ GenStudio for Performance Marketingには、Adobeのデータガバナンス基�
 
     <td>
 
-        <p><strong>コンテンツ制作</strong></p>
+        <p><strong>作成と制作</strong></p>
 
     </td>
 
     <td>
 
-        <p>計画に基づいてコンテンツを制作します。 リアルタイムの共同作業、フィードバックの受信、編集、コンテンツの承認を可能にします。</p>
+        <p>プランに基づいてコンテンツを制作します。リアルタイムでの共同作業、フィードバックの受領、編集、コンテンツの承認を行います。</p>
 
     </td>
 
@@ -167,7 +167,7 @@ GenStudio for Performance Marketingには、Adobeのデータガバナンス基�
 
     <td>
 
-        <p>一元化されたリポジトリにアセットを保存、共有、検索。 パフォーマンスに基づいたコンテンツの再利用と活性化。</p>
+        <p>一元化されたリポジトリでクリエイティブアセットを保存、共有、検索します。パフォーマンスに基づいてコンテンツを再利用および活性化します。</p>
 
     </td>
 
@@ -177,13 +177,13 @@ GenStudio for Performance Marketingには、Adobeのデータガバナンス基�
 
     <td>
 
-        <p><strong>配信/アクティベーション</strong></p>
+        <p><strong>配信とアクティベーション</strong></p>
 
     </td>
 
     <td>
 
-        <p>コンテンツをアクティベートし、複数のマーケティングチャネルで公開できます。</P>
+        <p>コンテンツをアクティブ化し、複数のマーケティングチャネルで公開します。</P>
 
     </td>
 
@@ -199,7 +199,7 @@ GenStudio for Performance Marketingには、Adobeのデータガバナンス基�
 
     <td>
 
-        <p>データを収集し、アセットパフォーマンスの最適化に役立つインサイトを獲得できます。</p>
+        <p>データを収集し、アセットのパフォーマンス最適化に向けたインサイトを取得します。</p>
 
     </td>
 

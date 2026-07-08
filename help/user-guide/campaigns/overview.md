@@ -1,8 +1,8 @@
 ---
-title: Adobe GenStudio for Performance Marketing キャンペーン
-description: 一元化されたキャンペーン計画とキャンペーン概要の作成について説明します。
+title: Adobe GenStudio for Performance Marketing Campaigns
+description: 一元的なキャンペーンのプランニングとキャンペーンの概要の作成について説明します。
 feature: Campaign Planning, Campaign Brief
-badgeBeta: label="Beta" tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"
+badgeBeta: label="ベータ版" tooltip="この機能は、現在ベータ版なので、一部の機能が制限されるか、変更される場合があります。"
 exl-id: bbf66552-5a42-48d4-9bcd-944cf643e513
 TQID: https://experienceleague.adobe.com/rN-90ZUKxhVZkffdQMR6rYTyImjVhn35zxhJbYF5VK0
 product_v2:
@@ -25,40 +25,40 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 386
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Adobe GenStudio for Performance Marketing キャンペーン
+# Adobe GenStudio for Performance Marketing Campaigns
 
-GenStudio for Performance Marketing [!DNL Campaigns] は、マーケティングイニシアチブ、つまり _キャンペーン_ の開発とデプロイメントを促進します [!DNL Campaigns] コンポーネントには、ブランドに準拠した画像やテキストなど、GenStudio for Performance Marketingの AI 生成ワークフローによる作成、承認、管理に役立つアセットとエクスペリエンスが含まれます。
+GenStudio for Performance Marketing [!DNL Campaigns] は、マーケティングイニシアチブまたは&#x200B;_キャンペーン_&#x200B;の開発とデプロイメントを高速化します。[!DNL Campaigns] のコンポーネントには、ブランドに準拠した画像やテキストなど、GenStudio for Performance Marketing の AI 生成ワークフローによる作成、承認、管理に役立つアセットやエクスペリエンスが含まれます。
 
-[!DNL Campaigns] のワークフローには、次の機能があります。
+[!DNL Campaigns] ワークフローには、次の機能が用意されています。
 
-* キャンペーンの目標、ブランドに合わせたコンテンツ、指定チャネルに対する透明性
+* キャンペーン目標、ブランド一致コンテンツ、指定チャネルの透明性
 
-* GenStudio for Performance Marketingに作成または読み込まれるすべてのアセットおよびエクスペリエンスの調整
+* GenStudio for Performance Marketing に作成または読み込まれる、すべてのアセットとエクスペリエンスの調整
 
-* [!DNL Campaigns] タイムライン表示からの、すべての組織のキャンペーンの一元的な表示
+* [!DNL Campaigns] タイムラインビューからの、組織のすべてのキャンペーンの一元的な表示
 
-## キャンペーンのユースケース
+## Campaigns のユースケース
 
-* [&#x200B; キャンペーンの作成 &#x200B;](create-campaign.md)。 _キャンペーンを追加_ ビューは、GenStudio for Performance Marketingでキャンペーンを作成するためのフレームワークを提供します。 _キャンペーンを追加_ ビューで入力された情報は、[!DNL Campaigns] でキャンペーンオブジェクトとして保存されます。
+* [キャンペーンを作成します](create-campaign.md)。_キャンペーンを追加_&#x200B;ビューは、GenStudio for Performance Marketing でキャンペーンを作成するためのフレームワークを提供します。_キャンペーンを追加_&#x200B;ビューで入力した情報は、[!DNL Campaigns] にキャンペーンオブジェクトとして保存されます。
 
-* [&#x200B; キャンペーンの管理 &#x200B;](manage-campaign.md) およびキャンペーンコンテンツ。 キャンペーン要素（スケジュール、広告フォーマット、関係者など）は、キャンペーン中に進化する可能性があります。 コンテンツを更新することで、既存のキャンペーンを変更できます。
+* [キャンペーン](manage-campaign.md)とキャンペーンコンテンツを管理します。スケジュール、広告の書式設定、関係者などのキャンペーン要素は、キャンペーン中に進化する場合があります。コンテンツを更新することで、既存のキャンペーンを変更できます。
 
-## キャンペーン機能
+## Campaigns の機能
 
-[!DNL Campaigns] は、GenStudio for Performance Marketingのジェネレーティブ AI ベースの機能を調整して、キャンペーンのパフォーマンスの計画、作成、調整、測定を支援します。
+[!DNL Campaigns] は、GenStudio for Performance Marketing の生成 AI ベースの機能を調整し、キャンペーンのプランニング、作成、調整、パフォーマンス測定を支援します。
 
-* [[!DNL Create]](/help/user-guide/create/overview.md) は、ブランドに合わせたキャンペーンアセットを作成するためのジェネレーティブ AI ベースのツールを提供します。 新しいエクスペリエンス、アセットおよびアセットのバリアントを作成するプロセスは、[!DNL Create] キャンバスで一元管理されます。 [!DNL Brand] のガイドラインは、コンテンツの作成に関する情報を提供し、このキャンペーンに対する組織の期待に応えるために、基盤となる LLM をガイドします。
+* [[!DNL Create]](/help/user-guide/create/overview.md) は、ブランド一致キャンペーンアセットを作成するための生成 AI ツールを提供します。新しいエクスペリエンス、アセット、アセットバリアントを作成するプロセスは、[!DNL Create] キャンバスに一元化されます。[!DNL Brand] ガイドラインは、コンテンツ制作に関する情報を提供し、基になる LLM が、このキャンペーンに対する組織の期待に沿うようにガイドします。
 
-* [[!DNL Content]](/help/user-guide/content/overview.md) は、キャンペーンに含めることができる、承認済みのアセットとエクスペリエンスのライブラリを提供します。 通常、コンテンツはGenStudio for Performance Marketingで生成され、レビューと承認のプロセスを経て、[!DNL Content] に保存されます。
+* [[!DNL Content]](/help/user-guide/content/overview.md) は、キャンペーンに含めることができる、承認済みのアセットやエクスペリエンスのライブラリを提供します。コンテンツは通常、GenStudio for Performance Marketing で生成され、レビューおよび承認のプロセスを通じて、[!DNL Content] に保存されます。
 
-* [[!DNL Review and approvals]](/help/user-guide/approvals/overview.md) は、個々のアセットやエクスペリエンスを共同でレビューおよび承認するための構造を提供します。 クリエイティブ担当者から法的レビュー担当者まで、キャンペーンアセットの作成に様々な関心や関与を持つ関係者が、キャンペーンアセットの調整プロセスに参加できます。
+* [[!DNL Review and approvals]](/help/user-guide/approvals/overview.md) は、個々のアセットやエクスペリエンスの共同レビューと承認のための構造を提供します。キャンペーンアセットの作成で、クリエイティブから法的レビュアーまで、様々な利害や関わりを持つ関係者が、キャンペーンアセットを絞り込むプロセスに参加できます。
 
-* 個々 [[!DNL Insights]](/help/user-guide/insights/overview.md) キャンペーン要素およびキャンペーン全体のパフォーマンス指標をキャプチャします。 マーケターは、クリックスルー率、コンバージョン率、エンゲージメントレベルなど、キャンペーンの成功を評価する指標を設定できます。 関係者は、これらの指標を使用して、これらのキャンペーン要素のパフォーマンスを評価できます。 これらのインサイトにより、[!DNL Create] でのアセットのクリエイティブな再作業が促進される可能性があります。
+* [[!DNL Insights]](/help/user-guide/insights/overview.md) は、個々のキャンペーン要素とキャンペーン全体に関するパフォーマンス指標を収集します。マーケターは、クリックスルー率、コンバージョン率、エンゲージメントレベルなど、キャンペーンの成功を評価する指標を設定できます。関係者は、これらの指標を使用して、これらのキャンペーン要素のパフォーマンスを評価できます。これらのインサイトは、[!DNL Create] のアセットのクリエイティブな再作業を促進します。
 
-* [[!DNL Activate]](/help/user-guide/activation/overview.md) は、指定されたチャネルへの広告エクスペリエンスとしての campaign アセットの公開をサポートしています。
+* [[!DNL Activate]](/help/user-guide/activation/overview.md) は、キャンペーンアセットを広告エクスペリエンスとして指定のチャネルに公開することをサポートします。

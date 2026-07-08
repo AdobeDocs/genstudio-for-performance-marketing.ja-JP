@@ -1,6 +1,6 @@
 ---
 title: チャネルガイドラインの概要
-description: GenStudio for Performance Marketingにチャネルガイドラインを追加して、ブランド表現のあらゆる側面を含む包括的なブランドプロファイルを作成します。
+description: GenStudio for Performance Marketing にチャネルガイドラインを追加し、ブランド表示のすべての側面を含む包括的なブランドプロファイルを作成します。
 level: Beginner
 feature: Brand Personalization, Product Personalization, Persona Personalization, Variant Generation, Generative AI
 exl-id: 577c627b-0895-4958-a883-3133b4a3efde
@@ -26,63 +26,63 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 505
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # GenStudio for Performance Marketing ガイドライン
 
-GenStudio for Performance Marketingのガイドラインは、GenStudio for Performance Marketingにアップロードまたは手動で追加でき、ブランドの id の本質を取り込むブランドガイドラインを確立できます。
+GenStudio for Performance Marketing ガイドラインでは、システムへのアップロードまたは手動での追加が可能です。これにより、ユーザーはブランドアイデンティティの本質を取得したブランドガイドラインを確立できます。
 
-次のガイドラインは、AI で生成されたコンテンツを、ブランド ID とアクセシビリティの仕様に合わせて確実にカスタマイズして、コンテンツの効果的なパーソナライゼーションを可能にするのに役立ちます。
+次のガイドラインは、AI 生成コンテンツをブランドアイデンティティやアクセシビリティの仕様に合わせてカスタマイズし、効果的なコンテンツのパーソナライゼーションを実現するのに役立ちます。
 
-* [&#x200B; デフォルトのチャネルガイドライン &#x200B;](/help/user-guide/guidelines/brands.md#default-channel-guidelines) 業界のベストプラクティスと個々のプラットフォーム仕様に基づく [!DNL Brands]
+* 業界のベストプラクティスと個々のプラットフォームの仕様に基づく、[!DNL Brands] 用の[デフォルトチャネルガイドライン](/help/user-guide/guidelines/brands.md#default-channel-guidelines)
 * ユーザー定義のガイドライン（[!DNL Brands]、[!DNL Products]、[!DNL Personas] など）
-* Meta、LinkedIn などのチャネル向けの Platform ガイドライン
-* [&#x200B; 米国障害者法（ADA）アクセシビリティガイドライン &#x200B;](#compliance)
+* Meta や LinkedIn などのチャネル用のプラットフォームガイドライン
+* [米国障害者法（ADA）アクセシビリティガイドライン](#compliance)
 
-ガイドラインは、AI で生成されたコンテンツを独自のブランド ID に合わせてカスタマイズすることで、コンテンツの効果的なパーソナライゼーションを可能にします。
+ガイドラインは、AI 生成コンテンツを一意のブランドアイデンティティに合わせてカスタマイズし、効果的なコンテンツのパーソナライゼーションを実現するのに役立ちます。
 
-![GenStudio for Performance Marketingのガイドライン &#x200B;](/help/assets/guidelines.png){width="650" zoomable="yes"}
+![GenStudio for Performance Marketing のガイドライン](/help/assets/guidelines.png){width="650" zoomable="yes"}
 
-GenStudio for Performance Marketingを使用して魅力的なマーケティングコンテンツを作成するには、[[!DNL Brands]](/help/user-guide/guidelines/brands.md)、[[!DNL Products]](/help/user-guide/guidelines/products.md)、[[!DNL Personas]](/help/user-guide/guidelines/personas.md) を追加して、包括的なブランドプロファイルを構築することから始めます。
+GenStudio for Performance Marketing を使用して魅力的なマーケティングコンテンツを作成するには、まず [[!DNL Brands]](/help/user-guide/guidelines/brands.md)、[[!DNL Products]](/help/user-guide/guidelines/products.md)、[[!DNL Personas]](/help/user-guide/guidelines/personas.md) を追加して、包括的なブランドプロファイルを作成することから始めます。
 
-各タイプの追加方法については、[&#x200B; ガイドラインの追加 &#x200B;](/help/user-guide/guidelines/add-guidelines.md) を参照してください。
+各タイプの追加方法について詳しくは、[ガイドラインの追加](/help/user-guide/guidelines/add-guidelines.md)を参照してください。
 
 ## 機能
 
 GenStudio for Performance Marketing ガイドライン：
 
-* ブランドアイデンティティの複雑さを定義
-* 生成 AI がコンテンツの作成に使用する、ロゴやフォント、ピクセル間隔、メッセージングガイドラインの繊細さなどの個別の要素に対する情報の基本リポジトリを作成します
-* 定義したブランド ID が、コンテンツの各部分の作成に通知されるようにします
-* 生成または検証されたコンテンツの各部分に対してチェックされるブランド ID フレームワークと [&#x200B; て動作 &#x200B;](#content-checks) ます。
-* 生成されたバリアントに対して ADA アクセシビリティおよび Platform ガイドラインを実装します
+* ブランドアイデンティティの複雑さを定義する
+* 生成 AI がコンテンツを作成する際に使用する情報のベースリポジトリ（ロゴやフォント、ピクセル間隔、メッセージガイドラインの微妙なニュアンスなど個別の要素を含む）を作成する
+* 定義したブランドアイデンティティが、各コンテンツの制作に確実に反映されるようにする
+* 生成または[検証されるコンテンツ](#content-checks)のそれぞれに対してチェックするブランドアイデンティティのフレームワークとして機能させる
+* 生成されたバリアントに対して、ADA アクセシビリティとプラットフォームのガイドラインを実装する
 
-ブランド、製品、ペルソナのデータをGenStudio for Performance Marketingに組み込むことで、AI で生成されたコンテンツの品質を向上させ、包括的でカスタマイズされたブランドアイデンティティを保証できます。
+ブランド、製品、ペルソナに関するデータを GenStudio for Performance Marketing に組み込むことで、AI 生成コンテンツの品質を向上させ、包括的でカスタマイズされたブランドアイデンティティを確保できます。
 
 ## ユースケース
 
-チャネルガイドラインでは、2 つの主なユースケースを使用して、生成されたコンテンツがブランドの望ましい表現に準拠していることを確認できます。
+チャネルガイドラインは、生成されるコンテンツがブランドの目的の表示に準拠していることを確保するために、主に 2 つのユースケースに対応しています。
 
-* **コンテンツ生成**&#x200B;[[!DNL Create]](/help/user-guide/create/overview.md) または [&#x200B; コンテンツ &#x200B;](/help/user-guide/content/overview.md)
-* [**ブランド検証**](#content-checks)：コンテンツ作成プロセスの一環として行われます
+* [[!DNL Create]](/help/user-guide/create/overview.md) または [Content](/help/user-guide/content/overview.md) での&#x200B;**コンテンツ生成**
+* コンテンツ制作プロセスの一部として行われる、[**ブランドの検証**](#content-checks)
 
 ## コンテンツチェック
 
-Adobeのジェネレーティブ AI 機能に加えて、[!DNL Brands]、[!DNL Products] および [!DNL Personas] は、すべてのGenStudio for Performance Marketing コンテンツがブランドアイデンティティに沿っていることを確認するうえで重要な役割を果たします。
+アドビの生成 AI 機能と共に、[!DNL Brands]、[!DNL Products]、[!DNL Personas] は、GenStudio for Performance Marketing のすべてのコンテンツをブランドアイデンティティに一致させる上で、重要な役割を果たします。
 
-GenStudio for Performance Marketingは、ADA アクセシビリティ標準やプラットフォーム標準を含むブランド認証およびコンテンツチェックを実施し、生成されたコンテンツのチェックリストを提供して改善点を強調します。
+GenStudio for Performance Marketing では、ブランドの検証やコンテンツチェック（ADAアクセシビリティ標準やプラットフォーム標準を含む）を行って、生成されたコンテンツについて、改善が必要な領域をハイライト表示したチェックリストを提供します。
 
-[&#x200B; ブランド検証 &#x200B;](/help/user-guide/guidelines/brand-validation.md) を参照してください。
+[ブランドの検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
 
 ### コンプライアンス
 
-Adobe GenStudio for Performance Marketingでは、外部プラットフォームガイダンスと ADA アクセシビリティ標準をユーザー定義のガイドラインと統合して、すべてのバリアントについてブランド検証とコンテンツチェックを実行します。
+Adobe GenStudio for Performance Marketing では、外部プラットフォームのガイダンスや ADA アクセシビリティ標準およびユーザー定義のガイドラインを統合し、すべてのバリアントをまたいでブランドの検証やコンテンツチェックを行います。
 
-これらの累積的なコンプライアンスチェックには、次のものが含まれます。
+これらの累積コンプライアンスチェックには、以下が含まれます。
 
-* **ADA アクセシビリティ** – 様々な能力のユーザーに対応する包括的なコンテンツとデジタルエクスペリエンスの開発を確実に行うために不可欠です。 これにより、web アクセシビリティ機能との整合性が確保され、すべてのユーザーに公平なアクセスが提供されます。 GenStudio for Performance Marketingは現在、ADA Level AA のコピー（テキスト）アクセシビリティ標準を参照しています。
-* **プラットフォームコンプライアンス**:Metaや LinkedIn など、各プラットフォームの具体的なガイドラインを遵守し、業界のベストプラクティスに従うために不可欠です。 これらは、システムに存在し、[[!DNL Brand]  ガイドライン &#x200B;](/help/user-guide/guidelines/brands.md#brands-guidelines) に事前入力されたデフォルトのガイドラインです。
+* **ADA アクセシビリティ** - 様々な能力を持つユーザーに対応した、包括的なコンテンツやデジタルエクスペリエンスの開発を確保するには不可欠です。これらにより、web アクセシビリティ機能との整合性が確保され、すべてのユーザーに公平なアクセス権が提供されます。GenStudio for Performance Marketing は現在、ADA レベル AA コピー（テキスト）アクセシビリティ標準を参照しています。
+* **プラットフォームコンプライアンス**：Meta や LinkedIn など、各プラットフォームの特定のガイドラインを遵守し、業界のベストプラクティスに従うために不可欠です。これらはシステムに存在するデフォルトのガイドラインで、[[!DNL Brand]  ガイドライン](/help/user-guide/guidelines/brands.md#brands-guidelines)に事前入力されています。
