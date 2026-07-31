@@ -19,12 +19,12 @@ ht-degree: 0%
 
 ## [!DNL Adobe Express]のテンプレートについて
 
-[!DNL Adobe Express]では、アプリケーションで提供されている既存のスターターテンプレート [&#128279;](https://helpx.adobe.com/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)を使用するか、次のような便利なブランド制限[&#128279;](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)を含めることができる カスタムテンプレートを使用して、新しいドキュメントを作成できます。
+[!DNL Adobe Express]では、アプリケーションで提供されている既存のスターターテンプレート [&#128279;](https://helpx.adobe.com/jp/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)を使用するか、次のような便利なブランド制限[&#128279;](https://helpx.adobe.com/jp/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)を含めることができる カスタムテンプレートを使用して、新しいドキュメントを作成できます。
 
-- 変更できない[&#x200B; ロックされた要素](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html)
+- 変更できない[&#x200B; ロックされた要素](https://helpx.adobe.com/jp/express/web/invite-collaborate/object-locking.html)
 - 必要に応じて、ユーザーが要素をロック解除できるようにするロック制限
 
-[!DNL Adobe Express]のテンプレートで設定されたロック設定は、[!DNL GenStudio for Performance Marketing]でも適用されます。 ブランドの制限[&#128279;](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/template-control.html)を含むカスタムテンプレートを作成するには、the [!DNL Adobe Express] の手順を使用します。
+[!DNL Adobe Express]のテンプレートで設定されたロック設定は、[!DNL GenStudio for Performance Marketing]でも適用されます。 ブランドの制限[&#128279;](https://helpx.adobe.com/jp/express/web/brands-libraries-projects/create-manage-brands/template-control.html)を含むカスタムテンプレートを作成するには、the [!DNL Adobe Express] の手順を使用します。
 
 Express テンプレートでカスタムフォントを使用するには、管理者は最初に、Express ライセンスの使用権限の一部として含まれているAdmin ConsoleのCustom Fonts qualifying オファーを受け入れる必要があります。
 
@@ -57,11 +57,11 @@ Express テンプレートでカスタムフォントを使用するには、管
 
 ## バリエーションと[!DNL Experiences]と[!DNL Adobe Express] テンプレートについて
 
-[!DNL Express]個のテンプレートには、[他のバリエーションの管理時](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text)に使い慣れたものと同じ機能が多数あります。 ただし、[!DNL Express]からコンテンツのワークフローを合理化するための強力な追加機能がいくつかあります。 この節では、[!DNL Adobe Express]実装専用の機能について説明します。
+[!DNL Express]個のテンプレートには、[他のバリエーションの管理時](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text)に使い慣れたものと同じ機能が多数あります。 ただし、[!DNL Express]からコンテンツのワークフローを合理化するための強力な追加機能がいくつかあります。 この節では、[!DNL Adobe Express]実装専用の機能について説明します。
 
 ### 複数のサイズを自動生成
 
- [!DNL Express][&#128279;](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html)のアセットに対して複数のページが作成された場合、それらのページは、そのアセットから作成された任意のテンプレートに引き継がれます。 Express ページは、それぞれ[!DNL GenStudio for Performance Marketing]のクリエイティブコンテンツの異なるサイズとして生成されます。
+ [!DNL Express][&#128279;](https://helpx.adobe.com/jp/express/web/arrange-layers-and-pages/add-pages.html)のアセットに対して複数のページが作成された場合、それらのページは、そのアセットから作成された任意のテンプレートに引き継がれます。 Express ページは、それぞれ[!DNL GenStudio for Performance Marketing]のクリエイティブコンテンツの異なるサイズとして生成されます。
 
 [!DNL Express]のアセットに複数のサイズのコンテンツが存在する場合、1回の生成でそれらのサイズごとにバリエーションを生成できます。
 
@@ -129,7 +129,7 @@ Express テンプレートでカスタムフォントを使用するには、管
 
 ### リンクされたテキストフローボックスの使用
 
-[!DNL Adobe Express]は、テンプレート作成者が2つのテキスト ボックスをリンクして、1つのフレーズを両方のボックスに渡せるようにテキスト フローをサポートしています。 例えば、見出しの先頭と末尾を別のボックスに設定したり、フレーズの一部に他のテキストとは異なるスタイルを設定したりできます。 テキストフローを含むテンプレートが[!DNL GenStudio for Performance Marketing]に読み込まれると、キャンバスはそのリンクを認識して尊重します。 Adobe Expressの[&#x200B; テキストフロー](https://helpx.adobe.com/express/web/create-and-edit-documents-and-webpages/create-and-edit-documents/text-flow-faq.html)で、リンクされたテキストボックスを作成する方法について詳しく説明します。
+[!DNL Adobe Express]は、テンプレート作成者が2つのテキスト ボックスをリンクして、1つのフレーズを両方のボックスに渡せるようにテキスト フローをサポートしています。 例えば、見出しの先頭と末尾を別のボックスに設定したり、フレーズの一部に他のテキストとは異なるスタイルを設定したりできます。 テキストフローを含むテンプレートが[!DNL GenStudio for Performance Marketing]に読み込まれると、キャンバスはそのリンクを認識して尊重します。 Adobe Expressの[&#x200B; テキストフロー](https://helpx.adobe.com/jp/express/web/create-and-edit-documents-and-webpages/create-and-edit-documents/text-flow-faq.html)で、リンクされたテキストボックスを作成する方法について詳しく説明します。
 
 リンクされたテキストボックスのコピーは、他のフィールドと同じように生成します。追加の設定は必要ありません。 リンクされたボックスは、生成、編集、バリエーションのレビューを通じて、単一の接続されたフレーズとして動作するので、ボックス間でテキストを分割、コピー、または再配置する必要はありません。
 
@@ -200,7 +200,7 @@ Express テンプレートでカスタムフォントを使用するには、管
 
 ### テンプレートロックの制限
 
-テンプレートには、[!DNL Express]から引き継ぐ[&#x200B; ロックされた要素](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html)を含めることができ、一部の機能の変更方法を制御できます。 これらの設定はテンプレートによって尊重され、テンプレートでも変更できます。
+テンプレートには、[!DNL Express]から引き継ぐ[&#x200B; ロックされた要素](https://helpx.adobe.com/jp/express/web/invite-collaborate/object-locking.html)を含めることができ、一部の機能の変更方法を制御できます。 これらの設定はテンプレートによって尊重され、テンプレートでも変更できます。
 
 1. テンプレート上のロックされた要素を選択します。
 1. 選択した要素の左上にあるロックアイコンをクリックします。
@@ -250,5 +250,5 @@ _コンテンツチェック_ パネルを使用して、一貫したブラン�
 
 ## レビューと承認
 
-バリエーションの編集と調整が完了したら、[&#x200B; レビューと承認のワークフロー](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/overview)でコンテンツを承認して公開します。
+バリエーションの編集と調整が完了したら、[&#x200B; レビューと承認のワークフロー](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/overview)でコンテンツを承認して公開します。
 
