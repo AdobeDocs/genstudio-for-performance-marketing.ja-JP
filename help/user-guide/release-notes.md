@@ -5,44 +5,15 @@ recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
 TQID: https://experienceleague.adobe.com/V33xtE9DNQS4PXKR0hfGuwpQyuAFApllCSYbR03xAjs
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: b03d2162-d906-40a0-9cbd-001391e22d4a
-  - id: b286a442-6f0d-405a-adea-abb4a98e2d7b
-  - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3f40cc7affba7d49430e3a0e6cf01f76ac31a02a
-workflow-type: ht
-source-wordcount: 5467
-ht-degree: 100%
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: b286a442-6f0d-405a-adea-abb4a98e2d7bid: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: be495d08-ecd1-455f-951e-c22de504e667id: d1558755-1618-43a0-bf5d-134ebe62e93bid: d87258a7-722c-4afd-b632-adddc447c7aaid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ee4b6e5f-5b7a-421b-9859-0f964841a866id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 24297d57c6dc54c7be22321af9e5079da53f0c60
+workflow-type: tm+mt
+source-wordcount: 5535
+ht-degree: 98%
 
 ---
 
@@ -56,17 +27,17 @@ ht-degree: 100%
 
 ### [!DNL Create] と [!DNL Activate] の YouTube ショート
 
-ショート形式のビデオは、[!DNL GenStudio for Performance Marketing] の管理対象チャネルとなりました。ブランド、製品、ペルソナに関するガードレールを最初から適用した状態で、[!DNL Create] ワークフロー内でブランドに即した YouTube ショートを作成およびアクティブ化します。
+ショート形式のビデオは、[!DNL GenStudio for Performance Marketing] の管理対象チャネルとなりました。 ブランド、製品、ペルソナに関するガードレールを最初から適用した状態で、[!DNL Create] ワークフロー内でブランドに即した YouTube ショートを作成およびアクティブ化します。
 
 アクティベーションにより、手動でのハンドオフなしにループが閉じられます。チームが DV360 を通じて YouTube 広告をトラフィックする際、ショートを Google 広告のデマンドジェネレーションキャンペーンにプッシュしたり、YouTube に非公開ビデオとしてアップロードしたりできます。
 
 ### CM360 ビデオアクティベーション
 
-[!DNL GenStudio for Performance Marketing] で作成されたビデオディスプレイ広告が、CM360 のアクティベーションゲートで停止しなくなりました。ディスプレイチャネルから管理対象のビデオエクスペリエンスを選択し、アクティベーションワークフローでプレビューして、画像や HTML5 形式と共に[クリエイティブを Google Campaign Manager 360 に直接公開](/help/user-guide/activation/activate-cm360-ad.md)します。
+[!DNL GenStudio for Performance Marketing] で作成されたビデオディスプレイ広告が、CM360 のアクティベーションゲートで停止しなくなりました。 ディスプレイチャネルから管理対象のビデオエクスペリエンスを選択し、アクティベーションワークフローでプレビューして、画像や HTML5 形式と共に[クリエイティブを Google Campaign Manager 360 に直接公開](/help/user-guide/activation/activate-cm360-ad.md)します。
 
 ### [!DNL Activate] での Meta アプリプロモーションキャンペーン
 
-モバイルアプリのマーケターは、[アプリのプロモーションを目的とした Meta キャンペーンに対して](/help/user-guide/activation/activate-meta-ad.md)、アプリのインストールやアプリのイベントをターゲットにする広告セットを含む、エクスペリエンスをアクティブ化できるようになりました。以前は、アプリ以外のキャンペーン目標のみがサポートされていました。
+モバイルアプリのマーケターは、[アプリのプロモーションを目的とした Meta キャンペーンに対して](/help/user-guide/activation/activate-meta-ad.md)、アプリのインストールやアプリのイベントをターゲットにする広告セットを含む、エクスペリエンスをアクティブ化できるようになりました。 以前は、アプリ以外のキャンペーン目標のみがサポートされていました。
 
 ### Horizon キャンバスでの翻訳
 
@@ -78,7 +49,11 @@ ht-degree: 100%
 
 [!DNL Create] のメールテンプレートでは、1 つのポッド内に複数の画像を配置できるようになりました。これにより、コンテンツを別のセクションに分割することなく、よりリッチなヒーローレイアウトや製品ギャラリー、マルチアセットのストーリーテリングを実現できます。
 
-追加の画像フィールドを含むテンプレートをアップロードまたは作成し、ポッドの構造を維持したまま、ブランドに即したバリアントを生成します。エンドツーエンドのメールワークフローについて詳しくは、[メールエクスペリエンス](/help/user-guide/create/email-experiences.md)を参照してください。
+追加の画像フィールドを含むテンプレートをアップロードまたは作成し、ポッドの構造を維持したまま、ブランドに即したバリアントを生成します。 エンドツーエンドのメールワークフローについて詳しくは、[メールエクスペリエンス](/help/user-guide/create/email-experiences.md)を参照してください。
+
+### Express テンプレートのテキストフローのサポート
+
+[!DNL Create]は、Horizon Canvas上で、2つのテキストボックスをリンクして1つのフレーズが両方に流れるように配置するAdobe Express機能であるテキストフローを尊重するようになりました。 「生成されたコピー」は、リンクされたボックスを1つの接続されたフレーズとして埋めるので、2つのボックスにメッセージが分割される広告デザインは、手作業によるコピーや再配置を行うことなく、最終的に生成のためにテンプレート化できます。 [ リンクされたテキストフローボックス ](/help/user-guide/templates/express-templates.md#use-linked-text-flow-boxes)について詳しく説明します。
 
 ## 以前のリリースノート
 
@@ -86,7 +61,7 @@ ht-degree: 100%
 
 ### Horizon キャンバスでの共同編集
 
-Horizon キャンバスでの有料メディアのドラフトは、もはや単独で行う作業ではありません。所有者は&#x200B;**[!UICONTROL 編集者]**&#x200B;や&#x200B;**[!UICONTROL 閲覧者]**&#x200B;の役割で共同作業者をメールで招待できるようになりました。これにより、ツール間で書き出しをバウンスする代わりに、全員が同じ生きたドラフトから作業できます。
+Horizon キャンバスでの有料メディアのドラフトは、もはや単独で行う作業ではありません。 所有者は&#x200B;**[!UICONTROL 編集者]**&#x200B;や&#x200B;**[!UICONTROL 閲覧者]**&#x200B;の役割で共同作業者をメールで招待できるようになりました。これにより、ツール間で書き出しをバウンスする代わりに、全員が同じ生きたドラフトから作業できます。
 
 キャンバスの「[!UICONTROL 共有]」ボタンを使用すると、編集者はアートボードやフィールド（見出し、CTA、説明など）のアップデートをリアルタイムで確認できます。
 
@@ -102,15 +77,15 @@ GenStudio for Performance Marketing から離れることなく、AEM で既に�
 
 ### URL からの [!DNL Brands]、[!DNL Products]、[!DNL Personas] の追加
 
-[!DNL GenStudio for Performance Marketing] は、公開されている **[!DNL Brand]**、**[!DNL Product]**、**[!DNL Persona]** に関するシグナルを URL から直接取り込みます。これにより、手動による入力にかかる時間を大幅に削減しつつ、ブランドが実際にオンラインで公開している内容に基づいた出力を生成できます。[公開 URL からガイドラインを追加](/help/user-guide/guidelines/add-guidelines.md#guidance-when-adding-from-a-url)すると、マーケターが概要を開く前に web を調査する仕組みが最終的に反映されます。
+[!DNL GenStudio for Performance Marketing] は、公開されている **[!DNL Brand]**、**[!DNL Product]**、**[!DNL Persona]** に関するシグナルを URL から直接取り込みます。これにより、手動による入力にかかる時間を大幅に削減しつつ、ブランドが実際にオンラインで公開している内容に基づいた出力を生成できます。 [公開 URL からガイドラインを追加](/help/user-guide/guidelines/add-guidelines.md#guidance-when-adding-from-a-url)すると、マーケターが概要を開く前に web を調査する仕組みが最終的に反映されます。
 
-ブランドガイドラインは一度の処理で適用されますが、製品やペルソナについては、インテリジェントなショートリストから開始します。これにより、システムがレコードを強化する前に属する内容をキュレートできます。AI 支援による探索では、サイトの情報量が少ない場合やゲートがある場合には、意図的に保守的な状態を維持します。これにより、業務の勢いをブロックすることなく、規制されたチームを保護できます。
+ブランドガイドラインは一度の処理で適用されますが、製品やペルソナについては、インテリジェントなショートリストから開始します。これにより、システムがレコードを強化する前に属する内容をキュレートできます。 AI 支援による探索では、サイトの情報量が少ない場合やゲートがある場合には、意図的に保守的な状態を維持します。これにより、業務の勢いをブロックすることなく、規制されたチームを保護できます。
 
-**[!UICONTROL ブランドマネージャー]**&#x200B;以上の役職を必要とする組織では、引き続きこれらのガードレールが自動的に適用されます。地域やポートフォリオをまたいでプログラムを拡大する際、公開されているブランドドメインは、引き続き最も有益なガイダンスをもたらします。
+**[!UICONTROL ブランドマネージャー]**&#x200B;以上の役職を必要とする組織では、引き続きこれらのガードレールが自動的に適用されます。 地域やポートフォリオをまたいでプログラムを拡大する際、公開されているブランドドメインは、引き続き最も有益なガイダンスをもたらします。
 
 ### [!DNL Create]、[!DNL Content]、[!DNL Activate] で ChatGPT 広告が使用可能
 
-対話型 AI は新しい有料メディアサーフェスで、[!DNL GenStudio for Performance Marketing] では ChatGPT をエンドツーエンドで活用できるようになりました。ブランドに即した複数のコピーバリエーションで [ChatGPT 広告エクスペリエンスを作成](/help/user-guide/create/create-chatgpt-ad.md)し、ブランドやチャネルのチェックを実行し、承認を通じて作業をルーティングし、承認済みの広告を [!DNL Content] に公開して再利用やアクティベーションを行います。
+対話型 AI は新しい有料メディアサーフェスで、[!DNL GenStudio for Performance Marketing] では ChatGPT をエンドツーエンドで活用できるようになりました。 ブランドに即した複数のコピーバリエーションで [ChatGPT 広告エクスペリエンスを作成](/help/user-guide/create/create-chatgpt-ad.md)し、ブランドやチャネルのチェックを実行し、承認を通じて作業をルーティングし、承認済みの広告を [!DNL Content] に公開して再利用やアクティベーションを行います。
 
 +++
 
@@ -130,7 +105,7 @@ GenStudio for Performance Marketing から離れることなく、AEM で既に�
 
 ### HTML5 の表示テンプレート、バリエーション、サイズ変更
 
-[!DNL Create] に **DOM ベースの HTML5 zip ファイルをアップロードして表示テンプレートを開発**&#x200B;し、HTML5 広告のバリエーションを作成し、クリエイティブを別の縦横比にサイズ変更できます。完了したエクスペリエンスは、[Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) および [[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md) に対してアクティブ化できます。
+[!DNL Create] に **DOM ベースの HTML5 zip ファイルをアップロードして表示テンプレートを開発**&#x200B;し、HTML5 広告のバリエーションを作成し、クリエイティブを別の縦横比にサイズ変更できます。 完了したエクスペリエンスは、[Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) および [[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md) に対してアクティブ化できます。
 
 +++
 
@@ -138,7 +113,7 @@ GenStudio for Performance Marketing から離れることなく、AEM で既に�
 
 ### Meta、LinkedIn、ディスプレイ用の Express テンプレート
 
-[!DNL Create] は、Meta、LinkedIn、ディスプレイ用の [Horizon キャンバスでの Express テンプレート](/help/user-guide/templates/express-templates.md)をサポートするようになりました。Adobe Express テンプレート（スターターテンプレートやカスタムブランドのレイアウトなど）を作成のワークフローで直接使用できます。
+[!DNL Create] は、Meta、LinkedIn、ディスプレイ用の [Horizon キャンバスでの Express テンプレート](/help/user-guide/templates/express-templates.md)をサポートするようになりました。 Adobe Express テンプレート（スターターテンプレートやカスタムブランドのレイアウトなど）を作成のワークフローで直接使用できます。
 
 キャンバスは、次を含むテンプレート機能をサポートしています。
 
@@ -151,7 +126,7 @@ GenStudio for Performance Marketing から離れることなく、AEM で既に�
 
 ### GenStudio for Performance Marketing の TikTok コンテンツ
 
-GenStudio for Performance Marketing から TikTokのフィード内ビデオ広告を作成、承認、アクティブ化できるようになりました。[!DNL Create] ワークフローで簡単に広告を生成し、エクスペリエンスを [!DNL Content] に公開します。TikTok の [!DNL Insights] を使用してパフォーマンスを監視し、次回のクリエイティブの更新に役立てます。
+GenStudio for Performance Marketing から TikTokのフィード内ビデオ広告を作成、承認、アクティブ化できるようになりました。 [!DNL Create] ワークフローで簡単に広告を生成し、エクスペリエンスを [!DNL Content] に公開します。 TikTok の [!DNL Insights] を使用してパフォーマンスを監視し、次回のクリエイティブの更新に役立てます。
 
 ### コンテンツインテリジェンス特徴量化 V4
 
@@ -179,17 +154,17 @@ V4 のメリットは次のとおりです。
 
 ### HTML キャンバスプロンプトパネルの再設計
 
-[!DNL Create] の HTML Canvas プロンプトドロワーは、以前の下部のドロワーに代わり、メール、ディスプレイ広告、有料メディア広告をまたいで左側のパネルとして表示されるようになりました。この更新では、コア機能はそのままに、コンテンツ生成時のワークスペースレイアウトや一貫性を改善しています。
+[!DNL Create] の HTML Canvas プロンプトドロワーは、以前の下部のドロワーに代わり、メール、ディスプレイ広告、有料メディア広告をまたいで左側のパネルとして表示されるようになりました。 この更新では、コア機能はそのままに、コンテンツ生成時のワークスペースレイアウトや一貫性を改善しています。
 
 ### 最大 10 個のセクションのマルチポッドメール生成
 
-[!DNL Create] では、最大 10 個のポッド／セクションを含むメールを作成できるようになりました。これにより、以前の 1～3 個という制限を超えて、マルチポッドメール生成を展開できます。この機能強化により、複数のパスをまたいでコンテンツをステッチすることなく、単一の生成フローで、よりリッチでより構造化されたメールレイアウトが可能になります。
+[!DNL Create] では、最大 10 個のポッド／セクションを含むメールを作成できるようになりました。これにより、以前の 1～3 個という制限を超えて、マルチポッドメール生成を展開できます。 この機能強化により、複数のパスをまたいでコンテンツをステッチすることなく、単一の生成フローで、よりリッチでより構造化されたメールレイアウトが可能になります。
 
 ### アセットの信頼性に対する Content Credentials
 
 [!BADGE ベータ版]{type=Informative tooltip="この機能は、現在ベータ版なので、一部の機能が制限されるか、変更される場合があります。"}
 
-GenStudio for Performance Marketing は、Content Credentials をサポートするようになりました。これにより、チームは制作、レビュー、書き出しの各工程を通じて、アセットに信頼性に関するメタデータを適用および保持できます。資格情報のバッジや詳細が主要なワークフローをまたいで表示されるので、組織はコンテンツを共有する際、その出所を検証し、信頼を維持できます。
+GenStudio for Performance Marketing は、Content Credentials をサポートするようになりました。これにより、チームは制作、レビュー、書き出しの各工程を通じて、アセットに信頼性に関するメタデータを適用および保持できます。 資格情報のバッジや詳細が主要なワークフローをまたいで表示されるので、組織はコンテンツを共有する際、その出所を検証し、信頼を維持できます。
 
 +++
 
@@ -197,7 +172,7 @@ GenStudio for Performance Marketing は、Content Credentials をサポートす
 
 ### テンプレート用のロゴのスワップ
 
-マーケターは、[!DNL Create] ワークフローでテンプレート内のロゴを動的にスワップできるようになりました。これにより、様々なブランドロゴ、サブブランド、製品ラインに対して複数のテンプレートバリエーションを作成する必要がなくなります。この機能により、作成者はコンテンツ制作時に適切なロゴを選択またはスワップできるので、テンプレート管理を効率化し、制作のオーバーヘッドを削減できます。
+マーケターは、[!DNL Create] ワークフローでテンプレート内のロゴを動的にスワップできるようになりました。これにより、様々なブランドロゴ、サブブランド、製品ラインに対して複数のテンプレートバリエーションを作成する必要がなくなります。 この機能により、作成者はコンテンツ制作時に適切なロゴを選択またはスワップできるので、テンプレート管理を効率化し、制作のオーバーヘッドを削減できます。
 
 +++
 
@@ -215,7 +190,7 @@ GenStudio for Performance Marketing は、Content Credentials をサポートす
 
 ### 有料メディアおよびメール用の標準翻訳
 
-* 承認済みの有料メディアやメールのエクスペリエンスを、GenStudio for Performance Marketing 内で直接、40 以上の言語に即座に翻訳できます。[エクスペリエンスの翻訳とローカライズ](/help/user-guide/create/translate-experiences.md)を参照してください。
+* 承認済みの有料メディアやメールのエクスペリエンスを、GenStudio for Performance Marketing 内で直接、40 以上の言語に即座に翻訳できます。 [エクスペリエンスの翻訳とローカライズ](/help/user-guide/create/translate-experiences.md)を参照してください。
 * Azure OpenAI の翻訳サービスを使用すると、チームはコンテンツを複数のターゲット言語に同時に一括翻訳できます。
 
 ### エクスペリエンス用の PDFの書き出し
@@ -230,7 +205,7 @@ GenStudio for Performance Marketing は、Content Credentials をサポートす
 
 ### Meta の単一のビデオ広告のアクティベーション
 
-* マーケターは、GenStudio for Performance Marketing から Meta 広告マネージャに直接、[単一のビデオアセットを使用した Meta 広告をアクティブ化](/help/user-guide/activation/activate-meta-ad.md)できるようになりました。これにより、メディアバイヤー、パフォーマンスマーケター、クリエイティブチームは、静的な広告アクティベーションで使用しているのと同じ効率化されたワークフローを維持しながら、ビデオ広告エクスペリエンスをシームレスに配信できます。
+* マーケターは、GenStudio for Performance Marketing から Meta 広告マネージャに直接、[単一のビデオアセットを使用した Meta 広告をアクティブ化](/help/user-guide/activation/activate-meta-ad.md)できるようになりました。 これにより、メディアバイヤー、パフォーマンスマーケター、クリエイティブチームは、静的な広告アクティベーションで使用しているのと同じ効率化されたワークフローを維持しながら、ビデオ広告エクスペリエンスをシームレスに配信できます。
 * ユーザーは、ビデオ広告クリエイティブの詳細を設定し、ビデオの表示方法をプレビューして、Meta プラットフォームでビデオ広告をアクティブ化できます。
 
 ### Meta キャンペーン用のアクションタイプ別の CPA
@@ -260,9 +235,9 @@ GenStudio for Performance Marketing は、Content Credentials をサポートす
 ### LinkedIn、Meta、TikTok 用の Insights の拡張
 
 * GenStudio Insights に LinkedIn 広告のパフォーマンスレポートが含まれるようになりました。これにより、マーケターは、キャンペーンや広告のパフォーマンスを次のプラットフォーム内で直接確認および分析できます。
-   * LinkedIn 広告
-   * Meta 広告
-   * TikTok 広告
+  * LinkedIn 広告
+  * Meta 広告
+  * TikTok 広告
 
 ### Amazon 広告のアクティベーション
 
@@ -271,7 +246,7 @@ GenStudio for Performance Marketing は、Content Credentials をサポートす
 ### Flashtalking のアクティベーション
 
 * GenStudio は、Flashtalking（Innovid）の広告配信プラットフォームへのディスプレイ広告のアクティベーションを直接サポートするようになりました。
-* ユーザーは、Activate エンジニアリングチームと共同作業し、Flashtalking API トークンを手動で設定する必要があります。セルフサービストークン設定は、今後のリリースで追加される予定です。
+* ユーザーは、Activate エンジニアリングチームと共同作業し、Flashtalking API トークンを手動で設定する必要があります。 セルフサービストークン設定は、今後のリリースで追加される予定です。
 
 ### Adobe Campaign V8 との統合
 
@@ -283,12 +258,12 @@ GenStudio for Performance Marketing は、Content Credentials をサポートす
 
 ### サードパーティのメールテンプレートの読み込み
 
-* GenStudio for Performance Marketing は、拡張性のあるフレームワークを通じて、サードパーティのメールデザインシステムとのシームレスな統合をサポートするようになりました。主な機能は次のとおりです。
+* GenStudio for Performance Marketing は、拡張性のあるフレームワークを通じて、サードパーティのメールデザインシステムとのシームレスな統合をサポートするようになりました。 主な機能は次のとおりです。
 
-   * コンテンツ制作中に、サードパーティのメールデザインシステムからテンプレートを自動的に読み込む
-   * 読み込むテンプレートと共にテンプレートのメタデータを取り込む
-   * サードパーティシステムに直接接続して、信頼できる唯一の情報源を維持する
-   * カスタム統合を作成するための SDK とサンプルアプリが提供されている
+  * コンテンツ制作中に、サードパーティのメールデザインシステムからテンプレートを自動的に読み込む
+  * 読み込むテンプレートと共にテンプレートのメタデータを取り込む
+  * サードパーティシステムに直接接続して、信頼できる唯一の情報源を維持する
+  * カスタム統合を作成するための SDK とサンプルアプリが提供されている
 
 +++
 
@@ -298,9 +273,9 @@ GenStudio for Performance Marketing は、Content Credentials をサポートす
 
 ### 有料メディア用の新しい生成拡張 AI 機能
 
-新しいGenExpand 機能により、マーケターは Meta、LinkedIn、ディスプレイ広告、バナーなどの有料メディアチャネルをまたいでクリエイティブアセットを異なる縦横比をサポートするために、クリエイティブアセットを動的に調整できます。広いレイアウトに狭い画像を追加するなど、画像の縦横比が意図した比率と一致しない場合、GenExpand を使用して画像が収まるように修正できます。
+新しいGenExpand 機能により、マーケターは Meta、LinkedIn、ディスプレイ広告、バナーなどの有料メディアチャネルをまたいでクリエイティブアセットを異なる縦横比をサポートするために、クリエイティブアセットを動的に調整できます。 広いレイアウトに狭い画像を追加するなど、画像の縦横比が意図した比率と一致しない場合、GenExpand を使用して画像が収まるように修正できます。
 
-この機能により、GenStudio for Performance Marketing で直接、画像の編集やサイズ変更を行うプロセスが効率化されます。詳しくは、[生成拡張 AI 機能](/help/user-guide/create/manage-variants.md#use-generative-expand)を参照してください。
+この機能により、GenStudio for Performance Marketing で直接、画像の編集やサイズ変更を行うプロセスが効率化されます。 詳しくは、[生成拡張 AI 機能](/help/user-guide/create/manage-variants.md#use-generative-expand)を参照してください。
 
 +++
 
@@ -308,9 +283,9 @@ GenStudio for Performance Marketing は、Content Credentials をサポートす
 
 ### テキスト属性用の Insights
 
-Adobe GenStudio のテキスト属性用の Insights は、広告コピーに使用されている感情的なトーン、説得力のあるテクニック、ナラティブスタイルを分析します。キャンペーンがライブになると、GenStudio は、これらのテキスト属性が CTR、CPA、CPC、インプレッション数、支出などの主要なパフォーマンス指標と相関する仕組みを追跡します。
+Adobe GenStudio のテキスト属性用の Insights は、広告コピーに使用されている感情的なトーン、説得力のあるテクニック、ナラティブスタイルを分析します。 キャンペーンがライブになると、GenStudio は、これらのテキスト属性が CTR、CPA、CPC、インプレッション数、支出などの主要なパフォーマンス指標と相関する仕組みを追跡します。
 
-これは現在、英語の広告にのみ使用できます。詳しくは、[テキスト機能](/help/user-guide/insights/text-features.md)を参照してください。
+これは現在、英語の広告にのみ使用できます。 詳しくは、[テキスト機能](/help/user-guide/insights/text-features.md)を参照してください。
 
 ### Insights テンプレートの改善
 
@@ -319,7 +294,7 @@ Adobe GenStudio のテキスト属性用の Insights は、広告コピーに使
 
 ### ブランドの検証を使用した多言語コンテンツの生成
 
-プロンプトドロワーの新しい言語セレクターは多言語コンテンツ制作をサポートしているので、各地域のマーケターはローカルのオーディエンスに対してブランドに即したコンテンツを開発できます。この機能は現在、12 言語をサポートしています。
+プロンプトドロワーの新しい言語セレクターは多言語コンテンツ制作をサポートしているので、各地域のマーケターはローカルのオーディエンスに対してブランドに即したコンテンツを開発できます。 この機能は現在、12 言語をサポートしています。
 
 ### テンプレートでのビデオアセットのサポート
 
@@ -332,7 +307,7 @@ Adobe GenStudio のテキスト属性用の Insights は、広告コピーに使
 
 ### 複数のテキストフィールドでの同じ役割の使用
 
-同じ役割を持つ複数のテキストフィールド（例：「本文」、「CTA」、「画像上のテキスト」など）が複雑な顧客用テンプレート向けにサポートされるようになりました。
+同じ役割を持つ複数のテキストフィールド（例：「本文」、「CTA」、「画像上のテキスト」など）が複雑な顧客用テンプレート向けにサポートされるようになりました 。
 
 詳しくは、[テンプレートコードエディターのガイダンス](/help/user-guide/templates/code-editor.md)を参照してください。
 
@@ -352,7 +327,7 @@ Adobe GenStudio for Performance Marketing は、最新の Firefly Image Model 4 
 
 [!BADGE ベータ版]{type=Informative tooltip="この機能は、現在ベータ版なので、一部の機能が制限されるか、変更される場合があります。"}
 
-Adobe GenStudio for Performance Marketing は、ビルトインメール翻訳機能を提供するようになりました。これにより、マーケターはメールキャンペーンを効率的にグローバルに拡大できます。この機能を使用すると、承認済みのメールエクスペリエンスを取得し、それを Azure Open AI 翻訳サービスを使用して、複数のターゲット言語に翻訳できます。
+Adobe GenStudio for Performance Marketing は、ビルトインメール翻訳機能を提供するようになりました。これにより、マーケターはメールキャンペーンを効率的にグローバルに拡大できます。 この機能を使用すると、承認済みのメールエクスペリエンスを取得し、それを Azure Open AI 翻訳サービスを使用して、複数のターゲット言語に翻訳できます。
 
 +++
 
@@ -360,31 +335,31 @@ Adobe GenStudio for Performance Marketing は、ビルトインメール翻訳�
 
 ### 互換性のあるアセットフィルター
 
-[!DNL Insights] モジュールに新しいフィルターが追加され、広告プレビューから[サポートされていない画像やビデオアセット](/help/user-guide/insights/published-experiences.md#ad-formats)が自動的に非表示になります。これにより、視覚的な乱雑さや壊れたタイルが排除されます。この機能強化により、ユーザーには実際に利用可能な、すぐに使用できるメディアのみが表示されるようになり、よりクリーンで信頼性の高いエクスペリエンスが実現します。このフィルターは、既存の互換性広告フィルターと連携して動作します。
+[!DNL Insights] モジュールに新しいフィルターが追加され、広告プレビューから[サポートされていない画像やビデオアセット](/help/user-guide/insights/published-experiences.md#ad-formats)が自動的に非表示になります。これにより、視覚的な乱雑さや壊れたタイルが排除されます。 この機能強化により、ユーザーには実際に利用可能な、すぐに使用できるメディアのみが表示されるようになり、よりクリーンで信頼性の高いエクスペリエンスが実現します。 このフィルターは、既存の互換性広告フィルターと連携して動作します。
 
 ### Meta のマルチアセットのアクティベーション
 
-Meta 広告のマルチアスペクト比画像のアクティベーション機能を使用すると、広告主は、1 つの広告クリエイティブで、異なるアスペクト比の複数の画像アセットをアップロードしてアクティブ化できます。この機能により、フィード、ストーリー、リールなど、Meta のさまざまなプレースメントに適したクリエイティブを 1 つの広告で提供できます。広告主は、各画像がさまざまなプレースメントでどのように表示されるかをプレビューし、1 回の API 呼び出しで Meta にすべてのバージョンを公開できます。
+Meta 広告のマルチアスペクト比画像のアクティベーション機能を使用すると、広告主は、1 つの広告クリエイティブで、異なるアスペクト比の複数の画像アセットをアップロードしてアクティブ化できます。 この機能により、フィード、ストーリー、リールなど、Meta のさまざまなプレースメントに適したクリエイティブを 1 つの広告で提供できます。 広告主は、各画像がさまざまなプレースメントでどのように表示されるかをプレビューし、1 回の API 呼び出しで Meta にすべてのバージョンを公開できます。
 
 ### バリアントでのリッチテキスト書式設定
 
-生成されたバリアントのテキストフィールドを、「[リッチテキストの書式設定](/help/user-guide/create/manage-variants.md#manually-edit-text)」オプション（太字、斜体、下線、テキストの配置、リスト、テキストの色、テキストサイズ、リンクなど）を使って編集できます。これにより、オーディエンスに合わせてテキストや言葉の表現を調整したり、レイアウト要件に合わせて書式設定を適用したりできます。
+生成されたバリアントのテキストフィールドを、「[リッチテキストの書式設定](/help/user-guide/create/manage-variants.md#manually-edit-text)」オプション（太字、斜体、下線、テキストの配置、リスト、テキストの色、テキストサイズ、リンクなど）を使って編集できます。 これにより、オーディエンスに合わせてテキストや言葉の表現を調整したり、レイアウト要件に合わせて書式設定を適用したりできます。
 
 ### 画像とリンクのアクセシビリティラベル
 
-バリアント内の画像やコールトゥアクションのリンクにアクセシビリティラベル（Aria-labels）を追加して、ユーザーがインタラクティブな要素の目的を理解するのに役立つ、アクセシビリティ対応の名前を提供します。詳しい手順については、[バリアントの管理](/help/user-guide/create/manage-variants.md)を参照してください。
+バリアント内の画像やコールトゥアクションのリンクにアクセシビリティラベル（Aria-labels）を追加して、ユーザーがインタラクティブな要素の目的を理解するのに役立つ、アクセシビリティ対応の名前を提供します。 詳しい手順については、[バリアントの管理](/help/user-guide/create/manage-variants.md)を参照してください。
 
 ### 英語以外のコンテンツの生成
 
 [!BADGE ベータ版]{type=Informative tooltip="この機能は、現在ベータ版なので、一部の機能が制限されるか、変更される場合があります。"}
 
-プロンプトドロワーにある新しい言語セレクターメニューは、多言語コンテンツの作成をサポートしており、地域のマーケターは、現地のオーディエンス向けにブランドに即したコンテンツを開発できます。この機能は現在、12 の GA 言語と 5 つのベータ版言語をサポートしています。定義済みのワークフローと LLM への明確な言語指示を提供する言語リストによって、より一貫性のある出力が可能になります。
+プロンプトドロワーにある新しい言語セレクターメニューは、多言語コンテンツの作成をサポートしており、地域のマーケターは、現地のオーディエンス向けにブランドに即したコンテンツを開発できます。 この機能は現在、12 の GA 言語と 5 つのベータ版言語をサポートしています。定義済みのワークフローと LLM への明確な言語指示を提供する言語リストによって、より一貫性のある出力が可能になります。
 
 ### Meta 広告のテンプレート選択（オプション）
 
 [!BADGE ベータ版]{type=Informative tooltip="この機能は、現在ベータ版なので、一部の機能が制限されるか、変更される場合があります。"}
 
-Meta 広告では、テンプレートの選択がオプションになり、メディアの上部にテキストやロゴを入れなくても広告を作成できるようになりました。この機能強化により、テキストのオーバーレイやロゴの配置を必要としない、アニメーション GIF やビデオなど、その他のメディアタイプも利用できるようになります。
+Meta 広告では、テンプレートの選択がオプションになり、メディアの上部にテキストやロゴを入れなくても広告を作成できるようになりました。 この機能強化により、テキストのオーバーレイやロゴの配置を必要としない、アニメーション GIF やビデオなど、その他のメディアタイプも利用できるようになります。
 
 +++
 
@@ -394,7 +369,7 @@ Meta 広告では、テンプレートの選択がオプションになり、メ
 
 [!BADGE ベータ版]{type=Informative tooltip="この機能は、現在ベータ版なので、一部の機能が制限されるか、変更される場合があります。"}
 
-[スターターテンプレート](/help/user-guide/templates/starter-templates.md)を使用すると、クリエイティブなプロセスをスムーズに開始できます。Meta または LinkedIn 広告のスターターテンプレートから選択できるようになりました。
+[スターターテンプレート](/help/user-guide/templates/starter-templates.md)を使用すると、クリエイティブなプロセスをスムーズに開始できます。 Meta または LinkedIn 広告のスターターテンプレートから選択できるようになりました。
 
 ### 生成拡張 AI 機能
 
@@ -406,13 +381,13 @@ Meta 広告では、テンプレートの選択がオプションになり、メ
 
 [!BADGE ベータ版]{type=Informative tooltip="この機能は、現在ベータ版なので、一部の機能が制限されるか、変更される場合があります。"}
 
-画像コンテンツに加えて、[LinkedIn](/help/user-guide/create/create-linkedin.md#manage-videos) および [Meta](/help/user-guide/create/create-meta-ad.md#manage-videos) の広告に動画を追加できるようになりました。GenStudio for Performance Marketing で、バリアントを選択して動画に追加する際に、動画の自動再生プレビューを直接確認できます。
+画像コンテンツに加えて、[LinkedIn](/help/user-guide/create/create-linkedin.md#manage-videos) および [Meta](/help/user-guide/create/create-meta-ad.md#manage-videos) の広告に動画を追加できるようになりました。 GenStudio for Performance Marketing で、バリアントを選択して動画に追加する際に、動画の自動再生プレビューを直接確認できます。
 
 ### 修正と機能強化
 
-* GenStudio for Performance Marketing から LinkedIn Campaign Manager に、[広告エクスペリエンスを公開する](/help/user-guide/activation/activate-linkedin-ad.md)ためのサポートを追加しました。[!DNL Activate] では、LinkedIn Campaign Manager に公開する前に、詳細な LinkedIn 広告のプレビューをサポートしています。
+* GenStudio for Performance Marketing から LinkedIn Campaign Manager に、[広告エクスペリエンスを公開する](/help/user-guide/activation/activate-linkedin-ad.md)ためのサポートを追加しました。 [!DNL Activate] では、LinkedIn Campaign Manager に公開する前に、詳細な LinkedIn 広告のプレビューをサポートしています。
 
-* [Workfront Proof との統合](/help/user-guide/approvals/overview.md)により、Workfront Proof の堅牢なレビューおよび承認機能が GenStudio for Performance Marketing に導入されます。GenStudio for Performance Marketing でレビューされたコンテンツは Workfront Proof に同期され、レビューコメントとステータスは保持されます。
+* [Workfront Proof との統合](/help/user-guide/approvals/overview.md)により、Workfront Proof の堅牢なレビューおよび承認機能が GenStudio for Performance Marketing に導入されます。 GenStudio for Performance Marketing でレビューされたコンテンツは Workfront Proof に同期され、レビューコメントとステータスは保持されます。
 
 * アクセシビリティラベル（Aria-labels）を追加することで、[バリアント内の画像とコールトゥアクションリンクにアクセシビリティ対応の名前を付与](/help/user-guide/create/manage-variants.md#add-accessibility-labels)できるようになりました。
 
@@ -420,11 +395,11 @@ Meta 広告では、テンプレートの選択がオプションになり、メ
 
 * [!DNL Brand] を手動で追加するか、ドキュメントから手動で抽出して [!DNL Brand] を作成した後に、[ブランドサムネイル画像](/help/user-guide/guidelines/add-guidelines.md#change-brand-thumbnail)を変更または追加して、各ブランドを [!DNL Brands] リスト内で簡単に識別できるようになります。
 
-* 生成されたバリアントで、[テキストのリッチテキスト編集書式設定](/help/user-guide/create/manage-variants.md#manually-edit-text)を使用できるようになりました。バリアントのテキスト（色、サイズ、リストなど）に対して、さまざまな書式設定オプションを試すことができます。
+* 生成されたバリアントで、[テキストのリッチテキスト編集書式設定](/help/user-guide/create/manage-variants.md#manually-edit-text)を使用できるようになりました。 バリアントのテキスト（色、サイズ、リストなど）に対して、さまざまな書式設定オプションを試すことができます。
 
-* プラットフォームの設定中に、既存の広告セットを複製することで、[新しい広告セットを作成](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set)できるようになりました。Meta の広告セットは、特定の広告のタイミング、チャネルの詳細、オーディエンスを定義します。Meta キャンペーンには複数の広告セットを含めることができますが、1 つの広告セットは 1 つのキャンペーンにのみ関連付けられます。
+* プラットフォームの設定中に、既存の広告セットを複製することで、[新しい広告セットを作成](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set)できるようになりました。 Meta の広告セットは、特定の広告のタイミング、チャネルの詳細、オーディエンスを定義します。 Meta キャンペーンには複数の広告セットを含めることができますが、1 つの広告セットは 1 つのキャンペーンにのみ関連付けられます。
 
-* キャンペーンの詳細を書き出せるようになり、Word または PDF 形式のキャンペーンブリーフとして外部からアクセスできるようになりました。キャンペーンを選択し、「**[!UICONTROL 書き出し]**」（右上隅）をクリックします。
+* キャンペーンの詳細を書き出せるようになり、Word または PDF 形式のキャンペーンブリーフとして外部からアクセスできるようになりました。 キャンペーンを選択し、「**[!UICONTROL 書き出し]**」（右上隅）をクリックします。
 
 +++
 
@@ -433,8 +408,8 @@ Meta 広告では、テンプレートの選択がオプションになり、メ
 ### 修正と機能強化
 
 * 個別のバリアントの画像に[代替（alt）テキストを追加](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)する機能を有効にしました。
-* [新しい Meta 縦横比](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)の横置き 1.19:1（1080 ピクセル幅）を追加しました。
-* 書き出しやダウンロード用に複数のエクスペリエンスを選択できるようになりました。[エクスペリエンスの書き出し](/help/user-guide/content/manage-assets.md#export-experiences)を参照してください。
+* [新しいMeta縦横比](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)を追加しました – 横1.19:1 （1080 ピクセル幅）。
+* 書き出しやダウンロード用に複数のエクスペリエンスを選択できるようになりました。 [エクスペリエンスの書き出し](/help/user-guide/content/manage-assets.md#export-experiences)を参照してください。
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
 +++
@@ -443,10 +418,10 @@ Meta 広告では、テンプレートの選択がオプションになり、メ
 
 ### 修正と機能強化
 
-* テンプレートに新しいフィルターオプションが追加されました。[!DNL Create] や&#x200B;_[!UICONTROL コンテンツ]_／_[!UICONTROL テンプレート]_&#x200B;で、_[!UICONTROL テンプレートを選択]_&#x200B;リストを絞り込めるようになりました。[テンプレートの検索](/help/user-guide/templates/use-templates.md#search-templates)を参照してください。これらのフィルターを通じて検索できるように、テンプレートにメタデータが適切にタグ付けされていることを確認します。
+* テンプレートに新しいフィルターオプションが追加されました。 [!DNL Create] や&#x200B;_[!UICONTROL コンテンツ]_／_[!UICONTROL テンプレート]_&#x200B;で、_[!UICONTROL テンプレートを選択]_&#x200B;リストを絞り込めるようになりました。 [テンプレートの検索](/help/user-guide/templates/use-templates.md#search-templates)を参照してください。 これらのフィルターを通じて検索できるように、テンプレートにメタデータが適切にタグ付けされていることを確認します。
 * エクスペリエンスを構成する編集可能なテキストフィールドや編集可能な画像の[個々のレイヤーを表示および選択](/help/user-guide/create/manage-variants.md#view-layers)し、コンテンツの再生成や画像の切り抜きなど修正のためにハイライト表示できる機能を有効にしました。
 * エクスペリエンスでオーディエンスの注目を集め、マーケティングメッセージをハイライト表示する追加テキスト用の[新しいテンプレートフィールド](/help/user-guide/templates/use-templates.md#template-elements)として `sub-headline` を追加しました。
-* GenStudio for Performance Marketing から Google Campaign Manager 360 に、[広告エクスペリエンスを公開](/help/user-guide/activation/overview.md)するためのサポートが追加されました。Activate は、Campaign Manager 360 の広告主に公開する前に、Google Campaign Manager 360 の広告の詳細なプレビューをサポートしています。Activate を通じて配信された広告は、ライブにすると自動的に Insights に取り込まれ、ユーザーは広告のパフォーマンスを追跡およびレポートできます。
+* GenStudio for Performance Marketing から Google Campaign Manager 360 に、[広告エクスペリエンスを公開](/help/user-guide/activation/overview.md)するためのサポートが追加されました。 Activate は、Campaign Manager 360 の広告主に公開する前に、Google Campaign Manager 360 の広告の詳細なプレビューをサポートしています。 Activate を通じて配信された広告は、ライブにすると自動的に Insights に取り込まれ、ユーザーは広告のパフォーマンスを追跡およびレポートできます。
 
 +++
 
@@ -454,23 +429,23 @@ Meta 広告では、テンプレートの選択がオプションになり、メ
 
 ### Meta 広告のアクティブ化
 
-マーケターは、GenStudio for Performance Marketing から Meta Ads Manager に[広告エクスペリエンスを公開](/help/user-guide/activation/overview.md)できるようになりました。[!DNL Activate] は、デプロイメント前の詳細な Meta 広告プレビューをサポートしています。[!DNL Activate] を通じて配信された Meta 広告は、ライブにすると自動的に [!DNL Insights] に取り込まれ、ユーザーは広告のパフォーマンスを追跡およびレポートできます。
+マーケターは、GenStudio for Performance Marketing から Meta Ads Manager に[広告エクスペリエンスを公開](/help/user-guide/activation/overview.md)できるようになりました。 [!DNL Activate] は、デプロイメント前の詳細な Meta 広告プレビューをサポートしています。 [!DNL Activate] を通じて配信された Meta 広告は、ライブにすると自動的に [!DNL Insights] に取り込まれ、ユーザーは広告のパフォーマンスを追跡およびレポートできます。
 
 ### LinkedIn エクスペリエンスの作成
 
 [!BADGE ベータ版]{type=Informative tooltip="この機能は、現在ベータ版なので、一部の機能が制限されるか、変更される場合があります。"}
 
-[LinkedIn エクスペリエンスの作成](/help/user-guide/create/create-linkedin.md)のサポートが追加されました。チャネル固有のガイドラインの「[LinkedIn 広告](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)」タブを参照してください。
+[LinkedIn エクスペリエンスの作成](/help/user-guide/create/create-linkedin.md)のサポートが追加されました。 チャネル固有のガイドラインの「[LinkedIn 広告](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)」タブを参照してください。
 
 ### バナーエクスペリエンスの作成
 
 [!BADGE ベータ版]{type=Informative tooltip="この機能は、現在ベータ版なので、一部の機能が制限されるか、変更される場合があります。"}
 
-[バナーエクスペリエンスの作成](/help/user-guide/create/create-banner-experience.md)のサポートが追加されました。チャネル固有のガイドラインの「[バナー](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)」タブを参照してください。
+[バナーエクスペリエンスの作成](/help/user-guide/create/create-banner-experience.md)のサポートが追加されました。 チャネル固有のガイドラインの「[バナー](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)」タブを参照してください。
 
 ### コンプライアンス
 
-ブランド検証プロセスの一部として、[コンテンツチェック](/help/user-guide/guidelines/brand-validation.md)に[コンプライアンス標準](/help/user-guide/guidelines/overview.md)が導入されました。これらのチェックでは、エクスペリエンスの各バリアントを、[!DNL Brand] ガイドライン、プラットフォームのガイドライン（Meta など）、ADA 標準に対して確認します。このプロセスでは、コンプライアンスを向上させるために修正が必要なガイドラインおよび標準の包括的な概要を提供します。
+ブランド検証プロセスの一部として、[コンテンツチェック](/help/user-guide/guidelines/brand-validation.md)に[コンプライアンス標準](/help/user-guide/guidelines/overview.md)が導入されました。 これらのチェックでは、エクスペリエンスの各バリアントを、[!DNL Brand] ガイドライン、プラットフォームのガイドライン（Meta など）、ADA 標準に対して確認します。 このプロセスでは、コンプライアンスを向上させるために修正が必要なガイドラインおよび標準の包括的な概要を提供します。
 
 ### 拡張性
 
@@ -482,8 +457,8 @@ Meta 広告では、テンプレートの選択がオプションになり、メ
 
   ![コードエディタービュー](/help/assets/template-detected-fields.png "検出されたフィールドを確認"){width="500" zoomable="yes"}
 
-* **画像のリンク** - 画像のリンクを有効にして、メールテンプレートをカスタマイズします。[テンプレートのカスタマイズ：画像のリンク](/help/user-guide/templates/customize-template.md#link-on-image)を参照してください。
-* **AJO と Marketo のテンプレート** - Adobe Journey Optimizer（AJO）または Marketo で作成したテンプレートをアップロードします。[AJO と Marketo からのテンプレートの操作](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo)を参照してください。
+* **画像のリンク** - 画像のリンクを有効にして、メールテンプレートをカスタマイズします。 [テンプレートのカスタマイズ：画像のリンク](/help/user-guide/templates/customize-template.md#link-on-image)を参照してください。
+* **AJO と Marketo のテンプレート** - Adobe Journey Optimizer（AJO）または Marketo で作成したテンプレートをアップロードします。 [AJO と Marketo からのテンプレートの操作](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo)を参照してください。
 
 ### 修正と機能強化
 
@@ -501,11 +476,11 @@ Meta 広告では、テンプレートの選択がオプションになり、メ
 
 ### [!DNL Create] のランディングページの改善
 
-GenStudio for Performance Marketing の [!DNL Create] ランディングページには、ユーザーエクスペリエンスを向上させる UI の改善が含まれています。「_最近の作業_」セクションが調整され、リスト表示がデフォルトのビュー形式として設定されています。パディングやその他の視覚的な改善により、[!DNL Create] キャンバスのルックアンドフィールが効率化されています。
+GenStudio for Performance Marketing の [!DNL Create] ランディングページには、ユーザーエクスペリエンスを向上させる UI の改善が含まれています。 「_最近の作業_」セクションが調整され、リスト表示がデフォルトのビュー形式として設定されています。 パディングやその他の視覚的な改善により、[!DNL Create] キャンバスのルックアンドフィールが効率化されています。
 
 ### CSV への Insights の書き出し
 
-表示可能なテーブルを任意の [!DNL Insights] ビューから CSV ファイルにダウンロードできるようになりました。この機能を使用すると、様々な [!DNL Insights] ビューからデータを書き出して分析できるので、データ分析やレポート作成が容易になります。
+表示可能なテーブルを任意の [!DNL Insights] ビューから CSV ファイルにダウンロードできるようになりました。 この機能を使用すると、様々な [!DNL Insights] ビューからデータを書き出して分析できるので、データ分析やレポート作成が容易になります。
 
 +++
 
@@ -515,19 +490,19 @@ GenStudio for Performance Marketing の [!DNL Create] ランディングペー�
 
 [!BADGE ベータ版]{type=Informative tooltip="この機能は、現在ベータ版なので、一部の機能が制限されるか、変更される場合があります。"}
 
-GenStudio for Performance Marketing と Adobe Workfront Proof の統合に関するベータ版プログラムが今月開始されます。Workfront Proof は、承認テンプレート、マルチステージワークフロー、注釈を使用して、コンテンツ制作とアクティベーションのライフサイクルを強化します。Workfront Proof の使用権限を持つ GenStudio for Performance Marketing ユーザーは、GenStudio for Performance Marketing 内でプルーフの高度な機能を使用し、GenStudio で生成されたコンテンツのレビューやコメントを行うことができます。
+GenStudio for Performance Marketing と Adobe Workfront Proof の統合に関するベータ版プログラムが今月開始されます。 Workfront Proof は、承認テンプレート、マルチステージワークフロー、注釈を使用して、コンテンツ制作とアクティベーションのライフサイクルを強化します。 Workfront Proof の使用権限を持つ GenStudio for Performance Marketing ユーザーは、GenStudio for Performance Marketing 内でプルーフの高度な機能を使用し、GenStudio で生成されたコンテンツのレビューやコメントを行うことができます。
 
 ベータ版プログラムは、製品開発を形成し、一般提供の準備が整っているかどうかを判断するのに役立つ手段となります。
 
 ### 新しいコールトゥアクションの生成
 
-バリアントを管理する際、新しいコールトゥアクション（CTA）フレーズを生成できるようになりました。新しい「_言い換え_」オプションと「_リンクを追加_」オプションを使用して、新しいフレーズを生成し、CTA リンクを編集できます。これらの新しい CTA 機能が機能するように、テンプレートを適切に設定する必要があります。_テンプレートのカスタマイズ_：[コールトゥアクション](/help/user-guide/templates/customize-template.md#calls-to-action)のガイドラインに従ってください。バリアントでの CTA の管理に関するガイドラインについて詳しくは、[コールトゥアクションの修正](/help/user-guide/create/manage-variants.md#revise-call-to-action)」を参照してください。<!-- GS-6676 -->
+バリアントを管理する際、新しいコールトゥアクション（CTA）フレーズを生成できるようになりました。 新しい「_言い換え_」オプションと「_リンクを追加_」オプションを使用して、新しいフレーズを生成し、CTA リンクを編集できます。 これらの新しい CTA 機能が機能するように、テンプレートを適切に設定する必要があります。 _テンプレートのカスタマイズ_：[コールトゥアクション](/help/user-guide/templates/customize-template.md#calls-to-action)のガイドラインに従ってください。 バリアントでの CTA の管理に関するガイドラインについて詳しくは、[コールトゥアクションの修正](/help/user-guide/create/manage-variants.md#revise-call-to-action)」を参照してください。<!-- GS-6676 -->
 
 ### 修正と機能強化
 
-* ディスプレイ広告のすべての生成フィールドと手動フィールドで、文字数が表示されるようになりました。_文字数_&#x200B;について詳しくは、[Meta エクスペリエンス](/help/user-guide/create/meta-experiences.md#character-counts)を参照してください。<!-- GS-7732 -->
+* ディスプレイ広告のすべての生成フィールドと手動フィールドで、文字数が表示されるようになりました。 _文字数_&#x200B;について詳しくは、[Meta エクスペリエンス](/help/user-guide/create/meta-experiences.md#character-counts)を参照してください。<!-- GS-7732 -->
 
-* _共同作業者_&#x200B;はアセットを表示できるようになりましたが、作成、編集、削除を行うことはできません。以前は、[!DNL Create] で共同作業者の権限が期待どおりに適用されませんでした。<!-- GS-7614 -->
+* _共同作業者_&#x200B;はアセットを表示できるようになりましたが、作成、編集、削除を行うことはできません。 以前は、[!DNL Create] で共同作業者の権限が期待どおりに適用されませんでした。<!-- GS-7614 -->
 
 * コンテンツ編集者は、アセット、エクスペリエンス、テンプレートのメタデータを編集できるようになりました。<!-- GS-4905 -->
 
@@ -537,13 +512,13 @@ GenStudio for Performance Marketing と Adobe Workfront Proof の統合に関す
 
 * メールのコールトゥアクションリンクは、必須フィールドではなくなりました。<!-- GS-8103 -->
 
-* テンプレートでは、[!DNL Brand] セレクターのドロップダウンメニューが期待どおりに機能するようになりました。以前は、一部のテンプレートでセレクターが正常に読み込まれませんでした。<!-- GS-8908 -->
+* テンプレートでは、[!DNL Brand] セレクターのドロップダウンメニューが期待どおりに機能するようになりました。 以前は、一部のテンプレートでセレクターが正常に読み込まれませんでした。<!-- GS-8908 -->
 
 * 編集者は、単一のポッドメールおよび Meta 広告用に、最大 4 個の画像を選択できるようになりました。<!-- GS-2631 -->
 
 * 承認済みエクスペリエンスのメタデータが編集された後、その `Created by` フィールドの年の値が、期待どおり一貫性を保持するようになりました。<!-- GS-8344 -->
 
-* コンテンツ編集者は、[!DNL Create] からテンプレートを正常に選択できるようになりました。以前は、編集者がテンプレートを選択すると、アプリケーションでコンソールエラーが発生していました。<!-- GS-8798 -->
+* コンテンツ編集者は、[!DNL Create] からテンプレートを正常に選択できるようになりました。 以前は、編集者がテンプレートを選択すると、アプリケーションでコンソールエラーが発生していました。<!-- GS-8798 -->
 
 * Meta 広告のサイズ変更および再生成の操作に関する問題は解決しました。<!-- GS-8900 -->
 
@@ -557,13 +532,13 @@ GenStudio for Performance Marketing と Adobe Workfront Proof の統合に関す
 
 編集者は、メタデータに関連する次のタスクを実行できるようになりました。
 
-* アセット、エクスペリエンス、テンプレートのメタデータを編集する。[アセットの詳細](/help/user-guide/content/asset-details.md#user-defined-metadata)を参照してください。<!-- GS-4905 6935-->
+* アセット、エクスペリエンス、テンプレートのメタデータを編集する。 [アセットの詳細](/help/user-guide/content/asset-details.md#user-defined-metadata)を参照してください。<!-- GS-4905 6935-->
 
-* アセットを使用している任意のエクスペリエンスの&#x200B;_詳細_&#x200B;ビューで、アセットに対して生成されたタグを表示します。[アセットの詳細](/help/user-guide/content/asset-details.md#generated-tags)の&#x200B;_生成されたタグ_&#x200B;を参照してください。<!-- GS-3705 -->
+* アセットを使用している任意のエクスペリエンスの&#x200B;_詳細_&#x200B;ビューで、アセットに対して生成されたタグを表示します。 [アセットの詳細](/help/user-guide/content/asset-details.md#generated-tags)の&#x200B;_生成されたタグ_&#x200B;を参照してください。<!-- GS-3705 -->
 
 編集者は、生成されたバリアントのこれらの側面に対して、次のカスタム値を指定できるようになりました。
 
-* ディスプレイ広告テンプレートでの web バナーの幅と高さ。これらの値は、テンプレートのメタデータとして保存されるようになりました。<!-- GS-6735 -->
+* ディスプレイ広告テンプレートでの web バナーの幅と高さ。 これらの値は、テンプレートのメタデータとして保存されるようになりました。<!-- GS-6735 -->
 
 * 画像のアップロード中に、ディスプレイ広告エクスぺリンス内の画像のサイズを指定します。<!-- GS-7166 -->
 
@@ -571,15 +546,15 @@ GenStudio for Performance Marketing と Adobe Workfront Proof の統合に関す
 
 書き出しオプションには、以下が含まれます。
 
-* ディスプレイ広告と Meta 広告を HTML、JPEG、または PNG 形式で書き出します。[ディスプレイ広告エクスぺリンスの作成](/help/user-guide/create/create-display-ad.md)と [Meta 広告エクスペリエンスの作成](/help/user-guide/create/create-meta-ad.md)を参照してください。<!-- GS-7093 6655 5152-->
+* ディスプレイ広告と Meta 広告を HTML、JPEG、または PNG 形式で書き出します。 [ディスプレイ広告エクスぺリンスの作成](/help/user-guide/create/create-display-ad.md)と [Meta 広告エクスペリエンスの作成](/help/user-guide/create/create-meta-ad.md)を参照してください。<!-- GS-7093 6655 5152-->
 
 その他の新機能により、編集者は以下の操作を行うことができます。
 
 * [!DNL Content]テンプレート&#x200B;_アセットの詳細_&#x200B;ビューの「**[!UICONTROL 更新]**」ボタンを使用して、選択したテンプレートを更新します。<!-- GS-7102 -->
 
-* ディスプレイ広告とメールバリアントのセクションを再生成します。[ディスプレイ広告エクスペリエンスの作成](/help/user-guide/create/create-display-ad.md#revise-generated-display-ads)と[メールエクスペリエンスの作成](/help/user-guide/create/create-email-experience.md#revise-generated-emails)を参照してください。<!-- GS-5080 5078-->
+* ディスプレイ広告とメールバリアントのセクションを再生成します。 [ディスプレイ広告エクスペリエンスの作成](/help/user-guide/create/create-display-ad.md#revise-generated-display-ads)と[メールエクスペリエンスの作成](/help/user-guide/create/create-email-experience.md#revise-generated-emails)を参照してください。<!-- GS-5080 5078-->
 
-* 既存ブランドを複製します。[ブランドの管理](/help/user-guide/guidelines/brands.md#manage-brands)を参照してください。<!-- BRANDS-548 -->
+* 既存ブランドを複製します。 [ブランドの管理](/help/user-guide/guidelines/brands.md#manage-brands)を参照してください。<!-- BRANDS-548 -->
 
 ### 修正と機能強化
 
@@ -595,7 +570,7 @@ GenStudio for Performance Marketing と Adobe Workfront Proof の統合に関す
 
 * キャンバスには、サイズ変更されたエクスペリエンスが一貫した順序で表示されるようになりました。<!-- GS-7123 -->
 
-* ディスプレイ広告を編集する際に、手動トリミングでは、テンプレートの寸法ではなく、画像の寸法が使用されるようになりました。以前は、画像がディスプレイ広告テンプレートで指定された寸法よりも小さい場合、境界ボックスには画像の寸法ではなくテンプレートの寸法が使用されていました。<!-- GS-7315 -->
+* ディスプレイ広告を編集する際に、手動トリミングでは、テンプレートの寸法ではなく、画像の寸法が使用されるようになりました。 以前は、画像がディスプレイ広告テンプレートで指定された寸法よりも小さい場合、境界ボックスには画像の寸法ではなくテンプレートの寸法が使用されていました。<!-- GS-7315 -->
 
 * 編集者は、ディスプレイ広告を作成する際に、最大 4 つの画像を選択できるようになりました。<!-- GS-7189 -->
 
@@ -613,7 +588,7 @@ GenStudio for Performance Marketing と Adobe Workfront Proof の統合に関す
 
 * キーボードフォーカスが、[!DNL Create] _最近の作業_&#x200B;ビューのアクション可能なボタンのみに追加されました。<!-- GS-4060 -->
 
-* メールフラグメントの保存操作中に表示される「**保存中**」というメッセージは、保存操作中にのみ表示されるようになりました。以前は、キャンバスにこのメッセージが無期限に表示されていました。<!-- GS-6964 -->
+* メールフラグメントの保存操作中に表示される「**保存中**」というメッセージは、保存操作中にのみ表示されるようになりました。 以前は、キャンバスにこのメッセージが無期限に表示されていました。<!-- GS-6964 -->
 
 * [!DNL Create] _最近の作業_&#x200B;領域でドラフトの読み込みに失敗した場合、編集者に期待どおりのエラーメッセージが表示されるようになりました。<!-- GS-8081 -->
 
@@ -631,7 +606,7 @@ GenStudio for Performance Marketing と Adobe Workfront Proof の統合に関す
 
 ### 新機能
 
-外部ドメインでホストされている静的コンテンツを表示するサポートが追加されました。GenStudio for Performance Marketing は、テンプレートで定義されたコンテンツソースを検証し、そのコピーを埋め込んでテンプレートのプレビューを生成します。[静的コンテンツ](/help/user-guide/templates/customize-template.md#static-content)を参照してください。<!-- GS-6107 -->
+外部ドメインでホストされている静的コンテンツを表示するサポートが追加されました。 GenStudio for Performance Marketing は、テンプレートで定義されたコンテンツソースを検証し、そのコピーを埋め込んでテンプレートのプレビューを生成します。 [静的コンテンツ](/help/user-guide/templates/customize-template.md#static-content)を参照してください。<!-- GS-6107 -->
 
 ### 修正と機能強化
 
@@ -641,7 +616,7 @@ GenStudio for Performance Marketing と Adobe Workfront Proof の統合に関す
 
 * 特定の言語で、[!DNL Content] _エクスペリエンス_**[!UICONTROL 書き出し]**&#x200B;ポップアップのボタンの文字が切り捨てられなくなりました。<!-- GS-6873 -->
 
-* テンプレートを使用して 50 x 50 のサイズで作成されたディスプレイ広告は、期待どおりの画像サイズで書き出されるようになりました。以前は、PNG ファイルは想定される寸法の 2 倍のサイズで書き出されていました。<!-- GS-7192 -->
+* テンプレートを使用して 50 x 50 のサイズで作成されたディスプレイ広告は、期待どおりの画像サイズで書き出されるようになりました。 以前は、PNG ファイルは想定される寸法の 2 倍のサイズで書き出されていました。<!-- GS-7192 -->
 
 * ディスプレイ広告のサイズ変更時に発生したテンプレートエラーが解決されました。<!-- GS-7322 -->
 
@@ -693,11 +668,11 @@ GenStudio for Performance Marketing と Adobe Workfront Proof の統合に関す
 
 #### 画像の再生成
 
-* 複数の Meta 広告バリアントのサイズ変更が、期待どおりに機能するようになりました。以前は、再生成されたバリアントがキャンバスに表示されず、空白のままでした。<!-- GS-7010 -->
+* 複数の Meta 広告バリアントのサイズ変更が、期待どおりに機能するようになりました。 以前は、再生成されたバリアントがキャンバスに表示されず、空白のままでした。<!-- GS-7010 -->
 
 * サイズ変更されたエクスペリエンスに対して、フラグメントの再生成が期待どおりに機能するようになりました。<!-- GS-6836 -->
 
-* サイズ変更後の Meta 広告画像を再生成しても、エラーが発生しなくなりました。以前は、再生成の前に画像をサイズ変更すると、チャネルのメタデータが `meta` から `facebook` に変更されていました。<!-- GS-7042 -->
+* サイズ変更後の Meta 広告画像を再生成しても、エラーが発生しなくなりました。 以前は、再生成の前に画像をサイズ変更すると、チャネルのメタデータが `meta` から `facebook` に変更されていました。<!-- GS-7042 -->
 
 +++
 
@@ -723,19 +698,19 @@ GenStudio for Performance Marketing と Adobe Workfront Proof の統合に関す
 
 +++2024年10月14日（PT）の一般提供からのメモ
 
-このリリースでは、マーケティングキャンペーンのプランニング、開発、分析を高速化する、生成 AI ベースのアプリケーションである Adobe GenStudio for Performance Marketing が導入されます。GenStudio for Performance Marketing は、広告、メール、キャンペーン用のブランドに即したマルチチャネルコンテンツの作成を可能にする一方、コンテンツのパフォーマンスを最適化するためのリアルタイムなインサイトを提供し、マーケティングチームを支援します。
+このリリースでは、マーケティングキャンペーンのプランニング、開発、分析を高速化する、生成 AI ベースのアプリケーションである Adobe GenStudio for Performance Marketing が導入されます。 GenStudio for Performance Marketing は、広告、メール、キャンペーン用のブランドに即したマルチチャネルコンテンツの作成を可能にする一方、コンテンツのパフォーマンスを最適化するためのリアルタイムなインサイトを提供し、マーケティングチームを支援します。
 
 ### 機能
 
 主な製品機能は次のとおりです。
 
-**[!DNL Create]** では、キャンバスを導入します。これは、コンテンツ編集者がコンテンツやバリアントをすばやく生成するために、構造化されたプロンプトエクスペリエンスを提供します。システム管理者は、組織のブランドガイドラインに基づいて製品をトレーニングします。[!DNL Create] は、AI が生成するすべてのコンテンツが、ブランディング、顧客ペルソナ、製品説明などのブランドガイドラインに一致していることを確認し、ブランドの一貫性のある、高い影響力を持つマーケティングコンテンツの制作を効率化します。
+**[!DNL Create]** では、キャンバスを導入します。これは、コンテンツ編集者がコンテンツやバリアントをすばやく生成するために、構造化されたプロンプトエクスペリエンスを提供します。 システム管理者は、組織のブランドガイドラインに基づいて製品をトレーニングします。 [!DNL Create] は、AI が生成するすべてのコンテンツが、ブランディング、顧客ペルソナ、製品説明などのブランドガイドラインに一致していることを確認し、ブランドの一貫性のある、高い影響力を持つマーケティングコンテンツの制作を効率化します。
 
-**[!DNL Content]** には、キュレートされ、ブランドに準拠した、承認済みのアセットとエクスペリエンスが保存されています。GenStudio for Performance Marketing ユーザーは、承認済みのアセットを容易に検索、編集、再利用、共有できるので、キャンペーンごとにゼロからコンテンツを再作成する必要がなくなります。
+**[!DNL Content]** には、キュレートされ、ブランドに準拠した、承認済みのアセットとエクスペリエンスが保存されています。 GenStudio for Performance Marketing ユーザーは、承認済みのアセットを容易に検索、編集、再利用、共有できるので、キャンペーンごとにゼロからコンテンツを再作成する必要がなくなります。
 
 **[!DNL Reviews and Approvals]** は、生成されたバリアントを **[!DNL Content]** に保存したり書き出したりする前に、関係者がレビューおよび承認するためのフレームワークを確立します。
 
-**[!DNL Campaigns]** は、マーケティングキャンペーンを整理および管理し、効率化された実行とトラッキングを確保します。共同作業者は、キャンペーンを視覚化、計画、追跡して、複数のイニシアチブを効率的に管理し、タイムリーな配信を確保できます。
+**[!DNL Campaigns]** は、マーケティングキャンペーンを整理および管理し、効率化された実行とトラッキングを確保します。 共同作業者は、キャンペーンを視覚化、計画、追跡して、複数のイニシアチブを効率的に管理し、タイムリーな配信を確保できます。
 
 **[!DNL Insights]** は、コンテンツパフォーマンスのリアルタイムな評価を提供し、マーケターが戦略を最適化し、データ駆動型の決定を行うのに役立ちます。
 
