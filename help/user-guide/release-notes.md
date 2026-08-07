@@ -41,7 +41,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 86c5e5236bf256694858ae5b0ca1f6930cf35033
 workflow-type: tm+mt
-source-wordcount: 5723
+source-wordcount: 5751
 ht-degree: 95%
 
 ---
@@ -98,7 +98,7 @@ Horizon キャンバスのテキストブロックを、AEM コンテンツフ�
 
 ### Express テンプレートのテキストフローのサポート
 
-[!DNL Create]は、Horizon Canvas上で、2つのテキストボックスをリンクして1つのフレーズが両方に流れるように配置するAdobe Express機能であるテキストフローを尊重するようになりました。 「生成されたコピー」は、リンクされたボックスを1つの接続されたフレーズとして埋めるので、2つのボックスにメッセージが分割される広告デザインは、手作業によるコピーや再配置を行うことなく、最終的に生成のためにテンプレート化できます。 [&#x200B; リンクされたテキストフローボックス &#x200B;](/help/user-guide/templates/express-templates.md#use-linked-text-flow-boxes)について詳しく説明します。
+[!DNL Create] は現在、Horizon キャンバスで、2 つのテキストボックスをリンクさせて 1 つのフレーズを両方のテキストボックスにまたいでフローする Adobe Express 機能であるテキストフローを適用しています。 生成されたコピーは、リンクされたボックスを 1 つの接続されたフレーズとして埋めるので、メッセージが 2 つのボックスをまたいで分割する広告デザインでは、手動でコピーや再配置を行うことなく、最終的に生成のためにテンプレート化できます。 詳しくは、[リンクされたテキストフローボックス](/help/user-guide/templates/express-templates.md#use-linked-text-flow-boxes)を参照してください。
 
 +++
 
@@ -453,7 +453,7 @@ Meta 広告では、テンプレートの選択がオプションになり、メ
 ### 修正と機能強化
 
 * 個別のバリアントの画像に[代替（alt）テキストを追加](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)する機能を有効にしました。
-* [新しいMeta縦横比](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)を追加しました – 横1.19:1 （1080 ピクセル幅）。
+* [新しい Meta 縦横比](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)の横置き 1.19:1（1080 ピクセル幅）を追加しました。
 * 書き出しやダウンロード用に複数のエクスペリエンスを選択できるようになりました。 [エクスペリエンスの書き出し](/help/user-guide/content/manage-assets.md#export-experiences)を参照してください。
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -693,7 +693,7 @@ GenStudio for Performance Marketing と Adobe Workfront Proof の統合に関す
 
 * ユーザーは、すべての Meta 広告テンプレートのインタラクティブな要素を、キーボードのみで制御できるようになりました。<!-- GS-4066 -->
 
-* ディスプレイ広告テンプレートに対して、テンプレートの画像フィールドからの画像寸法の抽出を追加しました。スマート切り抜きリクエストは、テンプレート全体ではなく、画像の実際の寸法に対して送信されるようになりました。<!-- GS-6926 -->
+* テンプレート画像フィールドからディスプレイ広告テンプレートへの画像寸法の抽出を追加しました。 スマート切り抜きリクエストは、テンプレート全体ではなく、画像の実際のディメンションに対して送信されるようになりました。 <!-- GS-6926 -->
 
 * 生成されるメールと Meta 広告内の `Zoom to fit to screen` 文字列をローカライズしました。<!-- GS-5063 -->
 
@@ -737,7 +737,7 @@ GenStudio for Performance Marketing と Adobe Workfront Proof の統合に関す
 
 * メールの境界線に関するレイアウトの問題が解決されました。<!-- GS-6631 -->
 
-* **[!DNL Content]** の「**[!UICONTROL 削除]**」ボタンでのキーボードフォーカスが、期待どおりに機能するようになりました。<!-- GS-4065 -->
+* キーボードフォーカスが&#x200B;**[!DNL Content]** **[!UICONTROL 削除]** ボタンで正常に機能するようになりました。 以前は、ユーザーはキーボードでこのボタンにアクセスできませんでした。  <!-- GS-4065 -->
 
 +++
 
