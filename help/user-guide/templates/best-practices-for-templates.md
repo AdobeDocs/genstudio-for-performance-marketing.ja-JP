@@ -6,11 +6,19 @@ role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
 TQID: https://experienceleague.adobe.com/fiKHSZ-YFZ2gSD5iZ-aKaZtsC49Mrj1dqHpHqtbXZVM
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3322f783cd49ddcb897942e5e91590d53b554bdd
 workflow-type: tm+mt
 source-wordcount: 1352
@@ -29,7 +37,7 @@ GenStudio for Performance Marketing でテンプレートを使用する際は�
 1. 最適なエクスペリエンスを提供するために[アクセシビリティ標準](accessibility-for-templates.md)を使用して設計する
 1. [チャネル固有のテンプレートガイドライン](#follow-channel-specific-template-guidelines)に従う
 1. [Express テンプレート](/help/user-guide/templates/express-templates.md)を使用する際は、[Express から GenStudio へのテンプレートに関するベストプラクティス](#express-to-genstudio-template-best-practices)で説明されている特定のヒントを考慮する
->>
+&#x200B;>>
 テンプレート要素と手順の基本について詳しくは、[テンプレートの操作](use-templates.md)を参照してください。 また、次のキャンペーンで使用する特定の指示に対して[テンプレートをカスタマイズ](customize-template.md)する方法についても、詳細に掘り下げていきます。
 
 ## 適切なテンプレート要素の使用
@@ -187,4 +195,4 @@ GenStudio for Performance Marketing でテンプレートを使用する際は�
 
 ### カスタムフォントの活用
 
-[!DNL Adobe Express] テンプレートを使用したカスタムフォントの仕組みについて、多くの場合、チームから質問を受けます。 管理者は、カスタムフォントを使用する前に、Admin Console でカスタムフォントの選定オファーを受け入れる必要がある場合があります。[ [!DNL Adobe Express]  テンプレートの使用](express-templates.md)を参照してください。
+[!DNL Adobe Express] テンプレートを使用したカスタムフォントの仕組みについて、多くの場合、チームから質問を受けます。 管理者は、カスタムフォントを使用する前に、Admin Console でカスタムフォントの選定オファーを受け入れる必要がある場合があります。[&#x200B; [!DNL Adobe Express]  テンプレートの使用](express-templates.md)を参照してください。

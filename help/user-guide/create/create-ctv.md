@@ -21,14 +21,14 @@ ht-degree: 1%
 CTV広告を作成する前に、次の点を確認してください。
 
 * [!DNL GenStudio for Performance Marketing] にアクセスします。
-* **[!DNL Brands]**、**[!DNL Products]**&#x200B;および&#x200B;**[!DNL Personas]**&#x200B;は、[!DNL GenStudio for Performance Marketing]で共有オブジェクトとして設定されています。 これらのオブジェクトが生成にどのように影響するかについては、[ ガイドラインの概要](/help/user-guide/guidelines/overview.md)を参照してください。
+* **[!DNL Brands]**、**[!DNL Products]**&#x200B;および&#x200B;**[!DNL Personas]**&#x200B;は、[!DNL GenStudio for Performance Marketing]で共有オブジェクトとして設定されています。 これらのオブジェクトが生成にどのように影響するかについては、[&#x200B; ガイドラインの概要](/help/user-guide/guidelines/overview.md)を参照してください。
 * キャンペーンアセット（ビデオクリップ、画像、ロゴ、音楽）は推奨されますが、必須ではありません。生成AIは、アセットが不足しているか、不完全な場合にギャップを埋めることができます。
 
 ## 新しいCTV広告の作成
 
 このワークフロー内のすべては[!DNL GenStudio for Performance Marketing]内で実行されます。
 
-![ コネクテッド TVの作成カード](./ctv-tile.png){width="50%"}
+![&#x200B; コネクテッド TVの作成カード](./ctv-tile.png){width="50%"}
 **CTV作成に移動するには**:
 
 1. [!DNL GenStudio for Performance Marketing]にログインします。

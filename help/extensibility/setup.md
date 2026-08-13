@@ -3,9 +3,15 @@ title: 今すぐ始める
 description: GenStudio for Performance Marketingを拡張するアドオンやApp Builder アプリの構築を始めましょう。
 exl-id: 755f1a40-add5-43e3-bf54-eaec36ef1e9a
 TQID: https://experienceleague.adobe.com/069NojePrFEaIHs8-jM2w2CfH15X0veKs4XilrmTnlI
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bfaa655b-e017-428d-80d0-09de2183b296id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+  - id: bfaa655b-e017-428d-80d0-09de2183b296
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 338
@@ -34,7 +40,7 @@ GenStudio for Performance Marketing向け拡張可能アプリの開発者は、
 
 ## 環境の設定
 
-開発者は、Adobe App Builderを使用して、GenStudio for Performance Marketing用のカスタムアドオンを構築します。 Adobe Creative エクスペリエンス製品用のカスタムアプリを初めて開発する場合は、Adobe App Builder フレームワークを熟知してください。 チュートリアルとディスカッションについては、[App Builder ドキュメント ](https://developer.adobe.com/app-builder/docs/overview/?lang=ja)を参照してください。
+開発者は、Adobe App Builderを使用して、GenStudio for Performance Marketing用のカスタムアドオンを構築します。 Adobe Creative エクスペリエンス製品用のカスタムアプリを初めて開発する場合は、Adobe App Builder フレームワークを熟知してください。 チュートリアルとディスカッションについては、[App Builder ドキュメント &#x200B;](https://developer.adobe.com/app-builder/docs/overview/?lang=ja)を参照してください。
 
 ### 開発のためのツール
 

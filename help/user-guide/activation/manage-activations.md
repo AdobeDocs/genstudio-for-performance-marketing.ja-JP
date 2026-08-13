@@ -4,10 +4,15 @@ description: Adobe GenStudio for Performance Marketingでアクティベート�
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
 TQID: https://experienceleague.adobe.com/ird0IiW8L5Axjj2FmEjlUcD1sPaNCNfxj9XNqGfQWiI
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 361
@@ -29,7 +34,7 @@ ht-degree: 1%
 
 | 属性 | 値 |
 |------------------|---------------------------------------------------------------------------------------------|
-| エクスペリエンス名 | GenStudio for Performance Marketingでのエクスペリエンスの名前<br>この名前は、_[!DNL Content]_でのエクスペリエンスを識別します |
+| エクスペリエンス名 | GenStudio for Performance Marketingでのエクスペリエンスの名前<br>この名前は、_[!DNL Content]_&#x200B;でのエクスペリエンスを識別します |
 | 広告名 | 広告チャネル内の広告の名前 |
 | 公開日 | 広告エクスペリエンスが正常に公開された日付<br>月日（年）形式を使用 |
 | 公開者 | エクスペリエンスをアクティブ化したGenStudio for Performance Marketing ユーザーの名前 |

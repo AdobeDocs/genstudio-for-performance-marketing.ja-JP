@@ -4,10 +4,15 @@ description: Adobe Adobe GenStudio for Performance Marketingなら、より多�
 feature: Media Templates
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
 TQID: https://experienceleague.adobe.com/b56YHJsOAunGenV-F3u7Y2mo56f6CnnX4qPXyzczPJY
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 371
@@ -17,7 +22,7 @@ ht-degree: 0%
 
 # アクセス可能なテンプレートの作成
 
-Adobeは、あらゆるオーディエンスに最適な体験を提供することに尽力しています。 詳しくは、[Adobeのアクセシビリティイニシアチブ ](https://www.adobe.com/trust/accessibility/initiatives.html)を参照してください。
+Adobeは、あらゆるオーディエンスに最適な体験を提供することに尽力しています。 詳しくは、[Adobeのアクセシビリティイニシアチブ &#x200B;](https://www.adobe.com/trust/accessibility/initiatives.html)を参照してください。
 
 GenStudio for Performance Marketingにアセットとテンプレートをアップロードすれば、さまざまな体験に対応したコンテンツ制作が可能になります。 アクセシビリティ基準を遵守することで、コンテンツが意図する最大限のオーディエンスにリーチできるようになります。
 
@@ -31,12 +36,12 @@ GenStudio for Performance Marketingにアセットとテンプレートをアッ
 <img alt="Collage of ideas, books, man holding giant pencil, computer" src="card-create-assets.png">
 ```
 
-![ アイデア、本、巨大な鉛筆を持つ男性、コンピューターのコラージュ ](/help/assets/card-create-assets.png){width="400"}
+![&#x200B; アイデア、本、巨大な鉛筆を持つ男性、コンピューターのコラージュ &#x200B;](/help/assets/card-create-assets.png){width="400"}
 
 テンプレートをカスタマイズするときは、`alt`および`aria-label`属性にコンテンツプレースホルダーを使用します。
 
-- [代替テキスト ](/help/user-guide/templates/customize-template.md#alternative-text)
-- [ アクセシビリティラベル ](/help/user-guide/templates/customize-template.md#accessibility-label)
+- [代替テキスト &#x200B;](/help/user-guide/templates/customize-template.md#alternative-text)
+- [&#x200B; アクセシビリティラベル &#x200B;](/help/user-guide/templates/customize-template.md#accessibility-label)
 
 ## フォント
 
