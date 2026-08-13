@@ -4,16 +4,10 @@ description: GenStudio for Performance Marketing用のApp Builder アプリま�
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
 TQID: https://experienceleague.adobe.com/7Z4Fb-jPi4FHrTeOgHxxO4fl982sqri-7uEDoylFF-s
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bfaa655b-e017-428d-80d0-09de2183b296
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bfaa655b-e017-428d-80d0-09de2183b296id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
 source-git-commit: ca8bfb11a301697c92e97bad41ea3ba8aa359847
 workflow-type: tm+mt
 source-wordcount: 622
@@ -86,8 +80,8 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 新しい拡張機能は、デプロイした拡張機能のタイプに応じて、UIの様々な場所に表示されます。 現在使用可能な拡張ポイントは次のとおりです。
 
 * 以下を含むコンプライアンス拡張機能：
-   * [*プロンプト拡張ポイント*](#find-prompt-extensions)&#x200B;により、顧客はLLM生成に追加のコンテキストを追加でき、
-   * [*検証の拡張ポイント*](#find-validation-extensions)。顧客は生成されたコンテンツをLLMから検証できます。 検証は、多くの場合、プロンプト拡張機能と組み合わせて使用され、拡張プロンプトで生成されたコンテンツが、お客様の要件（医療用医薬品の請求、法的など）に準拠していることを確認します
+  * [*プロンプト拡張ポイント*](#find-prompt-extensions)&#x200B;により、顧客はLLM生成に追加のコンテキストを追加でき、
+  * [*検証の拡張ポイント*](#find-validation-extensions)。顧客は生成されたコンテンツをLLMから検証できます。 検証は、多くの場合、プロンプト拡張機能と組み合わせて使用され、拡張プロンプトで生成されたコンテンツが、お客様の要件（医療用医薬品の請求、法的など）に準拠していることを確認します
 * [デジタルアセット管理（DAM）拡張機能](#find-dam-extensions)
 * [テンプレート拡張機能](#find-template-extensions)
 * [翻訳拡張機能](#find-translation-extensions)
@@ -97,11 +91,11 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 プロンプト拡張機能は、テンプレートの&#x200B;**パラメーターセクション**&#x200B;の&#x200B;**アドオン** ドロップダウンにあります。
 
-![&#x200B; プロンプト拡張機能](./select-prompt-ext.png){width="600" zoomable="yes"}
+![ プロンプト拡張機能](./select-prompt-ext.png){width="600" zoomable="yes"}
 
 アドオンダイアログが開き、LLM生成用に追加する追加のコンテキストを選択できます。
 
-![拡張機能のプロンプト ドロップダウン &#x200B;](./select-prompt-dropdown.png){width="600" zoomable="yes"}
+![拡張機能のプロンプト ドロップダウン ](./select-prompt-dropdown.png){width="600" zoomable="yes"}
 
 ### 検証拡張機能を探す
 
@@ -115,7 +109,7 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 エラーがある場合は、拡張機能を使用して、プログラムでエクスペリエンスのコピーを更新できます。 「**[!UICONTROL コピー]**」ボタンをクリックすると、候補テキストがクリップボードにコピーされます。 「**[!UICONTROL 適用]**」ボタンをクリックすると、生成されたエクスペリエンスの特定のテキストボックスにテキストが適用されます。
 
-![&#x200B; コピーと適用ボタンを表示する検証エラー](./validation-copy-apply.png){width="600" zoomable="yes"}
+![ コピーと適用ボタンを表示する検証エラー](./validation-copy-apply.png){width="600" zoomable="yes"}
 
 ### DAM拡張機能を探す
 
@@ -127,7 +121,7 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 テンプレートを選択すると、**外部テンプレートアプリ** タブにテンプレート拡張機能が表示されます。 このタブは、選択するテンプレートアプリがある場合にのみ表示されます。
 
-![&#x200B; テンプレート拡張機能](./template-ext.png){width="600" zoomable="yes"}
+![ テンプレート拡張機能](./template-ext.png){width="600" zoomable="yes"}
 
 ### 翻訳拡張機能を探す
 
@@ -148,10 +142,10 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 1. キャンバスで、生成された電子メールのバリエーションの編集可能テキストフィールドをクリックします。
 1. 「**[!UICONTROL スワップ]**」をクリックします。
-   ![&#x200B; テキストを入れ替え](./subject-line-swap.png){width="400" zoomable="yes"}
+   ![ テキストを入れ替え](./subject-line-swap.png){width="400" zoomable="yes"}
 1. サードパーティリポジトリの選択。 組織は、リポジトリの表示とリポジトリ UIの動作を制御します。
 1. フィールドの代替テキストとして使用するクレームを選択します。
 
 アドオンに問題がなければ、`query` パラメーターを指定せずに配布しましょう。
 
-これで、[&#x200B; アプリを配布できます](distribute-app.md)。
+これで、[ アプリを配布できます](distribute-app.md)。

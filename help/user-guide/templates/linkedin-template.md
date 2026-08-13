@@ -1,67 +1,60 @@
 ---
-title: LinkedIn テンプレートのガイドライン
-description: Adobe GenStudio for Performance Marketingで LinkedIn テンプレートを使用する際は、ベストプラクティスに従ってください。
+title: LinkedIn テンプレートガイドライン
+description: Adobe GenStudio for Performance MarketingでLinkedIn テンプレートを使用する場合は、ベストプラクティスに従ってください。
 level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 85432185-8311-411b-b57b-f482c3d45854
 TQID: https://experienceleague.adobe.com/YyG3WuMkdVAaACX03qLKzzw-fFA3WfT9K2ohjnQNPcI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 242ab858144fd152fd55645143f869fddf7b6fe0
 workflow-type: tm+mt
-source-wordcount: 287
+source-wordcount: 293
 ht-degree: 2%
 
 ---
 
-# LinkedIn テンプレートのガイドライン
+# LinkedIn テンプレートガイドライン
 
-LinkedIn テンプレートは、LinkedIn キャンペーン用の広告クリエイティブを構造化された方法で作成およびカスタマイズします。 これらのガイドラインは、広告が LinkedIn の仕様を満たしながら、GenStudio for Performance Marketingのクリエイティブプロセスを合理化することを保証します。 このガイドは、LinkedIn のデスクトップおよびモバイルプラットフォーム全体で一貫したブランディングと効果的なパフォーマンスを準備するのに役立ちます。
+LinkedInのテンプレートは、LinkedInのキャンペーン用の広告クリエイティブを体系化された方法で作成、カスタマイズすることができます。 これらのガイドラインにより、GenStudio for Performance Marketingでクリエイティブなプロセスを合理化しながら、広告がLinkedInの仕様を満たすようにします。 このガイドでは、LinkedInのデスクトップとモバイルのプラットフォーム全体で一貫したブランディングと効果的なパフォーマンスを実現するための準備を整えるのに役立ちます。
 
-LinkedIn 広告テンプレートをカスタマイズしてGenStudio for Performance Marketingと連携させる場合は、次のデザインのベストプラクティスに従います。
+LinkedIn広告テンプレートをGenStudio for Performance Marketingと連携するようにカスタマイズする場合は、次のデザインのベストプラクティスに従ってください。
 
-- 1 つの画像フィールドのみが必要です
-- 最大画像サイズは 5 MB
-- 最大見出し 70 文字
-- 150 文字以内の紹介文
-- 使用できるセクションは 1 つだけで、単一のテンプレート要素セットが生成されます
+- 1つの画像フィールドが必要です
+- 画像の最大サイズ：5 MB
+- 見出しの最大文字数70
+- 入門用テキストの最大文字数：150文字
+- 使用できるセクションは1つだけで、テンプレート要素のセットが1つ生成されます
 
-## 認識されたフィールド名
+## 認識されるフィールド名
 
-LinkedIn テンプレートをカスタマイズする場合は、次の必須フィールドにコンテンツプレースホルダーを適用します。
+LinkedIn テンプレートをカスタマイズする際には、次の必須フィールドにコンテンツプレースホルダーを適用します。
 
-- `image` （必須、コンテンツJPEG、PNG またはGIFから選択）
-- `on_image_text` （画像上に表示されるテキスト）
+- `image` （必須、Content JPEG、PNGまたはGIFから選択）
+- `on_image_text` （画像の上に表示されるテキスト）
 
-GenStudio for Performance Marketingでは、次のフィールドが自動的に生成されます。 次の場合は、コンテンツプレースホルダーを適用する必要はありません。
+GenStudio for Performance Marketingは、次のフィールドを自動生成します。 次の場合、コンテンツプレースホルダーを適用する必要はありません。
 
 - `headline`
 - `introductory_text`
 - `cta` （Call to action）
 
-テンプレートでのフィールド名の使用について詳しくは、[&#x200B; コンテンツプレースホルダー &#x200B;](/help/user-guide/templates/customize-template.md#content-placeholders) を参照してください。
+テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#content-placeholders)を参照してください。
 
-## サポートされる縦横比
+## サポートされている縦横比
 
-すべての LinkedIn テンプレートの幅は、1200 ピクセルでハードコードされています。
+LinkedInのテンプレートの幅はすべて1200 ピクセルでハードコードされています。
 
-| 縦横比 | プラットフォーム | ディメンション （px） | メモ |
+| 縦横比 | プラットフォーム | 寸法（px） | メモ |
 |-------------------|-----------------|------------|-------------------------------------------------------------------------------------|
-| 正方形 1:1 | デスクトップ、モバイル | 1200 x 1200 | 最も用途が広い。 デバイスやプレースメント間で一貫した外観に最適です。 |
-| 水平 1.91:1 | デスクトップ | 1200 x 628 | 標準（横置き）。 スポンサー付きコンテンツおよびニュースフィード広告に一般的に使用されます。 |
-| 縦 1:1.91 | モバイル | 1200 x 2292 | 縦長の縦書き書式。 モバイル表示用に最適化され、より多くの画面が表示されます。 |
-| 縦 2:3 | モバイル | 1200 x 1800 | 1:1.91 より少し背が低い。 モバイルファーストキャンペーンに適しています。 |
-| 縦 4:5 | モバイル | 1200 x 1500 | モバイルにおすすめします。 表示とコンテンツのバランスを取ることができます。これにより、多くの場合、より大きな影響が生じます。 |
+| 正方形1:1 | デスクトップ，モバイル | 1200 x 1200 | 汎用性が高い： デバイスやプレースメント全体で一貫性のある外観を実現するのに最適です。 |
+| 水平方向1.91:1 | デスクトップ | 1200 x 628 | 標準的な横向き形式： スポンサードコンテンツやニュースフィードの広告によく使用されます。 |
+| 縦組み1:1.91 | モバイル | 1200 x 2292 | 縦長の書式。 モバイル表示向けに最適化され、より多くの画面プレゼンスを提供。 |
+| 垂直方向2:3 | モバイル | 1200 x 1800 | 1:1.91より少し背が低くなります。 モバイルファーストの施策に最適： |
+| 縦組み4:5 | モバイル | 1200 x 1500 | モバイル向け。 可視性とコンテンツのバランスを取ることができ、多くの場合、より高い効果をもたらします。 |
 
 <!-- 
 Potentially add an example

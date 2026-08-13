@@ -3,22 +3,18 @@ title: GenStudio for Performance Marketing用の電子メールテンプレー�
 description: Adobe GenStudio for Performance Marketingで使用するメールテンプレートを準備する方法について説明します。
 level: Beginner
 feature: Media Templates
-badgeBeta: label="Beta" tooltip="この機能は現在Betaに搭載されているため、一部の機能が制限されたり、機能が変更されたりする場合があります。"
+badgeBeta: label="ベータ版" tooltip="この機能は、現在ベータ版なので、一部の機能が制限されるか、変更される場合があります。"
 recommendations: noDisplay, noCatalog
 exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
 TQID: https://experienceleague.adobe.com/wM0dD2t751PHH9UkmPpZDzwv-1L90UW5vdcKXDeIBHE
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 404
-ht-degree: 3%
+source-wordcount: 415
+ht-degree: 9%
 
 ---
 
@@ -26,7 +22,7 @@ ht-degree: 3%
 
 _スターターテンプレート_&#x200B;は、GenStudio for Performance Marketingをすばやく使い始め、効果的なメディアの作成方法を学ぶために設計された、事前定義済みのテンプレートオプションです。 [!DNL Create]で、メディアタイプを選択します。 スターターテンプレートが使用可能な場合は、「**[!UICONTROL スターターテンプレート]**」タブに切り替えて、ニーズに合ったテンプレートを参照して選択します。
 
-![&#x200B; スターターテンプレートタブ &#x200B;](/help/assets/starter-templates.png " テンプレートタブの選択"){width="350"}
+![ スターターテンプレートタブ ](/help/assets/starter-templates.png " テンプレートタブの選択"){width="350"}
 
 広告に適切なアスペクト比を選択することは、効果を最大化し、さまざまなプラットフォームやプレースメントをまたいでコンテンツが正しく表示されるようにするために重要です。 アスペクト比を選択する際には、次の点を考慮してください。
 
@@ -42,7 +38,7 @@ _スターターテンプレート_&#x200B;は、GenStudio for Performance Marke
 
 ### LinkedIn広告テンプレート
 
-静止画像では、すべての縦横比がサポートされています。 ビデオの場合は、LinkedIn Storiesに9:16を使用し、ビデオが短い縦長のフォーマットに最適化されていることを確認します。
+静止画像では、すべての縦横比がサポートされています。 動画の場合は、LinkedIn ストーリーズに9:16を使用し、短く縦長のフォーマットに動画を最適化します。
 
 | 縦横比 | オリエンテーション | ガイダンス |
 |--------------|--------------|------------------------------------------------------------------------------------------------|

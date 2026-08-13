@@ -5,18 +5,11 @@ level: Intermediate
 feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
 TQID: https://experienceleague.adobe.com/13RaDoLWSm8KjpzgsMkxAUOULez15KTUj6xF3QSb3vE
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 742
@@ -28,13 +21,13 @@ ht-degree: 4%
 
 デフォルトでは、GenStudio システム管理者は[!DNL Brands]を作成および編集できます。 コンテンツエディターと共同作業者の役割には編集と作成の権限がありますが、システム管理の権限は必要ありません。
 
-これらの[!DNL Brand]関連の使用権限をコンテンツエディターおよび共同作業者に付与するには、Adobe システム管理者がAdobe Admin Consoleでさらに設定タスクを実行する必要があります。 _Enterprise and Teams管理ガイド_&#x200B;の[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html#Overview)を参照してください。
+これらの[!DNL Brand]関連の使用権限をコンテンツエディターおよび共同作業者に付与するには、Adobe システム管理者がAdobe Admin Consoleでさらに設定タスクを実行する必要があります。 _Enterprise and Teams管理ガイド_&#x200B;の[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)を参照してください。
 
 ユーザーとユーザーグループの追加は、Admin Consoleを通じて管理される使用権限を持つすべてのAdobe製品に共通する基本的な作業です。 ユーザー管理の概要とユーザーとユーザーグループを追加する手順については、_Enterprise and Teams管理ガイド_&#x200B;の[Adobe Admin Console ユーザー](https://helpx.adobe.com/jp/enterprise/using/users.html)を参照してください。
 
 このビデオのチュートリアルを見るか、以下の手順に従います。
 
->[!VIDEO](https://video.tv.adobe.com/v/3474998?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3474996?learn=on&enablevpops)
 
 ## 手順1：ユーザーグループの作成
 
@@ -50,7 +43,7 @@ ht-degree: 4%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。 Admin Consoleは、新しく作成されたグループの名前が付いた&#x200B;_新しいグループ_ ポップアップを開きます。
 
-_エンタープライズおよびTeams管理ガイド_&#x200B;の「[&#x200B; ユーザーグループの管理](https://helpx.adobe.com/jp/enterprise/using/user-groups.html)」を参照してください。
+_エンタープライズおよびTeams管理ガイド_&#x200B;の「[ ユーザーグループの管理](https://helpx.adobe.com/jp/enterprise/using/user-groups.html)」を参照してください。
 
 ## 手順2:GenStudio system manager プロファイルをユーザーグループに割り当てる
 
@@ -88,7 +81,7 @@ _エンタープライズおよびTeams管理ガイド_&#x200B;の「[製品プ�
 
 1. 前に作成したユーザーグループの名前を選択します。 _このユーザーグループにユーザーを追加_ ポップアップが開きます。
 
-1. ユーザー名または電子メールアドレスを使用して、新規または既存のユーザーを追加します。 既存のユーザーの名前またはメールアドレスを入力すると、このIMS組織に属する既知のユーザーの名前に一致する名前がこのフィールドに自動的に入力されます。 ユーザーグループの管理について詳しくは、_エンタープライズおよびTeams管理ガイド_&#x200B;の[&#x200B; ユーザーグループの管理](https://helpx.adobe.com/jp/enterprise/using/user-groups.html)を参照してください。
+1. ユーザー名または電子メールアドレスを使用して、新規または既存のユーザーを追加します。 既存のユーザーの名前またはメールアドレスを入力すると、このIMS組織に属する既知のユーザーの名前に一致する名前がこのフィールドに自動的に入力されます。 ユーザーグループの管理について詳しくは、_エンタープライズおよびTeams管理ガイド_&#x200B;の[ ユーザーグループの管理](https://helpx.adobe.com/jp/enterprise/using/user-groups.html)を参照してください。
 
 グループに追加されると、Adobe GenStudio システムマネージャーの[!DNL Brand]の作成、編集、公開権限が付与されます。 また、Adobe GenStudio for Performance Marketing [!DNL Brands] プロジェクトを編集するための招待メールが自動的に送信されます。
 
@@ -108,7 +101,7 @@ _プロジェクト_&#x200B;は、選択したユーザーがアセットを保�
 
 1. 「**[!UICONTROL 作成]**」をクリックします。 「_プロジェクトに招待_」ポップアップが開きます。
 
-_エンタープライズおよびチーム管理ガイド_&#x200B;の「[&#x200B; プロジェクトの管理](https://helpx.adobe.com/jp/enterprise/using/projects-in-business-storage.html)」を参照してください。
+_エンタープライズおよびチーム管理ガイド_&#x200B;の「[ プロジェクトの管理](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html)」を参照してください。
 
 ## 手順5：ユーザーグループをプロジェクトに招待する
 

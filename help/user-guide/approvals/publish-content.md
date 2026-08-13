@@ -1,17 +1,13 @@
 ---
-title: 承認済みコンテンツの公開
-description: Adobe GenStudio for Performance Marketingで承認済みコンテンツを公開する方法を説明します。
+title: 承認済みコンテンツを公開
+description: Adobe GenStudio for Performance Marketingを使用して、承認済みコンテンツを公開する方法を説明します。
 feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
 TQID: https://experienceleague.adobe.com/ATuTbgTanUA6iOrSNUCM2Kf3loY8UoAv1FTE-4HDmnM
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 361
@@ -19,35 +15,35 @@ ht-degree: 0%
 
 ---
 
-# 承認済みコンテンツの公開
+# 承認済みコンテンツを公開
 
-ブランドに合わせて承認済みコンテンツを作成する最終段階では、適切なメタデータを使用してコンテンツを [!DNL Content] に保存します。 ユーザー（コンテンツエディターまたは作成者）は、承認済みアセットを [!DNL Content] に公開して最終処理できます。
+ブランドに即した承認済みコンテンツを作成する最終段階で、適切なメタデータを使用して[!DNL Content]に保存します。 （コンテンツエディターまたはクリエイター）は、承認されたアセットを[!DNL Content]に公開して最終決定できます。
 
-すべての指定承認者がドラフトを承認すると、ドラフトステータスが **承認済み** に変わります。 Adobe GenStudio for Performance Marketingでは、エディターのキャンバスに _公開準備が完了した承認済みのバリアント_ ポップアップが表示されます。
+指定されたすべての承認者がドラフトを承認すると、ドラフトステータスは&#x200B;**Approved**&#x200B;に変更されます。 Adobe GenStudio for Performance Marketingは、エディターのキャンバスに&#x200B;_承認済みバリエーションを公開する準備ができました_ ポップアップを表示します。
 
-その後、適切なメタデータを使用して [!DNL Content] に公開することで、ドラフトを最終処理できます。 承認されたドラフトは、ドラフトを [!DNL Content] に公開するまで、他のGenStudio for Performance Marketing ユーザーは使用できません。
+その後、ドラフトを適切なメタデータを使用して[!DNL Content]に公開して、ドラフトを確定できます。 承認されたドラフトは、ドラフトを[!DNL Content]に公開するまで、他のGenStudio for Performance Marketing ユーザーには使用できません。
 
-**承認されたコンテンツを公開するには**:
+**承認済みコンテンツを公開するには**:
 
-1. 承認済みのドラフトに直接アクセスするか、_公開準備が整った承認済みのバリアント_ ポップアップからアクセスします。 このポップアップには、承認されたアセットの公開を延期する **[!UICONTROL 閉じる]** ボタンと、公開処理を開始する **[!UICONTROL 公開]** ボタンが含まれています。
+1. 承認済みドラフトに直接または&#x200B;_承認済みバリエーションからアクセスして、公開する準備ができました_ ポップアップを表示します。 このポップアップには、承認されたアセットの公開を延期する&#x200B;**[!UICONTROL 閉じる]** ボタンと、公開プロセスを開始する&#x200B;**[!UICONTROL 公開]** ボタンが含まれています。
 
-1. **[!UICONTROL 公開]** をクリックして、アセットまたはエクスペリエンスを [!DNL Content] に保存します。 GenStudio for Performance Marketingに _承認されたコンテンツの詳細を確認_ ウィンドウが表示され、承認されたアセットのサムネールが表示されます。
+1. 「**[!UICONTROL 公開]**」をクリックして、アセットまたはエクスペリエンスを[!DNL Content]に保存します。 GenStudio for Performance Marketingには、承認済みコンテンツ _ウィンドウの_&#x200B;確認の詳細が表示され、承認済みアセットのサムネールが表示されます。
 
-1. GenStudio for Performance Marketingの指示に従って、コンテンツに関する情報を追加します。 この情報は、メタデータとして保存され、フィルターおよび検索操作 [!DNL Content] 値を追加します。 公開プロセスのこの時点で、アセットをGenStudio for Performance Marketing キャンペーンに追加できます。
+1. GenStudio for Performance Marketingのプロンプトに従って、コンテンツに関する情報を追加します。 この情報はメタデータとして保存され、[!DNL Content]個のフィルターおよび検索操作に値が追加されます。 公開プロセスのこの時点で、アセットをGenStudio for Performance Marketing キャンペーンに追加できます。
 
-1. コンテンツの公開プロセスが完了すると、GenStudio for Performance Marketingに _承認されたバリエーションが公開されました_ ポップアップが表示されます。 このポップアップウィンドウから、次の操作を実行できます。
+1. コンテンツ公開プロセスが完了すると、GenStudio for Performance Marketingに&#x200B;_承認済みバリエーションが公開されました_ ポップアップが表示されます。 このポップアップウィンドウでは、次の操作を実行できます。
 
-   * **[!UICONTROL コンテンツで開く]** をクリックして、公開されたアセットまたはエクスペリエンスを表示します。
+   * 「**[!UICONTROL コンテンツで開く]**」をクリックして、公開されたアセットまたはエクスペリエンスを表示します。
 
-   * **[!UICONTROL 新しい項目を作成]** をクリックして、新しいコンテンツを作成します。
+   * 「**[!UICONTROL 新しいものを作成]**」をクリックして、新しいコンテンツを作成します。
 
 ## 公開後
 
-すべてのGenStudio for Performance Marketing ユーザーは、[!DNL Content] で承認済みのアセットやエクスペリエンスにアクセスできます。 _アセットの詳細_ パネルには、アセットのアップロード履歴と承認履歴が表示されます。 これらの属性は、保存されたコンテンツを識別します。
+すべてのGenStudio for Performance Marketing ユーザーは、[!DNL Content]で承認済みアセットまたはエクスペリエンスにアクセスできます。 _アセットの詳細_ パネルには、アセットのアップロードと承認の履歴が表示されます。 保存されたコンテンツは、次の属性によって識別されます。
 
-* **[!UICONTROL 作成者]**：アセットまたはエクスペリエンスをアップロードしたGenStudio ユーザーを識別します。
-* **[!UICONTROL 承認履歴]**：承認日時および承認者を識別します。
+* **[!UICONTROL 作成者]**: アセットまたはエクスペリエンスをアップロードしたGenStudio ユーザーを特定します。
+* **[!UICONTROL 承認履歴]**：承認日時と承認者を特定します。
 
-ドラフトアセットまたはエクスペリエンスを [!DNL Content] に保存した後のドラフト URL は無効です。
+ドラフトのアセットまたはエクスペリエンスを[!DNL Content]に保存した後、ドラフト URLが無効になります。
 
-Workfront Proofの統合を有効にした場合、プルーフのコメントとバージョンは、アセットまたはエクスペリエンスの公開後に保存されます。
+Workfront Proofとの連携を有効にしている場合、アセットまたはエクスペリエンスの公開後にプルーフコメントとバージョンが保存されます。

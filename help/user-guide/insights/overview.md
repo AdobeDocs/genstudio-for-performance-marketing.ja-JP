@@ -5,28 +5,14 @@ level: Intermediate
 feature: Reporting and Insights
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
 TQID: https://experienceleague.adobe.com/7ERGkM2wuM8JHYf-bi-SAVMSblhwpkt7NNuUNgCCcfc
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: b03d2162-d906-40a0-9cbd-001391e22d4a
-  - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 96438790ee2d211cee8ab076b13f8d404b0a2700
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1002
 ht-degree: 100%
 
@@ -42,7 +28,7 @@ Adobe GenStudio for Performance Marketing [!DNL Insights] は、データに基�
 - **パフォーマンスの低いコンテンツを最適化**：パフォーマンスの低いコンテンツを見つけ、統合された生成 AI を使用してバリエーションをすぐに作成すると、ゼロから開始することなく、その効果を向上させることができます。
 - **パフォーマンスの高いコンテンツを再活性化**：成功しているコンテンツを利用し、調整して、オーディエンス向けに更新したり、ヒーローコンテンツを新しいキャンペーン用に適応させたりすると、そのライフサイクルやパフォーマンスをさらに延ばすことができます。
 
-[!DNL Insights] モジュールには、有料ソーシャル向けのクロスチャネルパフォーマンスエクスペリエンスである **[!UICONTROL Insights 2.0]** が含まれています。これは、この記事の[ダッシュボード](#dashboard)の節にある詳細なテーブルおよびギャラリービューと共に機能します。
+[!DNL Insights] モジュールには、有料ソーシャル向けのクロスチャネルパフォーマンスエクスペリエンスである **[!UICONTROL Insights 2.0]** が含まれています。 これは、この記事の[ダッシュボード](#dashboard)の節にある詳細なテーブルおよびギャラリービューと共に機能します。
 
 ## Insights 2.0 {#insights-20}
 
@@ -62,13 +48,13 @@ Adobe GenStudio for Performance Marketing [!DNL Insights] は、データに基�
 
 >[!NOTE]
 >
->**[!UICONTROL Insights 2.0]** には現在、**Meta** と **LinkedIn** のみが含まれています。現時点では、TikTok、DV360、Innovid は **[!UICONTROL Insights 2.0]** の概要に含まれていません。[ダッシュボード](#dashboard)の節の&#x200B;**[!UICONTROL キャンペーン]**、**[!UICONTROL 広告]**、**[!UICONTROL メディア]**、**[!UICONTROL 属性]**&#x200B;の各ビューは、引き続き[サポートされているチャネル](#channels-supported)で説明されているより広範なチャネルセットをサポートします。
+>**[!UICONTROL Insights 2.0]** には現在、**Meta** と **LinkedIn** のみが含まれています。 現時点では、TikTok、DV360、Innovid は **[!UICONTROL Insights 2.0]** の概要に含まれていません。 [ダッシュボード](#dashboard)の節の&#x200B;**[!UICONTROL キャンペーン]**、**[!UICONTROL 広告]**、**[!UICONTROL メディア]**、**[!UICONTROL 属性]**&#x200B;の各ビューは、引き続き[サポートされているチャネル](#channels-supported)で説明されているより広範なチャネルセットをサポートします。
 
 ## Data Connectors
 
 初めて [!DNL Insights] を開いた際、Adobe GenStudio for Performance Marketing とチャネルアカウントとの接続をガイドするバナーが表示される場合があります。
 
-この接続により、GenStudio for Performance Marketing は、アクティブなマーケティングキャンペーン、メディア、広告から統計データを受信できます。まず、GenStudio for Performance Marketing は過去 6 か月間のデータを取り込みます。これにより、最新のデータを分析し、アクションを実行するツールを使用できます。
+この接続により、GenStudio for Performance Marketing は、アクティブなマーケティングキャンペーン、メディア、広告から統計データを受信できます。 まず、GenStudio for Performance Marketing は過去 6 か月間のデータを取り込みます。これにより、最新のデータを分析し、アクションを実行するツールを使用できます。
 
 {{connect-insights}}
 
@@ -76,9 +62,9 @@ Adobe GenStudio for Performance Marketing [!DNL Insights] は、データに基�
 
 Insights でサポートされているチャネルには、Meta、LinkedIn、TikTok、DV360、Innovid が含まれます。
 
-Meta、LinkedIn、TikTok では、キャンペーン、広告、メディア、属性に関する完全な可視性を提供します。DV360 と Innovid は現在、より限定的なデータカバレッジを提供します。
+Meta、LinkedIn、TikTok では、キャンペーン、広告、メディア、属性に関する完全な可視性を提供します。 DV360 と Innovid は現在、より限定的なデータカバレッジを提供します。
 
-現時点では、DV360 と Innovid のメディアデータは使用できません。これにより、これらのチャネルについては「属性」タブも表示されません。「属性」タブは、エクスペリエンスから抽出された特性を表示するために、メディアレベルのデータに依存しています。
+現時点では、DV360 と Innovid のメディアデータは使用できません。これにより、これらのチャネルについては「属性」タブも表示されません。 「属性」タブは、エクスペリエンスから抽出された特性を表示するために、メディアレベルのデータに依存しています。
 
 この制限は、有料メディアプラットフォーム自体の制約によるもので、GenStudio for Performance Marketing の問題ではありません。
 
@@ -88,33 +74,33 @@ Meta、LinkedIn、TikTok では、キャンペーン、広告、メディア、�
 
 ![[!DNL Insights] ダッシュボード](/help/assets/insights-dashboard.png)
 
-各ビューには対応するテーブルが表示され、キーワード、フィルタリング、日付範囲で検索できます。テーブルの右上にある設定（歯車）アイコンをクリックすると、表示する列のタイプを切り替えることができます。_[!UICONTROL 概要]_&#x200B;行には、列の合計や平均が表示される場合があります。
+各ビューには対応するテーブルが表示され、キーワード、フィルタリング、日付範囲で検索できます。 テーブルの右上にある設定（歯車）アイコンをクリックすると、表示する列のタイプを切り替えることができます。 _[!UICONTROL 概要]_&#x200B;行には、列の合計や平均が表示される場合があります。
 
-[!UICONTROL 広告]、[!UICONTROL メディア]、[!UICONTROL 属性]には、画像やビデオのサムネイル付きカードを使用してアセットをスキャンおよび並べ替えできるギャラリービューが含まれます。各カードに、`Click-through rate`、`Cost per click`、`Spend` という 3 つの主要指標のいずれかを表示するオプションがあります。
+[!UICONTROL 広告]、[!UICONTROL メディア]、[!UICONTROL 属性]には、画像やビデオのサムネイル付きカードを使用してアセットをスキャンおよび並べ替えできるギャラリービューが含まれます。 各カードに、`Click-through rate`、`Cost per click`、`Spend` という 3 つの主要指標のいずれかを表示するオプションがあります。
 
 ### キャンペーン
 
-[[!DNL Insights] _[!UICONTROL  のキャンペーン&#x200B;]_ビュー](campaigns.md)は、デフォルトのビューで、目的、予算、開始日、アクティビティなど、アクティブなキャンペーンの詳細リストを表示します。GenStudio for Performance Marketing が統計データの受信を開始するように、[チャネルアカウントを接続](/help/user-guide/connectors/connect-channel.md)します。
+[[!DNL Insights] _[!UICONTROL  のキャンペーン&#x200B;]_ビュー](campaigns.md)は、デフォルトのビューで、目的、予算、開始日、アクティビティなど、アクティブなキャンペーンの詳細リストを表示します。 GenStudio for Performance Marketing が統計データの受信を開始するように、[チャネルアカウントを接続](/help/user-guide/connectors/connect-channel.md)します。
 
 ### 公開されたエクスペリエンス
 
-[[!DNL Insights] _[!UICONTROL  の公開されたエクスペリエンスの詳細&#x200B;]_ビュー](published-experiences.md)は、エクスペリエンスの効果を評価することに重点を置いています。[!UICONTROL 公開されたエクスペリエンス]ビューでは、指定した日付範囲内でのエクスペリエンスのプレースメントに基づいて、その指標を分析できます。_[!UICONTROL &#x200B;エクスペリエンス名&#x200B;]_をクリックすると、エクスペリエンスのパフォーマンス指標、プレースメント別のパフォーマンス、属性を表示できます。
+[[!DNL Insights] _[!UICONTROL  の公開されたエクスペリエンスの詳細&#x200B;]_ビュー](published-experiences.md)は、エクスペリエンスの効果を評価することに重点を置いています。 [!UICONTROL 公開されたエクスペリエンス]ビューでは、指定した日付範囲内でのエクスペリエンスのプレースメントに基づいて、その指標を分析できます。_[!UICONTROL &#x200B;エクスペリエンス名&#x200B;]_をクリックすると、エクスペリエンスのパフォーマンス指標、プレースメント別のパフォーマンス、属性を表示できます。
 
 ### メディア
 
-[[!DNL Insights] _[!UICONTROL  のメディア&#x200B;]_ビュー](media.md)は、クリエイティブコンテンツのパフォーマンスを分析するのに役立つように設計されています。クリック数やインプレッション数など、選択した指標の向上に貢献するメディア属性を特定できます。
+[[!DNL Insights] _[!UICONTROL  のメディア&#x200B;]_ビュー](media.md)は、クリエイティブコンテンツのパフォーマンスを分析するのに役立つように設計されています。 クリック数やインプレッション数など、選択した指標の向上に貢献するメディア属性を特定できます。
 
 メディアコンテンツをクリックすると、様々な広告や広告プレースメントでのそのパフォーマンスに関する詳細な情報が表示されます。
 
 ![メディアの詳細](/help/assets/insights-media-details.png){width="600" zoomable="yes"}
 
-メディアの詳細ビューの左側には、アセットのサムネイルと属性のリストが表示されます。ハイライト表示されている指標には、`Click-through rate`、`Cost per click`、`Spend` の 3 つがあります。パフォーマンスのハイライトでは、選択した期間（デフォルトは `Last 30 days`）の実際の値（実線）と平均値（点線）の比較が表示されます。
+メディアの詳細ビューの左側には、アセットのサムネイルと属性のリストが表示されます。 ハイライト表示されている指標には、`Click-through rate`、`Cost per click`、`Spend` の 3 つがあります。 パフォーマンスのハイライトでは、選択した期間（デフォルトは `Last 30 days`）の実際の値（実線）と平均値（点線）の比較が表示されます。
 
 ### 属性
 
-メディア&#x200B;_属性_&#x200B;は、カラー、トーン、コンポジション（被写体、フォント、ビジュアル要素など）、その他の主要なコンポーネントなど固有の詳細別にクリエイティブコンテンツを識別するのに役立ちます。属性は、多くの場合、最も測定と分析が少ないコンテンツ情報のセットです。
+メディア&#x200B;_属性_&#x200B;は、カラー、トーン、コンポジション（被写体、フォント、ビジュアル要素など）、その他の主要なコンポーネントなど固有の詳細別にクリエイティブコンテンツを識別するのに役立ちます。 属性は、多くの場合、最も測定と分析が少ないコンテンツ情報のセットです。
 
-[[!DNL Insights] _[!UICONTROL  の属性&#x200B;]_ビュー](attributes.md)を使用すると、特定のオーディエンス、チャネル、地域でパフォーマンスが高い属性を調査および特定し、季節ごとのトレンドをハイライト表示できます。これらのインサイトを使用すると、パフォーマンスが高い属性を使用して、バリアントを作成したり、特定のオーディエンスをターゲットにしたり、異なるキャンペーン戦略で実験したりできます。
+[[!DNL Insights] _[!UICONTROL  の属性&#x200B;]_ビュー](attributes.md)を使用すると、特定のオーディエンス、チャネル、地域でパフォーマンスが高い属性を調査および特定し、季節ごとのトレンドをハイライト表示できます。 これらのインサイトを使用すると、パフォーマンスが高い属性を使用して、バリアントを作成したり、特定のオーディエンスをターゲットにしたり、異なるキャンペーン戦略で実験したりできます。
 
 ### 広告タグ
 

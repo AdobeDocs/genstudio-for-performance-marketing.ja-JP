@@ -4,42 +4,29 @@ description: デジタルマーケティングのニーズに合わせて、生�
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
 TQID: https://experienceleague.adobe.com/2VdZdQv90JGEpCM7BE4egbz933eotbeePy3ze35mM0o
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 2125
+source-wordcount: 2129
 ht-degree: 0%
 
 ---
 
 # バリアントの管理
 
-Adobe GenStudio for Performance Marketing [!DNL Create]では、生成されたバリエーション（[電子メール &#x200B;](/help/user-guide/create/email-experiences.md)、[Meta広告](/help/user-guide/create/meta-experiences.md)など）をカスタマイズおよび強化して、デジタルマーケティング施策で使用できます。
+Adobe GenStudio for Performance Marketing [!DNL Create]では、生成されたバリエーション（[電子メール ](/help/user-guide/create/email-experiences.md)、[Meta広告](/help/user-guide/create/meta-experiences.md)など）をカスタマイズおよび強化して、デジタルマーケティング施策で使用できます。
 
-[&#x200B; エクスペリエンスを作成](/help/user-guide/create/overview.md)する場合、生成されたバリエーションのコンテンツとアセットを個別に変更するか、バッチで変更できます。 個々のマイクロレベルでバリエーションを管理できるので、生成されたコンテンツの各部分を管理できます。
+[ エクスペリエンスを作成](/help/user-guide/create/overview.md)する場合、生成されたバリエーションのコンテンツとアセットを個別に変更するか、バッチで変更できます。 個々のマイクロレベルでバリエーションを管理できるので、生成されたコンテンツの各部分を管理できます。
 
 ## ドラフト名の変更
 
 生成されたバリアントのドラフトには、カンバスの上部に表示されるデフォルトの名前が付いています。 デフォルトのドラフト名では、チャネルタイプ、日付、生成時間を含む次の規則を使用します。
 
-*例*:「Meta：名称未設定のドラフト - 09.5.24、午前9:56」
+*例*:「Meta：名称未設定ドラフト - 09.5.24、午前9:56」
 
 **既定の名前**&#x200B;を変更するには：
 
@@ -66,7 +53,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create]では、生成された�
 
 1. バリエーションのセットを生成したら、バリエーション内の編集可能なテキストをダブルクリックします。
 1. 新しいテキストを入力します。
-1. テキストを書式設定するには、該当するテキストを強調表示し、[!UICONTROL &#x200B; テキスト&#x200B;**書式設定**]をクリックします。
+1. テキストを書式設定するには、該当するテキストを強調表示し、[!UICONTROL  テキスト**書式設定**]をクリックします。
 
    任意（またはすべて）を適用 書式設定オプションが表示されます。
 
@@ -90,7 +77,7 @@ GenStudio for Performance Marketingには、生成されたバリエーション
 
 例えば、Metaの広告バリエーションの「見出し」セクションを再生成し、特定の背景アセットでどのように見えるかを確認できます。 セクションのコンテンツを&#x200B;_[!UICONTROL 言い換え]_、_[!UICONTROL 短くする]_、_[!UICONTROL 長くする]_&#x200B;ことも、_[!UICONTROL 新しいテキストを生成して]_&#x200B;新しいプロンプトを追加することもできます。
 
-![&#x200B; セクションを再生成](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
+![ セクションを再生成](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
 **個別のバリアント セクションを再生成するには**:
 
@@ -109,7 +96,7 @@ GenStudio for Performance Marketingには、生成されたバリエーション
 
 >[!NOTE]
 >
->ラベルテキストが生成されたテンプレートフィールド（テンプレート内でハードコーディングされていない）の場合は、_[!UICONTROL 言い換え]_ オプションを使用して、CTA ラベルテキストを編集できます。 CTA リンクが既存で編集可能な場合（テンプレート内でハードコードされていない場合）は、_[!UICONTROL リンクを編集]_ オプションを使用してリンクを編集できます。
+ラベルテキストが生成されたテンプレートフィールド（テンプレート内でハードコーディングされていない）の場合は、_[!UICONTROL 言い換え]_ オプションを使用して、CTA ラベルテキストを編集できます。 CTA リンクが既存で編集可能な場合（テンプレート内でハードコードされていない場合）は、_[!UICONTROL リンクを編集]_ オプションを使用してリンクを編集できます。
 
 **バリアントのCTAを修正するには**:
 
@@ -172,7 +159,7 @@ GenStudio for Performance Marketingには、生成されたバリエーション
 
    生成拡張を使用した後：
 
-   生成拡張![&#128279;](/help/assets/after-genexpand.png){width="300" zoomable="yes"}後
+   生成拡張](/help/assets/after-genexpand.png){width="300" zoomable="yes"}後![
 
 1. 「**[!UICONTROL 生成]**」をクリックします。
 1. 生成されたオプションをクリックして選択するか、生成されたオプションのリストを表示するには、**[!UICONTROL 詳細]** （プラスアイコン）をクリックします。
@@ -181,11 +168,11 @@ GenStudio for Performance Marketingには、生成されたバリエーション
 
 ## 縦横比を変更
 
-Meta広告[&#128279;](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)の縦横比を素早く変更して、目的の広告サイズに合わせることができます。 テンプレートのサイズにぴったりと合う画像の縦横比を選択して、不要な切り抜きや伸縮を避けます。 例えば、テンプレートが1200 × 628 ピクセル（広い長方形）の場合、1:1正方形の画像を使用すると、側面が切り抜かれ、重要なコンテンツが切り取られる可能性があります。 最適な画像サイズは628 x 628 ピクセルで、テンプレートの高さと一致します。
+Meta広告](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)の[縦横比を素早く変更して、目的の広告サイズに合わせることができます。 テンプレートのサイズにぴったりと合う画像の縦横比を選択して、不要な切り抜きや伸縮を避けます。 例えば、テンプレートが1200 ピクセル×628 ピクセル（広い長方形）の場合、1:1の正方形の画像を使用すると、辺が切り抜かれ、重要なコンテンツが切り取られる可能性があります。 最適な画像サイズは628 x 628 ピクセルで、テンプレートの高さと一致します。
 
 >[!NOTE]
 >
->利用可能なテンプレートに応じて、さまざまな縦横比やサイズを利用できます。
+利用可能なテンプレートに応じて、さまざまな縦横比やサイズを利用できます。
 
 **生成されたMeta広告の縦横比を変更するには**:
 
@@ -203,7 +190,7 @@ Meta広告[&#128279;](/help/user-guide/templates/meta-template.md#supported-aspe
 
    [!DNL Create]は、新しく選択した縦横比に基づいて、各バリアントのコピーを作成します。 初期アスペクト比のバリエーションを含め、すべてのバリエーションがカンバスに表示されます。
 
-   例えば、最初に1:1縦横比で4つのバリエーションを生成し、その後アスペクト比を4:5に変更した場合、合計&#x200B;_8_&#x200B;のバリエーションがキャンバスで利用できるようになりました。
+   例えば、最初に1:1のアスペクト比で4つのバリエーションを生成し、そのアスペクト比を4:5に変更した場合、合計&#x200B;_8_&#x200B;のバリエーションがキャンバスで利用できるようになりました。
 
 ## スワップ画像
 
@@ -215,7 +202,7 @@ Meta広告[&#128279;](/help/user-guide/templates/meta-template.md#supported-aspe
 1. 「**[!UICONTROL コンテンツから入れ替え]**」アイコンをクリックします。
 1. GenStudio アセット [!DNL Content] ビューのフィルターと検索機能を使用して、検索結果をさらに絞り込みます。
 
-   また、[**[!UICONTROL 場所&#x200B;]**&#x200B;メニュー](/help/user-guide/content/manage-assets.md#location)からそのリポジトリを選択すると、接続されたAdobe Experience Manager （AEM） Assets Content Hub リポジトリで使用可能な画像を使用できます。
+   また、[**[!UICONTROL 場所&#x200B;]**メニュー](/help/user-guide/content/manage-assets.md#location)からそのリポジトリを選択すると、接続されたAdobe Experience Manager （AEM） Assets Content Hub リポジトリで使用可能な画像を使用できます。
 
 1. クリックして画像を選択し、**[!UICONTROL 使用]**&#x200B;をクリックします。
 
@@ -223,7 +210,7 @@ Meta広告[&#128279;](/help/user-guide/templates/meta-template.md#supported-aspe
 
 ## リンクを追加
 
-バリエーション内のテキスト、画像、CTA ボタンにリンクを追加できます。 バリエーションの生成に使用したテンプレート _には、この機能を有効にするために、リンク [&#128279;](/help/user-guide/templates/customize-template.md#content-placeholders)の コンテンツプレースホルダーが含まれている必要があります_。
+バリエーション内のテキスト、画像、CTA ボタンにリンクを追加できます。 バリエーションの生成に使用したテンプレート _には、この機能を有効にするために、リンク ](/help/user-guide/templates/customize-template.md#content-placeholders)の[ コンテンツプレースホルダーが含まれている必要があります_。
 
 **バリアントにリンクを追加するには**:
 
@@ -240,7 +227,7 @@ Meta広告[&#128279;](/help/user-guide/templates/meta-template.md#supported-aspe
 
 作成プロセス中にコンテンツ（画像）を追加すると、含まれる画像ごとに代替テキストを定義できます。 画像に代替テキストを追加すると、アクセシビリティ、検索エンジンの最適化、ユーザーエクスペリエンスが向上します。
 
-代替テキスト機能を有効にするには、[&#x200B; テンプレートにコンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#alternative-text)を追加します。
+代替テキスト機能を有効にするには、[ テンプレートにコンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#alternative-text)を追加します。
 
 **生成されたバリアントの画像に代替テキストを追加するには**:
 
@@ -266,7 +253,7 @@ Meta広告[&#128279;](/help/user-guide/templates/meta-template.md#supported-aspe
 1. テキストボックスをクリックし、リンクまたはボタンの機能を説明する簡単な説明を追加します。 例えば、「WKNDの公式サイトで買い物」というcall to actionのボタンリンクを使用できます。
 1. 「**[!UICONTROL 適用]**」をクリックします。
 
-アクセシビリティラベル機能を有効にするには、[&#x200B; テンプレートにコンテンツプレースホルダー](/help/user-guide/templates/customize-template.md)を追加します。
+アクセシビリティラベル機能を有効にするには、[ テンプレートにコンテンツプレースホルダー](/help/user-guide/templates/customize-template.md)を追加します。
 
 ## デバイスのプレビュー
 
@@ -292,15 +279,15 @@ Meta広告[&#128279;](/help/user-guide/templates/meta-template.md#supported-aspe
 
 ## ブランド検証
 
-_コンテンツチェック_ パネルを使用して、一貫したブランドアイデンティティ、[ADA アクセシビリティ標準、プラットフォームガイドライン &#x200B;](/help/user-guide/guidelines/overview.md#content-checks)、およびバリエーションの調整を維持します。
+_コンテンツチェック_ パネルを使用して、一貫したブランドアイデンティティ、[ADA アクセシビリティ標準、プラットフォームガイドライン ](/help/user-guide/guidelines/overview.md#content-checks)、およびバリエーションの調整を維持します。
 
-[&#x200B; ブランド検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
+[ブランドの検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
 
 ## 生成フィードバック
 
 生成されたブランドに沿ったアセットの品質に関するフィードバックを送信して、コンテンツ生成プロセスを改善できます。 結果の質が高いか低いかを示すことで、GenStudio for Performance Marketingのコンテンツ品質とユーザーの安全性を全体的に向上させることができます。
 
-![&#x200B; コンテンツ生成に関するフィードバックを送信](/help/assets/generation-feedback.png){width="500" zoomable="yes"}
+![ コンテンツ生成に関するフィードバックを送信](/help/assets/generation-feedback.png){width="500" zoomable="yes"}
 
 生成フィードバックは、収集されたバリアントのセットではなく、個々のバリアントに適用されます。
 
