@@ -57,7 +57,7 @@ GenStudio for Performance Marketingが確実に動作するために必要な次
 - AEP Connections: データフローの先頭に`GS Insights`を付ける
 - AEP Connections: GS Insights アカウント
 
-AEPのデータコンポーネントを削除する前に、_Customer Journey Analytics_ ガイドの[&#x200B; インプリケーションの削除](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion)を参照してください。
+AEPのデータコンポーネントを削除する前に、_Customer Journey Analytics_ ガイドの[&#x200B; インプリケーションの削除](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/deletion)を参照してください。
 
 >[!ENDSHADEBOX]
 
