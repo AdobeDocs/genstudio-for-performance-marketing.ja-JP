@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Adobe Exchangeからアプリをインストールする
 
->[!VIDEO](https://video.tv.adobe.com/v/3483287?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483300?captions=jpn&learn=on)
 
 1. [Adobe Exchange](https://exchange.adobe.com)を開き、**[!UICONTROL CX Enterprise]**&#x200B;に移動します。
 1. GenStudio[&#128279;](https://exchange.adobe.com/apps/ec/abpopqqr1q/journey-optimizer-for-genstudio)のJourney Optimizer リストを開きます。
