@@ -23,8 +23,8 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 931
-ht-degree: 89%
+source-wordcount: 933
+ht-degree: 84%
 
 ---
 
@@ -70,7 +70,7 @@ System Manager が [!DNL Activate] のTikTok Ads アカウントに接続しま�
 ### 設定の作成
 
 * [&#x200B; ブランド、製品、ペルソナ &#x200B;](/help/user-guide/guidelines/overview.md) は、アプリがブランド上のコピーとレイアウトを生成できるように設定されます。
-* 1 つ以上のTikTok テンプレートがアップロードされています。 Adobeでは、フィード内に配置するために最適化され、アスペクト比が **9:16** で、上部と下部の UI にセーフゾーンが付いた、TikTokの縦向きビデオテンプレートをお勧めします。
+* 1 つ以上のTikTok テンプレートがアップロードされています。 Adobeでは、**9:16**&#x200B;の縦横比と上下UIのセーフゾーンを備えた、インフィード配置に最適化されたTikTok縦長ビデオテンプレートを推奨しています。
 * ビデオが [!DNL Content] にアップロードされています。
 
 ## TikTokのフィード内広告の生成
@@ -95,7 +95,7 @@ GenStudio for Performance Marketingでは、4 つのクリエイティブのバ�
 * トーン、長さ、強調を調整するには、**[!UICONTROL 再生成]** または **[!UICONTROL リファイン]** を使用します。
 * キャンバス内でテキストを直接編集します。
 * **[!UICONTROL スワップ]** を使用して、[!DNL Content] から代替ビデオを選択します。
-* **[!UICONTROL 9:16** フレーム内のビデオのレイアウトを調整するには、**[!UICONTROL 切り抜き]** または **再フレーム]** を使用します。
+* **[!UICONTROL 切り抜き]**&#x200B;または&#x200B;**[!UICONTROL リフレーム]**&#x200B;を使用して、**9:16** フレーム内のビデオレイアウトを調整します。
 
 ### ブランドチェックとチャネルチェックの実行
 

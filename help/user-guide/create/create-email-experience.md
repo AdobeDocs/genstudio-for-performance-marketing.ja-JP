@@ -136,7 +136,7 @@ ht-degree: 0%
 
 2. [&#x200B; バリエーションを手動で修正](#revise-generated-variants)して、バリエーションが実行されたコンテンツチェックと密接に連携していることを確認します。
 
-[&#x200B; ブランド検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
+[ブランドの検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
 
 ## レビューと承認を取得
 

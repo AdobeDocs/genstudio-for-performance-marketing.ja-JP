@@ -4,7 +4,7 @@ description: GenStudio Adobe Exchange用Journey Optimizer アプリをインス�
 feature: Extensibility
 source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -57,10 +57,10 @@ Journey Optimizer APIのOAuth資格情報を提供する[Adobe Developer Console
    ![&#x200B; デプロイ前のAJO資格情報による設定（ドラフト） &#x200B;](/help/extensibility/ajo-config-004.png){width="80%"}
 1. Journey Optimizer APIが追加されたDeveloper Console プロジェクトの資格情報（例：**[!UICONTROL AJO クライアント ID]**、**[!UICONTROL AJO クライアントシークレット]**、**[!UICONTROL AJO トークン エンドポイント]**&#x200B;およびその他の必須フィールド）を入力します。
 1. すべての小文字&#x200B;**に** サンドボックス名を入力します（例：`prod`）。
-1. 「**[!UICONTROL デプロイ]**」をクリックします。デプロイメントが完了すると、ステータスは「デプロイ済み」と表示されます。ボタンのテキストが&#x200B;**[!UICONTROL デプロイ解除]**&#x200B;に変更されます。
+1. 「**[!UICONTROL デプロイ]**」をクリックします。 デプロイメントが完了すると、ステータスは「デプロイ済み」と表示されます。 ボタンのテキストが&#x200B;**[!UICONTROL デプロイ解除]**&#x200B;に変更されます。
    ![&#x200B; デプロイ済みアプリとアンデプロイ済みアプリは、App Builderのアプリケーションビュー](/help/extensibility/ajo-config-005.png){width="80%"}で利用できます
 
-デプロイメント後、Adobe Developer Consoleには、AJOおよびAdobe Runtime APIを使用したGenStudio &lt;Your_Environment_Name>**用の**&#x200B;Journey Optimizerという名前の新しい自動生成プロジェクトが含まれます。このプロジェクトは読み取り専用で、編集または削除できません。
+デプロイメント後、Adobe Developer Consoleには、AJOおよびAdobe Runtime APIを使用したGenStudio &lt;Your_Environment_Name>**用の**&#x200B;Journey Optimizerという名前の新しい自動生成プロジェクトが含まれます。 このプロジェクトは読み取り専用で、編集または削除できません。
 ![&#x200B; デプロイメント後に読み取り専用の自動生成されたDeveloper Console プロジェクト &#x200B;](/help/extensibility/ajo-auto-project.png){width="100%"}
 
 ### 設定を更新

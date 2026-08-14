@@ -23,10 +23,10 @@ Adobe [!DNL GenStudio for Performance Marketing]では、HTML キャンバスで
 
 HTMLのカンバスですぐに使用できる翻訳では、次の機能をサポートしています。
 
-* [&#x200B; メールエクスペリエンス &#x200B;](/help/user-guide/create/email-experiences.md)
+* [メールエクスペリエンス](/help/user-guide/create/email-experiences.md)
 * [Meta](/help/user-guide/create/meta-experiences.md)、[LinkedIn](/help/user-guide/create/linkedin-experiences.md)、[&#x200B; ディスプレイ &#x200B;](/help/user-guide/create/display-ad-experiences.md)広告などの有料メディア体験
 
-## 開始する前に
+## 始める前に
 
 翻訳するエクスペリエンスが&#x200B;**承認済み**&#x200B;であり、[!DNL Content] _[!UICONTROL エクスペリエンス]_ ギャラリーで利用できることを確認してください。 ドラフトまたはレビュー中のエクスペリエンスは、翻訳ソースの資格がありません。
 
@@ -146,8 +146,8 @@ HTML キャンバスでエクスペリエンスを変換する際は、次の制
 
 ## 関連情報
 
-* [&#x200B; メールエクスペリエンス &#x200B;](/help/user-guide/create/email-experiences.md)
-* [Metaのエクスペリエンス &#x200B;](/help/user-guide/create/meta-experiences.md)
-* [&#x200B; 広告エクスペリエンスの表示 &#x200B;](/help/user-guide/create/display-ad-experiences.md)
-* [&#x200B; アセットとエクスペリエンスの管理 &#x200B;](/help/user-guide/content/manage-assets.md)
+* [メールエクスペリエンス](/help/user-guide/create/email-experiences.md)
+* [Metaのエクスペリエンス](/help/user-guide/create/meta-experiences.md)
+* [ディスプレイ広告エクスペリエンスの表示](/help/user-guide/create/display-ad-experiences.md)
+* [アセットとエクスペリエンスの管理](/help/user-guide/content/manage-assets.md)
 * [翻訳拡張機能を探す](/help/extensibility/deploy-app.md#find-translation-extensions)

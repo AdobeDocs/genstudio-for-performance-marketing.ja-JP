@@ -20,7 +20,7 @@ level_v2:
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 445
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 GenStudio for Performance Marketingを使用してメールテンプレートをカスタマイズする場合は、次のデザインのベストプラクティスに従ってください。
 
-- Adobe フォントまたはGoogle フォントの使用
-- クリーンでレスポンシブなHTMLとインライン CSSの使用
-- JavaScriptを&#x200B;**使用しない**&#x200B;人
+- アドビフォントまたは Google フォントを使用する
+- クリーンでレスポンシブな HTML とインライン CSS を使用する
+- JavaScript を&#x200B;**使用しない**
 - **not**&#x200B;は、本文またはコンテナで固定幅を使用しないでください
 - テンプレートのサイズを大幅に増やすことができるため、**not**&#x200B;は画像にbase64 エンコーディングを使用しないでください
 - HTMLの最大ファイルサイズは102 KBです

@@ -31,9 +31,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
-workflow-type: ht
-source-wordcount: 820
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 909
+ht-degree: 90%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 
 GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を活用して、マーケターや分散型チームが高パフォーマンスでブランドイメージに合致したエクスペリエンスを作成できるようにします。
 
-![ ホームを作成 ](/help/assets/create-home.png){width="600" zoomable="yes"}
+![&#x200B; ホームを作成 &#x200B;](/help/assets/create-home.png){width="600" zoomable="yes"}
 
-[!DNL Create] ホームは、チャネルセクション _所有メディア_、_有料メディア_ および _コンテンツ_）と、最近のドラフトおよび公開済みコンテンツをすべて表示する _最近使用したもの_ セクションで構成されています。各チャネルセクションでは、特定のチャネルセットのコンテンツを作成できます。例えば、_所有メディア_&#x200B;セクションに移動して、電子メールまたはバナーの作成を開始します。
+[!DNL Create] ホームは、チャネルセクション _所有メディア_、_有料メディア_ および _コンテンツ_）と、最近のドラフトおよび公開済みコンテンツをすべて表示する _最近使用したもの_ セクションで構成されています。 各チャネルセクションでは、特定のチャネルセットのコンテンツを作成できます。 例えば、_所有メディア_&#x200B;セクションに移動して、電子メールまたはバナーの作成を開始します。
 
 [!DNL Create] を使用すると、次のチャネルのコンテンツを生成できます。
 
@@ -57,9 +57,9 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 * [バナー](banner-experiences.md)
 * [画像](generate-assets.md)
 
-[ ガイドライン ](/help/user-guide/guidelines/overview.md)、[ コンテンツ ](/help/user-guide/content/overview.md)、[ キャンペーン ](/help/user-guide/campaigns/overview.md)、[ レビューと承認 ](/help/user-guide/approvals/overview.md)、[ アクティベーション ](/help/user-guide/activation/overview.md)、[ インサイト ](/help/user-guide/insights/overview.md) の機能に加えて、効果的なブランドに合わせ [!DNL Create] マーケティングコンテンツの作成を容易にします。
+[&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md)、[&#x200B; コンテンツ &#x200B;](/help/user-guide/content/overview.md)、[&#x200B; キャンペーン &#x200B;](/help/user-guide/campaigns/overview.md)、[&#x200B; レビューと承認 &#x200B;](/help/user-guide/approvals/overview.md)、[&#x200B; アクティベーション &#x200B;](/help/user-guide/activation/overview.md)、[&#x200B; インサイト &#x200B;](/help/user-guide/insights/overview.md) の機能に加えて、効果的なブランドに合わせ [!DNL Create] マーケティングコンテンツの作成を容易にします。
 
-編集者とシステムマネージャーは [!DNL Create] に対するフルアクセス権を持ちます。役割へのアクセス情報について詳しくは、[ ユーザーの役割と権限 ](/help/user-guide/user-roles.md) を参照してください。
+編集者とシステムマネージャーは [!DNL Create] に対するフルアクセス権を持ちます。 役割へのアクセス情報について詳しくは、[&#x200B; ユーザーの役割と権限 &#x200B;](/help/user-guide/user-roles.md) を参照してください。
 
 ## [!DNL Create] のユースケース
 
@@ -75,11 +75,15 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 
       </a>
 
-      <div><a href="/help/user-guide/create/create-email-experience.md">
+      <div>
 
-         <strong> メールエクスペリエンスを作成する </strong>
+         <a href="/help/user-guide/create/create-email-experience.md">
 
-         </a></div>
+         <strong>電子メールエクスペリエンスの作成</strong>
+
+         </a>
+
+      </div>
 
    </td>
 
@@ -91,11 +95,15 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 
       </a>
 
-      <div><a href="/help/user-guide/create/create-meta-ad.md">
+      <div>
 
-         <strong>Meta広告エクスペリエンスの作成</strong>
+         <a href="/help/user-guide/create/create-meta-ad.md">
 
-         </a></div>
+         <strong>Meta広告エクスペリエンスを作成</strong>
+
+         </a>
+
+      </div>
 
    </td>
 
@@ -107,11 +115,15 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 
       </a>
 
-      <div><a href="/help/user-guide/create/create-linkedin.md">
+      <div>
 
-         <strong>LinkedIn 広告の作成</strong>
+         <a href="/help/user-guide/create/create-linkedin.md">
 
-         </a></div>
+         <strong>LinkedIn広告エクスペリエンスを作成</strong>
+
+         </a>
+
+      </div>
 
    </td>
 
@@ -123,11 +135,15 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 
       </a>
 
-      <div><a href="/help/user-guide/create/create-display-ad.md">
+      <div>
 
-         <strong>ディスプレイ広告エクスペリエンスの作成</strong>
+         <a href="/help/user-guide/create/create-display-ad.md">
 
-         </a></div>
+         <strong> ディスプレイ広告エクスペリエンスの作成</strong>
+
+         </a>
+
+      </div>
 
    </td>
 
@@ -139,11 +155,15 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 
       </a>
 
-      <div><a href="/help/user-guide/create/create-banner-experience.md">
+      <div>
 
-         <strong> バナーエクスペリエンスを作成 </strong>
+         <a href="/help/user-guide/create/create-banner-experience.md">
 
-         </a></div>
+         <strong> バナーエクスペリエンスの作成</strong>
+
+         </a>
+
+      </div>
 
    </td>
 
@@ -155,11 +175,15 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 
       </a>
 
-      <div><a href="/help/user-guide/create/generate-assets.md">
+      <div>
 
-         <strong> 画像を生成 </strong>
+         <a href="/help/user-guide/create/generate-assets.md">
 
-         </a></div>
+         <strong>画像を生成</strong>
+
+         </a>
+
+      </div>
 
    </td>
 
@@ -167,7 +191,7 @@ GenStudio for Performance Marketing [!DNL Create] は、Adobe GenAI の機能を
 
 </table>
 
-GenStudio for Performance Marketingを使用すると、マーケターは **新しいマーケティングコンテンツを作成** できます。 このユースケースでは、定義済みの [ ガイドライン ](/help/user-guide/guidelines/overview.md) とインスピレーション画像を使用して、ブランドに合わせたコンテンツの作成に役立てます。
+GenStudio for Performance Marketingを使用すると、マーケターは **新しいマーケティングコンテンツを作成** できます。 このユースケースでは、定義済みの [&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md) とインスピレーション画像を使用して、ブランドに合わせたコンテンツの作成に役立てます。
 
 ## [!DNL Create] 機能
 
@@ -175,37 +199,37 @@ GenStudio for Performance Marketingの様々なコンポーネントを統合し
 
 ### テンプレート
 
-今日は何を作成しますか？_で生成するチャネルを選択し、_。セクションでは、コンテンツ生成に使用できる、企業が承認したテンプレートにアクセスできます。テンプレートを使用すると、コンテンツ制作プロセスを迅速に開始でき、定義済みのブランドアイデンティティとの整合性を維持できます。
+今日は何を作成しますか？_で生成するチャネルを選択し、_。 セクションでは、コンテンツ生成に使用できる、企業が承認したテンプレートにアクセスできます。 テンプレートを使用すると、コンテンツ制作プロセスを迅速に開始でき、定義済みのブランドアイデンティティとの整合性を維持できます。
 
-テンプレートは [ にアップロードおよび保存  [!DNL Content]](/help/user-guide/content/overview.md) され、[!DNL Create] からアクセスできます。
+テンプレートは [&#x200B; にアップロードおよび保存  [!DNL Content]](/help/user-guide/content/overview.md) され、[!DNL Create] からアクセスできます。
 
 ### パラメータ
 
 プロンプトドロワーでは、[!DNL Brands]、[!DNL Products]、[!DNL Personas] （ガイドライン）などの _パラメーター_ と [!DNL Content] （アセット）を追加して、生成されたエクスペリエンスを形作ることができます。
 
-これらの追加されたパラメーターは、生成プロセスに [ ガイドライン ](/help/user-guide/guidelines/overview.md) とアセットを挿入し、ブランドの包括的な ID に合わせてコンテンツをカスタマイズできるようにします。GenStudio for Performance Marketingにガイドラインを追加し、コンテンツ作成プロセス中に使用することをお勧めします。ガイドラインは、ブランドに即した適切なコンテンツの作成を大幅に向上させます。
+これらの追加されたパラメーターは、生成プロセスに [&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md) とアセットを挿入し、ブランドの包括的な ID に合わせてコンテンツをカスタマイズできるようにします。 GenStudio for Performance Marketingにガイドラインを追加し、コンテンツ作成プロセス中に使用することをお勧めします。ガイドラインは、ブランドに即した適切なコンテンツの作成を大幅に向上させます。
 
-_パラメーター_ 内のコンテンツ（アップロードまたは追加された画像アセット）は、生成されたバリアントで使用され、バリアント用に生成されたコピーコンテンツ（テキスト）に通知されます。アセットをアップロードすることも、[!DNL Content] または接続された AEM Content Hub リポジトリに既に存在するアセットを選択することもできます。
+_パラメーター_ 内のコンテンツ（アップロードまたは追加された画像アセット）は、生成されたバリアントで使用され、バリアント用に生成されたコピーコンテンツ（テキスト）に通知されます。 アセットをアップロードすることも、[!DNL Content] または接続された AEM Content Hub リポジトリに既に存在するアセットを選択することもできます。
 
 ### プロンプト
 
-[ 効果的なプロンプトの作成 ](/help/user-guide/effective-prompts.md) は、[!DNL Create] の生成プロセスの重要な部分です。
+[&#x200B; 効果的なプロンプトの作成 &#x200B;](/help/user-guide/effective-prompts.md) は、[!DNL Create] の生成プロセスの重要な部分です。
 
-AI で生成されたコンテンツを作成するには、生成するコンテキストまたはエクスペリエンスを記述した [ 説明プロンプト ](/help/user-guide/effective-prompts.md) と、[ ガイドライン ](/help/user-guide/guidelines/overview.md) および [_パラメーター_](#parameters) をプロンプトドロワーに入力し、「**[!UICONTROL 生成]**」をクリックします。
+AI で生成されたコンテンツを作成するには、生成するコンテキストまたはエクスペリエンスを記述した [&#x200B; 説明プロンプト &#x200B;](/help/user-guide/effective-prompts.md) と、[&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md) および [_パラメーター_](#parameters) をプロンプトドロワーに入力し、「**[!UICONTROL 生成]**」をクリックします。
 
 ### コンテンツチェック
 
-GenStudio for Performance Marketing は、各バリアントに関する[ブランドガイドライン](/help/user-guide/guidelines/brands.md)、プラットフォームのガイドライン、[アクセシビリティ標準](/help/user-guide/guidelines/overview.md#compliance)に対して[コンテンツチェック](/help/user-guide/guidelines/brand-validation.md#content-check-panel)を実行し、[!DNL Brand]、プラットフォーム、アクセシビリティ標準を最大限に満たすようにします。生成された任意のコンテンツについて、包括的なコンテンツチェックに対するコンプライアンスや、テキストと画像との一貫性を示す[コンテンツチェック](/help/user-guide/guidelines/brand-validation.md#content-check-summary)情報を使用できます。この情報を使用して、生成されたエクスペリエンスを改訂または改善し、ブランドとより良く一致させることができます。
+GenStudio for Performance Marketing は、各バリアントに関する[ブランドガイドライン](/help/user-guide/guidelines/brands.md)、プラットフォームのガイドライン、[アクセシビリティ標準](/help/user-guide/guidelines/overview.md#compliance)に対して[コンテンツチェック](/help/user-guide/guidelines/brand-validation.md#content-check-panel)を実行し、[!DNL Brand]、プラットフォーム、アクセシビリティ標準を最大限に満たすようにします。 生成された任意のコンテンツについて、包括的なコンテンツチェックに対するコンプライアンスや、テキストと画像との一貫性を示す[コンテンツチェック](/help/user-guide/guidelines/brand-validation.md#content-check-summary)情報を使用できます。 この情報を使用して、生成されたエクスペリエンスを改訂または改善し、ブランドとより良く一致させることができます。
 
 ### レビューと承認
 
-組み込みの [ レビューと承認 ](/help/user-guide/approvals/overview.md) 機能を使用して、作成プロセス中にレビューを勧誘、レビューのコメントを追跡、承認を取得します。
+組み込みの [&#x200B; レビューと承認 &#x200B;](/help/user-guide/approvals/overview.md) 機能を使用して、作成プロセス中にレビューを勧誘、レビューのコメントを追跡、承認を取得します。
 
 コンテンツバリエーションの生成が完了したら、関係者の承認を得るためにドラフトを送信します。これにより、関係者はドラフトを保存して、マーケティング活動に実装で [!DNL Content] ます。
 
 ### ドラフト
 
-[!DNL Create] の _最近使用したもの_ セクションでは、最近のすべてのドラフトにアクセスして管理できます。以前の作業を表示して完了し、[[!DNL Content]](/help/user-guide/content/overview.md) への公開や使用のための書き出しの準備を行います。オプション（3つのドット）アイコンをクリックして、ドラフトを削除します。
+[!DNL Create] の _最近使用したもの_ セクションでは、最近のすべてのドラフトにアクセスして管理できます。 以前の作業を表示して完了し、[[!DNL Content]](/help/user-guide/content/overview.md) への公開や使用のための書き出しの準備を行います。 オプション（3つのドット）アイコンをクリックして、ドラフトを削除します。
 
 ドラフトは自動的に保存され、ホームの _最近_ セクション [!DNL Create] 表示されます。 このセクションの各ドラフトには、「ドラフト _、「承認済み_ などのステータスが表示 _れ_ す。
 
@@ -213,11 +237,11 @@ GenStudio for Performance Marketing は、各バリアントに関する[ブラ�
 
 ### 翻訳とローカライズ
 
-承認済みのメールや有料メディアのエクスペリエンスを、[!DNL Create] ランディングページまたは [!DNL Content] から複数の言語に翻訳できます。[エクスペリエンスの翻訳とローカライズ](/help/user-guide/create/translate-experiences.md)を参照してください。
+承認済みのメールや有料メディアのエクスペリエンスを、[!DNL Create] ランディングページまたは [!DNL Content] から複数の言語に翻訳できます。 [エクスペリエンスの翻訳とローカライズ](/help/user-guide/create/translate-experiences.md)を参照してください。
 
 ### 共同編集
 
-ドラフト作成者は、共同作業者とドラフトを共有し、役割を割り当て、リアルタイムで連携してコンテンツを作成できるようになりました。この機能は、単なるレビューや承認にとどまらず、ワークフローで次のいくつかの重要な利点をもたらします。
+ドラフト作成者は、共同作業者とドラフトを共有し、役割を割り当て、リアルタイムで連携してコンテンツを作成できるようになりました。 この機能は、単なるレビューや承認にとどまらず、ワークフローで次のいくつかの重要な利点をもたらします。
 
 * **既存のドラフトでの簡単な共同作業**：データの再作成や書き出しを行うことなく、迅速な通知を使用できます。
 
@@ -229,6 +253,6 @@ GenStudio for Performance Marketing は、各バリアントに関する[ブラ�
 
 ### バリアントを管理する
 
-GenStudio for Performance Marketingでは [ 個々のバリアントのセクションを包括的に制御 ](/help/user-guide/create/manage-variants.md) できます。
+GenStudio for Performance Marketingでは [&#x200B; 個々のバリアントのセクションを包括的に制御 &#x200B;](/help/user-guide/create/manage-variants.md) できます。
 
 単一のバリアントのセクションを改訂し、個々のセクションのコンテンツを再生成し、提案された編集内容を使用して、メッセージ、サイズ、アセットなどをキャンバス内で改善できます。

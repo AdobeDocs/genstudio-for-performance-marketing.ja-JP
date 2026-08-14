@@ -1,8 +1,8 @@
 ---
-title: Banner Experience
-description: Adobe GenStudio for Performance Marketingのバナーエクスペリエンスについて説明します。
+title: バナーエクスペリエンス
+description: Adobe GenStudio for Performance Marketingのバナー体験の詳細。
 feature: Create Canvas, Media Templates
-badgeBeta: label="Beta" tooltip="この機能は現在Betaにあるので、一部の機能が制限されるか、変更される可能性があります。"
+badgeBeta: label="ベータ版" tooltip="この機能は、現在ベータ版なので、一部の機能が制限されるか、変更される場合があります。"
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
@@ -23,29 +23,29 @@ level_v2:
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
 source-wordcount: 117
-ht-degree: 1%
+ht-degree: 18%
 
 ---
 
-# バナーエクスペリエンス
+# バナー体験
 
-Adobe GenStudio for Performance Marketingでは、生成 AI を活用して [&#x200B; 成功するバナーエクスペリエンスの作成 &#x200B;](/help/user-guide/create/create-banner-experience.md) を強化できます。
+Adobe GenStudio for Performance Marketingを使用すると、生成AIを活用して、成功したバナーエクスペリエンスの[作成を強化できます](/help/user-guide/create/create-banner-experience.md)。
 
-[!DNL Create] を使用すると、現代のマーケターは [&#128279;](/help/user-guide/guidelines/overview.md)&#x200B; ガイドライン [、画像アセット、および &#x200B;](/help/user-guide/create/create-banner-experience.md) 適切に作成されたプロンプト &#x200B; を利用して、[&#x200B; 包括的なバナーエクスペリエンスを作成 &#x200B;](/help/user-guide/effective-prompts.md) できます。
+[!DNL Create]を使用すると、最新のマーケターは、[&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md)、画像アセット、および[適切に作成されたプロンプト &#x200B;](/help/user-guide/effective-prompts.md)を利用して、まとまりのあるバナーエクスペリエンス [&#128279;](/help/user-guide/create/create-banner-experience.md)を作成できます。
 
-バナーエクスペリエンスを生成すると、4 つのバリエーションが作成され、キャンバスに表示されます。
+バナーエクスペリエンスを生成すると、4つのバリエーションが作成され、キャンバスに表示されます。
 
-サポートされるディメンション、認識されるフィールド名などについて詳しくは、[&#x200B; チャネル固有のテンプレートガイドラインに従う &#x200B;](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) を参照してください。
+サポートされているディメンションや認識済みのフィールド名などについて詳しくは、[&#x200B; チャネル固有のテンプレートガイドライン &#x200B;](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)を参照してください。
 
-ディスプレイとエクスペリエンスの編集可能なセクションには、次のものが含まれます。
+ディスプレイ広告エクスペリエンスの編集可能なセクションには、次のようなものがあります。
 
-* 見出し
-* サブ見出し
+* Headline
+* 小見出し
 * 本文
 * Call to action（CTA）
 * 画像
 
-[&#x200B; テンプレート要素 &#x200B;](/help/user-guide/templates/use-templates.md#template-elements) を参照してください。
+[テンプレート要素](/help/user-guide/templates/use-templates.md#template-elements)を参照してください。
 
 <!-- 
 ## Character counts

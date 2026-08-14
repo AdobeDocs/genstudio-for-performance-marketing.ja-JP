@@ -24,7 +24,7 @@ topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 2125
+source-wordcount: 2129
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create]では、生成された�
 
 生成されたバリアントのドラフトには、カンバスの上部に表示されるデフォルトの名前が付いています。 デフォルトのドラフト名では、チャネルタイプ、日付、生成時間を含む次の規則を使用します。
 
-*例*:「Meta：名称未設定のドラフト - 09.5.24、午前9:56」
+*例*:「Meta：名称未設定ドラフト - 09.5.24、午前9:56」
 
 **既定の名前**&#x200B;を変更するには：
 
@@ -181,7 +181,7 @@ GenStudio for Performance Marketingには、生成されたバリエーション
 
 ## 縦横比を変更
 
-Meta広告[&#128279;](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)の縦横比を素早く変更して、目的の広告サイズに合わせることができます。 テンプレートのサイズにぴったりと合う画像の縦横比を選択して、不要な切り抜きや伸縮を避けます。 例えば、テンプレートが1200 × 628 ピクセル（広い長方形）の場合、1:1正方形の画像を使用すると、側面が切り抜かれ、重要なコンテンツが切り取られる可能性があります。 最適な画像サイズは628 x 628 ピクセルで、テンプレートの高さと一致します。
+Meta広告[&#128279;](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)の縦横比を素早く変更して、目的の広告サイズに合わせることができます。 テンプレートのサイズにぴったりと合う画像の縦横比を選択して、不要な切り抜きや伸縮を避けます。 例えば、テンプレートが1200 ピクセル×628 ピクセル（広い長方形）の場合、1:1の正方形の画像を使用すると、辺が切り抜かれ、重要なコンテンツが切り取られる可能性があります。 最適な画像サイズは628 x 628 ピクセルで、テンプレートの高さと一致します。
 
 >[!NOTE]
 >
@@ -203,7 +203,7 @@ Meta広告[&#128279;](/help/user-guide/templates/meta-template.md#supported-aspe
 
    [!DNL Create]は、新しく選択した縦横比に基づいて、各バリアントのコピーを作成します。 初期アスペクト比のバリエーションを含め、すべてのバリエーションがカンバスに表示されます。
 
-   例えば、最初に1:1縦横比で4つのバリエーションを生成し、その後アスペクト比を4:5に変更した場合、合計&#x200B;_8_&#x200B;のバリエーションがキャンバスで利用できるようになりました。
+   例えば、最初に1:1のアスペクト比で4つのバリエーションを生成し、そのアスペクト比を4:5に変更した場合、合計&#x200B;_8_&#x200B;のバリエーションがキャンバスで利用できるようになりました。
 
 ## スワップ画像
 
@@ -294,7 +294,7 @@ Meta広告[&#128279;](/help/user-guide/templates/meta-template.md#supported-aspe
 
 _コンテンツチェック_ パネルを使用して、一貫したブランドアイデンティティ、[ADA アクセシビリティ標準、プラットフォームガイドライン &#x200B;](/help/user-guide/guidelines/overview.md#content-checks)、およびバリエーションの調整を維持します。
 
-[&#x200B; ブランド検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
+[ブランドの検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
 
 ## 生成フィードバック
 

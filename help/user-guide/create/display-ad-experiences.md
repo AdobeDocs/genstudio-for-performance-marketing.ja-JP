@@ -22,7 +22,7 @@ level_v2:
 source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
 source-wordcount: 126
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe GenStudio for Performance Marketingでは、生成AIを使用して、成�
 
 サポートされているディメンションや認識済みのフィールド名などについて詳しくは、[広告テンプレートのガイドライン &#x200B;](/help/user-guide/templates/display-template.md)を参照してください。
 
-HTML キャンバスでは、承認されたディスプレイ広告エクスペリエンスを複数の言語に翻訳できます。 [体験の翻訳とローカライズ &#x200B;](/help/user-guide/create/translate-experiences.md)を参照してください。
+HTML キャンバスでは、承認されたディスプレイ広告エクスペリエンスを複数の言語に翻訳できます。 [エクスペリエンスの翻訳とローカライズ](/help/user-guide/create/translate-experiences.md)を参照してください。
 
 ディスプレイ広告エクスペリエンスの編集可能なセクションには、次のようなものがあります。
 
@@ -46,7 +46,7 @@ HTML キャンバスでは、承認されたディスプレイ広告エクスペ
 * Call to action（CTA）
 * 画像
 
-[&#x200B; テンプレート要素](/help/user-guide/templates/use-templates.md#template-elements)を参照してください。
+[テンプレート要素](/help/user-guide/templates/use-templates.md#template-elements)を参照してください。
 
 <!-- 
 ## Character counts

@@ -26,7 +26,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 505
 ht-degree: 100%
 
@@ -84,5 +84,5 @@ Adobe GenStudio for Performance Marketing では、外部プラットフォー�
 
 これらの累積コンプライアンスチェックには、以下が含まれます。
 
-* **ADA アクセシビリティ** - 様々な能力を持つユーザーに対応した、包括的なコンテンツやデジタルエクスペリエンスの開発を確保するには不可欠です。これらにより、web アクセシビリティ機能との整合性が確保され、すべてのユーザーに公平なアクセス権が提供されます。GenStudio for Performance Marketing は現在、ADA レベル AA コピー（テキスト）アクセシビリティ標準を参照しています。
-* **プラットフォームコンプライアンス**：Meta や LinkedIn など、各プラットフォームの特定のガイドラインを遵守し、業界のベストプラクティスに従うために不可欠です。これらはシステムに存在するデフォルトのガイドラインで、[[!DNL Brand]  ガイドライン](/help/user-guide/guidelines/brands.md#brands-guidelines)に事前入力されています。
+* **ADA アクセシビリティ** - 様々な能力を持つユーザーに対応した、包括的なコンテンツやデジタルエクスペリエンスの開発を確保するには不可欠です。 これらにより、web アクセシビリティ機能との整合性が確保され、すべてのユーザーに公平なアクセス権が提供されます。 GenStudio for Performance Marketing は現在、ADA レベル AA コピー（テキスト）アクセシビリティ標準を参照しています。
+* **プラットフォームコンプライアンス**：Meta や LinkedIn など、各プラットフォームの特定のガイドラインを遵守し、業界のベストプラクティスに従うために不可欠です。 これらはシステムに存在するデフォルトのガイドラインで、[[!DNL Brand]  ガイドライン](/help/user-guide/guidelines/brands.md#brands-guidelines)に事前入力されています。

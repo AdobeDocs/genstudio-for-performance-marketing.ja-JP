@@ -2,7 +2,7 @@
 title: バナーエクスペリエンスの構築
 description: Adobe [!DNL GenStudio] for Performance Marketingでバナーエクスペリエンスを作成する方法について説明します。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
-badgeBeta: label="Beta" tooltip="この機能は現在Betaに搭載されているため、一部の機能が制限されたり、機能が変更されたりする場合があります。"
+badgeBeta: label="ベータ版" tooltip="この機能は、現在ベータ版なので、一部の機能が制限されるか、変更される場合があります。"
 role: User
 level: Beginner
 recommendations: noDisplay
@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
 source-wordcount: 1089
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -129,7 +129,7 @@ When revising and preparing email experiences, you can toggle between previews f
 
 2. [&#x200B; バリエーションを手動で修正](#revise-generated-banners)して、バリエーションが実行されたコンテンツチェックと密接に連携していることを確認します。
 
-[&#x200B; ブランド検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
+[ブランドの検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
 
 ## レビューと承認を取得
 

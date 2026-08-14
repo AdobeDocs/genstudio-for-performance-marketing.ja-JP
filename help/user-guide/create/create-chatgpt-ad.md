@@ -79,7 +79,7 @@ ChatGPT作成を開くには：
 1. [_コンテンツチェック_ パネル &#x200B;](/help/user-guide/guidelines/brand-validation.md#content-check-panel)で検証結果を確認します。
 1. バリエーションを編集したり、必要に応じて再生成することで、コピーの長さや画面テキストの高密度さなどのフラグが立った問題を解決できます。
 
-[&#x200B; ブランド検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
+[ブランドの検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
 
 ## [!DNL GenStudio for Performance Marketing]にChatGPT広告を保存
 

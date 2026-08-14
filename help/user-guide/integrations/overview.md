@@ -20,7 +20,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 195
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 # Adobe GenStudio for Performance Marketing の統合
 
-GenStudio for Performance Marketing は、他の強力なデザイン製品との統合を提供し、これらの製品に依存するマーケターにシームレスなエクスペリエンスを実現します。ここでは、使用できる統合とその使用方法について説明します。
+GenStudio for Performance Marketing は、他の強力なデザイン製品との統合を提供し、これらの製品に依存するマーケターにシームレスなエクスペリエンスを実現します。 ここでは、使用できる統合とその使用方法について説明します。
 
 GenStudio for Performance Marketing が提供するプラグインを探索し、他のアドビ製品などを使用すると、デザインワークフローを効率化できます。
 

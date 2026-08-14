@@ -1,6 +1,6 @@
 ---
 title: GenStudio Academy
-description: Adobe GenStudio Academy でコンテンツsupply chainのスキルを強化
+description: Adobe GenStudio Academyでコンテンツsupply chainのスキルを向上
 recommendations: noDisplay, noCatalog
 index: false
 hidefromtoc: true

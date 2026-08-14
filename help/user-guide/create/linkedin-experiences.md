@@ -2,7 +2,7 @@
 title: LinkedInのエクスペリエンス
 description: Adobe GenStudio for Performance MarketingのLinkedIn体験について学びましょう。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
-badgeBeta: label="Beta" tooltip="この機能は現在Betaに搭載されているため、一部の機能が制限されたり、機能が変更されたりする場合があります。"
+badgeBeta: label="ベータ版" tooltip="この機能は、現在ベータ版なので、一部の機能が制限されるか、変更される場合があります。"
 role: User
 level: Beginner
 exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
@@ -27,7 +27,7 @@ level_v2:
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 255
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -45,7 +45,7 @@ LinkedIn エクスペリエンスの編集可能なセクションには、次�
 * Call to action（CTA）
 * 画像/動画
 
-[&#x200B; テンプレート要素](/help/user-guide/templates/use-templates.md#template-elements)を参照してください。
+[テンプレート要素](/help/user-guide/templates/use-templates.md#template-elements)を参照してください。
 
 ## プログレッシブロード
 

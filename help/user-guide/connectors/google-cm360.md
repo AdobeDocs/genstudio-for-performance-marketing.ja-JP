@@ -1,6 +1,6 @@
 ---
-title: Google Campaign Manager 360 への接続
-description: Google Campaign Manager 360 アカウントを接続して、Adobe GenStudio for Performance Marketingで広告とメディアをアクティブ化および監視します。
+title: Google Campaign Manager 360への接続
+description: Google Campaign Manager 360 アカウントと連携して、Adobe GenStudio for Performance Marketingで広告とメディアをアクティベートおよびモニタリングします。
 level: Intermediate
 role: Admin, Developer
 recommendations: noDisplay
@@ -29,31 +29,31 @@ ht-degree: 0%
 
 ---
 
-# Google Campaign Manager 360 への接続
+# Google Campaign Manager 360への接続
 
-Google Campaign Manager 360 アカウントをGenStudio for Performance Marketingに接続して、クリエイティブアセットを事前定義済みの形式で Campaign Manager 360 に直接エクスポートします。
+Google Campaign Manager 360 アカウントをGenStudio for Performance Marketingに接続して、事前に定義された形式でクリエイティブアセットをCampaign Manager 360に直接書き出します。
 
 >[!BEGINSHADEBOX]
 
 **前提条件**:
 
 - Google Campaign Manager 360 アカウント
-- ブラウザーでポップアップブロッカーを削除します
+- ブラウザーでポップアップブロッカーを削除する
 
 >[!ENDSHADEBOX]
 
 **Google Campaign Manager 360 アカウントを接続するには**:
 
-1. **[!UICONTROL 詳細]**/**[!UICONTROL 設定]** をクリックします。
+1. **[!UICONTROL 詳細]** > **[!UICONTROL 設定]**&#x200B;をクリックします。
 
-1. 「_Data Connectors_」セクションで、_Google Campaign Manager 360 **[!UICONTROL カードの「_ 接続]**」をクリックします。
+1. _Data connectors_ セクションで、_Google Campaign Manager 360_ カードの&#x200B;**[!UICONTROL Connect]**&#x200B;をクリックします。
 
 1. Google Campaign Manager 360 アカウントにログインします。
 
-   ポップアップ ブロックを削除してから、[**[!UICONTROL 更新]**] を使用して再試行してください。
+   ポップアップブロッカーを削除してから、**[!UICONTROL 更新]**&#x200B;を使用して再試行する必要があります。
 
-1. 利用条件を読み、「**[!UICONTROL 許可]**」をクリックしてアクセスを許可します。
+1. 利用条件をお読みになり、**[!UICONTROL 許可]**&#x200B;をクリックしてアクセスを許可してください。
 
-1. _[!UICONTROL Google Campaign Manager 360]_ ビューで、1 つ以上の広告主を選択し、**[!UICONTROL 選択]** をクリックします。
+1. _[!UICONTROL Google Campaign Manager 360]_ ビューで、1人以上の広告主を選択し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
-_[!UICONTROL Google Campaign Manager 360 アカウント]_ ビューには、`Account name`、`Added by`、`Date added` および `Status` がリストされます。 リストにさらにアカウントを追加するには、「**[!UICONTROL アカウントを追加]**」を使用します。
+_[!UICONTROL Google Campaign Manager 360 アカウント]_ ビューには、`Account name`、`Added by`、`Date added`および`Status`が一覧表示されます。 **[!UICONTROL アカウントの追加]**&#x200B;を使用して、リストにアカウントを追加します。

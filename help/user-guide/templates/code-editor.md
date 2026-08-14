@@ -37,7 +37,7 @@ ht-degree: 1%
 
 _[!UICONTROL 検出されたフィールドの確認]_ ペインには、GenStudio for Performance Marketingがテンプレートで認識するフィールドのリストが表示されます。 リストを確認すると、HTML コードをスクロールして、テンプレートのフォーメーションを確認できます。
 
-![&#x200B; コードエディタービュー](/help/assets/template-detected-fields.png "検出されたフィールドを確認"){width="600"}
+![コードエディタービュー](/help/assets/template-detected-fields.png "検出されたフィールドを確認"){width="600"}
 
 リストにフィールドが見つからない場合は、テンプレートコードを検索して、見つからないフィールドの場所を見つけます。 Handlebars構文と[認識済みのフィールド名](/help/user-guide/templates/customize-template.md#recognized-field-names)を使用して、正しいプレースホルダーを挿入します。 コードエディターの下部に表示される「検索と置換」フォームを使用して、コード内の特定の文字列を検索します。 （Windows `CTRL`+`F`またはmacOS `CMD`+`F`）
 

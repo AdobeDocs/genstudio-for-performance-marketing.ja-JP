@@ -133,9 +133,9 @@ import { renderExperienceSelectorWithSUSI } from 'https://experience.adobe.com/s
 
 - [2つの&#x200B;**Vanilla JavaScript実装**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js):
 
-   - [この&#x200B;**Vanilla ESM**&#x200B;版では、ES6 モジュールと最新のJavaScript](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm)を使用しています。
+  - [この&#x200B;**Vanilla ESM**&#x200B;版では、ES6 モジュールと最新のJavaScript](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm)を使用しています。
 
-   - [この&#x200B;**Vanilla UMD** バージョンでは、スクリプトタグ &#x200B;](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var)を介して読み込まれたUMD バンドルが使用されています。
+  - [この&#x200B;**Vanilla UMD** バージョンでは、スクリプトタグ &#x200B;](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var)を介して読み込まれたUMD バンドルが使用されています。
 
 ## 認証フロー
 

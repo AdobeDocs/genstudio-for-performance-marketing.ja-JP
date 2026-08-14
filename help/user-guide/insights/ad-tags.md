@@ -6,13 +6,13 @@ feature: Reporting and Insights, Ad Performance, Text Attributes
 source-git-commit: 96438790ee2d211cee8ab076b13f8d404b0a2700
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
 # 広告タグの概要
 
-[!DNL Insights] _[!UICONTROL 広告タグ]_ ビューには、接続されたチャネルとアカウントの広告のリストが表示されます。 _ad_&#x200B;は、マーケティングキャンペーンの一環として特定のオーディエンスに配信することを目的とした、視覚的でインタラクティブなコンテンツを含むプロモーションアセットです。
+[!DNL Insights] _[!UICONTROL 広告タグ]_ ビューには、接続されたチャネルとアカウントの広告のリストが表示されます。 _広告_&#x200B;とは、マーケティングキャンペーンの一部として特定のオーディエンスに配信することを目的とした、ビジュアルやインタラクティブコンテンツを含むプロモーションアセットです。
 
 {{connect-insights}}
 

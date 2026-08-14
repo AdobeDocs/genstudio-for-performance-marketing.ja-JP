@@ -1,6 +1,6 @@
 ---
 title: データ管理
-description: GenStudio for Performance Marketingでのデータの取得と保存  [!DNL Insights]  ついて説明します。
+description: GenStudio for Performance Marketingでの [!DNL Insights] のデータの取り込みと保存について説明します。
 feature: Reporting and Insights
 level: Experienced
 role: Admin, Developer
@@ -27,42 +27,42 @@ topic_v2:
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 249
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # データ管理
 
-GenStudio for Performance Marketingでは、Adobe Experience Platform（AEP）を使用して、[!DNL Insights] を強化する指標とメタデータのデータ取り込みとストレージを行います。 AEPでは _スキーマ_ を使用して、データ構造とデータ収集の保存および管理のための _データセット_ を定義します。
+GenStudio for Performance Marketingは、Adobe Experience Platform （AEP）を使用して、[!DNL Insights]を強化する指標とメタデータのデータ取り込みと保存を行います。 AEPでは、_スキーマ_&#x200B;を使用してデータ構造を定義し、_データセット_&#x200B;を使用してデータコレクションを保存および管理します。
 
-## データ接続
+## 柔軟な接続
 
-GenStudio for Performance Marketingでは、Customer Journey Analytics（CJA）を使用して、1 つ以上のAEP データセットへの接続を作成することで、複数のデータソースを集計します。 CJAでは、これらのデータ接続を使用して、[!DNL Insights] で指標を分析するためのデータビューを作成します。
+GenStudio for Performance Marketingでは、Customer Journey Analytics（CJA）を使用して、1つ以上のAEP データセットへの接続を作成することで、複数のデータソースを集約します。 CJAでは、これらのデータ接続を使用して、[!DNL Insights]の指標を分析するためのデータビューを作成します。
 
 >[!BEGINSHADEBOX]
 
 **データ接続に関する重要な情報**
 
-[Adobe システム管理者 &#x200B;](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager) の場合は、GenStudio for Performance MarketingをサポートするAEP サンドボックス管理コンポーネントおよびデータレイクコンポーネントへのアクセスを許可する使用権限がある可能性があります。
+[Adobe system administrator](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager)の場合、GenStudio for Performance MarketingをサポートするAEP サンドボックス管理およびデータレイクコンポーネントへのアクセスを許可する使用権限が付与されている可能性があります。
 
 >[!WARNING]
 >
->AEPで実稼動サンドボックスをリセットすると、すべてのデータ接続が削除され、[!DNL Insights] が機能しなくなります。
+>AEPで実稼動サンドボックスをリセットすると、すべてのデータ接続が削除され、[!DNL Insights]が動作しなくなります。
 
-GenStudio for Performance Marketingを確実に動作させるために必要な、次のデータ接続については、注意して削除しないでください。
+GenStudio for Performance Marketingが確実に動作するために必要な次のデータ接続は削除しないでください。
 
-- プレフィックスが `GS Insights` のAEP データセット
-- `GS Insights` プレフィックスが付いたAEP スキーマ、クラス、フィールドグループ
+- 接頭辞`GS Insights`が付いたAEP データセット
+- AEP スキーマ、クラス、およびフィールドグループの先頭に`GS Insights`を付ける
 - カスタムフィールドグループ `timestamp for metadata`
-- AEP接続：`GS Insights` プレフィックスが付いたデータフロー
-- AEP Connections:GS Insights アカウント
+- AEP Connections: データフローの先頭に`GS Insights`を付ける
+- AEP Connections: GS Insights アカウント
 
-AEPでデータコンポーネントを削除する前に、_Customer Journey Analytics_ ガイドの [&#x200B; 影響の削除 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/deletion) を参照してください。
+AEPのデータコンポーネントを削除する前に、_Customer Journey Analytics_ ガイドの[&#x200B; インプリケーションの削除](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/deletion)を参照してください。
 
 >[!ENDSHADEBOX]
 
 ## データ保持ポリシー
 
-GenStudio for Performance Marketingはチャネルデータを 13 か月間保持します。 この保持ポリシーには、最初の接続中に取り込まれた 6 か月のデータが含まれており、包括的な履歴データの分析とレポートを確実に行います。
+GenStudio for Performance Marketingは、チャネルデータを13か月保持します。 この保持ポリシーには、最初の接続中に取り込まれた6か月間のデータが含まれ、包括的な履歴データ分析とレポートが保証されます。
 
-[&#x200B; 有料メディアアカウントの接続 &#x200B;](/help/user-guide/connectors/connect-channel.md) を参照してください。
+[有料メディアアカウントの接続](/help/user-guide/connectors/connect-channel.md)を参照してください。

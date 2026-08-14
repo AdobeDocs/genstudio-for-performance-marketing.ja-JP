@@ -29,11 +29,11 @@ topic_v2:
 source-git-commit: 8ec5d89113f24b91b4d963124050eaf4bf1bf368
 workflow-type: tm+mt
 source-wordcount: 3023
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# ガイドラインを追加
+# ガイドラインの追加
 
 GenStudio for Performance Marketingでは、AIが生成したコンテンツがブランドアイデンティティに合わせてカスタマイズされるように、ユーザー定義のガイドラインを設定できます。 このページでは、使用可能な各ガイドラインを設定して使用する手順を説明します。 一般的な説明については、[&#x200B; ガイドラインの概要](/help/user-guide/guidelines/overview.md)を参照してください。
 
@@ -51,7 +51,7 @@ GenStudio for Performance Marketingにガイドラインを追加することは
 
 左側のナビゲーション領域で、_共有_ リストから&#x200B;**[!DNL Brands]**&#x200B;をクリックします。
 
-![GenStudio for Performance Marketingのガイドライン &#x200B;](/help/assets/guidelines.png){width="650" zoomable="yes"}
+![GenStudio for Performance Marketing のガイドライン](/help/assets/guidelines.png){width="650" zoomable="yes"}
 
 英語以外の言語で作成されたブランドガイドラインをアップロードするか、英語以外の言語を使用して手作業でブランドを作成すると、GenStudio for Performance Marketingには同じ言語でブランドガイドラインが表示されます。
 
@@ -201,7 +201,7 @@ _[!DNL Brands]_&#x200B;ホームで、既に作成したブランドをクリッ
 
 左側のナビゲーション領域で、_共有_ リストから&#x200B;**[!DNL More]**&#x200B;をクリックしてから&#x200B;**[!DNL Personas]**&#x200B;をクリックします。
 
-![GenStudio for Performance Marketingのガイドライン &#x200B;](/help/assets/guidelines.png){width="650" zoomable="yes"}
+![GenStudio for Performance Marketing のガイドライン](/help/assets/guidelines.png){width="650" zoomable="yes"}
 
 GenStudio for Performance Marketingに[!DNL Persona]を追加すると、作成したコンテンツを理想的なオーディエンスにターゲティングできます。
 
@@ -283,7 +283,7 @@ _[!DNL Personas]_&#x200B;ホームでは、既に作成した&#x200B;[!DNL Perso
 製品を追加するには：
 
 1. 左側のナビゲーション領域で、_共有_ リストから&#x200B;**[!DNL More]**&#x200B;をクリックしてから&#x200B;**[!DNL Products]**&#x200B;をクリックします。
-   ![GenStudio for Performance Marketingのガイドライン &#x200B;](/help/assets/guidelines.png){width="650" zoomable="yes"}
+   ![GenStudio for Performance Marketing のガイドライン](/help/assets/guidelines.png){width="650" zoomable="yes"}
 1. _[!DNL Products]_&#x200B;パネルで、**[!UICONTROL 製品を追加]**&#x200B;を選択します。
 1. [製品をアップロード &#x200B;](#upload-a-product)、[製品を手動で作成](#manually-add-a-product)、または[製品をURL](#adding-products-from-url)から追加することを選択します。 ファイルをアップロードするか、製品を手動で追加する場合は、「ガイドライン」を選択し、製品の詳細を入力します。
 

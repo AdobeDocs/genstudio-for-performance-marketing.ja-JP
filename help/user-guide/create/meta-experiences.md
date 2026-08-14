@@ -24,7 +24,7 @@ level_v2:
 source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
 source-wordcount: 337
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Meta エクスペリエンスを作成する際は、4つのバリエーショ�
 GenStudio for Performance Marketingは、[標準サイズとカスタムサイズの両方のMeta広告](/help/user-guide/templates/meta-template.md)をサポートしています。
 
 
-HTMLのキャンバスでは、承認されたMeta体験を複数の言語に翻訳できます。 [体験の翻訳とローカライズ &#x200B;](/help/user-guide/create/translate-experiences.md)を参照してください。
+HTMLのキャンバスでは、承認されたMeta体験を複数の言語に翻訳できます。 [エクスペリエンスの翻訳とローカライズ](/help/user-guide/create/translate-experiences.md)を参照してください。
 
 
 メールエクスペリエンスの編集可能なセクションには、次のようなものがあります。
@@ -50,7 +50,7 @@ HTMLのキャンバスでは、承認されたMeta体験を複数の言語に翻
 * 画像テキスト
 * 画像/動画
 
-[&#x200B; テンプレート要素](/help/user-guide/templates/use-templates.md#template-elements)を参照してください。
+[テンプレート要素](/help/user-guide/templates/use-templates.md#template-elements)を参照してください。
 
 ## Meta広告のチャネル
 

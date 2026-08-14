@@ -1,6 +1,6 @@
 ---
 title: Adobe GenStudio ユーザーガイド
-description: パフォーマンスマーケティング用の Adobe GenStudio の機能を探索します。ブランドに即したアセットを作成し、バリエーションを生成し、エクスペリエンスを最適化する方法について説明します。
+description: パフォーマンスマーケティング用の Adobe GenStudio の機能を探索します。 ブランドに即したアセットを作成し、バリエーションを生成し、エクスペリエンスを最適化する方法について説明します。
 role: User
 exl-id: beae7802-09e6-4ca3-9ffa-b8494aea5ae4
 TQID: https://experienceleague.adobe.com/apgYIh5ri1UwarpHziyvJDEJPAOnmDu4QCulAP1-uRE
@@ -21,15 +21,15 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
-workflow-type: ht
-source-wordcount: 188
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 257
+ht-degree: 73%
 
 ---
 
 # パフォーマンスマーケティング用の Adobe GenStudio ユーザーガイド
 
-GenStudio for Performance Marketing は、アドビの生成 AI プラットフォーム上に作成されたアプリケーションです。これにより、マーケティングチームは、有料メディア、メール、ディスプレイ広告用のキャンペーンコンテンツを作成、管理、最適化できます。GenStudio for Performance Marketing は、ブランドの整合性を損なうことなく ROI の向上とコンテンツ制作の拡大を目標とし、コンテンツ制作やキャンペーン管理の包括的なツールスイートを提供します。
+GenStudio for Performance Marketing は、アドビの生成 AI プラットフォーム上に作成されたアプリケーションです。 これにより、マーケティングチームは、有料メディア、メール、ディスプレイ広告用のキャンペーンコンテンツを作成、管理、最適化できます。 GenStudio for Performance Marketing は、ブランドの整合性を損なうことなく ROI の向上とコンテンツ制作の拡大を目標とし、コンテンツ制作やキャンペーン管理の包括的なツールスイートを提供します。
 
 ## 機能の探索
 
@@ -45,8 +45,8 @@ GenStudio for Performance Marketing は、アドビの生成 AI プラットフ�
          </a>
       </div>
       <p>
-        <em>ブランドに即したデジタルエクスペリエンスを生成する、説明的なプロンプトを作成します。</em>
-</p>
+         <em>ブランドに即したデジタルエクスペリエンスを生成する、説明的なプロンプトを作成します。</em>
+      </p>
    </td>
    <td valign="top">
       <a href="../user-guide/create/overview.md">
@@ -54,12 +54,12 @@ GenStudio for Performance Marketing は、アドビの生成 AI プラットフ�
       </a>
       <div>
          <a href="../user-guide/create/overview.md">
-         <strong>Web エクスペリエンスの作成</strong>
+         <strong> エクスペリエンスの作成</strong>
          </a>
       </div>
       <p>
-        <em>パフォーマンスに優れた、ブランドに即したメールと Meta 広告を作成します。</em>
-</p>
+         <em>パフォーマンスに優れた、ブランドに即したメールと Meta 広告を作成します。</em>
+      </p>
    </td>
    <td valign="top">
       <a href="../user-guide/approvals/overview.md">
@@ -67,12 +67,12 @@ GenStudio for Performance Marketing は、アドビの生成 AI プラットフ�
       </a>
       <div>
          <a href="../user-guide/approvals/overview.md">
-         <strong>レビューと承認</strong>
+         <strong> レビューと承認</strong>
          </a>
       </div>
       <p>
          <em>マーケティングアセットの効率化されたレビューと承認を調整します。</em>
-</p>
+      </p>
    </td>
    <td valign="top">
       <a href="../user-guide/content/overview.md">
@@ -80,12 +80,12 @@ GenStudio for Performance Marketing は、アドビの生成 AI プラットフ�
       </a>
       <div>
          <a href="../user-guide/content/overview.md">
-         <strong>コンテンツの管理</strong>
+         <strong> コンテンツの管理</strong>
          </a>
       </div>
       <p>
          <em>ブランドガイドラインを維持しながら、コンテンツを検索、管理、再利用します。</em>
-</p>
+      </p>
    </td>
    <td valign="top">
       <a href="../user-guide/insights/overview.md">
@@ -93,12 +93,12 @@ GenStudio for Performance Marketing は、アドビの生成 AI プラットフ�
       </a>
       <div>
          <a href="../user-guide/insights/overview.md">
-         <strong>インサイトの表示</strong>
+         <strong> インサイトの表示</strong>
          </a>
       </div>
       <p>
          <em>有料メディアチャネルのコンテンツ効果を分析します。</em>
-</p>
+      </p>
    </td>
 </tr>
 </table>
@@ -110,23 +110,23 @@ GenStudio for Performance Marketing は、アドビの生成 AI プラットフ�
    <div>
       <a href="/help/user-guide/guidelines/add-guidelines.md">
       <img alt="ガイドラインの追加" src="../assets/card-guidelines.png">
-      <strong>ガイドラインを追加</strong>
+      <strong> ガイドラインを追加</strong>
       </a>
    </div>
    <p>
       <em>GenStudio for Performance Marketing にブランド、製品、ペルソナのガイドラインを追加する方法について説明します。</em>
-</p>
+   </p>
 </td>
 <td valign="top">
    <div>
       <a href="/help/user-guide/create/create-meta-ad.md">
       <img alt="フォルダーにファイルを移動する人物" src="../assets/card-manage-content.png">
-      <strong>Meta 広告エクスペリエンスの作成</strong>
+      <strong>Meta広告エクスペリエンスを作成</strong>
       </a>
    </div>
    <p>
       <em>ブランド一致の Meta 広告エクスペリエンスを作成する方法について説明します。</em>
-</p>
+   </p>
 </td>
 <td valign="top">
    <div>
@@ -137,6 +137,6 @@ GenStudio for Performance Marketing は、アドビの生成 AI プラットフ�
    </div>
    <p>
       <em>画像を生成する方法について説明します。</em>
-  </p>
+   </p>
 </td>
 </table>

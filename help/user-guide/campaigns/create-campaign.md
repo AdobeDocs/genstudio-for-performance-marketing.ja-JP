@@ -2,7 +2,7 @@
 title: Adobe GenStudio for Performance Marketing Campaigns
 description: 生成AIのアセットとエクスペリエンスを活用したデジタルマーケティングキャンペーンを作成および管理する方法について説明します。
 feature: Campaign Planning, Campaign Brief
-badgeBeta: label="Beta" tooltip="この機能は現在Betaに搭載されているため、一部の機能が制限されたり、機能が変更されたりする場合があります。"
+badgeBeta: label="ベータ版" tooltip="この機能は、現在ベータ版なので、一部の機能が制限されるか、変更される場合があります。"
 exl-id: b7c4194f-fa61-4739-acd6-7acbdd98e9b2
 TQID: https://experienceleague.adobe.com/fcmU2HDzq75iNR7LlKqMcANCa67FpA0fFelMhkQtOJk
 product_v2:
@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 866
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

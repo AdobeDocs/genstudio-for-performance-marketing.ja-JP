@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
 source-wordcount: 1143
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -133,7 +133,7 @@ When revising and preparing email experiences, you can toggle between previews f
 
 2. [&#x200B; バリエーションを手動で修正](#revise-generated-variants)して、バリエーションが実行されたコンテンツチェックと密接に連携していることを確認します。
 
-[&#x200B; ブランド検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
+[ブランドの検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
 
 ## レビューと承認を取得
 

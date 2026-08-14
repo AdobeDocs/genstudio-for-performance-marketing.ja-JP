@@ -6,7 +6,7 @@ role: Developer, User
 feature: Media Templates
 source-git-commit: 96249838f5ec957edc22eadf51ec828f54002adf
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## [!DNL Adobe Express]のテンプレートについて
 
-[!DNL Adobe Express]では、アプリケーションで提供されている既存のスターターテンプレート [&#128279;](https://helpx.adobe.com/jp/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)を使用するか、次のような便利なブランド制限[&#128279;](https://helpx.adobe.com/jp/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)を含めることができる カスタムテンプレートを使用して、新しいドキュメントを作成できます。
+[!DNL Adobe Express]では、アプリケーションで提供されている既存のスターターテンプレート [&#128279;](https://helpx.adobe.com/jp/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)を使用するか、次のような便利なブランド制限[&#128279;](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)を含めることができる カスタムテンプレートを使用して、新しいドキュメントを作成できます。
 
 - 変更できない[&#x200B; ロックされた要素](https://helpx.adobe.com/jp/express/web/invite-collaborate/object-locking.html)
 - 必要に応じて、ユーザーが要素をロック解除できるようにするロック制限
@@ -141,7 +141,7 @@ Express テンプレートでカスタムフォントを使用するには、管
 
 **バリアントのレイヤーを表示するには**:
 
-1. バリエーションのセットを生成したら、バリエーション内の編集可能なフィールドまたは画像をクリックします。レイヤーは、右上のタイルの行に表示されます。
+1. バリエーションのセットを生成したら、バリエーション内の編集可能なフィールドまたは画像をクリックします。 レイヤーは、右上のタイルの行に表示されます。
    バリアントの![&#x200B; レイヤー](./images/view-layers.png){width=50%}
 1. レイヤータイルをクリックして選択します。 選択したレイヤーがバリエーション用にハイライト表示されます。
 1. 選択したレイヤーに必要な編集を行います。
@@ -213,7 +213,7 @@ Express テンプレートでカスタムフォントを使用するには、管
 
 **ビデオアセンブリを使用するには**:
 
-1. エクスペリエンスを選択し、**[!UICONTROL 編集]** ボタンをクリックしてフォーカスモードに入り、ビデオアセンブリ機能を使用します。単一のバリエーションのみが表示され、シーン線が下部に表示されます。
+1. エクスペリエンスを選択し、**[!UICONTROL 編集]** ボタンをクリックしてフォーカスモードに入り、ビデオアセンブリ機能を使用します。 単一のバリエーションのみが表示され、シーン線が下部に表示されます。
    ![&#x200B; ビデオアセンブリのオプションで選択したエクスペリエンス &#x200B;](./images/video-assembly.png){width=70%}
 1. ビデオ体験を調整します。 ビデオアセンブリのオプションは次のとおりです。
    - ビデオを再生

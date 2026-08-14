@@ -99,7 +99,7 @@ Adobe GenStudio for Performance Marketingは、見つけやすさとパフォー
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md)がGenStudio for Performance Marketingに追加されました |
 | チャネル | メール、バナー、ディスプレイ広告など、特定のコンテンツタイプを配信するためのプラットフォーム |
 | [!UICONTROL &#x200B; タイムフレーム &#x200B;] | 四半期、季節、年など、アセットが使用される時間枠。例：`Winter 2023` |
-| 地域 | アセットが使用されるリージョン。 例：`North America`, `APAC`, `Italy` |
+| 領域 | アセットが使用されるリージョン。 例：`North America`, `APAC`, `Italy` |
 | 言語 | アセットの使用言語。 例：`Spanish` |
 | キーワード | ユーザー定義キーワードは、アセットの特性と目的をさらに特定するために使用します |
 

@@ -86,8 +86,8 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 新しい拡張機能は、デプロイした拡張機能のタイプに応じて、UIの様々な場所に表示されます。 現在使用可能な拡張ポイントは次のとおりです。
 
 * 以下を含むコンプライアンス拡張機能：
-   * [*プロンプト拡張ポイント*](#find-prompt-extensions)&#x200B;により、顧客はLLM生成に追加のコンテキストを追加でき、
-   * [*検証の拡張ポイント*](#find-validation-extensions)。顧客は生成されたコンテンツをLLMから検証できます。 検証は、多くの場合、プロンプト拡張機能と組み合わせて使用され、拡張プロンプトで生成されたコンテンツが、お客様の要件（医療用医薬品の請求、法的など）に準拠していることを確認します
+  * [*プロンプト拡張ポイント*](#find-prompt-extensions)&#x200B;により、顧客はLLM生成に追加のコンテキストを追加でき、
+  * [*検証の拡張ポイント*](#find-validation-extensions)。顧客は生成されたコンテンツをLLMから検証できます。 検証は、多くの場合、プロンプト拡張機能と組み合わせて使用され、拡張プロンプトで生成されたコンテンツが、お客様の要件（医療用医薬品の請求、法的など）に準拠していることを確認します
 * [デジタルアセット管理（DAM）拡張機能](#find-dam-extensions)
 * [テンプレート拡張機能](#find-template-extensions)
 * [翻訳拡張機能](#find-translation-extensions)

@@ -24,7 +24,7 @@ level_v2:
 source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
 source-wordcount: 600
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe GenStudio for Performance Marketingでは、生成AIを使用して、効�
 * Call to action（CTA）
 * 画像
 
-[&#x200B; テンプレート要素](/help/user-guide/templates/use-templates.md#template-elements)を参照してください。
+[テンプレート要素](/help/user-guide/templates/use-templates.md#template-elements)を参照してください。
 
 <!-- 
 ## Email capabilities
@@ -109,4 +109,4 @@ Content creators and marketers can produce brand-consistent email experiences in
 
 組織が、使用可能なコンテンツフラグメントソースとリポジトリを選択します。 管理者がソースを設定する方法と、作成者がCanvasから&#x200B;**[!UICONTROL Swap]**&#x200B;でコピーをスワップする方法については、[&#x200B; コンテンツフラグメント拡張機能](/help/extensibility/deploy-app.md#find-content-fragment-extension)を参照してください。
 
-また、HTMLのインターフェイスを利用して、承認されたメール体験を複数の言語に翻訳できます。 [体験の翻訳とローカライズ &#x200B;](/help/user-guide/create/translate-experiences.md)を参照してください。
+また、HTMLのインターフェイスを利用して、承認されたメール体験を複数の言語に翻訳できます。 [エクスペリエンスの翻訳とローカライズ](/help/user-guide/create/translate-experiences.md)を参照してください。

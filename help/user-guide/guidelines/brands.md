@@ -188,4 +188,4 @@ Add logos to your brand in the **[!UICONTROL Logos]** tab.
 
 GenStudio for Performance Marketingでは、ブランド検証が、[!DNL Brands]、[!DNL Products]、[!DNL Personas]の生成AI機能と連携して重要な役割を果たします。 これにより、あらゆるコンテンツが、ブランドアイデンティティとアクセシビリティに関する懸念との一貫性を維持できます。
 
-[&#x200B; ブランド検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
+[ブランドの検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。

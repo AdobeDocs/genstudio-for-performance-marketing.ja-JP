@@ -45,19 +45,19 @@ App Builder アプリケーションの主要なコンポーネントには、�
 
 * TS アプリファイル：
 
-   * `package.json`
-   * `package-lock.json`
-   * `eslint`
-   * `tsconfig`
-   * `jest test up`
+  * `package.json`
+  * `package-lock.json`
+  * `eslint`
+  * `tsconfig`
+  * `jest test up`
 
 * App Builder設定ファイル：
 
-   * `app.config.yaml`
-   * `ext.config.yaml`: アドオンの設定ファイル。
-   * `app.config.yaml`: アドオンの設定ファイル （アプリをGenStudio for Performance Marketing アドオンとして定義することを含む）。
-   * `.aio`
-   * `.env`: `.env` ファイルをソース管理にコミットしないでください。
+  * `app.config.yaml`
+  * `ext.config.yaml`: アドオンの設定ファイル。
+  * `app.config.yaml`: アドオンの設定ファイル （アプリをGenStudio for Performance Marketing アドオンとして定義することを含む）。
+  * `.aio`
+  * `.env`: `.env` ファイルをソース管理にコミットしないでください。
 
 ### ソースコード
 

@@ -2,7 +2,7 @@
 title: 画像のバリエーションを生成
 description: Performance Marketing用Adobe [!DNL GenStudio] で、参照画像のスタイルに一致する画像を作成します。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
-badgeBeta: label="Beta" tooltip="この機能は現在Betaに搭載されているため、一部の機能が制限されたり、機能が変更されたりする場合があります。"
+badgeBeta: label="ベータ版" tooltip="この機能は、現在ベータ版なので、一部の機能が制限されるか、変更される場合があります。"
 role: User
 level: Beginner
 recommendations: noDisplay
@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: 6d1053bf94b0a0ba65be90359e4d176e64dfffae
 workflow-type: tm+mt
 source-wordcount: 752
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -100,7 +100,7 @@ _[!DNL Image variants]_&#x200B;を作成するには、[!DNL Content]に保存�
 
 デフォルトでは、4つのバリエーション（プロンプト、パラメーター、追加したコンテンツをベース）が生成され、キャンバスに表示されます。
 
-### Adobe Expressで編集
+### Adobe Express で編集
 
 バリエーションを生成した後は、Adobe Expressを使用してAdobe GenStudio for Performance Marketingで直接編集できます。
 
@@ -129,7 +129,7 @@ _[!DNL Image variants]_&#x200B;を作成するには、[!DNL Content]に保存�
 
 1. 画像のバリエーションを修正し、バリエーションが実行されたコンテンツチェックと密接に連携するようにします。
 
-[&#x200B; ブランド検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
+[ブランドの検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
 
 <!-- 
 ## Generate Similar images
