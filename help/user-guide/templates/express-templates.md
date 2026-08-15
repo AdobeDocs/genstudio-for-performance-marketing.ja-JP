@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## [!DNL Adobe Express]のテンプレートについて
 
-[!DNL Adobe Express]では、アプリケーションで提供されている既存のスターターテンプレート [&#128279;](https://helpx.adobe.com/jp/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)を使用するか、次のような便利なブランド制限[&#128279;](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)を含めることができる カスタムテンプレートを使用して、新しいドキュメントを作成できます。
+[!DNL Adobe Express]では、アプリケーションで提供されている既存のスターターテンプレート [&#128279;](https://helpx.adobe.com/jp/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)を使用するか、次のような便利なブランド制限[&#128279;](https://helpx.adobe.com/jp/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)を含めることができる カスタムテンプレートを使用して、新しいドキュメントを作成できます。
 
 - 変更できない[&#x200B; ロックされた要素](https://helpx.adobe.com/jp/express/web/invite-collaborate/object-locking.html)
 - 必要に応じて、ユーザーが要素をロック解除できるようにするロック制限
