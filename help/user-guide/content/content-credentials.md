@@ -17,20 +17,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
+source-git-commit: abf48a907a72b060f684865c29b3a42f1ebdc3dc
 workflow-type: tm+mt
-source-wordcount: 723
-ht-degree: 4%
+source-wordcount: 670
+ht-degree: 5%
 
 ---
 
 # Content Credentials法人版
 
 ブランドの信頼性を証明し、コンプライアンスを促進するコンテンツの改ざん防止のための資格情報が、マーケティングワークフローに直接組み込まれる方法をご確認ください。
-
->[!WARNING]
->
-> この機能は現在ベータ版で、アクセスが許可された組織のみが利用できます。 ご興味のある方は、Adobeの担当者までお問い合わせいただくか、[このリンクを使用して登録をリクエストしてください](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr)。
 
 ## Content Credentials の基本を学ぶ {#content-credentials}
 
@@ -39,15 +35,11 @@ ht-degree: 4%
 >title="[!DNL GenStudio for Performance Marketing] の Content Credentials"
 >abstract="ブランドの信頼性を証明し、コンプライアンスを推進するコンテンツの改ざん防止資格情報を、マーケティングワークフローに直接埋め込むことができます。"
 
-Content CredentialsがAdmin Consoleでアクティベートされた後、GenStudio for Performance Marketing ユーザーはアプリ内のすべてのアセットに対してContent Credentialsを有効にすることができます。 認証情報を適用するグローバルオプションがオフになっている場合、ユーザーは個々のアセットに対してContent Credentialsを適用するオプションを選択できます。
+GenStudio for Performance Marketingは、Content Credentialsをあらゆるアセットに自動的にグローバルに適用します。 有効にする設定手順やアセットごとの設定はありません。マーケティングワークフロー全体を通じて、資格情報が埋め込まれ、保存され、更新されます。
 
 コンテンツが公開されると、LinkedInなどの外部プラットフォームにContent Credentialsが表示されます。
 
-管理者は、Admin Console内で有効なX.509証明書をアップロードする責任があります。 この手順により、企業のデジタル署名が適切に設定され、サポートされているAdobe DX アプリケーションで使用できる状態になります。
-
->[!NOTE]
->
->この設定の制御は、将来的にAdmin Consoleに移行する可能性があり、アプリケーション間のContent Credentialsの管理を合理化し、管理上の監視を強化します。
+C2PAに準拠したContent Credentialsでは、証明書を設定する必要はありません。 ブランドの署名は例外です。組織独自の署名でコンテンツに署名するには、管理者がAdmin Console内に有効なX.509証明書をアップロードする必要があります。 この手順により、企業のデジタル署名が適切に設定され、サポートされているAdobe DX アプリケーションで使用できる状態になります。
 
 ## Content Credentialsとは？ 
 
@@ -71,7 +63,7 @@ Content Credentialsの導入は、インポートやコンテンツの発見か�
 
 コンテンツギャラリーでは、読み込んだアセットに認証情報が表示されます。
 
-サムネールの右上隅にあるContent Credential バッジは、「ブランド署名済み」コンテンツを示します。
+サムネールの右上隅にあるContent Credential バッジは、[!UICONTROL &#x200B; ブランド署名済み] コンテンツを示します。
 
 ![資格情報を含むインポートされたアセット &#x200B;](./images/import-discovery1.png)
 
@@ -93,7 +85,7 @@ Content Credentialのバッジは、Canvas Asset セレクターに表示され�
 
 ドラフトからの書き出し中に、変更されたアセットは自動的に再署名され、新しい資格情報は元のアセットにリンクされます。
 
-![書き出されたアセットの資格情報データ &#x200B;](./images/edit-and-transformation1.png){width="60%"}
+![書き出し形式オプションを含むダウンロードダイアログ &#x200B;](./images/edit-and-transformation2.png){width="60%"}
 
 ### レビューと承認
 
@@ -103,7 +95,7 @@ Content Credentialのバッジは、Canvas Asset セレクターに表示され�
 
 レビュー担当者がアセットを調査すると、バリエーションごとの資格情報の詳細が表示されます。 ユーザーが「**[!UICONTROL コンテンツに保存]**」をクリックすると、承認済みエクスペリエンスが再署名されます。
 
-![承認済みアセットの資格情報データ &#x200B;](./images/review-and-approve2.png)
+![承認済みコンテンツの詳細を確認ダイアログ。コンテンツに保存ボタン &#x200B;](./images/review-and-approve3.png)
 
 ### アクティベーションとエクスポート
 
