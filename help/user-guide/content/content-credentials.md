@@ -17,9 +17,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: abf48a907a72b060f684865c29b3a42f1ebdc3dc
+source-git-commit: 5fe8dccdcf24d26706b7d3621acc1715fd9eb164
 workflow-type: tm+mt
-source-wordcount: 670
+source-wordcount: 750
 ht-degree: 5%
 
 ---
@@ -105,6 +105,13 @@ Content Credentialのバッジは、Canvas Asset セレクターに表示され�
 
 書き出されたファイルには、C2PA準拠の資格情報が埋め込まれます。
 
+書き出されたアセットも系統を維持します。 埋め込まれた資格情報には、書き出しの派生元のアセットが記録されるため、書き出されたエクスペリエンスは、元の読み込まれたアセットの編集を通じて遡ることができます。 リネージュはファイル内を移動するため、アセットがGenStudio for Performance Marketingを離れた後も検査できます。
+
 資格情報の一貫性は、サポートされているすべてのフォーマット（JPEG、PNG、MP4）で維持されます。
 
 ![書き出されたアセットの資格情報データ &#x200B;](./images/activate-export2.png)
+
+## 関連情報
+
+* [コンテンツの透明性](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* Adobeの[Content Credentials](https://helpx.adobe.com/jp/creative-cloud/help/content-credentials.html)
