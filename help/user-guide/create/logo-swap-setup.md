@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # テンプレートでのロゴスワップの設定
 
-このガイドでは、[!DNL GenStudio for Performance Marketing]の[ ロゴスワップ機能](/help/user-guide/create/logo-swap.md)を有効にするために、テンプレートでブランドロゴプレースホルダーを設定する方法について説明します。 これらのガイドラインを使用して、様々な画像サイズと縦横比でプレースホルダーが正しく表示されるようにします。
+このガイドでは、[!DNL GenStudio for Performance Marketing]の[&#x200B; ロゴスワップ機能](/help/user-guide/create/logo-swap.md)を有効にするために、テンプレートでブランドロゴプレースホルダーを設定する方法について説明します。 これらのガイドラインを使用して、様々な画像サイズと縦横比でプレースホルダーが正しく表示されるようにします。
 
 ## クイックセットアップ
 

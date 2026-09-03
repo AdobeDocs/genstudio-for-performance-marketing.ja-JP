@@ -5,11 +5,18 @@ feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
 TQID: https://experienceleague.adobe.com/JKHpT5m-4KZvq-iWF2u11hRaFFRhKMo-ofbWk-xvRMI
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
-subfeature_v2: id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+subfeature_v2:
+  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 2c5e5166bfe9d4b1c6cb56495613ff5cf20fab34
 workflow-type: tm+mt
 source-wordcount: 1913
@@ -20,7 +27,7 @@ ht-degree: 78%
 # GenStudio for Performance Marketing用 Figma プラグイン
 
 GenStudio for Performance Marketing Figma プラグインは、Figma アプリケーションに新しいパネルを追加し、ブランドに即したコンテンツを生成できるようにします。
-[Figma コミュニティマーケットプレイス ](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio)からプラグインを検索してインストールします。
+[Figma コミュニティマーケットプレイス &#x200B;](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio)からプラグインを検索してインストールします。
 
 このページでは、プラグインの設定方法および使用方法を説明します。
 
@@ -86,9 +93,9 @@ Instagram や Facebook のストーリーの場合：
 
 以下では、これらのフィールドロールの一部がどのようにマッピングされているかを説明します。
 
-| ![ フィールドの役割が示されたFacebookの投稿](./facebook-post.png){width="60%" align="center" zoomable="yes"}<br> | ![ フィールドの役割が示されたFacebook ストーリー](./facebook-story.png){width="70%" align="center" zoomable="yes"}<br> |
+| ![&#x200B; フィールドの役割が示されたFacebookの投稿](./facebook-post.png){width="60%" align="center" zoomable="yes"}<br> | ![&#x200B; フィールドの役割が示されたFacebook ストーリー](./facebook-story.png){width="70%" align="center" zoomable="yes"}<br> |
 |:---:|:---:|
-| ![ フィールドの役割が表示されたInstagram投稿](./instagram-post.png){width="60%" align="center" zoomable="yes"}<br> | ![ フィールドの役割が表示されたInstagram ストーリー](./instagram-story.png){width="70%" align="center" zoomable="yes"}<br> |
+| ![&#x200B; フィールドの役割が表示されたInstagram投稿](./instagram-post.png){width="60%" align="center" zoomable="yes"}<br> | ![&#x200B; フィールドの役割が表示されたInstagram ストーリー](./instagram-story.png){width="70%" align="center" zoomable="yes"}<br> |
 
 **LinkedIn フィールドの役割には**&#x200B;が含まれます。
 
@@ -102,7 +109,7 @@ Instagram や Facebook のストーリーの場合：
 
 以下では、これらのフィールドロールの一部がどのようにマッピングされているかを説明します。
 
-![ フィールドの役割が示されたLinkedIn投稿](./linkedin-ad.png){width="30%" align="center" zoomable="yes"}
+![&#x200B; フィールドの役割が示されたLinkedIn投稿](./linkedin-ad.png){width="30%" align="center" zoomable="yes"}
 
 プラグインは、生成されたコンテンツに使用するためのこれらのマッピングを記憶しています。 1つのフィールドロールを複数のテンプレート要素にマッピングできます。 手動フィールドは、テキストの編集可能性を保持するエレメント用ですが、生成用にマークされません。
 
@@ -115,7 +122,7 @@ Instagram や Facebook のストーリーの場合：
 1. テンプレート内の要素（テキスト、画像など）を選択します。
 1. ドロップダウンメニューを使用して役割を割り当てます。
 
-![ フィールドの役割のマッピング ](./field-role-mapping.png){width="60%" zoomable="yes"}
+![&#x200B; フィールドの役割のマッピング &#x200B;](./field-role-mapping.png){width="60%" zoomable="yes"}
 
 {{$include /help/_includes/field-mapping-exceptions.md}}
 
@@ -124,14 +131,14 @@ Instagram や Facebook のストーリーの場合：
 GenStudio for Performance Marketing AI を使用して、Figma テンプレート内の要素を生成したり、バリエーションを作成したりします。
 
 1. GenStudio Plugin Playground または既に用意されているテンプレートを使用する場合は、広告テンプレートを含むセクションノードを選択します。 これは、**レイヤー** パネルから実行するか、キャンバスのセクションを直接クリックして実行できます。
-   ![ セクションの選択またはバリエーション ](./plugin-playground.png){width="50%" zoomable="yes"}
+   ![&#x200B; セクションの選択またはバリエーション &#x200B;](./plugin-playground.png){width="50%" zoomable="yes"}
 1. プラグインウィンドウで、バリエーションのプロジェクト名を入力し、コンテンツのプラットフォームを選択して、その他の必要な情報を入力します。 次に、「**[!UICONTROL セットアップを完了]**」ボタンをクリックします。
-   ![ プロジェクトを設定ウィンドウ ](./setup-project.png){width="30%" zoomable="yes"}
+   ![&#x200B; プロジェクトを設定ウィンドウ &#x200B;](./setup-project.png){width="30%" zoomable="yes"}
 1. コンテンツ生成に使用する [!DNL Brand]、[!DNL Persona]、[!DNL Product] を選択します。
 1. 作成するバリエーションの数を選択します（最大 8 つ）。
 1. **[!UICONTROL コンテンツを選択]** の下にあるボタンを使用して、アセットから画像を参照して選択します。 最近追加された 40 個のアセットが最初に表示され、他のアセットを検索できます。 選択した画像は、テンプレートに合わせて自動的にサイズ変更されます。
 1. テキストプロンプトを入力します。 **[!UICONTROL フィールド]** リストの各フィールドでは、新しいコンテンツの **[!UICONTROL アクション]** オプションが **[!UICONTROL 生成]** に設定されています。
-1. すべてのフィールドの役割をマッピングします。 [ フィールドロールマッピング ](#field-role-mapping) を参照してください。
+1. すべてのフィールドの役割をマッピングします。 [&#x200B; フィールドロールマッピング &#x200B;](#field-role-mapping) を参照してください。
 1. 「**[!UICONTROL 生成]** ボタンをクリックします。
 
 ## 既存のコンテンツからバリエーションを翻訳または生成してコピーする
@@ -139,23 +146,23 @@ GenStudio for Performance Marketing AI を使用して、Figma テンプレー�
 GenStudio for Performance Marketing AI を使用して、広告コピーのバリエーションを生成したり、Figma テンプレートを翻訳したりします。
 
 1. 広告テンプレートを含むセクション ノードを選択します。 これは、**レイヤー** パネルから実行するか、キャンバスのセクションを直接クリックして実行できます。
-   ![ セクションの選択またはバリエーション ](./plugin-playground.png){width="50%" zoomable="yes"}
+   ![&#x200B; セクションの選択またはバリエーション &#x200B;](./plugin-playground.png){width="50%" zoomable="yes"}
 1. プラグインウィンドウで、バリエーションのプロジェクト名を入力し、コンテンツのプラットフォームを選択します。
 1. **[!UICONTROL 目標は何ですか？]** で **[!UICONTROL バリエーションを生成]** または **[!UICONTROL 翻訳]** を選択し、**[!UICONTROL 設定を完了]** ボタンをクリックします。
-   ![ プロジェクトを設定ウィンドウ ](./setup-project.png){width="30%" zoomable="yes"}
+   ![&#x200B; プロジェクトを設定ウィンドウ &#x200B;](./setup-project.png){width="30%" zoomable="yes"}
 1. コンテンツ生成に使用する [!DNL Brand]、[!DNL Persona]、[!DNL Product] を選択します。
 1. 作成するバリエーションの数を選択します。
 1. **[!UICONTROL コンテンツを選択]** の下にあるボタンを使用して、アセットから画像を参照して選択します。 最近追加された 40 個のアセットが最初に表示され、他のアセットを検索できます。 選択した画像は、テンプレートに合わせて自動的にサイズ変更されます。
 1. テキストプロンプトを入力します。 **[!UICONTROL フィールド]** リストの各フィールドでは、新しいコンテンツの **[!UICONTROL アクション]** オプションが **[!UICONTROL 生成]** に設定されています。
-1. すべてのフィールドの役割をマッピングします。 [ フィールドロールマッピング ](#field-role-mapping) を参照してください。
+1. すべてのフィールドの役割をマッピングします。 [&#x200B; フィールドロールマッピング &#x200B;](#field-role-mapping) を参照してください。
 1. 各フィールドタイプを選択してバリエーションを生成するか、プラグインの左側のパネルで翻訳し、初期コンテンツを各 **[!UICONTROL 初期コンテンツ]** ボックスに貼り付けます。
-   ![ 「初期コンテンツ」ボックスのサンプルテキスト ](./initial-content-box.png){width="60%" zoomable="yes"}
+   ![&#x200B; 「初期コンテンツ」ボックスのサンプルテキスト &#x200B;](./initial-content-box.png){width="60%" zoomable="yes"}
 1. 「**[!UICONTROL 生成]** ボタンをクリックします。
 
 ## 生成後にコンテンツを翻訳
 
 1. 翻訳する世代を選択します。
-   ![ 生成を選択 ](./select-generation.png){width="20%" zoomable="yes"}
+   ![&#x200B; 生成を選択 &#x200B;](./select-generation.png){width="20%" zoomable="yes"}
 1. 「**[!UICONTROL 翻訳]**」を選択し、「**[!UICONTROL 翻訳]**」をクリックします。
 1. ターゲット言語（複数可）を選択します。
 1. 「**[!UICONTROL 選択]**」をクリックします。
@@ -166,13 +173,13 @@ GenStudio for Performance Marketing AI を使用して、広告コピーのバ�
 * 各翻訳はターゲット言語またはロケールを示します。
 * 元のページの元のコンテンツは変更されません。
 
-![ 翻訳結果 ](./translation-results.png){width="60%" zoomable="yes"}
+![&#x200B; 翻訳結果 &#x200B;](./translation-results.png){width="60%" zoomable="yes"}
 
 ## 生成後のコンテンツフィールドでのその他のアクション
 
 フィールド内の既存のコンテンツを編集する場合は、プラグイン パネルに便利なオプションが表示されます。
 
-![ プラグインアクションオプション ](./figma-other-actions.png){width="30%" zoomable="yes"}
+![&#x200B; プラグインアクションオプション &#x200B;](./figma-other-actions.png){width="30%" zoomable="yes"}
 
 オプションには、以下が含まれます。
 
@@ -194,11 +201,11 @@ GenStudio for Performance Marketing AI を使用して、広告コピーのバ�
 
 1. 次のいずれかの操作を行って、Figma キャンバスに書き出すコンテンツを選択します。
    * キャンバスで生成セクションを選択し、プラグインパネルの **[!UICONTROL エクスポート用にすべてマーク]** をクリックします。
-     ![ 生成セクションの選択 ](./select-generation-section.png){width="20%" zoomable="yes"}
+     ![&#x200B; 生成セクションの選択 &#x200B;](./select-generation-section.png){width="20%" zoomable="yes"}
    * キャンバスで個々の世代を選択し、プラグインパネルの **[!UICONTROL エクスポート用にマーク]** をクリックします。
-     ![ 個々の世代の選択 ](./select-generation.png){width="20%" zoomable="yes"}
+     ![&#x200B; 個々の世代の選択 &#x200B;](./select-generation.png){width="20%" zoomable="yes"}
 1. サイドバーメニューから書き出し項目を選択します。
-   ![Meta広告に表示された「書き出し用にマーク」ボタン ](./mark-for-export.png){width="60%" zoomable="yes"}
+   ![Meta広告に表示された「書き出し用にマーク」ボタン &#x200B;](./mark-for-export.png){width="60%" zoomable="yes"}
 1. 宛先を選択します。
 1. **[!UICONTROL 書き出し]** をクリックして、コンテンツを書き出します。
 
@@ -250,31 +257,31 @@ PSDに変換すると、サポートされているレイヤーは次のよう�
 
    * 「**[!UICONTROL エクスポート]**」をクリックして、変換したファイルを選択した場所にエクスポートするか、
    * 「**[!UICONTROL Photoshopに転送]**」をクリックして、変換されたファイルをキャッシュし、GenStudio Photoshopですぐに使用できます。
-     ![GenStudio Photoshopへの転送ボタン ](./transfer-to-ps-button.png){width="40%"}
+     ![GenStudio Photoshopへの転送ボタン &#x200B;](./transfer-to-ps-button.png){width="40%"}
 1. 次に、Figma ファイルリンクを共有します。 プラグインには、変換を完了するためのFigma ファイル URLが必要です。 ドキュメントのURLを追加します。
 
    1. Figma で、キャンバスの右上隅にある「**[!UICONTROL 共有]**」をクリックします。
    1. **[!UICONTROL このファイルを共有]** で、「**[!UICONTROL リンクをコピー]**」をクリックします。
    1. コピーしたリンクを[!DNL GenStudio for Performance Marketing] プラグインダイアログの&#x200B;**[!UICONTROL Figma File link]** フィールドに貼り付けます。 これは各ファイルに対して行う必要があります。
-      ![File Key Required ダイアログ ](./file-key-required.png){width="35%"}
+      ![File Key Required ダイアログ &#x200B;](./file-key-required.png){width="35%"}
    1. 「**[!UICONTROL 送信]**」をクリックします。
 1. ファイルの内容とメタデータを読み取るためのアクセス権を求めるポップアップが表示されます。 これは、すべてのファイルに対して1回だけ実行する必要があります。 「**[!UICONTROL アクセスを許可]**」をクリックします。 プラグインは、Figmaで選択したフレームを読み取り、ファイルデータの中間形式であるJSON ドキュメントに変換します。
-   ![ ファイルのコンテンツとメタデータの読み取りアクセスを許可](./figma-access-request.png){width="35%"}
+   ![&#x200B; ファイルのコンテンツとメタデータの読み取りアクセスを許可](./figma-access-request.png){width="35%"}
 1. Photoshopで、[!DNL GenStudio Photoshop]を開き、**[!UICONTROL 読み込み]** タブをクリックします。
 1. 変換されたファイルを選択するには、次のいずれかの手順を実行します。
 
    * 「**[!UICONTROL プラグインから]**」をクリックして、**[!UICONTROL GenStudio Photoshopへの転送]**&#x200B;で変換されたファイルをキャッシュ済みファイルリストから選択するか、
    * 「**[!UICONTROL JSON をアップロード]**」をクリックし、アップロードする JSON ファイルを参照して選択します。
-     ![ 「JSON をアップロード」ボタン ](./upload-json.png){width="40%"}
+     ![&#x200B; 「JSON をアップロード」ボタン &#x200B;](./upload-json.png){width="40%"}
 1. GenStudio Photoshopは、JSON ドキュメントの情報を開いているPhotoshop ドキュメントに変換します。
 1. 「**[!UICONTROL 完了]**」をクリックします。 新しいファイルがPhotoshopで開き、使用する準備が整います。 または、「**[!UICONTROL 名前を付けて保存…]**」をクリックして、ファイルを保存する場所を選択します。
-   ![ 完了ボタンダイアログボックス ](./import-done-button.png){width="40%"}
+   ![&#x200B; 完了ボタンダイアログボックス &#x200B;](./import-done-button.png){width="40%"}
 
 ## 世代履歴
 
 プラグインは、各フィールドの変更履歴を保持します。 テンプレートページで、プラグインのサイドバーの **[!UICONTROL 生成履歴]** を選択します。
 
-![Meta広告に表示される「世代履歴」オプション ](./generation-history.png){width="80%" zoomable="yes"}
+![Meta広告に表示される「世代履歴」オプション &#x200B;](./generation-history.png){width="80%" zoomable="yes"}
 
 ## トラブルシューティング
 
@@ -282,7 +289,7 @@ PSDに変換すると、サポートされているレイヤーは次のよう�
 
 ### マッピングされたフィールド
 
-テキストまたは画像が置き換えられていない場合は、プラグイン UI でフィールドがGenStudio フィールドロールにマッピングされていることを確認してください。 [ フィールドロールマッピング ](#field-role-mapping) を参照してください。
+テキストまたは画像が置き換えられていない場合は、プラグイン UI でフィールドがGenStudio フィールドロールにマッピングされていることを確認してください。 [&#x200B; フィールドロールマッピング &#x200B;](#field-role-mapping) を参照してください。
 
 ### 使用可能なフォントの確認
 
@@ -290,4 +297,4 @@ PSDに変換すると、サポートされているレイヤーは次のよう�
 
 ### フィールドの役割のサポートを検討
 
-特定のチャネルでは、特定のフィールドでの置換のみがサポートされます。 [ フィールドの役割のマッピング ](#field-role-mapping) に対する例外に注意してください。
+特定のチャネルでは、特定のフィールドでの置換のみがサポートされます。 [&#x200B; フィールドの役割のマッピング &#x200B;](#field-role-mapping) に対する例外に注意してください。

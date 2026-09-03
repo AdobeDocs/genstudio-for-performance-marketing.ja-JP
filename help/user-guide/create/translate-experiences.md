@@ -24,7 +24,7 @@ Adobe [!DNL GenStudio for Performance Marketing]では、HTML キャンバスで
 HTMLのカンバスですぐに使用できる翻訳では、次の機能をサポートしています。
 
 * [メールエクスペリエンス](/help/user-guide/create/email-experiences.md)
-* [Meta](/help/user-guide/create/meta-experiences.md)、[LinkedIn](/help/user-guide/create/linkedin-experiences.md)、[ ディスプレイ ](/help/user-guide/create/display-ad-experiences.md)広告などの有料メディア体験
+* [Meta](/help/user-guide/create/meta-experiences.md)、[LinkedIn](/help/user-guide/create/linkedin-experiences.md)、[&#x200B; ディスプレイ &#x200B;](/help/user-guide/create/display-ad-experiences.md)広告などの有料メディア体験
 
 ## 始める前に
 
@@ -36,7 +36,7 @@ HTMLのカンバスですぐに使用できる翻訳では、次の機能をサ�
 
 [!DNL Create] ランディングページから翻訳を開始して、承認済みエクスペリエンスをローカライズします。
 
-![ ランディングページの作成](./translate-create-workflow.png){width="600" zoomable="yes"}でコピーを翻訳およびローカライズ
+![&#x200B; ランディングページの作成](./translate-create-workflow.png){width="600" zoomable="yes"}でコピーを翻訳およびローカライズ
 
 **[!DNL Create]**&#x200B;から翻訳するには：
 
@@ -53,7 +53,7 @@ HTMLのカンバスですぐに使用できる翻訳では、次の機能をサ�
 
 ### Experience ギャラリーから
 
-![ コンテンツギャラリーのエクスペリエンスに対するアクションの翻訳](./translate-content-gallery.png){width="500" zoomable="yes"}
+![&#x200B; コンテンツギャラリーのエクスペリエンスに対するアクションの翻訳](./translate-content-gallery.png){width="500" zoomable="yes"}
 
 **エクスペリエンスギャラリー**&#x200B;から翻訳するには：
 
@@ -65,7 +65,7 @@ HTMLのカンバスですぐに使用できる翻訳では、次の機能をサ�
 
 ## カンバスでの翻訳の操作
 
-HTML キャンバスでは、ソースエクスペリエンスは既に承認されているため、編集できません。 電子メールソースエクスペリエンスがロックされているようです。 カンバス上で翻訳済みのバリエーションのテキストを直接編集できます。 バリエーションのコピーの編集に関するガイダンスについては、[ バリエーションの管理](/help/user-guide/create/manage-variants.md)を参照してください。
+HTML キャンバスでは、ソースエクスペリエンスは既に承認されているため、編集できません。 電子メールソースエクスペリエンスがロックされているようです。 カンバス上で翻訳済みのバリエーションのテキストを直接編集できます。 バリエーションのコピーの編集に関するガイダンスについては、[&#x200B; バリエーションの管理](/help/user-guide/create/manage-variants.md)を参照してください。
 
 翻訳されたエクスペリエンスは、ブランド検証を実行したり、ブランドスコアを表示したりしません。 ソースエクスペリエンスはブランドのガイドラインと共に作成され、レビューおよび承認されています。
 
@@ -78,7 +78,7 @@ HTML キャンバスでは、ソースエクスペリエンスは既に承認さ
 1. [!DNL Create] キャンバスで、翻訳済みバリアント ヘッダーのオプション（3つのドット）メニューをクリックします。
 1. 「**[!UICONTROL 削除]**」をクリックします。
 
-![ キャンバスから翻訳済み言語を削除](./remove-translation-variant.png){width="500" zoomable="yes"}
+![&#x200B; キャンバスから翻訳済み言語を削除](./remove-translation-variant.png){width="500" zoomable="yes"}
 
 翻訳された言語がキャンバスから削除されます。
 
@@ -107,14 +107,14 @@ HTML キャンバスでは、ソースエクスペリエンスは既に承認さ
    * 有料メディア：**CSV + JPG**、**CSV + PNG**、または&#x200B;**HTML + images**
 1. 「**[!UICONTROL 書き出し]**」をクリックします。
 
- [!DNL Content]](/help/user-guide/content/manage-assets.md#export-experiences)から[ エクスペリエンスを書き出すこともできます。
+ [!DNL Content]&#x200B;[&#128279;](/help/user-guide/content/manage-assets.md#export-experiences)から エクスペリエンスを書き出すこともできます。
 
 **レビューと承認を依頼するには**:
 
 1. [!DNL Create] キャンバスで、**[!UICONTROL 承認を依頼]**&#x200B;をクリックします。
 1. 少なくとも1人の承認者を割り当てて、リクエストを送信します。
 
-レビューワークフローの詳細については、[ レビューと承認の依頼](/help/user-guide/approvals/request-review.md)を参照してください。
+レビューワークフローの詳細については、[&#x200B; レビューと承認の依頼](/help/user-guide/approvals/request-review.md)を参照してください。
 
 **承認済みの翻訳を公開するには**:
 
