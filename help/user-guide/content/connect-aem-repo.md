@@ -47,20 +47,20 @@ Adobe Experience Manager（AEM）にアセットがある場合は、次の手�
 
 [!DNL Admin Console]で、GenStudio for Performance Marketing ユーザーまたはユーザーグループを[!DNL AEM Assets Content Hub]製品プロファイルに追加します。 コンテンツレビュアーが[!DNL AEM Assets Content Hub] リポジトリと同じ組織にアクセスできない場合、コンテンツのレビューと承認が困難になる可能性があります。
 
-- [&#x200B; オンボード  [!DNL Content Hub] 管理者](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
-- [&#x200B; オンボード  [!DNL Content Hub]  ユーザー](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
+- [&#x200B; オンボード  [!DNL Content Hub] 管理者](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
+- [&#x200B; オンボード  [!DNL Content Hub]  ユーザー](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
 
 ## ステップ 3：アセットの承認
 
 [!DNL AEM Assets Content Hub]で使用するアセットを承認すると、GenStudio for Performance Marketingで使用できるようになります。
 
-_AEM as a Cloud Service_ ドキュメントの「[Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) アセットの承認」を参照してください。
+_AEM as a Cloud Service_ ドキュメントの「[Experience Manager](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) アセットの承認」を参照してください。
 
 ## 手順4：アセットの表示の設定
 
 _[!DNL AEM Assets Content Hub]_&#x200B;設定オプションで、フィルター、アセットの詳細、検索、ブランディングの各設定オプションのセットを確認します。
 
-_Content Hub_ ドキュメントの[AEM as a Cloud Service ユーザーインターフェイスの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options)を参照してください。
+_Content Hub_ ドキュメントの[AEM as a Cloud Service ユーザーインターフェイスの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options)を参照してください。
 
 ## 手順5：接続の確認
 
