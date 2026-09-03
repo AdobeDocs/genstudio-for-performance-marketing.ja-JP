@@ -107,7 +107,7 @@ HTML キャンバスでは、ソースエクスペリエンスは既に承認さ
    * 有料メディア：**CSV + JPG**、**CSV + PNG**、または&#x200B;**HTML + images**
 1. 「**[!UICONTROL 書き出し]**」をクリックします。
 
- [!DNL Content][&#128279;](/help/user-guide/content/manage-assets.md#export-experiences)から エクスペリエンスを書き出すこともできます。
+ [!DNL Content]&#x200B;[&#128279;](/help/user-guide/content/manage-assets.md#export-experiences)から エクスペリエンスを書き出すこともできます。
 
 **レビューと承認を依頼するには**:
 

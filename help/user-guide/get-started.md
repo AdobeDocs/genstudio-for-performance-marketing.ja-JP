@@ -91,4 +91,3 @@ GenStudio システムマネージャーは、組織の特定のブランド要�
 ### 手順 5：有料メディアアカウントに接続
 
 GenStudio for Performance Marketing と有料メディアアカウントとの接続を設定し、アクティブなマーケティングキャンペーン、アセット、エクスペリエンスからデータを受信します。 Meta や LinkedIn を操作する際は、[!DNL Insights] を使用して **[!UICONTROL Insights 2.0]** クロスチャネルの概要を含むチャネル派生データを分析します（[Insights の概要](/help/user-guide/insights/overview.md#insights-20)）。 [有料メディアアカウントの接続](/help/user-guide/connectors/connect-channel.md)を参照してください。
-

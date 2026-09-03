@@ -20,9 +20,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0ff827501580099c4fc08fa8f59dddcf0fb14f12
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1352
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ GenStudio for Performance Marketing でテンプレートを使用する際は�
 1. 最適なエクスペリエンスを提供するために[アクセシビリティ標準](accessibility-for-templates.md)を使用して設計する
 1. [チャネル固有のテンプレートガイドライン](#follow-channel-specific-template-guidelines)に従う
 1. [Express テンプレート](/help/user-guide/templates/express-templates.md)を使用する際は、[Express から GenStudio へのテンプレートに関するベストプラクティス](#express-to-genstudio-template-best-practices)で説明されている特定のヒントを考慮する
->>
+&#x200B;>>
 テンプレート要素と手順の基本について詳しくは、[テンプレートの操作](use-templates.md)を参照してください。 また、次のキャンペーンで使用する特定の指示に対して[テンプレートをカスタマイズ](customize-template.md)する方法についても、詳細に掘り下げていきます。
 
 ## 適切なテンプレート要素の使用
@@ -52,8 +52,8 @@ GenStudio for Performance Marketing でテンプレートを使用する際は�
 
 プレースホルダーテキストは、ユーザーが後でテンプレートに入力するコンテンツの構文や構造を定義するのに役立ちます。 例えば、メールアドレスを定義するための {first_name}.{last_name}@email.etc. などがあります。 ただし、GenStudio for Performance Marketingでは、一部の一般的な区切り記号が既に他の意味として予約されています。
 
-❌ `< >` - HTML タグに使用されます。
-❌ `{{ }}` - Handlebar 式に使用されます。
+❌ `< >` - HTML タグに使用されています。
+❌ `{{ }}` - ハンドルバー式に使用されています。
 
 既存のタグとの混同を回避するために、プレースホルダーテキストを示す際には、単一の括弧（直角括弧または中括弧）を使用します。
 
@@ -133,8 +133,8 @@ GenStudio for Performance Marketing でテンプレートを使用する際は�
 
 ### 複数バリエーションのテンプレートを使用
 
-[!DNL Adobe Express] では、1 つのテンプレートファイルで、ページを複数のサイズまたは縦横比のバリエーションで表示できます。
-[!DNL GenStudio for Performance Marketing] でテンプレートを選択すると、すべてのバリエーションがキャンバスに表示されます。
+[!DNL Adobe Express]では、ページは1つのテンプレートファイルで複数のサイズまたは縦横比のバリエーションを表すことができます。
+[!DNL GenStudio for Performance Marketing]でテンプレートを選択すると、すべてのバリエーションがキャンバスに表示されます。
 
 この機能は、1 つのファイルで 1 つのバリエーションしかサポートされない HTML テンプレートではさらに効果的です。
 
@@ -197,4 +197,4 @@ GenStudio for Performance Marketing でテンプレートを使用する際は�
 
 ### カスタムフォントの活用
 
-[!DNL Adobe Express] テンプレートを使用したカスタムフォントの仕組みについて、多くの場合、チームから質問を受けます。 管理者は、カスタムフォントを使用する前に、Admin Console でカスタムフォントの選定オファーを受け入れる必要がある場合があります。[ [!DNL Adobe Express]  テンプレートの使用](express-templates.md)を参照してください。
+[!DNL Adobe Express] テンプレートを使用したカスタムフォントの仕組みについて、多くの場合、チームから質問を受けます。 管理者は、カスタムフォントを使用する前に、Admin Console でカスタムフォントの選定オファーを受け入れる必要がある場合があります。[&#x200B; [!DNL Adobe Express]  テンプレートの使用](express-templates.md)を参照してください。

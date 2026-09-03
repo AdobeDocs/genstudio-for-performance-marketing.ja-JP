@@ -61,7 +61,7 @@ Express テンプレートでカスタムフォントを使用するには、管
 
 ### 複数のサイズを自動生成
 
- [!DNL Express][&#128279;](https://helpx.adobe.com/jp/express/web/arrange-layers-and-pages/add-pages.html)のアセットに対して複数のページが作成された場合、それらのページは、そのアセットから作成された任意のテンプレートに引き継がれます。 Express ページは、それぞれ[!DNL GenStudio for Performance Marketing]のクリエイティブコンテンツの異なるサイズとして生成されます。
+ [!DNL Express]&#x200B;[&#128279;](https://helpx.adobe.com/jp/express/web/arrange-layers-and-pages/add-pages.html)のアセットに対して複数のページが作成された場合、それらのページは、そのアセットから作成された任意のテンプレートに引き継がれます。 Express ページは、それぞれ[!DNL GenStudio for Performance Marketing]のクリエイティブコンテンツの異なるサイズとして生成されます。
 
 [!DNL Express]のアセットに複数のサイズのコンテンツが存在する場合、1回の生成でそれらのサイズごとにバリエーションを生成できます。
 

@@ -7,7 +7,7 @@ feature: Generative AI
 role: User
 nudge: true
 source-git-commit: ea05f9614304388b2e8a5d0c87d5bac47b4164b4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 
