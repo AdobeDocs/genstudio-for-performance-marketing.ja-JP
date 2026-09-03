@@ -4,10 +4,8 @@ description: GenStudio for Performance Marketing用にアプリまたはアド�
 feature: Extensibility
 exl-id: 4935356b-08df-402c-b1a2-b89627afc188
 TQID: https://experienceleague.adobe.com/6SHsqsafwqCWS3dspM65BTVAqZ09WwW2IxF-PIecINE
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 303
@@ -21,7 +19,7 @@ ht-degree: 1%
 
 このトピックでは、プライベート配布について説明します。 プライベート配布では、アドオンのデプロイメントを、IMS組織によって特定された、アドオンが開発された組織に制限します。
 
-一般公開により、このアドオンはAdobe Exchange上でアプリとして利用可能となります。 _Adobe_&#x200B;開発者向けドキュメントの[&#x200B; パブリックディストリビューション &#x200B;](https://developer.adobe.com/app-builder/docs/guides/distribution/public/)では、任意のApp Builder組織でアプリを利用できるようにする方法について説明しています。
+一般公開により、このアドオンはAdobe Exchange上でアプリとして利用可能となります。 _Adobe_&#x200B;開発者向けドキュメントの[ パブリックディストリビューション ](https://developer.adobe.com/app-builder/docs/guides/distribution/public/)では、任意のApp Builder組織でアプリを利用できるようにする方法について説明しています。
 
 >[!BEGINSHADEBOX]
 

@@ -4,15 +4,10 @@ description: Adobe GenStudio for Performance Marketingを使用して、コン�
 feature: Content Review, Content Management
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
 TQID: https://experienceleague.adobe.com/YAUeZkKC0UzOt1fCKgFfXLxGEi2896IpcRTdfwG8KXA
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 694
@@ -74,7 +69,7 @@ _承認_ パネルから、提案された変更を一覧表示したり、ド�
 
 ## Workfront Proofでコンテンツをレビューする
 
-[!DNL Proofing Viewer]には、プルーフに注釈を付けたり、変更を追跡したりするための[堅牢なマークアップツール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1)が用意されています。 また、2つのバージョンのプルーフを比較することもできます。
+[!DNL Proofing Viewer]には、プルーフに注釈を付けたり、変更を追跡したりするための[堅牢なマークアップツール ](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1)が用意されています。 また、2つのバージョンのプルーフを比較することもできます。
 
 **コンテンツをレビューするには**:
 
@@ -94,7 +89,7 @@ _承認_ パネルから、提案された変更を一覧表示したり、ド�
 
 ### プルーフの比較
 
-[!DNL Proofing Viewer]から、[&#x200B; プルーフのバージョンを比較](https://experienceleague.adobe.com/ja/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)できます。
+[!DNL Proofing Viewer]から、[ プルーフのバージョンを比較](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)できます。
 
 **プルーフを比較**:
 
@@ -104,4 +99,4 @@ _承認_ パネルから、提案された変更を一覧表示したり、ド�
 
    プルーフは横に並べて表示され、左側には新しいバージョンが表示されます。
 
-Workfront Proofには、自動比較ツールなど、プルーフを比較するためのツールがいくつか用意されています。 [比較ツールの使用](https://experienceleague.adobe.com/ja/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools)を参照してください。
+Workfront Proofには、自動比較ツールなど、プルーフを比較するためのツールがいくつか用意されています。 [比較ツールの使用](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools)を参照してください。

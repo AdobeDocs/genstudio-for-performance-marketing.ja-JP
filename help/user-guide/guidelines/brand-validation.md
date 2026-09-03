@@ -4,22 +4,11 @@ description: GenStudio for Performance Marketingに組み込まれているブ�
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
 TQID: https://experienceleague.adobe.com/0avyL5lvm9hWdlxGE0RwPhP0dX2bA91GNnlKLG1oqEY
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 787
@@ -35,7 +24,7 @@ GenStudio for Performance Marketingでは、次のようなさまざまな側面
 
 * 定義済みまたは既定の[!DNL Brand] ガイドライン
 * プラットフォームガイドライン
-* [&#x200B; アクセシビリティサポート &#x200B;](/help/user-guide/guidelines/brand-validation.md#supporting-your-accessibility-strategy)
+* [ アクセシビリティサポート ](/help/user-guide/guidelines/brand-validation.md#supporting-your-accessibility-strategy)
 <!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 
 
@@ -45,29 +34,29 @@ GenStudio for Performance Marketingでは、次のようなさまざまな側面
 
 _コンテンツチェック_&#x200B;の概要には、次の情報が表示されます。
 
-* 検証に合格した[&#x200B; ガイドライン &#x200B;](overview.md)の数とテスト済みのガイドラインの数で計算された[[!DNL Brand]](brands.md)のコンプライアンスの割合
+* 検証に合格した[ ガイドライン ](overview.md)の数とテスト済みのガイドラインの数で計算された[[!DNL Brand]](brands.md)のコンプライアンスの割合
 * MetaやLinkedInなどのプラットフォームガイドラインの結果は`Pass`または`Fail`です
 * ADA アクセシビリティ標準の結果`Pass`または`Fail`
 
-![&#x200B; コンテンツチェックの概要](/help/assets/content-check-summary.png){width="400" zoomable="yes"}
+![ コンテンツチェックの概要](/help/assets/content-check-summary.png){width="400" zoomable="yes"}
 
 割合をクリックすると、そのバリエーションがどの程度準拠しているかを確認できます。 スコアは、バリエーションやその他のコンテンツを編集すると自動的に更新されます。 「_問題を表示して修正_」をクリックすると、さらにコンプライアンスを確保できます。
 
-[&#x200B; ブランドの整合性の向上](#improve-brand-alignment)を参照してください。
+[ ブランドの整合性の向上](#improve-brand-alignment)を参照してください。
 
 ## コンテンツチェックパネル
 
-[_コンテンツチェック_&#x200B;の概要アイコン &#x200B;](#content-check-summary)から右側のアクションバー&#x200B;_または_&#x200B;をクリックすると、キャンバスの右側に&#x200B;_コンテンツチェック_ パネルが開きます。 このパネルでは、ブランドの検証、プラットフォームガイドライン、アクセシビリティ標準に関する詳細な情報が提供され、改善の機会が紹介されます。
+[_コンテンツチェック_&#x200B;の概要アイコン ](#content-check-summary)から右側のアクションバー&#x200B;_または_&#x200B;をクリックすると、キャンバスの右側に&#x200B;_コンテンツチェック_ パネルが開きます。 このパネルでは、ブランドの検証、プラットフォームガイドライン、アクセシビリティ標準に関する詳細な情報が提供され、改善の機会が紹介されます。
 
-![&#x200B; コンテンツチェックパネル &#x200B;](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
+![ コンテンツチェックパネル ](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
-_コンテンツチェック_ パネルには、画像とバリアントのセクションに対する検証と[&#x200B; コンプライアンス情報](/help/user-guide/guidelines/overview.md#compliance)が表示されます。
+_コンテンツチェック_ パネルには、画像とバリアントのセクションに対する検証と[ コンプライアンス情報](/help/user-guide/guidelines/overview.md#compliance)が表示されます。
 
 * [!DNL Brand]、プラットフォームガイドライン、アクセシビリティ標準に関する&#x200B;_コンテンツチェック_&#x200B;の概要情報の表現
 * 失敗したガイドラインの数と、修正が必要な各ガイドラインに関する詳細情報を表示する&#x200B;_要確認_ セクション
 * 合格したガイドラインの数と各合格したガイドラインに関する詳細情報を表示する&#x200B;_合格した_ セクション
 
-_コンテンツチェック_ パネルのスコアを改善する方法については、[&#x200B; ブランドの整合性の改善](#improve-brand-alignment)を参照してください。
+_コンテンツチェック_ パネルのスコアを改善する方法については、[ ブランドの整合性の改善](#improve-brand-alignment)を参照してください。
 
 ### コンテンツタイプ
 
@@ -81,7 +70,7 @@ _コンテンツチェック_ パネルでは、どのガイドラインとア�
 
 ## ブランドとの整合性の向上
 
-生成されたコンテンツの効果を最大化し、一貫したブランドアイデンティティを維持するには、[_コンテンツチェック_&#x200B;の概要](#content-check-summary)と&#x200B;[_コンテンツチェック_ パネル &#x200B;](#content-check-panel)を使用します。 [[!DNL Brand]  ガイドライン &#x200B;](brands.md)、プラットフォームガイドラインのチェック、アクセシビリティ標準のチェックに合わせて、特定のセクションを手動で変更できます。
+生成されたコンテンツの効果を最大化し、一貫したブランドアイデンティティを維持するには、[_コンテンツチェック_&#x200B;の概要](#content-check-summary)と&#x200B;[_コンテンツチェック_ パネル ](#content-check-panel)を使用します。 [[!DNL Brand]  ガイドライン ](brands.md)、プラットフォームガイドラインのチェック、アクセシビリティ標準のチェックに合わせて、特定のセクションを手動で変更できます。
 
 **生成されたバリエーションのブランドの整合を改善するには**:
 
@@ -91,7 +80,7 @@ _コンテンツチェック_ パネルでは、どのガイドラインとア�
 
    >[!NOTE]
    >
-   >_コンテンツチェック_ パネルに記載されている&#x200B;_ブランドボイス_ ガイドラインは、個々のセクションではなく、バリエーション全体に適用されます。 コンテンツバリエーション全体が強調表示され、改善が提案されます。
+   _コンテンツチェック_ パネルに記載されている&#x200B;_ブランドボイス_ ガイドラインは、個々のセクションではなく、バリエーション全体に適用されます。 コンテンツバリエーション全体が強調表示され、改善が提案されます。
 
 1. クリックして、現在準拠していないガイドラインを修正します。
 1. クリックすると、_見出し_、_カラー_、_ブランドボイス_&#x200B;などの利用可能なセクションで、レビューが必要な各チェックを展開して調べることができます。

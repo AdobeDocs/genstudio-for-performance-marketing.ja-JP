@@ -5,23 +5,12 @@ level: Intermediate
 feature: Reporting and Insights
 exl-id: fbc53c2a-388c-4b51-94e2-626cd1e18e63
 TQID: https://experienceleague.adobe.com/67TI5R4hy9levkPkdXdQVCgLZl43YEq1oXV8kEEWWOs
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 855
@@ -37,7 +26,7 @@ ht-degree: 0%
 
 [!DNL Insights]の各ビューには、フィルターオプションのリストが表示されます。 左側のフィルター（funnel）トグルをクリックすると、**[!UICONTROL フィルター]** メニューが開きます。 テーブルまたはギャラリーを表示しているかどうかにかかわらず、適用されたフィルターは、テーブルまたはギャラリーの上の&#x200B;**[!UICONTROL フィルター]** リストに表示されます。 デフォルトでは、チャネルとアカウントが選択されています。
 
-![&#x200B; フィルター条件](/help/assets/insights-filter-by.png " フィルター条件"){width=600 zoomable="yes"}
+![ フィルター条件](/help/assets/insights-filter-by.png " フィルター条件"){width=600 zoomable="yes"}
 
 適用されたフィルターは、すべてのビューに保持されます。 テーブルまたはギャラリーの上にある&#x200B;**[!UICONTROL すべてをクリア]**&#x200B;を選択して、選択したすべてのフィルターを削除します。
 
@@ -75,9 +64,9 @@ _[!UICONTROL キャンペーン]_&#x200B;および&#x200B;_[!UICONTROL 広告]_ 
 
 **キャンペーンフィルターを使用して広告テーブルを調整するには**:
 
-1. _[!DNL Insights]_&#x200B;で、**[!UICONTROL 広告]**&#x200B;ビューを選択します。
+1. _[!DNL Insights]_で、**[!UICONTROL 広告]**ビューを選択します。
 
-   ![&#x200B; フィルターとテーブル &#x200B;](/help/assets/insights-ads-filter.png " フィルターのメニュー"){zoomable="yes"}を含む広告ビュー
+   ![ フィルターとテーブル ](/help/assets/insights-ads-filter.png " フィルターのメニュー"){zoomable="yes"}を含む広告ビュー
 
 1. テーブルの左側の上にあるフィルター（funnel）トグルをクリックして、**[!UICONTROL フィルター]** メニューを開きます。
 
@@ -85,7 +74,7 @@ _[!UICONTROL キャンペーン]_&#x200B;および&#x200B;_[!UICONTROL 広告]_ 
 
 1. **[!UICONTROL キャンペーン]** フィルターを展開し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
-   ![&#x200B; キャンペーンのフィルター](/help/assets/insights-filter-campaigns-expand.png " キャンペーンのフィルターを展開"){width=200}
+   ![ キャンペーンのフィルター](/help/assets/insights-filter-campaigns-expand.png " キャンペーンのフィルターを展開"){width=200}
 
 1. _[!UICONTROL キャンペーンを選択]_&#x200B;検索フィールドに、キーワードをコンマで区切って入力します。
 
@@ -105,13 +94,13 @@ _[!UICONTROL キャンペーン]_&#x200B;および&#x200B;_[!UICONTROL 広告]_ 
 
 1. 検索結果から1つ以上のキャンペーンを選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
-   ![&#x200B; キャンペーンのリスト &#x200B;](/help/assets/insights-select-campaigns-list.png "含めるキャンペーンを選択")
+   ![ キャンペーンのリスト ](/help/assets/insights-select-campaigns-list.png "含めるキャンペーンを選択")
 
 選択したキャンペーンが、広告テーブルまたはギャラリーの上の&#x200B;_[!UICONTROL フィルター]_ リストに表示されるようになりました。 選択したキャンペーンにリンクされている広告のみに専念できます。 この例では、フィルタリングされた結果は、分析のためのよりターゲットを絞ったビューを提供します。
 
-![&#x200B; キャンペーンでフィルタリングされたテーブル &#x200B;](/help/assets/insights-filter-by-campaigns.png " キャンペーンでフィルタリングされたテーブル "){zoomable="yes"}
+![ キャンペーンでフィルタリングされたテーブル ](/help/assets/insights-filter-by-campaigns.png " キャンペーンでフィルタリングされたテーブル "){zoomable="yes"}
 
-広告名に同様の方法で[!UICONTROL &#x200B; メディア &#x200B;] テーブルをさらにフィルタリングできます。 **[!UICONTROL 広告]** フィルターを展開し、**[!UICONTROL 選択]**&#x200B;をクリックすると、同様のキーワードフィルターを実行して、メディアテーブルまたはギャラリービューを調整できます。
+広告名に同様の方法で[!UICONTROL  メディア ] テーブルをさらにフィルタリングできます。 **[!UICONTROL 広告]** フィルターを展開し、**[!UICONTROL 選択]**&#x200B;をクリックすると、同様のキーワードフィルターを実行して、メディアテーブルまたはギャラリービューを調整できます。
 
 ## テーブルの結果をダウンロード
 

@@ -6,24 +6,12 @@ feature: Generative AI, Guidelines
 role: Admin
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
 TQID: https://experienceleague.adobe.com/H1MbYm5RniRbZBous-F4nBi-2h5RD1AG4IgydlP22-c
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 1155
@@ -37,7 +25,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->ユーザーがこれらのロールにプロビジョニングされる前に、Adobe Admin ConsoleでAdobe システム管理者を指定して、1回限りのセットアップ タスクを実行する必要があります。 このAdobe管理者ロールは、Adobe Admin Consoleのコンテキストでのみ機能します。 GenStudio for Performance Marketingのプラットフォームインターフェイスでは役割を果たしません。 System managerの使用権限を必要とするAdobe システム管理者は、Adobe Admin ConsoleでGenStudio system managerとしてプロビジョニングする必要があります。 [GenStudio for Performance Marketingのプロビジョニング &#x200B;](product-provisioning.md)を参照してください。
+>ユーザーがこれらのロールにプロビジョニングされる前に、Adobe Admin ConsoleでAdobe システム管理者を指定して、1回限りのセットアップ タスクを実行する必要があります。 このAdobe管理者ロールは、Adobe Admin Consoleのコンテキストでのみ機能します。 GenStudio for Performance Marketingのプラットフォームインターフェイスでは役割を果たしません。 System managerの使用権限を必要とするAdobe システム管理者は、Adobe Admin ConsoleでGenStudio system managerとしてプロビジョニングする必要があります。 [GenStudio for Performance Marketingのプロビジョニング ](product-provisioning.md)を参照してください。
 
 ## Adobe system administratorとGenStudio system managerの比較
 
@@ -47,7 +35,7 @@ ht-degree: 12%
 
 **GenStudio system manager**&#x200B;は、GenStudio for Performance Marketing内のパワーユーザーですが、Adobe Admin Consoleでタスクを実行する権限はありません。 このSystem Manager ロールにはGenStudio製品ライセンスが必要で、[Adobe GenStudio for Performance Marketing製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)のPower Userに対応しています。 GenStudioのシステムマネージャーは、[!DNL Brands]、[!DNL Persona]、[!DNL Product]の作成、削除、更新、公開など、GenStudio for Performance Marketingの機能に対する完全な使用権限を持っています。 [Adobe GenStudio for Performance Marketing製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)では、GenStudio ユーザーロールが製品ライセンスにどのように関連しているかを説明しています。
 
-_エンタープライズおよびTeams管理ガイド_&#x200B;の[管理ロール &#x200B;](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html#enterprise)を参照してください。
+_エンタープライズおよびTeams管理ガイド_&#x200B;の[管理ロール ](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)を参照してください。
 
 ## 使用権限
 
@@ -65,7 +53,7 @@ GenStudio for Performance Marketingのユーザーロールには、次の3つ�
 
 * **GenStudioの共同作業者**&#x200B;は、最も幅広いGenStudio for Performance Marketing ユーザーです。 共同作業者はコンテンツを表示して承認することができ、生成するコンテンツが組織のニーズや基準に合致するようにするためのワークフローの重要な部分です。 GenStudioの共同作業者は、GenStudio for Performance Marketingの&#x200B;_共同作業者ユーザー_&#x200B;です。
 
-* **GenStudio システムマネージャー**&#x200B;は、GenStudio for Performance Marketing内で最も幅広い使用権限または権限を持っています。 システムマネージャーは、キャンペーンアセットの制作と展開に関する基本的なガードレールを確立するという、オンボーディングの重要なタスクを実行します。 システムマネージャーは、[&#x200B; ブランドガイドライン &#x200B;](./guidelines/overview.md)などのブランドおよび組織固有の情報をアップロードすることで、これらのガードレールを実装します。 システム マネージャーには[!DNL Brands]を作成および公開する権限がありますが、ユーザー管理権限はありません。 GenStudioのシステムマネージャーは、GenStudio for Performance Marketingのパワーユーザーです。
+* **GenStudio システムマネージャー**&#x200B;は、GenStudio for Performance Marketing内で最も幅広い使用権限または権限を持っています。 システムマネージャーは、キャンペーンアセットの制作と展開に関する基本的なガードレールを確立するという、オンボーディングの重要なタスクを実行します。 システムマネージャーは、[ ブランドガイドライン ](./guidelines/overview.md)などのブランドおよび組織固有の情報をアップロードすることで、これらのガードレールを実装します。 システム マネージャーには[!DNL Brands]を作成および公開する権限がありますが、ユーザー管理権限はありません。 GenStudioのシステムマネージャーは、GenStudio for Performance Marketingのパワーユーザーです。
 
 ### GenStudio エディター
 
@@ -111,7 +99,7 @@ _共同作業者_&#x200B;は、GenStudio for Performance Marketingでアセッ�
 
 ### GenStudioの管理者
 
-_GenStudio system manager_&#x200B;は、GenStudio for Performance Marketing内で最も強力な権限セットを持っています。 これらのパワーユーザーは、キャンペーンアセットの作成と展開のための基本的なガードレールを確立するという重要なオンボーディングタスクを実行します。 システムマネージャーは、[&#x200B; ブランドガイドライン &#x200B;](./guidelines/overview.md)などのブランドおよび組織固有の情報をアップロードすることで、これらのガードレールを実装します。 システム マネージャーには[!DNL Brands]を作成および公開する権限がありますが、ユーザー管理権限はありません。
+_GenStudio system manager_&#x200B;は、GenStudio for Performance Marketing内で最も強力な権限セットを持っています。 これらのパワーユーザーは、キャンペーンアセットの作成と展開のための基本的なガードレールを確立するという重要なオンボーディングタスクを実行します。 システムマネージャーは、[ ブランドガイドライン ](./guidelines/overview.md)などのブランドおよび組織固有の情報をアップロードすることで、これらのガードレールを実装します。 システム マネージャーには[!DNL Brands]を作成および公開する権限がありますが、ユーザー管理権限はありません。
 
 次の表に、デフォルトのシステムマネージャー権限を示します。
 
