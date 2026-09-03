@@ -42,7 +42,7 @@ GenStudio for Performance Marketing Figma プラグインは、Figma アプリ�
 * 生成された [!DNL Experiences] をGenStudio for Performance Marketingに書き出します。
 * Figma キャンバスで選択した要素に適応するプラグインオプションを使用します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478810?captions=jpn&learn=on)
 
 ## テンプレートの作成
 
@@ -220,7 +220,7 @@ GenStudio for Performance Marketing AI を使用して、広告コピーのバ�
 Figma プラグインを使用して、Figma フレーム、複数フレーム、またはドキュメント全体をPhotoshop フォーマットに変換し、[GenStudio Photoshop](photoshop-plugin.md)で使用するために書き出すことができます。 現在、表示/非表示、フォントサイズ、基本レイヤー属性などの主要なプロパティのみが、変換時にサポートされます。 取り消し線、上付き文字、下付き文字、不透明度（割合）、グラデーションなどの機能は、まだサポートされていません。
 
 <!-- GS-34076: Demo video placement is hardcoded in the tool UI; keep this video above "The plugin supports the following Figma layer types for conversion." -->
->[!VIDEO](https://video.tv.adobe.com/v/3492271?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3492272?captions=jpn&learn=on)
 
 このプラグインは、変換用に次の Figma レイヤータイプをサポートしています。
 

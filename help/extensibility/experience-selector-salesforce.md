@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## この統合で何ができるか
 
->[!VIDEO](https://video.tv.adobe.com/v/3491079?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491080?captions=jpn&learn=on)
 
 Lightning Web コンポーネント （LWC） `sfgsmfe`は、Adobe Experience Selector UMD バンドルを読み込み、`<dialog>`にレンダリングして、ユーザーが[!DNL GenStudio for Performance Marketing]からエクスペリエンスを選択できるようにします。
 
