@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: d94ff1dbb6f030f0fae6eaacdbb3600c0e09c580
 workflow-type: tm+mt
 source-wordcount: 505
 ht-degree: 100%
@@ -33,6 +33,8 @@ ht-degree: 100%
 ---
 
 # GenStudio for Performance Marketing ガイドライン
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502922?learn=on)
 
 GenStudio for Performance Marketing ガイドラインでは、システムへのアップロードまたは手動での追加が可能です。これにより、ユーザーはブランドアイデンティティの本質を取得したブランドガイドラインを確立できます。
 
