@@ -36,7 +36,7 @@ GenStudio for Performance Marketing は、アセットを変更する機会が�
 
 ベストプラクティスとして、[ガイドライン](/help/user-guide/guidelines/overview.md)を使用して GenStudio for Performance Marketing にブランド情報を提供すると、生成 AI を最大限に活用してブランドに即したコンテンツエクスペリエンスを作成できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3502672?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3502674?captions=jpn&learn=on)
 
 ## 具体的な指示文
 
