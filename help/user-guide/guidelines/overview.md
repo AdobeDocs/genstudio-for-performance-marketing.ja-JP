@@ -34,7 +34,7 @@ ht-degree: 100%
 
 # GenStudio for Performance Marketing ガイドライン
 
->[!VIDEO](https://video.tv.adobe.com/v/3502922?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3502932?captions=jpn&learn=on)
 
 GenStudio for Performance Marketing ガイドラインでは、システムへのアップロードまたは手動での追加が可能です。これにより、ユーザーはブランドアイデンティティの本質を取得したブランドガイドラインを確立できます。
 
