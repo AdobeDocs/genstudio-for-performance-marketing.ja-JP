@@ -6,13 +6,11 @@ feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
 nudge: true
-source-git-commit: ea05f9614304388b2e8a5d0c87d5bac47b4164b4
+source-git-commit: 1b407c1c66a2426b21cbbf423774ebdff16a7dec
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 100%
-
+source-wordcount: '287'
+ht-degree: 97%
 ---
-
 
 # Adobe GenStudio for Performance Marketing ガイド {#user-guide}
 
@@ -54,6 +52,7 @@ ht-degree: 100%
   + [テンプレートでのロゴのスワップの設定](create/logo-swap-setup.md)
   + [電子メールエクスペリエンスを作成](create/create-email-experience.md)
   + [Meta広告エクスペリエンスの作成](create/create-meta-ad.md)
+  + [Meta広告エクスペリエンスを作成 – カルーセル広告](create/create-meta-carousel-ad.md)
   + [ChatGPT 広告エクスペリエンスの作成](create/create-chatgpt-ad.md)
   + [LinkedIn エクスペリエンスを作成する](create/create-linkedin.md)
   + [ディスプレイ広告エクスペリエンスの作成](create/create-display-ad.md)
