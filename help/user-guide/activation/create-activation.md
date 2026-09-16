@@ -46,7 +46,7 @@ ht-degree: 1%
 
 単一のアクティベーションテーブルに、複数の有料広告チャネルと広告フォーマットのエクスペリエンスを一度に含めることができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503539?captions=jpn&learn=on)
 
 ## チャネルアカウントの接続
 
