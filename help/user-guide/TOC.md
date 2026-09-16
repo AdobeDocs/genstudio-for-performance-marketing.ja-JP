@@ -6,31 +6,31 @@ feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
 nudge: true
-source-git-commit: 1b407c1c66a2426b21cbbf423774ebdff16a7dec
+source-git-commit: 378b5c689ce9dab9ffdde6d17a06df68cca2d305
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 97%
+source-wordcount: '293'
+ht-degree: 95%
 ---
 
 # Adobe GenStudio for Performance Marketing ガイド {#user-guide}
 
 + [GenStudio for Performance Marketing ガイド](home.md)
 + [リリースノート](release-notes.md)
-+ [&#x200B; 開始 &#x200B;](get-started.md)
++ [ 開始 ](get-started.md)
 + 概要 {#intro}
   + [概念](concepts.md)
   + [製品のプロビジョニング](product-provisioning.md)
-  + [&#x200B; 企業の  [!DNL Brand]  権限 &#x200B;](configure-brand-permissions.md)
+  + [ 企業の  [!DNL Brand]  権限 ](configure-brand-permissions.md)
   + [ユーザーの役割](user-roles.md)
-  + [&#x200B; 有効なプロンプト &#x200B;](effective-prompts.md)
+  + [ 有効なプロンプト ](effective-prompts.md)
 + 設定 {#settings}
-  + [&#x200B; 有料メディアを接続 &#x200B;](connectors/connect-channel.md)
+  + [ 有料メディアを接続 ](connectors/connect-channel.md)
   + 有料メディアアカウント {#connect-account}
     + [Google Campaign Manager 360](connectors/google-cm360.md)
     + [LinkedIn](connectors/linkedin-ads.md)
     + [Meta広告](connectors/meta-ads.md)
 + ガイドライン {#guidelines}
-  + [&#x200B; ガイドラインの概要 &#x200B;](guidelines/overview.md)
+  + [ ガイドラインの概要 ](guidelines/overview.md)
   + [ブランド](guidelines/brands.md)
   + [ペルソナ](guidelines/personas.md)
   + [製品](guidelines/products.md)
@@ -44,8 +44,8 @@ ht-degree: 97%
   + [TikTokのエクスペリエンス](create/tiktok-experiences.md)
   + [コネクテッド TV 広告](create/create-ctv.md)
   + [ディスプレイ広告エクスペリエンスの表示](create/display-ad-experiences.md)
-  + [&#x200B; バナーエクスペリエンス &#x200B;](create/banner-experiences.md)
-  + [&#x200B; バリアントの管理 &#x200B;](create/manage-variants.md)
+  + [ バナーエクスペリエンス ](create/banner-experiences.md)
+  + [ バリアントの管理 ](create/manage-variants.md)
   + [エクスペリエンスの翻訳とローカライズ](create/translate-experiences.md)
   + [共同編集](create/collaborative-editing.md)
   + [ロゴのスワップの使用](create/logo-swap.md)
@@ -56,15 +56,15 @@ ht-degree: 97%
   + [ChatGPT 広告エクスペリエンスの作成](create/create-chatgpt-ad.md)
   + [LinkedIn エクスペリエンスを作成する](create/create-linkedin.md)
   + [ディスプレイ広告エクスペリエンスの作成](create/create-display-ad.md)
-  + [&#x200B; バナーエクスペリエンスの作成 &#x200B;](create/create-banner-experience.md)
-  + [&#x200B; 画像を生成 &#x200B;](create/generate-assets.md)
+  + [ バナーエクスペリエンスの作成 ](create/create-banner-experience.md)
+  + [ 画像を生成 ](create/generate-assets.md)
 + レビューと承認 {#approve}
-  + [&#x200B; レビューと承認の概要 &#x200B;](approvals/overview.md)
+  + [ レビューと承認の概要 ](approvals/overview.md)
   + [Workfront Proofの統合](approvals/proof-integration.md)
-  + [&#x200B; 審査および承認のリクエスト &#x200B;](approvals/request-review.md)
+  + [ 審査および承認のリクエスト ](approvals/request-review.md)
   + [コンテンツのレビューと編集](approvals/review-and-edit.md)
   + [コンテンツを承認](approvals/approve-content.md)
-  + [&#x200B; 承認済みコンテンツの公開 &#x200B;](approvals/publish-content.md)
+  + [ 承認済みコンテンツの公開 ](approvals/publish-content.md)
 + コンテンツ {#content}
   + [コンテンツの概要](content/overview.md)
   + [アセットとエクスペリエンスの管理](content/manage-assets.md)
@@ -74,8 +74,8 @@ ht-degree: 97%
 + テンプレート {#templates}
   + [テンプレートの操作](templates/use-templates.md)
   + [スターターテンプレート](templates/starter-templates.md)
-  + [&#x200B; テンプレートをカスタマイズする &#x200B;](templates/customize-template.md)
-  + [&#x200B; テンプレートコードエディター &#x200B;](templates/code-editor.md)
+  + [ テンプレートをカスタマイズする ](templates/customize-template.md)
+  + [ テンプレートコードエディター ](templates/code-editor.md)
   + [アクセスできるテンプレートの作成](templates/accessibility-for-templates.md)
   + [Express テンプレートの使用](/help/user-guide/templates/express-templates.md)
   + [テンプレートのベストプラクティス](templates/best-practices-for-templates.md)
@@ -86,8 +86,8 @@ ht-degree: 97%
     + [Meta広告ガイド](templates/meta-template.md)
 + キャンペーン {#campaigns}
   + [キャンペーンの概要](campaigns/overview.md)
-  + [&#x200B; キャンペーンを作成 &#x200B;](campaigns/create-campaign.md)
-  + [&#x200B; キャンペーンの管理 &#x200B;](campaigns/manage-campaign.md)
+  + [ キャンペーンを作成 ](campaigns/create-campaign.md)
+  + [ キャンペーンの管理 ](campaigns/manage-campaign.md)
 + アクティブ化 {#activation}
   + [アクティベーションの概要](activation/overview.md)
   + [アクティベーションワークフロー](activation/create-activation.md)
@@ -99,6 +99,10 @@ ht-degree: 97%
     + [Meta](activation/activate-meta-ad.md)
     + [Amazon](activation/activate-amazon-ad.md)
     + [Innovid](activation/activate-innovid-ad.md)
+    + [TikTok](activation/activate-tiktok-ad.md)
+    + [YouTube](activation/activate-youtube-ad.md)
+    + [ChatGPT](activation/activate-chatgpt-ad.md)
+    + [The Trade Desk](activation/activate-trade-desk-ad.md)
 + Insights {#insights}
   + [Insightsの概要](insights/overview.md)
   + [インサイトフィルター](insights/filter-views.md)
@@ -108,7 +112,7 @@ ht-degree: 97%
   + [広告タグ](insights/ad-tags.md)
   + 属性 {#attributes}
     + [属性について](insights/attributes.md)
-    + [&#x200B; 画像機能 &#x200B;](insights/image-features.md)
+    + [ 画像機能 ](insights/image-features.md)
     + [ビデオ機能](insights/video-features.md)
     + [テキスト機能](insights/text-features.md)
   + [データ管理](insights/data-management.md)
@@ -117,4 +121,4 @@ ht-degree: 97%
   + [GenStudio Photoshopプラグイン](integrations/photoshop-plugin.md)
   + [Figma プラグイン](integrations/figma-plugin.md)
 + {hide-from-toc}[GenStudio Academy – 非表示](genstudioacademy.md)
-+ {hide-from-toc}[&#x200B; テストマークダウン – 非表示 &#x200B;](test-markdown.md)
++ {hide-from-toc}[ テストマークダウン – 非表示 ](test-markdown.md)
