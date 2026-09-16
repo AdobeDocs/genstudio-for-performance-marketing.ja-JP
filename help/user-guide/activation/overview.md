@@ -44,7 +44,7 @@ GenStudio for Performance Marketing [!DNL Activate]では、MetaやLinkedInな�
 
 [!DNL Activate]を使用して、ターゲットの有料広告チャネルの広告エクスペリエンスを準備します。 単一のアクティベーションテーブルで[複数の有料広告チャネルをまたいで](create-activation.md) エクスペリエンスを一括でアクティベートします。 次に、[&#x200B; アクティベーションを管理](manage-activations.md)して、アクティベートされたすべてのエクスペリエンスのステータスと詳細を確認します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503539?captions=jpn&learn=on)
 
 ### コンテンツから承認済みエクスペリエンスを活用
 
