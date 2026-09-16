@@ -32,7 +32,7 @@ Adobe GenStudio for Performance Marketingは、ChatGPT広告エクスペリエ�
 
 **サポートされている形式**: チャットカード。
 
-GenStudio for Performance Marketingで[ChatGPT エクスペリエンス ](/help/user-guide/create/create-chatgpt-ad.md)を作成し、アクティベーション用に選択できます。
+GenStudio for Performance Marketingで[ChatGPT エクスペリエンス &#x200B;](/help/user-guide/create/create-chatgpt-ad.md)を作成し、アクティベーション用に選択できます。
 
 ChatGPT広告のアクティベーションは、他の有料広告チャネルへのアクティベーションに必要な[一般的な手順](create-activation.md)に従います。 このページでは、ChatGPT固有の前提条件と設定フィールドについて説明します。 GenStudio for Performance MarketingでChatGPT エクスペリエンスをアクティベートしたら、OpenAI Ads Managerを使用して最終チェックを実行し、広告を起動します。
 

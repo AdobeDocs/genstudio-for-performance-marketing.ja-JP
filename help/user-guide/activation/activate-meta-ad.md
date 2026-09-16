@@ -36,7 +36,7 @@ Adobe GenStudio for Performance Marketingは、InstagramやFacebookに対するM
 
 **サポートされている形式**：画像、ビデオ、カルーセル。
 
-[GenStudio for Performance MarketingでMeta エクスペリエンス ](/help/user-guide/create/create-meta-ad.md)を作成し、アクティベーション用に選択します。
+[GenStudio for Performance MarketingでMeta エクスペリエンス &#x200B;](/help/user-guide/create/create-meta-ad.md)を作成し、アクティベーション用に選択します。
 
 Meta広告のアクティベーションは、他の有料広告チャネルへのアクティベーションに必要な[同じ一般的な手順](create-activation.md)に従います。 このページでは、Meta固有の前提条件と設定フィールドについて説明します。 GenStudio for Performance MarketingでMeta エクスペリエンスをアクティベートしたら、[Meta Ads Manager](https://adsmanager.facebook.com/)を使用してエクスペリエンスを確認し、広告を起動します。
 
@@ -60,7 +60,7 @@ GenStudioのシステムマネージャーやエディターは、
 
 エクスペリエンスをアクティベートする前に、GenStudioのシステムマネージャーがMeta アカウントをGenStudio for Performance Marketingに接続する必要があります。 この接続により、GenStudio for Performance MarketingとMeta間でデータを流すことができ、アクティベーションプロセスが可能になります。 [Meta Adsへの接続](/help/user-guide/connectors/meta-ads.md)を参照してください。
 
-Instagram アカウントを選択するには、Meta Business Managerで[使用するInstagram アカウントが、オンボーディング中に選択した同じ広告アカウント ](/help/user-guide/connectors/meta-ads.md#connect-an-instagram-account)に接続されていることを確認します。 この接続が見つからない場合、アクティベーション中に&#x200B;**[!UICONTROL Instagram プロファイル]** ドロップダウンメニューにInstagram アカウントが表示されない可能性があります。
+Instagram アカウントを選択するには、Meta Business Managerで[使用するInstagram アカウントが、オンボーディング中に選択した同じ広告アカウント &#x200B;](/help/user-guide/connectors/meta-ads.md#connect-an-instagram-account)に接続されていることを確認します。 この接続が見つからない場合、アクティベーション中に&#x200B;**[!UICONTROL Instagram プロファイル]** ドロップダウンメニューにInstagram アカウントが表示されない可能性があります。
 
 同期が完了したら、追加されたアカウントを表示できます。 大量のデータは同期に時間がかかります。
 
