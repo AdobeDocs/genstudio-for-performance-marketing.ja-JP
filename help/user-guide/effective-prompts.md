@@ -65,7 +65,7 @@ GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/over
 
 >[!NOTE]
 >
-プロンプトドロワーの&#x200B;_パラメーター_&#x200B;にガイドラインが追加されている場合、プロンプトでそれらを参照する必要はありません。 GenStudio for Performance Marketing では、それらをコンテンツ生成に自動的に活用できます。
+>プロンプトドロワーの&#x200B;_パラメーター_&#x200B;にガイドラインが追加されている場合、プロンプトでそれらを参照する必要はありません。 GenStudio for Performance Marketing では、それらをコンテンツ生成に自動的に活用できます。
 
 ### ガイドライン
 
@@ -73,7 +73,7 @@ GenStudio for Performance Marketing のガイドラインは、生成 AI がア�
 
 >[!TIP]
 >
-GenStudio for Performance Marketing で [!DNL Brand] ガイドラインをいつどのように使用するかは、ユーザーが制御します。 ブランドガイドラインを設定および管理する方法については、[ガイドライン](/help/user-guide/guidelines/overview.md)を参照してください。
+>GenStudio for Performance Marketing で [!DNL Brand] ガイドラインをいつどのように使用するかは、ユーザーが制御します。 ブランドガイドラインを設定および管理する方法については、[ガイドライン](/help/user-guide/guidelines/overview.md)を参照してください。
 
 ### 構造化プロンプト
 
