@@ -4,13 +4,11 @@ description: Adobe GenStudio for Performance MarketingでChatGPTの有料メデ�
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
-source-git-commit: 0f5bc2b5416193c01cc4b2fc96d9cb575e209aa3
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '581'
 ht-degree: 9%
-
 ---
-
 
 # ChatGPT広告体験の作成
 
@@ -77,7 +75,7 @@ ChatGPT作成を開くには：
 
 1. **[!UICONTROL コンテンツチェック]** （ブランドチェックとチャネルチェック）をクリックします。
 1. [_コンテンツチェック_ パネル &#x200B;](/help/user-guide/guidelines/brand-validation.md#content-check-panel)で検証結果を確認します。
-1. バリエーションを編集したり、必要に応じて再生成することで、コピーの長さや画面テキストの高密度さなどのフラグが立った問題を解決できます。
+1. フラグが付いた問題（コピーの長さや画面に表示される密なテキストなど）は、バリエーションを編集するか、必要に応じて再生成することで解決できます。
 
 [ブランドの検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
 
@@ -87,8 +85,8 @@ ChatGPT作成を開くには：
 
 次の 2 つの状態があります。
 
-* **ドラフトエクスペリエンス** – 進行中で承認されていません。
-* **公開されたエクスペリエンス** — [!DNL Content]で承認され、アクティブ化に利用できます。
+* **ドラフトエクスペリエンス**：進行中で承認されていません。
+* **公開されたエクスペリエンス**: [!DNL Content]で承認され、アクティブ化に利用できます。
 
 ### レビュー用に送信
 
@@ -106,65 +104,13 @@ ChatGPT作成を開くには：
 すべての必要な承認が完了したら、次の手順で[!DNL Content]に公開します。
 
 1. **[!UICONTROL コンテンツに公開]** をクリックします。
-1. メタデータの確認（例：キャンペーン名やアクティベーション名、地域、言語、ペルソナ、funnel ステージ、チャネル：ChatGPT **など）**
+1. キャンペーンやアクティベーション名、地域、言語、ペルソナ、funnel ステージ、および&#x200B;**Channel: ChatGPT**&#x200B;などのメタデータを確認します。
 1. 「**[!UICONTROL 公開する]**」をクリックします。
 
-ChatGPT広告は[!DNL Content]に表示され、チャネルやキャンペーンなどのフィルターで検索でき、[!DNL Activate]で選択する準備が整っています。
+ChatGPT広告が[!DNL Content]に表示され、チャネルやキャンペーンなどのフィルターで検索でき、[!DNL Activate]で選択する準備ができました。
 
 [承認済みコンテンツを公開](/help/user-guide/approvals/publish-content.md)および[[!DNL Content] 概要](/help/user-guide/content/overview.md)を参照してください。
 
 ## ChatGPT広告をアクティベートする
 
-ChatGPT アクティベーションでは、MetaおよびGoogle Campaign Manager 360と同じ[[!DNL Activate]](/help/user-guide/activation/overview.md) モジュールが使用されます。 共有アクティベーションワークフローについては、[&#x200B; アクティベーションの作成](/help/user-guide/activation/create-activation.md)を参照してください。
-
-### ChatGPT アクティベーションを開始
-
-[!DNL Content]または[!DNL Activate]から開始できます。
-
-**[!DNL Content]**&#x200B;から
-
-* 1つ以上の&#x200B;**公開** ChatGPT エクスペリエンスを選択します。
-
-**[!DNL Activate]**&#x200B;から
-
-* **ChatGPT** カードを開き、**[!UICONTROL +新規]**&#x200B;をクリックします。
-
-各エクスペリエンスは&#x200B;**one**&#x200B;個のChatGPT広告にマッピングされます。
-
-### エクスペリエンス設定の指定
-
-選択した各エクスペリエンスに対して、次の内容を確認します。
-
-* **タイトル**
-* **本文**
-* **ターゲット URL** – 有効な`https://`形式（例：`https://www.example.com`）を使用する必要があります。
-
-### プラットフォーム設定の指定
-
-ChatGPT Ads Managerの詳細を選択します。
-
-* **OpenAI Ads アカウント**
-* **ChatGPT Campaign** — OpenAI Ads Managerに既に存在する必要があります。
-* **ChatGPT広告グループ** — OpenAI Ads Managerに既に存在する必要があります。
-* **ChatGPT広告名** — ChatGPT広告ごとに1つの異なる名前。
-
-### レビューと公開
-
-1. クリエイティブおよびプラットフォームの詳細をすべて確認します。
-1. 「**[!UICONTROL 公開する]**」をクリックします。
-
-[!DNL GenStudio for Performance Marketing]さんが&#x200B;**非アクティブ**&#x200B;状態でChatGPT Ads Managerに広告をプッシュするので、メディアチームは最終的なローンチのタイミングと予算を他の有料チャネルと同じように制御できます。 [概要をアクティブ化](/help/user-guide/activation/overview.md)を参照してください。
-
-### 公開後に何が起こるか
-
-* 進行中の&#x200B;**公開中**&#x200B;のモーダルが表示され、自動的に閉じます。
-* 最新のアクティベーションを一覧表示する&#x200B;**ChatGPT アクティベーション** テーブルにリダイレクトされます。 処理完了中にステータスに「**[!UICONTROL 保留中]**」が表示される。
-* 公開完了時に移動することができます。
-
-処理が完了すると：
-
-* 確認ポップアップに&#x200B;**成功**&#x200B;または&#x200B;**失敗**&#x200B;が表示されます。
-* ポップアップをクリックするか、アクティベーションテーブルでChatGPT アクティベーションを開くと、**Details** ページが表示されます。
-* アクティベーション **[!UICONTROL 失敗]**&#x200B;した場合、テーブルには、ステータスとChatGPTからのエラーメッセージが表示されます。
-
-OpenAI Ads Managerでは、メディアチームは最終チェックを実施し、準備ができたら広告や広告グループを公開することができます。
+ChatGPT アクティベーションでは、他の有料チャネルと同じ[[!DNL Activate]](/help/user-guide/activation/overview.md) モジュールを使用します。 ChatGPTに固有の前提条件と設定フィールドについては、[ChatGPT広告をアクティブ化](/help/user-guide/activation/activate-chatgpt-ad.md)を参照してください。

@@ -6,79 +6,51 @@ exl-id: 539cb43c-a9d8-4473-8a7d-e81967111741
 TQID: https://experienceleague.adobe.com/4L4JHcYLSsoQ50QbCW7Mof52h5jpz3z8n0UL8CaqLA8
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 subfeature_v2:
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: User
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: '269'
 ht-degree: 0%
-
 ---
-
 # Amazon Adsをアクティベート
 
-Adobe GenStudio for Performance Marketingを使用すると、GenStudioのシステムマネージャーと編集者は、広告エクスペリエンスをAmazon Ads プラットフォームに公開できます。
+Adobe GenStudio for Performance Marketingは、Amazon Adsへの広告体験のアクティベーションをサポートしています。
 
-Amazon Ads広告エクスペリエンスの公開は、コンテンツギャラリーまたはアクティベーションホームから開始できます。
+**サポートされている形式**：静的表示。
 
-## ステップ 1:Amazon広告アカウントの設定
+Amazon広告エクスペリエンスのアクティベーションは、他の有料広告チャネルへのアクティベーションに必要な[同じ一般的な手順](create-activation.md)に従います。 このページでは、Amazon Ads固有の前提条件と設定フィールドについて説明します。 GenStudio for Performance Marketingでエクスペリエンスをアクティベートしたら、Amazon Adsを使用してエクスペリエンスをレビューし、広告を起動します。
 
-Amazon Adsを活用すると、マーケターは様々なアカウント内でキャンペーンや広告を整理できます。 各アカウントにはクリエイティブライブラリが含まれます。 GenStudio for Performance Marketingは、広告エクスペリエンスをクリエイティブライブラリに公開します。
+GenStudioのシステムマネージャーやエディターは、
 
-アクティベーションを試みる前に、[Amazon Ads アカウントにログインします][1]。 Amazon Adsの広告主にアクセスできることを確認します。 GenStudio for Performance MarketingからAmazon Ads エクスペリエンスを公開すると、作成時に選択した広告アカウントに配信されます。
+## 前提条件
 
-## 手順2:Amazon Ads アカウントへの接続
+* ターゲットのAmazon Ads アカウントへのアクセス。
+* Amazon Adsへの読み取りおよび書き込みをおこなうための管理者アクセス権を持ちます。
 
-企業がクリエイティブライブラリでアセットを公開する前に、GenStudioのシステムマネージャーがAmazon Ads アカウントをGenStudio for Performance Marketingに接続する必要があります。 このユーザーは、Amazon Adsに読み取りおよび書き込みするための広告主への管理者アクセス権を持っている必要があります。 [有料メディアアカウントの接続][2]を参照してください。
+Amazon Adsは、様々なアカウント内のキャンペーンや広告を整理し、各アカウントにはクリエイティブライブラリが含まれます。 ターゲットアカウントは既にAmazon Adsに存在している必要があります。GenStudio for Performance Marketingは、そのアカウントのクリエイティブライブラリに広告エクスペリエンスを公開しますが、アカウントは作成しません。
+
+## Amazon Ads アカウントへの接続
+
+クリエイティブライブラリでアセットを公開する前に、GenStudioのシステムマネージャーがAmazon Ads アカウントをGenStudio for Performance Marketingに接続する必要があります。 Amazon Adsの読み取りおよび書き込みを行うには、そのアカウントへの管理者アクセス権が必要です。 [有料メディアアカウントの接続](/help/user-guide/connectors/connect-channel.md)を参照してください。
 
 同期が完了したら、追加されたアカウントを表示できます。
 
-## ステップ 3：広告体験のコンテンツを選択する
+## Amazon広告の設定フィールド
 
-公開プロセスは、コンテンツエクスペリエンスギャラリーまたはアクティベーションホームから開始できます。 承認されたエクスペリエンスは編集できません。 各エクスペリエンスに含めることができるアセットは1つだけです。
+承認されたアセットは[!DNL Content]でレビューと承認が完了しているため、アクティブ化中はロックされ、編集できません。 次の項目を編集できます。
 
-エクスペリエンスを選択するには：
+* **テキストフィールド**: トラッキング ID （プラットフォームのクリエイティブ名として使用）
+* **プラットフォーム設定フィールド**: アカウント
 
-1. コンテンツギャラリーの検索ツールとフィルターツールを使用して、アクティベートするエクスペリエンスを特定し、**[!UICONTROL 使用]**&#x200B;をクリックします。 （または、Amazon Adsの商品カードで「**[!UICONTROL New]**」をクリックして、「アクティベート」からエクスペリエンスを選択することもできます）。
-
-1. アクティベーションを続行する前に、プラットフォームを選択するように求められます。 _Amazon_&#x200B;を選択します。
-
-   このエクスペリエンスのAmazon Ads エクスペリエンス設定ページが開きます。 エクスペリエンスの詳細が事前に入力されているので、これは修正できません。
-
-1. （オプション）「**[!UICONTROL エクスペリエンスを追加]**」をクリックして、このアクティベーショングループにエクスペリエンスを追加します。
-
-1. 「**[!UICONTROL 次へ]**」をクリックして、Amazon Ads プラットフォームの設定を確定します。
-
-   _プラットフォーム設定_ ビューが開きます。 このビューには、設定したAmazon Ads アカウントから取得したオプションが表示されます。
-
-## 手順4:Amazon Ads プラットフォームの設定を確認する
-
-1. アカウント ドロップダウンメニューからアカウントを選択します。 Amazon広告のアカウント設定によって、使用可能なアカウントが決まります。アクティベーションが完了すると、クリエイティブ体験はAmazon Adsのこのアカウントのクリエイティブライブラリに配信されます。
-
-1. Creative名フィールドに名前を追加します。 Amazon広告では、この名前でエクスペリエンスが識別されます。
-
-&#x200B;1. 選択したエクスペリエンスごとに繰り返します。
-
-1. 「**[!UICONTROL 次へ]**」をクリックして、Amazon広告の設定を確定します。
-
-## 手順5：広告のプレビューとアクティベート
-
-レビューページでは、公開前にアクティベーションをレビューする最後の機会を提供します。
-
-1. （オプション） プラットフォーム設定ラベルの横にある&#x200B;**[!UICONTROL セクションを編集]**&#x200B;をクリックして、プラットフォーム設定を編集します。 エクスペリエンスのコンテンツは編集できません。
-
-1. 「**[!UICONTROL 公開する]**」をクリックします。
-
-   Amazon Ads広告エクスペリエンスは、選択したAmazon Ads アカウント内のクリエイティブライブラリに直接プッシュされます。
-
-## 手順6：広告体験の公開を完了する
-
-[Amazon Ads アカウント ][1]にログインして、公開されたエクスペリエンス内での広告のセットアップとデプロイの最終手順を管理します。
-
-[1]: https://advertising.amazon.com/
-[2]: /help/user-guide/connectors/connect-channel.md
+アクティベーションが完了すると、クリエイティブエクスペリエンスはAmazon Adsの選択したアカウントのクリエイティブライブラリに配信されます。
