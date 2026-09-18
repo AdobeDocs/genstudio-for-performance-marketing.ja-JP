@@ -9,7 +9,7 @@ nudge: true
 source-git-commit: 378b5c689ce9dab9ffdde6d17a06df68cca2d305
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 95%
+ht-degree: 97%
 ---
 
 # Adobe GenStudio for Performance Marketing ガイド {#user-guide}
@@ -52,7 +52,7 @@ ht-degree: 95%
   + [テンプレートでのロゴのスワップの設定](create/logo-swap-setup.md)
   + [電子メールエクスペリエンスを作成](create/create-email-experience.md)
   + [Meta広告エクスペリエンスの作成](create/create-meta-ad.md)
-  + [Meta広告エクスペリエンスを作成 – カルーセル広告](create/create-meta-carousel-ad.md)
+  + [Meta 広告エクスペリエンスの作成 - カルーセル広告](create/create-meta-carousel-ad.md)
   + [ChatGPT 広告エクスペリエンスの作成](create/create-chatgpt-ad.md)
   + [LinkedIn エクスペリエンスを作成する](create/create-linkedin.md)
   + [ディスプレイ広告エクスペリエンスの作成](create/create-display-ad.md)
