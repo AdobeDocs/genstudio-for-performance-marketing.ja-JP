@@ -37,7 +37,7 @@ AI アシスタントにつながれば、次の3つの業務に取り組むこ�
 
 サポートされるチャネルは機能によって異なります。 Insightsでは、ほとんどのレポートでMeta、LinkedIn、Innovidをカバーしています。 カスタムのコンバージョン指標では、MetaとLinkedInをカバーしています。
 
-Meta、LinkedIn、Display、TikTok、YouTubeのカバーを作成できます。 Meta、LinkedIn、Google Campaign Manager 360のカバーをアクティベートします。 各ツールのチャネルサポートについては、[AI アシスタントツールのリファレンス ](tools-reference.md)を参照してください。
+Meta、LinkedIn、Display、TikTok、YouTubeのカバーを作成できます。 Meta、LinkedIn、Google Campaign Manager 360のカバーをアクティベートします。 各ツールのチャネルサポートについては、[AI アシスタントツールのリファレンス &#x200B;](tools-reference.md)を参照してください。
 
 ## アクセスと権限
 

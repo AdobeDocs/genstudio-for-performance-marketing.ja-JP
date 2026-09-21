@@ -36,8 +36,8 @@ Claudeには、Pro、Max、Team、またはEnterprise プランが必要です�
 1. Adobe IDでログインします。
 1. [!DNL GenStudio for Performance Marketing]へのアクセス権を持つIMS組織を選択します。
 
-> [!NOTE]
-> グループ版またはエンタープライズ版のプランでは、組織の所有者が最初にコネクタを追加する必要がある場合があります。 コネクタが既に使用可能な場合は、代わりに&#x200B;**[!UICONTROL Connect]**&#x200B;を選択します。
+&#x200B;> [!NOTE]
+&#x200B;> グループ版またはエンタープライズ版のプランでは、組織の所有者が最初にコネクタを追加する必要がある場合があります。 コネクタが既に使用可能な場合は、代わりに&#x200B;**[!UICONTROL Connect]**&#x200B;を選択します。
 
 ## ChatGPTの接続
 
@@ -52,7 +52,7 @@ ChatGPTには、Plus、Pro、Business、Enterprise、Education アカウント�
 1. Adobe IDでログインします。
 1. [!DNL GenStudio for Performance Marketing]へのアクセス権を持つIMS組織を選択します。
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 > ChatGPTは、開発者とコネクタの設定の場所を変更できます。 これらのラベルがアカウントで異なる場合は、現在のOpenAIの手順に従って、リモート MCP コネクタを追加してください。
 
 ## Connect Codex
@@ -91,7 +91,7 @@ WriterにはAI Studioへのアクセスが必要です。
 
 ## Microsoft Copilotへの接続
 
-Microsoftは、Copilotのカスタム MCP接続の設定フローを制御します。 現在の[Microsoft Copilot ドキュメント ](https://learn.microsoft.com/en-us/copilot/)に従って、リモート MCP サーバーを追加し、サーバーのURLとして`https://genstudio-services.adobe.io/mcp`を使用します。
+Microsoftは、Copilotのカスタム MCP接続の設定フローを制御します。 現在の[Microsoft Copilot ドキュメント &#x200B;](https://learn.microsoft.com/en-us/copilot/)に従って、リモート MCP サーバーを追加し、サーバーのURLとして`https://genstudio-services.adobe.io/mcp`を使用します。
 
 プロンプトが表示されたら、Adobe IDでログインし、[!DNL GenStudio for Performance Marketing]へのアクセス権を持つIMS組織を選択します。
 
@@ -106,8 +106,8 @@ Microsoftは、Copilotのカスタム MCP接続の設定フローを制御しま
 
 アシスタントは、使用可能なパフォーマンスデータを返すか、リクエストと一致するデータがない理由を説明します。
 
-> [!TIP]
-> 認証が失敗した場合は、再接続して、正しいIMS組織を選択したことを確認します。 ツールが表示されない場合は、アカウントが[!DNL GenStudio for Performance Marketing]へのアクセス権を持っていることを確認してください。
+&#x200B;> [!TIP]
+&#x200B;> 認証が失敗した場合は、再接続して、正しいIMS組織を選択したことを確認します。 ツールが表示されない場合は、アカウントが[!DNL GenStudio for Performance Marketing]へのアクセス権を持っていることを確認してください。
 
 ## 関連する機能
 
