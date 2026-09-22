@@ -69,9 +69,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 source-git-commit: 5d651c7ec00aff866ce1f3698521b5baf48b3385
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5824'
-ht-degree: 98%
+ht-degree: 100%
 ---
 # GenStudio for Performance Marketing リリースノート
 
@@ -83,13 +83,13 @@ ht-degree: 98%
 
 ### 一括アクティベーション
 
-[!DNL Activate]は一括アクティベーションをサポートするようになりました：[!DNL Content]から複数の承認済みエクスペリエンスを選択し、Meta、LinkedIn、Google Campaign Manager 360、Amazon Ads、Innovid、TikTok、YouTube、ChatGPT、The Trade Deskなど、1つのアクティベーションテーブルで複数の有料広告チャネルに公開します。 共有フィールドをインラインまたは一括で編集し、失敗したフィールドに対して広告単位のステータス追跡と自動再試行を実行して、すべての広告を一括公開します。
+[!DNL Activate] で一括アクティベーションがサポートされるようになりました：[!DNL Content] から複数の承認済みエクスペリエンスを選択し、Meta、LinkedIn、Google キャンペーンマネージャー 360、Amazon Ads、Innovid、TikTok、YouTube、ChatGPT、The Trade Desk など、複数の有料広告チャネルに 1 つのアクティベーションテーブルで公開することができます。共有フィールドをインラインまたは一括で編集し、広告単位のステータス追跡付きですべての広告をまとめて公開し、失敗したフィールドに対しては自動で再試行することができます。
 
-詳しくは、[&#x200B; アクティベーションワークフロー](/help/user-guide/activation/create-activation.md)を参照してください。
+詳しくは、[アクティベーションワークフロー](/help/user-guide/activation/create-activation.md)を参照してください。
 
 ## 以前のリリースノート
 
-+++2026.07.16のメモ
++++2026年7月16日（PT）からのメモ
 
 ### Horizon キャンバスでの一括編集
 
@@ -578,7 +578,7 @@ GenStudio for Performance Marketing と Adobe Workfront Proof の統合に関す
 
 ### 新しいコールトゥアクションの生成
 
-バリアントを管理する際、新しいコールトゥアクション（CTA）フレーズを生成できるようになりました。 新しい「_言い換え_」オプションと「_リンクを追加_」オプションを使用して、新しいフレーズを生成し、CTA リンクを編集できます。 これらの新しい CTA 機能が機能するように、テンプレートを適切に設定する必要があります。 _テンプレートのカスタマイズ_：[コールトゥアクション](/help/user-guide/templates/customize-template.md#calls-to-action)のガイドラインに従ってください。 バリアントでの CTA の管理に関するガイドラインについて詳しくは、[コールトゥアクションの修正](/help/user-guide/create/manage-variants.md#revise-call-to-action)」を参照してください。<!-- GS-6676 -->
+バリアントを管理する際、新しいコールトゥアクション（CTA）フレーズを生成できるようになりました。 新しい「_言い換え_」オプションと「_リンクを追加_」オプションを使用して、新しいフレーズを生成し、CTA リンクを編集できます。 これらの新しい CTA 機能が機能するように、テンプレートを適切に設定する必要があります。 _テンプレートのカスタマイズ_：[コールトゥアクション](/help/user-guide/templates/customize-template.md#calls-to-action)のガイドラインに従ってください。 バリアントでの CTA の管理に関するガイドラインについて詳しくは、[コールトゥアクションの修正](/help/user-guide/create/manage-variants.md#revise-call-to-action)を参照してください。<!-- GS-6676 -->
 
 ### 修正と機能強化
 
@@ -696,7 +696,7 @@ GenStudio for Performance Marketing と Adobe Workfront Proof の統合に関す
 
 * 書き出された HTML で、すべての文字が正しく表示されるようになりました。<!-- GS-7246 -->
 
-* 特定の言語で、[!DNL Content] _エクスペリエンス_&#x200B;**[!UICONTROL 書き出し]**&#x200B;ポップアップのボタンの文字が切り捨てられなくなりました。<!-- GS-6873 -->
+* 特定の言語で、[!DNL Content] _エクスペリエンス_**[!UICONTROL 書き出し]**&#x200B;ポップアップのボタンの文字が切り捨てられなくなりました。<!-- GS-6873 -->
 
 * テンプレートを使用して 50 x 50 のサイズで作成されたディスプレイ広告は、期待どおりの画像サイズで書き出されるようになりました。 以前は、PNG ファイルは想定される寸法の 2 倍のサイズで書き出されていました。<!-- GS-7192 -->
 
