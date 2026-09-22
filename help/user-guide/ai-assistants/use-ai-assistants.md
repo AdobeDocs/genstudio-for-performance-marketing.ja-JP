@@ -2,7 +2,7 @@
 title: AI アシスタントを使用する
 description: '[!DNL GenStudio for Performance Marketing]に接続されたAI アシスタントを使用して、パフォーマンスデータのクエリ、ドラフトの作成、承認済み広告の公開を行う方法について説明します。'
 role: User
-source-git-commit: 6fb7ddb7549ea6bcd66b6139fbde9ebe12ddaa22
+source-git-commit: 3d22af77d3893233e497a22f7b00c1faf0070cff
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # AI アシスタントの使用
 
-[AI アシスタント &#x200B;](connect-ai-assistants.md)を接続した後、自然言語プロンプトを使用してパフォーマンスデータのクエリ、ドラフトの作成、[!DNL GenStudio for Performance Marketing]での承認済み広告の公開を行います。
+[AI アシスタント ](connect-ai-assistants.md)を接続した後、自然言語プロンプトを使用してパフォーマンスデータのクエリ、ドラフトの作成、[!DNL GenStudio for Performance Marketing]での承認済み広告の公開を行います。
 
 ## 成果の向上
 
@@ -89,8 +89,9 @@ Meta、LinkedIn、Display、TikTok、YouTubeに対応するプロンプトを作
 - 「このテンプレートで何を変更できますか？」
 - 「このテンプレートからMeta広告を作成します。 「Summer Sale」と「call to action Shop Now」という見出しを使いましょう。 クリエイティブ概要は次のとおりです。[ キャンペーン、トーン、オファーについて説明します]。
 
-&#x200B;> [!TIP]
-> ドラフトを作成すると、Creative Cloudで実際のドキュメントが作成されます。 プレビューではありません。 質問する前に、クリエイティブの概要とコピーを準備します。
+>[!TIP]
+>
+>ドラフトを作成すると、Creative Cloudで実際のドキュメントが作成されます。 プレビューではありません。 質問する前に、クリエイティブの概要とコピーを準備します。
 
 ## ドラフトのレビューと共有
 
@@ -109,8 +110,9 @@ Meta、LinkedIn、Display、TikTok、YouTubeに対応するプロンプトを作
 - 「このエクスペリエンスをMeta広告アカウントとキャンペーンに設定します。」
 - 「このエクスペリエンスをLinkedInに公開します。」
 
-&#x200B;> [!IMPORTANT]
-> 公開するとライブ広告のプレースメントが作成され、広告費が発生する可能性があります。 アシスタントを通じて元に戻すことはできません。 公開前に、ターゲットアカウント、キャンペーン、エクスペリエンスを確認しましょう。 このリクエストを繰り返すと、別の広告が作成されます。
+>[!IMPORTANT]
+>
+>公開するとライブ広告のプレースメントが作成され、広告費が発生する可能性があります。 アシスタントを通じて元に戻すことはできません。 公開前に、ターゲットアカウント、キャンペーン、エクスペリエンスを確認しましょう。 このリクエストを繰り返すと、別の広告が作成されます。
 
 ## 空または使用できない結果を解釈
 
