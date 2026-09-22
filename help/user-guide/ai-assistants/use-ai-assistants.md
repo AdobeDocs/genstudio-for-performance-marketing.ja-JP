@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # AI アシスタントの使用
 
-[AI アシスタント ](connect-ai-assistants.md)を接続した後、自然言語プロンプトを使用してパフォーマンスデータのクエリ、ドラフトの作成、[!DNL GenStudio for Performance Marketing]での承認済み広告の公開を行います。
+[AI アシスタント &#x200B;](connect-ai-assistants.md)を接続した後、自然言語プロンプトを使用してパフォーマンスデータのクエリ、ドラフトの作成、[!DNL GenStudio for Performance Marketing]での承認済み広告の公開を行います。
 
 ## 成果の向上
 

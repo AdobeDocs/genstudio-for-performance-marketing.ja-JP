@@ -93,7 +93,7 @@ WriterにはAI Studioへのアクセスが必要です。
 
 ## Microsoft Copilotへの接続
 
-Microsoftは、Copilotのカスタム MCP接続の設定フローを制御します。 現在の[Microsoft Copilot ドキュメント ](https://learn.microsoft.com/en-us/copilot/)に従って、リモート MCP サーバーを追加し、サーバーのURLとして`https://genstudio-services.adobe.io/mcp`を使用します。
+Microsoftは、Copilotのカスタム MCP接続の設定フローを制御します。 現在の[Microsoft Copilot ドキュメント &#x200B;](https://learn.microsoft.com/en-us/copilot/)に従って、リモート MCP サーバーを追加し、サーバーのURLとして`https://genstudio-services.adobe.io/mcp`を使用します。
 
 プロンプトが表示されたら、Adobe IDでログインし、[!DNL GenStudio for Performance Marketing]へのアクセス権を持つIMS組織を選択します。
 
