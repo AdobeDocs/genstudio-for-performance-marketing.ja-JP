@@ -46,7 +46,7 @@ ht-degree: 4%
 
 単一のアクティベーションテーブルには、複数の有料広告プラットフォームと広告フォーマットのエクスペリエンスを含めることができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503539?captions=jpn&learn=on)
 
 ## プラットフォームアカウントの接続
 
