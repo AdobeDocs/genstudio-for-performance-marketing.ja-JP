@@ -9,7 +9,7 @@ nudge: true
 source-git-commit: e577c7b1e55c629fb3ab7155eb012963884731cd
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 92%
+ht-degree: 94%
 ---
 
 # Adobe GenStudio for Performance Marketing ガイド {#user-guide}
