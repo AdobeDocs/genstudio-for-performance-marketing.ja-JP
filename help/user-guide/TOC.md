@@ -9,7 +9,7 @@ nudge: true
 source-git-commit: 22db02c07a9f33cb1c70df9286ad6eb143dafd38
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 92%
+ht-degree: 97%
 ---
 
 # Adobe GenStudio for Performance Marketing ガイド {#user-guide}
@@ -25,9 +25,9 @@ ht-degree: 92%
   + [&#x200B; 有効なプロンプト &#x200B;](effective-prompts.md)
 + AI アシスタント {#ai-assistants}
   + [AI アシスタントの概要](ai-assistants/overview.md)
-  + [AI アシスタントに接続](ai-assistants/connect-ai-assistants.md)
-  + [AI アシスタントを使用](ai-assistants/use-ai-assistants.md)
-  + [AI アシスタントツール参照](ai-assistants/tools-reference.md)
+  + [AI アシスタントの接続](ai-assistants/connect-ai-assistants.md)
+  + [AI アシスタントの使用](ai-assistants/use-ai-assistants.md)
+  + [AI アシスタントツールリファレンス](ai-assistants/tools-reference.md)
 + 設定 {#settings}
   + [&#x200B; 有料メディアを接続 &#x200B;](connectors/connect-channel.md)
   + 有料メディアアカウント {#connect-account}
