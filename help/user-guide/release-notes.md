@@ -69,7 +69,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 source-git-commit: 5d651c7ec00aff866ce1f3698521b5baf48b3385
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '5824'
 ht-degree: 100%
 ---
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 ### 一括アクティベーション
 
-[!DNL Activate] で一括アクティベーションがサポートされるようになりました：[!DNL Content] から複数の承認済みエクスペリエンスを選択し、Meta、LinkedIn、Google キャンペーンマネージャー 360、Amazon Ads、Innovid、TikTok、YouTube、ChatGPT、The Trade Desk など、複数の有料広告チャネルに 1 つのアクティベーションテーブルで公開することができます。共有フィールドをインラインまたは一括で編集し、広告単位のステータス追跡付きですべての広告をまとめて公開し、失敗したフィールドに対しては自動で再試行することができます。
+[!DNL Activate] で一括アクティベーションがサポートされるようになりました：[!DNL Content] から複数の承認済みエクスペリエンスを選択し、Meta、LinkedIn、Google キャンペーンマネージャー 360、Amazon Ads、Innovid、TikTok、YouTube、ChatGPT、The Trade Desk など、複数の有料広告チャネルに 1 つのアクティベーションテーブルで公開することができます。 共有フィールドをインラインまたは一括で編集し、広告単位のステータス追跡付きですべての広告をまとめて公開し、失敗したフィールドに対しては自動で再試行することができます。
 
 詳しくは、[アクティベーションワークフロー](/help/user-guide/activation/create-activation.md)を参照してください。
 
