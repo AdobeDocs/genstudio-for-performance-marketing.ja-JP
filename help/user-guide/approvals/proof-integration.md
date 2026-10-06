@@ -32,13 +32,13 @@ ht-degree: 1%
 ---
 # Workfront ProofとGenStudio for Performance Marketingの統合
 
-Workfront Proofとの統合により、承認テンプレート、多段階のワークフロー、[&#x200B; プルーフのバージョンを比較](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)する機能など、高度な機能により、GenStudio for Performance Marketingのレビューと承認のライフサイクルが強化されます。 この構造化されたバージョン管理により、コンテンツレビューのライフサイクル全体を通じて、透明性、説明責任、コラボレーションの合理化を実現できます。
+Workfront Proofとの統合により、承認テンプレート、多段階のワークフロー、[&#x200B; プルーフのバージョンを比較](https://experienceleague.adobe.com/ja/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)する機能など、高度な機能により、GenStudio for Performance Marketingのレビューと承認のライフサイクルが強化されます。 この構造化されたバージョン管理により、コンテンツレビューのライフサイクル全体を通じて、透明性、説明責任、コラボレーションの合理化を実現できます。
 
 >[!BEGINSHADEBOX]
 
 **前提条件**:
 
-[Adobe Workfront Web Viewer拡張機能](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)をインストールします
+[Adobe Workfront Web Viewer拡張機能](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)をインストールします
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ Workfront Proofの[!DNL Proofing Viewer]は、プルーフを表示、コメン�
 
 ### ライセンスとユーザーの役割
 
-ライセンスは、製品内のユーザーエンタイトルメントのセットを識別します。 Workfront Proofは、GenStudio for Performance Marketingよりも多くのライセンスタイプやユーザーロールを提供しています。 [&#x200B; プルーフの役割の概要](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles)では、Workfront Proofのレビューと承認のワークフローに関連付けられたユーザーの役割が導入されています。
+ライセンスは、製品内のユーザーエンタイトルメントのセットを識別します。 Workfront Proofは、GenStudio for Performance Marketingよりも多くのライセンスタイプやユーザーロールを提供しています。 [&#x200B; プルーフの役割の概要](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles)では、Workfront Proofのレビューと承認のワークフローに関連付けられたユーザーの役割が導入されています。
 
 | GenStudio for Performance Marketing ライセンス       | Workfront ライセンス                 | 説明                                                                                                                                                      |
 |---------------------------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ Adobe system administratorsは、Adobe Admin Consoleの両方の製品のユー�
 
 >[!NOTE]
 >
-> Workfront Proofには[追加のユーザーロール &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles)が用意されています。 すべての役割がPerformance Marketing内に表示されるわけではありません。 ただし、Workfront Proof テンプレート内で設定されたすべてのロールが尊重されます。
+> Workfront Proofには[追加のユーザーロール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles)が用意されています。 すべての役割がPerformance Marketing内に表示されるわけではありません。 ただし、Workfront Proof テンプレート内で設定されたすべてのロールが尊重されます。
 
 ### ドラフトとプルーフ
 
@@ -99,9 +99,9 @@ Workfront Proofの承認テンプレートには、プルーフの承認ワー�
 
 レビュー担当者は、プルーフの特定の領域を直接クリックして、正確なコンテキストにもとづくコメントを残すことができます。 すべてのコメントはタイムスタンプ付きで、プルーフのバージョン履歴の一部として保存されます。 コメント履歴はGenStudio for Performance Marketingでは使用できません。
 
-プルーフの2つのバージョンを[比較](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)して、レビューコメントとコンテンツを評価できます。
+プルーフの2つのバージョンを[比較](https://experienceleague.adobe.com/ja/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)して、レビューコメントとコンテンツを評価できます。
 
 ## 通知とリマインダー
 
 新しいプルーフがレビュー可能になった場合、または進行中のレビューのステータスが変更された場合、レビュー担当者と承認者にメール通知が送信されます。
-[&#x200B; プルーフの通知とリマインダー](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders)には、プルーフへのパーソナライズされたリンク、プルーフと承認プロセスの進捗状況に関する詳細、バージョン情報が含まれます。
+[&#x200B; プルーフの通知とリマインダー](https://experienceleague.adobe.com/ja/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders)には、プルーフへのパーソナライズされたリンク、プルーフと承認プロセスの進捗状況に関する詳細、バージョン情報が含まれます。

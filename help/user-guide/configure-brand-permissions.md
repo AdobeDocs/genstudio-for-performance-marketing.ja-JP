@@ -38,7 +38,7 @@ ht-degree: 4%
 
 デフォルトでは、GenStudio システム管理者は[!DNL Brands]を作成および編集できます。 コンテンツエディターと共同作業者の役割には編集と作成の権限がありますが、システム管理の権限は必要ありません。
 
-これらの[!DNL Brand]関連の使用権限をコンテンツエディターおよび共同作業者に付与するには、Adobe システム管理者がAdobe Admin Consoleでさらに設定タスクを実行する必要があります。 _Enterprise and Teams管理ガイド_&#x200B;の[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)を参照してください。
+これらの[!DNL Brand]関連の使用権限をコンテンツエディターおよび共同作業者に付与するには、Adobe システム管理者がAdobe Admin Consoleでさらに設定タスクを実行する必要があります。 _Enterprise and Teams管理ガイド_&#x200B;の[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html#Overview)を参照してください。
 
 ユーザーとユーザーグループの追加は、Admin Consoleを通じて管理される使用権限を持つすべてのAdobe製品に共通する基本的な作業です。 ユーザー管理の概要とユーザーとユーザーグループを追加する手順については、_Enterprise and Teams管理ガイド_&#x200B;の[Adobe Admin Console ユーザー](https://helpx.adobe.com/jp/enterprise/using/users.html)を参照してください。
 
@@ -118,7 +118,7 @@ _プロジェクト_&#x200B;は、選択したユーザーがアセットを保�
 
 1. 「**[!UICONTROL 作成]**」をクリックします。 「_プロジェクトに招待_」ポップアップが開きます。
 
-_エンタープライズおよびチーム管理ガイド_&#x200B;の「[&#x200B; プロジェクトの管理](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html)」を参照してください。
+_エンタープライズおよびチーム管理ガイド_&#x200B;の「[&#x200B; プロジェクトの管理](https://helpx.adobe.com/jp/enterprise/using/projects-in-business-storage.html)」を参照してください。
 
 ## 手順5：ユーザーグループをプロジェクトに招待する
 
