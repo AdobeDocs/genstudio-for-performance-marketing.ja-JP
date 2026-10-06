@@ -4,7 +4,26 @@ description: '[!DNL GenStudio for Performance Marketing]のボイスプリント
 feature: Create Prompt, Generative AI, Content Generation
 role: User
 level: Beginner
-source-git-commit: 22db02c07a9f33cb1c70df9286ad6eb143dafd38
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+subfeature_v2:
+  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+    internal-label: Create prompt
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+    internal-label: Content generation
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -19,7 +38,7 @@ Stateful Generationは、生成に3種類のコンテキストを追加します
 
 1. [!DNL GenStudio for Performance Marketing]で、チャネルと形式の生成を開始します。 各チャネルの生成を開始するには、[[!DNL Create] 概要](/help/user-guide/create/overview.md)を参照してください。
 1. _オプション_：独自のクリエイティブでコピーをグラウンド化するには、**[!UICONTROL コンテンツから選択]**&#x200B;を選択し、次に[視覚的なキュー](#ground-content-in-an-image-or-video)として使用する画像またはビデオを選択します。
-1. 「**[!UICONTROL 生成]**」を選択します。 [!DNL GenStudio for Performance Marketing]はバリエーションのセットを作成し、サポートされているチャネルに[&#x200B; ブランドボイス &#x200B;](#keep-copy-in-your-brand-voice)を自動的に適用します。
+1. 「**[!UICONTROL 生成]**」を選択します。 [!DNL GenStudio for Performance Marketing]はバリエーションのセットを作成し、サポートされているチャネルに[ ブランドボイス ](#keep-copy-in-your-brand-voice)を自動的に適用します。
 1. プロンプトドロワーで結果を調整します。 必要な変更（`shorten the headline`、`make variant 2 punchier`、または`change the headline`など）を入力します。 生成は、その変更のみを適用し、以前の指示を保持します。
 1. 調整を続ける間にバリエーションを保持するには、プロンプト ドロワーに`keep variant 2`などの指示を入力します。
 1. コンテンツの準備ができたら、書き出すか、レビュー用に送信します。
@@ -35,7 +54,7 @@ Stateful Generationは、生成に3種類のコンテキストを追加します
 
 ## ブランドボイスにコピーを反映
 
-ボイスプリントは、ブランドで学んだ音声を生成されたコピーに適用し、余分なプロンプトを入力することなくブランドに即した音声を生成します。 LinkedInやMetaなど、[&#x200B; インサイト &#x200B;](/help/user-guide/insights/overview.md)を持つチャネルでは、デフォルトでオンになっています。
+ボイスプリントは、ブランドで学んだ音声を生成されたコピーに適用し、余分なプロンプトを入力することなくブランドに即した音声を生成します。 LinkedInやMetaなど、[ インサイト ](/help/user-guide/insights/overview.md)を持つチャネルでは、デフォルトでオンになっています。
 
 ## Web ページをコンテキストとして使用
 
@@ -46,5 +65,5 @@ Stateful Generationは、生成に3種類のコンテキストを追加します
 
 ## 関連する機能
 
-- [&#x200B; バリエーションの管理](/help/user-guide/create/manage-variants.md)：生成されたバリエーションをキャンバス上で直接編集および調整します。
+- [ バリエーションの管理](/help/user-guide/create/manage-variants.md)：生成されたバリエーションをキャンバス上で直接編集および調整します。
 - [効果的なプロンプトを作成](/help/user-guide/effective-prompts.md)：より効果的な結果を生み出すプロンプトを作成します。

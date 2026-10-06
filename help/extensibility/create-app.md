@@ -3,20 +3,26 @@ title: App Builder アプリの作成
 description: GenStudio for Performance Marketingを拡張するアプリまたはアドオンの作成を開始します。
 feature: Extensibility
 exl-id: 4e757dd4-a02d-472c-bc13-6f27dffa48f2
-TQID: https://experienceleague.adobe.com/-GBttZv63YVWezBz1o9yrxvd-Uu5mbP-Aqh7Tm-kco4
+TQID: 'https://experienceleague.adobe.com/-GBttZv63YVWezBz1o9yrxvd-Uu5mbP-Aqh7Tm-kco4'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+    internal-label: Integrations
+subfeature_v2:
+  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
+    internal-label: Extensibility
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: b6b93e3513804919d43a663bb899e67556a4cbcd
+    internal-label: Developer
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: '496'
 ht-degree: 1%
-
 ---
-
 # App Builder アプリの開発
 
 GenStudio for Performance Marketingのネイティブ機能を拡張する開発者は、[Adobe App Builder](https://developer.adobe.com/app-builder/)を使用して、拡張可能なアプリまたはアドオンを作成、送信、デプロイします。
@@ -95,7 +101,7 @@ App Builder アプリケーションの主要なコンポーネントには、�
 
 1. [GenStudio UIX Examples](https://github.com/adobe/genstudio-uix-examples) リポジトリからサンプルアプリをダウンロードします。
 
-1. [Adobe Developer Console](https://developer.adobe.com/console/)のApp Builder プロジェクト ワークスペースから、「[!UICONTROL すべてをダウンロード &#x200B;]」を選択して、プロジェクトの詳細をダウンロードします。
+1. [Adobe Developer Console](https://developer.adobe.com/console/)のApp Builder プロジェクト ワークスペースから、「[!UICONTROL すべてをダウンロード ]」を選択して、プロジェクトの詳細をダウンロードします。
 
 1. 使用する統合開発環境（IDE）でサンプルアプリをローカルに開きます。
 
@@ -129,6 +135,6 @@ App Builder アプリケーションの主要なコンポーネントには、�
   rm -rf node_modules package-lock.json && npm i
   ```
 
-* GenStudio UIX SDKをアップグレードします。 最新バージョンの[GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk)を使用していることを確認してください。 最新のSDKの変更点の使用方法については、[GenStudio UIX サンプルリポジトリ &#x200B;](https://github.com/adobe/genstudio-uix-examples)を参照してください。
+* GenStudio UIX SDKをアップグレードします。 最新バージョンの[GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk)を使用していることを確認してください。 最新のSDKの変更点の使用方法については、[GenStudio UIX サンプルリポジトリ ](https://github.com/adobe/genstudio-uix-examples)を参照してください。
 
-これで、[&#x200B; アプリをデプロイする準備が整いました](deploy-app.md)
+これで、[ アプリをデプロイする準備が整いました](deploy-app.md)

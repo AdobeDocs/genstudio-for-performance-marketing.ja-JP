@@ -5,25 +5,35 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-TQID: https://experienceleague.adobe.com/v8DZ2ubNwArTNws12FxsJKNbGbsRB-f0IJk39Y3PgXU
+TQID: 'https://experienceleague.adobe.com/v8DZ2ubNwArTNws12FxsJKNbGbsRB-f0IJk39Y3PgXU'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
+subfeature_v2:
+  - id: e65b668e-f73f-400b-be97-cb6a0ed5e208
+    internal-label: Media templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Intermediate
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 445
+source-wordcount: '445'
 ht-degree: 3%
-
 ---
-
 # メールテンプレートガイドライン
 
 マーケティングメールテンプレートは、視覚的に魅力的でレスポンシブなメール施策を展開するための基盤となります。 一般的に、HTMLのテンプレートでは、ブランドガイドラインに合わせてレイアウト、タイポグラフィ、カラー、画像を調整できます。 GenStudio for Performance Marketingで使用するテンプレートを準備する際には、セマンティック HTMLとインライン CSSを使用してスタイル設定を行い、スクリプトや外部の依存関係を避けます。 適切に構造化されたHTMLテンプレートは、受信者の体験を向上させ、配信品質とエンゲージメント率を向上させることができます。
@@ -52,11 +62,11 @@ GenStudio for Performance Marketingは、次のフィールドを自動生成し
 - `pre_header`
 - `subject`
 
-テンプレートで許可される最大フィールドは20です。 テンプレートでのフィールド名の使用について詳しくは、[&#x200B; コンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#content-placeholders)を参照してください。
+テンプレートで許可される最大フィールドは20です。 テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#content-placeholders)を参照してください。
 
 ## マルチセクションメール
 
-_セクション_&#x200B;を使用すると、コンテンツを個別のグループに整理し、より複雑なレイアウトをサポートできます。 GenStudio for Performance Marketingでは、グループ命名規則を使用して各セクションを定義できます。 [&#x200B; テンプレートセクションのカスタマイズ &#x200B;](/help/user-guide/templates/customize-template.md#sections-or-groups)を参照してください。
+_セクション_&#x200B;を使用すると、コンテンツを個別のグループに整理し、より複雑なレイアウトをサポートできます。 GenStudio for Performance Marketingでは、グループ命名規則を使用して各セクションを定義できます。 [ テンプレートセクションのカスタマイズ ](/help/user-guide/templates/customize-template.md#sections-or-groups)を参照してください。
 
 複数セクションのテンプレートには、0、2、または3つのセクションを含めることができます。
 
@@ -122,7 +132,7 @@ _セクション_&#x200B;を使用すると、コンテンツを個別のグル�
 
 +++例：複数のセクションを含むメールテンプレート
 
-上記の例と同じHTML テンプレートですが、さらに2つのセクションがあります。 ヘッドには、グループをスタイル設定するためのインライン CSSが含まれています。 本文では、接頭辞を使用して[&#x200B; コンテンツプレースホルダー](#content-placeholders)を持つ2つのグループを使用します。
+上記の例と同じHTML テンプレートですが、さらに2つのセクションがあります。 ヘッドには、グループをスタイル設定するためのインライン CSSが含まれています。 本文では、接頭辞を使用して[ コンテンツプレースホルダー](#content-placeholders)を持つ2つのグループを使用します。
 
 ```html
 <!DOCTYPE html>

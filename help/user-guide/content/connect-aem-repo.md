@@ -1,26 +1,36 @@
 ---
-title: ' [!DNL AEM Assets Content Hub]  リポジトリに接続'
-description: Adobe GenStudio for Performance MarketingをAdobe Experience Manager （AEM）  [!DNL Content Hub]  リポジトリに接続し、既存の承認済みコンテンツを活用する方法について説明します。
+title: '[!DNL AEM Assets Content Hub] リポジトリへの接続'
+description: Adobe GenStudio for Performance MarketingをAdobe Experience Manager （AEM） [!DNL Content Hub] リポジトリに接続し、既存の承認済みコンテンツを活用する方法について説明します。
 level: Experienced
 role: Admin, Developer
 feature: Content Management
 recommendations: noDisplay
 exl-id: abb587fd-593c-4b9f-baad-993d92400d9b
-TQID: https://experienceleague.adobe.com/FJ6G7qlBlkrsGk1H7SHhlkqHUHYYGKkTqklTeGDxJho
+TQID: 'https://experienceleague.adobe.com/FJ6G7qlBlkrsGk1H7SHhlkqHUHYYGKkTqklTeGDxJho'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
+subfeature_v2:
+  - id: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0
+    internal-label: Content management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: '388'
 ht-degree: 3%
-
 ---
-
 # [!DNL AEM Assets Content Hub] リポジトリへの接続
 
 Adobe Experience Manager（AEM）にアセットがある場合は、次の手順に従って、GenStudio for Performance Marketingでアセットにアクセスできるようにします。
@@ -35,7 +45,7 @@ Adobe Experience Manager（AEM）にアセットがある場合は、次の手�
 
 ## 手順1: [!DNL AEM Assets Content Hub]を有効にする
 
-**Content Hubのデプロイ** セルフサービスプロセスに従って、Cloud Managerの既存のAEM Assetsで[!DNL Content Hub]を有効にします。 _AEM as a Cloud Service_ ドキュメントの[&#x200B; デプロイ  [!DNL Content Hub]](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub)を参照してください。
+**Content Hubのデプロイ** セルフサービスプロセスに従って、Cloud Managerの既存のAEM Assetsで[!DNL Content Hub]を有効にします。 _AEM as a Cloud Service_ ドキュメントの[ デプロイ  [!DNL Content Hub]](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub)を参照してください。
 
 [!DNL AEM Assets Content Hub]を有効にすると、Admin Consoleで[!DNL AEM Assets as a Cloud Service]内に`contenthub`接尾辞を持つ新しいインスタンスが作成されます。
 
@@ -47,20 +57,20 @@ Adobe Experience Manager（AEM）にアセットがある場合は、次の手�
 
 [!DNL Admin Console]で、GenStudio for Performance Marketing ユーザーまたはユーザーグループを[!DNL AEM Assets Content Hub]製品プロファイルに追加します。 コンテンツレビュアーが[!DNL AEM Assets Content Hub] リポジトリと同じ組織にアクセスできない場合、コンテンツのレビューと承認が困難になる可能性があります。
 
-- [&#x200B; オンボード  [!DNL Content Hub] 管理者](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
-- [&#x200B; オンボード  [!DNL Content Hub]  ユーザー](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
+- [ オンボード  [!DNL Content Hub] 管理者](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
+- [ オンボード  [!DNL Content Hub]  ユーザー](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
 
 ## ステップ 3：アセットの承認
 
 [!DNL AEM Assets Content Hub]で使用するアセットを承認すると、GenStudio for Performance Marketingで使用できるようになります。
 
-_AEM as a Cloud Service_ ドキュメントの「[Experience Manager](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) アセットの承認」を参照してください。
+_AEM as a Cloud Service_ ドキュメントの「[Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) アセットの承認」を参照してください。
 
 ## 手順4：アセットの表示の設定
 
-_[!DNL AEM Assets Content Hub]_&#x200B;設定オプションで、フィルター、アセットの詳細、検索、ブランディングの各設定オプションのセットを確認します。
+_[!DNL AEM Assets Content Hub]_設定オプションで、フィルター、アセットの詳細、検索、ブランディングの各設定オプションのセットを確認します。
 
-_Content Hub_ ドキュメントの[AEM as a Cloud Service ユーザーインターフェイスの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options)を参照してください。
+_Content Hub_ ドキュメントの[AEM as a Cloud Service ユーザーインターフェイスの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options)を参照してください。
 
 ## 手順5：接続の確認
 

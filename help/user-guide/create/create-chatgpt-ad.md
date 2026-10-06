@@ -4,7 +4,30 @@ description: Adobe GenStudio for Performance MarketingでChatGPTの有料メデ�
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
-source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+subfeature_v2:
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+    internal-label: Create canvas
+  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+    internal-label: Create prompt
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+    internal-label: Variant generation
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+    internal-label: Content generation
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 9%
@@ -14,7 +37,7 @@ ht-degree: 9%
 
 [!DNL GenStudio for Performance Marketing]の[[!DNL Create]](/help/user-guide/create/overview.md)を使用して、生成、ブランドとチャネルのチェック、承認、[!DNL Content]への公開、およびMetaやGoogle Campaign Manager 360などのチャネルに使用されているのと同じ[!DNL Activate] フローでのアクティベーションを通じて、ガイドラインとアセットから&#x200B;**ChatGPT広告**&#x200B;を有料メディアエクスペリエンスとして構築します。
 
-開始する前に、必要に応じて[&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/add-guidelines.md)を追加し、[効果的なプロンプト &#x200B;](/help/user-guide/effective-prompts.md)を確認して、見出しプロンプトで強力なバリエーションを生成します。
+開始する前に、必要に応じて[ ガイドライン ](/help/user-guide/guidelines/add-guidelines.md)を追加し、[効果的なプロンプト ](/help/user-guide/effective-prompts.md)を確認して、見出しプロンプトで強力なバリエーションを生成します。
 
 ## 前提条件
 
@@ -22,7 +45,7 @@ ht-degree: 9%
 
 ### アクセスと役割
 
-* [!DNL GenStudio for Performance Marketing]に&#x200B;**編集者**&#x200B;以上の役割があります。 [&#x200B; ユーザーの役割と権限 &#x200B;](/help/user-guide/user-roles.md) を参照してください。
+* [!DNL GenStudio for Performance Marketing]に&#x200B;**編集者**&#x200B;以上の役割があります。 [ ユーザーの役割と権限 ](/help/user-guide/user-roles.md) を参照してください。
 * **OpenAI広告アカウント**&#x200B;とそのアカウントの&#x200B;**API キー**&#x200B;があります。
 * **ChatGPT Ads** アカウントが[!DNL GenStudio for Performance Marketing]に接続されています。
 
@@ -39,7 +62,7 @@ OpenAI Ads ManagerでAPI キーを作成するには：
 
 ### 設定の作成
 
-* アプリがブランドに即したコピーを生成できるように、**[!DNL Brands]**、**[!DNL Products]**&#x200B;および&#x200B;**[!DNL Personas]**&#x200B;が設定されています。 [&#x200B; ガイドラインの概要](/help/user-guide/guidelines/overview.md)を参照してください。
+* アプリがブランドに即したコピーを生成できるように、**[!DNL Brands]**、**[!DNL Products]**&#x200B;および&#x200B;**[!DNL Personas]**&#x200B;が設定されています。 [ ガイドラインの概要](/help/user-guide/guidelines/overview.md)を参照してください。
 * 使用する画像は、[[!DNL Content]](/help/user-guide/content/overview.md)で利用できます。
 
 ## ChatGPT広告の生成
@@ -50,8 +73,8 @@ OpenAI Ads ManagerでAPI キーを作成するには：
 
 ChatGPT作成を開くには：
 
-1. **[!UICONTROL 作成]** / **[!UICONTROL ChatGPT]**&#x200B;に移動します。 ChatGPTのテンプレートは選択しません。1つの広告レイアウトが使用されます。
-   作成ワークフロー![&#128279;](./create-chatgpt-clp.png){width="60%"}のChatGPT タイル
+1. **[!UICONTROL 作成]** / **[!UICONTROL ChatGPT]**に移動します。 ChatGPTのテンプレートは選択しません。1つの広告レイアウトが使用されます。
+   作成ワークフロー](./create-chatgpt-clp.png){width="60%"}の![ChatGPT タイル
 1. _キャンバス_&#x200B;で、**[!DNL Brand]**、**[!DNL Product]**、**[!DNL Persona]**&#x200B;および&#x200B;**言語**&#x200B;を選択します。
 1. [!DNL Content]から画像を選択します。
 1. ChatGPTの見出しコピーのプロンプトを入力します。
@@ -65,7 +88,7 @@ ChatGPT作成を開くには：
 * _キャンバス_&#x200B;で直接テキストを編集します。
 * **[!UICONTROL スワップ]**&#x200B;を使用して、[!DNL Content]から代替画像を選択します。
 
-生成されたエクスペリエンスを編集する方法の詳細については、[&#x200B; バリエーションの管理](/help/user-guide/create/manage-variants.md)を参照してください。
+生成されたエクスペリエンスを編集する方法の詳細については、[ バリエーションの管理](/help/user-guide/create/manage-variants.md)を参照してください。
 
 ### ブランドチェックとチャネルチェックの実行
 
@@ -74,7 +97,7 @@ ChatGPT作成を開くには：
 コンテンツチェックを実行するには：
 
 1. **[!UICONTROL コンテンツチェック]** （ブランドチェックとチャネルチェック）をクリックします。
-1. [_コンテンツチェック_ パネル &#x200B;](/help/user-guide/guidelines/brand-validation.md#content-check-panel)で検証結果を確認します。
+1. [_コンテンツチェック_ パネル ](/help/user-guide/guidelines/brand-validation.md#content-check-panel)で検証結果を確認します。
 1. フラグが付いた問題（コピーの長さや画面に表示される密なテキストなど）は、バリエーションを編集するか、必要に応じて再生成することで解決できます。
 
 [ブランドの検証](/help/user-guide/guidelines/brand-validation.md)を参照してください。
@@ -97,7 +120,7 @@ ChatGPT作成を開くには：
 
 承認者は、ChatGPT エクスペリエンス、ブランドおよびチャネルのチェック結果を表示したり、**[!UICONTROL 承認]**&#x200B;または変更を依頼したりできます。
 
-[&#x200B; レビューと承認を依頼](/help/user-guide/approvals/request-review.md)および[&#x200B; レビューと承認](/help/user-guide/approvals/overview.md)を参照してください。
+[ レビューと承認を依頼](/help/user-guide/approvals/request-review.md)および[ レビューと承認](/help/user-guide/approvals/overview.md)を参照してください。
 
 ### コンテンツに公開
 

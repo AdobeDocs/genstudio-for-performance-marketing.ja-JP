@@ -5,25 +5,35 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 85432185-8311-411b-b57b-f482c3d45854
-TQID: https://experienceleague.adobe.com/YyG3WuMkdVAaACX03qLKzzw-fFA3WfT9K2ohjnQNPcI
+TQID: 'https://experienceleague.adobe.com/YyG3WuMkdVAaACX03qLKzzw-fFA3WfT9K2ohjnQNPcI'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
+subfeature_v2:
+  - id: e65b668e-f73f-400b-be97-cb6a0ed5e208
+    internal-label: Media templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 242ab858144fd152fd55645143f869fddf7b6fe0
+    internal-label: Intermediate
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 293
+source-wordcount: '293'
 ht-degree: 2%
-
 ---
-
 # LinkedIn テンプレートガイドライン
 
 LinkedInのテンプレートは、LinkedInのキャンペーン用の広告クリエイティブを体系化された方法で作成、カスタマイズすることができます。 これらのガイドラインにより、GenStudio for Performance Marketingでクリエイティブなプロセスを合理化しながら、広告がLinkedInの仕様を満たすようにします。 このガイドでは、LinkedInのデスクトップとモバイルのプラットフォーム全体で一貫したブランディングと効果的なパフォーマンスを実現するための準備を整えるのに役立ちます。
@@ -49,7 +59,7 @@ GenStudio for Performance Marketingは、次のフィールドを自動生成し
 - `introductory_text`
 - `cta` （Call to action）
 
-テンプレートでのフィールド名の使用について詳しくは、[&#x200B; コンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#content-placeholders)を参照してください。
+テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#content-placeholders)を参照してください。
 
 ## サポートされている縦横比
 

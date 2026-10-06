@@ -2,7 +2,13 @@
 title: AI アシスタントに接続する
 description: サポートされているAI アシスタントを[!DNL GenStudio for Performance Marketing]に接続し、使用可能なツールへのアクセスを確認する方法を説明します。
 role: User
-source-git-commit: 3d22af77d3893233e497a22f7b00c1faf0070cff
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -93,7 +99,7 @@ WriterにはAI Studioへのアクセスが必要です。
 
 ## Microsoft Copilotへの接続
 
-Microsoftは、Copilotのカスタム MCP接続の設定フローを制御します。 現在の[Microsoft Copilot ドキュメント &#x200B;](https://learn.microsoft.com/en-us/copilot/)に従って、リモート MCP サーバーを追加し、サーバーのURLとして`https://genstudio-services.adobe.io/mcp`を使用します。
+Microsoftは、Copilotのカスタム MCP接続の設定フローを制御します。 現在の[Microsoft Copilot ドキュメント ](https://learn.microsoft.com/en-us/copilot/)に従って、リモート MCP サーバーを追加し、サーバーのURLとして`https://genstudio-services.adobe.io/mcp`を使用します。
 
 プロンプトが表示されたら、Adobe IDでログインし、[!DNL GenStudio for Performance Marketing]へのアクセス権を持つIMS組織を選択します。
 

@@ -2,7 +2,13 @@
 title: AI アシスタント
 description: AI アシスタントを[!DNL GenStudio for Performance Marketing]に接続して、インサイトを取得し、ドラフトを作成し、承認済みの広告を公開する方法について説明します。
 role: User
-source-git-commit: 6fb7ddb7549ea6bcd66b6139fbde9ebe12ddaa22
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 1%
@@ -37,7 +43,7 @@ AI アシスタントにつながれば、次の3つの業務に取り組むこ�
 
 サポートされるチャネルは機能によって異なります。 Insightsでは、ほとんどのレポートでMeta、LinkedIn、Innovidをカバーしています。 カスタムのコンバージョン指標では、MetaとLinkedInをカバーしています。
 
-Meta、LinkedIn、Display、TikTok、YouTubeのカバーを作成できます。 Meta、LinkedIn、Google Campaign Manager 360のカバーをアクティベートします。 各ツールのチャネルサポートについては、[AI アシスタントツールのリファレンス &#x200B;](tools-reference.md)を参照してください。
+Meta、LinkedIn、Display、TikTok、YouTubeのカバーを作成できます。 Meta、LinkedIn、Google Campaign Manager 360のカバーをアクティベートします。 各ツールのチャネルサポートについては、[AI アシスタントツールのリファレンス ](tools-reference.md)を参照してください。
 
 ## アクセスと権限
 

@@ -2,13 +2,29 @@
 title: SalesforceのExperience Selector MFE
 description: CSP、Adobe認証、Apex メールテンプレート、検証など、Salesforce LightningでExperience Selector MFEをデプロイおよび設定する方法について説明します。
 feature: Extensibility, Extensions, Experiences
-source-git-commit: 99a2b657560d20642b7b92aefb976ba2373ebc7f
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+feature_v2:
+  - id: bfaa655b-e017-428d-80d0-09de2183b296
+    internal-label: Extensions
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+    internal-label: Integrations
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
+subfeature_v2:
+  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
+    internal-label: Extensibility
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 0%
-
 ---
-
 # SalesforceのExperience Selector MFE
 
 このトピックでは、お客様と実装者がSalesforce組織で[!DNL GenStudio for Performance Marketing] Experience Selector マイクロフロントエンド（MFE）をデプロイして実行する方法について説明します。 管理者の手順（コードなし）、開発者手順（デプロイと設定）、およびコンテンツセキュリティポリシー（CSP）などのセキュリティ関連の設定について説明します。
@@ -17,7 +33,7 @@ ht-degree: 0%
 
 ## この統合で何ができるか
 
->[!VIDEO](https://video.tv.adobe.com/v/3491080?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491079?learn=on)
 
 Lightning Web コンポーネント （LWC） `sfgsmfe`は、Adobe Experience Selector UMD バンドルを読み込み、`<dialog>`にレンダリングして、ユーザーが[!DNL GenStudio for Performance Marketing]からエクスペリエンスを選択できるようにします。
 
@@ -39,7 +55,7 @@ Lightning Web コンポーネント （LWC） `sfgsmfe`は、Adobe Experience Se
 
 * **権限：** メールテンプレートを作成するユーザーには、組織のポリシーに従ってテンプレートを作成するためのターゲットメールテンプレートフォルダーと権限へのアクセス権が必要です。 Apexが`with sharing`を実行しています。
 * **Adobe / GenStudio:**&#x200B;お使いのAdobe IMS組織IDとSUSI `clientId`は、お使いのAdobe設定と一致している必要があります（[統合値の設定](#configure-integration-values-developer--implementation)を参照）。
-* **ブラウザー / CSP:** Salesforceでは、`https://experience.adobe.com`からのスクリプトの読み込みが許可されている必要があります（[&#x200B; コンテンツセキュリティポリシーとAdobe URLの設定](#configure-content-security-policy-and-adobe-url)を参照）。
+* **ブラウザー / CSP:** Salesforceでは、`https://experience.adobe.com`からのスクリプトの読み込みが許可されている必要があります（[ コンテンツセキュリティポリシーとAdobe URLの設定](#configure-content-security-policy-and-adobe-url)を参照）。
 
 ## パッケージのデプロイ（開発者）
 
@@ -70,12 +86,12 @@ Lightning Web コンポーネント （LWC） `sfgsmfe`は、Adobe Experience Se
 コンポーネントを追加するには：
 
 1. **[!UICONTROL セットアップ]**&#x200B;で、**[!UICONTROL App Manager]**&#x200B;を開きます。
-1. **[!UICONTROL 新しいLightning アプリ]**&#x200B;を作成します（または、拡張する既存のアプリを開きます）。
-   ![新しいLightning アプリモーダル &#x200B;](./mfe-new-lighting-app.png){width="80%" zoomable="yes"}
-1. アプリを開き、**[!UICONTROL 編集]**&#x200B;を選択します。
-   ![Lightning アプリの編集モーダル &#x200B;](./mfe-lightning-edit.png){width="80%" zoomable="yes"}
-1. **[!UICONTROL 新しいページ]**&#x200B;を作成（または既存のLightning ページを編集）。
-   ![新しいページモーダル &#x200B;](./mfe-lightning-new-page.png){width="60%" zoomable="yes"}
+1. **[!UICONTROL 新しいLightning アプリ]**を作成します（または、拡張する既存のアプリを開きます）。
+   ![新しいLightning アプリモーダル ](./mfe-new-lighting-app.png){width="80%" zoomable="yes"}
+1. アプリを開き、**[!UICONTROL 編集]**を選択します。
+   ![Lightning アプリの編集モーダル ](./mfe-lightning-edit.png){width="80%" zoomable="yes"}
+1. **[!UICONTROL 新しいページ]**を作成（または既存のLightning ページを編集）。
+   ![新しいページモーダル ](./mfe-lightning-new-page.png){width="60%" zoomable="yes"}
 1. **[!UICONTROL Lightning App Builder]**&#x200B;で、**sfgsmfe** コンポーネントをレイアウトにドラッグします。
 1. **[!UICONTROL 保存]**、**[!UICONTROL アクティベート]**&#x200B;し、ページを適切なLightning アプリ、プロファイル、およびアプリの表示に割り当てて、目的のユーザーが開けるようにします。
 
@@ -107,7 +123,7 @@ LWCは、`src` ポイントの`<script>` タグをAdobeのUMD バンドルに挿
 
 メールテンプレートの作成は、GenStudio フィールドをテンプレートにマッピングします（例えば、`experienceFields`の件名）。 コンテンツモデルが異なる場合は、LWCでマッピングを調整します。
 
-`renderExperienceSelectorWithSUSI`と関連オプションについて詳しくは、「エクスペリエンスセレクターMFE」トピックの[設定プロパティ &#x200B;](experience-selector.md#configuration-properties)を参照してください。
+`renderExperienceSelectorWithSUSI`と関連オプションについて詳しくは、「エクスペリエンスセレクターMFE」トピックの[設定プロパティ ](experience-selector.md#configuration-properties)を参照してください。
 
 ## Apex: EmailTemplateController
 

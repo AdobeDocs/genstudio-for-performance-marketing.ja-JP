@@ -3,24 +3,33 @@ title: App Builder アプリのデプロイ
 description: GenStudio for Performance Marketing用のApp Builder アプリまたはアドオンをデプロイします。
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
-TQID: https://experienceleague.adobe.com/7Z4Fb-jPi4FHrTeOgHxxO4fl982sqri-7uEDoylFF-s
+TQID: 'https://experienceleague.adobe.com/7Z4Fb-jPi4FHrTeOgHxxO4fl982sqri-7uEDoylFF-s'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+    internal-label: Compliance
   - id: bfaa655b-e017-428d-80d0-09de2183b296
+    internal-label: Extensions
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+    internal-label: Integrations
+subfeature_v2:
+  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
+    internal-label: Extensibility
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: ca8bfb11a301697c92e97bad41ea3ba8aa359847
+    internal-label: Digital asset management
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 622
+source-wordcount: '622'
 ht-degree: 0%
-
 ---
-
 # アプリをデプロイ
 
 アプリを実行すると、展開前にアドオンの動作の予備スナップショットを入手できます。 これはデバッグに役立ちます。
@@ -97,11 +106,11 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 プロンプト拡張機能は、テンプレートの&#x200B;**パラメーターセクション**&#x200B;の&#x200B;**アドオン** ドロップダウンにあります。
 
-![&#x200B; プロンプト拡張機能](./select-prompt-ext.png){width="600" zoomable="yes"}
+![ プロンプト拡張機能](./select-prompt-ext.png){width="600" zoomable="yes"}
 
 アドオンダイアログが開き、LLM生成用に追加する追加のコンテキストを選択できます。
 
-![拡張機能のプロンプト ドロップダウン &#x200B;](./select-prompt-dropdown.png){width="600" zoomable="yes"}
+![拡張機能のプロンプト ドロップダウン ](./select-prompt-dropdown.png){width="600" zoomable="yes"}
 
 ### 検証拡張機能を探す
 
@@ -115,7 +124,7 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 エラーがある場合は、拡張機能を使用して、プログラムでエクスペリエンスのコピーを更新できます。 「**[!UICONTROL コピー]**」ボタンをクリックすると、候補テキストがクリップボードにコピーされます。 「**[!UICONTROL 適用]**」ボタンをクリックすると、生成されたエクスペリエンスの特定のテキストボックスにテキストが適用されます。
 
-![&#x200B; コピーと適用ボタンを表示する検証エラー](./validation-copy-apply.png){width="600" zoomable="yes"}
+![ コピーと適用ボタンを表示する検証エラー](./validation-copy-apply.png){width="600" zoomable="yes"}
 
 ### DAM拡張機能を探す
 
@@ -127,7 +136,7 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 テンプレートを選択すると、**外部テンプレートアプリ** タブにテンプレート拡張機能が表示されます。 このタブは、選択するテンプレートアプリがある場合にのみ表示されます。
 
-![&#x200B; テンプレート拡張機能](./template-ext.png){width="600" zoomable="yes"}
+![ テンプレート拡張機能](./template-ext.png){width="600" zoomable="yes"}
 
 ### 翻訳拡張機能を探す
 
@@ -148,10 +157,10 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 1. キャンバスで、生成された電子メールのバリエーションの編集可能テキストフィールドをクリックします。
 1. 「**[!UICONTROL スワップ]**」をクリックします。
-   ![&#x200B; テキストを入れ替え](./subject-line-swap.png){width="400" zoomable="yes"}
+   ![ テキストを入れ替え](./subject-line-swap.png){width="400" zoomable="yes"}
 1. サードパーティリポジトリの選択。 組織は、リポジトリの表示とリポジトリ UIの動作を制御します。
 1. フィールドの代替テキストとして使用するクレームを選択します。
 
 アドオンに問題がなければ、`query` パラメーターを指定せずに配布しましょう。
 
-これで、[&#x200B; アプリを配布できます](distribute-app.md)。
+これで、[ アプリを配布できます](distribute-app.md)。

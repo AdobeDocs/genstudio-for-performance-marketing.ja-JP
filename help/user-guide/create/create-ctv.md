@@ -4,13 +4,34 @@ description: Adobe [!DNL GenStudio for Performance Marketing]でコネクテッ�
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
-source-git-commit: 513ad53218828f154cdf13a8ae42f3bd94b5546d
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+subfeature_v2:
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+    internal-label: Create canvas
+  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+    internal-label: Create prompt
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+    internal-label: Variant generation
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+    internal-label: Content generation
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 1%
-
 ---
-
 
 # コネクテッド TV体験の構築
 
@@ -21,14 +42,14 @@ ht-degree: 1%
 CTV広告を作成する前に、次の点を確認してください。
 
 * [!DNL GenStudio for Performance Marketing] にアクセスします。
-* **[!DNL Brands]**、**[!DNL Products]**&#x200B;および&#x200B;**[!DNL Personas]**&#x200B;は、[!DNL GenStudio for Performance Marketing]で共有オブジェクトとして設定されています。 これらのオブジェクトが生成にどのように影響するかについては、[&#x200B; ガイドラインの概要](/help/user-guide/guidelines/overview.md)を参照してください。
+* **[!DNL Brands]**、**[!DNL Products]**&#x200B;および&#x200B;**[!DNL Personas]**&#x200B;は、[!DNL GenStudio for Performance Marketing]で共有オブジェクトとして設定されています。 これらのオブジェクトが生成にどのように影響するかについては、[ ガイドラインの概要](/help/user-guide/guidelines/overview.md)を参照してください。
 * キャンペーンアセット（ビデオクリップ、画像、ロゴ、音楽）は推奨されますが、必須ではありません。生成AIは、アセットが不足しているか、不完全な場合にギャップを埋めることができます。
 
 ## 新しいCTV広告の作成
 
 このワークフロー内のすべては[!DNL GenStudio for Performance Marketing]内で実行されます。
 
-![&#x200B; コネクテッド TVの作成カード](./ctv-tile.png){width="50%"}
+![ コネクテッド TVの作成カード](./ctv-tile.png){width="50%"}
 **CTV作成に移動するには**:
 
 1. [!DNL GenStudio for Performance Marketing]にログインします。

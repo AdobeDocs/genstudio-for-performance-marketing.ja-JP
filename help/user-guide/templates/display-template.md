@@ -5,24 +5,33 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 076239b3-9444-48f9-bdd6-ef2b757bdf0d
-TQID: https://experienceleague.adobe.com/HjkLWiyqK1quHoZB5lEE-qyB3zci12KlRAZC8ME-9Ao
+TQID: 'https://experienceleague.adobe.com/HjkLWiyqK1quHoZB5lEE-qyB3zci12KlRAZC8ME-9Ao'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
+subfeature_v2:
+  - id: e65b668e-f73f-400b-be97-cb6a0ed5e208
+    internal-label: Media templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Intermediate
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: '300'
 ht-degree: 4%
-
 ---
-
 # ディスプレイ広告テンプレートのガイドライン
 
 ディスプレイテンプレートとは、視覚的に魅力的なバナーやディスプレイ広告を作成するために使用される、あらかじめデザインされたレイアウトです。 画像、テキスト、call to actionを組み込むための柔軟なフレームワークを提供し、複数の広告バリエーションを制作する際の一貫性と効率性を確保します。 GenStudio for Performance Marketingで使用するテンプレートを準備する際には、すべてのアセットがweb表示用に最適化され、必要なファイル形式とサイズを満たしていることを確認します。
@@ -33,7 +42,7 @@ GenStudio for Performance Marketingを使用してバナー広告とディスプ
 - スリムなサイズで適切に表示されるアセットを準備する
 - 1つの画像フィールドが必要です
 - 埋め込み画像またはエンコードされた背景画像を&#x200B;**使用しない**
-- GenStudio for Performance Marketing コンテンツリポジトリーにアップロードされた背景画像（`image` フィールド）を使用します。 最適な結果を得るには、[&#x200B; ディスプレイ広告用の画像のアップロード &#x200B;](#uploading-images-for-display-ads)のガイドラインに従ってください
+- GenStudio for Performance Marketing コンテンツリポジトリーにアップロードされた背景画像（`image` フィールド）を使用します。 最適な結果を得るには、[ ディスプレイ広告用の画像のアップロード ](#uploading-images-for-display-ads)のガイドラインに従ってください
 - JavaScript を&#x200B;**使用しない**
 - 使用できるセクションは1つだけで、テンプレート要素のセットが1つ生成されます
 
@@ -50,7 +59,7 @@ GenStudio for Performance Marketingは、次のフィールドを自動生成し
 
 - `cta`
 
-テンプレートでのフィールド名の使用について詳しくは、[&#x200B; コンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#content-placeholders)を参照してください。
+テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#content-placeholders)を参照してください。
 
 ## サポートされているディメンション
 
