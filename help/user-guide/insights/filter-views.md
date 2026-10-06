@@ -50,7 +50,7 @@ ht-degree: 0%
 
 [!DNL Insights]の各ビューには、フィルターオプションのリストが表示されます。 左側のフィルター（funnel）トグルをクリックすると、**[!UICONTROL フィルター]** メニューが開きます。 テーブルまたはギャラリーを表示しているかどうかにかかわらず、適用されたフィルターは、テーブルまたはギャラリーの上の&#x200B;**[!UICONTROL フィルター]** リストに表示されます。 デフォルトでは、チャネルとアカウントが選択されています。
 
-![ フィルター条件](/help/assets/insights-filter-by.png " フィルター条件"){width=600 zoomable="yes"}
+![&#x200B; フィルター条件](/help/assets/insights-filter-by.png " フィルター条件"){width=600 zoomable="yes"}
 
 適用されたフィルターは、すべてのビューに保持されます。 テーブルまたはギャラリーの上にある&#x200B;**[!UICONTROL すべてをクリア]**&#x200B;を選択して、選択したすべてのフィルターを削除します。
 
@@ -88,9 +88,9 @@ _[!UICONTROL キャンペーン]_&#x200B;および&#x200B;_[!UICONTROL 広告]_ 
 
 **キャンペーンフィルターを使用して広告テーブルを調整するには**:
 
-1. _[!DNL Insights]_で、**[!UICONTROL 広告]**ビューを選択します。
+1. _[!DNL Insights]_&#x200B;で、**[!UICONTROL 広告]**&#x200B;ビューを選択します。
 
-   ![ フィルターとテーブル ](/help/assets/insights-ads-filter.png " フィルターのメニュー"){zoomable="yes"}を含む広告ビュー
+   ![&#x200B; フィルターとテーブル &#x200B;](/help/assets/insights-ads-filter.png " フィルターのメニュー"){zoomable="yes"}を含む広告ビュー
 
 1. テーブルの左側の上にあるフィルター（funnel）トグルをクリックして、**[!UICONTROL フィルター]** メニューを開きます。
 
@@ -98,7 +98,7 @@ _[!UICONTROL キャンペーン]_&#x200B;および&#x200B;_[!UICONTROL 広告]_ 
 
 1. **[!UICONTROL キャンペーン]** フィルターを展開し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
-   ![ キャンペーンのフィルター](/help/assets/insights-filter-campaigns-expand.png " キャンペーンのフィルターを展開"){width=200}
+   ![&#x200B; キャンペーンのフィルター](/help/assets/insights-filter-campaigns-expand.png " キャンペーンのフィルターを展開"){width=200}
 
 1. _[!UICONTROL キャンペーンを選択]_&#x200B;検索フィールドに、キーワードをコンマで区切って入力します。
 
@@ -118,13 +118,13 @@ _[!UICONTROL キャンペーン]_&#x200B;および&#x200B;_[!UICONTROL 広告]_ 
 
 1. 検索結果から1つ以上のキャンペーンを選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
-   ![ キャンペーンのリスト ](/help/assets/insights-select-campaigns-list.png "含めるキャンペーンを選択")
+   ![&#x200B; キャンペーンのリスト &#x200B;](/help/assets/insights-select-campaigns-list.png "含めるキャンペーンを選択")
 
 選択したキャンペーンが、広告テーブルまたはギャラリーの上の&#x200B;_[!UICONTROL フィルター]_ リストに表示されるようになりました。 選択したキャンペーンにリンクされている広告のみに専念できます。 この例では、フィルタリングされた結果は、分析のためのよりターゲットを絞ったビューを提供します。
 
-![ キャンペーンでフィルタリングされたテーブル ](/help/assets/insights-filter-by-campaigns.png " キャンペーンでフィルタリングされたテーブル "){zoomable="yes"}
+![&#x200B; キャンペーンでフィルタリングされたテーブル &#x200B;](/help/assets/insights-filter-by-campaigns.png " キャンペーンでフィルタリングされたテーブル "){zoomable="yes"}
 
-広告名に同様の方法で[!UICONTROL  メディア ] テーブルをさらにフィルタリングできます。 **[!UICONTROL 広告]** フィルターを展開し、**[!UICONTROL 選択]**&#x200B;をクリックすると、同様のキーワードフィルターを実行して、メディアテーブルまたはギャラリービューを調整できます。
+広告名に同様の方法で[!UICONTROL &#x200B; メディア &#x200B;] テーブルをさらにフィルタリングできます。 **[!UICONTROL 広告]** フィルターを展開し、**[!UICONTROL 選択]**&#x200B;をクリックすると、同様のキーワードフィルターを実行して、メディアテーブルまたはギャラリービューを調整できます。
 
 ## テーブルの結果をダウンロード
 

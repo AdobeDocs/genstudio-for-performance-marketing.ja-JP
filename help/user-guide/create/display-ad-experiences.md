@@ -40,11 +40,11 @@ ht-degree: 7%
 
 Adobe GenStudio for Performance Marketingでは、生成AIを使用して、成功したディスプレイ広告エクスペリエンスの[作成を効率化できます](/help/user-guide/create/create-display-ad.md)。
 
-[!DNL Create]は、[ ガイドライン ](/help/user-guide/guidelines/overview.md)、画像アセット、[工夫されたプロンプト ](/help/user-guide/effective-prompts.md)を使用することで、現代のマーケターが[ ブランド一貫性のあるディスプレイ広告エクスペリエンス ](/help/user-guide/create/create-display-ad.md)を作成できるよう支援します。
+[!DNL Create]は、[&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md)、画像アセット、[工夫されたプロンプト &#x200B;](/help/user-guide/effective-prompts.md)を使用することで、現代のマーケターが[&#x200B; ブランド一貫性のあるディスプレイ広告エクスペリエンス &#x200B;](/help/user-guide/create/create-display-ad.md)を作成できるよう支援します。
 
 ディスプレイ広告エクスペリエンスを生成する場合、4つのバリエーションが作成され、キャンバスに表示されます。
 
-サポートされているディメンションや認識済みのフィールド名などについて詳しくは、[広告テンプレートのガイドライン ](/help/user-guide/templates/display-template.md)を参照してください。
+サポートされているディメンションや認識済みのフィールド名などについて詳しくは、[広告テンプレートのガイドライン &#x200B;](/help/user-guide/templates/display-template.md)を参照してください。
 
 HTML キャンバスでは、承認されたディスプレイ広告エクスペリエンスを複数の言語に翻訳できます。 [エクスペリエンスの翻訳とローカライズ](/help/user-guide/create/translate-experiences.md)を参照してください。
 

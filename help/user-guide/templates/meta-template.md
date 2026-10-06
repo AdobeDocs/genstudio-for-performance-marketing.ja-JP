@@ -66,7 +66,7 @@ GenStudio for Performance Marketingは、次のフィールドを自動生成し
 - `body`
 - `cta`
 
-テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#content-placeholders)を参照してください。
+テンプレートでのフィールド名の使用について詳しくは、[&#x200B; コンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#content-placeholders)を参照してください。
 
 ## サポートされている縦横比
 
@@ -86,7 +86,7 @@ GenStudio for Performance Marketingは、次のフィールドを自動生成し
 
 <!-- Does this need to be a precise size? -->
 
-次に、Metaの広告テンプレートの基本的な例を示します。 ヘッドには、スタイル設定のためのインライン CSSが含まれています。 本文では、`image`や`on_image_text`など、[ コンテンツプレースホルダー](#content-placeholders)を使用して、GenStudio for Performance Marketingがコンテンツを生成できる場所を示します。
+次に、Metaの広告テンプレートの基本的な例を示します。 ヘッドには、スタイル設定のためのインライン CSSが含まれています。 本文では、`image`や`on_image_text`など、[&#x200B; コンテンツプレースホルダー](#content-placeholders)を使用して、GenStudio for Performance Marketingがコンテンツを生成できる場所を示します。
 
 ```html {line-numbers="true" highlight="33"}
 <!DOCTYPE html>

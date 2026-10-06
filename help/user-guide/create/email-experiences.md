@@ -44,7 +44,7 @@ ht-degree: 1%
 
 Adobe GenStudio for Performance Marketingでは、生成AIを使用して、効果の高いメールエクスペリエンスの[作成を効率化できます](/help/user-guide/create/create-email-experience.md)。
 
-[!DNL Create]を使用すると、現代のマーケターは[ ガイドライン ](/help/user-guide/guidelines/overview.md)、画像アセット、および[適切に作成されたプロンプト ](/help/user-guide/effective-prompts.md)を使用して、ブランドに即したメールエクスペリエンスをすばやく[作成できます](/help/user-guide/create/create-email-experience.md)。
+[!DNL Create]を使用すると、現代のマーケターは[&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md)、画像アセット、および[適切に作成されたプロンプト &#x200B;](/help/user-guide/effective-prompts.md)を使用して、ブランドに即したメールエクスペリエンスをすばやく[作成できます](/help/user-guide/create/create-email-experience.md)。
 
 メール体験を生成する際には、4つのバリエーションが作成され、キャンバスに表示されます。
 
@@ -67,9 +67,9 @@ Content creators and marketers can produce brand-consistent email experiences in
 
 ## マルチセクションメール
 
-メール体験には、さまざまなセクションが含まれているため、ブランドや目標に合わせて完全にカスタマイズすることができます。 [ セクション ](/help/user-guide/create/create-email-experience.md#add-parameters)ごとに [!DNL Products] とビジュアルアセットを選択し、[構造化プロンプト ](/help/user-guide/effective-prompts.md#structured-prompts)を使用して独自のコンテンツを作成します。 各セクションは、1つのビジュアルアセットをサポートしています。
+メール体験には、さまざまなセクションが含まれているため、ブランドや目標に合わせて完全にカスタマイズすることができます。 [&#x200B; セクション &#x200B;](/help/user-guide/create/create-email-experience.md#add-parameters)ごとに [!DNL Products] とビジュアルアセットを選択し、[構造化プロンプト &#x200B;](/help/user-guide/effective-prompts.md#structured-prompts)を使用して独自のコンテンツを作成します。 各セクションは、1つのビジュアルアセットをサポートしています。
 
-複数セクションのテンプレートを作成する方法については、[ セクションを使用したテンプレートのカスタマイズ ](/help/user-guide/templates/customize-template.md#sections-or-groups)を参照してください。
+複数セクションのテンプレートを作成する方法については、[&#x200B; セクションを使用したテンプレートのカスタマイズ &#x200B;](/help/user-guide/templates/customize-template.md#sections-or-groups)を参照してください。
 
 ## プログレッシブロード
 
@@ -107,7 +107,7 @@ Content creators and marketers can produce brand-consistent email experiences in
 
 クリエイターはキャンバスでエクスペリエンスを組み立て、ブランド部門とコンプライアンス部門は承認ワークフローを[!DNL Adobe Experience Manager]に保持、IT部門と統合部門はリポジトリと組織が必要とする権限を結び付けます。
 
-![ コンテンツフラグメントの入れ替え](./cf-swap.png){width="500" zoomable="yes"}
+![&#x200B; コンテンツフラグメントの入れ替え](./cf-swap.png){width="500" zoomable="yes"}
 
 組織でコンテンツフラグメントスワップを有効にすると、次のことが期待できます。
 
@@ -117,8 +117,8 @@ Content creators and marketers can produce brand-consistent email experiences in
 * フィールドテキストを置き換える前のフラグメントのプレビュー。
 * 1回のアクションで、すべてのバリエーションにフラグメント選択を反映。
 
-![ コンテンツフラグメント UI ペイン ](./cf-pane.png){width="500" zoomable="yes"}
+![&#x200B; コンテンツフラグメント UI ペイン &#x200B;](./cf-pane.png){width="500" zoomable="yes"}
 
-組織が、使用可能なコンテンツフラグメントソースとリポジトリを選択します。 管理者がソースを設定する方法と、作成者がCanvasから&#x200B;**[!UICONTROL Swap]**&#x200B;でコピーをスワップする方法については、[ コンテンツフラグメント拡張機能](/help/extensibility/deploy-app.md#find-content-fragment-extension)を参照してください。
+組織が、使用可能なコンテンツフラグメントソースとリポジトリを選択します。 管理者がソースを設定する方法と、作成者がCanvasから&#x200B;**[!UICONTROL Swap]**&#x200B;でコピーをスワップする方法については、[&#x200B; コンテンツフラグメント拡張機能](/help/extensibility/deploy-app.md#find-content-fragment-extension)を参照してください。
 
 また、HTMLのインターフェイスを利用して、承認されたメール体験を複数の言語に翻訳できます。 [エクスペリエンスの翻訳とローカライズ](/help/user-guide/create/translate-experiences.md)を参照してください。

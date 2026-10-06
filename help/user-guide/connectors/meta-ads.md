@@ -101,7 +101,7 @@ ht-degree: 0%
 
    _[!UICONTROL Meta広告アカウント]_ ビューには、`Account name`、`Added by`、`Date added`および`Status`が一覧表示されます。
 
-   ![Meta アカウントリスト ](/help/assets/meta/meta-accounts-list.png "接続されたMeta アカウントのリスト "){zoomable="yes"}
+   ![Meta アカウントリスト &#x200B;](/help/assets/meta/meta-accounts-list.png "接続されたMeta アカウントのリスト "){zoomable="yes"}
 
 **[!UICONTROL アカウントの追加]**&#x200B;を使用して、リストにアカウントを追加します。 同じMeta Business プロファイルにリンクされているアカウントを追加すると、認証フローが少し異なる場合があります。 接続プロセスでは、新しいMeta Ads アカウントのみを選択します。
 
@@ -147,7 +147,7 @@ GenStudio for Performance Marketing インスタンスがMeta Ads アカウン�
 1. アカウントでログインします。 アカウントには、Business Managerへの管理者アクセス権が必要です。
 1. 左下の&#x200B;**[!UICONTROL Settings]**&#x200B;歯車アイコンをクリックして、Business Portfolioの設定に移動します。
 1. 左側のメニューで、**[!UICONTROL 統合]**&#x200B;をクリックします。
-1. **[!UICONTROL Connected Apps]**を選択します。 Adobe GenStudioが接続されたアプリのリストに表示されます。
+1. **[!UICONTROL Connected Apps]**&#x200B;を選択します。 Adobe GenStudioが接続されたアプリのリストに表示されます。
    ![Meta Business Manager Connected Apps](./meta-connected-apps.png "Meta Business Manager Connected Apps ペイン ")
 1. アプリ名をクリックします。
 1. 「**[!UICONTROL 削除]**」をクリックします。

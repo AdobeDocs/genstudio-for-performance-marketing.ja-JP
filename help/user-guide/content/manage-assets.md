@@ -52,13 +52,13 @@ Adobe GenStudio for Performance Marketing [!DNL Content]は、デジタルマー
 
 次に、[!UICONTROL Assets] ギャラリーの`space`という語句に対する検索を示します。
 
-![ スペースでの検索を含むAssets ビュー](/help/assets/content-assets-filter.png " スペース属性を含むアセットの検索")
+![&#x200B; スペースでの検索を含むAssets ビュー](/help/assets/content-assets-filter.png " スペース属性を含むアセットの検索")
 
 ### コンテンツを検索
 
 フィルターと検索のインターフェイスは迅速かつレスポンシブで、生産的な検索ファースト エクスペリエンスを提供します。 各[!DNL Content] ビューには、理想的なアセット、エクスペリエンス、テンプレートを絞り込むためのフィルターオプションが用意されています。 アセットとエクスペリエンスの場合は、キャンペーンと、特定の製品に対して作成されたコンテンツなどの特定のガイドラインを選択できます。
 
-[ ガイドライン ](/help/user-guide/guidelines/overview.md)、[ キーワード ](asset-details.md#user-defined-metadata)、[属性カテゴリ ](/help/user-guide/insights/attributes.md#categories)に基づくフィルターがあり、検索結果が絞り込まれます。 例えば、特定のファイルタイプやファイル形式をサポートするアセットを見つけることが、施策で新しいエクスペリエンスを構築するのに役立ちます。 また、ユーザー名やチームメンバーの名前に基づいてコンテンツをフィルタリングすることもできます。
+[&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md)、[&#x200B; キーワード &#x200B;](asset-details.md#user-defined-metadata)、[属性カテゴリ &#x200B;](/help/user-guide/insights/attributes.md#categories)に基づくフィルターがあり、検索結果が絞り込まれます。 例えば、特定のファイルタイプやファイル形式をサポートするアセットを見つけることが、施策で新しいエクスペリエンスを構築するのに役立ちます。 また、ユーザー名やチームメンバーの名前に基づいてコンテンツをフィルタリングすることもできます。
 
 - **[!UICONTROL アップロード者]**: _[!UICONTROL Assets]_ リストに、自分または特定のユーザーがアップロードしたアセットのみを表示するように制限します。
 - **[!UICONTROL 作成者]**：自分または特定のユーザーが作成したエクスペリエンスのみを表示するように、_[!UICONTROL エクスペリエンス]_ リストを制限します。
@@ -68,13 +68,13 @@ Adobe GenStudio for Performance Marketing [!DNL Content]は、デジタルマー
 
 **再利用するコンテンツを検索するには**:
 
-1. _[!DNL Content]_で、**[!UICONTROL Assets]**セクションを選択します。
+1. _[!DNL Content]_&#x200B;で、**[!UICONTROL Assets]**&#x200B;セクションを選択します。
 
 1. 「**[!UICONTROL 場所]**」リストからアセットリポジトリを選択するか、正しいアセットリポジトリを参照していることを確認します。 `GenStudio assets`は既定のリポジトリです。
 
    >[!IMPORTANT]
    >
-   >_場所_ リストは、[AEM リポジトリ ](connect-aem-repo.md)に接続した場合にのみ使用できます。
+   >_場所_ リストは、[AEM リポジトリ &#x200B;](connect-aem-repo.md)に接続した場合にのみ使用できます。
 
 1. 「**[!UICONTROL 検索]**」（虫眼鏡）をクリックして、キーワードまたは説明を入力します。
 
@@ -92,13 +92,13 @@ Adobe GenStudio for Performance Marketing [!DNL Content]は、デジタルマー
 
 右側の&#x200B;_[!UICONTROL Assets]_ ギャラリーの上にある&#x200B;**[!UICONTROL 場所]** リストでは、接続されたAdobe Experience Manager （AEM） [!DNL Assets Content Hub] リポジトリから選択できます。
 
-![ リポジトリの場所リスト ](/help/assets/content-location-selection.png " コンテンツリポジトリの選択"){width="350"}
+![&#x200B; リポジトリの場所リスト &#x200B;](/help/assets/content-location-selection.png " コンテンツリポジトリの選択"){width="350"}
 
 AEM リポジトリを選択すると、そのリポジトリのアセットのインベントリがギャラリーに表示され、これらのリポジトリの承認済みアセットをコンテンツ作成の入力として活用できます。 フィルターオプションが変更され、[!DNL AEM Assets Content Hub]で設定されたカテゴリが反映されます。
 
 [!DNL AEM Assets Content Hub] リポジトリをGenStudio for Performance Marketingに追加する方法については、[AEM リポジトリの接続](connect-aem-repo.md)を参照してください。
 
-AEM リポジトリは読み取り専用です。つまり、コンテンツにアクセスできますが、ドラフト、新しいアセット、メタデータをAEM リポジトリに保存することはできません。 アセット、エクスペリエンス、テンプレートのすべてのドラフトと最終更新は、新しい[ システムメタデータ ](asset-details.md#system-metadata)を使用して`GenStudio assets` リポジトリに保存されます。
+AEM リポジトリは読み取り専用です。つまり、コンテンツにアクセスできますが、ドラフト、新しいアセット、メタデータをAEM リポジトリに保存することはできません。 アセット、エクスペリエンス、テンプレートのすべてのドラフトと最終更新は、新しい[&#x200B; システムメタデータ &#x200B;](asset-details.md#system-metadata)を使用して`GenStudio assets` リポジトリに保存されます。
 
 {{note-aem-assets}}
 
@@ -106,16 +106,16 @@ AEM リポジトリーでは、アセットの有効期限など、特定のラ�
 
 ## アセット管理
 
-[!UICONTROL  コンテンツ ]では、デジタルアセットを簡単に保存、取得、管理できます。 `GenStudio assets` リポジトリとAEM リポジトリの両方を活用することで、アセットを適切に整理し、さまざまなマーケティング施策に活用できるようになります。 このマルチリポジトリのアプローチにより、環境全体でのアセット利用に対する柔軟性と制御が実現し、マーケティング活動では承認済みの最新のアセットのみが使用されるようになります。
+[!UICONTROL &#x200B; コンテンツ &#x200B;]では、デジタルアセットを簡単に保存、取得、管理できます。 `GenStudio assets` リポジトリとAEM リポジトリの両方を活用することで、アセットを適切に整理し、さまざまなマーケティング施策に活用できるようになります。 このマルチリポジトリのアプローチにより、環境全体でのアセット利用に対する柔軟性と制御が実現し、マーケティング活動では承認済みの最新のアセットのみが使用されるようになります。
 
 次の表に、アセット、エクスペリエンス、テンプレートで使用できる管理タスクを示します。
 
 | タスク | Assets | エクスペリエンス | テンプレート |
 | --------------------------------------------------------- | :----: | :---------: | :-------: |
 | [詳細を表示](/help/user-guide/content/asset-details.md) | ✓ | ✓ | ✓ |
-| [ エクスペリエンスを作成](/help/user-guide/create/overview.md) |        |             | ✓ |
+| [&#x200B; エクスペリエンスを作成](/help/user-guide/create/overview.md) |        |             | ✓ |
 | [Adobe Expressで編集](#edit-in-express) | ✓ |             |           |
-| [ エクスペリエンスの書き出し](#export-experiences) |        | ✓ |           |
+| [&#x200B; エクスペリエンスの書き出し](#export-experiences) |        | ✓ |           |
 | [更新](/help/user-guide/templates/use-templates.md#refresh-template) |   |      | ✓ |
 | [ダウンロード](#download-assets) | ✓ |             | ✓ |
 | [削除](#delete-assets) | ✓ | ✓ | ✓ |
@@ -124,11 +124,11 @@ AEM リポジトリーでは、アセットの有効期限など、特定のラ�
 
 アセットを[!DNL Content]に追加する場合、デフォルトでは`GenStudio assets` リポジトリに保存されます。 _[!UICONTROL アセットを追加]_ ボタンは、_[!UICONTROL 場所]_&#x200B;が`GenStudio assets` リポジトリである場合にのみ使用できます。
 
-![場所フィールド ](/help/assets/content-location.png "場所フィールド "){width="350"}
+![場所フィールド &#x200B;](/help/assets/content-location.png "場所フィールド "){width="350"}
 
 **1つ以上のアセットを追加するには**:
 
-1. _[!DNL Content]_で、**[!UICONTROL アセットを追加]**をクリックします。
+1. _[!DNL Content]_&#x200B;で、**[!UICONTROL アセットを追加]**&#x200B;をクリックします。
 
 2. _承認済みアセットを追加_ ビューで、ファイルまたはファイルをドロップスペースにドロップします。 オプションで、**[!UICONTROL 参照]**&#x200B;を使用してローカルファイルから選択するか、DropboxまたはMicrosoft OneDriveからファイルを読み込むことができます。
 
@@ -140,7 +140,7 @@ AEM リポジトリーでは、アセットの有効期限など、特定のラ�
 
    追加した詳細は、このアクションで追加したすべてのアセットに適用されます。
 
-   [ メタデータの詳細](/help/user-guide/content/asset-details.md#system-metadata)を参照してください。
+   [&#x200B; メタデータの詳細](/help/user-guide/content/asset-details.md#system-metadata)を参照してください。
 
 5. 「**[!UICONTROL アセットを追加]**」をクリックします。
 
@@ -152,7 +152,7 @@ AEM リポジトリーでは、アセットの有効期限など、特定のラ�
 
 **アセットをダウンロードするには**:
 
-1. _[!DNL Content]_で、アセットまたはテンプレートを選択します。 アセットをクリックすると、アセットの全体像が表示されます。
+1. _[!DNL Content]_&#x200B;で、アセットまたはテンプレートを選択します。 アセットをクリックすると、アセットの全体像が表示されます。
 
 1. アセットビューで、右上の&#x200B;**[!UICONTROL ダウンロード]** アイコン（下向きの矢印）をクリックします。
 
@@ -162,7 +162,7 @@ AEM リポジトリーでは、アセットの有効期限など、特定のラ�
 
 **アセットを削除するには**:
 
-1. _[!DNL Content]_で、アセット、エクスペリエンスまたはテンプレートを選択します。 アセットをクリックすると、アセットの全体像が表示されます。
+1. _[!DNL Content]_&#x200B;で、アセット、エクスペリエンスまたはテンプレートを選択します。 アセットをクリックすると、アセットの全体像が表示されます。
 
 1. アセットビューで、右上の「**[!UICONTROL 削除]**」（ゴミ箱）をクリックします。
 
@@ -182,11 +182,11 @@ AEM リポジトリーでは、アセットの有効期限など、特定のラ�
 
 **エクスペリエンスをエクスポートまたはダウンロードするには**:
 
-1. _[!DNL Content]_で、1つ以上のエクスペリエンスを選択します。
+1. _[!DNL Content]_&#x200B;で、1つ以上のエクスペリエンスを選択します。
 
-   バナーが表示され、左側に選択されたエクスペリエンス数と、右側に[!UICONTROL  アクティブ化]、[!UICONTROL  ダウンロード ]、または[!UICONTROL 削除]のオプションが表示されます。
+   バナーが表示され、左側に選択されたエクスペリエンス数と、右側に[!UICONTROL &#x200B; アクティブ化]、[!UICONTROL &#x200B; ダウンロード &#x200B;]、または[!UICONTROL 削除]のオプションが表示されます。
 
-2. （オプション）アクティベートを選択した場合、プラットフォームを選択してから[!DNL Activate] ワークフローを続行するように求められる場合があります。 [ アクティベート ](/help/user-guide/activation/overview.md)を参照してください。
+2. （オプション）アクティベートを選択した場合、プラットフォームを選択してから[!DNL Activate] ワークフローを続行するように求められる場合があります。 [&#x200B; アクティベート &#x200B;](/help/user-guide/activation/overview.md)を参照してください。
 
 3. 「**[!UICONTROL ダウンロード]**」をクリックします。
 
@@ -215,11 +215,11 @@ Adobe Expressを使用して、GenStudio for Performance Marketing内で画像�
 
 **Express**&#x200B;でアセットを編集するには：
 
-1. _[!DNL Content]_で、画像アセットを選択します。 アセットをクリックすると、アセットの全体像が表示されます。
+1. _[!DNL Content]_&#x200B;で、画像アセットを選択します。 アセットをクリックすると、アセットの全体像が表示されます。
 
 1. アセットビューで、右上の「**[!UICONTROL Adobe Expressで編集]**」アイコンをクリックします。
 
-1. Adobe Express ]_Canvasを利用した_[!UICONTROL &#x200B;では、左側のパネルのExpress コントロールを使用して画像を強化します。
+1. Adobe Express _Canvasを利用した_&#x200B;では、左側のパネルのExpress コントロールを使用して画像を強化します。
 
 1. 更新された画像に問題がなければ、右上の「**[!UICONTROL コピーを保存]**」をクリックします。
 

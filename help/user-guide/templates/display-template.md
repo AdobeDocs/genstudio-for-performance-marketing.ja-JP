@@ -42,7 +42,7 @@ GenStudio for Performance Marketingを使用してバナー広告とディスプ
 - スリムなサイズで適切に表示されるアセットを準備する
 - 1つの画像フィールドが必要です
 - 埋め込み画像またはエンコードされた背景画像を&#x200B;**使用しない**
-- GenStudio for Performance Marketing コンテンツリポジトリーにアップロードされた背景画像（`image` フィールド）を使用します。 最適な結果を得るには、[ ディスプレイ広告用の画像のアップロード ](#uploading-images-for-display-ads)のガイドラインに従ってください
+- GenStudio for Performance Marketing コンテンツリポジトリーにアップロードされた背景画像（`image` フィールド）を使用します。 最適な結果を得るには、[&#x200B; ディスプレイ広告用の画像のアップロード &#x200B;](#uploading-images-for-display-ads)のガイドラインに従ってください
 - JavaScript を&#x200B;**使用しない**
 - 使用できるセクションは1つだけで、テンプレート要素のセットが1つ生成されます
 
@@ -59,7 +59,7 @@ GenStudio for Performance Marketingは、次のフィールドを自動生成し
 
 - `cta`
 
-テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#content-placeholders)を参照してください。
+テンプレートでのフィールド名の使用について詳しくは、[&#x200B; コンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#content-placeholders)を参照してください。
 
 ## サポートされているディメンション
 

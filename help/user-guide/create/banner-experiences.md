@@ -41,11 +41,11 @@ ht-degree: 18%
 
 Adobe GenStudio for Performance Marketingを使用すると、生成AIを活用して、成功したバナーエクスペリエンスの[作成を強化できます](/help/user-guide/create/create-banner-experience.md)。
 
-[!DNL Create]を使用すると、最新のマーケターは、[ ガイドライン ](/help/user-guide/guidelines/overview.md)、画像アセット、および[適切に作成されたプロンプト ](/help/user-guide/effective-prompts.md)を利用して、まとまりのあるバナーエクスペリエンス ](/help/user-guide/create/create-banner-experience.md)を[作成できます。
+[!DNL Create]を使用すると、最新のマーケターは、[&#x200B; ガイドライン &#x200B;](/help/user-guide/guidelines/overview.md)、画像アセット、および[適切に作成されたプロンプト &#x200B;](/help/user-guide/effective-prompts.md)を利用して、まとまりのあるバナーエクスペリエンス [&#128279;](/help/user-guide/create/create-banner-experience.md)を作成できます。
 
 バナーエクスペリエンスを生成すると、4つのバリエーションが作成され、キャンバスに表示されます。
 
-サポートされているディメンションや認識済みのフィールド名などについて詳しくは、[ チャネル固有のテンプレートガイドライン ](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)を参照してください。
+サポートされているディメンションや認識済みのフィールド名などについて詳しくは、[&#x200B; チャネル固有のテンプレートガイドライン &#x200B;](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)を参照してください。
 
 ディスプレイ広告エクスペリエンスの編集可能なセクションには、次のようなものがあります。
 

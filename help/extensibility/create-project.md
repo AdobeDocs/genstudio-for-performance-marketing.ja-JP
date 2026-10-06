@@ -46,4 +46,4 @@ Adobe GenStudio for Performance Marketingのネイティブ機能を拡張する
 
 「**[!UICONTROL テンプレートからプロジェクトを作成]**」オプションが表示されない場合は、正しいIMS組織を選択したことを確認します。 「[App Builderへのアクセス方法](https://developer.adobe.com/app-builder/docs/overview/getting_access/)」のプロセスに従っていることを確認します。 IMS組織が正しい場合、App Builderは有効になっていません。 [Adobeへのアクセス方法](https://developer.adobe.com/app-builder/docs/overview/getting_access/)の説明に従って、App Builderにお問い合わせください。
 
-これで、[ アプリを開発する準備が整いました](create-app.md)。
+これで、[&#x200B; アプリを開発する準備が整いました](create-app.md)。

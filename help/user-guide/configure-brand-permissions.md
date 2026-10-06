@@ -60,7 +60,7 @@ ht-degree: 4%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。 Admin Consoleは、新しく作成されたグループの名前が付いた&#x200B;_新しいグループ_ ポップアップを開きます。
 
-_エンタープライズおよびTeams管理ガイド_&#x200B;の「[ ユーザーグループの管理](https://helpx.adobe.com/jp/enterprise/using/user-groups.html)」を参照してください。
+_エンタープライズおよびTeams管理ガイド_&#x200B;の「[&#x200B; ユーザーグループの管理](https://helpx.adobe.com/jp/enterprise/using/user-groups.html)」を参照してください。
 
 ## 手順2:GenStudio system manager プロファイルをユーザーグループに割り当てる
 
@@ -98,7 +98,7 @@ _エンタープライズおよびTeams管理ガイド_&#x200B;の「[製品プ�
 
 1. 前に作成したユーザーグループの名前を選択します。 _このユーザーグループにユーザーを追加_ ポップアップが開きます。
 
-1. ユーザー名または電子メールアドレスを使用して、新規または既存のユーザーを追加します。 既存のユーザーの名前またはメールアドレスを入力すると、このIMS組織に属する既知のユーザーの名前に一致する名前がこのフィールドに自動的に入力されます。 ユーザーグループの管理について詳しくは、_エンタープライズおよびTeams管理ガイド_&#x200B;の[ ユーザーグループの管理](https://helpx.adobe.com/jp/enterprise/using/user-groups.html)を参照してください。
+1. ユーザー名または電子メールアドレスを使用して、新規または既存のユーザーを追加します。 既存のユーザーの名前またはメールアドレスを入力すると、このIMS組織に属する既知のユーザーの名前に一致する名前がこのフィールドに自動的に入力されます。 ユーザーグループの管理について詳しくは、_エンタープライズおよびTeams管理ガイド_&#x200B;の[&#x200B; ユーザーグループの管理](https://helpx.adobe.com/jp/enterprise/using/user-groups.html)を参照してください。
 
 グループに追加されると、Adobe GenStudio システムマネージャーの[!DNL Brand]の作成、編集、公開権限が付与されます。 また、Adobe GenStudio for Performance Marketing [!DNL Brands] プロジェクトを編集するための招待メールが自動的に送信されます。
 
@@ -118,7 +118,7 @@ _プロジェクト_&#x200B;は、選択したユーザーがアセットを保�
 
 1. 「**[!UICONTROL 作成]**」をクリックします。 「_プロジェクトに招待_」ポップアップが開きます。
 
-_エンタープライズおよびチーム管理ガイド_&#x200B;の「[ プロジェクトの管理](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html)」を参照してください。
+_エンタープライズおよびチーム管理ガイド_&#x200B;の「[&#x200B; プロジェクトの管理](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html)」を参照してください。
 
 ## 手順5：ユーザーグループをプロジェクトに招待する
 

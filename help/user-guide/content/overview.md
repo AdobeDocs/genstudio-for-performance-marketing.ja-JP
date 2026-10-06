@@ -40,59 +40,112 @@ GenStudio for Performance Marketing [!DNL Content] は、すべてのブラン�
 
 ## [!DNL Content] のユースケース
 
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-   <td align="center" valign="top" width="100">
-      <a href="../content/manage-assets.md#search">
-         <img alt="拡大鏡" src="../../assets/icons/icon-search.png">
-      </a>
-      <p>
-         <a href="../content/manage-assets.md#search-content">
-         <strong> コンテンツを検索</strong>
-         </a>
-      </p>
-   </td>
-   <td align="center" valign="top" width="100">
-      <a href="../content/manage-assets.md">
-         <img alt="プラス記号付きの画像" src="../../assets/icons/icon-addContent.png">
-      </a>
-      <p>
-         <a href="../content/manage-assets.md">
-         <strong> アセットを追加</strong>
-         </a>
-      </p>
-   </td>
-   <td align="center" valign="top" width="100">
-      <a href="../content/asset-details.md#edit-in-express">
-         <img alt="Adobe Express で編集" src="../../assets/icons/icon-editExpress.png">
-      </a>
-      <p>
-         <a href="../content/asset-details.md#edit-in-express">
-         <strong>Adobe Expressでアセットを編集</strong>
-         </a>
-      </p>
-   </td>
-   <td align="center" valign="top" width="100">
-      <a href="../templates/customize-template.md">
-         <img alt="アセットに関する稲妻" src="../../assets/icons/icon-template.png">
-      </a>
-      <p>
-         <a href="../templates/customize-template.md">
-         <strong> テンプレートのカスタマイズ </strong>
-         </a>
-      </p>
-   </td>
-   <td align="center" valign="top" width="100">
-      <a href="../templates/use-templates.md">
-         <img alt="プラス記号付きのアセット関する稲妻" src="../../assets/icons/icon-addTemplate.png">
-      </a>
-      <p>
-         <a href="../templates/use-templates.md#upload-a-template">
-         <strong> テンプレートをアップロード </strong>
-         </a>
-      </p>
-   </td>
-</tr>
+<table style="table-layout:fixed">
+
+<tr style="border: 0;">
+
+   <td align="center" valign="top" width="100">
+
+      <a href="../content/manage-assets.md#search">
+
+         <img alt="拡大鏡" src="../../assets/icons/icon-search.png">
+
+      </a>
+
+      <p>
+
+         <a href="../content/manage-assets.md#search-content">
+
+         <strong> コンテンツを検索</strong>
+
+         </a>
+
+      </p>
+
+   </td>
+
+   <td align="center" valign="top" width="100">
+
+      <a href="../content/manage-assets.md">
+
+         <img alt="プラス記号付きの画像" src="../../assets/icons/icon-addContent.png">
+
+      </a>
+
+      <p>
+
+         <a href="../content/manage-assets.md">
+
+         <strong> アセットを追加</strong>
+
+         </a>
+
+      </p>
+
+   </td>
+
+   <td align="center" valign="top" width="100">
+
+      <a href="../content/asset-details.md#edit-in-express">
+
+         <img alt="Adobe Express で編集" src="../../assets/icons/icon-editExpress.png">
+
+      </a>
+
+      <p>
+
+         <a href="../content/asset-details.md#edit-in-express">
+
+         <strong>Adobe Expressでアセットを編集</strong>
+
+         </a>
+
+      </p>
+
+   </td>
+
+   <td align="center" valign="top" width="100">
+
+      <a href="../templates/customize-template.md">
+
+         <img alt="アセットに関する稲妻" src="../../assets/icons/icon-template.png">
+
+      </a>
+
+      <p>
+
+         <a href="../templates/customize-template.md">
+
+         <strong> テンプレートのカスタマイズ </strong>
+
+         </a>
+
+      </p>
+
+   </td>
+
+   <td align="center" valign="top" width="100">
+
+      <a href="../templates/use-templates.md">
+
+         <img alt="プラス記号付きのアセット関する稲妻" src="../../assets/icons/icon-addTemplate.png">
+
+      </a>
+
+      <p>
+
+         <a href="../templates/use-templates.md#upload-a-template">
+
+         <strong> テンプレートをアップロード </strong>
+
+         </a>
+
+      </p>
+
+   </td>
+
+</tr>
+
 </table>
 
 ## [!DNL Content] の機能

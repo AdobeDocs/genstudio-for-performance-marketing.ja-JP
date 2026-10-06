@@ -59,7 +59,7 @@ GenStudio for Performance Marketingは、次のフィールドを自動生成し
 - `introductory_text`
 - `cta` （Call to action）
 
-テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#content-placeholders)を参照してください。
+テンプレートでのフィールド名の使用について詳しくは、[&#x200B; コンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#content-placeholders)を参照してください。
 
 ## サポートされている縦横比
 

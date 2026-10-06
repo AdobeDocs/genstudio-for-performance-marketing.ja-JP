@@ -62,11 +62,11 @@ GenStudio for Performance Marketingは、次のフィールドを自動生成し
 - `pre_header`
 - `subject`
 
-テンプレートで許可される最大フィールドは20です。 テンプレートでのフィールド名の使用について詳しくは、[ コンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#content-placeholders)を参照してください。
+テンプレートで許可される最大フィールドは20です。 テンプレートでのフィールド名の使用について詳しくは、[&#x200B; コンテンツプレースホルダー](/help/user-guide/templates/customize-template.md#content-placeholders)を参照してください。
 
 ## マルチセクションメール
 
-_セクション_&#x200B;を使用すると、コンテンツを個別のグループに整理し、より複雑なレイアウトをサポートできます。 GenStudio for Performance Marketingでは、グループ命名規則を使用して各セクションを定義できます。 [ テンプレートセクションのカスタマイズ ](/help/user-guide/templates/customize-template.md#sections-or-groups)を参照してください。
+_セクション_&#x200B;を使用すると、コンテンツを個別のグループに整理し、より複雑なレイアウトをサポートできます。 GenStudio for Performance Marketingでは、グループ命名規則を使用して各セクションを定義できます。 [&#x200B; テンプレートセクションのカスタマイズ &#x200B;](/help/user-guide/templates/customize-template.md#sections-or-groups)を参照してください。
 
 複数セクションのテンプレートには、0、2、または3つのセクションを含めることができます。
 
@@ -132,7 +132,7 @@ _セクション_&#x200B;を使用すると、コンテンツを個別のグル�
 
 +++例：複数のセクションを含むメールテンプレート
 
-上記の例と同じHTML テンプレートですが、さらに2つのセクションがあります。 ヘッドには、グループをスタイル設定するためのインライン CSSが含まれています。 本文では、接頭辞を使用して[ コンテンツプレースホルダー](#content-placeholders)を持つ2つのグループを使用します。
+上記の例と同じHTML テンプレートですが、さらに2つのセクションがあります。 ヘッドには、グループをスタイル設定するためのインライン CSSが含まれています。 本文では、接頭辞を使用して[&#x200B; コンテンツプレースホルダー](#content-placeholders)を持つ2つのグループを使用します。
 
 ```html
 <!DOCTYPE html>

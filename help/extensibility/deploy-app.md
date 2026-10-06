@@ -106,11 +106,11 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 プロンプト拡張機能は、テンプレートの&#x200B;**パラメーターセクション**&#x200B;の&#x200B;**アドオン** ドロップダウンにあります。
 
-![ プロンプト拡張機能](./select-prompt-ext.png){width="600" zoomable="yes"}
+![&#x200B; プロンプト拡張機能](./select-prompt-ext.png){width="600" zoomable="yes"}
 
 アドオンダイアログが開き、LLM生成用に追加する追加のコンテキストを選択できます。
 
-![拡張機能のプロンプト ドロップダウン ](./select-prompt-dropdown.png){width="600" zoomable="yes"}
+![拡張機能のプロンプト ドロップダウン &#x200B;](./select-prompt-dropdown.png){width="600" zoomable="yes"}
 
 ### 検証拡張機能を探す
 
@@ -124,7 +124,7 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 エラーがある場合は、拡張機能を使用して、プログラムでエクスペリエンスのコピーを更新できます。 「**[!UICONTROL コピー]**」ボタンをクリックすると、候補テキストがクリップボードにコピーされます。 「**[!UICONTROL 適用]**」ボタンをクリックすると、生成されたエクスペリエンスの特定のテキストボックスにテキストが適用されます。
 
-![ コピーと適用ボタンを表示する検証エラー](./validation-copy-apply.png){width="600" zoomable="yes"}
+![&#x200B; コピーと適用ボタンを表示する検証エラー](./validation-copy-apply.png){width="600" zoomable="yes"}
 
 ### DAM拡張機能を探す
 
@@ -136,7 +136,7 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 テンプレートを選択すると、**外部テンプレートアプリ** タブにテンプレート拡張機能が表示されます。 このタブは、選択するテンプレートアプリがある場合にのみ表示されます。
 
-![ テンプレート拡張機能](./template-ext.png){width="600" zoomable="yes"}
+![&#x200B; テンプレート拡張機能](./template-ext.png){width="600" zoomable="yes"}
 
 ### 翻訳拡張機能を探す
 
@@ -157,10 +157,10 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 1. キャンバスで、生成された電子メールのバリエーションの編集可能テキストフィールドをクリックします。
 1. 「**[!UICONTROL スワップ]**」をクリックします。
-   ![ テキストを入れ替え](./subject-line-swap.png){width="400" zoomable="yes"}
+   ![&#x200B; テキストを入れ替え](./subject-line-swap.png){width="400" zoomable="yes"}
 1. サードパーティリポジトリの選択。 組織は、リポジトリの表示とリポジトリ UIの動作を制御します。
 1. フィールドの代替テキストとして使用するクレームを選択します。
 
 アドオンに問題がなければ、`query` パラメーターを指定せずに配布しましょう。
 
-これで、[ アプリを配布できます](distribute-app.md)。
+これで、[&#x200B; アプリを配布できます](distribute-app.md)。

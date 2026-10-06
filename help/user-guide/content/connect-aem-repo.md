@@ -45,7 +45,7 @@ Adobe Experience Manager（AEM）にアセットがある場合は、次の手�
 
 ## 手順1: [!DNL AEM Assets Content Hub]を有効にする
 
-**Content Hubのデプロイ** セルフサービスプロセスに従って、Cloud Managerの既存のAEM Assetsで[!DNL Content Hub]を有効にします。 _AEM as a Cloud Service_ ドキュメントの[ デプロイ  [!DNL Content Hub]](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub)を参照してください。
+**Content Hubのデプロイ** セルフサービスプロセスに従って、Cloud Managerの既存のAEM Assetsで[!DNL Content Hub]を有効にします。 _AEM as a Cloud Service_ ドキュメントの[&#x200B; デプロイ  [!DNL Content Hub]](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub)を参照してください。
 
 [!DNL AEM Assets Content Hub]を有効にすると、Admin Consoleで[!DNL AEM Assets as a Cloud Service]内に`contenthub`接尾辞を持つ新しいインスタンスが作成されます。
 
@@ -57,8 +57,8 @@ Adobe Experience Manager（AEM）にアセットがある場合は、次の手�
 
 [!DNL Admin Console]で、GenStudio for Performance Marketing ユーザーまたはユーザーグループを[!DNL AEM Assets Content Hub]製品プロファイルに追加します。 コンテンツレビュアーが[!DNL AEM Assets Content Hub] リポジトリと同じ組織にアクセスできない場合、コンテンツのレビューと承認が困難になる可能性があります。
 
-- [ オンボード  [!DNL Content Hub] 管理者](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
-- [ オンボード  [!DNL Content Hub]  ユーザー](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
+- [&#x200B; オンボード  [!DNL Content Hub] 管理者](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
+- [&#x200B; オンボード  [!DNL Content Hub]  ユーザー](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
 
 ## ステップ 3：アセットの承認
 
@@ -68,7 +68,7 @@ _AEM as a Cloud Service_ ドキュメントの「[Experience Manager](https://ex
 
 ## 手順4：アセットの表示の設定
 
-_[!DNL AEM Assets Content Hub]_設定オプションで、フィルター、アセットの詳細、検索、ブランディングの各設定オプションのセットを確認します。
+_[!DNL AEM Assets Content Hub]_&#x200B;設定オプションで、フィルター、アセットの詳細、検索、ブランディングの各設定オプションのセットを確認します。
 
 _Content Hub_ ドキュメントの[AEM as a Cloud Service ユーザーインターフェイスの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options)を参照してください。
 

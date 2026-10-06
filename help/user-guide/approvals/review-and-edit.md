@@ -84,7 +84,7 @@ _承認_ パネルから、提案された変更を一覧表示したり、ド�
 
 ## Workfront Proofでコンテンツをレビューする
 
-[!DNL Proofing Viewer]には、プルーフに注釈を付けたり、変更を追跡したりするための[堅牢なマークアップツール ](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1)が用意されています。 また、2つのバージョンのプルーフを比較することもできます。
+[!DNL Proofing Viewer]には、プルーフに注釈を付けたり、変更を追跡したりするための[堅牢なマークアップツール &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1)が用意されています。 また、2つのバージョンのプルーフを比較することもできます。
 
 **コンテンツをレビューするには**:
 
@@ -104,7 +104,7 @@ _承認_ パネルから、提案された変更を一覧表示したり、ド�
 
 ### プルーフの比較
 
-[!DNL Proofing Viewer]から、[ プルーフのバージョンを比較](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)できます。
+[!DNL Proofing Viewer]から、[&#x200B; プルーフのバージョンを比較](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)できます。
 
 **プルーフを比較**:
 

@@ -53,7 +53,7 @@ C2PAに準拠したContent Credentialsでは、証明書を設定する必要は
 
 ## Content Credentialsとは？ 
 
-Content Credentialsは、業界標準の耐久性のあるメタデータであり、コンテンツの制作方法やクリエイターのID情報が記載されています。 Content Credentialsは、コンテンツがサポートするプラットフォームにオンラインで公開されている場合、または[Adobeの検査ツール ](https://contentauthenticity.adobe.com/inspect)や[Adobe Content Authenticity Chrome ブラウザー拡張機能](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html)などのツールを使用して表示できます。  
+Content Credentialsは、業界標準の耐久性のあるメタデータであり、コンテンツの制作方法やクリエイターのID情報が記載されています。 Content Credentialsは、コンテンツがサポートするプラットフォームにオンラインで公開されている場合、または[Adobeの検査ツール &#x200B;](https://contentauthenticity.adobe.com/inspect)や[Adobe Content Authenticity Chrome ブラウザー拡張機能](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html)などのツールを使用して表示できます。  
 
 Content Credentialsを導入すれば、コンテンツの制作方法の透明性を高め、オーディエンスがコンテンツを活用できるようになります。
 
@@ -73,15 +73,15 @@ Content Credentialsの導入は、インポートやコンテンツの発見か�
 
 コンテンツギャラリーでは、読み込んだアセットに認証情報が表示されます。
 
-サムネールの右上隅にあるContent Credential バッジは、[!UICONTROL  ブランド署名済み] コンテンツを示します。
+サムネールの右上隅にあるContent Credential バッジは、[!UICONTROL &#x200B; ブランド署名済み] コンテンツを示します。
 
-![資格情報を含むインポートされたアセット ](./images/import-discovery1.png)
+![資格情報を含むインポートされたアセット &#x200B;](./images/import-discovery1.png)
 
 署名済みコンテンツを選択すると、公開されたブランド、レコーダー、使用されたツール、タイムスタンプなどの詳細なメタデータが表示されます。
 
 コンテンツは、資格情報のステータスでフィルタリングできます。
 
-![ アセットの資格情報データ ](./images/import-discovery2.jpg)
+![&#x200B; アセットの資格情報データ &#x200B;](./images/import-discovery2.jpg)
 
 ### コンテンツの制作と選択
 
@@ -89,29 +89,29 @@ Content Credentialのバッジは、Canvas Asset セレクターに表示され�
 
 エクスペリエンスでアセットを選択すると、編集中に来歴チェーンを維持するために資格情報のメタデータが保持されます。
 
-![Canvas アセットセレクターのContent Credential バッジ ](./images/creation-selection1.png)
+![Canvas アセットセレクターのContent Credential バッジ &#x200B;](./images/creation-selection1.png)
 
 ### 編集と変換
 
 ドラフトからの書き出し中に、変更されたアセットは自動的に再署名され、新しい資格情報は元のアセットにリンクされます。
 
-![書き出し形式オプションを含むダウンロードダイアログ ](./images/edit-and-transformation2.png){width="60%"}
+![書き出し形式オプションを含むダウンロードダイアログ &#x200B;](./images/edit-and-transformation2.png){width="60%"}
 
 ### レビューと承認
 
 レビューと承認プレビューでは、右側のパネルにアセットの資格情報ステータスが表示されます。
 
-![承認済みアセットの資格情報データ ](./images/review-and-approve1.png){width="60%"}
+![承認済みアセットの資格情報データ &#x200B;](./images/review-and-approve1.png){width="60%"}
 
 レビュー担当者がアセットを調査すると、バリエーションごとの資格情報の詳細が表示されます。 ユーザーが「**[!UICONTROL コンテンツに保存]**」をクリックすると、承認済みエクスペリエンスが再署名されます。
 
-![承認済みコンテンツの詳細を確認ダイアログ。コンテンツに保存ボタン ](./images/review-and-approve3.png)
+![承認済みコンテンツの詳細を確認ダイアログ。コンテンツに保存ボタン &#x200B;](./images/review-and-approve3.png)
 
 ### アクティベーションとエクスポート
 
 アクティベーション中、資格情報のステータスがエクスペリエンスセレクターに表示されます。
 
-アクティブ化されたアセットの![資格情報データ ](./images/activate-export1.png){width="60%"}
+アクティブ化されたアセットの![資格情報データ &#x200B;](./images/activate-export1.png){width="60%"}
 
 書き出されたファイルには、C2PA準拠の資格情報が埋め込まれます。
 
@@ -119,7 +119,7 @@ Content Credentialのバッジは、Canvas Asset セレクターに表示され�
 
 資格情報の一貫性は、サポートされているすべてのフォーマット（JPEG、PNG、MP4）で維持されます。
 
-![書き出されたアセットの資格情報データ ](./images/activate-export2.png)
+![書き出されたアセットの資格情報データ &#x200B;](./images/activate-export2.png)
 
 ## 関連情報
 

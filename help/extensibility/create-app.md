@@ -101,7 +101,7 @@ App Builder アプリケーションの主要なコンポーネントには、�
 
 1. [GenStudio UIX Examples](https://github.com/adobe/genstudio-uix-examples) リポジトリからサンプルアプリをダウンロードします。
 
-1. [Adobe Developer Console](https://developer.adobe.com/console/)のApp Builder プロジェクト ワークスペースから、「[!UICONTROL すべてをダウンロード ]」を選択して、プロジェクトの詳細をダウンロードします。
+1. [Adobe Developer Console](https://developer.adobe.com/console/)のApp Builder プロジェクト ワークスペースから、「[!UICONTROL すべてをダウンロード &#x200B;]」を選択して、プロジェクトの詳細をダウンロードします。
 
 1. 使用する統合開発環境（IDE）でサンプルアプリをローカルに開きます。
 
@@ -135,6 +135,6 @@ App Builder アプリケーションの主要なコンポーネントには、�
   rm -rf node_modules package-lock.json && npm i
   ```
 
-* GenStudio UIX SDKをアップグレードします。 最新バージョンの[GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk)を使用していることを確認してください。 最新のSDKの変更点の使用方法については、[GenStudio UIX サンプルリポジトリ ](https://github.com/adobe/genstudio-uix-examples)を参照してください。
+* GenStudio UIX SDKをアップグレードします。 最新バージョンの[GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk)を使用していることを確認してください。 最新のSDKの変更点の使用方法については、[GenStudio UIX サンプルリポジトリ &#x200B;](https://github.com/adobe/genstudio-uix-examples)を参照してください。
 
-これで、[ アプリをデプロイする準備が整いました](deploy-app.md)
+これで、[&#x200B; アプリをデプロイする準備が整いました](deploy-app.md)

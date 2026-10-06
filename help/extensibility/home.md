@@ -37,4 +37,4 @@ Adobe Journey Optimizerを使用する組織は、GenStudioで電子メールエ
 >
 >**API サービスが利用可能** GenStudio APIは、エクスペリエンスを管理するためのRESTful APIを提供します。
 >
->GenStudio APIを使用してエクスペリエンスを管理する場合は、[GenStudio API ドキュメント ](https://developer.adobe.com/genstudio-api/)を参照してください。
+>GenStudio APIを使用してエクスペリエンスを管理する場合は、[GenStudio API ドキュメント &#x200B;](https://developer.adobe.com/genstudio-api/)を参照してください。

@@ -30,7 +30,7 @@ ht-degree: 0%
 ---
 # アクセス可能なテンプレートの作成
 
-Adobeは、あらゆるオーディエンスに最適な体験を提供することに尽力しています。 詳しくは、[Adobeのアクセシビリティイニシアチブ ](https://www.adobe.com/trust/accessibility/initiatives.html)を参照してください。
+Adobeは、あらゆるオーディエンスに最適な体験を提供することに尽力しています。 詳しくは、[Adobeのアクセシビリティイニシアチブ &#x200B;](https://www.adobe.com/trust/accessibility/initiatives.html)を参照してください。
 
 GenStudio for Performance Marketingにアセットとテンプレートをアップロードすれば、さまざまな体験に対応したコンテンツ制作が可能になります。 アクセシビリティ基準を遵守することで、コンテンツが意図する最大限のオーディエンスにリーチできるようになります。
 
@@ -44,12 +44,12 @@ GenStudio for Performance Marketingにアセットとテンプレートをアッ
 <img alt="Collage of ideas, books, man holding giant pencil, computer" src="card-create-assets.png">
 ```
 
-![ アイデア、本、巨大な鉛筆を持つ男性、コンピューターのコラージュ ](/help/assets/card-create-assets.png){width="400"}
+![&#x200B; アイデア、本、巨大な鉛筆を持つ男性、コンピューターのコラージュ &#x200B;](/help/assets/card-create-assets.png){width="400"}
 
 テンプレートをカスタマイズするときは、`alt`および`aria-label`属性にコンテンツプレースホルダーを使用します。
 
-- [代替テキスト ](/help/user-guide/templates/customize-template.md#alternative-text)
-- [ アクセシビリティラベル ](/help/user-guide/templates/customize-template.md#accessibility-label)
+- [代替テキスト &#x200B;](/help/user-guide/templates/customize-template.md#alternative-text)
+- [&#x200B; アクセシビリティラベル &#x200B;](/help/user-guide/templates/customize-template.md#accessibility-label)
 
 ## フォント
 

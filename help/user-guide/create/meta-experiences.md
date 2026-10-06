@@ -42,7 +42,7 @@ ht-degree: 2%
 ---
 # Meta体験
 
-Adobe GenStudio for Performance Marketingでは、生成AIを使用して、効果の高いMeta エクスペリエンスの[作成を効率化できます](/help/user-guide/create/create-meta-ad.md)。 [!DNL Create]を使用すると、コンテンツ制作者は[guidelines](/help/user-guide/guidelines/overview.md)、画像アセット、および[よく作成されたプロンプト ](/help/user-guide/effective-prompts.md)を使用して、[Meta広告エクスペリエンスをすばやく作成できます](/help/user-guide/create/create-meta-ad.md)。
+Adobe GenStudio for Performance Marketingでは、生成AIを使用して、効果の高いMeta エクスペリエンスの[作成を効率化できます](/help/user-guide/create/create-meta-ad.md)。 [!DNL Create]を使用すると、コンテンツ制作者は[guidelines](/help/user-guide/guidelines/overview.md)、画像アセット、および[よく作成されたプロンプト &#x200B;](/help/user-guide/effective-prompts.md)を使用して、[Meta広告エクスペリエンスをすばやく作成できます](/help/user-guide/create/create-meta-ad.md)。
 
 Meta エクスペリエンスを作成する際には、4つのバリエーションが作成され、カンバスに表示されます。 GenStudio for Performance Marketingは、[標準サイズとカスタムサイズの両方のMeta広告](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)をサポートしています。
 

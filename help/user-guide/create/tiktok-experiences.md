@@ -43,7 +43,7 @@ ht-degree: 84%
 
 [!DNL GenStudio for Performance Marketing] を使用すると、[[!DNL Create]](/help/user-guide/create/overview.md) ワークフローでTikTok広告を有料メディアエクスペリエンスとして作成できます。 クリエイティブバリアントを生成し、ブランドとチャネルのチェックを実行し、[!DNL Content] に公開し、[[!DNL Activate]](/help/user-guide/activation/overview.md) を通じてアクティブ化して、コンテンツをTikTok Ads Manager に配信して最終的なレビューとローンチを行います。
 
-[!DNL GenStudio for Performance Marketing]のTikTokは、より広範なオムニチャネルワークフローに適合します。TikTokのキャンペーンと広告のパフォーマンスは、個別のレポートツールに切り替える代わりに、[[!DNL Insights]](/help/user-guide/insights/overview.md#dashboard)の[!UICONTROL  キャンペーン ]、[!UICONTROL 広告]、[!UICONTROL  メディア ]、[!UICONTROL 属性]の標準[!DNL Insights] ビューで分析できます。 **[!UICONTROL Insights 2.0]**&#x200B;のクロスチャネルの概要（[Overview of Insights — Insights 2.0](/help/user-guide/insights/overview.md#insights-20)）では、MetaとLinkedInのみに焦点が当てられています。現時点では、TikTokは含まれていません。
+[!DNL GenStudio for Performance Marketing]のTikTokは、より広範なオムニチャネルワークフローに適合します。TikTokのキャンペーンと広告のパフォーマンスは、個別のレポートツールに切り替える代わりに、[[!DNL Insights]](/help/user-guide/insights/overview.md#dashboard)の[!UICONTROL &#x200B; キャンペーン &#x200B;]、[!UICONTROL 広告]、[!UICONTROL &#x200B; メディア &#x200B;]、[!UICONTROL 属性]の標準[!DNL Insights] ビューで分析できます。 **[!UICONTROL Insights 2.0]**&#x200B;のクロスチャネルの概要（[Overview of Insights — Insights 2.0](/help/user-guide/insights/overview.md#insights-20)）では、MetaとLinkedInのみに焦点が当てられています。現時点では、TikTokは含まれていません。
 
 次 [!DNL Insights] ような指標を表示できます。
 
@@ -63,7 +63,7 @@ TikTok広告を作成またはアクティブ化する前に、次の手順を�
 
 ### アクセスと役割
 
-GenStudio for Performance Marketingに **編集者** 以上の役割があることを確認します。 [ ユーザーの役割と権限 ](/help/user-guide/user-roles.md) を参照してください。
+GenStudio for Performance Marketingに **編集者** 以上の役割があることを確認します。 [&#x200B; ユーザーの役割と権限 &#x200B;](/help/user-guide/user-roles.md) を参照してください。
 
 ### TikTok Ads アカウントを接続
 
@@ -80,7 +80,7 @@ System Manager が [!DNL Activate] のTikTok Ads アカウントに接続しま�
 
 ### 設定の作成
 
-* [ ブランド、製品、ペルソナ ](/help/user-guide/guidelines/overview.md) は、アプリがブランド上のコピーとレイアウトを生成できるように設定されます。
+* [&#x200B; ブランド、製品、ペルソナ &#x200B;](/help/user-guide/guidelines/overview.md) は、アプリがブランド上のコピーとレイアウトを生成できるように設定されます。
 * 1 つ以上のTikTok テンプレートがアップロードされています。 Adobeでは、**9:16**&#x200B;の縦横比と上下UIのセーフゾーンを備えた、インフィード配置に最適化されたTikTok縦長ビデオテンプレートを推奨しています。
 * ビデオが [!DNL Content] にアップロードされています。
 
@@ -97,7 +97,7 @@ System Manager が [!DNL Activate] のTikTok Ads アカウントに接続しま�
 1. [!DNL Content] からビデオを選択します。
 1. TikTokのヘッドラインのコピーを入力するプロンプトを入力します。
 1. 「**[!UICONTROL 生成]**」をクリックします。
-   ![Tiktok キャンバス コントロールの作成 ](../../assets/tiktok/tiktok-prompt.png){width="40%"}
+   ![Tiktok キャンバス コントロールの作成 &#x200B;](../../assets/tiktok/tiktok-prompt.png){width="40%"}
 
 GenStudio for Performance Marketingでは、4 つのクリエイティブのバリアントが生成されます。
 
@@ -118,7 +118,7 @@ GenStudio for Performance Marketingでは、4 つのクリエイティブのバ�
    * **TikTok チャネルルール** – 縦横比、ファイルタイプ、長さをコピー。
 1. フラグの付いた問題（長さのコピーや複雑なオンスクリーンテキストなど）を解決します。
 
-コンテンツのチェックについて詳しくは、[ ブランドの検証 ](/help/user-guide/guidelines/brand-validation.md) を参照してください。
+コンテンツのチェックについて詳しくは、[&#x200B; ブランドの検証 &#x200B;](/help/user-guide/guidelines/brand-validation.md) を参照してください。
 
 ## GenStudio for Performance MarketingでのTikTok広告の保存
 
@@ -192,11 +192,11 @@ GenStudio for Performance Marketingが、一時停止またはドラフトの状
 
 _公開中_ モーダルが表示され、自動的に閉じます。 TikTokのアクティベーションテーブルにリダイレクトされます。
 
-![GenStudio公開モーダル ](../../assets/tiktok/publishing-modal.png){width="30%"}
+![GenStudio公開モーダル &#x200B;](../../assets/tiktok/publishing-modal.png){width="30%"}
 
 アクティベーションテーブルには、処理完了中に&#x200B;**保留中**&#x200B;のステータスが表示された最新のアクティベーションが表示されます。公開完了時に移動することができます。
 
-![TikTok詳細ページ ](../../assets/tiktok/tiktok-details-page.png){width="90%"}
+![TikTok詳細ページ &#x200B;](../../assets/tiktok/tiktok-details-page.png){width="90%"}
 
 完了すると、確認ポップアップに成功または失敗のメッセージが表示されます。 そのポップアップをクリックするか、アクティベーションテーブルのTikTok アクティベーションをクリックすると、**詳細** ページが開きます。 **詳細** ページには、アクティベーション情報の完全な情報と、TikTok Ads Manager で公開された広告へのディープリンクが含まれています。
 
