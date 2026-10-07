@@ -1,16 +1,17 @@
 ---
 title: Adobe GenStudio for Performance Marketing Beta リリースノート
 description: パフォーマンスマーケティング用の Adobe GenStudio の最新機能と機能強化について説明します。
-hidefromtoc: true
+hidefromtoc: 'yes'
 hide: true
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: 51b4eea1a1de48edc52b7f740638c2a2989d9c19
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 2%
-
 ---
-
 # Adobe GenStudio for Performance Marketing Beta リリースノート
 
 これらのメモは、10月4日に終了する週のAdobe GenStudio for Performance Marketingの重要な修正と機能強化を示しています。
