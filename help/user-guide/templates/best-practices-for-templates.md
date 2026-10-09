@@ -39,7 +39,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1352'
 ht-degree: 100%
 ---
