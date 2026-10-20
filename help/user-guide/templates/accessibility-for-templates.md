@@ -30,7 +30,7 @@ ht-degree: 0%
 ---
 # アクセス可能なテンプレートの作成
 
-Adobeは、あらゆるオーディエンスに最適な体験を提供することに尽力しています。 詳しくは、[Adobeのアクセシビリティイニシアチブ &#x200B;](https://www.adobe.com/trust/accessibility/initiatives.html)を参照してください。
+Adobeは、あらゆるオーディエンスに最適な体験を提供することに尽力しています。 詳しくは、[Adobeのアクセシビリティイニシアチブ &#x200B;](https://www.adobe.com/jp/trust/accessibility/initiatives.html)を参照してください。
 
 GenStudio for Performance Marketingにアセットとテンプレートをアップロードすれば、さまざまな体験に対応したコンテンツ制作が可能になります。 アクセシビリティ基準を遵守することで、コンテンツが意図する最大限のオーディエンスにリーチできるようになります。
 
