@@ -205,7 +205,7 @@ MFEで[!DNL Experience]を選択し、**[!UICONTROL 使用]** ボタンをクリ
         },
         "destination_url": {
             "fieldName": "destination_url",
-            "fieldValue": "https://www.adobe.com"
+            "fieldValue": "https://www.adobe.com/jp"
         },
         "description": {
             "fieldName": "description",
