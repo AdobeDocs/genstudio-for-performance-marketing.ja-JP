@@ -68,18 +68,34 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 5d651c7ec00aff866ce1f3698521b5baf48b3385
+source-git-commit: 87749b66644ae6b322ccf872a9b21696d87b4b99
 workflow-type: tm+mt
-source-wordcount: '5824'
-ht-degree: 100%
+source-wordcount: '5942'
+ht-degree: 98%
 ---
 # GenStudio for Performance Marketing リリースノート
 
 このリリース情報では、GenStudio for Performance Marketing アプリケーションの最新アップデートについて説明します。
 
-## 2026.09.15 {#latest}
+## 2026.10.15 {#latest}
 
 **新機能：**
+
+### ボイスプリントとビジュアルキューによるステートフル生成
+
+ステートフル生成を使用すると、毎回新しいプロンプトで始めるのではなく、会話で順番にコンテンツを絞り込むことができます。 生成では、以前の指示と保持するバリエーションが記憶され、要求した変更のみが適用されます。
+
+ボイスプリントは、LinkedInやMetaなど、[!DNL Insights]を利用しているチャネルでは、ブランドボイスのコピーを保持します。 選択した画像またはビデオのグラウンドコピーを視覚的に確認できます。また、プロンプトに参照コンテキストとしてweb ページのURLを追加できます。
+
+詳しくは、[&#x200B; ステートフル生成を使用したコンテンツの生成と調整](/help/user-guide/create/stateful-generation.md)を参照してください。
+
+### 修正と機能強化
+
+* 一括アクティベーションのトラッキング IDに、エクスペリエンス名が自動入力されるようになりました。
+
+## 以前のリリースノート
+
++++2026.09.15からのメモ
 
 ### 一括アクティベーション
 
@@ -87,7 +103,7 @@ ht-degree: 100%
 
 詳しくは、[アクティベーションワークフロー](/help/user-guide/activation/create-activation.md)を参照してください。
 
-## 以前のリリースノート
++++
 
 +++2026年7月16日（PT）からのメモ
 
@@ -696,7 +712,7 @@ GenStudio for Performance Marketing と Adobe Workfront Proof の統合に関す
 
 * 書き出された HTML で、すべての文字が正しく表示されるようになりました。<!-- GS-7246 -->
 
-* 特定の言語で、[!DNL Content] _エクスペリエンス_**[!UICONTROL 書き出し]**&#x200B;ポップアップのボタンの文字が切り捨てられなくなりました。<!-- GS-6873 -->
+* 特定の言語で、[!DNL Content] _エクスペリエンス_&#x200B;**[!UICONTROL 書き出し]**&#x200B;ポップアップのボタンの文字が切り捨てられなくなりました。<!-- GS-6873 -->
 
 * テンプレートを使用して 50 x 50 のサイズで作成されたディスプレイ広告は、期待どおりの画像サイズで書き出されるようになりました。 以前は、PNG ファイルは想定される寸法の 2 倍のサイズで書き出されていました。<!-- GS-7192 -->
 
