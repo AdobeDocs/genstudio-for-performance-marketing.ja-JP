@@ -1,6 +1,6 @@
 ---
 title: AI アシスタントツールリファレンス
-description: AI アシスタントが[!DNL GenStudio for Performance Marketing]で使用できるインサイトの作成、アクティベート、およびフィードバックツールについて説明します。
+description: AI アシスタントが[!DNL GenStudio for Performance Marketing]で使用できるインサイトの作成、計画、有効化、およびフィードバック ツールについて説明します。
 role: User
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
@@ -8,10 +8,10 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
+source-git-commit: 244293cf4f83acbc252f1d5f3495db403ed4a9bb
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 15%
+source-wordcount: '2265'
+ht-degree: 13%
 ---
 
 # AI アシスタントツールリファレンス
@@ -24,12 +24,13 @@ ht-degree: 15%
 
 | 面グラフ | 目的 | 動作 |
 |---|---|---|
-| Insights | 有料メディアのパフォーマンスをクエリし、クリエイティブなレコメンデーションを取得できます。 | 読み取り専用： |
-| 作成 | Express テンプレートやインサイトのレコメンデーションからドラフトを作成し、レビューを管理できます。 | 読み取りと書き込み： Creative Cloudでドキュメントを作成します。 |
-| アクティブ化 | 公開ターゲットを解決し、承認済みエクスペリエンスを公開します。 | 書き込みと破壊。 ライブ広告を公開し、広告費を負担することができます。 |
+| Insights | 有料メディアやメールのパフォーマンスをクエリし、クリエイティブなレコメンデーションを取得できます。 | 読み取り専用： |
+| 作成 | アセットを検索し、Adobe Expressのテンプレートやインサイトのレコメンデーションからドラフトを作成して、レビューを管理できます。 | 読み取りと書き込み： Creative Cloudでドキュメントを作成します。 |
+| プラン | 概要から施策の詳細を抽出し、Workfront Planningに保存できます。 | 抽出は読み取り専用です。 保存すると、Workfront Planningでレコードが作成され、自動的にロールバックできません。 |
+| アクティブ化 | 公開ターゲットを解決し、承認されたエクスペリエンスをプラットフォームに送信します。 | 書く： 広告はプラットフォームに送信され、オフ状態で公開されます。 個別にオンにします。 これらのツールで元に戻すことはできません。 |
 | フィードバック | 製品フィードバックを[!DNL GenStudio for Performance Marketing] チームに送信します。 | 書く： |
 
-ほとんどのインサイトツールは、`meta`、`linkedin`および`innovid`をカバーしています。 コンバージョン指標ツールは、`meta`と`linkedin`をカバーしています。
+ほとんどのインサイトツールは、`meta`、`linkedin`および`innovid`をカバーしています。 指標値ツールは、`meta`と`linkedin`をカバーしています。 メールキャンペーンのレポートでは、Adobe Journey Optimizer （`ajo`）とAdobe Campaign （`acc`）が対象となります。
 
 作成では、`meta`、`linkedin`、`display`、`tiktok`、`youtube`がサポートされています。 アクティブ化は、`META`、`LINKEDIN`、`GOOGLECM360`をサポートしています。
 
@@ -37,9 +38,19 @@ ht-degree: 15%
 
 ### get_insights_capabilities
 
-組織で有効になっているインサイト チャネル、操作、およびカスタム コンバージョン指標を返します。 利用可能性が不明な場合は、まずこのツールを使用してください。
+組織で有効になっているインサイトチャネルとレポート操作を返します。 利用可能性が不明な場合は、まずこのツールを使用してください。 サポートされているチャネルは、`meta`、`linkedin`、`innovid`、`ajo`および`acc`です。
 
-このツールは、キャンペーン、広告、指標の値ではなく、機能のメタデータを返します。
+このツールは、キャンペーン、広告、指標の値ではなく、機能のメタデータを返します。 組織のカスタム指標キーを検索するには、`list_connected_channels_and_metrics`を使用します。
+
+### list_connected_channels_and_metrics
+
+組織のアクティブなMeta、LinkedIn、Google Campaign Manager 360の接続、サポートされているインサイトチャネルと操作、設定されたカスタムコンバージョン指標を返します。 `get_insights_metric_values`を呼び出す前に指標キーを検索する場合に使用します。
+
+このツールは、指標の値ではなく、指標キー、ラベル、形式を返します。 接続は、履歴レポートデータが利用可能であることを保証しません。
+
+| パラメーター | 必須 | 説明 |
+|---|---|---|
+| `limit`, `offset` | いいえ | ページサイズとページオフセット。 両方を省略して、カタログ全体を返します。 |
 
 ### get_insights_summary
 
@@ -50,7 +61,7 @@ ht-degree: 15%
 | `channel` | はい | `meta`、`linkedin`または`innovid`。 |
 | `startDate` | いいえ | 開始日は`YYYY-MM-DD`形式です。 デフォルトは30日前です。 |
 | `endDate` | いいえ | 終了日：`YYYY-MM-DD`形式 デフォルトは今日です。 |
-| `metrics` | いいえ | `spend`、`ctr`、`cpc`、`cpm`、`impressions`、`clicks`、または`conversions`などのグラフへの指標。 |
+| `metrics` | いいえ | グラフへの指標：`spend`、`ctr`、`cpc`、`cpm`、`cpa`、`impressions`、`clicks`、`conversions`、`videoPlays`、`engagement`、`likes`、`comments`、または`shares`。 デフォルトは`spend`、`ctr`、`cpc`、`cpm`です。 |
 
 ### list_insights_campaigns
 
@@ -61,7 +72,19 @@ ht-degree: 15%
 | `channel` | はい | `meta`、`linkedin`または`innovid`。 |
 | `startDate`, `endDate` | いいえ | 日付範囲は`YYYY-MM-DD`形式です。 デフォルトは過去30日間です。 |
 | `search` | いいえ | キャンペーン名フィルター： |
-| `sortBy` | いいえ | `spend`、`impressions`、`clicks`、`ctr`、`cpc`、`cpm`、または`name`などのフィールドを並べ替えます。 |
+| `sortBy` | いいえ | 並べ替えフィールド：`spend`、`impressions`、`clicks`、`ctr`、`cpc`、`cpm`、または`name`。 デフォルトは、`spend` です。 結果は常に降順で並べ替えられます。 |
+| `limit`, `offset` | いいえ | ページサイズとページオフセット。 デフォルトのページサイズは20です。 |
+
+### list_insights_email_campaigns
+
+Adobe Journey OptimizerとAdobe Campaignの配信とエンゲージメントの指標を含むメールキャンペーンの並べ替え可能なテーブルを返します。 広告キャンペーンの場合は、`list_insights_campaigns`を使用してください。
+
+| パラメーター | 必須 | 説明 |
+|---|---|---|
+| `channel` | はい | `ajo`または`acc`。 |
+| `startDate`, `endDate` | いいえ | 日付範囲は`YYYY-MM-DD`形式です。 デフォルトは、終了日の前の過去30日間です。 |
+| `search` | いいえ | キャンペーン名フィルター： |
+| `sortBy` | いいえ | 並べ替えフィールド：`campaignName`、`emailsNumber`、`emailsDelivered`、`totalClicks`、`openRate`、`ctr`、`ctor`、`bounceRate`、`unsubscribeRate`または`spamComplaintRate`。 デフォルトは、`emailsDelivered` です。 結果は常に降順で並べ替えられます。 |
 | `limit`, `offset` | いいえ | ページサイズとページオフセット。 |
 
 ### list_insights_ads
@@ -72,9 +95,13 @@ ht-degree: 15%
 |---|---|---|
 | `channel` | はい | `meta`、`linkedin`または`innovid`。 |
 | `tier` | いいえ | `all`、`high`または`low`。 デフォルトは、`all` です。 |
-| `mainMetric` | 条件 | `high`または`low`階層モードに必要なランキング指標。 |
-| `campaigns` | いいえ | 結果を制限するために使用されるキャンペーン ID。 |
+| `mainMetric` | いいえ | `high`または`low`階層モードのランキング指標：`ctr`、`cpc`、`cpm`、`cpa`、`spend`、`impressions`、または`clicks`。 参照モードでは無視されます。 |
+| `metrics` | いいえ | 階層モードで各広告についてレポートする追加指標。 |
+| `campaigns` | いいえ | キャンペーンは、結果を最大50に制限するために使用されます。 各キャンペーンには、`channel`、`accountId`および`campaignId`が含まれます。 |
 | `search` | いいえ | 広告名フィルター： |
+| `sortBy` | いいえ | モードの並べ替えフィールドを参照：`spend`、`impressions`、`clicks`、`ctr`、`cpc`、`cpm`、または`name`。 デフォルトは、`spend` です。 結果は常に降順で並べ替えられます。 |
+| `spendMin`, `spendMax` | いいえ | 各広告の総支出額。 階層モードのみ。 |
+| `includeUnsupported` | いいえ | クリエイティブをレンダリングできない広告が含まれます。 デフォルトは、`false` です。 |
 | `startDate`, `endDate` | いいえ | 日付範囲は`YYYY-MM-DD`形式です。 |
 | `limit`, `offset` | いいえ | ページサイズとページオフセット。 |
 
@@ -98,9 +125,10 @@ ht-degree: 15%
 
 | パラメーター | 必須 | 説明 |
 |---|---|---|
-| `ads` | はい | 説明する広告（`list_insights_ads`が返した識別子を含む）。 |
-| `mainMetric` | はい | 広告のランク付けに使用される指標。 |
-| `campaigns` | いいえ | 比較母集団の定義に使用されるキャンペーン ID。 |
+| `ads` | はい | 1から200件の広告を表示します。 各広告には、`channel`、`accountId`、`campaignId`、および`adId`、オプションで`adGroupId`および`performanceTier` （`high`または`low`）が含まれます。 `list_insights_ads`から返された識別子を階層モードで使用します。 |
+| `mainMetric` | はい | 広告のランク付けに使用される指標：`ctr`、`cpc`、`cpm`、`cpa`、`spend`、`impressions`、または`clicks`。 |
+| `campaigns` | いいえ | 比較母集団を定義するために使用されるキャンペーン（最大50）。 各キャンペーンには、`channel`、`accountId`および`campaignId`が含まれます。 |
+| `spendMin`, `spendMax` | いいえ | 比較母集団に対する支出の境界。 |
 | `startDate`, `endDate` | いいえ | 日付範囲は`YYYY-MM-DD`形式です。 |
 
 ### get_insights_tag_categories
@@ -120,27 +148,22 @@ ht-degree: 15%
 |---|---|---|
 | `channel` | はい | `meta`、`linkedin`または`innovid`。 |
 | `tagCategory` | はい | `get_insights_tag_categories`様がカテゴリを返しました。 |
-| `tagSource` | いいえ | `ad_tags`または`campaign_tags`。 |
-| `sortBy` | いいえ | 結果の並べ替えに使用される指標。 |
+| `tagSource` | いいえ | `ad_tags`または`campaign_tags`。 デフォルトは、`ad_tags` です。 |
+| `sortBy` | いいえ | 並べ替えフィールド：`adsCount`、`spend`、`impressions`、`clicks`、`conversionCount`、`ctr`、`cpc`、`cpm`または`cpa`。 デフォルトは、`adsCount` です。 |
 | `search` | いいえ | タグ値フィルター： |
 | `startDate`, `endDate` | いいえ | 日付範囲は`YYYY-MM-DD`形式です。 |
+| `limit`, `offset` | いいえ | ページサイズとページオフセット。 |
 
-### get_insights_custom_metrics
+### get_insights_metric_values
 
-組織に設定されたカスタムコンバージョン指標を返します。 `get_insights_conversion_metrics`より前に使用してください。
-
-このツールは、指標の値ではなく、指標の識別子を返します。
-
-### get_insights_conversion_metrics
-
-MetaおよびLinkedIn用に設定されたコンバージョン指標の値とトレンドを返します。
+MetaとLinkedInに対して、見込み顧客や登録数、広告費用対効果など、追跡された組織の指標の値とトレンドを返します。
 
 | パラメーター | 必須 | 説明 |
 |---|---|---|
-| `channels` | いいえ | サポートされているコンバージョンチャネル： デフォルトは、`meta` です。 |
-| `metrics` | いいえ | `get_insights_custom_metrics`が返した指標ID。 |
-| `campaigns` | いいえ | 結果を制限するために使用されるキャンペーン ID。 |
-| `startDate`, `endDate` | いいえ | 日付範囲は`YYYY-MM-DD`形式です。 |
+| `channels` | いいえ | `meta`、`linkedin`、またはその両方。 |
+| `metrics` | いいえ | `list_connected_channels_and_metrics`が返すメトリック キーは最大20個です。 デフォルトは、組織のデフォルトの表示セットです。 |
+| `campaigns` | いいえ | キャンペーンは、結果を最大50に制限するために使用されます。 各キャンペーンには、`channel`、`accountId`および`campaignId`が含まれます。 |
+| `startDate`, `endDate` | いいえ | 日付範囲は`YYYY-MM-DD`形式です。 デフォルトは過去30日間です。 |
 
 ### get_insights_recommendations
 
@@ -148,15 +171,16 @@ MetaおよびLinkedIn用に設定されたコンバージョン指標の値と�
 
 | パラメーター | 必須 | 説明 |
 |---|---|---|
-| `channels` | はい | 1つ以上のサポートされているチャネル。 |
-| `campaigns` | いいえ | 結果を制限するために使用されるキャンペーン ID。 |
+| `channels` | はい | `meta`、`linkedin`、または`innovid`の1つ以上。 |
+| `campaigns` | いいえ | キャンペーンは、結果を最大50に制限するために使用されます。 各キャンペーンには、`channel`、`accountId`および`campaignId`が含まれます。 |
 | `search` | いいえ | キャンペーン名フィルター： |
-| `recommendationId` | いいえ | 1つの推奨事項を詳細に取得するために使用される識別子。 |
+| `recommendationId` | いいえ | 1つのレコメンデーションの`adUid`は、詳細な取得に使用されます。 |
+| `onlyWithPreview` | いいえ | サンプルのクリエイティブプレビューがないレコメンデーションを除外します。 デフォルトは、`true` です。 |
 | `limit`, `offset` | いいえ | ページサイズとページオフセット。 |
 
 ## ツールの作成
 
-ツールの作成Adobe Expressテンプレートからドラフトを作成し、エクスペリエンスがアクティベートされる前にレビューを管理できます。
+エクスペリエンスのアクティベーションに進む前に、ツールを作成してアセットを検索し、Adobe Expressテンプレートからドラフトを作成して、レビューを管理できます。
 
 ### list_express_templates
 
@@ -166,8 +190,9 @@ MetaおよびLinkedIn用に設定されたコンバージョン指標の値と�
 |---|---|---|
 | `channel` | いいえ | `meta`、`display`、`linkedin`、`tiktok`、`youtube`または`__unspecified__`。 |
 | `query` | いいえ | テンプレートの検索語。 |
-| `aspectRatios`, `keywords`, `languages`, `mediaFormat`, `regions`, `timeframes` | いいえ | テンプレートファセットフィルター： |
-| `sortBy`, `order` | いいえ | フィールドと順序を並べ替えます。 |
+| `activatableMimeType`, `aspectRatios`, `externalTemplateSource`, `isHTML5Template`, `keywords`, `languages`, `mediaFormat`, `regions`, `timeframes` | いいえ | テンプレートファセットフィルター： |
+| `sortBy` | いいえ | `modified`または`created`。 デフォルトは、`modified` です。 |
+| `order` | いいえ | `asc`または`desc`。 デフォルトは、`desc` です。 |
 | `limit`, `offset` | いいえ | ページサイズとページオフセット。 |
 
 ### describe_express_template
@@ -180,22 +205,58 @@ MetaおよびLinkedIn用に設定されたコンバージョン指標の値と�
 
 ### list_cta_options
 
-チャネルで許可されているcall-to-action値を返します。
+チャネルで許可されているcall-to-action値を返します。 Displayは自由形式のテキストを受け入れるので、空のリストを返します。
 
 | パラメーター | 必須 | 説明 |
 |---|---|---|
 | `channel` | はい | `linkedin`、`meta`、`display`、`tiktok`または`youtube`。 |
+| `limit`, `offset` | いいえ | ページサイズとページオフセット。 両方を省略して、すべてのオプションを返します。 |
+
+### search_assets
+
+GenStudio コンテンツ内の画像とビデオを検索します。 ドラフトの既存のアセットを選択する場合に使用します。 派生アセット、外部アセット、期限切れのアセットは除外されます。 このツールは、アセットをアップロード、編集、削除、生成することはなく、GenStudio コンテンツの使用権限が必要です。
+
+| パラメーター | 必須 | 説明 |
+|---|---|---|
+| `query` | いいえ | アセットのメタデータをまたいだキーワードまたは自然言語検索。 |
+| `mediaTypes` | いいえ | `image`、`video`、またはその両方。 デフォルトでは、両方が含まれます。 |
+| `aspectRatios` | いいえ | `1:1`や`16:9`などの縦横比。 比率が使用できない場合、ツールは使用可能な選択肢を返します。 |
+| `brands`, `campaigns`, `products`, `personas`, `channels` | いいえ | 名前でフィルター。 |
+| `customMetadata` | いいえ | 1つ以上の値を持つ、最大5つのメタデータフィールド。 |
+| `uploadedBy` | いいえ | `me`またはアップローダーの電子メールアドレス。 |
+| `createdAtFrom`, `createdAtTo` | いいえ | ISO 8601形式の作成時間の境界。 |
+| `aiGenerated` | いいえ | AI生成のステータス別にフィルタリング。 |
+| `contentCredentials` | いいえ | Content Credentialsのステータス別にフィルタリングします。 |
+| `limit`, `offset` | いいえ | ページサイズとページオフセット。 |
+
+この結果には、`create_draft`と有効期間が短い署名済みURLの安定したアセット参照が含まれます。
 
 ### create_draft
 
-1つ以上のエクスペリエンスを含むExpress テンプレートから編集可能なドラフトを作成します。
+1つ以上のエクスペリエンスを含むExpress テンプレートから編集可能なドラフトを作成します。 各呼び出しによって新しいドラフトが作成されます。
 
 | パラメーター | 必須 | 説明 |
 |---|---|---|
 | `templateId` | はい | Express テンプレート ID。 |
 | `prompt` | はい | Creativeの概要とコピーの手順がドラフトに保存されます。 |
-| `experiences` | はい | 各エクスペリエンスのチャネル、コンテンツフィールド、テンプレートフィールドのオーバーライド（オプション）。 |
+| `experiences` | はい | 1つ以上のエクスペリエンス： 次の表を参照してください。 |
 | `name` | いいえ | ドキュメント名。 |
+| `allowAssetReuse` | いいえ | 選択した1つのアセットを複数のエクスペリエンスで再利用できます。 デフォルトは、`false` です。 |
+
+各エクスペリエンスはこれらのフィールドをサポートします。
+
+| フィールド | 必須 | 説明 |
+|---|---|---|
+| `channel` | はい | `linkedin`、`meta`、`display`、`tiktok`または`youtube`。 |
+| `title` | いいえ | エクスペリエンスのタイトル： デフォルトは「概念&#x200B;*n*」です。 |
+| `headline` | MetaとLinkedIn | プライマリの見出し： |
+| `body` | Meta、LinkedIn、TikTok | 本文のコピー： LinkedInの場合、これは紹介テキストです。 TikTokの場合、これはプライマリテキストです。 |
+| `description` | YouTube | 広告の説明： MetaとLinkedInではオプションです。 |
+| `display_url` | MetaとLinkedIn | 広告に表示されるURLを表示します。 |
+| `destination_url` | いいえ | 広告がリンクするURL。 |
+| `cta` | いいえ | `list_cta_options`からのCall-to-action テキスト。 |
+| `templateFields` | いいえ | `describe_express_template`の名前付きテンプレート要素の上書き。 各オーバーライドは、テキスト、ディメンションを含む画像URL、またはビデオ URLを設定します。 |
+| `assetTemplateFields` | いいえ | テンプレート内の画像またはビデオフィールドの`search_assets`からのコンテンツアセット。 |
 
 固定されたcall-to-action値を持つチャネルのドラフトを作成する前に、`list_cta_options`を使用してください。
 
@@ -233,7 +294,7 @@ MetaおよびLinkedIn用に設定されたコンバージョン指標の値と�
 | パラメーター | 必須 | 説明 |
 |---|---|---|
 | `draftId` | はい | ドラフトアセットのID: |
-| `emails` | はい | 1つ以上の共同作業者のメールアドレス。 |
+| `emails` | はい | 1人から20人の共同作業者のメールアドレス。 |
 | `role` | はい | `editor`または`viewer`。 |
 | `message` | いいえ | 招待メッセージ。 |
 
@@ -244,7 +305,7 @@ MetaおよびLinkedIn用に設定されたコンバージョン指標の値と�
 | パラメーター | 必須 | 説明 |
 |---|---|---|
 | `draftId` | はい | ドラフトアセットのID: |
-| `emails` | はい | 1つ以上のレビュアーのメールアドレス。 |
+| `emails` | はい | 1人から20人のレビュアーのメールアドレス。 |
 
 ### list_experiences
 
@@ -252,17 +313,44 @@ MetaおよびLinkedIn用に設定されたコンバージョン指標の値と�
 
 | パラメーター | 必須 | 説明 |
 |---|---|---|
-| `channel` | いいえ | エクスペリエンスチャネルフィルター： |
+| `channel` | いいえ | `email`、`meta`、`meta_organic`、`display`、`ctv`、`linkedin`、`linkedin_organic`、`tiktok`、`chatgpt`または`youtube`。 |
 | `createdByMe` | いいえ | 結果は、現在のユーザーが作成したエクスペリエンスに限定されます。 |
-| `campaignNames` | いいえ | キャンペーン名フィルターを正確に表示。 |
+| `campaignNames` | いいえ | キャンペーン名フィルターを最大5つまで指定できます。 |
 | `creatorEmail` | いいえ | 作成者のメールフィルター： |
 | `createdAtFrom`, `createdAtTo` | いいえ | 作成日の制限： |
 | `language` | いいえ | BCP 47言語タグ。 |
-| `limit`, `cursor` | いいえ | ページサイズとページネーションカーソル。 |
+| `limit`, `cursor` | いいえ | ページサイズ（1 ～ 50、デフォルト 20）とページネーションカーソル。 |
+
+## プランツール
+
+プランツールは、キャンペーン概要をレビュー可能なキャンペーンドラフトに変換し、Workfront Planningに保存できます。
+
+### extract_campaign_from_brief
+
+貼り付けられたマーケティングブリーフから、レビュー可能なキャンペーンドラフトを抽出します。 このツールはレコードを保存しません。 欠落している事実と日付は推測されません。
+
+| パラメーター | 必須 | 説明 |
+|---|---|---|
+| `briefText` | はい | 1つのキャンペーン概要の完全なプレーンテキスト（最大100,000文字）。 ファイルとリンクはサポートされていません。 |
+
+その結果には、キャンペーンのドラフト、関連見積もりを含む調査結果、推奨オーディエンス、警告が含まれます。
+
+### create_workfront_campaign
+
+レビューして承認したドラフトから、リンクされた製品とペルソナを含むWorkfront計画キャンペーンを作成します。 このツールは無効であり、レコードを自動的にロールバックすることはできません。 成功した可能性のある書き込みを再試行する前に、Workfrontを調べます。
+
+| パラメーター | 必須 | 説明 |
+|---|---|---|
+| `campaignDraft` | はい | 承認済みのドラフト。 `name`が必要です。 オプションのフィールドは、`description`、`objective`、`keyMessaging`、`startDate`、`endDate` （`YYYY-MM-DD`）、`status`、`channels`、`products`および`personas`です。 |
+| `channelSelections` | いいえ | あいまいなチャネル名の使用は承認済み。 |
+| `entitySelections` | いいえ | 既存製品とペルソナのレコードを承認。 `null`を使用して新しいレコードをリクエストします。 |
+| `createMissingEntities` | いいえ | 新しい商品として選択した商品とペルソナを作成します。 デフォルトは、`false` です。 |
+
+製品、ペルソナ、チャネルが曖昧な場合、確認するための選択肢が返され、変更は行われません。
 
 ## ツールを有効化
 
-ツールを活用して有料メディアターゲットを解決し、承認済みのエクスペリエンスを公開します。 公開はこれらのツールで元に戻すことができず、広告費が発生する可能性があります。
+ツールをアクティベートして有料メディアターゲットを解決し、承認されたエクスペリエンスをプラットフォームに送信します。 広告はオフ状態（Metaが一時停止、LinkedIn ドラフト、Campaign Manager 360が非アクティブ）で公開されるので、配信する前に個別にオンにする必要があります。 これらのツールを通じて広告をプラットフォームに送信することは元に戻すことができません。
 
 ### configure_activation_target
 
@@ -272,23 +360,26 @@ MetaおよびLinkedIn用に設定されたコンバージョン指標の値と�
 |---|---|---|
 | `platform` | はい | `META`、`LINKEDIN`または`GOOGLECM360`。 |
 | `platformAccountId` | いいえ | 有料メディアアカウントのID。 アカウントの発見は省略します。 |
-| `campaignId` | いいえ | MetaまたはLinkedInのキャンペーン ID。 |
-| `adsetId` | いいえ | Metaの広告セット、またはLinkedInのキャンペーン ID。 |
+| `campaignId` | いいえ | MetaまたはLinkedInのキャンペーン ID。 Campaign Manager 360には使用されません。 |
+| `adsetId` | いいえ | Metaの広告セット、またはLinkedInのキャンペーン ID。 Campaign Manager 360には使用されません。 |
 | `pageId` | いいえ | MetaのFacebook ページ ID。 |
+
+Campaign Manager 360では、広告アカウントのみが必要です。
 
 ### create_activation
 
-承認済みのエクスペリエンスと検証済みのターゲットから、ライブの単一イメージ広告を公開します。
+検証済みのターゲットを使用して、承認されたエクスペリエンスを広告としてプラットフォームに送信します。 広告はオフ状態で公開されます。 Metaでは、各縦横比の最初の画像を含む広告が1つ作成されます。 LinkedInとCampaign Manager 360は、解決された画像ごとに1つの広告を作成します。
 
 | パラメーター | 必須 | 説明 |
 |---|---|---|
 | `platform` | はい | `META`、`LINKEDIN`または`GOOGLECM360`。 |
 | `targetId` | はい | `configure_activation_target`様が検証済みのターゲットを返しました。 |
 | `experienceId` | はい | `list_experiences`さんが承認済みのエクスペリエンス IDを返しました。 |
-| `assetId` | いいえ | 複数の適格なバリアントを持つエクスペリエンスのバリアント識別子。 |
-| `name` | いいえ | 広告プレースメント表示名。 |
+| `name` | いいえ | 広告プレースメント表示名。 デフォルトは、エクスペリエンスの広告タイトルです。 |
 
-`create_activation`を2回呼び出すと、最初の広告を更新する代わりに2つの別々の広告が作成されます。
+結果には、作成、キュー、スキップされた広告の数が一覧表示され、各広告の初期ステータスと[!DNL GenStudio for Performance Marketing]へのリンクが表示されます。 `PENDING`のステータスは、ジョブがキューに入っていることを意味します。ただし、広告が配信しているわけではありません。
+
+`create_activation`を2回呼び出すと、最初の広告を更新する代わりに、追加の広告が作成されます。
 
 ## フィードバックツール
 
@@ -309,10 +400,12 @@ MetaおよびLinkedIn用に設定されたコンバージョン指標の値と�
 
 - **広告を診断：** `high`または`low`階層モードで`list_insights_ads`を呼び出してから、同じランキング指標で`get_insights_ad_attributes`を呼び出します。
 - **タグで分析：** `get_insights_tag_categories`を呼び出してから、返されたカテゴリで`get_insights_ad_tags`を呼び出します。
-- **コンバージョン指標を確認：** `get_insights_custom_metrics`を呼び出してから、返された指標IDを使用して`get_insights_conversion_metrics`を呼び出します。
+- **追跡された指標を確認：**&#x200B;呼び出し`list_connected_channels_and_metrics`、返された指標キーを使用して`get_insights_metric_values`を呼び出します。
 - **レコメンデーションをドラフトに変換：** `get_insights_recommendations`に電話してから`create_draft_from_recommendation`に電話してください。
 - **テンプレートからビルド：** `list_express_templates`、`describe_express_template`、`list_cta_options`を呼び出してから`create_draft`を呼び出します。
-- **承認済みのエクスペリエンスを公開します：** `list_experiences`に電話してから、`configure_activation_target`および`create_activation`に電話してください。
+- **既存のアセットからビルド：** `search_assets`を呼び出してから、返されたアセット参照を`assetTemplateFields`の`create_draft`に渡します。
+- **キャンペーン概要をWorkfrontに保存します：** `extract_campaign_from_brief`に連絡し、ドラフトを確認してから`create_workfront_campaign`に連絡します。
+- **承認されたエクスペリエンスをプラットフォームに送信します：** `list_experiences`に電話してから、`configure_activation_target`および`create_activation`に電話してください。
 
 ## 関連する機能
 
